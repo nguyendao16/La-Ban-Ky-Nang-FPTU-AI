@@ -1,0 +1,380 @@
+{
+  "identification": {
+    "type": "json_schema",
+    "name": "EvidenceIdentification",
+    "strict": true,
+    "schema": {
+      "$defs": {
+        "EvidenceSelection": {
+          "additionalProperties": false,
+          "properties": {
+            "claim_id": {
+              "title": "Claim Id",
+              "type": "string"
+            },
+            "claim": {
+              "title": "Claim",
+              "type": "string"
+            },
+            "relation": {
+              "enum": [
+                "direct",
+                "related",
+                "insufficient"
+              ],
+              "title": "Relation",
+              "type": "string"
+            },
+            "source_matches": {
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/$defs/QuotedCLO"
+                  },
+                  {
+                    "$ref": "#/$defs/QuotedMetadata"
+                  }
+                ]
+              },
+              "title": "Source Matches",
+              "type": "array"
+            }
+          },
+          "required": [
+            "claim_id",
+            "claim",
+            "relation",
+            "source_matches"
+          ],
+          "title": "EvidenceSelection",
+          "type": "object"
+        },
+        "QuotedCLO": {
+          "additionalProperties": false,
+          "properties": {
+            "course_code": {
+              "title": "Course Code",
+              "type": "string"
+            },
+            "clo": {
+              "title": "Clo",
+              "type": "string"
+            },
+            "source_excerpt": {
+              "description": "Verbatim substring of this exact CLO description, not a paraphrase or hidden reasoning.",
+              "minLength": 1,
+              "title": "Source Excerpt",
+              "type": "string"
+            }
+          },
+          "required": [
+            "course_code",
+            "clo",
+            "source_excerpt"
+          ],
+          "title": "QuotedCLO",
+          "type": "object"
+        },
+        "QuotedMetadata": {
+          "additionalProperties": false,
+          "properties": {
+            "course_code": {
+              "title": "Course Code",
+              "type": "string"
+            },
+            "metadata_field": {
+              "enum": [
+                "description",
+                "tools"
+              ],
+              "title": "Metadata Field",
+              "type": "string"
+            },
+            "source_excerpt": {
+              "description": "Verbatim substring of this exact metadata field; tool context is not confirmed personal use.",
+              "minLength": 1,
+              "title": "Source Excerpt",
+              "type": "string"
+            }
+          },
+          "required": [
+            "course_code",
+            "metadata_field",
+            "source_excerpt"
+          ],
+          "title": "QuotedMetadata",
+          "type": "object"
+        }
+      },
+      "additionalProperties": false,
+      "properties": {
+        "selections": {
+          "items": {
+            "$ref": "#/$defs/EvidenceSelection"
+          },
+          "title": "Selections",
+          "type": "array"
+        }
+      },
+      "required": [
+        "selections"
+      ],
+      "title": "EvidenceIdentification",
+      "type": "object"
+    }
+  },
+  "chat": {
+    "type": "json_schema",
+    "name": "AcademicChatResponse",
+    "strict": true,
+    "schema": {
+      "$defs": {
+        "EvidenceReference": {
+          "additionalProperties": false,
+          "properties": {
+            "course_code": {
+              "title": "Course Code",
+              "type": "string"
+            },
+            "clo": {
+              "title": "Clo",
+              "type": "string"
+            }
+          },
+          "required": [
+            "course_code",
+            "clo"
+          ],
+          "title": "EvidenceReference",
+          "type": "object"
+        },
+        "MetadataEvidenceReference": {
+          "additionalProperties": false,
+          "properties": {
+            "course_code": {
+              "title": "Course Code",
+              "type": "string"
+            },
+            "metadata_field": {
+              "enum": [
+                "description",
+                "tools"
+              ],
+              "title": "Metadata Field",
+              "type": "string"
+            }
+          },
+          "required": [
+            "course_code",
+            "metadata_field"
+          ],
+          "title": "MetadataEvidenceReference",
+          "type": "object"
+        }
+      },
+      "additionalProperties": false,
+      "properties": {
+        "reply": {
+          "description": "Natural Vietnamese answer with sufficient detail and formatting suited to the question and history. Explain unevidenced JD knowledge without judging actual ability; topics may be suggested conditionally if not already learned elsewhere, without courses, tutorials or roadmaps. Separate professional experience. Support every academic clause, including summaries, with exact CLO descriptions and learning verbs. Compare exact CLO scores and labels separately from curriculum scope, never as an overall SQL level. Correct unsupported historical claims.",
+          "title": "Reply",
+          "type": "string"
+        },
+        "evidence": {
+          "description": "Exact CLO or metadata description/tools references supporting each academic statement. Metadata is curriculum context, not personal tool use or assessed performance. No duplicates, invented identifiers, score or achievement fields.",
+          "items": {
+            "anyOf": [
+              {
+                "$ref": "#/$defs/EvidenceReference"
+              },
+              {
+                "$ref": "#/$defs/MetadataEvidenceReference"
+              }
+            ]
+          },
+          "title": "Evidence",
+          "type": "array"
+        }
+      },
+      "required": [
+        "reply",
+        "evidence"
+      ],
+      "title": "AcademicChatResponse",
+      "type": "object"
+    }
+  },
+  "claim_level": {
+    "type": "json_schema",
+    "name": "ClaimLevelResponse",
+    "strict": true,
+    "schema": {
+      "$defs": {
+        "EvidenceReference": {
+          "additionalProperties": false,
+          "properties": {
+            "course_code": {
+              "title": "Course Code",
+              "type": "string"
+            },
+            "clo": {
+              "title": "Clo",
+              "type": "string"
+            }
+          },
+          "required": [
+            "course_code",
+            "clo"
+          ],
+          "title": "EvidenceReference",
+          "type": "object"
+        },
+        "MetadataEvidenceReference": {
+          "additionalProperties": false,
+          "properties": {
+            "course_code": {
+              "title": "Course Code",
+              "type": "string"
+            },
+            "metadata_field": {
+              "enum": [
+                "description",
+                "tools"
+              ],
+              "title": "Metadata Field",
+              "type": "string"
+            }
+          },
+          "required": [
+            "course_code",
+            "metadata_field"
+          ],
+          "title": "MetadataEvidenceReference",
+          "type": "object"
+        },
+        "ObservableClaim": {
+          "additionalProperties": false,
+          "properties": {
+            "statement": {
+              "description": "One observable academic assertion; split independently verifiable topics. This is final factual output, not private reasoning.",
+              "title": "Statement",
+              "type": "string"
+            },
+            "sources": {
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/$defs/QuotedCLO"
+                  },
+                  {
+                    "$ref": "#/$defs/QuotedMetadata"
+                  }
+                ]
+              },
+              "title": "Sources",
+              "type": "array"
+            }
+          },
+          "required": [
+            "statement",
+            "sources"
+          ],
+          "title": "ObservableClaim",
+          "type": "object"
+        },
+        "QuotedCLO": {
+          "additionalProperties": false,
+          "properties": {
+            "course_code": {
+              "title": "Course Code",
+              "type": "string"
+            },
+            "clo": {
+              "title": "Clo",
+              "type": "string"
+            },
+            "source_excerpt": {
+              "description": "Verbatim substring of this exact CLO description, not a paraphrase or hidden reasoning.",
+              "minLength": 1,
+              "title": "Source Excerpt",
+              "type": "string"
+            }
+          },
+          "required": [
+            "course_code",
+            "clo",
+            "source_excerpt"
+          ],
+          "title": "QuotedCLO",
+          "type": "object"
+        },
+        "QuotedMetadata": {
+          "additionalProperties": false,
+          "properties": {
+            "course_code": {
+              "title": "Course Code",
+              "type": "string"
+            },
+            "metadata_field": {
+              "enum": [
+                "description",
+                "tools"
+              ],
+              "title": "Metadata Field",
+              "type": "string"
+            },
+            "source_excerpt": {
+              "description": "Verbatim substring of this exact metadata field; tool context is not confirmed personal use.",
+              "minLength": 1,
+              "title": "Source Excerpt",
+              "type": "string"
+            }
+          },
+          "required": [
+            "course_code",
+            "metadata_field",
+            "source_excerpt"
+          ],
+          "title": "QuotedMetadata",
+          "type": "object"
+        }
+      },
+      "additionalProperties": false,
+      "properties": {
+        "claims": {
+          "items": {
+            "$ref": "#/$defs/ObservableClaim"
+          },
+          "title": "Claims",
+          "type": "array"
+        },
+        "reply": {
+          "description": "Natural Vietnamese answer with sufficient detail and formatting suited to the question and history. Explain unevidenced JD knowledge without judging actual ability; topics may be suggested conditionally if not already learned elsewhere, without courses, tutorials or roadmaps. Separate professional experience. Support every academic clause, including summaries, with exact CLO descriptions and learning verbs. Compare exact CLO scores and labels separately from curriculum scope, never as an overall SQL level. Correct unsupported historical claims.",
+          "title": "Reply",
+          "type": "string"
+        },
+        "evidence": {
+          "description": "Exact CLO or metadata description/tools references supporting each academic statement. Metadata is curriculum context, not personal tool use or assessed performance. No duplicates, invented identifiers, score or achievement fields.",
+          "items": {
+            "anyOf": [
+              {
+                "$ref": "#/$defs/EvidenceReference"
+              },
+              {
+                "$ref": "#/$defs/MetadataEvidenceReference"
+              }
+            ]
+          },
+          "title": "Evidence",
+          "type": "array"
+        }
+      },
+      "required": [
+        "claims",
+        "reply",
+        "evidence"
+      ],
+      "title": "ClaimLevelResponse",
+      "type": "object"
+    }
+  }
+}

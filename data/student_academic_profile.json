@@ -1,0 +1,812 @@
+{
+  "profile_type": "academic",
+  "courses": [
+    {
+      "course_code": "MAE101",
+      "clos": [
+        {
+          "clo": "CLO1",
+          "description": "Describe basic function properties and find limits, including domain, range, zeros, symmetry, creation of new functions, slopes and line equations, graph translations, graphical and limit-law computation, the Squeeze Theorem, limits at infinity and infinite limits, asymptotes, continuity, and the Intermediate Value Theorem.",
+          "score": 8.98,
+          "achievement": "excellent"
+        },
+        {
+          "clo": "CLO2",
+          "description": "Calculate derivatives of functions, including average rates of change, derivatives as limits of difference quotients, instantaneous velocity, tangent-line slopes, basic differentiation formulas, sum, difference, product, quotient, and chain rules, trigonometric derivatives, implicit differentiation, and derivatives of exponential and logarithmic functions.",
+          "score": 8.98,
+          "achievement": "excellent"
+        },
+        {
+          "clo": "CLO3",
+          "description": "Use derivatives to analyze functions and solve applications, including implicit differentiation, related rates, linear approximation, differentials and approximation error, Rolle's Theorem, the Mean Value Theorem, critical numbers, absolute and local extrema, monotonicity, optimization, acceleration as a second derivative, inflection points, concavity, and Newton's method.",
+          "score": 8.98,
+          "achievement": "excellent"
+        },
+        {
+          "clo": "CLO4",
+          "description": "Calculate integrals and areas under graphs, including Riemann sums, definite integrals as limits of Riemann sums, the Fundamental Theorems of Calculus, indefinite integrals as antiderivatives, basic integration formulas, substitution, integration by parts, integration applications, average value, midpoint, trapezoidal and Simpson numerical rules, and convergence of improper integrals.",
+          "score": 8.98,
+          "achievement": "excellent"
+        },
+        {
+          "clo": "CLO5",
+          "description": "Solve systems of linear equations using Gaussian elimination, including echelon forms, row operations, matrix rank, solution sets, and homogeneous equations.",
+          "score": 9.36,
+          "achievement": "excellent"
+        },
+        {
+          "clo": "CLO6",
+          "description": "Perform basic matrix operations and manipulate matrix transformations, including matrix addition, scalar multiplication, transposition, symmetry, matrix-vector multiplication, matrix multiplication, matrix equations, inverses, inverse properties, and linear transformations.",
+          "score": 9.36,
+          "achievement": "excellent"
+        },
+        {
+          "clo": "CLO7",
+          "description": "Find determinants, inverses, and diagonalizations of matrices, including cofactor expansion, determinant properties and row or column operations, invertibility, adjugates, inverse matrices, Cramer's rule, characteristic polynomials, eigenvalues, eigenvectors, and diagonalization.",
+          "score": 9.36,
+          "achievement": "excellent"
+        },
+        {
+          "clo": "CLO8",
+          "description": "Manipulate vector operations and linear transformations in R^3, including vector operations, equations of lines, dot products, angles, projections, planes, cross products, area and volume analysis, transformations of areas and volumes, and applications in computer graphics.",
+          "score": 9.06,
+          "achievement": "excellent"
+        },
+        {
+          "clo": "CLO9",
+          "description": "Find dimensions and bases of subspaces, including subspace verification, spans, linear independence, bases, dimension, rank, column space, row space, null space, dot products, vector length and distance, orthogonal and orthonormal sets, and expansion in an orthogonal basis.",
+          "score": 9.06,
+          "achievement": "excellent"
+        }
+      ]
+    },
+    {
+      "course_code": "MAD101",
+      "clos": [
+        {
+          "clo": "CLO1",
+          "description": "Manipulate logical expressions and use logic for inference in propositional and predicate logic, including truth values, logical equivalence, translation between logical expressions and sentences, quantifiers including nested quantifiers, rules of inference, and validity of conclusions.",
+          "score": 8.91,
+          "achievement": "excellent"
+        },
+        {
+          "clo": "CLO2",
+          "description": "Perform basic operations on sets, functions, and sequences, including set terminology, power sets, Cartesian products, binary-bit subset representation, set operations and equality, function rules and operations including floor and ceiling functions, one-to-one, onto, and bijection properties, sequence formulas, finite sums, and special summations.",
+          "score": 8.91,
+          "achievement": "excellent"
+        },
+        {
+          "clo": "CLO3",
+          "description": "Analyze basic algorithms written in pseudocode and determine their complexities, including searching, sorting, greedy algorithms, growth of functions, and Big-O, Big-Omega, and Big-Theta estimates.",
+          "score": 8.47,
+          "achievement": "good"
+        },
+        {
+          "clo": "CLO4",
+          "description": "Discuss applications of modular arithmetic and analyze algorithms on integers, including integer division, congruence, pseudorandom-number and cryptology applications, base-b expansion, binary operations, modular exponentiation, prime numbers, prime factorization, greatest common divisors, least common multiples, and integer algorithms.",
+          "score": 8.47,
+          "achievement": "good"
+        },
+        {
+          "clo": "CLO5",
+          "description": "Use induction and recursive definitions to prove statements or describe objects, and write recursive algorithms using mathematical induction, strong induction, recursive definitions, structural induction, and recursive algorithms including mergesort. Distinguish between iterative and recursive algorithms.",
+          "score": 8.47,
+          "achievement": "good"
+        },
+        {
+          "clo": "CLO6",
+          "description": "Solve counting problems using basic counting principles, recurrence relations, and divide-and-conquer recurrence methods.",
+          "score": 8.74,
+          "achievement": "excellent"
+        },
+        {
+          "clo": "CLO7",
+          "description": "Analyze graph structures and shortest paths in weighted graphs, including graph models, special graph types, the handshaking theorem, bipartite graphs, incidence and adjacency matrices, graph isomorphism, connectivity, connected components, path counting, Euler and Hamilton paths and circuits, and running Dijkstra's algorithm to determine shortest paths and shortest distances.",
+          "score": 8.5,
+          "achievement": "excellent"
+        },
+        {
+          "clo": "CLO8",
+          "description": "Analyze tree structures and tree-based algorithms, including tree terminology, m-ary trees, binary search trees, decision trees, complexity of tree operations, prefix codes and Huffman coding, tree traversal with infix, prefix, and postfix notation, expression evaluation, depth-first and breadth-first search for spanning trees, and minimum spanning tree algorithms such as Prim and Kruskal.",
+          "score": 8.5,
+          "achievement": "excellent"
+        }
+      ]
+    },
+    {
+      "course_code": "CSI106",
+      "clos": [
+        {
+          "clo": "CLO1",
+          "description": "Understand the subsystems of a computer and describe the role of these components, including Computer Organization, Computer generations.",
+          "score": 8.1,
+          "achievement": "good"
+        },
+        {
+          "clo": "CLO2",
+          "description": "Know how to convert a number from one base to other base( decimal, binary, octal and hexadecimal), including Numbering systems, Positional Number Systems.",
+          "score": 8.04,
+          "achievement": "good"
+        },
+        {
+          "clo": "CLO3",
+          "description": "Describe how different data type is stored inside a computer as bit patterns and operations on data, including Data storage and Operations on Data, Logic operations, Shift, Arithmetic operations.",
+          "score": 8.1,
+          "achievement": "good"
+        },
+        {
+          "clo": "CLO4",
+          "description": "Describe the layers in networking and their relationship, including Computer Networks, Internet, Overview, and layers in netwoking.",
+          "score": 8.1,
+          "achievement": "good"
+        },
+        {
+          "clo": "CLO5",
+          "description": "Undestand the role of OS in a computer system, including Operating System, Components of OS: UI, memory manager, Components of OS: file manager, Components of OS: device manager.",
+          "score": 8.1,
+          "achievement": "good"
+        },
+        {
+          "clo": "CLO6",
+          "description": "Define a algorithm and describe tools used to develop algorithms, including Algorithms, Algorithm representation, Search Algorithms: linear, binary.",
+          "score": 8.22,
+          "achievement": "good"
+        },
+        {
+          "clo": "CLO7",
+          "description": "Explain how a program in a high-level language is translated into machine language, including Programming and programming paradigms.",
+          "score": 8.22,
+          "achievement": "good"
+        },
+        {
+          "clo": "CLO8",
+          "description": "Describe the software lifecycle, including Software engineering, The software lifecycle.",
+          "score": 8.39,
+          "achievement": "good"
+        },
+        {
+          "clo": "CLO9",
+          "description": "Discuss some data structures: Array, Records, Linked list, including Data structures, Arrays, Records, Linked List.",
+          "score": 8.39,
+          "achievement": "good"
+        },
+        {
+          "clo": "CLO10",
+          "description": "Distinguish between text file and binary file and access methods, including File structure, Text versus Binary, Access methods.",
+          "score": 8.39,
+          "achievement": "good"
+        },
+        {
+          "clo": "CLO11",
+          "description": "Describe and explain operations within a relational database, including Database, Database architecture, Database model, The relational database model, and Database design.",
+          "score": 8.43,
+          "achievement": "good"
+        },
+        {
+          "clo": "CLO12",
+          "description": "Descibe security goals and discuss ethical issues, including Security, Ethical Issues, Ethical Principles.",
+          "score": 8.43,
+          "achievement": "good"
+        },
+        {
+          "clo": "CLO13",
+          "description": "Describe artificial intelligence and its basic concepts, including Introduction to Additional Learning: \"AI For Everyone\" course in Coursera, (Students have to complete Additional Learning and achieve the certificate before Presentation ), Review Additional Learning (AI For Everyone course).",
+          "score": 8.47,
+          "achievement": "good"
+        }
+      ]
+    },
+    {
+      "course_code": "PFP191",
+      "clos": [
+        {
+          "clo": "CLO1",
+          "description": "Understand the Python programming environment and foundational programming concepts, including why programs are written, basic computer hardware architecture, interpreters and compilers, program structure, building blocks of programs, debugging, and the role of an IDE in writing Python code.",
+          "score": 8.72,
+          "achievement": "excellent"
+        },
+        {
+          "clo": "CLO2",
+          "description": "Understand Python variables, expressions, and statements, including values and types, variable names and keywords, operators and operands, order of operations, the modulus operator, string operations, user input, comments, mnemonic variable naming, and debugging basic code.",
+          "score": 8.72,
+          "achievement": "excellent"
+        },
+        {
+          "clo": "CLO3",
+          "description": "Understand conditional execution, functions, loops, and iteration in Python, including Boolean expressions, logical operators, alternative and nested conditionals, exception handling with try and except, short-circuit evaluation, while loops, for loops, loop patterns, function calls.",
+          "score": 8.98,
+          "achievement": "excellent"
+        },
+        {
+          "clo": "CLO4",
+          "description": "Understand Python strings as sequences, including length calculation with len, traversal with loops, slicing, immutability, loop-based counting, membership with the in operator, string comparison, string methods, parsing strings, format operators, and debugging string-related code.",
+          "score": 9.0,
+          "achievement": "excellent"
+        },
+        {
+          "clo": "CLO5",
+          "description": "Understand file handling in Python, including persistence, opening files, working with text files and lines, reading files, searching through file contents, allowing users to choose file names, using try, except, and open for safer file access, writing files, and debugging file-processing code.",
+          "score": 9.0,
+          "achievement": "excellent"
+        },
+        {
+          "clo": "CLO6",
+          "description": "Understand Python lists, dictionaries, and tuples as core data structures, including lists as mutable sequences, list traversal, operations, slices, methods, deletion, list-function interactions, lists and strings, parsing lines, object values and aliasing, dictionaries as counters.",
+          "score": 9.15,
+          "achievement": "excellent"
+        },
+        {
+          "clo": "CLO7",
+          "description": "Understand object-oriented programming in Python and apply it in application contexts using classes and objects, encapsulation and data hiding, abstraction and modular design, inheritance, polymorphism, method overloading, object usage in OOP programs, object lifecycle, advanced OOP concepts, design patterns, and case studies.",
+          "score": 8.9,
+          "achievement": "excellent"
+        }
+      ]
+    },
+    {
+      "course_code": "CEA201",
+      "clos": [
+        {
+          "clo": "CLO1",
+          "description": "Explain the general functions and structure of a digital computer, including Computer Evolution, Performance, A Brief History of Computers.",
+          "score": 7.01,
+          "achievement": "good"
+        },
+        {
+          "clo": "CLO2",
+          "description": "Present an overview of the evolution of computer technology from early digital computers to the latest microprocessors, including Computer Evolution, Performance, A Brief History of Computers.",
+          "score": 7.01,
+          "achievement": "good"
+        },
+        {
+          "clo": "CLO3",
+          "description": "Understand the key performance issues that relate to computer design, including Computer Evolution, Performance, Designing for Performance, Performance Assessment.",
+          "score": 7.01,
+          "achievement": "good"
+        },
+        {
+          "clo": "CLO4",
+          "description": "Describe in detail the essential elements of computer organisation including internal bus, memory, Input/Output ( I/O) organisations and interfacing standards and discuss how these elements function;, including A Top-Level View of Computer Function, Interconnection, Computer Components, Computer Function, Bus Interconnection, Computer Memory System Overview, Elements of Cache Design, Internal Memory, External Memory.",
+          "score": 7.01,
+          "achievement": "good"
+        },
+        {
+          "clo": "CLO5",
+          "description": "Summarize, at a top level, the key functions of an operating system (OS), including Operating System Support, Operating System Overview.",
+          "score": 7.01,
+          "achievement": "good"
+        },
+        {
+          "clo": "CLO6",
+          "description": "Be able to apply Boolean algebra and digital logic to design and interpret complex digital circuits;, including Instruction Sets: Characteristics, Functions, Machine Instruction Characteristics.",
+          "score": 7.01,
+          "achievement": "good"
+        },
+        {
+          "clo": "CLO7",
+          "description": "Present various types of addressing modes common in instruction sets, an essential characteristics of machine instructions, types of operands supported by typical machine instruction sets, including Instruction Sets: Characteristics, Functions, Types of Operands, Instruction Sets: Characteristics, Functions, Types of Operations.",
+          "score": 7.01,
+          "achievement": "good"
+        },
+        {
+          "clo": "CLO8",
+          "description": "Explain processor structure and function in details, the operations of Reduced Instruction Set Computers, including Processor Structure, Function, Processor Organization.",
+          "score": 7.01,
+          "achievement": "good"
+        },
+        {
+          "clo": "CLO9",
+          "description": "Investigate, evaluate and communicate general trends in computing technologies such as Instruction-Level Parallelism and Superscalar Processors, including Instruction-Level Parallelism, Superscalar Processors, Symmetric Multiprocessors, Multithreading, Chip Multiprocessors.",
+          "score": 7.01,
+          "achievement": "good"
+        },
+        {
+          "clo": "CLO10",
+          "description": "Using AI tools and simulator tools to futher explore the main concepts, including Semiconductor Main Memory, Instruction-Level Parallelism, Superscalar Processors.",
+          "score": 7.01,
+          "achievement": "good"
+        }
+      ]
+    },
+    {
+      "course_code": "CSD203",
+      "clos": [
+        {
+          "clo": "CLO1",
+          "description": "Describe list data structures and their implementation approaches, including arrays, singly linked lists, circularly linked lists, and doubly linked lists. Implement singly linked lists while understanding how list representation choices affect data structure operations.",
+          "score": 7.26,
+          "achievement": "good"
+        },
+        {
+          "clo": "CLO2",
+          "description": "Define stacks and queues and describe their basic operations and uses, including stack operations, queues, double-ended queues (deques), and priority queues as fundamental linear data structures.",
+          "score": 7.26,
+          "achievement": "good"
+        },
+        {
+          "clo": "CLO3",
+          "description": "Describe recursive definitions, recursive algorithms, recursive functions, and their implementation and use, including factorial, binary search, file-system examples, recursive algorithm analysis, linear recursion, binary recursion, multiple recursion, recursive algorithm design, and tail-recursion elimination.",
+          "score": 7.26,
+          "achievement": "good"
+        },
+        {
+          "clo": "CLO4",
+          "description": "Explain general trees, binary trees, and binary search trees, and implement BST operations, including tree definitions and properties, tree abstract data types, binary tree properties, tree implementation, traversal algorithms, BST search, insertions and deletions, balanced search trees, AVL.",
+          "score": 7.26,
+          "achievement": "good"
+        },
+        {
+          "clo": "CLO5",
+          "description": "Discuss graphs and their applications, and implement basic graph operations, including graph representations using edge lists, adjacency lists, and adjacency matrices, depth-first and breadth-first traversal, weighted graphs, shortest paths, Dijkstra's algorithm, minimum spanning trees with Prim-Jarnik and Kruskal algorithms.",
+          "score": 6.06,
+          "achievement": "basic"
+        },
+        {
+          "clo": "CLO6",
+          "description": "Explain the operation and performance of basic and advanced sorting algorithms, including selection sort, insertion sort, bubble sort, quicksort, merge sort, heap sort, bucket sort, radix sort, and comparison of sorting algorithm performance.",
+          "score": 6.06,
+          "achievement": "basic"
+        },
+        {
+          "clo": "CLO7",
+          "description": "Explain hashing and its applications, including hash tables, hash functions, collision handling, load factors, rehashing, efficiency considerations, and Python hash table implementation.",
+          "score": 6.06,
+          "achievement": "basic"
+        },
+        {
+          "clo": "CLO8",
+          "description": "Describe text processing problems and their applications, including digitized text, pattern-matching algorithms, brute-force matching, the Knuth-Morris-Pratt algorithm, text compression, Huffman coding, LZW, and run-length encoding.",
+          "score": 6.06,
+          "achievement": "basic"
+        }
+      ]
+    },
+    {
+      "course_code": "DBI202",
+      "clos": [
+        {
+          "clo": "CLO1",
+          "description": "Understand core database concepts and database management system software, including the evolution of database systems, the role and overview of DBMS software, and the major areas studied in database systems.",
+          "score": 6.03,
+          "achievement": "basic"
+        },
+        {
+          "clo": "CLO2",
+          "description": "Understand the relational model of data, including general data model concepts and the basic structure of relations. Explain the purpose of algebraic query language in expressing relational operations and reasoning about queries at a conceptual level.",
+          "score": 6.03,
+          "achievement": "basic"
+        },
+        {
+          "clo": "CLO3",
+          "description": "Understand data normalization and apply normalization techniques in relational database design using functional dependencies, rules about functional dependencies, and relational schema design principles, including normal forms 1NF, 2NF, 3NF, and BCNF as mechanisms for improving database schema structure.",
+          "score": 5.45,
+          "achievement": "basic"
+        },
+        {
+          "clo": "CLO4",
+          "description": "Model an application's data requirements using high-level database modeling techniques, especially the Entity-Relationship model, design principles, ER constraints, and weak entity sets. Translate conceptual models into relational schemas, including conversion from ER diagrams and subclass structures to relations.",
+          "score": 6.43,
+          "achievement": "basic"
+        },
+        {
+          "clo": "CLO5",
+          "description": "Be proficient in SQL, including Data Definition Language (DDL) for defining database structures and implementing constraints such as primary and foreign keys, UNIQUE, and CHECK constraints using Microsoft SQL Server. Use Data Manipulation Language (DML) to perform basic queries, multi-relation queries, nested queries, aggregation queries, and database modifications using INSERT, UPDATE, and DELETE statements.",
+          "score": 5.96,
+          "achievement": "basic"
+        },
+        {
+          "clo": "CLO6",
+          "description": "Understand T-SQL database programming concepts in Microsoft SQL Server and work with database views, cursors, stored procedures, functions, and triggers, including the use of triggers to enforce database constraints. Understand transaction concepts in database applications.",
+          "score": 5.96,
+          "achievement": "basic"
+        },
+        {
+          "clo": "CLO7",
+          "description": "Apply database indexes in relational database design to support query optimization and improve query performance in practical database applications.",
+          "score": 5.96,
+          "achievement": "basic"
+        }
+      ]
+    },
+    {
+      "course_code": "AIG202c",
+      "clos": [
+        {
+          "clo": "CLO1",
+          "description": "Understand what is AI, its applications and use cases, its ethical considerrations and how it is transforming our lives, including What is AI? Applications, Examples of AI, AI: Issues, Concerns, Ethical Considerations.",
+          "score": 8.0,
+          "achievement": "good"
+        },
+        {
+          "clo": "CLO3",
+          "description": "Explore common generative AI models and tools for text, code, image, audio, and video generation, including Generative AI: Introduction, Applications, Introduction and capacities of Generative AI, Application and tools of Generative AI.",
+          "score": 8.0,
+          "achievement": "good"
+        },
+        {
+          "clo": "CLO4",
+          "description": "Explore commonly used tools for prompt engineering to aid with prompt engineering, including Generative AI: Prompt Engineering Basics, Prompt Engineering for Generative AI, Prompt Engineering: Techniques, Approaches.",
+          "score": 8.0,
+          "achievement": "good"
+        },
+        {
+          "clo": "CLO5",
+          "description": "Visually create and deploy chatbots with Watson Assistant, including intents, entities, dialog design, deployment, context variables, slots, digressions, and optional Watson Actions concepts.",
+          "score": 8.0,
+          "achievement": "good"
+        },
+        {
+          "clo": "CLO2",
+          "description": "Explain underlying concepts related to Machine Learning, Deep Learning and Neural Networks, including AI Concepts, Terminology, Application Areas, AI: Issues, Concerns, Ethical Considerations.",
+          "score": 8.0,
+          "achievement": "good"
+        }
+      ]
+    },
+    {
+      "course_code": "ADY201m",
+      "clos": [
+        {
+          "clo": "CLO1",
+          "description": "Understand relational database concepts and foundational SQL language knowledge in the context of data science work, including accessing databases with Python, getting started with SQL, basic through advanced SQL-based data analysis, database fundamentals, nested queries, and multi-table SELECT statements.",
+          "score": 8.3,
+          "achievement": "good"
+        },
+        {
+          "clo": "CLO2",
+          "description": "Define what data science is today by explaining introductory data science concepts, major topic areas, and examples of data science in everyday contexts.",
+          "score": 8.3,
+          "achievement": "good"
+        },
+        {
+          "clo": "CLO3",
+          "description": "Know common tools used in data science and use at least one tool for basic data operations, including tool introduction and analysis workflows using Python, R, Scala, SQL, GitHub, Jupyter Notebooks, RStudio IDE, Watson Studio.",
+          "score": 8.43,
+          "achievement": "good"
+        },
+        {
+          "clo": "CLO4",
+          "description": "Understand why data science methodology is needed and how it guides data science work, including problem understanding, business understanding, analytic approach, data requirements, data collection, data understanding, preprocessing, modeling, evaluation, deployment, feedback, and data science process steps.",
+          "score": 8.83,
+          "achievement": "excellent"
+        },
+        {
+          "clo": "CLO5",
+          "description": "Discuss Python fundamentals, Python libraries, and API support for data science tasks, including understanding Python APIs, collecting data with Python, understanding and preprocessing data in Python, and using Python for data science, AI, and development workflows.",
+          "score": 8.61,
+          "achievement": "excellent"
+        },
+        {
+          "clo": "CLO6",
+          "description": "Explain statistics for data science, including mean, median, mode, variance, standard deviation, data visualization, probability distributions, and regression analysis, including basic and advanced data statistics, visualization, probability distributions, regression analysis, Python-based statistics practice on housing data.",
+          "score": 8.61,
+          "achievement": "excellent"
+        },
+        {
+          "clo": "CLO7",
+          "description": "Implement a small data science project by applying Python fundamentals, Python data structures, SQL/database access, data understanding, preprocessing, modeling, evaluation, deployment, visualization, probability, regression analysis, and final reporting within a guided project workflow.",
+          "score": 8.61,
+          "achievement": "excellent"
+        }
+      ]
+    },
+    {
+      "course_code": "ITE303c",
+      "clos": [
+        {
+          "clo": "CLO1",
+          "description": "Understand the rise of algorithms, from the most basic to the fully autonomous, and discuss the trajectory of artificial intelligence and the broader implications for society as well, including Artificial Intelligence Algorithms Models, Limitations, Define Algorithms, Identify how learning algorithms are used in everyday life, Summarize moral quandaries with artificial general intelligence, Describe the economic benefits and consequences of artificial, Define general vs narrow intelligence.",
+          "score": 8.6,
+          "achievement": "excellent"
+        },
+        {
+          "clo": "CLO2",
+          "description": "Explore fairness and bias in machine learning and ethical model building, including algorithmic fairness examples, fairness-accuracy trade-offs, fairness constraints, predictive model appraisal, bias recognition, Pareto curves, fairness as a modeling concept, methods for avoiding predictive bias, and bias errors in model attributes.",
+          "score": 8.6,
+          "achievement": "excellent"
+        },
+        {
+          "clo": "CLO3",
+          "description": "Explore fundamental concepts involved in security and privacy of machine learning projects and affects user privacy and transparency now and in the future while creating useful predictive models, including Artificial Intelligence Privacy, Convenience, Define privacy in the context of machine learning, Identify issues of privacy in anonymous datasets, Analyze algorithmic privacy violations, Identify ways to maximize, Formulate an ethical model using privacy and fairness considerations.",
+          "score": 8.6,
+          "achievement": "excellent"
+        },
+        {
+          "clo": "CLO4",
+          "description": "Able to apply bias and fairness analysis and skills in a real world or a fictional scenario, including Examining bias in a predictive text model, Apply bias and fairness analysis skills in a real world scenario, Understanding fairness issues with sensitive predictions, Apply game theory fairness analysis and skills in a fictional scenario.",
+          "score": 8.6,
+          "achievement": "excellent"
+        }
+      ]
+    },
+    {
+      "course_code": "MAI391",
+      "clos": [
+        {
+          "clo": "CLO0",
+          "description": "Apply analytic geometry concepts, including norms, inner products, bilinear mappings, positive definite matrices, vector lengths and distances, angles, orthogonality, orthogonal matrices, orthogonal and orthonormal bases, orthogonal complements, and projections onto subspaces.",
+          "score": 9.22,
+          "achievement": "excellent"
+        },
+        {
+          "clo": "CLO1",
+          "description": "Use matrix decompositions, including determinants, traces, invertibility conditions, characteristic polynomials, eigenvalues, eigenvectors, eigendecomposition, diagonalization, singular value decomposition, and matrix approximation.",
+          "score": 9.22,
+          "achievement": "excellent"
+        },
+        {
+          "clo": "CLO2",
+          "description": "Apply vector calculus concepts, including univariate differentiation, Taylor expansion, partial derivatives, chain rule, gradients of multivariate functions, Jacobian matrices of vector-valued functions, matrix gradients with respect to vectors, backpropagation, higher-order partial derivatives, linearization, and multivariate Taylor series.",
+          "score": 9.22,
+          "achievement": "excellent"
+        },
+        {
+          "clo": "CLO3",
+          "description": "Apply probability and distribution concepts, including discrete and continuous random variables, probability mass functions, probability density functions, cumulative distribution functions, conditional probability, multiplication rule, total probability rule, Bayes' theorem, means, variances, covariance, correlation, independence, and Gaussian distributions with marginals, conditionals, sums, and products.",
+          "score": 9.43,
+          "achievement": "excellent"
+        },
+        {
+          "clo": "CLO4",
+          "description": "Solve continuous optimization problems using gradient descent for local minima, Lagrange multipliers for constrained extrema, convex optimization concepts, and linear programming.",
+          "score": 9.43,
+          "achievement": "excellent"
+        },
+        {
+          "clo": "CLO5",
+          "description": "Apply linear regression concepts, including problem formulation, parameter estimation, maximum likelihood estimation, maximum a posteriori estimation, generalization error, overfitting, and Bayesian linear regression.",
+          "score": 9.4,
+          "achievement": "excellent"
+        },
+        {
+          "clo": "CLO6",
+          "description": "Apply dimensionality reduction with PCA, including covariance matrices, maximum-variance subspaces, principal subspace bases, low-rank matrix approximation, PCA in high dimensions, projection perspectives, eigenvector computation, and key practical PCA steps.",
+          "score": 9.4,
+          "achievement": "excellent"
+        },
+        {
+          "clo": "CLO7",
+          "description": "Apply support vector machine classification, including separating hyperplanes, primal and dual SVM formulations, kernel-based nonlinear classifiers, and numerical approaches for finding optimal SVM solutions.",
+          "score": 9.4,
+          "achievement": "excellent"
+        },
+        {
+          "clo": "CLO8",
+          "description": "Develop group-working skills and self-discipline for applied mathematics and machine learning project contexts.",
+          "score": 9.51,
+          "achievement": "excellent"
+        }
+      ]
+    },
+    {
+      "course_code": "MAS291",
+      "clos": [
+        {
+          "clo": "CLO1",
+          "description": "Discuss the roles of statistics in engineering through statistical thinking, the engineering method, and engineering data collection. Explain statistical inference reasoning and distinguish mechanistic models from empirical models, statistics from parameters, and samples from populations in the context of probability and probability models.",
+          "score": 9.34,
+          "achievement": "excellent"
+        },
+        {
+          "clo": "CLO2",
+          "description": "Identify sample spaces, events, and random variables, distinguishing continuous and discrete cases. Use interpretations of probability, event operations, addition rules, conditional probability, multiplication and total probability rules, independence, and Bayes' theorem to calculate event probabilities.",
+          "score": 9.34,
+          "achievement": "excellent"
+        },
+        {
+          "clo": "CLO3",
+          "description": "Describe probability distributions for discrete random variables and calculate probabilities, means, and variances, including probability mass functions, cumulative distribution functions, discrete uniform, binomial, geometric, negative binomial, hypergeometric, Poisson distributions.",
+          "score": 9.34,
+          "achievement": "excellent"
+        },
+        {
+          "clo": "CLO4",
+          "description": "Describe probability distributions for continuous random variables and calculate means, variances, and probabilities using probability density functions and cumulative distribution functions, including continuous uniform, normal, and exponential distributions, standardization of normal distributions, and normal approximations to binomial, Poisson distributions.",
+          "score": 9.15,
+          "achievement": "excellent"
+        },
+        {
+          "clo": "CLO5",
+          "description": "Describe data using numerical summaries and visual displays, including descriptive statistics, stem-and-leaf diagrams, frequency distributions, histograms, box plots, quartiles, outlier identification, and time sequence plots.",
+          "score": 9.15,
+          "achievement": "excellent"
+        },
+        {
+          "clo": "CLO6",
+          "description": "Discuss sampling distributions and point estimation, then use the Central Limit Theorem to analyze sampling distributions of means.",
+          "score": 9.15,
+          "achievement": "excellent"
+        },
+        {
+          "clo": "CLO7",
+          "description": "Construct and interpret confidence intervals for population parameters and differences between population parameters, including intervals for means of normal distributions with known or unknown variance, large-sample intervals for population proportions, inference on differences between two means, and inference on differences between two proportions.",
+          "score": 9.43,
+          "achievement": "excellent"
+        },
+        {
+          "clo": "CLO8",
+          "description": "Verify claims about population parameters and differences between population parameters using hypothesis testing, including formulating hypotheses, identifying critical values and test statistics, computing p-values, recognizing testing errors, and conducting tests for single means, single proportions, differences between two means, and differences between two proportions.",
+          "score": 9.43,
+          "achievement": "excellent"
+        },
+        {
+          "clo": "CLO9",
+          "description": "Construct a simple linear regression model and use it for prediction and interpretation, including empirical models, least-squares estimation, sums of squares, regression equations, correlation coefficients, properties of least-squares estimators, and hypothesis tests for significance in simple linear regression.",
+          "score": 9.43,
+          "achievement": "excellent"
+        }
+      ]
+    },
+    {
+      "course_code": "AIL303m",
+      "clos": [
+        {
+          "clo": "CLO1",
+          "description": "Learners should be able to use common techniques to retrieve data from multiple data sources: SQL, NoSQL databases, APIs, Cloud, including Retrieving, Cleaning data.",
+          "score": 7.56,
+          "achievement": "good"
+        },
+        {
+          "clo": "CLO2",
+          "description": "Learners should be able to describe and use common feature selection and feature engineering techniques, including Exploratory Data Analysis, Feature Engineering, Variable.",
+          "score": 7.56,
+          "achievement": "good"
+        },
+        {
+          "clo": "CLO3",
+          "description": "Learners should be able to use a variety of techniques for detecting and dealing with outliers, including Inferential Statistics, Hypothesis Testing, Estimation, Inference, Hypothesis Testing (Homework).",
+          "score": 7.56,
+          "achievement": "good"
+        },
+        {
+          "clo": "CLO4",
+          "description": "Learners should be able to describe and use supervised models, including Introduction to Supervised Machine Learning, Linear Regression.",
+          "score": 8.39,
+          "achievement": "good"
+        },
+        {
+          "clo": "CLO5",
+          "description": "Learners should be able to use a variety of error metrics to compare and select a supervised model that best suits your data, including Logistic Regression: Introduction to Classification, Error Metrics, Error Metrics, Model Interpretability (Homework).",
+          "score": 8.39,
+          "achievement": "good"
+        },
+        {
+          "clo": "CLO6",
+          "description": "Learners should be able to use oversampling and undersampling as techniques to handle unbalanced classes in a data, including Modeling Unbalanced Classes, Practice Lab: Modeling Imbalanced Classes.",
+          "score": 8.27,
+          "achievement": "good"
+        },
+        {
+          "clo": "CLO7",
+          "description": "Learners should be able to explain the kinds of problems suitable for Unsupervised Learning approaches, including Introduction to Unsupervised Learning, K Means.",
+          "score": 7.4,
+          "achievement": "good"
+        },
+        {
+          "clo": "CLO8",
+          "description": "Explain the curse of dimensionality, and how it makes clustering difficult with many features, including K Means Clustering, Selecting a clustering algorithm, Distance Metrics of Clustering Algorithms, Common clustering algorithms, Hierarchical Agglomerative Clustering, Hierarchical Agglomerative Clustering Lab, Compare clustering, Dimensionality Reduction.",
+          "score": 6.87,
+          "achievement": "basic"
+        },
+        {
+          "clo": "CLO9",
+          "description": "Learners should be able to describe and use common clustering and dimensionality-reduction algorithms, including Selecting a clustering algorithm, Distance Metrics of Clustering Algorithms, Common clustering algorithms, Hierarchical Agglomerative Clustering, Hierarchical Agglomerative Clustering Lab, Compare clustering algorithms, Clustering Demo.",
+          "score": 6.87,
+          "achievement": "basic"
+        },
+        {
+          "clo": "CLO10",
+          "description": "Implement a mini capstone ML project includes steps: data collection, data wrangling, exploratory data analysis, model development, model evaluation, and reporting, including Guiding mini Capstone, Review the mini Capstone, Review mini Capstone.",
+          "score": 5.42,
+          "achievement": "basic"
+        }
+      ]
+    },
+    {
+      "course_code": "CPV301",
+      "clos": [
+        {
+          "clo": "CLO1",
+          "description": "Understand the basics of computer vision, its related fields, and its applications through an overview of computer vision concepts and application areas.",
+          "score": 8.71,
+          "achievement": "excellent"
+        },
+        {
+          "clo": "CLO2",
+          "description": "Understand image formation concepts, including image representation, geometric primitives and transformations, photometric image formation, lighting, image acquisition through digital cameras, and camera calibration foundations.",
+          "score": 8.87,
+          "achievement": "excellent"
+        },
+        {
+          "clo": "CLO3",
+          "description": "Apply basic image processing techniques and corresponding algorithms for point and line operations, image filtering, Fourier transforms, geometric transformations, and point or patch-based image processing.",
+          "score": 8.91,
+          "achievement": "excellent"
+        },
+        {
+          "clo": "CLO4",
+          "description": "Understand feature extraction and matching techniques, including points and patches, and implement edge and line extraction techniques.",
+          "score": 8.88,
+          "achievement": "excellent"
+        },
+        {
+          "clo": "CLO5",
+          "description": "Understand the basics of image segmentation, including active contours, split and merge, mean shift, and mode finding.",
+          "score": 8.88,
+          "achievement": "excellent"
+        },
+        {
+          "clo": "CLO6",
+          "description": "Discuss feature-based alignment, including 2D and 3D feature-based alignment.",
+          "score": 8.88,
+          "achievement": "excellent"
+        },
+        {
+          "clo": "CLO7",
+          "description": "Discuss the principles and implementation of image stitching, including motion models and global alignment.",
+          "score": 8.81,
+          "achievement": "excellent"
+        },
+        {
+          "clo": "CLO8",
+          "description": "Understand and implement object detection techniques.",
+          "score": 8.81,
+          "achievement": "excellent"
+        },
+        {
+          "clo": "CLO9",
+          "description": "Explain the principles of face recognition and object tracking techniques.",
+          "score": 8.81,
+          "achievement": "excellent"
+        }
+      ]
+    },
+    {
+      "course_code": "DAP391m",
+      "clos": [
+        {
+          "clo": "CLO1",
+          "description": "Understand the basics of data analysis with Python for building and evaluating data models, including importing datasets and data wrangling.",
+          "score": 8.45,
+          "achievement": "good"
+        },
+        {
+          "clo": "CLO2",
+          "description": "Understand how to import data from multiple sources, clean and wrangle data, perform exploratory data analysis (EDA), and create meaningful data visualizations, including Data Analysis, Data Analysis with Python- Exploratory Data Analysis, Data Analysis with Python- Exploratory Data Analysis.",
+          "score": 8.79,
+          "achievement": "excellent"
+        },
+        {
+          "clo": "CLO3",
+          "description": "Know difference ways to effectively visualize both small and large-scale data, including Project Topic Introduction and discuss, Evaluate final project.",
+          "score": 8.79,
+          "achievement": "excellent"
+        },
+        {
+          "clo": "CLO4",
+          "description": "Implement various types of basic and advanced graphs and charts like: Waffle Charts, Area Plots, Histograms, Bar Charts, Pie Charts, Scatter Plots, Word Clouds, Choropleth Maps, and many more, including Advanced Visualizations, Geospatial Data.",
+          "score": 8.79,
+          "achievement": "excellent"
+        },
+        {
+          "clo": "CLO5",
+          "description": "Implement an application that leverages multiple Watson AI services, including Discovery, Speech to Text, Watson Assistant, and Text to Speech, with chatbot creation and integration in a final project context.",
+          "score": 8.79,
+          "achievement": "excellent"
+        },
+        {
+          "clo": "CLO6",
+          "description": "Implementing different techniques to develop applications and AI powered solutions, including Building AI Applications with Watson APIs- Introduction , Building AI Applications with Watson APIs- Introduction , Building AI Applications with Watson APIs- Giving it, Develop applications, AI powered solutions.",
+          "score": 9.1,
+          "achievement": "excellent"
+        },
+        {
+          "clo": "CLO7",
+          "description": "Implement the small mini capstone data science project includes steps: involving data collection, data wrangling, exploratory data analysis, data visualization, model development, model evaluation, and reporting, including Applied Data Science Capstone: Interactive Visual Analytics, Dashboard , Applied Data Science Capstone: Interactive Visual Analytics, Dashboard , Applied Data Science Capstone: Predictive Analysis (Classification) , Applied Data Science Capstone: Predictive Analysis (Classification), Evaluate final project.",
+          "score": 9.1,
+          "achievement": "excellent"
+        }
+      ]
+    }
+  ]
+}

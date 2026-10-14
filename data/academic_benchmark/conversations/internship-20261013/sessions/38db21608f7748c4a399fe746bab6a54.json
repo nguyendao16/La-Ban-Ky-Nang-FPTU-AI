@@ -1,0 +1,205 @@
+{
+  "version": 1,
+  "session_id": "38db21608f7748c4a399fe746bab6a54",
+  "sources": {
+    "profile": {
+      "path": "/data/FPT/Learning_Materials/Semester_5/DPL302m/skillbridge/data/student_academic_profile.json",
+      "sha256": "99f34048ed8c3d11ed972fa0a97476aa7fba6f071ad8aea454bb66b6b5c2eca1"
+    },
+    "jd": {
+      "path": "/data/FPT/Learning_Materials/Semester_5/DPL302m/skillbridge/data/academic_benchmark/jds/JD14.txt",
+      "sha256": "a8b75d7c073bfe96e3c1d4b9f7b653e9d9ed1ef4efea7790cb082fb335180b3b"
+    },
+    "review": {
+      "path": "/data/FPT/Learning_Materials/Semester_5/DPL302m/skillbridge/data/academic_benchmark/initial_reviews/internship-20261013/JD14.json",
+      "sha256": "e5ec9dafa4401c62df7bbb1f83f4ea08b4e058d62e92828acad4500e67946ad5"
+    }
+  },
+  "messages": [
+    {
+      "role": "user",
+      "content": "Với JD này thì những kiến thức nào mình đã học ở trường có liên quan nhất?"
+    },
+    {
+      "role": "assistant",
+      "content": "Các kiến thức bạn đã học ở trường liên quan nhất đến JD Robotics Engineering Intern này gồm:\n\n1. Toán ứng dụng và nền tảng toán học cho AI/robotics: MAI391 cung cấp kiến thức về đại số tuyến tính, giải tích, xác suất, tối ưu hóa, hồi quy tuyến tính, PCA, SVM – đây là nền tảng quan trọng cho xử lý tín hiệu, điều khiển, và các thuật toán AI trong robotics. (MAI391/CLO0–CLO7)\n\n2. Lập trình Python và tư duy thuật toán: PFP191 giúp bạn nắm vững lập trình Python, OOP, thao tác file, cấu trúc dữ liệu – rất hữu ích cho phát triển phần mềm điều khiển robot, xử lý dữ liệu cảm biến, và xây dựng các module AI. (PFP191/CLO1–CLO7)\n\n3. Trí tuệ nhân tạo và công cụ AI: Các học phần như AIG202c, ITE303c, DAP391m, DAP391m, AIL303m cung cấp kiến thức về AI, machine learning, generative AI, công cụ AI thực tiễn, và triển khai ứng dụng AI – phù hợp với yêu cầu AI-tool familiarity trong JD. (AIG202c/CLO3, DAP391m/CLO6, ITE303c/CLO1–CLO4)\n\n4. Thị giác máy tính (Computer Vision): CPV301 giúp bạn hiểu và triển khai các kỹ thuật xử lý ảnh, phát hiện đối tượng, nhận diện khuôn mặt, trích xuất đặc trưng – đây là các ứng dụng AI phổ biến trong robotics hiện đại. (CPV301/CLO3, CLO4, CLO8, CLO9)\n\n5. Cấu trúc dữ liệu, giải thuật, hệ thống máy tính: MAD101, CSD203, CSI106, CEA201 cung cấp nền tảng về cấu trúc dữ liệu, giải thuật, tổ chức máy tính, hệ điều hành, logic số – hỗ trợ cho việc phát triển phần mềm nhúng, hiểu hệ thống robot và giao tiếp phần cứng. (MAD101/CLO3, CSD203/CLO1–CLO4, CSI106/CLO1–CLO5, CEA201/CLO1–CLO4)\n\n6. Cơ sở dữ liệu và SQL: DBI202, ADY201m giúp bạn hiểu về quản lý dữ liệu, truy vấn SQL, thiết kế cơ sở dữ liệu – hữu ích khi làm việc với hệ thống lưu trữ dữ liệu cảm biến hoặc nhật ký vận hành robot. (DBI202/CLO5, ADY201m/CLO1)\n\nTóm lại, các học phần về toán ứng dụng, lập trình Python, AI/ML, thị giác máy tính, cấu trúc dữ liệu, giải thuật và hệ thống máy tính là liên quan nhất đến các yêu cầu nền tảng của JD này. Tuy nhiên, các mảng như ROS/ROS2, C++, thiết kế/lắp ráp hệ thống robot vật lý, và kinh nghiệm thực tế với robot công nghiệp chưa có bằng chứng học thuật trực tiếp trong hồ sơ.",
+      "evidence": [
+        {
+          "course_code": "MAI391",
+          "clo": "CLO0"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO2"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO6"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "PFP191",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "PFP191",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "AIG202c",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO6"
+        },
+        {
+          "course_code": "ITE303c",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "ITE303c",
+          "clo": "CLO2"
+        },
+        {
+          "course_code": "ITE303c",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "ITE303c",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "CPV301",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "CPV301",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "CPV301",
+          "clo": "CLO8"
+        },
+        {
+          "course_code": "CPV301",
+          "clo": "CLO9"
+        },
+        {
+          "course_code": "MAD101",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "CSD203",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "CSD203",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "CSI106",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "CSI106",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "CEA201",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "CEA201",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "DBI202",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO1"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "So với JD thì những nội dung nào mình còn thiếu hoặc chưa được hồ sơ xác nhận?"
+    },
+    {
+      "role": "assistant",
+      "content": "Đối chiếu với JD Robotics Engineering Intern này, các nội dung sau chưa được hồ sơ học thuật xác nhận trực tiếp:\n\n1. ROS hoặc ROS2: Hồ sơ chưa có CLO nào đề cập đến kinh nghiệm hoặc kiến thức về ROS/ROS2 – framework phổ biến cho lập trình và điều khiển robot.\n2. C++: Chưa có học phần hoặc CLO nào xác nhận bạn đã học hoặc thực hành với ngôn ngữ lập trình C++. Hồ sơ chỉ xác nhận Python.\n3. Thiết kế, lắp ráp, thử nghiệm lặp lại hệ thống cyber-physical/mechatronic: Chưa có bằng chứng về các dự án thực hành thiết kế, lắp ráp, hoặc thử nghiệm hệ thống robot vật lý, hệ thống nhúng hoặc mechatronic.\n4. Kinh nghiệm thực tế với robot công nghiệp hoặc hệ thống phụ trợ: Hồ sơ không xác nhận thực hành trực tiếp với robot công nghiệp, dây chuyền sản xuất tự động hoặc các hệ thống phụ trợ.\n5. Viết tài liệu kỹ thuật chuyên sâu: Chưa có CLO nào xác nhận kỹ năng viết tài liệu kỹ thuật hoặc báo cáo kỹ thuật chuyên sâu.\n6. Trình độ sau đại học (advanced degree): Hồ sơ chỉ thể hiện các học phần bậc đại học.\n7. Kinh nghiệm thực tập hoặc làm việc trong môi trường sản xuất tự động hóa công nghiệp: Không có bằng chứng học thuật hoặc CLO xác nhận kinh nghiệm này.\n\nNếu bạn đã tự học hoặc có kinh nghiệm thực tế về các mảng trên ngoài trường, hồ sơ học thuật hiện tại chưa phản ánh được điều đó. Đây là những chủ đề bạn có thể cân nhắc bổ sung hoặc làm nổi bật nếu phù hợp với JD.",
+      "evidence": []
+    },
+    {
+      "role": "user",
+      "content": "Nền tảng lập trình và toán của mình có xác nhận ROS/ROS2 hay kinh nghiệm robot công nghiệp không?"
+    },
+    {
+      "role": "assistant",
+      "content": "Nền tảng lập trình (Python, OOP, cấu trúc dữ liệu) và toán học ứng dụng (đại số tuyến tính, xác suất, tối ưu hóa, hồi quy, SVM, PCA) của bạn được xác nhận rõ ràng qua các CLO như PFP191/CLO1–CLO7 và MAI391/CLO0–CLO7. Tuy nhiên, các CLO này không đề cập hoặc xác nhận trực tiếp về ROS/ROS2 hay kinh nghiệm thực tế với robot công nghiệp.\n\nCụ thể:\n- Không có CLO nào trong hồ sơ xác nhận bạn đã học, sử dụng hoặc thực hành với ROS/ROS2 – framework phần mềm chuyên dụng cho robot.\n- Không có CLO nào xác nhận bạn đã tham gia thiết kế, lắp ráp, vận hành hoặc thử nghiệm robot công nghiệp hoặc hệ thống phụ trợ trong môi trường sản xuất thực tế.\n\nNền tảng lập trình và toán học là nền tảng quan trọng, giúp bạn dễ tiếp cận các công nghệ như ROS/ROS2 hoặc robot công nghiệp nếu có cơ hội học thêm hoặc thực hành, nhưng hồ sơ học thuật hiện tại chưa xác nhận trực tiếp hai mảng này.",
+      "evidence": [
+        {
+          "course_code": "PFP191",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "PFP191",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO0"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO2"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO6"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO7"
+        }
+      ]
+    }
+  ]
+}

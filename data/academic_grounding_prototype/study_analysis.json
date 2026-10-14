@@ -1,0 +1,152 @@
+{
+  "status": "completed_live_and_manually_reviewed",
+  "approval_plan_sha256": "c1290e852fec45aa8aa22b1fff46e7baf4d7f44cbcf8e21e6c0ea4b9341fd5b3",
+  "physical_generation": 32,
+  "physical_preflight": 32,
+  "http_operations": 64,
+  "completion": {
+    "completed": 26,
+    "incomplete": 6
+  },
+  "timeout": 0,
+  "refusal": 0,
+  "parse_failures": 0,
+  "incomplete_fraction": "6/32",
+  "schema_parsed_successfully": 26,
+  "known_cost_usd": "0.51454170",
+  "unknown_usage_reservation_usd": "0",
+  "arm_analysis": {
+    "A": {
+      "usage": {
+        "generation_http_attempts": 16,
+        "preflight_http_attempts": 16,
+        "known_cost_usd": "0.22568985",
+        "unknown_usage_reservation_usd": "0",
+        "accounted_cost_usd": "0.22568985",
+        "tokens_with_known_usage": {
+          "input_tokens": 324237,
+          "cached_input_tokens": 267008,
+          "output_tokens": 36165,
+          "reasoning_tokens": 30867
+        },
+        "reasoning_tokens_included_in_output_tokens": true,
+        "not_an_invoice": true
+      },
+      "claims": 306,
+      "asked_answered": 54,
+      "added_claims": 252,
+      "p1_outputs": 1,
+      "p2_outputs": 4,
+      "p1_findings": 1,
+      "p2_findings": 4,
+      "usable": 12,
+      "completed_generation_latency": {
+        "n": 13,
+        "mean": 4.949253349000803,
+        "median": 4.319008085993119
+      },
+      "completed_total_latency": {
+        "n": 13,
+        "mean": 5.979088436386799,
+        "median": 5.21258177398704
+      },
+      "completed_output_tokens": {
+        "mean": 891.4615384615385,
+        "median": 763
+      }
+    },
+    "B": {
+      "usage": {
+        "generation_http_attempts": 16,
+        "preflight_http_attempts": 16,
+        "known_cost_usd": "0.28885185",
+        "unknown_usage_reservation_usd": "0",
+        "accounted_cost_usd": "0.28885185",
+        "tokens_with_known_usage": {
+          "input_tokens": 330045,
+          "cached_input_tokens": 265728,
+          "output_tokens": 49041,
+          "reasoning_tokens": 40204
+        },
+        "reasoning_tokens_included_in_output_tokens": true,
+        "not_an_invoice": true
+      },
+      "claims": 369,
+      "asked_answered": 53,
+      "added_claims": 316,
+      "p1_outputs": 5,
+      "p2_outputs": 1,
+      "p1_findings": 7,
+      "p2_findings": 1,
+      "usable": 11,
+      "completed_generation_latency": {
+        "n": 13,
+        "mean": 8.70327924769327,
+        "median": 4.748677558993222
+      },
+      "completed_total_latency": {
+        "n": 13,
+        "mean": 9.655667823761737,
+        "median": 5.5658449069887865
+      },
+      "completed_output_tokens": {
+        "mean": 1881.923076923077,
+        "median": 813
+      }
+    }
+  },
+  "asked_all": 228,
+  "asked_evaluable": 108,
+  "asked_answered": 107,
+  "completion_unassessable_asked": 120,
+  "answered_claims": 675,
+  "added_claims": 568,
+  "asked_omissions": [
+    "primary-S6-B-S0:S6-CLT"
+  ],
+  "local_binding_missing_claims": 9,
+  "correct_academic_facts_outside_history_scope": 279,
+  "semantic_outcomes": {
+    "direct": 636,
+    "metadata": 14,
+    "related": 2,
+    "correct_absence": 17,
+    "jd_requirement": 6
+  },
+  "gate": {
+    "outputs_assessed": 13,
+    "passed": 13,
+    "rejected": 0,
+    "academic_quotes": 93,
+    "jd_quotes": 1,
+    "all_quotes_literal": true,
+    "withheld": 0,
+    "genuine_bad_quote_opportunities": 0
+  },
+  "input_overhead_b_per_pair_tokens": 363,
+  "max_input_tokens": 20994,
+  "sdk_retries": 0,
+  "temperature_sent": false,
+  "sources_unchanged": {
+    "protected_files": 50,
+    "changed": [],
+    "passed": true
+  },
+  "historical_unchanged": {
+    "protected_files": 1451,
+    "changed": [],
+    "passed": true
+  },
+  "raw_artifacts_unchanged": {
+    "files": 110,
+    "passed": true
+  },
+  "recommendation": "Adopt only explicit summary-scope clarification in a later separately verified production task; retain current public schema; evidence-bound raw grounding advantage remains inconclusive.",
+  "binding_only_p1_not_an_a_vs_b_factual_error_metric": true,
+  "limitations": [
+    "No P0 observed in either control or prototype; cannot demonstrate lower P0 from this sample.",
+    "No live invalid-quote rejection opportunities; detection sensitivity not estimable.",
+    "S8 failed in all six settings/repetitions; broad holdout semantic generalization not assessed.",
+    "Manual atomic granularity is descriptive, not a statistical production error rate."
+  ]
+}

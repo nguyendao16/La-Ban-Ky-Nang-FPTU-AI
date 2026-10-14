@@ -1,0 +1,179 @@
+{
+  "review_type": "academic_knowledge_review",
+  "overview": "Hồ sơ học thuật của sinh viên thể hiện nền tảng vững chắc về Python, học máy (ML), deep learning, thị giác máy tính (computer vision), xử lý ảnh, cơ sở dữ liệu, cũng như các kỹ năng phân tích và triển khai dự án AI/DS. Các môn học liên quan như Machine Learning, Computer Vision, AI, Data Science with Python & SQL, cùng các dự án thực hành đã cung cấp kiến thức lý thuyết và thực hành về các thuật toán AI, ML, xử lý dữ liệu, và phát triển sản phẩm AI/CV. Tuy nhiên, hồ sơ chưa xác nhận kinh nghiệm thực tế với các framework ML hiện đại như TensorFlow, Keras, PyTorch, cũng như chưa có bằng chứng học thuật trực tiếp về backend hoặc triển khai dịch vụ ở quy mô lớn.",
+  "requirement_reviews": [
+    {
+      "jd_requirement": "Python programming experience",
+      "coverage": "covered",
+      "comment": "Sinh viên đã học và đạt thành tích xuất sắc trong các môn lập trình Python (PFP191, CSD203, ADY201m), bao gồm cả lập trình hướng đối tượng, thao tác dữ liệu, cấu trúc dữ liệu, thuật toán và ứng dụng Python trong AI, Data Science. CLOs liên quan yêu cầu hiểu và áp dụng Python trong nhiều ngữ cảnh thực tế.",
+      "evidence": [
+        {
+          "course_code": "PFP191",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "PFP191",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "CSD203",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO5"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Machine learning (ML), deep-learning and computer-vision background",
+      "coverage": "covered",
+      "comment": "Sinh viên đã học các môn học máy (AIL303m), toán cho học máy (MAI391), trí tuệ nhân tạo (AIG202c), thị giác máy tính (CPV301), và các môn dự án AI/DS (DAP391m, ADY201m). Các CLO thể hiện kiến thức về ML, supervised/unsupervised learning, linear regression, SVM, PCA, clustering, xử lý dữ liệu, cũng như các kỹ thuật thị giác máy tính như nhận diện đối tượng, xử lý ảnh, trích xuất đặc trưng, segmentation, object detection và recognition.",
+      "evidence": [
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "CPV301",
+          "clo": "CLO8"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Evaluate AI algorithms and LLM/VLM models for computer-vision/IDP products",
+      "coverage": "related",
+      "comment": "Các CLO trong các môn học máy, AI, và thị giác máy tính yêu cầu sinh viên hiểu, áp dụng và đánh giá các thuật toán AI/ML, bao gồm supervised/unsupervised learning, regression, SVM, clustering, object detection. Tuy nhiên, hồ sơ chưa có bằng chứng học thuật trực tiếp về đánh giá các mô hình LLM/VLM hoặc các sản phẩm IDP cụ thể.",
+      "evidence": [
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "CPV301",
+          "clo": "CLO8"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Collect and label data",
+      "coverage": "covered",
+      "comment": "Các CLO trong các môn AI, Data Science, Machine Learning và các dự án AI/DS yêu cầu sinh viên thực hiện thu thập, xử lý, làm sạch và chuẩn bị dữ liệu cho các bài toán học máy, bao gồm cả labeling trong quy trình dự án.",
+      "evidence": [
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO7"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Develop and test AI/CV products",
+      "coverage": "covered",
+      "comment": "Các CLO của các môn dự án AI/DS (DAP391m, ADY201m) và Computer Vision (CPV301) yêu cầu sinh viên triển khai các dự án nhỏ về AI, Data Science, Computer Vision, bao gồm các bước phát triển, kiểm thử, đánh giá mô hình, và báo cáo kết quả.",
+      "evidence": [
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "CPV301",
+          "clo": "CLO8"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Collaborate on product features",
+      "coverage": "related",
+      "comment": "Một số CLO trong các môn dự án (DAP391m, MAI391) đề cập đến kỹ năng làm việc nhóm, phối hợp trong dự án AI/DS, tuy nhiên chưa có bằng chứng học thuật trực tiếp về hợp tác phát triển tính năng sản phẩm thực tế.",
+      "evidence": [
+        {
+          "course_code": "MAI391",
+          "clo": "CLO8"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO7"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Implement services with performance, scale, availability and monitoring considerations",
+      "coverage": "not_evidenced",
+      "comment": "Hồ sơ học thuật hiện có chưa cung cấp bằng chứng trực tiếp về việc triển khai dịch vụ với các yếu tố hiệu năng, mở rộng, sẵn sàng và giám sát ở quy mô thực tế.",
+      "evidence": []
+    },
+    {
+      "jd_requirement": "Modern ML-framework experience (scikit-learn, TensorFlow, Keras, PyTorch)",
+      "coverage": "related",
+      "comment": "Một số CLO và mô tả môn học thể hiện sinh viên đã học và áp dụng các thuật toán ML, deep learning, nhưng không có CLO hoặc mô tả nào xác nhận trực tiếp việc sử dụng scikit-learn, TensorFlow, Keras hoặc PyTorch. Các công cụ như Jupyter, RStudio, Watson Studio, GitHub được liệt kê trong metadata, nhưng không xác nhận sử dụng các ML framework hiện đại này.",
+      "evidence": [
+        {
+          "course_code": "ADY201m",
+          "metadata_field": "tools"
+        },
+        {
+          "course_code": "DAP391m",
+          "metadata_field": "tools"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Image-processing knowledge (preferred)",
+      "coverage": "covered",
+      "comment": "Các CLO của môn Computer Vision (CPV301) yêu cầu sinh viên hiểu và áp dụng các kỹ thuật xử lý ảnh như lọc ảnh, biến đổi Fourier, trích xuất đặc trưng, segmentation, object detection, object recognition và tracking.",
+      "evidence": [
+        {
+          "course_code": "CPV301",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "CPV301",
+          "clo": "CLO5"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Backend experience (preferred)",
+      "coverage": "not_evidenced",
+      "comment": "Hồ sơ học thuật hiện tại chưa có bằng chứng trực tiếp về kinh nghiệm backend hoặc phát triển hệ thống phía server.",
+      "evidence": []
+    },
+    {
+      "jd_requirement": "Basic English communication",
+      "coverage": "not_evidenced",
+      "comment": "Hồ sơ học thuật chưa cung cấp bằng chứng trực tiếp về kỹ năng giao tiếp tiếng Anh.",
+      "evidence": []
+    },
+    {
+      "jd_requirement": "At least one internship year before graduation",
+      "coverage": "not_evidenced",
+      "comment": "Hồ sơ học thuật không xác nhận thông tin về thời gian thực tập hoặc năm học.",
+      "evidence": []
+    }
+  ],
+  "conclusion": "Hồ sơ học thuật của sinh viên thể hiện nền tảng vững chắc về Python, học máy, deep learning, thị giác máy tính, xử lý ảnh, và các quy trình phát triển dự án AI/DS với thành tích học tập từ khá đến xuất sắc ở các CLO liên quan. Sinh viên đã được học và thực hành các thuật toán AI, ML, các kỹ thuật xử lý dữ liệu, phát triển và kiểm thử sản phẩm AI/CV, cũng như các kỹ năng làm việc nhóm trong bối cảnh học thuật. Tuy nhiên, hồ sơ chưa xác nhận kinh nghiệm thực tế với các framework ML hiện đại như TensorFlow, Keras, PyTorch, chưa có bằng chứng về backend, triển khai dịch vụ ở quy mô lớn, kỹ năng giao tiếp tiếng Anh hoặc thông tin về thời gian thực tập. Các giới hạn này phản ánh phạm vi của bằng chứng học thuật hiện có, không phải là đánh giá về năng lực cá nhân ngoài hồ sơ."
+}

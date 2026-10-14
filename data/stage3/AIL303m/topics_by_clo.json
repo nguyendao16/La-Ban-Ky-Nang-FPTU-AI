@@ -1,0 +1,89 @@
+{
+  "CLO1": [
+    "Course Introduction\n1.1. A brief history of modern AI and its Application\n1.1.1. Introduction to AI and Machine Learning",
+    "1.1. A brief history of modern AI and its Application\n1.1.2. Modern AI: Applications and Machine Learning Workflow",
+    "1.2. Retrieving and Cleaning data\n1.2.1. Retrieving data\n1.2.2. Cleaning data"
+  ],
+  "CLO2": [
+    "1.3. Exploratory Data Analysis and Feature Engineering\n1.3.1 Exploratory Data Analysis",
+    "1.3. Exploratory Data Analysis and Feature Engineering\n1.3.2 Feature Engineering and Variable\nTransformation"
+  ],
+  "CLO3": [
+    "1.4 Inferential Statistics and Hypothesis Testing\n1.4.1 Estimation and Inference",
+    "1.4 Inferential Statistics and Hypothesis Testing\n1.4.2 Hypothesis Testing (Homework)\n1.3.3 Demo Lab Feature Engineering"
+  ],
+  "CLO4": [
+    "2.1 Introduction to Supervised Machine Learning and Linear Regression\n2.1.1 Introduction to Supervised Machine Learning\n2.2 Data Splits and Cross Validation\n2.2.1 Training and Test Splits",
+    "2.3 Linear Regression",
+    "3.1 Logistic Regression\n3.1.1 Logistic Regression: Introduction to Classification and Error Metrics",
+    "3.1 Logistic Regression\n3.1.2 Error Metrics\n3.1.3 Logistic Regression Labs",
+    "3.1 Logistic Regression\n3.1.2 Logistic Regression Labs",
+    "3.2 K Nearest Neighbors\n3.2.1 K Nearest Neighbors",
+    "3.2 K Nearest Neighbors\n3.2.2 K Nearest Neighbors Labs",
+    "3.3 Support Vector Machines\n3.3.1 Support Vector Machines",
+    "3.3 Support Vector Machines\n3.3.2 Support Vector Machines Kernels",
+    "3.3 Support Vector Machines\n3.3.3 Support Vector Machines Labs",
+    "3.4 Decision Trees\n3.4.1 Decision Trees",
+    "3.4 Decision Trees\n3.4.2 Decision Trees Labs",
+    "3.5 Ensemble Models\n3.5.1 Ensemble Based Methods and Bagging",
+    "3.5 Ensemble Models\n3.5.2 Bagging Labs",
+    "3.5 Ensemble Models\n3.5.3 Boosting and Stacking (Homework for Stacking)",
+    "3.5 Ensemble Models\n3.5.4 Boosting and Stacking Labs",
+    "3.6 Modeling Unbalanced Classes\n3.6.1 Model Interpretability (Homework)\n3.6.2 Modeling Unbalanced Classes"
+  ],
+  "CLO5": [
+    "2.2 Data Splits and Cross Validation\n2.2.1 Training and Test Splits",
+    "2.2 Data Splits and Cross Validation\n2.2.2 Cross Validation",
+    "2.4 Polynomial Regression\n2.5 Regression with Regularization Techniques\n2.5.1 Regularization Techniques\nElastic Net, Recursive Feature Elimination (Homework)",
+    "2.5 Regression with Regularization Techniques\n2.5.2 Polynomial Features and Regularization Demo",
+    "2.5 Regression with Regularization Techniques\n2.5.3. Details of Regularization",
+    "3.1 Logistic Regression\n3.1.1 Logistic Regression: Introduction to Classification and Error Metrics",
+    "3.1 Logistic Regression\n3.1.2 Error Metrics\n3.1.3 Logistic Regression Labs",
+    "3.1 Logistic Regression\n3.1.2 Logistic Regression Labs",
+    "3.2 K Nearest Neighbors\n3.2.1 K Nearest Neighbors",
+    "3.2 K Nearest Neighbors\n3.2.2 K Nearest Neighbors Labs",
+    "3.3 Support Vector Machines\n3.3.1 Support Vector Machines",
+    "3.3 Support Vector Machines\n3.3.2 Support Vector Machines Kernels",
+    "3.3 Support Vector Machines\n3.3.3 Support Vector Machines Labs",
+    "3.4 Decision Trees\n3.4.1 Decision Trees",
+    "3.4 Decision Trees\n3.4.2 Decision Trees Labs",
+    "3.5 Ensemble Models\n3.5.1 Ensemble Based Methods and Bagging",
+    "3.5 Ensemble Models\n3.5.2 Bagging Labs",
+    "3.5 Ensemble Models\n3.5.3 Boosting and Stacking (Homework for Stacking)",
+    "3.5 Ensemble Models\n3.5.4 Boosting and Stacking Labs",
+    "3.6 Modeling Unbalanced Classes\n3.6.1 Model Interpretability (Homework)\n3.6.2 Modeling Unbalanced Classes"
+  ],
+  "CLO6": [
+    "3.6 Modeling Unbalanced Classes\n3.6.2 Modeling Unbalanced Classes\n3.6.3 Practice Lab: Modeling Imbalanced Classes"
+  ],
+  "CLO7": [
+    "4.1 Introduction to Unsupervised Learning and K Means\n4.1.1 Introduction to Unsupervised Learning\n4.1.2 K Means Clustering"
+  ],
+  "CLO8": [
+    "4.1 Introduction to Unsupervised Learning and K Means\n4.1.1 Introduction to Unsupervised Learning\n4.1.2 K Means Clustering",
+    "4.1 Introduction to Unsupervised Learning and K Means\n4.1.2 K Means Clustering\n4.1.3 K-Means Lab",
+    "4.2 Selecting a clustering algorithm\n4.2.1 Distance Metrics of Clustering Algorithms\n4.2.2 Common clustering algorithms\n4.2.2.1 Hierarchical Agglomerative Clustering",
+    "4.2 Selecting a clustering algorithm\n4.2.2.2 DBSCAN (homework)\n4.2.2.3 Mean-shift (howework)\n4.2.2.4Hierarchical Agglomerative Clustering Lab",
+    "4.2 Selecting a clustering algorithm\n4.2.3 Compare clustering algorithms",
+    "4.2 Selecting a clustering algorithm\n4.2.3 Compare clustering algorithms\nClustering Demo",
+    "4.3 Dimensionality Reduction\n4.3.1 Dimensionality Reduction",
+    "4.3 Dimensionality Reduction\n4.3.2 Principal Component Analysis",
+    "4.3 Dimensionality Reduction\n4.3.2 Matrix Factorization (homework)\n4.3.3 Principal Component Analysis Lab"
+  ],
+  "CLO9": [
+    "4.2 Selecting a clustering algorithm\n4.2.1 Distance Metrics of Clustering Algorithms\n4.2.2 Common clustering algorithms\n4.2.2.1 Hierarchical Agglomerative Clustering",
+    "4.2 Selecting a clustering algorithm\n4.2.2.2 DBSCAN (homework)\n4.2.2.3 Mean-shift (howework)\n4.2.2.4Hierarchical Agglomerative Clustering Lab",
+    "4.2 Selecting a clustering algorithm\n4.2.3 Compare clustering algorithms",
+    "4.2 Selecting a clustering algorithm\n4.2.3 Compare clustering algorithms\nClustering Demo",
+    "4.3 Dimensionality Reduction\n4.3.1 Dimensionality Reduction",
+    "4.3 Dimensionality Reduction\n4.3.2 Principal Component Analysis",
+    "4.3 Dimensionality Reduction\n4.3.2 Matrix Factorization (homework)\n4.3.3 Principal Component Analysis Lab"
+  ],
+  "CLO10": [
+    "Progress test 1\nGuiding mini Capstone",
+    "Review the mini Capstone",
+    "Progress Test 3\nReview the mini capstone",
+    "Review the mini capstone",
+    "Progress test 4\nReview mini Capstone"
+  ]
+}

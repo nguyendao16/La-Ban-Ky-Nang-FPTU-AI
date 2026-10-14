@@ -1,0 +1,20 @@
+[
+  {
+    "category": "Outcome 1",
+    "part": "1",
+    "weight": "40.0%",
+    "clo": "CLO1"
+  },
+  {
+    "category": "Outcome 2",
+    "part": "1",
+    "weight": "20.0%",
+    "clo": "CLO2"
+  },
+  {
+    "category": "Outcome 3",
+    "part": "1",
+    "weight": "40.0%",
+    "clo": "CLO3, CLO4"
+  }
+]

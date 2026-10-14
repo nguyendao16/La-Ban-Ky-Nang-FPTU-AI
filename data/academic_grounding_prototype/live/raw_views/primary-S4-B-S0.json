@@ -1,0 +1,10 @@
+{
+  "publication": "analysis_only",
+  "reply": "Trong MAD101, hai công cụ đó nằm ở phần metadata.tools của môn, với đúng dòng: “Computerized tools (for example C programming tools, Maxima http://maxima.sourceforge.net/) (CT)”.\n\nHồ sơ hiện chỉ xác nhận chúng được nêu như công cụ liên quan đến môn học; nó chưa xác nhận bạn đã dùng riêng từng công cụ, cũng chưa cho thấy có đánh giá tách biệt trên C programming tools và Maxima. Nói ngắn gọn: đây là bối cảnh học thuật của môn MAD101, không phải bằng chứng về mức độ sử dụng cá nhân hay chấm điểm riêng cho từng tool.",
+  "evidence": [
+    {
+      "course_code": "MAD101",
+      "metadata_field": "tools"
+    }
+  ]
+}

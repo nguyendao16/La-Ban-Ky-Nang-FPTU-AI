@@ -1,0 +1,199 @@
+{
+  "record_type": "normal_subject",
+  "curriculum": {
+    "subject_code": "OTP101",
+    "subject_name": "Orientation and General Training Program_Định hướng và Rèn luyện tập trung",
+    "semester": "0",
+    "credits": "0",
+    "prerequisite": "None",
+    "pre_syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/Syllabuses?subCode=OTP101&curriculumID=3173",
+    "curriculum_url": "https://flm.fpt.edu.vn/gui/role/student/CurriculumDetails?curid=3173"
+  },
+  "syllabus_versions": [
+    {
+      "subject_code": "OTP101",
+      "syllabus_name": "Định hướng và Rèn luyện tập trung(Orientaiton and General Training Program)",
+      "is_active": true,
+      "is_approved": true,
+      "decision_no": "932/QĐ-ĐHFPT dated 08/22/2025",
+      "syllabus_id": "13151",
+      "syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=13151",
+      "pre_syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/Syllabuses?subCode=OTP101&curriculumID=3173"
+    }
+  ],
+  "selected_syllabus": {
+    "subject_code": "OTP101",
+    "syllabus_name": "Định hướng và Rèn luyện tập trung(Orientaiton and General Training Program)",
+    "is_active": true,
+    "is_approved": true,
+    "decision_no": "932/QĐ-ĐHFPT dated 08/22/2025",
+    "syllabus_id": "13151",
+    "syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=13151",
+    "pre_syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/Syllabuses?subCode=OTP101&curriculumID=3173"
+  },
+  "details": {
+    "source_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=13151",
+    "metadata": {
+      "Syllabus ID": "13151",
+      "Syllabus Name": "Định hướng và Rèn luyện tập trung(Orientaiton and General Training Program)",
+      "Course Name English": "",
+      "Subject Code": "OTP101",
+      "Learning-Teaching Method": "Offline",
+      "NoCredit": "0",
+      "Degree Level": "Bachelor",
+      "Time Allocation": "5 weeks (fulltime) = 280h\n* Module 1: Orientation-Định hướng\n(1 week: 8h/day * 5 days = 40h)\n* Module 2: Military Training-Giáo dục quốc phòng\n(110 slots * 1.5h/slot = 165h)\n* Module 3: Experience Program\n22 slots * 1.5h = 33 h\n* Module 4: Vovinam\n28 slots * 1,5h/slot = 42h",
+      "Pre-Requisite": "None",
+      "Description": "Orientation and general training program includes 4 modules :\n* Module 1: Orientation\nMain activities of this module are:\n- Organizing the opening ceremony for students.\n- Organizing health check and making students' cards.\n- Arranging classes for students and organizing class meeting.\n- Introducing to students about FPT corporation, FPT university, functional departments, training regulations and how to use information systems to support students' learning.\n- Sharing study skills for university students.\n- Sharing about topics related to community activities. ( For example: activities towards sustainable development, volunteering activities...)\n* Module 2: Military training the program prescribed by the Ministry of Education and Training.\nImplementing the program prescribed by the Ministry of Education and Training.\n* Module 3: Experience program\nMain activities of this module are:\n- Organizing research and review memoirs.\n- Organizing seminars\n- Organizing experiential activities for students (Towards sustainable development and volunteering for the community)\n- Organizing Skill-building extracurricular programs (Training on First Aid and Emergency Response Skills; ...)\n* Module 4: Vovinam\nFollow the outline VOV114.\nObjectives of orientation and training program are:\n1) Instruct students to complete procedures before a new semester.\n2) Provide students with knowledge about FPT corporation, FPT university and functional departments which support students during the period of study at the university.\n3) Introduce to students about Curriculum, FU training model and regulations as well as how to use information systems to enable students to adapt new learning environment.\n4) Educate students the fundamentals of military and national security, build and enrich patriotism, national pride through history lessons, seminars, documentaries, field trips to military bases and memoirs about two prolonged resistance wars of Viet Nam.\n5) Train the willpower and improve physical strengths, fitness and sense of responsibilities through physical education lessons and combat practice in the field.\n6) Train team spirit, disciplines, shape good attitude and behaviors towards friends, teachers and educational environment.\n7) Enhance student experiences with extra-curricular activities. Strengthen the sense of community through community and volunteering activities and the ones towards the sustainable development.",
+      "StudentTasks": "Attend enough activities of the university.",
+      "Tools": "",
+      "Scoring Scale": "10",
+      "DecisionNo MM/dd/yyyy": "932/QĐ-ĐHFPT dated 08/22/2025",
+      "IsApproved": "True",
+      "Note": "Min to pass: Students must pass the examination and achieve the Military training certificate",
+      "Is Scored": "True",
+      "MinAvgMarkToPass": "",
+      "IsActive": "True",
+      "ApprovedDate": "8/22/2025"
+    },
+    "materials": [
+      {
+        "No.": "1",
+        "Material Description": "Introductory documents aout FPT Group and FPT University",
+        "Author": "",
+        "Publisher": "",
+        "Published Date": "",
+        "Edition": "",
+        "ISBN": "",
+        "Is Main Material": "False",
+        "Is Hard Copy": "False",
+        "Is Online": "False",
+        "Note": ""
+      },
+      {
+        "No.": "2",
+        "Material Description": "\"Hồi ký: Từ nhân dân mà ra\"",
+        "Author": "",
+        "Publisher": "",
+        "Published Date": "",
+        "Edition": "",
+        "ISBN": "",
+        "Is Main Material": "False",
+        "Is Hard Copy": "False",
+        "Is Online": "False",
+        "Note": ""
+      },
+      {
+        "No.": "3",
+        "Material Description": "\"Hồi ký: Những điều đọng lại qua hai cuộc chiến tranh\"",
+        "Author": "",
+        "Publisher": "",
+        "Published Date": "",
+        "Edition": "",
+        "ISBN": "",
+        "Is Main Material": "False",
+        "Is Hard Copy": "False",
+        "Is Online": "False",
+        "Note": ""
+      },
+      {
+        "No.": "4",
+        "Material Description": "\"Hồi ký: Tổng hành dinh\"",
+        "Author": "",
+        "Publisher": "",
+        "Published Date": "",
+        "Edition": "",
+        "ISBN": "",
+        "Is Main Material": "False",
+        "Is Hard Copy": "False",
+        "Is Online": "False",
+        "Note": ""
+      }
+    ],
+    "clos": [
+      {
+        "No.": "1",
+        "CLO Name": "CLO1",
+        "CLO Details": "Know general information about FPT university and the roles of functional department supporting students during the studying period."
+      },
+      {
+        "No.": "2",
+        "CLO Name": "CLO2",
+        "CLO Details": "Define training models and regulations of FPT university, know the curriculum that the students will study and information systems to support students' learning. Understand study skills for university students."
+      },
+      {
+        "No.": "3",
+        "CLO Name": "CLO3",
+        "CLO Details": "Indicate the fundermentals of military and national security and practice the basic skills in military training and Vovinam. Enhance fitness, sense of patriotism and national pride as well as the awareness of constructing and protecting the nation."
+      },
+      {
+        "No.": "4",
+        "CLO Name": "CLO4",
+        "CLO Details": "Develop soft skills such as team spirit, disciplines and positive attitude in different environment."
+      },
+      {
+        "No.": "5",
+        "CLO Name": "CLO5",
+        "CLO Details": "Experience plentiful activities in order to develop personalities, life skills and sense of community."
+      }
+    ],
+    "schedule": [
+      {
+        "Session": "1",
+        "Topic": "Orientation week\nWeek 1",
+        "Learning-Teaching Type": "Offline",
+        "LO": "LO1, LO2",
+        "ITU": "IT",
+        "Student Materials": "Ref [1]. The introduction of FPT corporation and FPT university.",
+        "S-Download": "",
+        "Student's Tasks": "- Attend the opening ceremony and class meetings.\n- Attend introduction sessions about the university, deparments, libraries, training regulations and curricula.\n- Attens seminars about study skills at university.\n- Attend health check sessions.",
+        "URLs": ""
+      },
+      {
+        "Session": "2",
+        "Topic": "Collective Training program\nWeek 2",
+        "Learning-Teaching Type": "Offline",
+        "LO": "LO3, LO4, LO5",
+        "ITU": "IT",
+        "Student Materials": "Ref[2]. \"Hồi ký: Từ nhân dân mà ra\"",
+        "S-Download": "",
+        "Student's Tasks": "- Attend enough activities and sessions.",
+        "URLs": ""
+      },
+      {
+        "Session": "3",
+        "Topic": "Collective Training program\nWeek 2\nFulltime Training Program\nWeek 3",
+        "Learning-Teaching Type": "Offline",
+        "LO": "LO3, LO4, LO5",
+        "ITU": "IT",
+        "Student Materials": "Ref[3]. \"Hồi ký: Những điều đọng lại qua hai cuộc chiến tranh\"",
+        "S-Download": "",
+        "Student's Tasks": "- Attend enough activities and sessions.",
+        "URLs": ""
+      },
+      {
+        "Session": "4",
+        "Topic": "Collective Training program\nWeek 3\nFulltime Training Program\nWeek 4",
+        "Learning-Teaching Type": "Offline",
+        "LO": "LO3, LO4, LO5",
+        "ITU": "IT",
+        "Student Materials": "Ref[4]. \"Hồi ký: Tổng hành dinh\"",
+        "S-Download": "",
+        "Student's Tasks": "- Attend enough activities and sessions.",
+        "URLs": ""
+      },
+      {
+        "Session": "5",
+        "Topic": "Collective Training program\nWeek 4\nFulltime Training Program\nWeek 5",
+        "Learning-Teaching Type": "Offline",
+        "LO": "LO3, LO4, LO5",
+        "ITU": "IT",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "- Attend enough activities and sessions.",
+        "URLs": ""
+      }
+    ],
+    "assessments": []
+  },
+  "error": null
+}

@@ -1,0 +1,7 @@
+{
+  "syllabus_name": "Toán rời rạc",
+  "course_name_english": "Discrete mathematics",
+  "subject_code": "MAD101",
+  "description": "Upon finishing the course, students must acquire:\n1. the following knowledge: (ABET a.1)\n• Concepts of logical expressions & predicate logic.\n• The method of induction and recursive definition.\n• Concepts of algorithms, recursive algorithms, the complexity.\n• Recurrence relations and divide-and-conquer algorithms.\n• Application of integers and congruence in information technology.\n• Set structure and map, counting principles and combinatorics concepts.\n• The terminologies and properties of graphs & trees & weighted graphs.\n• The applications of graphs, trees and weighted graphs in information technology.\n2. the following skills: (ABET a.2)\n• Manipulate logical expressions & produce equivalent logical expressions.\n• Produce proof of simple mathematical propositions, including applying induction method.\n• Evaluate complexity of algorithms.\n• Solving simple congruence equations.\n• Apply counting techniques in evaluating various set cardinalities.\n• Solve counting problems, apply in analyze algorithms.\n• Apply graph’s algorithms to solve problems related to graph theory.",
+  "tools": "- Testbank for ST1.\n- Powerpoint image in CD + Powerpoint prepared by previous lecturers (PP).\n- Computerized tools (for example C programming tools, Maxima http://maxima.sourceforge.net/) (CT)\n- Teaching Suggestion and Applications of Discrete Mathematics for ST1 (TS)."
+}

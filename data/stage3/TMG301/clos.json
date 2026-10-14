@@ -1,0 +1,22 @@
+[
+  {
+    "clo_name": "CLO1",
+    "clo_details": "Students will develop a solid understanding of the fundamental concepts and principles of text mining, including techniques for extracting, transforming, and analyzing textual data."
+  },
+  {
+    "clo_name": "CLO2",
+    "clo_details": "Students can use machine learning/deep learning (neural networks, neural language models, recurrent neural networks, LSMT) for specific text-mining applications."
+  },
+  {
+    "clo_name": "CLO3",
+    "clo_details": "Students will explore the methods and algorithms used for text classification and clustering tasks. They will learn to apply techniques like Naive Bayes, Support Vector Machines, and k-means clustering."
+  },
+  {
+    "clo_name": "CLO4",
+    "clo_details": "Students will learn about different methods for representing text data, such as bag-of-words, term frequency-inverse document frequency (TF-IDF), and word embeddings. They will understand the strengths and limitations of each approach."
+  },
+  {
+    "clo_name": "CLO5",
+    "clo_details": "Students will be aware of the popular applications in text mining, such as machine translation, question answering, and chatbots to design text mining-related applications in real-world"
+  }
+]

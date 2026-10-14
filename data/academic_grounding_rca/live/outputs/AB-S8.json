@@ -1,0 +1,62 @@
+{
+  "selections": [
+    {
+      "claim_id": "S8-GRAPH",
+      "claim": "CSD203 graphs và graph algorithms",
+      "relation": "direct",
+      "source_matches": [
+        {
+          "course_code": "CSD203",
+          "clo": "CLO5",
+          "source_excerpt": "Discuss graphs and their applications, and implement basic graph operations, including graph representations using edge lists, adjacency lists, and adjacency matrices, depth-first and breadth-first traversal, weighted graphs, shortest paths, Dijkstra's algorithm, minimum spanning trees with Prim-Jarnik and Kruskal algorithms."
+        }
+      ]
+    },
+    {
+      "claim_id": "S8-SORT",
+      "claim": "CSD203 sorting algorithms",
+      "relation": "direct",
+      "source_matches": [
+        {
+          "course_code": "CSD203",
+          "clo": "CLO6",
+          "source_excerpt": "Explain the operation and performance of basic and advanced sorting algorithms, including selection sort, insertion sort, bubble sort, quicksort, merge sort, heap sort, bucket sort, radix sort, and comparison of sorting algorithm performance."
+        }
+      ]
+    },
+    {
+      "claim_id": "S8-HASH",
+      "claim": "CSD203 hashing",
+      "relation": "direct",
+      "source_matches": [
+        {
+          "course_code": "CSD203",
+          "clo": "CLO7",
+          "source_excerpt": "Explain hashing and its applications, including hash tables, hash functions, collision handling, load factors, rehashing, efficiency considerations, and Python hash table implementation."
+        }
+      ]
+    },
+    {
+      "claim_id": "S8-BANDS",
+      "claim": "CSD203/CLO5–7 có achievement basic",
+      "relation": "related",
+      "source_matches": [
+        {
+          "course_code": "CSD203",
+          "clo": "CLO5",
+          "source_excerpt": "Discuss graphs and their applications, and implement basic graph operations, including graph representations using edge lists, adjacency lists, and adjacency matrices, depth-first and breadth-first traversal, weighted graphs, shortest paths, Dijkstra's algorithm, minimum spanning trees with Prim-Jarnik and Kruskal algorithms."
+        },
+        {
+          "course_code": "CSD203",
+          "clo": "CLO6",
+          "source_excerpt": "Explain the operation and performance of basic and advanced sorting algorithms, including selection sort, insertion sort, bubble sort, quicksort, merge sort, heap sort, bucket sort, radix sort, and comparison of sorting algorithm performance."
+        },
+        {
+          "course_code": "CSD203",
+          "clo": "CLO7",
+          "source_excerpt": "Explain hashing and its applications, including hash tables, hash functions, collision handling, load factors, rehashing, efficiency considerations, and Python hash table implementation."
+        }
+      ]
+    }
+  ]
+}

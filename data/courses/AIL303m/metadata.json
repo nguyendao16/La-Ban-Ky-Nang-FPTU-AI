@@ -1,0 +1,7 @@
+{
+  "syllabus_name": "Machine Learning_Học máy",
+  "course_name_english": "Machine Learning",
+  "subject_code": "AIL303m",
+  "description": "The course provides an introduction to Exploratory Data Analysis for Machine Learning (common techniques to retrieve your data, clean it, apply feature engineering, and have it ready for preliminary analysis and hypothesis testing), Supervised Machine Learning (how to train models to predict outcomes and how to use error metrics to compare across different supervised models), , Unsupervised Machine Learning (how to find insights from data sets that do not have a target or labeled variable. Learners will learn several clustering and dimension reduction algorithms for unsupervised learning as well as how to select the algorithm that best suits your data).",
+  "tools": "- jupyterlite\n- JupyterLab"
+}

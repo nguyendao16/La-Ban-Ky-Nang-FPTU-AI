@@ -1,0 +1,106 @@
+{
+  "course_id": "CPV301",
+  "clos": [
+    {
+      "clo_id": "CLO1",
+      "original_description": "Understand the basics of computer vision, its related fields, and its applications",
+      "enriched_description": "Understand the basics of computer vision, its related fields, and its applications through an overview of computer vision concepts and application areas.",
+      "source_topic_indices": [
+        1
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO2",
+      "original_description": "Understand the concepts of image formation: image representation, lighting, image acquisition through the camera, camera calibration techniques.",
+      "enriched_description": "Understand image formation concepts, including image representation, geometric primitives and transformations, photometric image formation, lighting, image acquisition through digital cameras, and camera calibration foundations.",
+      "source_topic_indices": [
+        0,
+        1,
+        2
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO3",
+      "original_description": "Basic knowledge of image processing on points, lines, image filtering techniques and corresponding algorithm implementation",
+      "enriched_description": "Apply basic image processing techniques and corresponding algorithms for point and line operations, image filtering, Fourier transforms, geometric transformations, and point or patch-based image processing.",
+      "source_topic_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO4",
+      "original_description": "Understand the techniques of feature extraction and matching, implement the techniques of edges, lines extraction",
+      "enriched_description": "Understand feature extraction and matching techniques, including points and patches, and implement edge and line extraction techniques.",
+      "source_topic_indices": [
+        0,
+        1,
+        2
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO5",
+      "original_description": "Understand the basics of segmentation, techniques such as active contours, split and merge, mean shift and mode finding",
+      "enriched_description": "Understand the basics of image segmentation, including active contours, split and merge, mean shift, and mode finding.",
+      "source_topic_indices": [
+        0,
+        1,
+        2
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO6",
+      "original_description": "Discuss feature-based alignments like 2D and 3D feature-based alignment",
+      "enriched_description": "Discuss feature-based alignment, including 2D and 3D feature-based alignment.",
+      "source_topic_indices": [
+        0
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO7",
+      "original_description": "Discuss the principles and the implementation of Image stitching",
+      "enriched_description": "Discuss the principles and implementation of image stitching, including motion models and global alignment.",
+      "source_topic_indices": [
+        0,
+        1
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO8",
+      "original_description": "Understand and implement the object detection techniques",
+      "enriched_description": "Understand and implement object detection techniques.",
+      "source_topic_indices": [
+        0
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO9",
+      "original_description": "Explain the principles of face recognition, object tracking",
+      "enriched_description": "Explain the principles of face recognition and object tracking techniques.",
+      "source_topic_indices": [
+        0,
+        1
+      ],
+      "review_required": false,
+      "review_notes": []
+    }
+  ]
+}

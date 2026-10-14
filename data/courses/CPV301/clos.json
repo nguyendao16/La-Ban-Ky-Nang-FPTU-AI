@@ -1,0 +1,38 @@
+[
+  {
+    "clo": "CLO1",
+    "description": "Understand the basics of computer vision, its related fields, and its applications through an overview of computer vision concepts and application areas."
+  },
+  {
+    "clo": "CLO2",
+    "description": "Understand image formation concepts, including image representation, geometric primitives and transformations, photometric image formation, lighting, image acquisition through digital cameras, and camera calibration foundations."
+  },
+  {
+    "clo": "CLO3",
+    "description": "Apply basic image processing techniques and corresponding algorithms for point and line operations, image filtering, Fourier transforms, geometric transformations, and point or patch-based image processing."
+  },
+  {
+    "clo": "CLO4",
+    "description": "Understand feature extraction and matching techniques, including points and patches, and implement edge and line extraction techniques."
+  },
+  {
+    "clo": "CLO5",
+    "description": "Understand the basics of image segmentation, including active contours, split and merge, mean shift, and mode finding."
+  },
+  {
+    "clo": "CLO6",
+    "description": "Discuss feature-based alignment, including 2D and 3D feature-based alignment."
+  },
+  {
+    "clo": "CLO7",
+    "description": "Discuss the principles and implementation of image stitching, including motion models and global alignment."
+  },
+  {
+    "clo": "CLO8",
+    "description": "Understand and implement object detection techniques."
+  },
+  {
+    "clo": "CLO9",
+    "description": "Explain the principles of face recognition and object tracking techniques."
+  }
+]

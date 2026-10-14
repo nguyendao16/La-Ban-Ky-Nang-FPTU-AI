@@ -1,0 +1,38 @@
+[
+  {
+    "clo": "CLO1",
+    "description": "Describe basic function properties and find limits, including domain, range, zeros, symmetry, creation of new functions, slopes and line equations, graph translations, graphical and limit-law computation, the Squeeze Theorem, limits at infinity and infinite limits, asymptotes, continuity, and the Intermediate Value Theorem."
+  },
+  {
+    "clo": "CLO2",
+    "description": "Calculate derivatives of functions, including average rates of change, derivatives as limits of difference quotients, instantaneous velocity, tangent-line slopes, basic differentiation formulas, sum, difference, product, quotient, and chain rules, trigonometric derivatives, implicit differentiation, and derivatives of exponential and logarithmic functions."
+  },
+  {
+    "clo": "CLO3",
+    "description": "Use derivatives to analyze functions and solve applications, including implicit differentiation, related rates, linear approximation, differentials and approximation error, Rolle's Theorem, the Mean Value Theorem, critical numbers, absolute and local extrema, monotonicity, optimization, acceleration as a second derivative, inflection points, concavity, and Newton's method."
+  },
+  {
+    "clo": "CLO4",
+    "description": "Calculate integrals and areas under graphs, including Riemann sums, definite integrals as limits of Riemann sums, the Fundamental Theorems of Calculus, indefinite integrals as antiderivatives, basic integration formulas, substitution, integration by parts, integration applications, average value, midpoint, trapezoidal and Simpson numerical rules, and convergence of improper integrals."
+  },
+  {
+    "clo": "CLO5",
+    "description": "Solve systems of linear equations using Gaussian elimination, including echelon forms, row operations, matrix rank, solution sets, and homogeneous equations."
+  },
+  {
+    "clo": "CLO6",
+    "description": "Perform basic matrix operations and manipulate matrix transformations, including matrix addition, scalar multiplication, transposition, symmetry, matrix-vector multiplication, matrix multiplication, matrix equations, inverses, inverse properties, and linear transformations."
+  },
+  {
+    "clo": "CLO7",
+    "description": "Find determinants, inverses, and diagonalizations of matrices, including cofactor expansion, determinant properties and row or column operations, invertibility, adjugates, inverse matrices, Cramer's rule, characteristic polynomials, eigenvalues, eigenvectors, and diagonalization."
+  },
+  {
+    "clo": "CLO8",
+    "description": "Manipulate vector operations and linear transformations in R^3, including vector operations, equations of lines, dot products, angles, projections, planes, cross products, area and volume analysis, transformations of areas and volumes, and applications in computer graphics."
+  },
+  {
+    "clo": "CLO9",
+    "description": "Find dimensions and bases of subspaces, including subspace verification, spans, linear independence, bases, dimension, rank, column space, row space, null space, dot products, vector length and distance, orthogonal and orthonormal sets, and expansion in an orthogonal basis."
+  }
+]

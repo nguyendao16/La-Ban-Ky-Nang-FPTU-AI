@@ -1,0 +1,97 @@
+{
+  "CLO1": [
+    "The Roles of Statistics in Engineering\n1.1 The Engineering Method and Statistical Thinking\n1.2 Collecting Engineering Data",
+    "The Roles of Statistics in Engineering\n1.3 Mechanistic and Empirical Models\n1.4 Probability and Probability Models",
+    "Solve questions and problems for Chapters 1 - 3",
+    "Progress Test 1"
+  ],
+  "CLO2": [
+    "Probability\n2.1 Sample Spaces and Events",
+    "Probability\n2.2 Interpretations of Probability\n2.3 Addition Rules",
+    "Probability\n2.4 Conditional Probability",
+    "Probability\n2.5 Multiplication and Total Probability Rules\n2.6 Independence",
+    "Probability\n2.7 Bayes' Theorem",
+    "Probability\n2.8 Random Variables",
+    "Solve questions and problems for Chapters 1 - 3",
+    "Progress Test 1"
+  ],
+  "CLO3": [
+    "Discrete Random Variables and Probability Distribution\n3.1 Discrete Random Variables",
+    "Discrete Random Variables and Probability Distribution\n3.2 Probability Distributions and Probability Mass Functions",
+    "Discrete Random Variables and Probability Distribution\n3.3 Cumulative Distribution Functions",
+    "Discrete Random Variables and Probability Distribution\n3.4 Mean and Variance of a Discrete Random Varibale",
+    "Discrete Random Variables and Probability Distribution\n3.5 Discrete Uniform Distribution\n3.6 Binomial Distribution",
+    "Discrete Random Variables and Probability Distribution\n3.7 Geometric and Negative Binomial Distributions",
+    "Discrete Random Variables and Probability Distribution\n3.8 Hypergeometric Distribution",
+    "Discrete Random Variables and Probability Distribution\n3.9 Poisson Distribution",
+    "Solve questions and problems for Chapters 1 - 3",
+    "Progress Test 1"
+  ],
+  "CLO4": [
+    "Continuous Random Variables and Probability Distribution\n4.1 Continuous Random Variables\n4.2 Probability Distributions and Probability Density Functions",
+    "Continuous Random Variables and Probability Distribution\n4.3 Cumulative Distribution Functions",
+    "Continuous Random Variables and Probability Distribution\n4.4 Mean and Variance of a Continuous Random Variable",
+    "Continuous Random Variables and Probability Distribution\n4.5 Continuous Uniform Distribution",
+    "Continuous Random Variables and Probability Distribution\n4.6 Normal Distribution",
+    "Continuous Random Variables and Probability Distribution\n4.6 Normal Distribution (Cont.)",
+    "Continuous Random Variables and Probability Distribution\n4.7 Normal Approximation to the Binomial and Poisson Distributions",
+    "Continuous Random Variables and Probability Distribution\n4.8 Exponential Distribution",
+    "Solve questions and problems for Chapters 4, 6, and 7",
+    "Progress Test 2"
+  ],
+  "CLO5": [
+    "Descriptive Statistics\n6.1 Numerical Summaries",
+    "Descriptive Statistics\n6.2 Stem-and-Leaf Diagrams\n6.3 Frequency Distributions and Histograms",
+    "Descriptive Statistics\n6.4 Box Plots",
+    "Descriptive Statistics\n6.5 Time Sequence Plots",
+    "Solve questions and problems for Chapters 4, 6, and 7",
+    "Progress Test 2"
+  ],
+  "CLO6": [
+    "Sampling Distributions and Point Estimation of Paramaters\n7.1 Point Estimation",
+    "Sampling Distributions and Point Estimation of Paramaters\n7.2 Sampling Distributions and the Central Limit Theorem",
+    "Solve questions and problems for Chapters 4, 6, and 7",
+    "Progress Test 2"
+  ],
+  "CLO7": [
+    "Statistical Intervals for a Single Sample\n8.1 Confidence Interval on the Mean of a Normal Distribution, Variance Known",
+    "Statistical Intervals for a Single Sample\n8.1 Confidence Interval on the Mean of a Normal Distribution, Variance Known (Cont.)",
+    "Statistical Intervals for a Single Sample\n8.2 Confidence Interval on the Mean of a Normal Distribution, Variance Unknown",
+    "Statistical Intervals for a Single Sample\n8.2 Confidence Interval on the Mean of a Normal Distribution, Variance Unknown (Cont.)",
+    "Statistical Intervals for a Single Sample\n8.4 Large-Sample Confidence Interval for a Population Proportion",
+    "Statistical Intervals for a Single Sample\n8.4 Large-Sample Confidence Interval for a Population Proportion (Cont.)",
+    "Statistical Inference for Two Samples\n10.1 Inference on the Difference in Means of Two Normal Distributions, Variance Known",
+    "Statistical Inference for Two Samples\n10.2 Inference on the Difference in Means of Two Normal Distributions, Variance Unknown",
+    "Statistical Inference for Two Samples\n10.6 Inference on the Two Proportions",
+    "Statistical Inference for Two Samples\n10.6 Inference on the Two Proportions (Cont.)",
+    "Project presentation",
+    "Project presentation (Cont.)",
+    "Progress Test 3"
+  ],
+  "CLO8": [
+    "Test of Hypotheses for a Single Sample\n9.1 Hypothesis Testing",
+    "Test of Hypotheses for a Single Sample\n9.1 Hypothesis Testing (Cont.)",
+    "Test of Hypotheses for a Single Sample\n9.2 Tests on the Mean of a Normal Distribution, Variance Known",
+    "Test of Hypotheses for a Single Sample\n9.2 Tests on the Mean of a Normal Distribution, Variance Known (Cont.)",
+    "Test of Hypotheses for a Single Sample\n9.3 Tests on the Mean of a Normal Distribution, Variance Unknown",
+    "Test of Hypotheses for a Single Sample\n9.5 Tests on a Population Proportion",
+    "Statistical Inference for Two Samples\n10.1 Inference on the Difference in Means of Two Normal Distributions, Variance Known",
+    "Statistical Inference for Two Samples\n10.2 Inference on the Difference in Means of Two Normal Distributions, Variance Unknown",
+    "Statistical Inference for Two Samples\n10.6 Inference on the Two Proportions",
+    "Statistical Inference for Two Samples\n10.6 Inference on the Two Proportions (Cont.)",
+    "Project presentation",
+    "Project presentation (Cont.)",
+    "Progress Test 3"
+  ],
+  "CLO9": [
+    "Simple Linear Regression and Correlation\n11.1 Empirical Models",
+    "Simple Linear Regression and Correlation\n11.2 Simple Linear Regression",
+    "Simple Linear Regression and Correlation\n11.3 Properties of the Least Squares Estimators",
+    "Simple Linear Regression and Correlation\n11.4 Hypothesis Tests in Simple Linear Regression",
+    "Simple Linear Regression and Correlation\n11.8 Correlation",
+    "Simple Linear Regression and Correlation\n11.8 Correlation (Cont.)",
+    "Project presentation",
+    "Project presentation (Cont.)",
+    "Progress Test 3"
+  ]
+}

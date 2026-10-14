@@ -1,0 +1,7 @@
+{
+  "syllabus_name": "Web Development with Python_Phát triển web với Python",
+  "course_name_english": "Web Development with Python",
+  "subject_code": "DWP301c",
+  "description": "In this course, you will learn to build your own cloud-based applications and work with the technologies behind them. This program consists of 10 courses with ample instructional content as well as hands-on exercises and projects designed to hone your skills and help you build your portfolio.\nYou'll skill up with the tools and technologies that successful software developers use to build, deploy, test, run, and manage Full Stack Cloud Native applications, giving you the practical skills to begin a new career in an in-demand area.\nThe courses in this program will help you develop skill sets in many technologies including: Cloud foundations, HTML, CSS, JavaScript, GitHub, Node.js, React, Cloud Native practices, DevOps, CI/CD, Containers, Docker, Kubernetes, OpenShift, Istio, Python, Databases, SQL, NoSQL, Django ORM, Bootstrap, Application Security, Microservices, Serverless computing, and more.\nAfter completing all the courses in the program, including the capstone project, you will have developed several applications using front-end and back-end technologies and deployed them on a cloud platform using Cloud Native methodologies.",
+  "tools": ""
+}

@@ -1,0 +1,6 @@
+Tessera Labs — Software Engineering Intern, Backend
+Responsibilities: Help build Python REST APIs/services with FastAPI and SQLAlchemy; maintain schemas/queries/caching; integrate AI and enterprise services; contribute to event-driven systems and pipelines.
+Qualifications: Relevant ongoing/recent degree; Python and basic backend frameworks such as FastAPI, Flask OR Django; databases such as PostgreSQL, MySQL OR similar and SQL queries; interest in distributed/cloud/backend systems.
+Preferred: Queues/caching/event-driven work; AI integration; cloud-platform familiarity; REST/API design principles.
+Learning opportunities: Cloud deployment with AWS/GCP, observability and security best practices; these are not automatically prerequisite professional experience.
+Internal research paraphrase of indexed content for the exact internship posting, not a senior Backend Engineer role, verbatim JD, recruitment representation or confirmation of availability. Direct ATS only returned a JavaScript shell.

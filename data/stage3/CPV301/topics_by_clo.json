@@ -1,0 +1,84 @@
+{
+  "CLO1": [
+    "Introduction:\n1.1 Welcome to Computer Vision",
+    "Introduction:\n1.2 Computer vision overviews",
+    "Lab 1 assistant and interview",
+    "Lab 2 assistant and interview",
+    "Progress Test 1",
+    "Review"
+  ],
+  "CLO2": [
+    "Image formation\n2.1 Geometric primitives and transformations",
+    "Image formation\n2.2 Photometric image formation",
+    "Image formation\n2.3 The digital camera",
+    "Lab 1 assistant and interview",
+    "Lab 2 assistant and interview",
+    "Progress Test 1",
+    "Review",
+    "Practical Exam",
+    "Review course\nResults"
+  ],
+  "CLO3": [
+    "Image processing\n3.1 Point operators",
+    "Image processing\n3.3 Fourier transforms",
+    "Image processing\n3.4 Geometric transformations",
+    "Feature detection and matching\n4.1 Points and patches",
+    "Lab 2 assistant and interview",
+    "Progress Test 1",
+    "Review",
+    "Practical Exam",
+    "Review course\nResults"
+  ],
+  "CLO4": [
+    "Feature detection and matching\n4.1 Points and patches",
+    "Feature detection and matching\n4.2 Edges",
+    "Feature detection and matching\n4.3 Lines",
+    "Lab 2 assistant and interview",
+    "Segmentation\n5.1 Active contours",
+    "Progress Test 1",
+    "Review",
+    "Practical Exam",
+    "Review course\nResults"
+  ],
+  "CLO5": [
+    "Segmentation\n5.1 Active contours",
+    "Segmentation\n5.2 Split and merge",
+    "Segmentation\n5.3 Mean shift and mode finding",
+    "Progress Test 1",
+    "Lab 4 assistant and interview",
+    "Review",
+    "Practical Exam",
+    "Review course\nResults"
+  ],
+  "CLO6": [
+    "Feature-based alignment\n6.1 2D and 3D feature-based alignment",
+    "Progress Test 1",
+    "Lab 3 assistant and interview",
+    "Review",
+    "Practical Exam",
+    "Review course\nResults"
+  ],
+  "CLO7": [
+    "Image stitching\n7.1 Motion models",
+    "Image stitching\n7.2 Global alignment",
+    "Lab 4 assistant and interview",
+    "Review",
+    "Practical Exam",
+    "Review course\nResults"
+  ],
+  "CLO8": [
+    "Detection\n8.1 Object detection",
+    "Lab 4 assistant and interview",
+    "Review",
+    "Practical Exam",
+    "Review course\nResults"
+  ],
+  "CLO9": [
+    "Recognition\n9.1 Face recognition",
+    "Recognition\n9.2 Object tracking",
+    "Lab 4 assistant and interview",
+    "Review",
+    "Practical Exam",
+    "Review course\nResults"
+  ]
+}

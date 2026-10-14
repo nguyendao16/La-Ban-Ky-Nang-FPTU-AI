@@ -1,0 +1,22 @@
+[
+  {
+    "clo_name": "CLO1",
+    "clo_details": "Describe how generative AI models work at an intuitive, non-mathematical level."
+  },
+  {
+    "clo_name": "CLO2",
+    "clo_details": "Apply prompt engineering techniques to obtain useful, reliable outputs from generative models."
+  },
+  {
+    "clo_name": "CLO3",
+    "clo_details": "Build a small generative AI application end to end, retrieval-augmented generation, structured output validation, basic agent/tool use, and an appropriate customization strategy (prompting, RAG, or fine-tuning)."
+  },
+  {
+    "clo_name": "CLO4",
+    "clo_details": "Evaluate generative AI outputs and systems using rubrics, test sets, model-as-judge methods, and analysis of failure modes."
+  },
+  {
+    "clo_name": "CLO5",
+    "clo_details": "Analyze the ethical, social, legal, and governance implications of generative AI and apply responsible-use practices."
+  }
+]

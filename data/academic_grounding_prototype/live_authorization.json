@@ -1,0 +1,17 @@
+{
+  "user_message_verbatim": "Phê duyệt",
+  "approved_plan_sha256": "c1290e852fec45aa8aa22b1fff46e7baf4d7f44cbcf8e21e6c0ea4b9341fd5b3",
+  "recorded_at": "2026-10-14T03:30:28.416613+07:00",
+  "scope": "This evidence-bound prototype matrix only",
+  "model": "gpt-5.4-mini-2026-03-17",
+  "reasoning_effort": "medium",
+  "budgets": {
+    "max_generations": 32,
+    "max_preflights": 32,
+    "max_http_operations": 64,
+    "max_cost_usd": "3.00"
+  },
+  "no_retries_or_extra_generations": true,
+  "official_pricing_rechecked_at": "2026-10-14",
+  "pricing_source": "https://developers.openai.com/api/docs/models/gpt-5.4-mini"
+}

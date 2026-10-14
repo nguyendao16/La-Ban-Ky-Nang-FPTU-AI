@@ -1,0 +1,343 @@
+{
+  "assessments": [
+    {
+      "operation": "primary-S1-A-S0",
+      "arm": "A",
+      "gate_status": "not_applicable",
+      "source_provenance_correct": true,
+      "raw_semantically_correct": true,
+      "semantic_p0": 0,
+      "publication_status": "completed",
+      "usable_response": true
+    },
+    {
+      "operation": "primary-S1-B-S0",
+      "arm": "B",
+      "gate_status": "passed",
+      "source_provenance_correct": true,
+      "raw_semantically_correct": true,
+      "semantic_p0": 0,
+      "publication_status": "completed",
+      "usable_response": true
+    },
+    {
+      "operation": "primary-S2-B-S0",
+      "arm": "B",
+      "gate_status": "passed",
+      "source_provenance_correct": true,
+      "raw_semantically_correct": true,
+      "semantic_p0": 0,
+      "publication_status": "completed",
+      "usable_response": true
+    },
+    {
+      "operation": "primary-S2-A-S0",
+      "arm": "A",
+      "gate_status": "not_applicable",
+      "source_provenance_correct": true,
+      "raw_semantically_correct": true,
+      "semantic_p0": 0,
+      "publication_status": "completed",
+      "usable_response": true
+    },
+    {
+      "operation": "primary-S3-A-S0",
+      "arm": "A",
+      "gate_status": "not_applicable",
+      "source_provenance_correct": true,
+      "raw_semantically_correct": true,
+      "semantic_p0": 0,
+      "publication_status": "completed",
+      "usable_response": true
+    },
+    {
+      "operation": "primary-S3-B-S0",
+      "arm": "B",
+      "gate_status": "passed",
+      "source_provenance_correct": true,
+      "raw_semantically_correct": true,
+      "semantic_p0": 0,
+      "publication_status": "completed",
+      "usable_response": true
+    },
+    {
+      "operation": "primary-S5-B-S0",
+      "arm": "B",
+      "gate_status": "passed",
+      "source_provenance_correct": true,
+      "raw_semantically_correct": true,
+      "semantic_p0": 0,
+      "publication_status": "completed",
+      "usable_response": true
+    },
+    {
+      "operation": "primary-S5-A-S0",
+      "arm": "A",
+      "gate_status": "not_applicable",
+      "source_provenance_correct": true,
+      "raw_semantically_correct": true,
+      "semantic_p0": 0,
+      "publication_status": "completed",
+      "usable_response": true
+    },
+    {
+      "operation": "primary-S6-A-S0",
+      "arm": "A",
+      "gate_status": "not_applicable",
+      "source_provenance_correct": true,
+      "raw_semantically_correct": true,
+      "semantic_p0": 0,
+      "publication_status": "completed",
+      "usable_response": false
+    },
+    {
+      "operation": "primary-S6-B-S0",
+      "arm": "B",
+      "gate_status": "passed",
+      "source_provenance_correct": true,
+      "raw_semantically_correct": true,
+      "semantic_p0": 0,
+      "publication_status": "completed",
+      "usable_response": false
+    },
+    {
+      "operation": "primary-S7-B-S0",
+      "arm": "B",
+      "gate_status": "passed",
+      "source_provenance_correct": true,
+      "raw_semantically_correct": true,
+      "semantic_p0": 0,
+      "publication_status": "completed",
+      "usable_response": true
+    },
+    {
+      "operation": "primary-S7-A-S0",
+      "arm": "A",
+      "gate_status": "not_applicable",
+      "source_provenance_correct": true,
+      "raw_semantically_correct": true,
+      "semantic_p0": 0,
+      "publication_status": "completed",
+      "usable_response": true
+    },
+    {
+      "operation": "primary-S4-A-S0",
+      "arm": "A",
+      "gate_status": "not_applicable",
+      "source_provenance_correct": true,
+      "raw_semantically_correct": true,
+      "semantic_p0": 0,
+      "publication_status": "completed",
+      "usable_response": true
+    },
+    {
+      "operation": "primary-S4-B-S0",
+      "arm": "B",
+      "gate_status": "passed",
+      "source_provenance_correct": true,
+      "raw_semantically_correct": true,
+      "semantic_p0": 0,
+      "publication_status": "completed",
+      "usable_response": true
+    },
+    {
+      "operation": "primary-S8-B-S0",
+      "arm": "B",
+      "gate_status": "unavailable",
+      "source_provenance_correct": null,
+      "raw_semantically_correct": null,
+      "semantic_p0": null,
+      "publication_status": "failed",
+      "usable_response": false
+    },
+    {
+      "operation": "primary-S8-A-S0",
+      "arm": "A",
+      "gate_status": "not_applicable",
+      "source_provenance_correct": null,
+      "raw_semantically_correct": null,
+      "semantic_p0": null,
+      "publication_status": "failed",
+      "usable_response": false
+    },
+    {
+      "operation": "scope-S5-A-S1",
+      "arm": "A",
+      "gate_status": "not_applicable",
+      "source_provenance_correct": true,
+      "raw_semantically_correct": true,
+      "semantic_p0": 0,
+      "publication_status": "completed",
+      "usable_response": true
+    },
+    {
+      "operation": "scope-S5-B-S1",
+      "arm": "B",
+      "gate_status": "passed",
+      "source_provenance_correct": true,
+      "raw_semantically_correct": true,
+      "semantic_p0": 0,
+      "publication_status": "completed",
+      "usable_response": true
+    },
+    {
+      "operation": "scope-S6-B-S1",
+      "arm": "B",
+      "gate_status": "passed",
+      "source_provenance_correct": true,
+      "raw_semantically_correct": true,
+      "semantic_p0": 0,
+      "publication_status": "completed",
+      "usable_response": true
+    },
+    {
+      "operation": "scope-S6-A-S1",
+      "arm": "A",
+      "gate_status": "not_applicable",
+      "source_provenance_correct": true,
+      "raw_semantically_correct": true,
+      "semantic_p0": 0,
+      "publication_status": "completed",
+      "usable_response": true
+    },
+    {
+      "operation": "scope-S7-A-S1",
+      "arm": "A",
+      "gate_status": "not_applicable",
+      "source_provenance_correct": true,
+      "raw_semantically_correct": true,
+      "semantic_p0": 0,
+      "publication_status": "completed",
+      "usable_response": true
+    },
+    {
+      "operation": "scope-S7-B-S1",
+      "arm": "B",
+      "gate_status": "passed",
+      "source_provenance_correct": true,
+      "raw_semantically_correct": true,
+      "semantic_p0": 0,
+      "publication_status": "completed",
+      "usable_response": true
+    },
+    {
+      "operation": "scope-S8-B-S1",
+      "arm": "B",
+      "gate_status": "unavailable",
+      "source_provenance_correct": null,
+      "raw_semantically_correct": null,
+      "semantic_p0": null,
+      "publication_status": "failed",
+      "usable_response": false
+    },
+    {
+      "operation": "scope-S8-A-S1",
+      "arm": "A",
+      "gate_status": "not_applicable",
+      "source_provenance_correct": null,
+      "raw_semantically_correct": null,
+      "semantic_p0": null,
+      "publication_status": "failed",
+      "usable_response": false
+    },
+    {
+      "operation": "repeat-S1-A-S0",
+      "arm": "A",
+      "gate_status": "not_applicable",
+      "source_provenance_correct": true,
+      "raw_semantically_correct": true,
+      "semantic_p0": 0,
+      "publication_status": "completed",
+      "usable_response": true
+    },
+    {
+      "operation": "repeat-S1-B-S0",
+      "arm": "B",
+      "gate_status": "passed",
+      "source_provenance_correct": true,
+      "raw_semantically_correct": true,
+      "semantic_p0": 0,
+      "publication_status": "completed",
+      "usable_response": true
+    },
+    {
+      "operation": "repeat-S5-B-S0",
+      "arm": "B",
+      "gate_status": "passed",
+      "source_provenance_correct": true,
+      "raw_semantically_correct": true,
+      "semantic_p0": 0,
+      "publication_status": "completed",
+      "usable_response": true
+    },
+    {
+      "operation": "repeat-S5-A-S0",
+      "arm": "A",
+      "gate_status": "not_applicable",
+      "source_provenance_correct": true,
+      "raw_semantically_correct": true,
+      "semantic_p0": 0,
+      "publication_status": "completed",
+      "usable_response": true
+    },
+    {
+      "operation": "repeat-S6-A-S0",
+      "arm": "A",
+      "gate_status": "not_applicable",
+      "source_provenance_correct": true,
+      "raw_semantically_correct": true,
+      "semantic_p0": 0,
+      "publication_status": "completed",
+      "usable_response": true
+    },
+    {
+      "operation": "repeat-S6-B-S0",
+      "arm": "B",
+      "gate_status": "passed",
+      "source_provenance_correct": true,
+      "raw_semantically_correct": true,
+      "semantic_p0": 0,
+      "publication_status": "completed",
+      "usable_response": false
+    },
+    {
+      "operation": "repeat-S8-B-S0",
+      "arm": "B",
+      "gate_status": "unavailable",
+      "source_provenance_correct": null,
+      "raw_semantically_correct": null,
+      "semantic_p0": null,
+      "publication_status": "failed",
+      "usable_response": false
+    },
+    {
+      "operation": "repeat-S8-A-S0",
+      "arm": "A",
+      "gate_status": "not_applicable",
+      "source_provenance_correct": null,
+      "raw_semantically_correct": null,
+      "semantic_p0": null,
+      "publication_status": "failed",
+      "usable_response": false
+    }
+  ],
+  "confusion": {
+    "source_provenance_correct": {
+      "n": 13,
+      "true_acceptance": 13,
+      "true_rejection": 0,
+      "false_acceptance": 0,
+      "false_rejection": 0,
+      "pending": 0
+    },
+    "raw_semantically_correct": {
+      "n": 13,
+      "true_acceptance": 13,
+      "true_rejection": 0,
+      "false_acceptance": 0,
+      "false_rejection": 0,
+      "pending": 0
+    }
+  },
+  "semantic_correctness": "manual_only"
+}

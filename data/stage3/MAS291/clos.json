@@ -1,0 +1,38 @@
+[
+  {
+    "clo_name": "CLO1",
+    "clo_details": "Discuss the roles of statistics in engineering\nLO1.1 Explain the types of reasoning of statistical inference; distinguish mechanistic models and empirical models, statistic and parameter, sample and population.\nLO1.2 Describe the different methods that engineers use to collect data."
+  },
+  {
+    "clo_name": "CLO2",
+    "clo_details": "Identify sample spaces and events, and use basic rules to calculate the probability of an event\nLO2.1 Describe the sample space and events of an experiment; distinguish continuous and discrete sample spaces; perform operations on events.\nLO2.2 Calculate the probability of an event in a discrete sample space; use addition and complementary rules to find probabilities.\nLO2.3 Calculate conditional probabilities; use multiplication rule, total probability rule and Bayes theorem to find probabilities.\nLO2.4 Determine if two events are independent; use independence to find probabilities.\nLO2.5 Recognize a random variable; distinguish continuous and discrete random variables."
+  },
+  {
+    "clo_name": "CLO3",
+    "clo_details": "Describe the probability distribution and calculate the mean and variance of a discrete random variable\nLO3.1 Describe a discrete random variable; check if a function is a probability mass function and use it to calculate probability; find the cumulative distribution function of a discrete random variable.\nLO3.2 Compute the mean and variance of a discrete random variable.\nLO3.3 Determine the probability, mean and variance of uniform, binomial, geometric and negative binomial, hypergeometric and Poisson distributions."
+  },
+  {
+    "clo_name": "CLO4",
+    "clo_details": "Describe the probability distribution and calculate the mean and variance of a continuous random variable\nLO4.1 Describe a continuous random variable; check if a function is a probability density function and use it to calculate probability; find the cumulative distribution function of a continuous random variable.\nLO4.2 Compute the mean and variance of a continuous random variables\nLO4.3 Apply the formulas of continuous uniform distribution and exponential distribution to solve problems.\nLO4.4 Manipulate probabilities of a standard normal distribution using Excel or table of data; standardize a normal distribution.\nLO4.5 Use normal distribution to approximate binomial and Poisson distributions."
+  },
+  {
+    "clo_name": "CLO5",
+    "clo_details": "Describe data using numerical summaries and visual displays\nLO5.1 Find numeric summaries of data; describe data using stem-and-leaf diagrams, frequency distributions, histograms, time series plots.\nLO5.2 Determine quartiles and construct the box plot for a data; identify outliers."
+  },
+  {
+    "clo_name": "CLO6",
+    "clo_details": "Discuss sampling distributions and use the Central Limit Theorem to analyze sampling distribution of the means\nLO6.1 Discuss sampling distributions; find the point estimation of a parameter.\nLO6.2 Apply Central Limit Theorem to calculate probabilities regarding the sampling distribution of the means."
+  },
+  {
+    "clo_name": "CLO7",
+    "clo_details": "Construct confidence intervals for a population parameter/difference of population parameters\nLO7.1 Construct a confidence interval for the population mean/difference of two population means and interpret its meaning; determine the size of the sample to improve the estimation.\nLO7.2 Construct a confidence interval for the population proportion/difference of two population pproportions and interpret its meaning; determine the size of the sample to improve the estimation."
+  },
+  {
+    "clo_name": "CLO8",
+    "clo_details": "Verify a claim about a population parameter/difference of population parameters using hypothesis testing\nLO8.1 Formulate the two hypotheses; identify critical values, test statistic and compute P-value for a test of hypotheses on population mean/difference of two population means\nLO8.2 Formulate the two hypotheses; identify critical values, test statistic and compute P-value for a test of hypotheses on population proportion/difference of two population proportions\nLO8.3 Identify type of errors in testing hypotheses."
+  },
+  {
+    "clo_name": "CLO9",
+    "clo_details": "Construct a simple linear regression model\nLO9.1 Compute various sums of squares for a set of data pairs.\nLO9.2 Determine the equation of linear regression and the correlation coefficient; use linear regression to predict future values.\nLO9.3 Perform a hypothesis test in simple linear regression; test the significance of regression using t-test."
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "clo_name": "CLO1",
+    "clo_details": "Understand the development environment (IDE), programming concepts and python's world"
+  },
+  {
+    "clo_name": "CLO2",
+    "clo_details": "Understand variables, expression and statement"
+  },
+  {
+    "clo_name": "CLO3",
+    "clo_details": "Understand Conditional Execution, Functions, Loop and Iterations"
+  },
+  {
+    "clo_name": "CLO4",
+    "clo_details": "Understand Strings"
+  },
+  {
+    "clo_name": "CLO5",
+    "clo_details": "Understand Files"
+  },
+  {
+    "clo_name": "CLO6",
+    "clo_details": "Understand List, Dictionaries, Tuples"
+  },
+  {
+    "clo_name": "CLO7",
+    "clo_details": "Understand OOP and how to apply this technology to an actual application"
+  }
+]

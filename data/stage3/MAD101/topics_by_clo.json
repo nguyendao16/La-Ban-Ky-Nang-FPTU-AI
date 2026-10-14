@@ -1,0 +1,85 @@
+{
+  "CLO1": [
+    "0 Introduction\n1.1 Propositional Logic (1.1 and 1.2, skip the topic on Logic Circuits)",
+    "1.2 Propositional Equivalences (1.3, skip the topic on Satisfiability)",
+    "1.3 Predicates (1.4)",
+    "1.3 Quantifiers",
+    "1.4 Nested Quantifiers (1.5)",
+    "1.4 Nested Quantifiers (1.5) (cont.)",
+    "1.5 Rules of Inference (1.6)",
+    "1.5 Rules of Inference (1.6) (cont.)",
+    "Review",
+    "Progress Test 1"
+  ],
+  "CLO2": [
+    "2.1 Introduction to sets",
+    "2.2 Set operations",
+    "2.3 Functions (2.3, skip the topic on Partial Functions)",
+    "2.3 Functions (2.3, skip the topic on Partial Functions) (cont.)",
+    "2.4 Sequences and Summations (2.4, skip the topic on Recurrence relations)",
+    "2.4 Sequences and Summations (2.4, skip the topic on Recurrence relations) (cont.)",
+    "Review",
+    "Progress Test 1"
+  ],
+  "CLO3": [
+    "3.1 Algorithms",
+    "3.2 The Growth of Functions",
+    "3.3 Complexity of Algorithms (3.3, skip the topics on Matrix multiplication, Algorithmic Paradigms)",
+    "Progress Test 2"
+  ],
+  "CLO4": [
+    "3.4 The Integers and Division (4.1, 4.5, and the topic on Classical Cryptography 4.6)",
+    "3.4 The Integers and Division (4.1, 4.5, and the topic on Classical Cryptography 4.6) (cont.)",
+    "3.5 Primes and Greatest Common Divisors (4.3)",
+    "3.5 Primes and Greatest Common Divisors (4.3) (cont.)",
+    "3.6 Intergers and Algorithms (4.2)",
+    "3.6 Intergers and Algorithms (4.2) (cont.)",
+    "Progress Test 2"
+  ],
+  "CLO5": [
+    "4.1 Mathematical Induction (5.1)",
+    "4.2 Strong Induction (5.2)",
+    "4.3 Recursive Definitions and Structural Induction (5.3)",
+    "4.3 Recursive Definitions and Structural Induction (5.3) (cont.)",
+    "4.4 Recursive Algorithms (5.4)",
+    "4.4 Recursive Algorithms (5.4) (cont.)",
+    "Progress Test 2"
+  ],
+  "CLO6": [
+    "5.1 Basic Counting Principles (6.1)",
+    "5.1 Basic Counting Principles (6.1) (continued)",
+    "Review",
+    "Progress Test 1",
+    "7.1 Recurrence Relations (8.1, skip the topic on Dynamic programming)",
+    "7.3 Divide-and-Conquer Algorithms and Recurrence Relations (8.3)",
+    "Progress Test 2"
+  ],
+  "CLO7": [
+    "9.1 Graphs and Graph Models (10.1)",
+    "9.2 Graph Terminology and Special Types of Graphs",
+    "9.3 Representing Graphs and Graph Isomorphism (10.3)",
+    "9.3 Representing Graphs and Graph Isomorphism (10.3) (cont.)",
+    "9.4 Connectivity (10.4)",
+    "9.4 Connectivity (10.4) (cont.)",
+    "9.5 Euler and Hamilton Paths (10.5)",
+    "9.5 Euler and Hamilton Paths (10.5) (cont.)",
+    "9.6 Shortest-Path Problems (10.6)",
+    "9.6 Shortest-Path Problems (10.6) (cont.)",
+    "Review",
+    "Progress Test 3"
+  ],
+  "CLO8": [
+    "10.1 Introduction to Trees (11.1)",
+    "10.1 Introduction to Trees (11.1) (cont.)",
+    "10.2 Applications of Trees (11.2)",
+    "10.2 Applications of Trees (11.2) (cont.)",
+    "10.3 Tree Traversal (11.3)",
+    "10.3 Tree Traversal (11.3) (cont.)",
+    "10.4 Spanning Trees (11.4)",
+    "10.4 Spanning Trees (11.4) (cont.)",
+    "10.5 Minimum Spanning Trees (11.5)",
+    "10.5 Minimum Spanning Trees (11.5) (cont.)",
+    "Review",
+    "Progress Test 3"
+  ]
+}

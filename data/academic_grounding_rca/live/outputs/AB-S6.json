@@ -1,0 +1,55 @@
+{
+  "selections": [
+    {
+      "claim_id": "S6-CONTEXT",
+      "claim": "ADY201m và DAP391m liệt kê Git và JupyterLab trong tools",
+      "relation": "direct",
+      "source_matches": [
+        {
+          "course_code": "ADY201m",
+          "metadata_field": "tools",
+          "source_excerpt": "Jupyter Notebooks\n- JupyterLab\n- RStudio IDE\n- Git, GitHub\n-Watson Studio."
+        },
+        {
+          "course_code": "DAP391m",
+          "metadata_field": "tools",
+          "source_excerpt": "Jupyter Notebooks\n- JupyterLab\n- RStudio IDE\n- Git, GitHub\n- Watson Studio."
+        }
+      ]
+    },
+    {
+      "claim_id": "S6-CHOICE",
+      "claim": "ADY201m yêu cầu dùng ít nhất một data-science tool",
+      "relation": "direct",
+      "source_matches": [
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO3",
+          "source_excerpt": "Know common tools used in data science and use at least one tool for basic data operations, including tool introduction and analysis workflows using Python, R, Scala, SQL, GitHub, Jupyter Notebooks, RStudio IDE, Watson Studio."
+        }
+      ]
+    },
+    {
+      "claim_id": "S6-USE",
+      "claim": "Profile xác nhận cá nhân đã dùng GitHub, JupyterLab và RStudio từng công cụ",
+      "relation": "insufficient",
+      "source_matches": [
+        {
+          "course_code": "ADY201m",
+          "metadata_field": "tools",
+          "source_excerpt": "Jupyter Notebooks\n- JupyterLab\n- RStudio IDE\n- Git, GitHub\n-Watson Studio."
+        },
+        {
+          "course_code": "DAP391m",
+          "metadata_field": "tools",
+          "source_excerpt": "Jupyter Notebooks\n- JupyterLab\n- RStudio IDE\n- Git, GitHub\n- Watson Studio."
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO3",
+          "source_excerpt": "Know common tools used in data science and use at least one tool for basic data operations, including tool introduction and analysis workflows using Python, R, Scala, SQL, GitHub, Jupyter Notebooks, RStudio IDE, Watson Studio."
+        }
+      ]
+    }
+  ]
+}

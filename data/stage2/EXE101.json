@@ -1,0 +1,137 @@
+{
+  "metadata": {
+    "syllabus_name": "Experiential Entrepreneurship 1 - Trải nghiệm khởi nghiệp 1",
+    "course_name_english": "Experiential Entrepreneurship 1",
+    "subject_code": "EXE101",
+    "description": "- This course will provide students with essential knowledge and tips on starting a start-up efficiently and effectively.\n- The course covers the most important aspects of modern entrepreneurship.\n- Students will study by watching videos shared by prolific startup founders on various topics. Each week, there will be a face-to-face session with an instructor, typically a faculty lecturer of business administration experimented in entrepreneurship, who will re-cap and check on students' understanding of the week's main topic.\nStudents are grouped into teams of 4 to 6. Each team must be formed from at least 2 different majors.\n- Each team will have to develop a startup idea and work on the project with guidance and support from instructors and mentors throughout the course.\n- There will be seminars or workshops with guest speakers who are entrepreneurs or venture capitalists, who will share their extensive experience and unique perspective in the entrepreneurial world of startups.",
+    "tools": "- Laptop computer\n- Internet\n- Meeting hall with capacity of at least 200 seats for seminars\n- Video conference platforms, such as Google Meet, Microsoft Teams, or Zoom."
+  },
+  "clos": [
+    {
+      "clo_name": "CLO1",
+      "clo_details": "Demonstrate understanding of key aspects of startup at a basic level"
+    },
+    {
+      "clo_name": "CLO2",
+      "clo_details": "Demonstrate the ability to build a right team and express effective teamwork"
+    },
+    {
+      "clo_name": "CLO3",
+      "clo_details": "Able to conduct survey and do market research"
+    },
+    {
+      "clo_name": "CLO4",
+      "clo_details": "Able to build the right product and the reasonable business model"
+    },
+    {
+      "clo_name": "CLO5",
+      "clo_details": "Able to create a preliminary pitch deck and present it convincingly"
+    }
+  ],
+  "schedule": [
+    {
+      "topic": "Week 1\nInstructor's coaching\nSpark and nurture entrepreneurial spirit\n1 offline session (2,25 hrs)",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "Week 1\nSeminar 1\n“Be Successful in Your Own Way” – Guest speaker",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "Week 2\nInstructor's coaching\nForm a Winning Team\n1 offline session (2,25 hrs)",
+      "lo": "2"
+    },
+    {
+      "topic": "Week 3\nInstructor's coaching\nDevelop and Evaluate a Startup Idea\n1 offline session (2,25 hrs)",
+      "lo": "CLO3, CLO4"
+    },
+    {
+      "topic": "Week 3\nSeminar 2\n“Choosing a Startup Idea” – Guest Speaker",
+      "lo": ""
+    },
+    {
+      "topic": "Week 3\nMentoring 1",
+      "lo": "CLO3, CLO4"
+    },
+    {
+      "topic": "Week 4\nInstructor's coaching\nUnderstand Customer and Find Market-fit\n1 offline session (2,25 hrs)",
+      "lo": "CLO3, CLO4"
+    },
+    {
+      "topic": "Week 5\nInstructor's coaching\nMarket Research\n1 offline session (2,25 hrs)",
+      "lo": "CLO3, CLO4"
+    },
+    {
+      "topic": "Week 5\nMentoring 2 (optional)",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "Week 6\nInstructor's coaching\nBuild Product\n1 offline session (2,25 hrs)",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "Week 6\nMentoring 3 (optional)",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "Week 7\nInstructor's coaching\nBusiness Model\n1 offline session (2,25 hrs)",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "Week 8\nInstructor's coaching\nFundraising\n1 offline session (2,25 hrs)",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "Week 8\nSeminar 3\nRecommended topics:\n1. How to do market research – Instructor or Guest speaker\n2. MVP and How to Shorten Time-To- Market\n3. Startup Fundraising & Venture Investment",
+      "lo": ""
+    },
+    {
+      "topic": "Week 8\nMentoring 4 (optional)",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "Week 9\nInstructor's coaching\nManage a Startup\n1 offline session (2,25 hrs)",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "Week 9\nMentoring 5",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "Week 10\nIntroduce your startup\n1 offline session (2,25 hrs)",
+      "lo": "CLO5"
+    }
+  ],
+  "assessments": [
+    {
+      "category": "Constructivism Presentations",
+      "part": "1",
+      "weight": "15.0%",
+      "clo": "all"
+    },
+    {
+      "category": "Group Assignm ent 1 (Checkp oint 1)",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": "CLO1, CLO2,"
+    },
+    {
+      "category": "Group Assignm ent 2 (Checkp oint 2)",
+      "part": "1",
+      "weight": "20.0%",
+      "clo": "CLO3"
+    },
+    {
+      "category": "Group Assignm ent 3 (Checkp oint 3)",
+      "part": "1",
+      "weight": "15.0%",
+      "clo": "CLO4"
+    },
+    {
+      "category": "Presentation (Checkp oint 4)",
+      "part": "1",
+      "weight": "40.0%",
+      "clo": "CLO5"
+    }
+  ]
+}

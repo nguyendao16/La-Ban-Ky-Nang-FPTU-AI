@@ -1,0 +1,1048 @@
+{
+  "schema_version": "stage1_v1",
+  "record_type": "combo_subject",
+  "subject": {
+    "code": "AMO301m",
+    "name": {
+      "full": "Advanced MLOps_Hoạt động học máy nâng cao",
+      "en": "Advanced MLOps",
+      "vi": "Hoạt động học máy nâng cao"
+    },
+    "semester": 8,
+    "credits": 3,
+    "prerequisite": ""
+  },
+  "syllabus": {
+    "id": "14397",
+    "name": "Advanced MLOps_Hoạt động học máy nâng cao",
+    "is_active": true,
+    "is_approved": true,
+    "decision_no": "968/QĐ-ĐHFPT dated 08/07/2026"
+  },
+  "content": {
+    "metadata": {
+      "syllabus_id": "14397",
+      "syllabus_name": "Advanced MLOps_Hoạt động học máy nâng cao",
+      "course_name_english": "Advanced MLOps",
+      "subject_code": "AMO301m",
+      "learning_teaching_method": "Offline",
+      "nocredit": "3",
+      "degree_level": "Bachelor",
+      "time_allocation": "45h (60 sessions) contact hours + 1h final exam + 104h self-study",
+      "pre_requisite": "CMO301m",
+      "description": "This course provides students with practical knowledge and skills to bridge the gap between machine learning model development and production deployment. Students will master essential Python programming for MLOps, explore the integration of DevOps practices, and build efficient microservices, including the application of high-performance languages like Rust for zero-shot classification. The curriculum covers cloud-based data engineering pipelines using AWS technologies (such as AWS Step Functions, Lambda, and SageMaker) alongside industry-standard tools like MLflow and Hugging Face for model tracking, reproducibility, and deployment. Through hands-on projects, students will gain comprehensive experience in designing, building, and managing end-to-end operational pipelines for real-world AI and ML solutions.",
+      "studenttasks": "- Students must attend at least 80% of contact slots in order to be accepted to the final examination.\n- Students are responsible for completing all exercises, assignments, and labs assigned by the instructor in class or at home, and submitting them on time.\n- Laptops are to be used in class strictly for learning purposes.\n- Students must promptly access the FU FLM at https://flm.fpt.edu.vn/ for up-to-date course information.",
+      "tools": "Python, AWS (SageMaker, Lambda, Step Functions), MLflow, Hugging Face, Rust, GitHub.",
+      "scoring_scale": "10",
+      "decisionno_mm_dd_yyyy": "968/QĐ-ĐHFPT dated 08/07/2026",
+      "isapproved": "True",
+      "note": "- The mandatory capstone project focuses on designing, implementing, and deploying an end-to-end MLOps system for a real-world machine learning application. Students progressively develop the project through four milestone reports covering infrastructure design, cloud-based data engineering, model lifecycle management, deployment, and final system integration.\n- The final mark is calculated by summing the weighted scores of: Progress Test (10%), Report 1 - Infrastructure & Pipeline Proposal (10%), Report 2 - Data Engineering & AWS Integration (10%), Report 3 - Model Tracking & Deployment (30%), Report 4 - Final System Report & Group Presentation (10%), and Final Exam - Computer-based Multiple-choice Examination (30%).\n- The Progress Test is conducted immediately after the completion of Chapters 1, 2, and 3 to evaluate students' understanding of Python programming, software engineering practices, MLOps methodology, cloud infrastructure, and AWS-based machine learning services.\n- Reports 1 to 4 are conducted as in-class group presentations with instructor evaluation and immediate feedback. Each report represents a major milestone of the capstone project and assesses students' practical implementation, documentation quality, system architecture, technical presentation, and teamwork.\n- The Final Exam is an individual computer-based multiple-choice examination administered by the examination board. The examination comprehensively evaluates theoretical knowledge and practical concepts from all course chapters, including Python foundations, MLOps methodology, cloud platforms, MLflow, Hugging Face, and production deployment. At least 70% of examination questions must differ from those used in previous semesters.\nCompletion Criteria: every assessment component > 0 AND Final Exam Score >= 4 AND Final Result >= 5.",
+      "is_scored": "True",
+      "minavgmarktopass": "5",
+      "isactive": "True",
+      "approveddate": "8/7/2026"
+    },
+    "materials": [
+      {
+        "no": "1",
+        "material_description": "Hidden Technical Debt in Machine Learning Systems",
+        "author": "D. Sculley et al.",
+        "publisher": "Google Research / NeurIPS",
+        "published_date": "2015",
+        "edition": "-",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://proceedings.neurips.cc/paper_files/paper/2015/file/86df7dcfd896fcaf2674f757a2463eba-Paper.pdf"
+      },
+      {
+        "no": "2",
+        "material_description": "Machine Learning: The High Interest Credit Card of Technical Debt",
+        "author": "D. Sculley et al.",
+        "publisher": "Google, Inc",
+        "published_date": "2022",
+        "edition": "-",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://static.googleusercontent.com/media/research.google.com/vi//pubs/archive/43146.pdf"
+      },
+      {
+        "no": "3",
+        "material_description": "Developments in MLflow: A System to Accelerate the Machine Learning Lifecycle",
+        "author": "M. Zaharia et al.",
+        "publisher": "DEEM '20",
+        "published_date": "2020",
+        "edition": "-",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://doi.org/10.1145/3399579.3399867"
+      },
+      {
+        "no": "4",
+        "material_description": "End-to-end Machine Learning using Kubeflow",
+        "author": "Johnu George et al.",
+        "publisher": "CODS-COMAD '22",
+        "published_date": "2022",
+        "edition": "-",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://doi.org/10.1145/3493700.3493768"
+      },
+      {
+        "no": "5",
+        "material_description": "TFX: A TensorFlow-Based Production-Scale Machine Learning Platform",
+        "author": "R. Baylor et al.",
+        "publisher": "KDD '17",
+        "published_date": "2017",
+        "edition": "-",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://doi.org/10.1145/3097983.3098021"
+      },
+      {
+        "no": "6",
+        "material_description": "“Everyone wants to do the model work, not the data work”: Data Cascades in High-Stakes AI",
+        "author": "J. Sambasivan et al.",
+        "publisher": "CHI '21",
+        "published_date": "2021",
+        "edition": "-",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://doi.org/10.1145/3411764.3445518"
+      },
+      {
+        "no": "7",
+        "material_description": "The ML Test Score: A Rubric for ML Production Readiness and Technical Debt Reduction",
+        "author": "E. Breck et al.",
+        "publisher": "Google Research",
+        "published_date": "2017",
+        "edition": "-",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://static.googleusercontent.com/media/research.google.com/vi//pubs/archive/aad9f93b86b7addfea4c419b9100c6cdd26cacea.pdf"
+      },
+      {
+        "no": "8",
+        "material_description": "MLOps - Definitions, Tools and Challeng",
+        "author": "Georgios Symeonidi et al.",
+        "publisher": "arXiv",
+        "published_date": "2022",
+        "edition": "-",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "arXiv:2201.00162"
+      },
+      {
+        "no": "9",
+        "material_description": "Model Cards for Model Reporting",
+        "author": "M. Mitchell et al.",
+        "publisher": "arXiv",
+        "published_date": "2019",
+        "edition": "-",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "arXiv:1810.03993"
+      },
+      {
+        "no": "10",
+        "material_description": "Datasheets for Datasets",
+        "author": "T. Gebru et al.",
+        "publisher": "CACM / arXiv",
+        "published_date": "2021",
+        "edition": "-",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "arXiv:1803.09010"
+      },
+      {
+        "no": "11",
+        "material_description": "AWS Well-Architected Machine Learning Lens",
+        "author": "Amazon Web Services",
+        "publisher": "AWS",
+        "published_date": "2024",
+        "edition": "-",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "AWS Official Documentation"
+      },
+      {
+        "no": "12",
+        "material_description": "Amazon SageMaker Developer Guide",
+        "author": "Amazon Web Services",
+        "publisher": "AWS",
+        "published_date": "2024",
+        "edition": "-",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "Official Documentation"
+      }
+    ],
+    "clos": [
+      {
+        "no": "1",
+        "clo_name": "CLO1",
+        "clo_details": "Understand the core concepts of Python programming, advanced data structures, and their specific applications within MLOps workflows."
+      },
+      {
+        "no": "2",
+        "clo_name": "CLO2",
+        "clo_details": "Apply clean coding practices, modern testing frameworks, and efficient data manipulation using Pandas and NumPy for machine learning data readiness."
+      },
+      {
+        "no": "3",
+        "clo_name": "CLO3",
+        "clo_details": "Understand the fundamental principles of MLOps, DevOps, and DataOps methodologies, including their importance in the software development lifecycle."
+      },
+      {
+        "no": "4",
+        "clo_name": "CLO4",
+        "clo_details": "Design and compose software solutions using microservices architectures and automated operations pipelines to support scalable machine learning applications."
+      },
+      {
+        "no": "5",
+        "clo_name": "CLO5",
+        "clo_details": "Understand the principles of ethical AI and the application of high-performance languages like Rust for zero-shot classification and efficient processing."
+      },
+      {
+        "no": "6",
+        "clo_name": "CLO6",
+        "clo_details": "Understand cloud-based data engineering architectures, including data ingestion, repository creation, and secure data transformation solutions."
+      },
+      {
+        "no": "7",
+        "clo_name": "CLO7",
+        "clo_details": "Apply cloud technologies (such as AWS Step Functions, AWS Lambda, and Amazon SageMaker) to build, monitor, and automate end-to-end data engineering and modeling pipelines."
+      },
+      {
+        "no": "8",
+        "clo_name": "CLO8",
+        "clo_details": "Understand the fundamentals of MLflow, including the Tracking UI, model registries, and artifact management via APIs."
+      },
+      {
+        "no": "9",
+        "clo_name": "CLO9",
+        "clo_details": "Apply MLflow and Hugging Face modules to package reproducible machine learning projects and deploy pre-trained models efficiently."
+      },
+      {
+        "no": "10",
+        "clo_name": "CLO10",
+        "clo_details": "Implement an end-to-end Advanced MLOps project that includes infrastructure setup, automated data pipelines, model tracking, cloud deployment, and reporting."
+      }
+    ],
+    "schedule": [
+      {
+        "session": "1",
+        "topic": "Course Introduction & MLOps Overview",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO10",
+        "itu": "T",
+        "student_materials": "- Slides: Intro",
+        "s_download": "AMO301m",
+        "student_tasks": "Read syllabus & introduction",
+        "urls": ""
+      },
+      {
+        "session": "2",
+        "topic": "1.1. Introduction to MLOps Concepts & Python Foundations for MLOps",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO9",
+        "itu": "T",
+        "student_materials": "- Slides: Chapter 1.1",
+        "s_download": "AMO301m",
+        "student_tasks": "Read Chapter 1.1",
+        "urls": ""
+      },
+      {
+        "session": "3",
+        "topic": "1.2. Functional & Object-Oriented Programming for MLOps Pipelines",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO9",
+        "itu": "T",
+        "student_materials": "- Slides: Chapter 1.2",
+        "s_download": "AMO301m",
+        "student_tasks": "Read Chapter 1.2",
+        "urls": ""
+      },
+      {
+        "session": "4",
+        "topic": "1.3. Software Testing, Code Quality & Frameworks for MLOps",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2, CLO9",
+        "itu": "T",
+        "student_materials": "- Slides: Chapter 1.3",
+        "s_download": "AMO301m",
+        "student_tasks": "Read Chapter 1.3",
+        "urls": ""
+      },
+      {
+        "session": "5",
+        "topic": "1.4. Data Engineering Foundations & Pipeline Processing with Pandas & NumPy",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2, CLO9",
+        "itu": "T",
+        "student_materials": "- Slides: Chapter 1.4",
+        "s_download": "",
+        "student_tasks": "Read Chapter 1.4",
+        "urls": ""
+      },
+      {
+        "session": "6",
+        "topic": "1.5. Applied Python Workflows for MLOps",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO2",
+        "itu": "T",
+        "student_materials": "- Slides: Chapter 1.5",
+        "s_download": "",
+        "student_tasks": "Read Chapter 1.5",
+        "urls": ""
+      },
+      {
+        "session": "7",
+        "topic": "Discussion on Project Topics & Infrastructure",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO10",
+        "itu": "U",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "Group discussion",
+        "urls": ""
+      },
+      {
+        "session": "8",
+        "topic": "Formation of Teams and Group Agreement",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO10",
+        "itu": "U",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "Group discussion",
+        "urls": ""
+      },
+      {
+        "session": "9",
+        "topic": "Report 1: Infrastructure & Pipeline Proposal Discussion",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO10",
+        "itu": "U",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "Prepare proposal",
+        "urls": ""
+      },
+      {
+        "session": "10",
+        "topic": "2.1. Introduction to MLOps Methodology",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3, CLO9",
+        "itu": "T",
+        "student_materials": "- Slides: Chapter 2.1",
+        "s_download": "",
+        "student_tasks": "Read Chapter 2.1",
+        "urls": ""
+      },
+      {
+        "session": "11",
+        "topic": "2.2. Essential Math & Data Science Foundations",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3, CLO9",
+        "itu": "T",
+        "student_materials": "- Slides: Chapter 2.2",
+        "s_download": "",
+        "student_tasks": "Read Chapter 2.2",
+        "urls": ""
+      },
+      {
+        "session": "12",
+        "topic": "2.3. Principles of Operations Pipelines",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4, CLO9",
+        "itu": "T",
+        "student_materials": "- Slides: Chapter 2.3",
+        "s_download": "",
+        "student_tasks": "Read Chapter 2.3",
+        "urls": ""
+      },
+      {
+        "session": "13",
+        "topic": "2.4. End-to-End MLOps & AIOps Architecture",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4, CLO9",
+        "itu": "T",
+        "student_materials": "- Slides: Chapter 2.4",
+        "s_download": "",
+        "student_tasks": "Read Chapter 2.4",
+        "urls": ""
+      },
+      {
+        "session": "14",
+        "topic": "2.5. Rust for MLOps Zero Shot Classification (HF)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO5, CLO9",
+        "itu": "T",
+        "student_materials": "- Slides: Chapter 2.5",
+        "s_download": "",
+        "student_tasks": "Read Chapter 2.5",
+        "urls": ""
+      },
+      {
+        "session": "15",
+        "topic": "2.6. High-Performance Rust for MLOps",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO5, CLO9",
+        "itu": "T",
+        "student_materials": "- Slides: Chapter 2.6",
+        "s_download": "",
+        "student_tasks": "Read Chapter 2.6",
+        "urls": ""
+      },
+      {
+        "session": "16",
+        "topic": "Team Meeting: Report 1 Writing & Review",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO10",
+        "itu": "U",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "Write Report 1",
+        "urls": ""
+      },
+      {
+        "session": "17",
+        "topic": "Team Meeting: Report 1 Writing & Review",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO10",
+        "itu": "U",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "Write Report 1",
+        "urls": ""
+      },
+      {
+        "session": "18",
+        "topic": "Team Meeting: Instructor's Feedback for Report 1",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO10",
+        "itu": "U",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "Adjust Report 1",
+        "urls": ""
+      },
+      {
+        "session": "19",
+        "topic": "Team Meeting: Instructor's Feedback for Report 1",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO10",
+        "itu": "U",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "Adjust Report 1",
+        "urls": ""
+      },
+      {
+        "session": "20",
+        "topic": "Team Meeting: Instructor's Feedback for Report 1",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO10",
+        "itu": "U",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "Adjust Report 1",
+        "urls": ""
+      },
+      {
+        "session": "21",
+        "topic": "Team Meeting: Instructor's Feedback for Report 1",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO10",
+        "itu": "U",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "Adjust Report 1",
+        "urls": ""
+      },
+      {
+        "session": "22",
+        "topic": "Team Meeting: Report 2 Data Pipeline Setup",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO10",
+        "itu": "U",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "Design data pipeline",
+        "urls": ""
+      },
+      {
+        "session": "23",
+        "topic": "3.1. Amazon SageMaker and Azure ML Platforms",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO6, CLO9",
+        "itu": "T",
+        "student_materials": "- Slides: Chapter 3.1",
+        "s_download": "",
+        "student_tasks": "Read Chapter 3.1",
+        "urls": ""
+      },
+      {
+        "session": "24",
+        "topic": "3.2. Exploratory Data Analysis with AWS Technology",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO6, CLO9",
+        "itu": "T",
+        "student_materials": "- Slides: Chapter 3.2",
+        "s_download": "",
+        "student_tasks": "Read Chapter 3.2",
+        "urls": ""
+      },
+      {
+        "session": "25",
+        "topic": "3.3. Core Modeling with AWS Cloud Technology",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO7, CLO9",
+        "itu": "T",
+        "student_materials": "- Slides: Chapter 3.3",
+        "s_download": "",
+        "student_tasks": "Read Chapter 3.3",
+        "urls": ""
+      },
+      {
+        "session": "26",
+        "topic": "3.4. Production MLOps with AWS Technology",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO7, CLO9",
+        "itu": "T",
+        "student_materials": "- Slides: Chapter 3.4",
+        "s_download": "",
+        "student_tasks": "Read Chapter 3.4",
+        "urls": ""
+      },
+      {
+        "session": "27",
+        "topic": "AWS Lab: Data Ingestion with AWS Lambda",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO6, CLO7",
+        "itu": "T",
+        "student_materials": "- Lab Guideline",
+        "s_download": "",
+        "student_tasks": "Complete Lab",
+        "urls": ""
+      },
+      {
+        "session": "28",
+        "topic": "AWS Lab: Data Transformation with Step Functions",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO6, CLO7",
+        "itu": "T",
+        "student_materials": "- Lab Guideline",
+        "s_download": "",
+        "student_tasks": "Complete Lab",
+        "urls": ""
+      },
+      {
+        "session": "29",
+        "topic": "Team Meeting: Report 2 AWS Integration",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO10",
+        "itu": "U",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "Implement AWS tasks",
+        "urls": ""
+      },
+      {
+        "session": "30",
+        "topic": "Team Meeting: Report 2 AWS Integration",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO10",
+        "itu": "U",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "Implement AWS tasks",
+        "urls": ""
+      },
+      {
+        "session": "31",
+        "topic": "Team Meeting: Instructor's Feedback for Report 2",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO10",
+        "itu": "U",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "Adjust Report 2",
+        "urls": ""
+      },
+      {
+        "session": "32",
+        "topic": "Team Meeting: Instructor's Feedback for Report 2",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO10",
+        "itu": "U",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "Adjust Report 2",
+        "urls": ""
+      },
+      {
+        "session": "33",
+        "topic": "Team Meeting: Instructor's Feedback for Report 2",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO10",
+        "itu": "U",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "Adjust Report 2",
+        "urls": ""
+      },
+      {
+        "session": "34",
+        "topic": "Progress Test",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6",
+        "itu": "T",
+        "student_materials": "- Review slides Ch1,2,3",
+        "s_download": "",
+        "student_tasks": "Take the test",
+        "urls": ""
+      },
+      {
+        "session": "35",
+        "topic": "4.1. Introduction to MLflow Module",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO8, CLO9",
+        "itu": "T",
+        "student_materials": "- Slides: Chapter 4.1",
+        "s_download": "",
+        "student_tasks": "Read Chapter 4.1",
+        "urls": ""
+      },
+      {
+        "session": "36",
+        "topic": "4.2. Understanding the MLflow Tracking UI",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO8, CLO9",
+        "itu": "T",
+        "student_materials": "- Slides: Chapter 4.2",
+        "s_download": "",
+        "student_tasks": "Read Chapter 4.2",
+        "urls": ""
+      },
+      {
+        "session": "37",
+        "topic": "4.3. Working with MLflow Projects for Reproducibility",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO9",
+        "itu": "T",
+        "student_materials": "- Slides: Chapter 4.3",
+        "s_download": "",
+        "student_tasks": "Read Chapter 4.3",
+        "urls": ""
+      },
+      {
+        "session": "38",
+        "topic": "4.4. Model Registry and Interaction via API",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO8, CLO9",
+        "itu": "T",
+        "student_materials": "- Slides: Chapter 4.4",
+        "s_download": "",
+        "student_tasks": "Read Chapter 4.4",
+        "urls": ""
+      },
+      {
+        "session": "39",
+        "topic": "4.5. Reference Artifacts from MLflow API",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO8, CLO9",
+        "itu": "T",
+        "student_materials": "- Slides: Chapter 4.5",
+        "s_download": "",
+        "student_tasks": "Read Chapter 4.5",
+        "urls": ""
+      },
+      {
+        "session": "40",
+        "topic": "4.6. Introduction to Hugging Face Modules",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO9",
+        "itu": "T",
+        "student_materials": "- Slides: Chapter 4.6",
+        "s_download": "",
+        "student_tasks": "Read Chapter 4.6",
+        "urls": ""
+      },
+      {
+        "session": "41",
+        "topic": "4.7. Deploying Hugging Face Models",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO9",
+        "itu": "T",
+        "student_materials": "- Slides: Chapter 4.7",
+        "s_download": "",
+        "student_tasks": "Read Chapter 4.7",
+        "urls": ""
+      },
+      {
+        "session": "42",
+        "topic": "4.8. Integration of MLflow and Hugging Face",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO8, CLO9",
+        "itu": "T",
+        "student_materials": "- Slides: Chapter 4.8",
+        "s_download": "",
+        "student_tasks": "Read Chapter 4.8",
+        "urls": ""
+      },
+      {
+        "session": "43",
+        "topic": "Hands-on Lab: Tracking Runs and Model Registration",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO8, CLO9",
+        "itu": "T",
+        "student_materials": "- Lab Guideline",
+        "s_download": "",
+        "student_tasks": "Complete Lab",
+        "urls": ""
+      },
+      {
+        "session": "44",
+        "topic": "Hands-on Lab: Deploying Models to Production API",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO8, CLO9",
+        "itu": "T",
+        "student_materials": "- Lab Guideline",
+        "s_download": "",
+        "student_tasks": "Complete Lab",
+        "urls": ""
+      },
+      {
+        "session": "45",
+        "topic": "Team Meeting: Report 3 Model Tracking Setup",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO10",
+        "itu": "U",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "Implement Tracking",
+        "urls": ""
+      },
+      {
+        "session": "46",
+        "topic": "Team Meeting: Report 3 Integration & Results",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO10",
+        "itu": "U",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "Collect Results",
+        "urls": ""
+      },
+      {
+        "session": "47",
+        "topic": "Team Meeting: Report 3 Integration & Results",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO10",
+        "itu": "U",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "Collect Results",
+        "urls": ""
+      },
+      {
+        "session": "48",
+        "topic": "Team Meeting: Instructor's Feedback for Report 3",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO10",
+        "itu": "U",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "Adjust Report 3",
+        "urls": ""
+      },
+      {
+        "session": "49",
+        "topic": "Team Meeting: Instructor's Feedback for Report 3",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO10",
+        "itu": "U",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "Adjust Report 3",
+        "urls": ""
+      },
+      {
+        "session": "50",
+        "topic": "Team Meeting: Instructor's Feedback for Report 3",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO10",
+        "itu": "U",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "Adjust Report 3",
+        "urls": ""
+      },
+      {
+        "session": "51",
+        "topic": "Team Meeting: Instructor's Feedback for Report 3",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO10",
+        "itu": "U",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "Adjust Report 3",
+        "urls": ""
+      },
+      {
+        "session": "52",
+        "topic": "Team Meeting: Report 4 Final System Packaging",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO10",
+        "itu": "U",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "Package System",
+        "urls": ""
+      },
+      {
+        "session": "53",
+        "topic": "Team Meeting: Report 4 Final System Packaging",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO10",
+        "itu": "U",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "Package System",
+        "urls": ""
+      },
+      {
+        "session": "54",
+        "topic": "Team Meeting: Practice for Presentation (Report 4)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO10",
+        "itu": "U",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "Slide Preparation",
+        "urls": ""
+      },
+      {
+        "session": "55",
+        "topic": "Team Meeting: Practice for Presentation (Report 4)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO10",
+        "itu": "U",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "Slide Preparation",
+        "urls": ""
+      },
+      {
+        "session": "56",
+        "topic": "Team Meeting: Practice for Presentation (Report 4)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO10",
+        "itu": "U",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "Mock Presentation",
+        "urls": ""
+      },
+      {
+        "session": "57",
+        "topic": "Team Meeting: Practice for Presentation (Report 4)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO10",
+        "itu": "U",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "Mock Presentation",
+        "urls": ""
+      },
+      {
+        "session": "58",
+        "topic": "Team Meeting: Final System Testing & Debugging",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO10",
+        "itu": "U",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "Final Testing",
+        "urls": ""
+      },
+      {
+        "session": "59",
+        "topic": "Team Meeting: Final System Testing & Debugging",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO10",
+        "itu": "U",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "Final Testing",
+        "urls": ""
+      },
+      {
+        "session": "60",
+        "topic": "Course Review & Project Final Evaluation",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8, CLO9",
+        "itu": "U",
+        "student_materials": "- Syllabus MLP301",
+        "s_download": "",
+        "student_tasks": "Review full course content",
+        "urls": ""
+      }
+    ],
+    "assessments": [
+      {
+        "no": "1",
+        "category": "Progress Test",
+        "type": "on-going",
+        "part": "1",
+        "weight": "10.0%",
+        "completion_criteria": ">0",
+        "duration": "Week 15 (45')",
+        "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6",
+        "question_type": "Computer-based multiple-choice test",
+        "no_question": "30",
+        "knowledge_and_skill": "MLOps foundations, Python engineering standards, testing frameworks, MLOps methodology, cloud ML services (AWS/SageMaker), MLflow experiment tracking & model registry, Hugging Face integration, and infrastructure automation (Chapters 1–4).",
+        "grading_guide": "Conducted in class using the LMS/Computer-based system; automatically graded and reviewed by instructor.",
+        "note": "Test schedule is announced in the Course Implementation Plan. The instructor reviews test results and discusses common mistakes with students. Moved to Slot 45 after theory & hands-on labs."
+      },
+      {
+        "no": "2",
+        "category": "Report 1: Infrastructure & Pipeline Proposal",
+        "type": "on-going",
+        "part": "1",
+        "weight": "5.0%",
+        "completion_criteria": ">0",
+        "duration": "Weeks 3–7",
+        "clo": "CLO1, CLO2, CLO3, CLO10",
+        "question_type": "Written proposal + oral group presentation",
+        "no_question": "1",
+        "knowledge_and_skill": "Problem definition, system architecture, MLOps pipeline design, development workflow, technology stack selection, project repository structure, infrastructure planning, and project management strategy.",
+        "grading_guide": "Submitted via LMS followed by an in-class presentation evaluated using the Proposal rubric.",
+        "note": "AI-use disclosure is mandatory. Instructor provides immediate feedback after presentation."
+      },
+      {
+        "no": "3",
+        "category": "Report 2: Data Engineering & AWS Integration",
+        "type": "on-going",
+        "part": "1",
+        "weight": "10.0%",
+        "completion_criteria": ">0",
+        "duration": "Weeks 8–11",
+        "clo": "CLO4, CLO6, CLO7, CLO10",
+        "question_type": "Technical report + AWS implementation demonstration + oral presentation",
+        "no_question": "1",
+        "knowledge_and_skill": "Automated data ingestion, ETL pipeline design, AWS Lambda, Step Functions, SageMaker integration, cloud resource management, data validation, reproducible workflows, and infrastructure deployment.",
+        "grading_guide": "Submitted via LMS together with source code and demonstrated in class through an oral presentation.",
+        "note": "Cloud resources configuration files, and deployment scripts must be reproducible. Instructor provides immediate feedback after evaluation."
+      },
+      {
+        "no": "4",
+        "category": "Report 3: Model Tracking & Deployment",
+        "type": "on-going",
+        "part": "1",
+        "weight": "15.0%",
+        "completion_criteria": ">0",
+        "duration": "Weeks 12–16",
+        "clo": "CLO8, CLO9, CLO10",
+        "question_type": "Technical report + working system + live demonstration + oral presentation",
+        "no_question": "1",
+        "knowledge_and_skill": "MLflow experiment tracking, model registry, reproducibility, artifact management, Hugging Face integration, model serving, REST API deployment, production monitoring, project evaluation metrics, and deployment results.",
+        "grading_guide": "Submitted via LMS together with complete implementation. The live system/REST API and deployment are evaluated using the project rubric.",
+        "note": "AI-use disclosure is mandatory. System must be executable and reproducible. Instructor provides immediate feedback after presentation."
+      },
+      {
+        "no": "5",
+        "category": "Report 4: Final System Report & Group Presentation",
+        "type": "on-going",
+        "part": "1",
+        "weight": "30.0%",
+        "completion_criteria": ">0",
+        "duration": "Weeks 17–20",
+        "clo": "CLO1, CLO4, CLO7, CLO9, CLO10",
+        "question_type": "Final technical report + complete source code repository + documentation + presentation",
+        "no_question": "1",
+        "knowledge_and_skill": "Complete end-to-end MLOps solution including infrastructure, cloud deployment, CI/CD pipeline, experiment tracking, model deployment, monitoring, system evaluation, project documentation, limitations, and future improvements.",
+        "grading_guide": "Submitted via LMS and presented in class. Evaluated by instructor using the Final rubric.",
+        "note": "AI-use disclosure is mandatory. Each team member must provide an individual contribution statement. Complete documentation and reproducibility guideline are required."
+      },
+      {
+        "no": "6",
+        "category": "Final Exam (Computer-based Multiple-choice Examination)",
+        "type": "Final exam",
+        "part": "1",
+        "weight": "30.0%",
+        "completion_criteria": "4",
+        "duration": "60'",
+        "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8, CLO9",
+        "question_type": "Computer-based multiple-choice examination",
+        "no_question": "50",
+        "knowledge_and_skill": "Comprehensive assessment covering MLOps concepts & Python engineering foundations, testing & code quality, MLOps methodology, operations pipelines, cloud platforms (AWS SageMaker), automated data engineering, MLflow tracking/registry, Hugging Face deployment, reproducibility, and production MLOps concepts.",
+        "grading_guide": "Conducted by the examination board on university computer system.",
+        "note": "Examination questions must be updated with at least 70% new questions compared with previous semesters. Individual assessment only."
+      }
+    ]
+  },
+  "combo": {
+    "family": "AI17_COM",
+    "code": "AI17_COM5",
+    "name": "Topic on Machine Learning Operations_Chủ đề Hoạt động học máy",
+    "title": "AI17_COM5: Topic on Machine Learning Operations_Chủ đề Hoạt động học máy",
+    "note": "",
+    "slot": {
+      "code": "AI17_COM*4",
+      "alias": "AI17_COM_4",
+      "number": 4,
+      "name": {
+        "full": "Subject 4 of Combo*_Học phần 4 của combo*",
+        "en": "Subject 4 of Combo*",
+        "vi": "Học phần 4 của combo*"
+      }
+    },
+    "row_note": ""
+  },
+  "source": {
+    "raw_file": "flm_output/subjects/AI17_COM_4.json",
+    "curriculum_url": "https://flm.fpt.edu.vn/gui/role/student/CurriculumDetails?curid=3173",
+    "pre_syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/Syllabuses?subCode=AI17_COM%2A4&curriculumID=3173",
+    "syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=14397",
+    "details_source_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=14397"
+  },
+  "crawl": {
+    "error": null
+  },
+  "quality": {
+    "has_syllabus": true,
+    "counts": {
+      "materials": 12,
+      "clos": 10,
+      "schedule": 60,
+      "assessments": 6
+    },
+    "warnings": []
+  }
+}

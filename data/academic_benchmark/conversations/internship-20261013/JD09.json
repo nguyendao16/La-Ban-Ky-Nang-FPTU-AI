@@ -1,0 +1,120 @@
+{
+  "origin": "live",
+  "case_id": "JD09",
+  "session_id": "d14785da1ebe4eb9a8bcba529d8091b3",
+  "profile_sha256": "99f34048ed8c3d11ed972fa0a97476aa7fba6f071ad8aea454bb66b6b5c2eca1",
+  "jd_sha256": "117935284fba3aab3729f5fb4f0eb3f4ef1caefff8d33f01f1f287581bf705c4",
+  "review_sha256": "b74e2740a0ea59eb69ce59b22936822d19225fa1cf9d2d0dcfa972484788b437",
+  "turns": [
+    {
+      "turn": 1,
+      "user": "Với JD này thì những kiến thức nào mình đã học ở trường có liên quan nhất?",
+      "response": {
+        "reply": "Các kiến thức bạn đã học ở trường liên quan nhất đến JD AI/ML Engineering Intern này gồm:\n\n1. Học máy (Machine Learning): Bạn đã học về hồi quy tuyến tính, phân loại, các chỉ số đánh giá mô hình, xử lý dữ liệu mất cân bằng, và các quy trình dự án học máy. Những nội dung này được thể hiện rõ qua các CLO như MAI391/CLO5 (hồi quy tuyến tính, overfitting, Bayesian linear regression), AIL303m/CLO4, CLO5 (supervised learning, logistic regression, error metrics), và AIL303m/CLO6 (oversampling/undersampling).\n\n2. Quy trình dự án khoa học dữ liệu/học máy: Bạn đã thực hiện các dự án nhỏ về khoa học dữ liệu hoặc học máy, bao gồm các bước: thu thập dữ liệu, xử lý, phân tích, xây dựng mô hình, đánh giá, báo cáo kết quả (DAP391m/CLO7, ADY201m/CLO7). Ngoài ra, ADY201m/CLO4 còn mô tả quy trình khoa học dữ liệu tổng thể.\n\n3. Lập trình Python và SQL: Bạn đã học lập trình Python từ cơ bản đến hướng đối tượng, thao tác file, cấu trúc dữ liệu Python (PFP191/CLO1-7). Về SQL, bạn đã học và thực hành SQL (DDL, DML, T-SQL) trên Microsoft SQL Server ở mức cơ bản (DBI202/CLO5, CLO6), và sử dụng SQL trong dự án khoa học dữ liệu (ADY201m/CLO1, CLO7).\n\n4. Cấu trúc dữ liệu và giải thuật: Bạn đã học về các cấu trúc dữ liệu cơ bản (list, stack, queue, tree, BST), thuật toán sắp xếp, tìm kiếm, đồ thị, thuật toán tìm đường đi ngắn nhất (Dijkstra), cây bao trùm nhỏ nhất (Prim, Kruskal) qua các CLO của CSD203 và MAD101.\n\n5. Toán học, xác suất-thống kê: Bạn có nền tảng vững chắc về giải tích, đại số tuyến tính, xác suất, thống kê, tối ưu hóa, phân tích dữ liệu, hồi quy, PCA, SVM... (MAI391, MAS291, MAE101).\n\nNhững kiến thức này đều là nền tảng quan trọng cho vị trí AI/ML Engineering Intern, giúp bạn đáp ứng tốt các yêu cầu về xây dựng mô hình, phân tích dữ liệu, lập trình, và hiểu các quy trình học máy hiện đại.",
+        "evidence": [
+          {
+            "course_code": "MAI391",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "AIL303m",
+            "clo": "CLO4"
+          },
+          {
+            "course_code": "AIL303m",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "AIL303m",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "DAP391m",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO4"
+          },
+          {
+            "course_code": "PFP191",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "DBI202",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO1"
+          },
+          {
+            "course_code": "CSD203",
+            "clo": "CLO1"
+          },
+          {
+            "course_code": "MAD101",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "MAI391",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          },
+          {
+            "course_code": "MAE101",
+            "clo": "CLO5"
+          }
+        ]
+      },
+      "request_artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD09-1.json"
+    },
+    {
+      "turn": 2,
+      "user": "So với JD thì những nội dung nào mình còn thiếu hoặc chưa được hồ sơ xác nhận?",
+      "response": {
+        "reply": "So với JD AI/ML Engineering Intern này, các nội dung sau chưa được hồ sơ học thuật xác nhận trực tiếp:\n\n1. Spark hoặc các big-data framework khác: Không có CLO nào xác nhận bạn đã học hoặc thực hành Spark, Hadoop, hay bất kỳ big-data framework nào.\n\n2. Các công nghệ, framework và dịch vụ trong stack của nhà tuyển dụng: Hồ sơ chưa xác nhận việc học hoặc sử dụng các công nghệ như PyTorch, TensorFlow, sklearn, Flask, FastAPI, MLFlow, SageMaker, Airflow, Databricks, Docker, Kubernetes, Redis, Kafka.\n\n3. Kinh nghiệm triển khai mô hình ML thực tế (production deployment) và kiến trúc hệ thống ML production: Các CLO về dự án học máy (DAP391m/CLO7, ADY201m/CLO7) chỉ xác nhận triển khai dự án học thuật, chưa xác nhận kinh nghiệm triển khai mô hình ở môi trường sản xuất thực tế hoặc xây dựng pipeline, monitoring, CI/CD.\n\n4. Một số khái niệm nâng cao về học máy: Hồ sơ chưa xác nhận rõ về kiến thức ensemble methods (bagging, boosting, stacking) và cross-validation, dù các nội dung về hồi quy, phân loại, đánh giá mô hình đã được học.\n\n5. Ngôn ngữ Java hoặc Scala: Bạn đã học Python và SQL, nhưng chưa có CLO nào xác nhận Java hoặc Scala.\n\nNếu bạn đã tự học hoặc có kinh nghiệm thực tế với các công nghệ hoặc chủ đề trên ngoài chương trình học, hồ sơ hiện tại chưa phản ánh được điều đó. Đây là những mảng bạn có thể cân nhắc bổ sung hoặc kiểm tra lại nếu muốn đáp ứng đầy đủ hơn các yêu cầu của JD này.",
+        "evidence": [
+          {
+            "course_code": "DAP391m",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO7"
+          }
+        ]
+      },
+      "request_artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD09-2.json"
+    },
+    {
+      "turn": 3,
+      "user": "Nếu mình nói đã học PCA, SVM và hồi quy thì phải dựa vào CLO nào, có đồng nghĩa đã dùng PyTorch không?",
+      "response": {
+        "reply": "Nếu bạn nói đã học PCA, SVM và hồi quy thì có thể dựa vào các CLO sau:\n\n- Hồi quy (Linear Regression): MAI391/CLO5 xác nhận bạn đã học về hồi quy tuyến tính, các phương pháp ước lượng tham số, overfitting, Bayesian linear regression.\n- PCA (Principal Component Analysis): MAI391/CLO6 xác nhận bạn đã học về giảm chiều dữ liệu với PCA, bao gồm các khái niệm về ma trận hiệp phương sai, không gian con chính, xấp xỉ ma trận hạng thấp, và các bước thực hành PCA.\n- SVM (Support Vector Machine): MAI391/CLO7 xác nhận bạn đã học về phân loại bằng SVM, bao gồm hyperplane, SVM tuyến tính và kernel, các phương pháp giải số để tìm nghiệm tối ưu.\n\nViệc các CLO này xác nhận bạn đã học PCA, SVM và hồi quy không đồng nghĩa với việc bạn đã sử dụng PyTorch. Các CLO trên chỉ mô tả về lý thuyết, thuật toán và ứng dụng các phương pháp này, không đề cập đến việc triển khai bằng PyTorch hay bất kỳ deep learning framework cụ thể nào. Nếu JD yêu cầu kinh nghiệm với PyTorch, bạn cần có bằng chứng học thuật hoặc dự án cụ thể về việc sử dụng framework này.",
+        "evidence": [
+          {
+            "course_code": "MAI391",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "MAI391",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "MAI391",
+            "clo": "CLO7"
+          }
+        ]
+      },
+      "request_artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD09-3.json"
+    }
+  ]
+}

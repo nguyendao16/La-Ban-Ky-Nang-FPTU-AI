@@ -1,0 +1,18 @@
+[
+  {
+    "clo_name": "CLO1",
+    "clo_details": "Understand what is data mining and what are key components of the data mining pipeline"
+  },
+  {
+    "clo_name": "CLO2",
+    "clo_details": "Learn and apply one of the basic core of data mining: data visualization"
+  },
+  {
+    "clo_name": "CLO3",
+    "clo_details": "Understand and apply one subtield in data mining: patern discovery, practice with the data visualization of data mining"
+  },
+  {
+    "clo_name": "CLO4",
+    "clo_details": "Apply another subtield in data mining: cluster analysis"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "category": "Progress Test",
+    "part": "3",
+    "weight": "30.0%",
+    "clo": "PT 1: LO1, LO2, LO6\nPT 2: LO3, LO4, LO5, LO6\nPT 3: LO7, LO8"
+  },
+  {
+    "category": "Assignments/Exercises",
+    "part": "2",
+    "weight": "20.0%",
+    "clo": "Assignment 1: LO1, LO2, LO6\nAssignment 2: LO3, LO4, LO5, LO6"
+  },
+  {
+    "category": "Programming Assignment",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "LO3, LO4, LO7, LO8"
+  },
+  {
+    "category": "Final Exam",
+    "part": "1",
+    "weight": "40.0%",
+    "clo": ""
+  }
+]

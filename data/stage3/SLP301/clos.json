@@ -1,0 +1,22 @@
+[
+  {
+    "clo_name": "CLO1",
+    "clo_details": "Gain a comprehensive understanding of fundamental principles in processing speech signals, covering digital signal processing (DSP) methods, feature extraction, and speech signal analysis"
+  },
+  {
+    "clo_name": "CLO2",
+    "clo_details": "Develop expertise in speech recognition and synthesis, exploring and applying various algorithms for automatic speech recognition (ASR) and speech synthesis, including rule-based and statistical approaches"
+  },
+  {
+    "clo_name": "CLO3",
+    "clo_details": "Apply relevant machine learning algorithms and models to address speech-processing challenges, including feature extraction, classification, and other tasks within the speech context"
+  },
+  {
+    "clo_name": "CLO4",
+    "clo_details": "Acquire practical skills by using and implementing widely-used speech-processing tools, software, libraries, and frameworks, such as Praat, HTK, or other relevant platforms"
+  },
+  {
+    "clo_name": "CLO5",
+    "clo_details": "Demonstrate the ability to assess speech-processing system performance, applying appropriate metrics to evaluate accuracy and efficiency in speech recognition and synthesis models. Critically analyze the strengths and limitations of various approaches"
+  }
+]

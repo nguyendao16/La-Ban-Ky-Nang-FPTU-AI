@@ -1,0 +1,17 @@
+{
+  "reply": "Trong CPV301, ba chủ đề này nằm ở hai chỗ khác nhau:\n\n- **Mô tả môn học (course description)** nêu rõ phạm vi học phần có “**object detection, object recognition, and object tracking**”. Đây là bằng chứng về **phạm vi chương trình học**.\n- **CPV301/CLO8** ghi: “**Understand and implement object detection techniques**” — đây là chỗ có động từ **implement** cho **object detection**.\n- **CPV301/CLO9** ghi: “**Explain the principles of face recognition and object tracking techniques**” — ở đây động từ học tập là **explain**, không phải implement.\n\nVì vậy, nếu hỏi “động từ học tập có xác nhận triển khai cả ba không?” thì câu trả lời là **không**. Hồ sơ chỉ xác nhận **implement object detection** ở CLO8; còn **face recognition** và **object tracking** ở CLO9 chỉ được xác nhận ở mức **explain the principles**. Nói ngắn gọn: **triển khai trực tiếp được xác nhận cho object detection, còn face recognition và object tracking thì chưa có CLO nào ghi implement**.",
+  "evidence": [
+    {
+      "course_code": "CPV301",
+      "metadata_field": "description"
+    },
+    {
+      "course_code": "CPV301",
+      "clo": "CLO8"
+    },
+    {
+      "course_code": "CPV301",
+      "clo": "CLO9"
+    }
+  ]
+}

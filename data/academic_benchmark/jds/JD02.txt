@@ -1,0 +1,7 @@
+FPT Software — Intern AI / Perception Engineer
+Role-specific responsibilities: Develop real-time object-detection pipelines; work with PyTorch, ONNX, TensorRT and OpenCV; deploy models on Jetson.
+Shared qualifications: Final-year students or recent graduates in IT, Computer Science, AI, Robotics, Embedded or Mechatronics; basic Python / C++ knowledge (source slash retained); interest in learning AI, CV, Robotics or UAV.
+Preferred: A personal project.
+Learning opportunities: Real AI/autonomous-system projects and engineer mentoring.
+Only the AI/Perception sub-position is represented. Tracking/CV Logic and UAV Control responsibilities belong to different roles and are excluded.
+Source-grounded research paraphrase; vacancy availability is not established.

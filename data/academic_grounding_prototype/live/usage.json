@@ -1,0 +1,15 @@
+{
+  "generation_http_attempts": 32,
+  "preflight_http_attempts": 32,
+  "known_cost_usd": "0.51454170",
+  "unknown_usage_reservation_usd": "0",
+  "accounted_cost_usd": "0.51454170",
+  "tokens_with_known_usage": {
+    "input_tokens": 654282,
+    "cached_input_tokens": 532736,
+    "output_tokens": 85206,
+    "reasoning_tokens": 71071
+  },
+  "reasoning_tokens_included_in_output_tokens": true,
+  "not_an_invoice": true
+}

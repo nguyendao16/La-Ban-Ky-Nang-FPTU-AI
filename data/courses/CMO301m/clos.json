@@ -1,0 +1,38 @@
+[
+  {
+    "clo": "CLO1",
+    "description": "Understand relationships among MLOps, DevOps, DataOps, and LLMOps, including cloud impact, production challenges such as drift and cost spikes, maturity models, ML product lifecycle stages, cloud architecture patterns, baselines, SLO/SLI, budgeting, and deployment patterns."
+  },
+  {
+    "clo": "CLO2",
+    "description": "Design and implement cloud-based data engineering pipelines and feature management solutions for ML systems using cloud-native services such as AWS Lambda, Step Functions, Glue, GCP Dataflow, Cloud Composer, Azure Data Factory, Feast, Vertex Feature Store, and Azure Feature Stores for offline and online inference."
+  },
+  {
+    "clo": "CLO3",
+    "description": "Apply experiment tracking tools such as MLflow, WandB, SageMaker Experiments, and Vertex Vizier together with DVC and cloud remotes such as S3, GCS, and Azure to support reproducibility, data lineage, and metadata management in ML experiments."
+  },
+  {
+    "clo": "CLO4",
+    "description": "Design and build end-to-end TensorFlow Extended and cloud-native ML pipelines, including ExampleGen, Transform, Trainer, Evaluator, and Publisher components, while establishing model baselines and handling concept drift."
+  },
+  {
+    "clo": "CLO5",
+    "description": "Understand feature store concepts and implement feature management solutions using Feast, Vertex Feature Store, or Azure Feature Stores for offline and online inference on cloud."
+  },
+  {
+    "clo": "CLO6",
+    "description": "Apply Docker containerization and cloud deployment practices for MLOps pipelines, including batch versus online deployment, static versus dynamic deployment, serverless versus Kubernetes patterns, cloud registries and services, model serving, progressive delivery, and autoscaling."
+  },
+  {
+    "clo": "CLO7",
+    "description": "Implement automated CI/CD pipelines for ML using GitHub Actions, Jenkins, or GitLab CI integrated with cloud services to automate model deployments, testing, and continuous validation in cloud environments."
+  },
+  {
+    "clo": "CLO8",
+    "description": "Implement continuous model monitoring using Prometheus, Grafana, or Cloud Monitoring for data and concept drift, set up automated retraining triggers, and apply operational excellence principles such as incident response, runbooks, rollback, data governance, GDPR, HIPAA, and IAM."
+  },
+  {
+    "clo": "CLO9",
+    "description": "Implement an end-to-end Cloud MLOps capstone project covering cloud infrastructure setup, automated data pipelines, model tracking, cloud deployment, monitoring, automated retraining, and scientific or technical documentation of architecture, experiments, operations planning, and cost analysis."
+  }
+]

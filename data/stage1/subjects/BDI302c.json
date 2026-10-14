@@ -1,0 +1,360 @@
+{
+  "schema_version": "stage1_v1",
+  "record_type": "combo_subject",
+  "subject": {
+    "code": "BDI302c",
+    "name": {
+      "full": "Big Data_Dữ liệu lớn",
+      "en": "Big Data",
+      "vi": "Dữ liệu lớn"
+    },
+    "semester": 5,
+    "credits": 3,
+    "prerequisite": ""
+  },
+  "syllabus": {
+    "id": "12550",
+    "name": "Big Data_Dữ liệu lớn",
+    "is_active": true,
+    "is_approved": true,
+    "decision_no": "359/QĐ-ĐHFPT dated 04/09/2025"
+  },
+  "content": {
+    "metadata": {
+      "syllabus_id": "12550",
+      "syllabus_name": "Big Data_Dữ liệu lớn",
+      "course_name_english": "Big Data",
+      "subject_code": "BDI302c",
+      "learning_teaching_method": "Blended,Online,Active learning, Discussion",
+      "nocredit": "3",
+      "degree_level": "Bachelor",
+      "time_allocation": "Study hour (150h) = 81h online + 3h offline + 1h final exam + 65h self-study",
+      "pre_requisite": "",
+      "description": "This course covers 5 of 6 courses of Big Data Specialization (UC San Diego) on the Coursera platform. This course will prepare students to ask the right questions about data, communicate effectively with data scientists, and do basic exploration of large, complex datasets. By following along with provided code, students will experience how one can perform predictive modeling and leverage graph analytics to model problems. They will be guided through the basics of using Hadoop with MapReduce, Spark, Pig and Hive.",
+      "studenttasks": "1. Complete the online courses and get all course certifications to be allowed to take Final Exam\n2. Final Exam included Final Theory Exam (TE): 100%\n3. Students who complete all MOOCs before the course deadline will receive 1 bonus point; otherwise, no bonus point will be awarded.\n4. Completion Criteria: Final TE Score >=4 & (Final TE Score + bonus) >= 5",
+      "tools": "Hadoop, Cloudera VM, KNIME, Spark",
+      "scoring_scale": "10",
+      "decisionno_mm_dd_yyyy": "359/QĐ-ĐHFPT dated 04/09/2025",
+      "isapproved": "True",
+      "note": "",
+      "is_scored": "True",
+      "minavgmarktopass": "5",
+      "isactive": "True",
+      "approveddate": "4/9/2025"
+    },
+    "materials": [
+      {
+        "no": "1",
+        "material_description": "https://www.coursera.org/specializations/big-data",
+        "author": "",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "Big Data Specialization"
+      },
+      {
+        "no": "2",
+        "material_description": "https://www.coursera.org/learn/big-data-introduction?specialization=big-data",
+        "author": "",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "MOOC 1: Introduction to Big Data"
+      },
+      {
+        "no": "3",
+        "material_description": "https://www.coursera.org/learn/big-data-management?specialization=big-data",
+        "author": "",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "MOOC 2: Big Data Modeling and Management Systems"
+      },
+      {
+        "no": "4",
+        "material_description": "https://www.coursera.org/learn/big-data-integration-processing?specialization=big-data",
+        "author": "",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "MOOC 3: Big Data Integration and Processing"
+      },
+      {
+        "no": "5",
+        "material_description": "https://www.coursera.org/learn/big-data-machine-learning?specialization=big-data",
+        "author": "",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "MOOC 4: Machine Learning With Big Data"
+      },
+      {
+        "no": "6",
+        "material_description": "https://www.coursera.org/learn/big-data-graph-analytics?specialization=big-data",
+        "author": "",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "MOOC 5: Graph Analytics for Big Data"
+      },
+      {
+        "no": "7",
+        "material_description": "https://learner.coursera.help/hc/en-us/articles/208280036-Coursera-Code-of-Conduct",
+        "author": "",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": ""
+      }
+    ],
+    "clos": [
+      {
+        "no": "1",
+        "clo_name": "CLO1",
+        "clo_details": "Explain basis concepts in big data, architectural components and programming models used for scalable big data analysis."
+      },
+      {
+        "no": "2",
+        "clo_name": "CLO2",
+        "clo_details": "Collect, store and organize data using big data solutions"
+      },
+      {
+        "no": "3",
+        "clo_name": "CLO3",
+        "clo_details": "Design a big data information system for small company"
+      },
+      {
+        "no": "4",
+        "clo_name": "CLO4",
+        "clo_details": "Execute simple big data integration and processing on Hadoop and Spark platforms"
+      },
+      {
+        "no": "5",
+        "clo_name": "CLO5",
+        "clo_details": "Use tools and algorithms to create machine learning models that learn from data, and to scale those models up to big data problems"
+      },
+      {
+        "no": "6",
+        "clo_name": "CLO6",
+        "clo_details": "Model a problem into a graph database and perform analytical tasks over the graph in a scalable manner."
+      }
+    ],
+    "schedule": [
+      {
+        "session": "1",
+        "topic": "Introduction to Big Data\n- Welcome\n- Big Data: Why and Where\n-Characteristics of Big Data and Dimensions of Scalability\nOffline 1: Introduction to the online course BDI302c",
+        "learning_teaching_type": "Offline,Online",
+        "lo": "LO1",
+        "itu": "TU",
+        "student_materials": "",
+        "s_download": "link1-1",
+        "student_tasks": "- Watch all videos, read all materials in the MOOC\n- Finish quizzes, self-assessment, assignments and take part in discussion boards (if needed)\nAll students should participate in offline slot (if any question)",
+        "urls": ""
+      },
+      {
+        "session": "2",
+        "topic": "- Data Science: Getting Value out of Big Data\n'- Foundations for Big Data Systems and Programming\n- Systems: Getting Started with Hadoop",
+        "learning_teaching_type": "Online",
+        "lo": "LO1",
+        "itu": "TU",
+        "student_materials": "",
+        "s_download": "link2-1",
+        "student_tasks": "- Watch all videos, read all materials in the MOOC\n- Finish quizzes, self-assessment, assignments and take part in discussion boards (if needed)",
+        "urls": ""
+      },
+      {
+        "session": "3",
+        "topic": "Big Data Modeling and Management Systems\n- Introduction to Big Data Modeling and Management\n- Big Data Modeling\n- Big Data Modeling (Part 2)",
+        "learning_teaching_type": "Online",
+        "lo": "LO2",
+        "itu": "TU",
+        "student_materials": "",
+        "s_download": "link3-1",
+        "student_tasks": "- Watch all videos, read all materials in the MOOC\n- Finish quizzes, self-assessment, assignments and take part in discussion boards (if needed)",
+        "urls": ""
+      },
+      {
+        "session": "4",
+        "topic": "- Working With Data Models\n- Big Data Management: The \"M\" in DBMS\n- Designing a Big Data Management System for an Online Game",
+        "learning_teaching_type": "Online",
+        "lo": "LO2",
+        "itu": "TU",
+        "student_materials": "",
+        "s_download": "link4-1",
+        "student_tasks": "- Watch all videos, read all materials in the MOOC\n- Finish quizzes, self-assessment, assignments and take part in discussion boards (if needed)",
+        "urls": ""
+      },
+      {
+        "session": "5",
+        "topic": "Big Data Integration and Processing\n- Welcome to Big Data Integration and Processing\n- Retrieving Big Data (Part 1)\n- Retrieving Big Data (Part 2)",
+        "learning_teaching_type": "Online",
+        "lo": "LO3",
+        "itu": "TU",
+        "student_materials": "",
+        "s_download": "link5-1",
+        "student_tasks": "- Watch all videos, read all materials in the MOOC\n- Finish quizzes, self-assessment, assignments and take part in discussion boards (if needed)",
+        "urls": ""
+      },
+      {
+        "session": "6",
+        "topic": "'- Big Data Integration\n- Processing Big Data",
+        "learning_teaching_type": "Online",
+        "lo": "LO3, LO4",
+        "itu": "TU",
+        "student_materials": "",
+        "s_download": "link6-1",
+        "student_tasks": "- Watch all videos, read all materials in the MOOC\n- Finish quizzes, self-assessment, assignments and take part in discussion boards (if needed)",
+        "urls": ""
+      },
+      {
+        "session": "7",
+        "topic": "- Big Data Analytics using Spark\n- Learn By Doing: Putting MongoDB and Spark to Work",
+        "learning_teaching_type": "Online",
+        "lo": "LO3, LO4",
+        "itu": "TU",
+        "student_materials": "",
+        "s_download": "link7-1",
+        "student_tasks": "- Watch all videos, read all materials in the MOOC\n- Finish quizzes, self-assessment, assignments and take part in discussion boards (if needed)",
+        "urls": ""
+      },
+      {
+        "session": "8",
+        "topic": "Machine Learning With Big Data\n- Welcome\n- Introduction to Machine Learning with Big Data\n- Data Exploration\n- Data Preparation",
+        "learning_teaching_type": "Online",
+        "lo": "LO5",
+        "itu": "TU",
+        "student_materials": "",
+        "s_download": "link8-1",
+        "student_tasks": "- Watch all videos, read all materials in the MOOC\n- Finish quizzes, self-assessment, assignments and take part in discussion boards (if needed)",
+        "urls": ""
+      },
+      {
+        "session": "9",
+        "topic": "- Classification\n- Evaluation of Machine Learning Models",
+        "learning_teaching_type": "Online",
+        "lo": "LO5",
+        "itu": "TU",
+        "student_materials": "",
+        "s_download": "link9-1",
+        "student_tasks": "- Watch all videos, read all materials in the MOOC\n- Finish quizzes, self-assessment, assignments and take part in discussion boards (if needed)",
+        "urls": ""
+      },
+      {
+        "session": "10",
+        "topic": "- Regression, Cluster Analysis, and Association Analysis",
+        "learning_teaching_type": "Online",
+        "lo": "LO5",
+        "itu": "TU",
+        "student_materials": "",
+        "s_download": "link10-1",
+        "student_tasks": "- Watch all videos, read all materials in the MOOC\n- Finish quizzes, self-assessment, assignments and take part in discussion boards (if needed)",
+        "urls": ""
+      },
+      {
+        "session": "11",
+        "topic": "Graph Analytics for Big Data\n- Welcome to Graph Analytics\n- Introduction to Graphs\n- Graph Analytics",
+        "learning_teaching_type": "Online",
+        "lo": "LO6",
+        "itu": "TU",
+        "student_materials": "",
+        "s_download": "link11-1",
+        "student_tasks": "- Watch all videos, read all materials in the MOOC\n- Finish quizzes, self-assessment, assignments and take part in discussion boards (if needed)",
+        "urls": ""
+      },
+      {
+        "session": "12",
+        "topic": "- Graph Analytics Techniques\n- Computing Platforms for Graph Analytics\nOffline 2: Review Big Data Specialization (Spec)",
+        "learning_teaching_type": "Offline,Online",
+        "lo": "LO6",
+        "itu": "TU",
+        "student_materials": "",
+        "s_download": "link12-1",
+        "student_tasks": "- Watch all videos, read all materials in the MOOC\n- Finish quizzes, self-assessment, assignments and take part in discussion boards (if needed)\nDeadline of Coursera completion: End of Friday of the week.\nAll students should participate in review slot (if any question)",
+        "urls": ""
+      }
+    ],
+    "assessments": [
+      {
+        "no": "1",
+        "category": "Final exam",
+        "type": "Final exam",
+        "part": "1",
+        "weight": "100.0%",
+        "completion_criteria": "4",
+        "duration": "90'",
+        "clo": "All Los",
+        "question_type": "Multiple choicesMarked by Computer",
+        "no_question": "75",
+        "knowledge_and_skill": "All studied courses. Each module of course contributes 3-5 questions.",
+        "grading_guide": "by exam board,\nusing computer",
+        "note": "Customized from the quizzes of this specialization."
+      }
+    ]
+  },
+  "combo": {
+    "family": "AI17_COM",
+    "code": "AI17_COM1",
+    "name": "Topic on Applied Data Science_Chủ đề Khoa học dữ liệu ứng dụng BIT_AI_K17C(FNO)",
+    "title": "AI17_COM1: Topic on Applied Data Science_Chủ đề Khoa học dữ liệu ứng dụng BIT_AI_K17C(FNO)",
+    "note": "",
+    "slot": {
+      "code": "AI17_COM*1",
+      "alias": "AI17_COM_1",
+      "number": 1,
+      "name": {
+        "full": "Subject 1 of Combo*_Học phần 1 của combo*",
+        "en": "Subject 1 of Combo*",
+        "vi": "Học phần 1 của combo*"
+      }
+    },
+    "row_note": ""
+  },
+  "source": {
+    "raw_file": "flm_output/subjects/AI17_COM_1.json",
+    "curriculum_url": "https://flm.fpt.edu.vn/gui/role/student/CurriculumDetails?curid=3173",
+    "pre_syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/Syllabuses?subCode=AI17_COM%2A1&curriculumID=3173",
+    "syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=12550",
+    "details_source_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=12550"
+  },
+  "crawl": {
+    "error": null
+  },
+  "quality": {
+    "has_syllabus": true,
+    "counts": {
+      "materials": 7,
+      "clos": 6,
+      "schedule": 12,
+      "assessments": 1
+    },
+    "warnings": []
+  }
+}

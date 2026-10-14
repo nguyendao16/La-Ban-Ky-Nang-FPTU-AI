@@ -1,0 +1,905 @@
+{
+  "record_type": "normal_subject",
+  "curriculum": {
+    "subject_code": "CSI106",
+    "subject_name": "Introduction to Computer Science_Nhập môn khoa học máy tính",
+    "semester": "1",
+    "credits": "3",
+    "prerequisite": "",
+    "pre_syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/Syllabuses?subCode=CSI106&curriculumID=3173",
+    "curriculum_url": "https://flm.fpt.edu.vn/gui/role/student/CurriculumDetails?curid=3173"
+  },
+  "syllabus_versions": [
+    {
+      "subject_code": "CSI106",
+      "syllabus_name": "Introduction to Computer Science_Nhập môn khoa học máy tính",
+      "is_active": true,
+      "is_approved": true,
+      "decision_no": "765/QĐ-ĐHFPT dated 07/29/2024",
+      "syllabus_id": "11585",
+      "syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=11585",
+      "pre_syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/Syllabuses?subCode=CSI106&curriculumID=3173"
+    }
+  ],
+  "selected_syllabus": {
+    "subject_code": "CSI106",
+    "syllabus_name": "Introduction to Computer Science_Nhập môn khoa học máy tính",
+    "is_active": true,
+    "is_approved": true,
+    "decision_no": "765/QĐ-ĐHFPT dated 07/29/2024",
+    "syllabus_id": "11585",
+    "syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=11585",
+    "pre_syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/Syllabuses?subCode=CSI106&curriculumID=3173"
+  },
+  "details": {
+    "source_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=11585",
+    "metadata": {
+      "Syllabus ID": "11585",
+      "Syllabus Name": "Introduction to Computer Science_Nhập môn khoa học máy tính",
+      "Course Name English": "Introduction to Computer Science",
+      "Subject Code": "CSI106",
+      "Learning-Teaching Method": "Social Constructivism,Inquiry-Based Learning,In-class lecture, Active Learning",
+      "NoCredit": "3",
+      "Degree Level": "Bachelor",
+      "Time Allocation": "Study hour (150h) = 45h contact hours + 5h online + 1h final exam + 99h self-study",
+      "Pre-Requisite": "",
+      "Description": "This course provides an overview of computer fundamentals. Topics cover all areas of computer science in breadth such as computer organization, network, operating system, data structure , file structure, social and ethical issues.\nMajor Instructional Areas\n- Introduction to Von Neumann Model and computer components\n- Numbering system & data representation\n- Different data types and operations on data\n- The concepts of computer networking and internet\n- Operating system\n- Introduction to basic algorithms and algorithms representation\n- Introduction to Data structure and File structure\n- The concepts of database\n- Software engineering\n- Computing Security & Ethics\n- Introduction to Artificial Intelligence (Additional Learning)",
+      "StudentTasks": "- Students must attend at least 80% of contact sessions in order to be accepted to the final examination.\n- Students are responsible to do all exercises, assignments and labs given by instructor in class or at home and submit on time\n- Use laptop in class only for learning purpose\n- Complete Additional Learning (AI For Everyone course in Coursera) and achieve the certificate\n- Promptly access to the https://flm.fpt.edu.vn for up-to-date course information\"",
+      "Tools": "",
+      "Scoring Scale": "10",
+      "DecisionNo MM/dd/yyyy": "765/QĐ-ĐHFPT dated 07/29/2024",
+      "IsApproved": "True",
+      "Note": "",
+      "Is Scored": "True",
+      "MinAvgMarkToPass": "5",
+      "IsActive": "True",
+      "ApprovedDate": "7/29/2024"
+    },
+    "materials": [
+      {
+        "No.": "1",
+        "Material Description": "Foundations Of Computer Science",
+        "Author": "Behrouz Forouzan",
+        "Publisher": "Cengage",
+        "Published Date": "2017",
+        "Edition": "4th",
+        "ISBN": "978-1-4737-5104-0",
+        "Is Main Material": "True",
+        "Is Hard Copy": "True",
+        "Is Online": "False",
+        "Note": ""
+      },
+      {
+        "No.": "2",
+        "Material Description": "Fundamentals of Information Systems Security",
+        "Author": "",
+        "Publisher": "Jones & Bartlett",
+        "Published Date": "2016",
+        "Edition": "3rd",
+        "ISBN": "",
+        "Is Main Material": "False",
+        "Is Hard Copy": "True",
+        "Is Online": "False",
+        "Note": ""
+      },
+      {
+        "No.": "3",
+        "Material Description": "Computer architecture : A quantitative approach",
+        "Author": "John L. Hennessy, David A Patterson",
+        "Publisher": "Morgan Kaufmann",
+        "Published Date": "2011",
+        "Edition": "5th",
+        "ISBN": "",
+        "Is Main Material": "False",
+        "Is Hard Copy": "True",
+        "Is Online": "False",
+        "Note": ""
+      },
+      {
+        "No.": "4",
+        "Material Description": "AI For Everyone\" course in Coursera\nhttps://www.coursera.org/learn/ai-for-everyone/",
+        "Author": "Andrew Ng",
+        "Publisher": "DeepLearning.AI",
+        "Published Date": "",
+        "Edition": "",
+        "ISBN": "",
+        "Is Main Material": "True",
+        "Is Hard Copy": "False",
+        "Is Online": "True",
+        "Note": "Additional Learning"
+      }
+    ],
+    "clos": [
+      {
+        "No.": "1",
+        "CLO Name": "CLO1",
+        "CLO Details": "Understand the subsystems of a computer and describe the role of these components"
+      },
+      {
+        "No.": "2",
+        "CLO Name": "CLO2",
+        "CLO Details": "Know how to convert a number from one base to other base( decimal, binary, octal and hexadecimal)"
+      },
+      {
+        "No.": "3",
+        "CLO Name": "CLO3",
+        "CLO Details": "Describe how different data type is stored inside a computer as bit patterns and operations on data"
+      },
+      {
+        "No.": "4",
+        "CLO Name": "CLO4",
+        "CLO Details": "Describe the layers in netwoking and their relationship"
+      },
+      {
+        "No.": "5",
+        "CLO Name": "CLO5",
+        "CLO Details": "Undestand the role of OS in a computer system"
+      },
+      {
+        "No.": "6",
+        "CLO Name": "CLO6",
+        "CLO Details": "Define a algorithm and describe tools used to develop algorithms"
+      },
+      {
+        "No.": "7",
+        "CLO Name": "CLO7",
+        "CLO Details": "Explain how a program in a high-level language is translated into machine language"
+      },
+      {
+        "No.": "8",
+        "CLO Name": "CLO8",
+        "CLO Details": "Describe the software lifecycle"
+      },
+      {
+        "No.": "9",
+        "CLO Name": "CLO9",
+        "CLO Details": "Discuss some data structures: Array, Records, Linked list"
+      },
+      {
+        "No.": "10",
+        "CLO Name": "CLO10",
+        "CLO Details": "Distinguish between text file and binary file and access methods"
+      },
+      {
+        "No.": "11",
+        "CLO Name": "CLO11",
+        "CLO Details": "Describe and explain operations within a relational database"
+      },
+      {
+        "No.": "12",
+        "CLO Name": "CLO12",
+        "CLO Details": "Descibe security goals and discuss ethical issues"
+      },
+      {
+        "No.": "13",
+        "CLO Name": "CLO13",
+        "CLO Details": "Describe artificial intelligence and its basic concepts"
+      }
+    ],
+    "schedule": [
+      {
+        "Session": "1",
+        "Topic": "Introduction to the Course\n1.Computer Organization\n1.1 Von Neumann model",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO1",
+        "ITU": "IT",
+        "Student Materials": "- Chapter 1, text book\n- Slides: Part 1-1,\n- EduNext Slot 1 (Q&A)",
+        "S-Download": "CSI106",
+        "Student's Tasks": "Read & Review Slides Part 1-1;\nAnswer Edunext question in slot 1",
+        "URLs": ""
+      },
+      {
+        "Session": "2",
+        "Topic": "1.2 Computer generations",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO1",
+        "ITU": "TU",
+        "Student Materials": "- Chapter 1, text book\n- Slides: Part 1-2\n- EduNext Slot 1 (Q&A)",
+        "S-Download": "CSI106",
+        "Student's Tasks": "Read & Review Slides Part 1-2\nAnswer Edunext question in slot 1",
+        "URLs": ""
+      },
+      {
+        "Session": "3",
+        "Topic": "1.3 Subsystems and the role of subsystems",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO1",
+        "ITU": "TU",
+        "Student Materials": "- Chapter 1&5, text book\n- Slides: Part 1-3\n- EduNext Slot 1 (Q&A)",
+        "S-Download": "",
+        "Student's Tasks": "Read & Review Slides Part 1-3\nAnswer Edunext question in slot 1",
+        "URLs": ""
+      },
+      {
+        "Session": "4",
+        "Topic": "1.4 Central Processing Unit",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO1",
+        "ITU": "TU",
+        "Student Materials": "- Chapter 1&5, text book\n- Slides: Part 1-4\n- EduNext Slot 2 (Q&A)",
+        "S-Download": "",
+        "Student's Tasks": "Read & Review Slides Part 1-4\nAnswer Edunext question in slot 2",
+        "URLs": ""
+      },
+      {
+        "Session": "5",
+        "Topic": "1.5 Memory: main memory",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO1",
+        "ITU": "TU",
+        "Student Materials": "- Chapter 5, text book\n- Slides: Part 1-5\n- EduNext Slot 2 (Q&A)",
+        "S-Download": "",
+        "Student's Tasks": "Read & Review Slides Part 1-5\nAnswer Edunext question in slot 2",
+        "URLs": ""
+      },
+      {
+        "Session": "6",
+        "Topic": "1.6 Input/Output subsystems",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO1",
+        "ITU": "TU",
+        "Student Materials": "- Chapter 5, text book\n- Slides: Part 1-6\n- EduNext Slot 2 (Q&A)",
+        "S-Download": "",
+        "Student's Tasks": "Read & Review Slides Part 1-6\nAnswer Edunext question in slot 2",
+        "URLs": ""
+      },
+      {
+        "Session": "7",
+        "Topic": "1.7 Different architectures",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO1",
+        "ITU": "TU",
+        "Student Materials": "- Chapter 5, text book\n- Slides: Part 1-7\n- EduNext Slot 3 (Q&A)",
+        "S-Download": "",
+        "Student's Tasks": "Read & Review Slides Part 1-7\nAnswer Edunext question in slot 3",
+        "URLs": ""
+      },
+      {
+        "Session": "8",
+        "Topic": "2. Numbering systems\n2.1 Introduction\n2.2 Positional Number Systems",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO2",
+        "ITU": "TU",
+        "Student Materials": "- Chapter 2, text book\n- Slides: Part 2\n- EduNext Slot 3 (Q&A)",
+        "S-Download": "",
+        "Student's Tasks": "Read & Review Slides Part 2\nAnswer Edunext question in slot 3",
+        "URLs": ""
+      },
+      {
+        "Session": "9",
+        "Topic": "2. Numbering systems\n2.3 Conversion",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO2",
+        "ITU": "TU",
+        "Student Materials": "- Chapter 2, text book\n- Slides: Part 2\n- EduNext Slot 3 (Q&A)",
+        "S-Download": "",
+        "Student's Tasks": "Read & Review Slides Part 2\nAnswer Edunext question in slot 3",
+        "URLs": ""
+      },
+      {
+        "Session": "10",
+        "Topic": "Lab 1: Guide",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO2",
+        "ITU": "TU",
+        "Student Materials": "TextBook Chapter 2,\nInstructor manuals",
+        "S-Download": "",
+        "Student's Tasks": "",
+        "URLs": ""
+      },
+      {
+        "Session": "11",
+        "Topic": "Lab 1: Guide",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO2",
+        "ITU": "TU",
+        "Student Materials": "TextBook Chapter 2,\nInstructor manuals",
+        "S-Download": "",
+        "Student's Tasks": "",
+        "URLs": ""
+      },
+      {
+        "Session": "12",
+        "Topic": "Introduction to presentation 1",
+        "Learning-Teaching Type": "Offline",
+        "LO": "One or many of CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8, CLO9, CLO10",
+        "ITU": "TU",
+        "Student Materials": "TextBook Chapter 6->16,\nInstructor manuals",
+        "S-Download": "",
+        "Student's Tasks": "",
+        "URLs": ""
+      },
+      {
+        "Session": "13",
+        "Topic": "3.Data storage and Operations on Data\n3.1 Storing Numbers",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO3",
+        "ITU": "TU",
+        "Student Materials": "- Chapter 3, text book\n- Slides: Part 3\n- EduNext Slot 5 (Q&A)",
+        "S-Download": "",
+        "Student's Tasks": "Read & Review Slides Part 3\nAnswer Edunext question in slot 5",
+        "URLs": ""
+      },
+      {
+        "Session": "14",
+        "Topic": "3.Data storage and Operations on Data\n3.2 Storing Text, Media, Image, Video",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO3",
+        "ITU": "TU",
+        "Student Materials": "- Chapter 3, text book\n- Slides: Part 3\n- EduNext Slot 5 (Q&A)",
+        "S-Download": "",
+        "Student's Tasks": "Read & Review Slides Part 3\nAnswer Edunext question in slot 5",
+        "URLs": ""
+      },
+      {
+        "Session": "15",
+        "Topic": "3.3 Logic operations",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO3",
+        "ITU": "TU",
+        "Student Materials": "- Chapter 4, text book\n- Slides: Part 3\n- EduNext Slot 5 (Q&A)",
+        "S-Download": "",
+        "Student's Tasks": "Read & Review Slides Part 3\nAnswer Edunext question in slot 5",
+        "URLs": ""
+      },
+      {
+        "Session": "16",
+        "Topic": "3.3 Shift, Arithmetic operations",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO3",
+        "ITU": "TU",
+        "Student Materials": "- Chapter 4, text book\n- Slides: Part 3\n- EduNext Slot 5 (Q&A)",
+        "S-Download": "",
+        "Student's Tasks": "Read & Review Slides Part 3\nAnswer Edunext question in slot 5",
+        "URLs": ""
+      },
+      {
+        "Session": "17",
+        "Topic": "4. Computer Networks and Internet\n4.1 Overview\n4.1.1 LAN & WAN\n4.1.2 TCP/IP protocol",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO4",
+        "ITU": "TU",
+        "Student Materials": "- Chapter 6, text book\n- Slides: Part 4\n- EduNext Slot 6 (Q&A)",
+        "S-Download": "",
+        "Student's Tasks": "Read & Review Slides Part 4\nAnswer Edunext question in slot 6",
+        "URLs": ""
+      },
+      {
+        "Session": "18",
+        "Topic": "4. Computer Networks and Internet\n4.2 layers in netwoking",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO4",
+        "ITU": "TU",
+        "Student Materials": "- Chapter 6, text book\n- Slides: Part 4\n- EduNext Slot 6 (Q&A)",
+        "S-Download": "",
+        "Student's Tasks": "Read & Review Slides Part 4\nAnswer Edunext question in slot 6",
+        "URLs": ""
+      },
+      {
+        "Session": "19",
+        "Topic": "Progress test 1",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO1, CLO2, CLO3, CLO4, CLO5",
+        "ITU": "TU",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "",
+        "URLs": ""
+      },
+      {
+        "Session": "20",
+        "Topic": "5. Operating System\n5.1 Introduction\n5.2 Evolution",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO5",
+        "ITU": "TU",
+        "Student Materials": "- Chapter 7, text book\n- Slides: Part 5\n- EduNext Slot 7 (Q&A)",
+        "S-Download": "",
+        "Student's Tasks": "Read & Review Slides Part 5\nAnswer Edunext question in slot 7",
+        "URLs": ""
+      },
+      {
+        "Session": "21",
+        "Topic": "5. Operating System\n5.3 Components of OS: UI, memory manager",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO5",
+        "ITU": "TU",
+        "Student Materials": "- Chapter 7, text book\n- Slides: Part 5\n- EduNext Slot 7 (Q&A)",
+        "S-Download": "",
+        "Student's Tasks": "Read & Review Slides Part 5\nAnswer Edunext question in slot 7",
+        "URLs": ""
+      },
+      {
+        "Session": "22",
+        "Topic": "5. Operating System\n5.3 Components of OS: file manager",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO5",
+        "ITU": "TU",
+        "Student Materials": "- Chapter 7, text book\n- Slides: Part 5\n- EduNext Slot 7 (Q&A)",
+        "S-Download": "",
+        "Student's Tasks": "Read & Review Slides Part 5\nAnswer Edunext question in slot 7",
+        "URLs": ""
+      },
+      {
+        "Session": "23",
+        "Topic": "5. Operating System\n5.3 Components of OS: device manager",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO5",
+        "ITU": "TU",
+        "Student Materials": "- Chapter 7, text book\n- Slides: Part 5\n- EduNext Slot 7 (Q&A)",
+        "S-Download": "",
+        "Student's Tasks": "Read & Review Slides Part 5\nAnswer Edunext question in slot 7",
+        "URLs": ""
+      },
+      {
+        "Session": "24",
+        "Topic": "6. Algorithms\n6.1 Concepts: input, output, processing\n6.2 Three basic constructs",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO6",
+        "ITU": "TU",
+        "Student Materials": "- Chapter 8, text book\n- Slides: Part 6\n- EduNext Slot 8 (Q&A)",
+        "S-Download": "",
+        "Student's Tasks": "Read & Review Slides Part 6\nAnswer Edunext question in slot 8",
+        "URLs": ""
+      },
+      {
+        "Session": "25",
+        "Topic": "6. Algorithms\n6.1 Concepts: input, output, processing\n6.2 Three basic constructs",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO6",
+        "ITU": "TU",
+        "Student Materials": "- Chapter 8, text book\n- Slides: Part 6\n- EduNext Slot 9 (Q&A)",
+        "S-Download": "",
+        "Student's Tasks": "Read & Review Slides Part 6\nAnswer Edunext question in slot 9",
+        "URLs": ""
+      },
+      {
+        "Session": "26",
+        "Topic": "6.3 Algorithm representation\n6.4 Search Algorithms: linear, binary",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO6",
+        "ITU": "TU",
+        "Student Materials": "- Chapter 8, text book\n- Slides: Part 6\n- EduNext Slot 9 (Q&A)",
+        "S-Download": "",
+        "Student's Tasks": "Read & Review Slides Part 6\nAnswer Edunext question in slot 9",
+        "URLs": ""
+      },
+      {
+        "Session": "27",
+        "Topic": "6.3 Algorithm representation\n6.4 Search Algorithms: linear, binary",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO6",
+        "ITU": "TU",
+        "Student Materials": "- Chapter 8, text book\n- Slides: Part 6\n- EduNext Slot 9 (Q&A)",
+        "S-Download": "",
+        "Student's Tasks": "Read & Review Slides Part 6\nAnswer Edunext question in slot 9",
+        "URLs": ""
+      },
+      {
+        "Session": "28",
+        "Topic": "Presentations 1",
+        "Learning-Teaching Type": "Offline",
+        "LO": "Presentation1. One or many of CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8, CLO9, CLO10",
+        "ITU": "TU",
+        "Student Materials": "Slide for presentation",
+        "S-Download": "",
+        "Student's Tasks": "",
+        "URLs": ""
+      },
+      {
+        "Session": "29",
+        "Topic": "Presentations 1",
+        "Learning-Teaching Type": "Offline",
+        "LO": "Presentation1. One or many of CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8, CLO9, CLO10",
+        "ITU": "TU",
+        "Student Materials": "Slide for presentation",
+        "S-Download": "",
+        "Student's Tasks": "",
+        "URLs": ""
+      },
+      {
+        "Session": "30",
+        "Topic": "Introduction to Additional Learning: \"AI For Everyone\" course in Coursera\nIntroduction to presentation 2\n(Students have to complete Additional Learning and achieve the certificate before Presentation 2)",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO13",
+        "ITU": "TU",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "",
+        "URLs": ""
+      },
+      {
+        "Session": "31",
+        "Topic": "7. Programming\n7.1 translation",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO7",
+        "ITU": "TU",
+        "Student Materials": "- Chapter 9, text book\n- Slides: Part 7\n- EduNext Slot 11 (Q&A)",
+        "S-Download": "",
+        "Student's Tasks": "Read & Review Slides Part 7\nAnswer Edunext question in slot 11",
+        "URLs": ""
+      },
+      {
+        "Session": "32",
+        "Topic": "7. Programming\n7.2 programming paradigms",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO7",
+        "ITU": "TU",
+        "Student Materials": "- Chapter 9, text book\n- Slides: Part 7\n- EduNext Slot 11 (Q&A)",
+        "S-Download": "",
+        "Student's Tasks": "Read & Review Slides Part 7\nAnswer Edunext question in slot 11",
+        "URLs": ""
+      },
+      {
+        "Session": "33",
+        "Topic": "Lab2: Guide",
+        "Learning-Teaching Type": "Offline",
+        "LO": "One or many of CLO6, CLO7",
+        "ITU": "TU",
+        "Student Materials": "TextBook Chapter 8, 9\nInstructor manuals",
+        "S-Download": "",
+        "Student's Tasks": "",
+        "URLs": ""
+      },
+      {
+        "Session": "34",
+        "Topic": "Lab2: Guide",
+        "Learning-Teaching Type": "Offline",
+        "LO": "One or many of CLO6, CLO7",
+        "ITU": "TU",
+        "Student Materials": "TextBook Chapter 8, 9\nInstructor manuals",
+        "S-Download": "",
+        "Student's Tasks": "",
+        "URLs": ""
+      },
+      {
+        "Session": "35",
+        "Topic": "8.Software engineering\n8.1 The software lifecycle\n8.2 Analysis phase",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO8",
+        "ITU": "TU",
+        "Student Materials": "- Chapter 10, text book\n- Slides: Part 8\n- EduNext Slot 12 (Q&A)",
+        "S-Download": "",
+        "Student's Tasks": "Read & Review Slides Part 8\nAnswer Edunext question in slot 12",
+        "URLs": ""
+      },
+      {
+        "Session": "36",
+        "Topic": "8.Software engineering\n8.1 The software lifecycle\n8.2 Analysis phase\n8.3 Design phase",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO8",
+        "ITU": "TU",
+        "Student Materials": "- Chapter 10, text book\n- Slides: Part 8\n- EduNext Slot 12 (Q&A)",
+        "S-Download": "",
+        "Student's Tasks": "Read & Review Slides Part 8\nAnswer Edunext question in slot 12",
+        "URLs": ""
+      },
+      {
+        "Session": "37",
+        "Topic": "8.4 Implementation phase",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO8",
+        "ITU": "TU",
+        "Student Materials": "- Chapter 10, text book\n- Slides: Part 8\n- EduNext Slot 13 (Q&A)",
+        "S-Download": "",
+        "Student's Tasks": "Read & Review Slides Part 8\nAnswer Edunext question in slot 13",
+        "URLs": ""
+      },
+      {
+        "Session": "38",
+        "Topic": "8.5 Testing phase",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO8",
+        "ITU": "TU",
+        "Student Materials": "- Chapter 10, text book\n- Slides: Part 8\n- EduNext Slot 13 (Q&A)",
+        "S-Download": "",
+        "Student's Tasks": "Read & Review Slides Part 8\nAnswer Edunext question in slot 13",
+        "URLs": ""
+      },
+      {
+        "Session": "39",
+        "Topic": "9. Data structures\n9.1 Arrays\n9.2 Records",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO9",
+        "ITU": "TU",
+        "Student Materials": "- Chapter 11, text book\n- Slides: Part 9\n- EduNext Slot 14 (Q&A)",
+        "S-Download": "",
+        "Student's Tasks": "Read & Review Slides Part 9\nAnswer Edunext question in slot 14",
+        "URLs": ""
+      },
+      {
+        "Session": "40",
+        "Topic": "9. Data structures\n9.3 Linked List",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO9",
+        "ITU": "TU",
+        "Student Materials": "- Chapter 11, text book\n- Slides: Part 9\n- EduNext Slot 14 (Q&A)",
+        "S-Download": "",
+        "Student's Tasks": "Read & Review Slides Part 9\nAnswer Edunext question in slot 14",
+        "URLs": ""
+      },
+      {
+        "Session": "41",
+        "Topic": "9.4 Introduction: Stack, Queue, Tree, graph",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO9",
+        "ITU": "TU",
+        "Student Materials": "- Chapter 11, text book\n- Slides: Part 9\n- EduNext Slot 14 (Q&A)",
+        "S-Download": "",
+        "Student's Tasks": "Read & Review Slides Part 9\nAnswer Edunext question in slot 14",
+        "URLs": ""
+      },
+      {
+        "Session": "42",
+        "Topic": "Progress test 2",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO5, CLO6, CLO7, CLO8, CLO9",
+        "ITU": "TU",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "",
+        "URLs": ""
+      },
+      {
+        "Session": "43",
+        "Topic": "10.File structure\n10.1 Text versus Binary",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO10",
+        "ITU": "TU",
+        "Student Materials": "- Chapter 13, text book\n- Slides: Part 10\n- EduNext Slot 15 (Q&A)",
+        "S-Download": "",
+        "Student's Tasks": "Read & Review Slides Part 10\nAnswer Edunext question in slot 15",
+        "URLs": ""
+      },
+      {
+        "Session": "44",
+        "Topic": "10.File structure\n10.2 Access methods",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO10",
+        "ITU": "TU",
+        "Student Materials": "- Chapter 13, text book\n- Slides: Part 10\n- EduNext Slot 15 (Q&A)",
+        "S-Download": "",
+        "Student's Tasks": "Read & Review Slides Part 10\nAnswer Edunext question in slot 15",
+        "URLs": ""
+      },
+      {
+        "Session": "45",
+        "Topic": "11. Database\n11.1 Introduction",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO11",
+        "ITU": "TU",
+        "Student Materials": "- Chapter 14, text book\n- Slides: Part 11\n- EduNext Slot 16 (Q&A)",
+        "S-Download": "",
+        "Student's Tasks": "Read & Review Slides Part 11\nAnswer Edunext question in slot 16",
+        "URLs": ""
+      },
+      {
+        "Session": "46",
+        "Topic": "11. Database\n11.2 Database architecture",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO11",
+        "ITU": "TU",
+        "Student Materials": "- Chapter 14, text book\n- Slides: Part 11\n- EduNext Slot 16 (Q&A)",
+        "S-Download": "",
+        "Student's Tasks": "Read & Review Slides Part 11\nAnswer Edunext question in slot 16",
+        "URLs": ""
+      },
+      {
+        "Session": "47",
+        "Topic": "11.3 Database model\n11.4 The relationship database model",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO11",
+        "ITU": "TU",
+        "Student Materials": "- Chapter 14, text book\n- Slides: Part 11\n- EduNext Slot 16 (Q&A)",
+        "S-Download": "",
+        "Student's Tasks": "Read & Review Slides Part 11\nAnswer Edunext question in slot 16",
+        "URLs": ""
+      },
+      {
+        "Session": "48",
+        "Topic": "11.5 Database design",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO11",
+        "ITU": "TU",
+        "Student Materials": "- Chapter 14, text book\n- Slides: Part 11\n- EduNext Slot 16 (Q&A)",
+        "S-Download": "",
+        "Student's Tasks": "Read & Review Slides Part 11\nAnswer Edunext question in slot 16",
+        "URLs": ""
+      },
+      {
+        "Session": "49",
+        "Topic": "11.6 Guide do practice set (database)",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO11",
+        "ITU": "TU",
+        "Student Materials": "- Chapter 14, text book\n- Slides: Part 11\n- EduNext Slot 16 (Q&A)",
+        "S-Download": "",
+        "Student's Tasks": "",
+        "URLs": ""
+      },
+      {
+        "Session": "50",
+        "Topic": "12. Security and Ethical Issues\n12.1 Introduction\n12.2 Confidentiality",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO12",
+        "ITU": "TU",
+        "Student Materials": "- Chapter 16 & 20, text book\n- Slides: Part 12\n- EduNext Slot 17 (Q&A)",
+        "S-Download": "",
+        "Student's Tasks": "Read & Review Slides Part 12\nAnswer Edunext question in slot 17",
+        "URLs": ""
+      },
+      {
+        "Session": "51",
+        "Topic": "12. Security and Ethical Issues\n12.3 Ethical Principles",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO12",
+        "ITU": "TU",
+        "Student Materials": "- Chapter 16 & 20, text book\n- Slides: Part 12\n- EduNext Slot 17 (Q&A)",
+        "S-Download": "",
+        "Student's Tasks": "Read & Review Slides Part 12\nAnswer Edunext question in slot 17",
+        "URLs": ""
+      },
+      {
+        "Session": "52",
+        "Topic": "12.4 Privacy",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO12",
+        "ITU": "TU",
+        "Student Materials": "- Chapter 16 & 20, text book\n- Slides: Part 12\n- EduNext Slot 18 (Q&A)",
+        "S-Download": "",
+        "Student's Tasks": "Read & Review Slides Part 12\nAnswer Edunext question in slot 18",
+        "URLs": ""
+      },
+      {
+        "Session": "53",
+        "Topic": "12.5 Hackers",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO12",
+        "ITU": "TU",
+        "Student Materials": "- Chapter 16 & 20, text book\n- Slides: Part 12\n- EduNext Slot 18 (Q&A)",
+        "S-Download": "",
+        "Student's Tasks": "Read & Review Slides Part 12\nAnswer Edunext question in slot 18",
+        "URLs": ""
+      },
+      {
+        "Session": "54",
+        "Topic": "Presentation 2",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO13",
+        "ITU": "TU",
+        "Student Materials": "Slide for presentation",
+        "S-Download": "",
+        "Student's Tasks": "",
+        "URLs": ""
+      },
+      {
+        "Session": "55",
+        "Topic": "Presentation 2",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO13",
+        "ITU": "TU",
+        "Student Materials": "Slide for presentation",
+        "S-Download": "",
+        "Student's Tasks": "",
+        "URLs": ""
+      },
+      {
+        "Session": "56",
+        "Topic": "Review Additional Learning (AI For Everyone course)",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO13",
+        "ITU": "TU",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "",
+        "URLs": ""
+      },
+      {
+        "Session": "57",
+        "Topic": "Progress test 3",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO10, CLO11, CLO12, CLO13",
+        "ITU": "TU",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "Test yourself",
+        "URLs": ""
+      },
+      {
+        "Session": "58",
+        "Topic": "Review",
+        "Learning-Teaching Type": "Offline",
+        "LO": "All CLOs",
+        "ITU": "TU",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "",
+        "URLs": ""
+      },
+      {
+        "Session": "59",
+        "Topic": "Review",
+        "Learning-Teaching Type": "Offline",
+        "LO": "All CLOs",
+        "ITU": "TU",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "",
+        "URLs": ""
+      },
+      {
+        "Session": "60",
+        "Topic": "Review",
+        "Learning-Teaching Type": "Offline",
+        "LO": "All CLOs",
+        "ITU": "TU",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "",
+        "URLs": ""
+      }
+    ],
+    "assessments": [
+      {
+        "No.": "1",
+        "Category": "Group presentation",
+        "Type": "on-going",
+        "Part": "2",
+        "Weight": "10.0%",
+        "Completion Criteria": ">0",
+        "Duration": "Option 1: 30'/group Option 2 (For Constructivism Approach only): Follow lecturer's proposal",
+        "CLO": "Presentation1. One or many of CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8, CLO9, CLO10\nPresentation2. CLO13",
+        "Question Type": "Option 1: .ppt and oral presentation\nOption 2 (For Constructivism Approach only): Follow lecturer's proposal",
+        "No Question": "Option 1: N/A Option 2 (For Constructivism Approach only): Follow lecturer's proposal",
+        "Knowledge and Skill": "one of the appendices",
+        "Grading Guide": "Each group selects one topic ralated to Addional Learning ( (AI For Everyone course in Coursera) to present and has at least two weeks to prepare the presentation\nPresentation 2:\n- .ppt and oral presentation\n- Topics related to Additional Learning (Chapter 18 in Textbook, Deep Learning in Object Detection and Recognition, Speech Emotion Recognition, Traffic Sign Recognition, Federated Learning,…)",
+        "Note": "The presentation 2 is graded if and only if students complete Additional Learning (AI For Everyone course in Coursera) and achieve the certificate."
+      },
+      {
+        "No.": "2",
+        "Category": "Lab",
+        "Type": "on-going",
+        "Part": "2",
+        "Weight": "20.0%",
+        "Completion Criteria": ">0",
+        "Duration": "Option 1: 60-90'/each Option 2 (For Constructivism Approach only): Follow lecturer's proposal",
+        "CLO": "Lab1. CLO2\nLab2. One or many of CLO6, CLO7",
+        "Question Type": "Option 1: practical exercises Option 2 (For Constructivism Approach only): Follow lecturer's proposal",
+        "No Question": "Option 1: N/A Option 2 (For Constructivism Approach only): Follow lecturer's proposal",
+        "Knowledge and Skill": "technical aspect of studied topics",
+        "Grading Guide": "Guided by instructor\n- Labs are arranged relevant to the chapter theory\n- Student must finish labs and submit the results to the lecturer in class.",
+        "Note": "."
+      },
+      {
+        "No.": "3",
+        "Category": "Progress Test",
+        "Type": "on-going",
+        "Part": "3",
+        "Weight": "30.0%",
+        "Completion Criteria": ">0",
+        "Duration": "Option 1: 30'/each Option 2 (For Constructivism Approach only): Follow lecturer's proposal",
+        "CLO": "Test1. CLO1, CLO2, CLO3, CLO4, CLO5\nTest2. CLO6, CLO7, CLO8, CLO9\nTest3. CLO10, CLO11, CLO12, CLO13",
+        "Question Type": "Option 1: MC or suitable format Option 2 (For Constructivism Approach only): Follow lecturer's proposal",
+        "No Question": "Option 1: 30 Option 2 (For Constructivism Approach only): Follow lecturer's proposal",
+        "Knowledge and Skill": "Test 1: Chapters 1, 2, 3, 4, 5 , 6, 7\nTest 2: Chapters 8, 9, 10, 11, 12\nTest 3: Chapters 13, 14, 16, 18, 20",
+        "Grading Guide": "in class, by instructor",
+        "Note": "Instruction and schedules for Progress Tests must be presented in the Course Implementation Plan approved by director of the campus.\nThe test must be taken right after the last lectures of required material.\nInstructor has responsibility to review the test for students after graded"
+      },
+      {
+        "No.": "4",
+        "Category": "Final exam",
+        "Type": "Final exam",
+        "Part": "1",
+        "Weight": "40.0%",
+        "Completion Criteria": "4",
+        "Duration": "60'",
+        "CLO": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8, CLO9, CLO10, CLO11, CLO12",
+        "Question Type": "Multiple choices\nMarked by Computer",
+        "No Question": "60",
+        "Knowledge and Skill": "concepts, algorithms; all studied Chapters\n.",
+        "Grading Guide": "by exam board,\nusing computer",
+        "Note": "Students must complete Additional Learning (AI For Everyone course in Coursera) and achieve the certificate in order to take final exam\nThe exam questions must be updated or different at least 70% to the previous ones."
+      }
+    ]
+  },
+  "error": null
+}

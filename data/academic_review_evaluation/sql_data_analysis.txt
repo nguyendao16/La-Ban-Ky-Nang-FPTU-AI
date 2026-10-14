@@ -1,0 +1,10 @@
+SQL / Data Analysis Intern
+
+- Understand relational databases and write SQL queries with joins, nested queries and aggregations.
+- Use Microsoft SQL Server and understand T-SQL views, stored procedures and triggers.
+- Clean and wrangle datasets; perform exploratory data analysis and visualization with Python.
+- Build and evaluate a small data analysis project in an academic context.
+- Use PostgreSQL-specific features and Snowflake cloud data warehousing.
+- At least one year of professional SQL query optimization and production data analysis experience.
+
+Location: Hanoi. Salary and work schedule will be discussed during the interview.

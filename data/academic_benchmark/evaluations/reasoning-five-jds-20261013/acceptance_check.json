@@ -1,0 +1,16 @@
+{
+  "checked_at": "2026-10-13T22:05:36.070092+07:00",
+  "engineering_and_artifact_checks": "passed",
+  "generation_http": 25,
+  "preflight_http": 25,
+  "paid_judge_or_extra_generations": 0,
+  "manual_outputs_read": 25,
+  "profile_clo_projection_unchanged": true,
+  "semantic_acceptance": false,
+  "p0_chat_operations": [
+    "chat-JD05-2",
+    "chat-JD10-4",
+    "chat-JD11-1"
+  ],
+  "limitation": "Three Chat outputs contain exact-attribution P0; report preserves failures."
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "clo_name": "CLO1",
+    "clo_details": "Understand the concepts of Reinforcement Learning"
+  },
+  {
+    "clo_name": "CLO2",
+    "clo_details": "Know how to implement dynamic programming as an efficient solution approach to an industrial control problem"
+  },
+  {
+    "clo_name": "CLO3",
+    "clo_details": "Understand several algorithms for estimating value: Temporal-Difference learning, Monte Carlo"
+  },
+  {
+    "clo_name": "CLO4",
+    "clo_details": "Undersatnd and implement a model-based approach to RL: Temporal-Difference, Expected Sarsa, Q-learning"
+  },
+  {
+    "clo_name": "CLO5",
+    "clo_details": "Understand several approaches that affect approximate value functions: supervised learning, fixed basis, neural network."
+  },
+  {
+    "clo_name": "CLO6",
+    "clo_details": "Understand how function approximation is used to predict and control in Reinforcement Learning"
+  },
+  {
+    "clo_name": "CLO7",
+    "clo_details": "Understand and implement an RL solution to a problem step by step: problem formulation, appropriate algorithm selection, implementation, and empirical study into the effectiveness of the solution."
+  }
+]

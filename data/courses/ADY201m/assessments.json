@@ -1,0 +1,50 @@
+[
+  {
+    "category": "Final Project Evaluation",
+    "part": "1",
+    "weight": "20.0%",
+    "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7"
+  },
+  {
+    "category": "On going assessment 1",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO1, CLO2, CLO3"
+  },
+  {
+    "category": "On going assessment 2",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO4, CLO5"
+  },
+  {
+    "category": "On going assessment 3",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO6, CLO7"
+  },
+  {
+    "category": "Progress Test 1",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO1, CLO2, CLO3, CLO4"
+  },
+  {
+    "category": "Progress Test 2",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO4, CLO5, CLO6, CLO7"
+  },
+  {
+    "category": "Project Planning",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO1, CLO2"
+  },
+  {
+    "category": "Final exam",
+    "part": "1",
+    "weight": "20.0%",
+    "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7"
+  }
+]

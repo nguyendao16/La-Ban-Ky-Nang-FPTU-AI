@@ -1,0 +1,138 @@
+{
+  "review_type": "academic_knowledge_review",
+  "overview": "Hồ sơ học thuật của sinh viên thể hiện nền tảng vững chắc về toán học, lập trình Python, cơ sở dữ liệu, khoa học dữ liệu và các kỹ năng phân tích dữ liệu. Các học phần liên quan cung cấp bằng chứng về việc sinh viên đã học và thực hành các khái niệm về SQL, quy trình làm việc với dữ liệu, trực quan hóa dữ liệu, cũng như các kỹ năng giải quyết vấn đề phân tích và làm việc nhóm. Tuy nhiên, một số yêu cầu về công cụ BI cụ thể như Power BI hoặc Tableau chỉ được đề cập ở mức liên quan thông qua các CLO về trực quan hóa dữ liệu, chưa có bằng chứng học thuật trực tiếp về các công cụ này.",
+  "requirement_reviews": [
+    {
+      "jd_requirement": "Maintain automated dashboards for business/product performance; define and monitor metrics, including feature changes; provide analysis to product/business teams; handle report updates, missing data, exports and ad-hoc analyses; document workflows.",
+      "coverage": "related",
+      "comment": "Các CLO của DAP391m (CLO2, CLO3, CLO4, CLO7) và ADY201m (CLO7) đều đề cập đến việc thực hiện phân tích dữ liệu, trực quan hóa dữ liệu, xây dựng báo cáo, và thực hiện dự án nhỏ về khoa học dữ liệu, bao gồm các bước thu thập, xử lý, phân tích, trực quan hóa, đánh giá mô hình và báo cáo kết quả. Tuy nhiên, các CLO này không nêu rõ về việc duy trì dashboard tự động cho hiệu suất kinh doanh/sản phẩm hoặc tài liệu hóa quy trình công việc ở mức độ chuyên sâu như yêu cầu thực tế của doanh nghiệp. Việc cập nhật báo cáo, xử lý dữ liệu thiếu, xuất dữ liệu và phân tích ad-hoc được đề cập gián tiếp thông qua các dự án và bài tập thực hành.",
+      "evidence": [
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO2"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO7"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Basic SQL and familiarity with data workflows/pipelines.",
+      "coverage": "covered",
+      "comment": "DBI202 (CLO5, CLO6, CLO7) cung cấp bằng chứng về việc học và thực hành SQL cơ bản, bao gồm DDL, DML, các truy vấn nhiều bảng, truy vấn lồng, tổng hợp, cập nhật, xóa, cũng như lập trình T-SQL, sử dụng view, stored procedure, trigger và index trong Microsoft SQL Server. ADY201m (CLO1, CLO7) bổ sung kiến thức về truy cập cơ sở dữ liệu với Python, thực hiện các thao tác SQL trong bối cảnh khoa học dữ liệu, và triển khai dự án nhỏ có sử dụng SQL/database access. AIL303m (CLO1) cũng đề cập đến việc truy xuất dữ liệu từ nhiều nguồn, bao gồm SQL, NoSQL, API, Cloud, thể hiện sự quen thuộc với quy trình làm việc dữ liệu.",
+      "evidence": [
+        {
+          "course_code": "DBI202",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "DBI202",
+          "clo": "CLO6"
+        },
+        {
+          "course_code": "DBI202",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO1"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Exposure to Power BI, Tableau or comparable BI tools.",
+      "coverage": "related",
+      "comment": "DAP391m (CLO3, CLO4) và ADY201m (CLO1, CLO7) đều đề cập đến việc trực quan hóa dữ liệu, xây dựng các loại biểu đồ, dashboard, và sử dụng các công cụ phân tích dữ liệu như Python, SQL, Jupyter Notebook, RStudio IDE, Watson Studio. Tuy nhiên, không có CLO nào nêu rõ về việc sử dụng Power BI, Tableau hoặc các công cụ BI cụ thể khác. Do đó, bằng chứng chỉ ở mức liên quan thông qua các kỹ năng trực quan hóa và xây dựng dashboard nói chung.",
+      "evidence": [
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO7"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Analytical problem solving, communication, teamwork and attention to detail.",
+      "coverage": "covered",
+      "comment": "MAI391 (CLO8) nhấn mạnh phát triển kỹ năng làm việc nhóm và tự kỷ luật trong bối cảnh dự án toán ứng dụng và machine learning. DAP391m (CLO7) và ADY201m (CLO7) đều yêu cầu triển khai dự án nhỏ về khoa học dữ liệu, bao gồm phân tích, giải quyết vấn đề, báo cáo và trình bày kết quả, thể hiện kỹ năng giao tiếp, làm việc nhóm và chú ý đến chi tiết trong quá trình thực hiện dự án.",
+      "evidence": [
+        {
+          "course_code": "MAI391",
+          "clo": "CLO8"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO7"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Python familiarity (preferred).",
+      "coverage": "covered",
+      "comment": "PFP191 (CLO1–CLO7) cung cấp nền tảng lập trình Python toàn diện, bao gồm môi trường lập trình, biến, cấu trúc điều khiển, xử lý file, cấu trúc dữ liệu (list, dict, tuple), và lập trình hướng đối tượng. ADY201m (CLO5, CLO7) và DAP391m (CLO1, CLO7) bổ sung thực hành Python trong các tác vụ khoa học dữ liệu, phân tích, trực quan hóa và triển khai dự án nhỏ sử dụng Python.",
+      "evidence": [
+        {
+          "course_code": "PFP191",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "PFP191",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO7"
+        }
+      ]
+    }
+  ],
+  "conclusion": "Hồ sơ học thuật cho thấy sinh viên đã được đào tạo bài bản về SQL cơ bản, quy trình làm việc với dữ liệu, lập trình Python, trực quan hóa dữ liệu và triển khai các dự án phân tích dữ liệu nhỏ. Các kỹ năng giải quyết vấn đề, giao tiếp, làm việc nhóm và chú ý chi tiết cũng được phát triển thông qua các học phần và dự án thực hành. Tuy nhiên, hồ sơ chưa cung cấp bằng chứng học thuật trực tiếp về việc sử dụng các công cụ BI cụ thể như Power BI hoặc Tableau, mà chỉ thể hiện kỹ năng trực quan hóa và xây dựng dashboard ở mức tổng quát. Ngoài ra, các yêu cầu về duy trì dashboard tự động và tài liệu hóa quy trình công việc được hỗ trợ ở mức liên quan thông qua các dự án học thuật, chưa xác nhận kinh nghiệm thực tế trong môi trường doanh nghiệp."
+}

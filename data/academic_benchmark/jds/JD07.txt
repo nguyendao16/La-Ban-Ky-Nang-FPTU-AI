@@ -1,0 +1,7 @@
+Kyanon Digital — Data Analyst Intern, K-Fresh
+Responsibilities: Capture analytics needs; collect, clean and transform data; assist reports/dashboards with Power BI/Tableau or comparable tools; translate business questions into insights; validate data quality; support ad-hoc analysis.
+Qualifications: Final-year student or recent graduate in a relevant technical discipline; foundational SQL and Excel; analytical thinking and attention to detail.
+Preferred: Familiarity with Python OR R.
+Other prerequisites: GPA at least 7.5/10 and English B1 or higher. The CLO profile does not itself establish a GPA or English credential.
+Learning opportunities: Three-month mentoring program with real-data projects and modern data-stack exposure.
+Source-grounded paraphrase of the employer's three-page PDF; not a verbatim JD or confirmation that applications remain open.

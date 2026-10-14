@@ -1,0 +1,484 @@
+[
+  {
+    "subject_code": "OTP101",
+    "subject_name": "Orientation and General Training Program_Định hướng và Rèn luyện tập trung",
+    "semester": "0",
+    "record_type": "normal_subject",
+    "syllabus_id": "13151",
+    "status": "ok",
+    "error": null,
+    "file": "flm_output/subjects/OTP101.json"
+  },
+  {
+    "subject_code": "PEN",
+    "subject_name": "Preparation English_Tiếng Anh chuẩn bị",
+    "semester": "0",
+    "record_type": "normal_subject",
+    "syllabus_id": null,
+    "status": "error",
+    "error": "No syllabus version found",
+    "file": "flm_output/subjects/PEN.json"
+  },
+  {
+    "subject_code": "PHE_COM*1",
+    "subject_name": "Physical Education 1_Giáo dục thể chất 1",
+    "semester": "0",
+    "record_type": "normal_subject",
+    "syllabus_id": null,
+    "status": "error",
+    "error": "No syllabus version found",
+    "file": "flm_output/subjects/PHE_COM_1.json"
+  },
+  {
+    "subject_code": "TMI_ELE",
+    "subject_name": "Traditional musical instrument_Nhạc cụ truyền thống",
+    "semester": "0",
+    "record_type": "normal_subject",
+    "syllabus_id": null,
+    "status": "error",
+    "error": "No syllabus version found",
+    "file": "flm_output/subjects/TMI_ELE.json"
+  },
+  {
+    "subject_code": "CSI106",
+    "subject_name": "Introduction to Computer Science_Nhập môn khoa học máy tính",
+    "semester": "1",
+    "record_type": "normal_subject",
+    "syllabus_id": "11585",
+    "status": "ok",
+    "error": null,
+    "file": "flm_output/subjects/CSI106.json"
+  },
+  {
+    "subject_code": "MAD101",
+    "subject_name": "Discrete mathematics_Toán rời rạc",
+    "semester": "1",
+    "record_type": "normal_subject",
+    "syllabus_id": "13144",
+    "status": "ok",
+    "error": null,
+    "file": "flm_output/subjects/MAD101.json"
+  },
+  {
+    "subject_code": "MAE101",
+    "subject_name": "Mathematics for Engineering_Toán cho ngành kỹ thuật",
+    "semester": "1",
+    "record_type": "normal_subject",
+    "syllabus_id": "13137",
+    "status": "ok",
+    "error": null,
+    "file": "flm_output/subjects/MAE101.json"
+  },
+  {
+    "subject_code": "PFP191",
+    "subject_name": "Programming Fundamentals with Python_Cơ sở lập trình với Python",
+    "semester": "1",
+    "record_type": "normal_subject",
+    "syllabus_id": "12224",
+    "status": "ok",
+    "error": null,
+    "file": "flm_output/subjects/PFP191.json"
+  },
+  {
+    "subject_code": "PHE_COM*2",
+    "subject_name": "Physical Education 2_Giáo dục thể chất 2",
+    "semester": "1",
+    "record_type": "normal_subject",
+    "syllabus_id": null,
+    "status": "error",
+    "error": "No syllabus version found",
+    "file": "flm_output/subjects/PHE_COM_2.json"
+  },
+  {
+    "subject_code": "SSA101",
+    "subject_name": "Kỹ năng học thuật",
+    "semester": "1",
+    "record_type": "normal_subject",
+    "syllabus_id": "13785",
+    "status": "ok",
+    "error": null,
+    "file": "flm_output/subjects/SSA101.json"
+  },
+  {
+    "subject_code": "AIG202c",
+    "subject_name": "Artificial Intelligence_Trí tuệ nhân tạo",
+    "semester": "2",
+    "record_type": "normal_subject",
+    "syllabus_id": "12551",
+    "status": "ok",
+    "error": null,
+    "file": "flm_output/subjects/AIG202c.json"
+  },
+  {
+    "subject_code": "CEA201",
+    "subject_name": "Computer Organization and Architecture_Tổ chức và Kiến trúc máy tính",
+    "semester": "2",
+    "record_type": "normal_subject",
+    "syllabus_id": "13245",
+    "status": "ok",
+    "error": null,
+    "file": "flm_output/subjects/CEA201.json"
+  },
+  {
+    "subject_code": "CSD203",
+    "subject_name": "Data Structures and Algorithm with Python_Cấu trúc dữ liệu và giải thuật với Python",
+    "semester": "2",
+    "record_type": "normal_subject",
+    "syllabus_id": "13813",
+    "status": "ok",
+    "error": null,
+    "file": "flm_output/subjects/CSD203.json"
+  },
+  {
+    "subject_code": "DBI202",
+    "subject_name": "Introduction to Databases_Các hệ cơ sở dữ liệu",
+    "semester": "2",
+    "record_type": "normal_subject",
+    "syllabus_id": "12039",
+    "status": "ok",
+    "error": null,
+    "file": "flm_output/subjects/DBI202.json"
+  },
+  {
+    "subject_code": "JPD113",
+    "subject_name": "Elementary Japanese 1- A1.1_Tiếng Nhật sơ cấp 1-A1.1",
+    "semester": "2",
+    "record_type": "normal_subject",
+    "syllabus_id": "14469",
+    "status": "ok",
+    "error": null,
+    "file": "flm_output/subjects/JPD113.json"
+  },
+  {
+    "subject_code": "PHE_COM*3",
+    "subject_name": "Physical Education 3_Giáo dục thể chất 3",
+    "semester": "2",
+    "record_type": "normal_subject",
+    "syllabus_id": null,
+    "status": "error",
+    "error": "No syllabus version found",
+    "file": "flm_output/subjects/PHE_COM_3.json"
+  },
+  {
+    "subject_code": "ADY201m",
+    "subject_name": "AI, DS with Python & SQL_TTNT và KHDL với Python và SQL",
+    "semester": "3",
+    "record_type": "normal_subject",
+    "syllabus_id": "13675",
+    "status": "ok",
+    "error": null,
+    "file": "flm_output/subjects/ADY201m.json"
+  },
+  {
+    "subject_code": "ITE303c",
+    "subject_name": "Ethics in IT_Đạo đức trong CNTT",
+    "semester": "3",
+    "record_type": "normal_subject",
+    "syllabus_id": "12627",
+    "status": "ok",
+    "error": null,
+    "file": "flm_output/subjects/ITE303c.json"
+  },
+  {
+    "subject_code": "JPD123",
+    "subject_name": "Elementary Japanese 1-A1.2_Tiếng Nhật sơ cấp 1-A1.2",
+    "semester": "3",
+    "record_type": "normal_subject",
+    "syllabus_id": "14470",
+    "status": "ok",
+    "error": null,
+    "file": "flm_output/subjects/JPD123.json"
+  },
+  {
+    "subject_code": "MAI391",
+    "subject_name": "Mathematics for Machine Learning_Toán cho học máy",
+    "semester": "3",
+    "record_type": "normal_subject",
+    "syllabus_id": "13133",
+    "status": "ok",
+    "error": null,
+    "file": "flm_output/subjects/MAI391.json"
+  },
+  {
+    "subject_code": "MAS291",
+    "subject_name": "Statistics & Probability_Xác suất thống kê",
+    "semester": "3",
+    "record_type": "normal_subject",
+    "syllabus_id": "13136",
+    "status": "ok",
+    "error": null,
+    "file": "flm_output/subjects/MAS291.json"
+  },
+  {
+    "subject_code": "AIL303m",
+    "subject_name": "Machine Learning_Học máy",
+    "semester": "4",
+    "record_type": "normal_subject",
+    "syllabus_id": "10736",
+    "status": "ok",
+    "error": null,
+    "file": "flm_output/subjects/AIL303m.json"
+  },
+  {
+    "subject_code": "CPV301",
+    "subject_name": "Computer Vision_Thị giác máy tính",
+    "semester": "4",
+    "record_type": "normal_subject",
+    "syllabus_id": "13292",
+    "status": "ok",
+    "error": null,
+    "file": "flm_output/subjects/CPV301.json"
+  },
+  {
+    "subject_code": "DAP391m",
+    "subject_name": "AI-DS Project_Dự án TTNT-KHDL",
+    "semester": "4",
+    "record_type": "normal_subject",
+    "syllabus_id": "14112",
+    "status": "ok",
+    "error": null,
+    "file": "flm_output/subjects/DAP391m.json"
+  },
+  {
+    "subject_code": "SSG105",
+    "subject_name": "Kỹ năng giao tiếp và cộng tác",
+    "semester": "4",
+    "record_type": "normal_subject",
+    "syllabus_id": "14127",
+    "status": "ok",
+    "error": null,
+    "file": "flm_output/subjects/SSG105.json"
+  },
+  {
+    "subject_code": "SWE201c",
+    "subject_name": "Introduction to Software Engineering_Nhập môn kĩ thuật phần mềm",
+    "semester": "4",
+    "record_type": "normal_subject",
+    "syllabus_id": "14443",
+    "status": "ok",
+    "error": null,
+    "file": "flm_output/subjects/SWE201c.json"
+  },
+  {
+    "subject_code": "AI17_COM*1",
+    "subject_alias": "AI17_COM_1",
+    "subject_name": "Subject 1 of Combo*_Học phần 1 của combo*",
+    "semester": "5",
+    "record_type": "combo_slot",
+    "combo_family": "AI17_COM",
+    "combo_slot_number": 1,
+    "combo_option_count": 5,
+    "status": "ok",
+    "error": null,
+    "file": "flm_output/subjects/AI17_COM_1.json"
+  },
+  {
+    "subject_code": "AI17_COM*2",
+    "subject_alias": "AI17_COM_2",
+    "subject_name": "Subject 2 of Combo*_Học phần 2 của combo*",
+    "semester": "5",
+    "record_type": "combo_slot",
+    "combo_family": "AI17_COM",
+    "combo_slot_number": 2,
+    "combo_option_count": 5,
+    "status": "ok",
+    "error": null,
+    "file": "flm_output/subjects/AI17_COM_2.json"
+  },
+  {
+    "subject_code": "DPL302m",
+    "subject_name": "Deep Learning_Học sâu",
+    "semester": "5",
+    "record_type": "normal_subject",
+    "syllabus_id": "13339",
+    "status": "ok",
+    "error": null,
+    "file": "flm_output/subjects/DPL302m.json"
+  },
+  {
+    "subject_code": "DWP301c",
+    "subject_name": "Web Development with Python_Phát triển Web với Python",
+    "semester": "5",
+    "record_type": "normal_subject",
+    "syllabus_id": "12631",
+    "status": "ok",
+    "error": null,
+    "file": "flm_output/subjects/DWP301c.json"
+  },
+  {
+    "subject_code": "ENW493c",
+    "subject_name": "Research Methods & Academic Writing Skills_Phương pháp nghiên cứu & Kỹ năng viết học thuật",
+    "semester": "6",
+    "record_type": "normal_subject",
+    "syllabus_id": "12547",
+    "status": "ok",
+    "error": null,
+    "file": "flm_output/subjects/ENW493c.json"
+  },
+  {
+    "subject_code": "OJT202",
+    "subject_name": "On-The-Job Training_Đào tạo trong môi trường thực tế",
+    "semester": "6",
+    "record_type": "normal_subject",
+    "syllabus_id": "12016",
+    "status": "ok",
+    "error": null,
+    "file": "flm_output/subjects/OJT202.json"
+  },
+  {
+    "subject_code": "AI17_COM*3",
+    "subject_alias": "AI17_COM_3",
+    "subject_name": "Subject 3 of Combo*_Học phần 3 của combo*",
+    "semester": "7",
+    "record_type": "combo_slot",
+    "combo_family": "AI17_COM",
+    "combo_slot_number": 3,
+    "combo_option_count": 5,
+    "status": "ok",
+    "error": null,
+    "file": "flm_output/subjects/AI17_COM_3.json"
+  },
+  {
+    "subject_code": "DAT301m",
+    "subject_name": "AI Development with TensorFlow_Phát triển UDTTNT với TensorFlow",
+    "semester": "7",
+    "record_type": "normal_subject",
+    "syllabus_id": "13293",
+    "status": "ok",
+    "error": null,
+    "file": "flm_output/subjects/DAT301m.json"
+  },
+  {
+    "subject_code": "EXE101",
+    "subject_name": "Experiential Entrepreneurship 1_Trải nghiệm khởi nghiệp 1",
+    "semester": "7",
+    "record_type": "normal_subject",
+    "syllabus_id": "10358",
+    "status": "ok",
+    "error": null,
+    "file": "flm_output/subjects/EXE101.json"
+  },
+  {
+    "subject_code": "NLP301m",
+    "subject_name": "Natural Language Processing_Xử lý ngôn ngữ tự nhiên",
+    "semester": "7",
+    "record_type": "normal_subject",
+    "syllabus_id": "14405",
+    "status": "ok",
+    "error": null,
+    "file": "flm_output/subjects/NLP301m.json"
+  },
+  {
+    "subject_code": "PMG201c",
+    "subject_name": "Project Management",
+    "semester": "7",
+    "record_type": "normal_subject",
+    "syllabus_id": "12548",
+    "status": "ok",
+    "error": null,
+    "file": "flm_output/subjects/PMG201c.json"
+  },
+  {
+    "subject_code": "AI17_COM*4",
+    "subject_alias": "AI17_COM_4",
+    "subject_name": "Subject 4 of Combo*_Học phần 4 của combo*",
+    "semester": "8",
+    "record_type": "combo_slot",
+    "combo_family": "AI17_COM",
+    "combo_slot_number": 4,
+    "combo_option_count": 5,
+    "status": "ok",
+    "error": null,
+    "file": "flm_output/subjects/AI17_COM_4.json"
+  },
+  {
+    "subject_code": "AID301c",
+    "subject_name": "AI in Production_Thiết kế sản phẩm TTNT",
+    "semester": "8",
+    "record_type": "normal_subject",
+    "syllabus_id": "12630",
+    "status": "ok",
+    "error": null,
+    "file": "flm_output/subjects/AID301c.json"
+  },
+  {
+    "subject_code": "EXE201",
+    "subject_name": "Experiential Entrepreneurship 2_Trải nghiệm khởi nghiệp 2",
+    "semester": "8",
+    "record_type": "normal_subject",
+    "syllabus_id": "10361",
+    "status": "ok",
+    "error": null,
+    "file": "flm_output/subjects/EXE201.json"
+  },
+  {
+    "subject_code": "MLN111",
+    "subject_name": "Philosophy of Marxism – Leninism_Triết học Mác - Lê-nin",
+    "semester": "8",
+    "record_type": "normal_subject",
+    "syllabus_id": "13303",
+    "status": "ok",
+    "error": null,
+    "file": "flm_output/subjects/MLN111.json"
+  },
+  {
+    "subject_code": "MLN122",
+    "subject_name": "Political economics of Marxism – Leninism_Kinh tế chính trị Mác - Lê-nin",
+    "semester": "8",
+    "record_type": "normal_subject",
+    "syllabus_id": "14465",
+    "status": "ok",
+    "error": null,
+    "file": "flm_output/subjects/MLN122.json"
+  },
+  {
+    "subject_code": "REL301m",
+    "subject_name": "Reinforcement Learning_Học tăng cường",
+    "semester": "8",
+    "record_type": "normal_subject",
+    "syllabus_id": "11256",
+    "status": "ok",
+    "error": null,
+    "file": "flm_output/subjects/REL301m.json"
+  },
+  {
+    "subject_code": "AI17_GRA_ELE",
+    "subject_name": "Học phần lựa chọn Đồ án tốt nghiệp chuyên ngành Trí Tuệ Nhân Tạo",
+    "semester": "9",
+    "record_type": "normal_subject",
+    "syllabus_id": null,
+    "status": "error",
+    "error": "No syllabus version found",
+    "file": "flm_output/subjects/AI17_GRA_ELE.json"
+  },
+  {
+    "subject_code": "HCM202",
+    "subject_name": "Ho Chi Minh Ideology_Tư tưởng Hồ Chí Minh",
+    "semester": "9",
+    "record_type": "normal_subject",
+    "syllabus_id": "14467",
+    "status": "ok",
+    "error": null,
+    "file": "flm_output/subjects/HCM202.json"
+  },
+  {
+    "subject_code": "MLN131",
+    "subject_name": "Scientific socialism_Chủ nghĩa xã hội khoa học",
+    "semester": "9",
+    "record_type": "normal_subject",
+    "syllabus_id": "14466",
+    "status": "ok",
+    "error": null,
+    "file": "flm_output/subjects/MLN131.json"
+  },
+  {
+    "subject_code": "VNR202",
+    "subject_name": "History of Communist Party of Vietnam_Lịch sử Đảng Cộng sản Việt Nam",
+    "semester": "9",
+    "record_type": "normal_subject",
+    "syllabus_id": "14468",
+    "status": "ok",
+    "error": null,
+    "file": "flm_output/subjects/VNR202.json"
+  }
+]

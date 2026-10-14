@@ -1,0 +1,68 @@
+{
+  "course_id": "GAI201m",
+  "clos": [
+    {
+      "clo_id": "CLO1",
+      "original_description": "Describe how generative AI models work at an intuitive, non-mathematical level.",
+      "enriched_description": "Describe how generative AI models work at an intuitive, non-mathematical level, including Introduction to the Generative AI Landscape, What generative AI is and isn't, From single models to multi-model systems, Foundations and Intuition of Generative Models, Discriminative vs generative models, Attention, intuitively.",
+      "source_topic_indices": [
+        0,
+        1,
+        4,
+        8,
+        10
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO2",
+      "original_description": "Apply prompt engineering techniques to obtain useful, reliable outputs from generative models.",
+      "enriched_description": "Apply prompt engineering techniques to obtain useful, reliable outputs from generative models, including Prompt Engineering Fundamentals, Advanced Prompt Engineering, Evaluation, Prompt Engineering.",
+      "source_topic_indices": [
+        0,
+        4
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO3",
+      "original_description": "Build a small generative AI application end to end, retrieval-augmented generation, structured output validation, basic agent/tool use, and an appropriate customization strategy (prompting, RAG, or fine-tuning).",
+      "enriched_description": "Build a small generative AI application end to end, retrieval-augmented generation, structured output validation, basic agent/tool use, and an appropriate customization strategy (prompting, RAG, or fine-tuning), including Retrieval-Augmented Generation (RAG), Why grounding matters, the RAG pipeline, RAG evaluation and failure modes, Building Generative AI Applications, Agents and Tool Use, When NOT to use an agent, Model Customization.",
+      "source_topic_indices": [
+        0,
+        1,
+        4,
+        7,
+        8,
+        10
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO4",
+      "original_description": "Evaluate generative AI outputs and systems using rubrics, test sets, model-as-judge methods, and analysis of failure modes.",
+      "enriched_description": "Evaluate generative AI outputs and systems using rubrics, test sets, model-as-judge methods, and analysis of failure modes, including Model-as-judge with verification, Building Generative AI Applications, Evaluation, Failure Modes.",
+      "source_topic_indices": [
+        1,
+        7,
+        11
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO5",
+      "original_description": "Analyze the ethical, social, legal, and governance implications of generative AI and apply responsible-use practices.",
+      "enriched_description": "Analyze the ethical, social, legal, and governance implications of generative AI and apply responsible-use practices, including Society, Law, Governance, Governance inside organisations.",
+      "source_topic_indices": [
+        6,
+        7
+      ],
+      "review_required": false,
+      "review_notes": []
+    }
+  ]
+}

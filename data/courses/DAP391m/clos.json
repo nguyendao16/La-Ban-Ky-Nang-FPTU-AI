@@ -1,0 +1,30 @@
+[
+  {
+    "clo": "CLO1",
+    "description": "Understand the basics of data analysis with Python for building and evaluating data models, including importing datasets and data wrangling."
+  },
+  {
+    "clo": "CLO2",
+    "description": "Understand how to import data from multiple sources, clean and wrangle data, perform exploratory data analysis (EDA), and create meaningful data visualizations, including Data Analysis, Data Analysis with Python- Exploratory Data Analysis, Data Analysis with Python- Exploratory Data Analysis."
+  },
+  {
+    "clo": "CLO3",
+    "description": "Know difference ways to effectively visualize both small and large-scale data, including Project Topic Introduction and discuss, Evaluate final project."
+  },
+  {
+    "clo": "CLO4",
+    "description": "Implement various types of basic and advanced graphs and charts like: Waffle Charts, Area Plots, Histograms, Bar Charts, Pie Charts, Scatter Plots, Word Clouds, Choropleth Maps, and many more, including Advanced Visualizations, Geospatial Data."
+  },
+  {
+    "clo": "CLO5",
+    "description": "Implement an application that leverages multiple Watson AI services, including Discovery, Speech to Text, Watson Assistant, and Text to Speech, with chatbot creation and integration in a final project context."
+  },
+  {
+    "clo": "CLO6",
+    "description": "Implementing different techniques to develop applications and AI powered solutions, including Building AI Applications with Watson APIs- Introduction , Building AI Applications with Watson APIs- Introduction , Building AI Applications with Watson APIs- Giving it, Develop applications, AI powered solutions."
+  },
+  {
+    "clo": "CLO7",
+    "description": "Implement the small mini capstone data science project includes steps: involving data collection, data wrangling, exploratory data analysis, data visualization, model development, model evaluation, and reporting, including Applied Data Science Capstone: Interactive Visual Analytics, Dashboard , Applied Data Science Capstone: Interactive Visual Analytics, Dashboard , Applied Data Science Capstone: Predictive Analysis (Classification) , Applied Data Science Capstone: Predictive Analysis (Classification), Evaluate final project."
+  }
+]

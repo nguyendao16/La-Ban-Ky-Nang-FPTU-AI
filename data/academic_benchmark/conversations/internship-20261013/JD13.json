@@ -1,0 +1,167 @@
+{
+  "origin": "live",
+  "case_id": "JD13",
+  "session_id": "26731ed6722847e7b0ac8009c3a5abd7",
+  "profile_sha256": "99f34048ed8c3d11ed972fa0a97476aa7fba6f071ad8aea454bb66b6b5c2eca1",
+  "jd_sha256": "5ddc2f6d0cc949d5c9e669ef8c6de0c9eb05c88d003d504d689d2e18df94f8f3",
+  "review_sha256": "224d82532588f8b35759a2aa9fc29221bc7ecc37b6da9851b9760bd94bd329e1",
+  "turns": [
+    {
+      "turn": 1,
+      "user": "Với JD này thì những kiến thức nào mình đã học ở trường có liên quan nhất?",
+      "response": {
+        "reply": "Với JD Security Monitoring Intern tại VSEC, các kiến thức bạn đã học ở trường có liên quan nhất gồm:\n\n1. Lập trình Python: Bạn đã học lập trình Python từ cơ bản đến nâng cao, bao gồm cả OOP, thao tác file, cấu trúc dữ liệu và ứng dụng Python trong nhiều ngữ cảnh. Đây là nền tảng quan trọng cho các công việc tự động hóa, phân tích log, hoặc viết script hỗ trợ trong môi trường SOC. (PFP191/CLO1-7)\n\n2. Hệ điều hành và quản lý hệ thống: Bạn đã học về vai trò, thành phần cơ bản của hệ điều hành, quản lý bộ nhớ, file, thiết bị, và tổng quan về hệ điều hành trong máy tính. Những kiến thức này giúp bạn hiểu cách hệ điều hành hoạt động, là nền tảng để tiếp cận quản trị Windows/Linux. (CSI106/CLO5, CEA201/CLO5)\n\n3. Mạng máy tính: Bạn đã học tổng quan về các lớp mạng, Internet, và các lớp trong mô hình mạng, giúp bạn nắm được kiến thức nền về mạng – rất cần thiết cho việc phân tích, giám sát và phản hồi các sự kiện an ninh mạng. (CSI106/CLO4)\n\n4. Cơ sở dữ liệu: Bạn đã học về các khái niệm cơ bản của hệ quản trị cơ sở dữ liệu, mô hình quan hệ, SQL, và các thao tác với dữ liệu. Kiến thức này hữu ích khi làm việc với các hệ thống lưu trữ log, truy vấn dữ liệu phục vụ phân tích sự kiện bảo mật. (DBI202/CLO1-7)\n\n5. Trí tuệ nhân tạo và AI cơ bản: Bạn đã học các khái niệm về AI, ứng dụng AI, và các vấn đề đạo đức liên quan. Dù không trực tiếp liên quan đến vận hành SOC, nhưng nền tảng này có thể hỗ trợ khi tiếp cận các giải pháp phân tích log tự động hoặc phát hiện bất thường bằng AI. (AIG202c/CLO1-3)\n\n6. Kiến thức CNTT tổng quát: Các môn về cấu trúc máy tính, tổ chức máy tính, và các thành phần phần cứng/phần mềm giúp bạn có cái nhìn tổng thể về hệ thống, hỗ trợ cho việc hiểu các thành phần trong môi trường SOC. (CSI106/CLO1, CEA201/CLO1)\n\nTóm lại, các kiến thức nền tảng về lập trình, hệ điều hành, mạng, cơ sở dữ liệu và CNTT tổng quát là những phần liên quan nhất mà bạn đã học, phù hợp với các yêu cầu nền tảng của JD này.",
+        "evidence": [
+          {
+            "course_code": "PFP191",
+            "clo": "CLO1"
+          },
+          {
+            "course_code": "PFP191",
+            "clo": "CLO2"
+          },
+          {
+            "course_code": "PFP191",
+            "clo": "CLO3"
+          },
+          {
+            "course_code": "PFP191",
+            "clo": "CLO4"
+          },
+          {
+            "course_code": "PFP191",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "PFP191",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "PFP191",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "CSI106",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "CEA201",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "CSI106",
+            "clo": "CLO4"
+          },
+          {
+            "course_code": "DBI202",
+            "clo": "CLO1"
+          },
+          {
+            "course_code": "DBI202",
+            "clo": "CLO2"
+          },
+          {
+            "course_code": "DBI202",
+            "clo": "CLO3"
+          },
+          {
+            "course_code": "DBI202",
+            "clo": "CLO4"
+          },
+          {
+            "course_code": "DBI202",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "DBI202",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "DBI202",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "AIG202c",
+            "clo": "CLO1"
+          },
+          {
+            "course_code": "AIG202c",
+            "clo": "CLO2"
+          },
+          {
+            "course_code": "AIG202c",
+            "clo": "CLO3"
+          },
+          {
+            "course_code": "CSI106",
+            "clo": "CLO1"
+          },
+          {
+            "course_code": "CEA201",
+            "clo": "CLO1"
+          }
+        ]
+      },
+      "request_artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD13-1.json"
+    },
+    {
+      "turn": 2,
+      "user": "So với JD thì những nội dung nào mình còn thiếu hoặc chưa được hồ sơ xác nhận?",
+      "response": {
+        "reply": "Đối chiếu với JD Security Monitoring Intern, các nội dung mà hồ sơ học thuật của bạn chưa được xác nhận hoặc còn thiếu gồm:\n\n1. Các kiến thức và kỹ năng chuyên sâu về an ninh mạng: Hồ sơ chưa có CLO nào xác nhận bạn đã học về phân tích/phản hồi tấn công mạng, nghiên cứu quy tắc phát hiện tấn công, hoặc các kỹ thuật phòng thủ, điều tra sự cố an ninh.\n\n2. Vận hành SOC, sử dụng SIEM, SOAR, TIP: Không có CLO nào đề cập đến việc học hoặc thực hành với các hệ thống giám sát bảo mật như SOC, cũng như các công cụ SIEM, SOAR, TIP – đây là các nội dung được JD nhấn mạnh.\n\n3. Chứng chỉ hoặc khóa học CEH: Hồ sơ không có bằng chứng về việc hoàn thành chứng chỉ CEH hoặc khóa học CEH, trong khi đây là một tiêu chí ưu tiên của JD.\n\n4. Quản trị hệ điều hành Windows/Linux ở mức thực hành: Bạn đã học về hệ điều hành ở mức tổng quan, nhưng chưa có CLO xác nhận kỹ năng quản trị hệ thống thực tế trên Windows hoặc Linux.\n\n5. Kiến thức chi tiết về mô hình OSI, TCP/IP, các giao thức IP: Hồ sơ chỉ xác nhận kiến thức tổng quan về mạng, chưa có CLO nào xác nhận bạn đã học sâu về các giao thức mạng cụ thể hoặc cấu hình mạng thực tế.\n\nNếu bạn đã tự học hoặc có kinh nghiệm thực tế về các mảng trên ngoài chương trình đại học, hồ sơ hiện tại chưa phản ánh được điều đó. Đây là những chủ đề bạn có thể cân nhắc bổ sung hoặc làm nổi bật khi ứng tuyển vào vị trí này nếu chưa từng học hoặc trải nghiệm thực tế.",
+        "evidence": []
+      },
+      "request_artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD13-2.json"
+    },
+    {
+      "turn": 3,
+      "user": "Mình có học hệ điều hành, mạng và Python thì có thể kết luận đã biết SIEM/SOAR hay làm SOC chưa?",
+      "response": {
+        "reply": "Bạn đã học hệ điều hành (CSI106/CLO5, CEA201/CLO5), mạng máy tính (CSI106/CLO4) và lập trình Python (PFP191/CLO1-7), đây là các nền tảng quan trọng để tiếp cận lĩnh vực SOC và các hệ thống SIEM/SOAR. Tuy nhiên, không thể kết luận bạn đã biết hoặc đã thực hành với SIEM, SOAR hay vận hành SOC chỉ dựa trên các học phần này.\n\nLý do là các CLO liên quan chỉ xác nhận bạn đã học về nguyên lý hệ điều hành, tổng quan mạng, và lập trình Python, chứ không đề cập đến nội dung cụ thể về vận hành SOC, sử dụng SIEM/SOAR, hoặc các kỹ năng thực hành giám sát an ninh mạng. Những hệ thống này thường yêu cầu kiến thức và kỹ năng chuyên biệt, không nằm trong phạm vi các CLO đã học.\n\nTóm lại, hồ sơ học thuật của bạn thể hiện nền tảng phù hợp để học tiếp hoặc làm quen với SOC/SIEM/SOAR, nhưng chưa xác nhận bạn đã biết hoặc đã thực hành các nội dung này.",
+        "evidence": [
+          {
+            "course_code": "CSI106",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "CEA201",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "CSI106",
+            "clo": "CLO4"
+          },
+          {
+            "course_code": "PFP191",
+            "clo": "CLO1"
+          },
+          {
+            "course_code": "PFP191",
+            "clo": "CLO2"
+          },
+          {
+            "course_code": "PFP191",
+            "clo": "CLO3"
+          },
+          {
+            "course_code": "PFP191",
+            "clo": "CLO4"
+          },
+          {
+            "course_code": "PFP191",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "PFP191",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "PFP191",
+            "clo": "CLO7"
+          }
+        ]
+      },
+      "request_artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD13-3.json"
+    }
+  ]
+}

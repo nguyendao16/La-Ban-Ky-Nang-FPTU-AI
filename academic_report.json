@@ -1,0 +1,132 @@
+{
+    "MAE101": {
+        "Assignment 1": 10.0,
+        "Assignment 2": 10.0,
+        "Assignment 3": 10.0,
+        "Progress tess 1": 9.0,
+        "Progress tess 2": 10.0,
+        "Progress tess 3": 8.7,
+        "Final exam": 8.4
+    },
+    "MAD101": {
+        "Assignment 1": 9.0,
+        "Assignment 2": 10.0,
+        "Assignment 3": 9.5,
+        "Progress tess 1": 9.3,
+        "Progress tess 2": 6.7,
+        "Progress tess 3": 7.4,
+        "Final exam": 8.6
+    },
+    "CSI106": {
+        "Group presentation 1": 8.0,
+        "Group presentation 2": 8.0,
+        "Lab 1": 8.0,
+        "Lab 2": 8.0,
+        "Progress tess 1": 8.8,
+        "Progress tess 2": 9.4,
+        "Progress tess 3": 9.4,
+        "Final exam": 7.7
+    },
+    "PFP191": {
+        "Assignment": 9.7,
+        "Lab 1": 7.0,
+        "Lab 2": 10.0,
+        "Lab 3": 9.0,
+        "Lab 4": 10.0,
+        "Lab 5": 8.3,
+        "Progress tess 1": 8.1,
+        "Progress tess 2": 8.4,
+        "Practical exam": 8.0,
+        "Final exam": 9.8
+    },
+    "CEA201": {
+        "Assignment 1": 8.0,
+        "Assignment 2": 6.5,
+        "Exercices 1": 6.0,
+        "Exercices 2": 7.5,
+        "Exercices 3": 4.5,
+        "Exercices 4": 8.0,
+        "Final exam": 7.4
+    },
+    "CSD203": {
+        "Assignment 1": 6.0,
+        "Assignment 2": 1.0,
+        "Progress tess 1": 6.6,
+        "Progress tess 2": 5.6,
+        "Practical exam": 7.0,
+        "Final exam": 8.8
+    },
+    "DBI202": {
+        "Assignment": 6.6,
+        "Lab 1": 9.3,
+        "Lab 2": 3.3,
+        "Lab 3": 10.0,
+        "Lab 4": 7.3,
+        "Lab 5": 4.0,
+        "Progress tess 1": 4.5,
+        "Progress tess 2": 6.0,
+        "Practical exam": 3.7,
+        "Final exam": 7.8
+    },
+    "AIG202c": {
+        "TE": 8.0
+    },
+    "ADY201m": {
+        "Final Project Evaluation": 8.0,
+        "On going assessment 1": 8.0,
+        "On going assessment 2": 9.0,
+        "On going assessment 3":9.0,
+        "Progress tess 1": 10,
+        "Progress tess 2": 9.2,
+        "Project Planning": 8.0,
+        "Final exam": 8.0
+    },
+    "ITE303c": {
+        "Final exam": 8.6
+    },
+    "MAI391": {
+        "Assignment 1": 10.0,
+        "Assignment 2": 10.0,
+        "Assignment 3": 10.0,
+        "Computer Project": 9.0,
+        "Progress tess 1": 9.2,
+        "Progress tess 2": 10.0,
+        "Final Exam": 8.8
+    },
+    "MAS291": {
+        "Assignment 1": 10.0,
+        "Assignment 2": 10.0,
+        "Computer Project": 10.0,
+        "Progress tess 1": 10.0,
+        "Progress tess 2": 9.4,
+        "Progress tess 3": 10.0,
+        "Final Exam": 8.2
+    },
+    "AIL303m": {
+        "Lab 1": 7.0,
+        "Lab 2": 8.2,
+        "Progress test 1": 9.0,
+        "Progress tess 2": 9.0,
+        "Progress tess 3": 10.0,
+        "Progress tess 4": 5.8,
+        "Mini capstone": 5.4,
+        "Final exam": 7.4
+    },
+    "CPV301": {
+        "Assignment": 8.9,
+        "Lab 1": 8.5,
+        "Lab 2": 8.8,
+        "Lab 3": 8.5,
+        "Lab 4": 8.8,
+        "Progress test": 9.5,
+        "Practical Exam": 9.5,
+        "Final exam": 8.2
+    },
+    "DAP391m": {
+        "Final Project Evaluation": 10,
+        "On going assessment": 10,
+        "Progress test": 7.0,
+        "Project Planning": 8.0,
+        "Final exam": 7.6
+    }
+}

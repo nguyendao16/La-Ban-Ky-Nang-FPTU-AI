@@ -1,0 +1,315 @@
+{
+  "metadata": {
+    "syllabus_name": "Toán cho học máy",
+    "course_name_english": "Mathematics for Machine Learning",
+    "subject_code": "MAI391",
+    "description": "This course introduces the mathematical concepts and foundations needed to talk about the three main components of a machine learning system: data, models, and learning. Upon this course, students will be able to understand: • Foundametal concepts about matrices and matrix decomposition.\n• Concepts of gradients.\n• The basics of probability and some distributions.\n• Optimization to find maxima/minima of functions. • Dimensionality reduction using principal component analysis.\n• Classification in the context of support vector machines.\nMethod of teaching and learning: Lecture and project based learning",
+    "tools": "- Internet\n- Python Programme"
+  },
+  "clos": [
+    {
+      "clo_name": "CLO0",
+      "clo_details": "Analytic Geometry\nLO 0.1 Define a norm and an inner product on a vector space\nLO 0.2 Determine bilinear mapping and check if a square matrix is positive definite.\nLO 0.3 Find the length of a vector as well as the distance between two vectors in a vector space by using inner product.\nLO 0.4 Find the angle between two vectors and check if they are orthogonal. Check if a square matrix is orthogonal.\nLO 0.5 Check if a set of vectors is an orthogonal or an orthonormal basis of a given vector space. Determine an orthogonal complement of a subspace.\nLO 0.6 Construct the projection onto a subspace."
+    },
+    {
+      "clo_name": "CLO1",
+      "clo_details": "Matrix Decomposition\nLO 1.1\nCompute the determinant of a square matrix, decide when a square matrix is invertible by equivalent conditions.\nFind the characteristic polynomial, eigenvalues and eigenvectors of a matrix.\nUnderstand some theorems concerning eigenvalues.\nLO1.2\nDiagonalize a matrix by eigendecomposition.\nDecompose a matrix by singular value decomposition.\nLO1.3\nCompute matrix approximation."
+    },
+    {
+      "clo_name": "CLO2",
+      "clo_details": "Vector Calculus\nLO 2.1\nRevisit differentiation of a univariate function.\nFind Taylor expansion of a smooth function at a given point.\nLO 2.2 Find partial derivatives using basic formulas and the chain rule, gradients of multivariate functions.\nLO 2.3 Find gradients, Jacobian matrices of Vector-Valued Functions.\nLO 2.4 Take gradients of matrices with respect to vectors.\nLO 2.5 Understand the idea of backpropagation in deep learning.\nLO 2.6 Find the higher-order partial derivatives, linearization and multivariate Taylor series of multivariate functions."
+    },
+    {
+      "clo_name": "CLO3",
+      "clo_details": "Probability and Distributions\nLO 3.1 Catch the notions of discrete variable continuous variable; find the probability mass function, the probability density function, the cumulative distribution function and their properties.\nLO 3.2 Calculate conditional probabilities; use multiplication rule, total probability rule and Bayes theorem to find probabilities.\nLO 3.3 Compute the mean and variance of a random variable, compute the covariance and the correlation between two variables.\nLO 3.4 Consider whether two variables are independent.\nLO 3.5 Describe a Gauss distribution, marginals, conditionals, sums and products of Gauss distributions."
+    },
+    {
+      "clo_name": "CLO4",
+      "clo_details": "Continuous Optimization\nLO 4.1 Find a local minimum of a function using gradient descent.\nLO 4.2 Use Lagrange multipliers to find the maximum/minimum value of a multivariate function with constraints.\nLO 4.3 Understand convex optimization problems and solve linear programings."
+    },
+    {
+      "clo_name": "CLO5",
+      "clo_details": "Linear Regression\nLO 5.1 Use maximum likelihood and maximum a posteriori (MAP) estimation to find optimal model parameters.\nLO 5.2 Using these parameter estimates to have a brief look at generalization errors and overfitting.\nLO 5.3 Discuss Bayesian linear regression."
+    },
+    {
+      "clo_name": "CLO6",
+      "clo_details": "Dimensionality Reduction with PCA\nLO 6.1 Compute the data covariance matrix of a data set, construct m-dimensional subspace with maximum variance.\nLO 6.2 Find the basis of theprincipal subspace.\nLO 6.3 Using Low-Rank Matrix to approximate PCA.\nLO 6.4 Discuss PCA in high dimension and key steps of PCA."
+    },
+    {
+      "clo_name": "CLO7",
+      "clo_details": "Classification with SVM\nLO 7.1 Understand binary classification by seperating hyperplane.\nLO 7.2 Catch mathematical ideas of support vector machine.\nLO 7.3 Understand the advantage of dual support vector machine.\nLO 7.4 Introduce non-linear classifiers by kernels.\nLO 7.5 Consider two different approaches for finding the optimal solution for the SVM."
+    },
+    {
+      "clo_name": "CLO8",
+      "clo_details": "Attitude and soft skills\nLO 8 Develop working in group skills and self-discipline"
+    }
+  ],
+  "schedule": [
+    {
+      "topic": "Chapter 3. Analytic Geometry\n3.1 Norm\n3.2 Inner Products",
+      "lo": "CLO0"
+    },
+    {
+      "topic": "3.3 Lengths and Distances\n3.4 Angles and Orthogonality",
+      "lo": "CLO0"
+    },
+    {
+      "topic": "3.5 Orthonormal Basis\n3.6 Orthonormal Complement",
+      "lo": "CLO0"
+    },
+    {
+      "topic": "3.8 Orthogonal Projections",
+      "lo": "CLO0"
+    },
+    {
+      "topic": "Chapter 4. Matrix Decompositions\n4.1 Determinants and Traces",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "4.2 Eigenvalues and Eigenvectors",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "4.4 Eigendecomposition and Diagonalization",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "4.5 Singular value Decomposition",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "4.5 Singular value Decomposition (cont.)",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "4.6 Matrix Approximation",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "Chapter 5. Vector Calculus\n5.1 Differentiation of Univariate Functions",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "5.2 Partial Differentiation and Gradients",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "5.2 Partial Differentiation and Gradients (cont.)",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "5.3 Gradients of Vector-Valued Functions",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "5.3 Gradients of Vector-Valued Functions (cont.)",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "5.6 Backpropagation and Automatic Differentiation",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "5.7 Higher-Order Derivatives",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "5.8 Linearization and Multivariate Taylor Series",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "Review",
+      "lo": "CLO0, CLO1, CLO2, CLO8"
+    },
+    {
+      "topic": "Progress Test 1\nSubmission of Assigment 1",
+      "lo": "CLO0, CLO1, CLO2, CLO8"
+    },
+    {
+      "topic": "Chapter 6. Probability and Distributions\n6.1 Construction of a Probability Space",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "6.2 Discrete and Continuous Probabilities",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "6.3 Sum Rule, Product Rule, and Bayes’ Theorem",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "6.3 Sum Rule, Product Rule, and Bayes’ Theorem (cont.)",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "6.4 Summary Statistics and Independence",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "6.4 Summary Statistics and Independence (cont.)",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "6.5 Gaussian Distribution",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "6.5 Gaussian Distribution (cont.)",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "Chapter 7. Continuous Optimization\n7.1 Optimization Using Gradient Descent",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "7.2 Constrained Optimization and Lagrange Multipliers",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "7.2 Constrained Optimization and Lagrange Multipliers (cont.)",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "7.3 Convex Optimization",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "7.3 Convex Optimization (cont.)",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "7.3 Convex Optimization (cont.)",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "Review",
+      "lo": "CLO3, LO4, CLO8"
+    },
+    {
+      "topic": "Progress Test 2\nSubmission of Assignment 2",
+      "lo": "CLO3, LO4, CLO8"
+    },
+    {
+      "topic": "Chapter 9. Linear Regression\n9.1 Problem Formulation",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "9.1 Problem Formulation (cont.)",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "9.2 Parameter Estimation",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "9.2 Parameter Estimation (cont.)",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "Optional:\n9.3 Bayesian Linear Regression",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "Optional:\n9.4 Maximum Likelihood as Orthogonal Projection",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "Chapter 10. Dimensionality Reduction with Principal Component Analysis\n10.1 Problem Setting",
+      "lo": "CLO6"
+    },
+    {
+      "topic": "10.2 Maximum Variance Perspective",
+      "lo": "CLO6"
+    },
+    {
+      "topic": "10.2 Maximum Variance Perspective (cont.)",
+      "lo": "CLO6"
+    },
+    {
+      "topic": "10.6 Key Steps of PCA in Practice",
+      "lo": "CLO6"
+    },
+    {
+      "topic": "10.6 Key Steps of PCA in Practice (cont.)",
+      "lo": "CLO6"
+    },
+    {
+      "topic": "Optional:\n10.3 Projection Perspective",
+      "lo": "CLO6"
+    },
+    {
+      "topic": "Optional:\n10.4 Eigenvector Computation and Low-Rank Approximations",
+      "lo": "CLO6"
+    },
+    {
+      "topic": "Optional:\n10.5 PCA in High Dimensions",
+      "lo": "CLO5, CLO6"
+    },
+    {
+      "topic": "Chapter 12. Classification with Support Vector Machines\n12.1 Separating Hyperplanes",
+      "lo": "CLO7"
+    },
+    {
+      "topic": "12.2 Primal Support Vector Machine",
+      "lo": "CLO7"
+    },
+    {
+      "topic": "12.2 Primal Support Vector Machine (cont.)",
+      "lo": "CLO7"
+    },
+    {
+      "topic": "12.2 Primal Support Vector Machine (cont.)",
+      "lo": "CLO7"
+    },
+    {
+      "topic": "12.3 Dual Support Vector Machine",
+      "lo": "CLO7"
+    },
+    {
+      "topic": "12.3 Dual Support Vector Machine (cont.)",
+      "lo": "CLO7"
+    },
+    {
+      "topic": "Optional:\n12.4 Kernels",
+      "lo": "CLO7"
+    },
+    {
+      "topic": "Optional:\n12.5 Numerical Solution",
+      "lo": "CLO7"
+    },
+    {
+      "topic": "Presentation of Computer Project",
+      "lo": "CLO5, CLO6, CLO7, CLO8"
+    },
+    {
+      "topic": "Presentation of Computer Project (cont.)",
+      "lo": "CLO5, CLO6, CLO7, CLO8"
+    }
+  ],
+  "assessments": [
+    {
+      "category": "Assignments",
+      "part": "3",
+      "weight": "30.0%",
+      "clo": "LO0, LO1, LO2, LO3, LO4, LO5, LO8"
+    },
+    {
+      "category": "Computer Project",
+      "part": "1",
+      "weight": "20.0%",
+      "clo": "LO5, LO6, LO7, LO8"
+    },
+    {
+      "category": "Progress tests",
+      "part": "2",
+      "weight": "20.0%",
+      "clo": "LO0, LO1, LO2, LO3, LO4"
+    },
+    {
+      "category": "Final exam",
+      "part": "1",
+      "weight": "30.0%",
+      "clo": "LO 0, LO 1, LO 2, LO 3, LO 4"
+    }
+  ]
+}

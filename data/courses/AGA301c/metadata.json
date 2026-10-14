@@ -1,0 +1,7 @@
+{
+  "syllabus_name": "Advanced Generative AI_Trí tuệ Nhân tạo Tạo sinh Nâng cao",
+  "course_name_english": "Advanced Generative AI",
+  "subject_code": "AGA301c",
+  "description": "Advanced Generative AI (AGA) studies how modern large language models (LLMs) and the generative-AI stack are built, adapted, evaluated, and deployed. This technology is one of the most rapidly evolving areas of machine learning, and demand is growing for professionals able to construct, fine-tune, align, and ship production-quality LLM-based systems. The course covers transformer architectures and data preparation, foundational and transformer-based language modelling, parameter-efficient fine-tuning (LoRA, QLoRA), advanced alignment (RLHF, PPO, DPO), and the design of LLM-powered applications using Retrieval-Augmented Generation (RAG), LangChain, and AI agents. By the end of this specialization, students will be ready to design generative-AI applications that perform text generation, classification, translation, retrieval-augmented question answering, and build LLM-powered agents.",
+  "tools": ""
+}

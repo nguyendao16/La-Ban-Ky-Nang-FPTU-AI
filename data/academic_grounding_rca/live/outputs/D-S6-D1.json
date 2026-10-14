@@ -1,0 +1,17 @@
+{
+  "reply": "Chúng xuất hiện trong phần **metadata.tools** của cả hai môn:\n\n- **ADY201m/tools**: `Jupyter Notebooks`, `JupyterLab`, `RStudio IDE`, `Git`, `GitHub`, `Watson Studio`.\n- **DAP391m/tools**: `Jupyter Notebooks`, `JupyterLab`, `RStudio IDE`, `Git`, `GitHub`, `Watson Studio`.\n\nNgoài ra, **ADY201m/CLO3** còn nêu rõ nhóm công cụ data science và yêu cầu **“use at least one tool”**, với các ví dụ gồm `Python`, `R`, `Scala`, `SQL`, `GitHub`, `Jupyter Notebooks`, `RStudio IDE`, `Watson Studio`.\n\nNhưng danh sách công cụ và cụm **“use at least one”** chỉ xác nhận **bối cảnh học thuật của môn** và việc môn học có cho tiếp xúc với các công cụ đó. Nó **không xác nhận rằng bạn đã sử dụng từng công cụ** một cách riêng lẻ. Nói cách khác, từ hồ sơ này chỉ có thể kết luận là các công cụ đó **được liệt kê trong môn học**, còn công cụ nào bạn thật sự dùng thì hồ sơ hiện tại chưa tách riêng được.\n\nNếu cần, mình có thể chỉ ra luôn công cụ nào được nêu ở mức **metadata.tools** và công cụ nào chỉ được nhắc trong **CLO3** của ADY201m.",
+  "evidence": [
+    {
+      "course_code": "ADY201m",
+      "metadata_field": "tools"
+    },
+    {
+      "course_code": "DAP391m",
+      "metadata_field": "tools"
+    },
+    {
+      "course_code": "ADY201m",
+      "clo": "CLO3"
+    }
+  ]
+}

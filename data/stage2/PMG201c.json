@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "syllabus_name": "Project management_Quản trị dự án",
+    "course_name_english": "Project management",
+    "subject_code": "PMG201c",
+    "description": "This intensive and hands-on series of courses gives you the skills to ensure your projects are completed on time and on budget while giving the user the product they expect. You will gain a strong working knowledge of the basics of project management and be able to immediately use that knowledge to effectively manage work projects. At the end of the series you will be able to identify and manage the product scope, build a work breakdown structure, create a project plan, create the project budget, define and allocate resources and identify and manage risks, and then you will be able to manage the project development.",
+    "tools": ""
+  },
+  "clos": [
+    {
+      "clo_name": "CLO1",
+      "clo_details": "Define project plan"
+    },
+    {
+      "clo_name": "CLO2",
+      "clo_details": "- Define a project’s scope - Build a work breakdown schedule - Allocate project resources- Create a project budget"
+    },
+    {
+      "clo_name": "CLO3",
+      "clo_details": "- Define key elements of communications management plan - Identify and manage risks"
+    },
+    {
+      "clo_name": "CLO4",
+      "clo_details": "Practise to: - Define project plan - Define a project’s scope - Build a work breakdown schedule - Allocate project resources - Create a project budget - Define key elements of communications management plan - Identify and manage risks"
+    }
+  ],
+  "schedule": [
+    {
+      "topic": "Specialization Introduction\nInitiating and Planning Projects\n- Get Started!\n- What is a project?\n- Get to Know your Stakeholders\nOffline 1: Introduction to the online course PMG201c",
+      "lo": "LO1"
+    },
+    {
+      "topic": "Initiating and Planning Projects\n- Scope Matters\n- Authority vs. Influence",
+      "lo": "LO1"
+    },
+    {
+      "topic": "Initiating and Planning Projects\n- Wrap Up",
+      "lo": "LO2"
+    },
+    {
+      "topic": "Budgeting and Scheduling Projects\n- Ressource Needs & Quality Management\n- Estimating",
+      "lo": "LO2"
+    },
+    {
+      "topic": "Budgeting and Scheduling Projects\n- Scheduling\n- Wrap Up",
+      "lo": "LO3"
+    },
+    {
+      "topic": "Managing Project Risks and Changes\n- Managing Project Risks\n- Change Happens",
+      "lo": "LO3"
+    },
+    {
+      "topic": "Managing Project Risks and Changes\n- Wrap Up",
+      "lo": "All LOs"
+    },
+    {
+      "topic": "Project Management Capstone\n- Get Started!\n- Project Components & Instructions",
+      "lo": "All LOs"
+    },
+    {
+      "topic": "Project Management Capstone\n- Project Components & Instructions\n- Content Review",
+      "lo": "All LOs"
+    },
+    {
+      "topic": "Project Management Capstone\n- Feedback Peer Review\n- Final Project Assignment Submission\n- Final Project Peer Review Evaluation",
+      "lo": "All LOs"
+    },
+    {
+      "topic": "Capstone Project Review & FE Introduction\nProject Management Capstone\n- Final Project Peer Review Evaluation",
+      "lo": "All LOs"
+    },
+    {
+      "topic": "- Specialization Wrap-Up\nOffline 2: Review Project Management Principles and Practices Specialization (Spec)",
+      "lo": "All LOs"
+    }
+  ],
+  "assessments": [
+    {
+      "category": "PE",
+      "part": "1",
+      "weight": "50.0%",
+      "clo": "All LOs"
+    },
+    {
+      "category": "TE",
+      "part": "1",
+      "weight": "50.0%",
+      "clo": "All LOs"
+    }
+  ]
+}

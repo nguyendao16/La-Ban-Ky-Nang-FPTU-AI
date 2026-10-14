@@ -1,0 +1,61 @@
+{
+  "status": "passed",
+  "errors": [],
+  "checks": [
+    {
+      "path": "segments/0/academic_sources/0",
+      "reference": {
+        "course_code": "CSI106",
+        "metadata_field": "description"
+      },
+      "source_excerpt": "Numbering system & data representation",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/0/academic_sources/1",
+      "reference": {
+        "course_code": "CSI106",
+        "clo": "CLO2"
+      },
+      "source_excerpt": "Know how to convert a number from one base to other base( decimal, binary, octal and hexadecimal), including Numbering systems, Positional Number Systems.",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/0/academic_sources/2",
+      "reference": {
+        "course_code": "CSI106",
+        "clo": "CLO3"
+      },
+      "source_excerpt": "Describe how different data type is stored inside a computer as bit patterns and operations on data, including Data storage and Operations on Data, Logic operations, Shift, Arithmetic operations.",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/0/academic_sources/3",
+      "reference": {
+        "course_code": "CSI106",
+        "clo": "CLO4"
+      },
+      "source_excerpt": "Describe the layers in networking and their relationship, including Computer Networks, Internet, Overview, and layers in netwoking.",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/0/academic_sources/4",
+      "reference": {
+        "course_code": "CSI106",
+        "clo": "CLO5"
+      },
+      "source_excerpt": "Undestand the role of OS in a computer system, including Operating System, Components of OS: UI, memory manager, Components of OS: file manager, Components of OS: device manager.",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/1/jd_excerpt",
+      "literal_excerpt_passed": true
+    }
+  ],
+  "semantic_support": "requires_manual_assessment"
+}

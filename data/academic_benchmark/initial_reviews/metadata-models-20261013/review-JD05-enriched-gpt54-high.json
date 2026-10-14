@@ -1,0 +1,149 @@
+{
+  "review_type": "academic_knowledge_review",
+  "overview": "Đối chiếu các yêu cầu học thuật cốt lõi của vị trí Data Analyst Intern, hồ sơ cho thấy bằng chứng trực tiếp về statistics/probability, data processing & analysis, Python cho data analysis, SQL và machine learning trong bối cảnh học thuật. Các học phần MAS291, ADY201m, DAP391m, AIL303m, MAI391 và DBI202 bao quát các nội dung như descriptive statistics, hypothesis testing, regression, data cleaning/wrangling, EDA, supervised learning, PCA, SQL/T-SQL và guided/mini-capstone projects. Mức achievement không đồng đều giữa các mảng: thống kê và toán cho ML chủ yếu ở mức excellent, trong khi một số CLO về SQL/T-SQL và một phần ML ứng dụng ở mức basic hoặc good. Với Deep Learning, hồ sơ hiện có chủ yếu xác nhận phần khái niệm; với visualization tools, hồ sơ xác nhận học về charts/dashboard nhưng chưa nêu đích danh Power BI, Tableau hay Google Data Studio.",
+  "requirement_reviews": [
+    {
+      "jd_requirement": "Yêu cầu bắt buộc: foundations in statistics",
+      "coverage": "covered",
+      "comment": "MAS291/CLO2 yêu cầu sử dụng các quy tắc xác suất, xác suất có điều kiện và Bayes để tính xác suất (score 9.34, achievement excellent); MAS291/CLO5 bao gồm descriptive statistics và visual displays của dữ liệu (9.15, excellent); MAS291/CLO8 bao gồm hypothesis testing (9.43, excellent); MAS291/CLO9 yêu cầu xây dựng và diễn giải simple linear regression (9.43, excellent). ADY201m/CLO6 bổ sung statistics cho data science với mean, median, mode, variance, standard deviation, visualization, probability distributions và regression analysis (8.61, excellent). Đây là bằng chứng học thuật trực tiếp cho nền tảng statistics mà JD yêu cầu.",
+      "evidence": [
+        {
+          "course_code": "MAS291",
+          "clo": "CLO2"
+        },
+        {
+          "course_code": "MAS291",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "MAS291",
+          "clo": "CLO8"
+        },
+        {
+          "course_code": "MAS291",
+          "clo": "CLO9"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO6"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Yêu cầu bắt buộc: foundations in data processing/analysis and ML/DL",
+      "coverage": "covered",
+      "comment": "AIL303m/CLO1 yêu cầu dùng các kỹ thuật truy xuất và làm sạch dữ liệu từ nhiều nguồn như SQL, NoSQL, APIs và Cloud (score 7.56, achievement good). DAP391m/CLO2 bao gồm import dữ liệu từ nhiều nguồn, clean/wrangle data, exploratory data analysis và tạo trực quan hóa có ý nghĩa (8.79, excellent). AIL303m/CLO4 yêu cầu mô tả và sử dụng supervised models, gồm linear regression (8.39, good). MAI391/CLO6 áp dụng PCA cho dimensionality reduction (9.4, excellent). AIG202c/CLO2 giải thích các khái niệm nền tảng của Machine Learning, Deep Learning và Neural Networks (8.0, good). Tổ hợp này bao phủ phần nền tảng về data processing/analysis và ML/DL ở phạm vi học thuật; phần Deep Learning được xác nhận ở mức khái niệm, không phải triển khai mô hình sâu cụ thể.",
+      "evidence": [
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO2"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO6"
+        },
+        {
+          "course_code": "AIG202c",
+          "clo": "CLO2"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Yêu cầu bắt buộc: Python OR R for data analysis",
+      "coverage": "covered",
+      "comment": "ADY201m/CLO5 bao gồm Python fundamentals, Python libraries và API support cho data science tasks (score 8.61, achievement excellent). ADY201m/CLO7 yêu cầu implement một guided data science project với Python fundamentals, SQL/database access, preprocessing, modeling, evaluation, visualization và final reporting (8.61, excellent). DAP391m/CLO1 bao gồm basics of data analysis with Python để xây dựng và đánh giá data models (8.45, good), còn DAP391m/CLO7 yêu cầu implement mini capstone với data wrangling, EDA, visualization, model development, model evaluation và reporting (9.1, excellent). Vì JD chấp nhận Python OR R, các CLO này đủ bao phủ nhánh Python. ADY201m/CLO3 có nhắc R trong danh sách công cụ và yêu cầu dùng ít nhất một tool cho basic data operations (8.43, good), nên cho thấy R được đề cập trong học phần nhưng không xác định R là công cụ đã được chọn sử dụng.",
+      "evidence": [
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO3"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Yêu cầu bắt buộc: analytical problem solving",
+      "coverage": "covered",
+      "comment": "MAE101/CLO3 yêu cầu use derivatives để phân tích hàm và giải các bài toán ứng dụng/optimization (score 8.98, achievement excellent). MAD101/CLO3 yêu cầu phân tích thuật toán viết bằng pseudocode và xác định độ phức tạp bằng Big-O, Big-Omega, Big-Theta (8.47, good). MAI391/CLO4 yêu cầu giải continuous optimization problems bằng gradient descent, Lagrange multipliers và convex optimization concepts (9.43, excellent). Các CLO này là bằng chứng học thuật trực tiếp cho analytical problem solving ở bối cảnh toán học và tính toán.",
+      "evidence": [
+        {
+          "course_code": "MAE101",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "MAD101",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO4"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Ưu tiên: SQL experience",
+      "coverage": "covered",
+      "comment": "DBI202/CLO5 đặt outcome về SQL với DDL, DML, multi-relation queries, nested queries, aggregation queries và database modifications trên Microsoft SQL Server (score 5.96, achievement basic). DBI202/CLO6 bao gồm T-SQL database programming với views, cursors, stored procedures, functions, triggers và transaction concepts trong Microsoft SQL Server (5.96, basic). ADY201m/CLO1 bổ sung SQL trong bối cảnh data science, gồm database fundamentals, nested queries và multi-table SELECT statements (8.3, good). ADY201m/CLO7 tiếp tục yêu cầu implement guided project có SQL/database access (8.61, excellent). Vì đây là mục ưu tiên về SQL, hồ sơ có bằng chứng học thuật trực tiếp; đồng thời cần lưu ý achievement trải từ basic đến excellent tùy CLO và ngữ cảnh môn học.",
+      "evidence": [
+        {
+          "course_code": "DBI202",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "DBI202",
+          "clo": "CLO6"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO7"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Ưu tiên: at least one visualization tool such as Power BI, Tableau or Google Data Studio",
+      "coverage": "related",
+      "comment": "DAP391m/CLO4 yêu cầu implement nhiều loại graphs/charts như histograms, bar charts, scatter plots, word clouds, choropleth maps và các dạng trực quan hóa khác (score 8.79, achievement excellent). DAP391m/CLO7 bao gồm interactive visual analytics và dashboard trong mini capstone (9.1, excellent). Mô tả môn DAP391m cũng nêu rõ học phần bao gồm Data Visualization tools and techniques và tạo interactive dashboards; đây là bối cảnh chương trình học. Tuy nhiên hồ sơ chưa nêu đích danh Power BI, Tableau hoặc Google Data Studio, và cũng chưa xác định chính xác visualization tool nào đã được dùng, nên bằng chứng hiện có phù hợp ở mức related thay vì xác nhận đúng tên công cụ JD nêu ví dụ.",
+      "evidence": [
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "DAP391m",
+          "metadata_field": "description"
+        }
+      ]
+    }
+  ],
+  "conclusion": "Tóm lại, hồ sơ học thuật hiện có xác nhận nền tảng phù hợp với phần lớn yêu cầu chuyên môn của JD: statistics, phân tích dữ liệu bằng Python, xử lý dữ liệu/EDA, cơ sở machine learning và SQL. Bằng chứng SQL mang tính bổ sung giữa DBI202 và ADY201m: DBI202 cho SQL/T-SQL trên Microsoft SQL Server với achievement basic, còn ADY201m cho ngữ cảnh phân tích dữ liệu với achievement good/excellent. Nền tảng ML/DL được thể hiện qua supervised learning, PCA và phần giải thích khái niệm ML/DL/Neural Networks; đây là bằng chứng học thuật về nội dung đã học. Đối với visualization tools, hồ sơ có bằng chứng trực tiếp về trực quan hóa và dashboard, nhưng chưa cung cấp bằng chứng học thuật trực tiếp về Power BI, Tableau hoặc Google Data Studio."
+}

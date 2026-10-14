@@ -1,0 +1,148 @@
+{
+  "version": 1,
+  "status": "rca_complete_with_observed_semantic_failures",
+  "plan_sha256": "54ea1fe098579d731af9c244b823d68f45454187357d89a3675c49320d5fd2e3",
+  "model": "gpt-5.4-mini-2026-03-17",
+  "reasoning_effort": "medium",
+  "max_output_tokens": 8192,
+  "timeout_seconds": 180.0,
+  "budget": {
+    "max_generations": 32,
+    "max_preflights": 32,
+    "max_http_operations": 64,
+    "max_cost_usd": "3.00"
+  },
+  "planning_ceiling_usd": "2.715648",
+  "actual_generation_http_attempts": 32,
+  "actual_preflight_http_attempts": 32,
+  "known_cost_usd": "0.24872130",
+  "unknown_usage_reservation_usd": "0",
+  "mean_latency_seconds": 7.526531250000001,
+  "median_latency_seconds": 5.9045000000000005,
+  "live_atomic_metrics": {
+    "frozen_asked_parent_units": 132,
+    "asked_atomic_claims": 156,
+    "answered_atomic_claims": 501,
+    "added_atomic_claims": 345,
+    "asked_results": {
+      "correct_direct": 128,
+      "correct_related_boundary": 18,
+      "relation_underclaim": 5,
+      "wrong_attribution": 2,
+      "correct_absence": 3
+    },
+    "added_results": {
+      "correct_direct": 333,
+      "wrong_attribution": 1,
+      "interpretation_error": 1,
+      "correct_absence": 8,
+      "missing_support": 2
+    },
+    "omitted_asked_units": 0,
+    "atomic_severity": {
+      "P1": 8,
+      "P0": 3
+    },
+    "outputs_with_p0": [
+      "E2-contaminated-D2",
+      "E3-same-course",
+      "E2-contaminated-repeat"
+    ],
+    "outputs_with_p1": [
+      "AB-S4",
+      "E3-same-course",
+      "AB-S8",
+      "D-S7-D2",
+      "D-S8-D1",
+      "D-S8-D2",
+      "E5-holdout"
+    ],
+    "outputs_with_p2": [
+      "C3",
+      "D-S6-D1",
+      "E2-contaminated",
+      "E2-contaminated-D2",
+      "E4-multiple-sources",
+      "D-S8-D2",
+      "E5-holdout"
+    ]
+  },
+  "live_semantic_status": "manually_assessed_with_p0_failures",
+  "historical_forensic": {
+    "candidate_outputs": 115,
+    "raw_operations": 17,
+    "primary_cases": 3,
+    "representative_findings": 12,
+    "selected_fault_assertions": 19,
+    "selected_fault_severity": {
+      "P0": 14,
+      "P1": 5
+    },
+    "same_model_controls": 3
+  },
+  "hypotheses": {
+    "H1": {
+      "confidence": "inconclusive",
+      "observation": "No wrong topical source ID in eight narrow A/B scenarios; contaminated full-context mapping can still be wrong."
+    },
+    "H2": {
+      "confidence": "inconclusive",
+      "observation": "D2 does not improve observed accuracy; its contaminated mapping is already wrong and PFP reply adds unmapped/uncited facts."
+    },
+    "H3": {
+      "confidence": "partially_supported",
+      "observation": "Clean/contaminated D2 differ and summary topics expand from Review; C/reorder stay correct and identical E2 repetition varies."
+    },
+    "H4": {
+      "confidence": "partially_supported",
+      "observation": "E3 introduces collection-to-ADY7; PFP final reply drifts beyond mapping. Internal H1/H2/H4 mechanism is not fully separated."
+    }
+  },
+  "ranking_status": "conditional_recommendations_completed_no_production_fix",
+  "protected_files_unchanged": 976,
+  "completed_on": "2026-10-14",
+  "authorization": "explicit_user_approval_for_frozen_plan",
+  "total_http_operations": 64,
+  "latency_by_schema": {
+    "identification": {
+      "n": 8,
+      "mean": 7.118,
+      "median": 5.9990000000000006
+    },
+    "chat": {
+      "n": 18,
+      "mean": 6.637666666666667,
+      "median": 4.3435
+    },
+    "claim_level": {
+      "n": 6,
+      "mean": 10.737833333333334,
+      "median": 9.368500000000001
+    }
+  },
+  "latency_measurement": "preflight plus generation, parsing and validation per condition",
+  "completion": {
+    "api_completed": 32,
+    "schema_parsed": 32,
+    "combined_validation_passed": 30,
+    "timeout": 0,
+    "incomplete": 0,
+    "retries": 0
+  },
+  "tokens": {
+    "input_tokens": 472182,
+    "cached_input_tokens": 364544,
+    "output_tokens": 31256,
+    "reasoning_tokens": 17369,
+    "total_tokens": 503438
+  },
+  "next_smallest_prototype": "Internal source excerpts and deterministic quote/source gate, preserving external reply/evidence; measure semantic support and completion separately.",
+  "frozen_sources_unchanged": 43,
+  "report": "docs/academic_grounding_rca.md",
+  "limitations": [
+    "Selected diagnostic sample is not production accuracy.",
+    "D2 changes representation, size and field order.",
+    "Atomic granularity, band quote contract and summary scope have documented annotation caveats.",
+    "No internal reasoning or isolated selection trace is available. No additional inference is authorized by unused dollar budget."
+  ]
+}

@@ -1,0 +1,6 @@
+VNGGames — Data Analysis Intern
+Responsibilities: Maintain automated dashboards for business/product performance; define and monitor metrics, including feature changes; provide analysis to product/business teams; handle report updates, missing data, exports and ad-hoc analyses; document workflows.
+Qualifications: Relevant ongoing/recent university study; basic SQL and familiarity with data workflows/pipelines; exposure to Power BI, Tableau or comparable BI tools; analytical problem solving, communication, teamwork and attention to detail.
+Preferred: Python familiarity.
+Internship work does not itself establish a requirement for previous professional dashboard employment.
+Source-grounded paraphrase based on an indexed version of the same VNG posting. Direct retrieval failed during checking; no current vacancy claim.

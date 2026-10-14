@@ -1,0 +1,20 @@
+{
+  "origin": "offline_artifact_verification",
+  "checked_at": "2026-10-13T15:29:54.644866+07:00",
+  "pytest": {
+    "passed": 238,
+    "baseline": 201,
+    "new": 37
+  },
+  "pip_check": "passed",
+  "live_generations": 78,
+  "preflights": 78,
+  "sdk_retries": 0,
+  "manual_outputs": 78,
+  "all_profiles_and_source_mapping_preserved": true,
+  "full_history_and_one_generation_per_turn": true,
+  "ab_only_temperature_differs": true,
+  "protected_files_unchanged": 30,
+  "credential_absent_from_artifacts": true,
+  "semantic_acceptance": "requires_grounding_fixes"
+}

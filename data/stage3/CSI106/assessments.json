@@ -1,0 +1,26 @@
+[
+  {
+    "category": "Group presentation",
+    "part": "2",
+    "weight": "10.0%",
+    "clo": "Presentation1. One or many of CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8, CLO9, CLO10\nPresentation2. CLO13"
+  },
+  {
+    "category": "Lab",
+    "part": "2",
+    "weight": "20.0%",
+    "clo": "Lab1. CLO2\nLab2. One or many of CLO6, CLO7"
+  },
+  {
+    "category": "Progress Test",
+    "part": "3",
+    "weight": "30.0%",
+    "clo": "Test1. CLO1, CLO2, CLO3, CLO4, CLO5\nTest2. CLO6, CLO7, CLO8, CLO9\nTest3. CLO10, CLO11, CLO12, CLO13"
+  },
+  {
+    "category": "Final exam",
+    "part": "1",
+    "weight": "40.0%",
+    "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8, CLO9, CLO10, CLO11, CLO12"
+  }
+]

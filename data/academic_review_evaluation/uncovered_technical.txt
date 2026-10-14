@@ -1,0 +1,8 @@
+Quantum Computing / FPGA Research Assistant
+
+- Explain quantum computing concepts including qubits, entanglement and quantum gates.
+- Implement quantum circuits using Qiskit.
+- Design FPGA hardware with Verilog and verify hardware timing constraints.
+- Professional experience deploying quantum computing or FPGA systems.
+
+Office location and salary are administrative details, not knowledge requirements.

@@ -1,0 +1,816 @@
+{
+  "origin": "live_with_manual_review",
+  "generated_at": "2026-10-13T20:08:53.076776+07:00",
+  "run_id": "metadata-models-20261013",
+  "counts": {
+    "generation_http_attempts": 12,
+    "preflight_http_attempts": 12,
+    "conditions_attempted": 12,
+    "validated_outputs": 8,
+    "schema_passed": 9,
+    "completed_visible_outputs": 9,
+    "P0_outputs": 6,
+    "unassessable_outputs": 3
+  },
+  "known_usage_requests": 11,
+  "known_usage": {
+    "input_tokens": 195617,
+    "cached_input_tokens": 58112,
+    "output_tokens": 67892,
+    "reasoning_tokens": 49029,
+    "total_tokens": 263509
+  },
+  "estimated_known_cost_usd": "0.77571245",
+  "unreported_timeout_cost_reservation_usd": "0.2858825",
+  "known_cost_plus_timeout_ceiling_usd": "1.06159495",
+  "total_reserved_ceiling_usd": "1.78008325",
+  "approved_max_cost_usd": 2.5,
+  "sdk_generation_retries": 0,
+  "data_effect_pairs": [
+    {
+      "case_id": "JD01",
+      "legacy_input_tokens": 13065,
+      "enriched_input_tokens": 16051,
+      "increase": 2986,
+      "increase_percent": 22.85,
+      "only_profile_changed": true
+    },
+    {
+      "case_id": "JD05",
+      "legacy_input_tokens": 13096,
+      "enriched_input_tokens": 16082,
+      "increase": 2986,
+      "increase_percent": 22.8,
+      "only_profile_changed": true
+    }
+  ],
+  "chat_common_context_sha256": "47b2e6aa600f7ba9d7ebf05a56d06aa105dc7fca3023f82c77a3fec687511251",
+  "profile_validation": {
+    "origin": "offline_validation",
+    "courses": 15,
+    "clos": 122,
+    "metadata_coverage": 15,
+    "empty_tools": [
+      "MAE101",
+      "CSI106",
+      "AIG202c",
+      "ITE303c"
+    ],
+    "all_original_fields_unchanged": true,
+    "profile_validation": "passed",
+    "legacy_sha256": "99f34048ed8c3d11ed972fa0a97476aa7fba6f071ad8aea454bb66b6b5c2eca1",
+    "enriched_sha256": "b0bfa72fdc04f8d2cfc94e68fd7b4745387cd378a923f55eb94e2aef391bf531",
+    "legacy_bytes": 47495,
+    "enriched_bytes": 62415,
+    "metadata_errors": []
+  },
+  "semantic_acceptance": "not_accepted_across_tested_outputs",
+  "results": {
+    "review-JD01-legacy-gpt41": {
+      "status": "failed",
+      "metrics": {
+        "requested_model": "gpt-4.1",
+        "resolved_model": "gpt-4.1-2025-04-14",
+        "stage": "review",
+        "reasoning_effort": null,
+        "temperature_sent": true,
+        "temperature": 0.0,
+        "max_output_tokens": 16384,
+        "preflight_input_tokens": 13065,
+        "input_tokens": 13065,
+        "cached_input_tokens": 0,
+        "output_tokens": 2282,
+        "reasoning_tokens": 0,
+        "total_tokens": 15347,
+        "estimated_cost_usd": "0.044386",
+        "latency_seconds": 18.596,
+        "schema_validation": "passed",
+        "evidence_validation": "failed",
+        "semantic_grounding": "pending_manual_review",
+        "naturalness": null,
+        "completeness": null
+      },
+      "artifact": "requests/review-JD01-legacy-gpt41.json",
+      "manual_assessment": {
+        "scores": {
+          "jd_coverage": 1,
+          "evidence_grounding": 0,
+          "academic_achievement": 0,
+          "gap_calibration": 1,
+          "knowledge_vs_experience": 2,
+          "conversational_continuity": null,
+          "completeness": 1,
+          "naturalness": 1,
+          "scope_adherence": 1
+        },
+        "findings": [
+          {
+            "severity": "P0",
+            "description": "Fabricates DAP391m metadata.description reference in a legacy profile without metadata; evidence validator correctly rejects the output."
+          },
+          {
+            "severity": "P0",
+            "description": "Overview/conclusion say all relevant CLOs are good/excellent while the review cites AIL303m/CLO10=5.42/basic."
+          },
+          {
+            "severity": "P0",
+            "description": "ML row mentions optimization/probability without MAI391/CLO4/CLO3; collect AND label is covered although cited project CLOs do not establish labeling."
+          },
+          {
+            "severity": "P1",
+            "description": "Broad learning/project descriptions omit some precise supporting CLOs; conclusion adds academic suitability wording."
+          }
+        ],
+        "reviewed_at": "2026-10-13T20:08:53.076776+07:00",
+        "artifact": "requests/review-JD01-legacy-gpt41.json",
+        "artifact_sha256": "27eb3e9832eb8392b6cd35aa5a4d688e7b1a5e0076ca088d3bcf4654163449a4",
+        "semantic_status": "P0_observed",
+        "semantic_success": false
+      }
+    },
+    "review-JD01-enriched-gpt41": {
+      "status": "passed",
+      "metrics": {
+        "requested_model": "gpt-4.1",
+        "resolved_model": "gpt-4.1-2025-04-14",
+        "stage": "review",
+        "reasoning_effort": null,
+        "temperature_sent": true,
+        "temperature": 0.0,
+        "max_output_tokens": 16384,
+        "preflight_input_tokens": 16051,
+        "input_tokens": 16051,
+        "cached_input_tokens": 0,
+        "output_tokens": 2148,
+        "reasoning_tokens": 0,
+        "total_tokens": 18199,
+        "estimated_cost_usd": "0.049286",
+        "latency_seconds": 13.887,
+        "schema_validation": "passed",
+        "evidence_validation": "passed",
+        "semantic_grounding": "pending_manual_review",
+        "naturalness": null,
+        "completeness": null
+      },
+      "artifact": "requests/review-JD01-enriched-gpt41.json",
+      "manual_assessment": {
+        "scores": {
+          "jd_coverage": 1,
+          "evidence_grounding": 0,
+          "academic_achievement": 0,
+          "gap_calibration": 1,
+          "knowledge_vs_experience": 1,
+          "conversational_continuity": null,
+          "completeness": 1,
+          "naturalness": 1,
+          "scope_adherence": 1
+        },
+        "findings": [
+          {
+            "severity": "P0",
+            "description": "Python row calls achievements excellent including CSD203/CLO1, which is 7.26/good."
+          },
+          {
+            "severity": "P0",
+            "description": "ML row lists PCA, clustering, segmentation/recognition while refs omit MAI391/CLO6, relevant AIL303m clustering CLOs and CPV301 sources; its cited descriptions do not support those named methods."
+          },
+          {
+            "severity": "P0",
+            "description": "AI evaluation row mentions SVM/clustering/regression supported only by AIL303m/CLO5 and CPV301/CLO8; these descriptions do not support all named methods."
+          },
+          {
+            "severity": "P0",
+            "description": "Collect-and-label row claims labeling is part of the cited projects, although those descriptions do not establish labeling."
+          },
+          {
+            "severity": "P0",
+            "description": "Image-processing row adds feature extraction/object detection/recognition/tracking with only CPV301/CLO3/CLO5 references."
+          },
+          {
+            "severity": "P1",
+            "description": "Correctly names documented tools without inferring named ML-framework use, but supporting ML-learning claim in that row has only metadata.tools references. Overview describes intended projects as completed experience; administrative requirements are included."
+          },
+          {
+            "severity": "P1",
+            "description": "Deep Learning concepts do exist in AIG202c/CLO2=8.0/good, but this output's ML/DL row omits that precise supporting reference; do not interpret this as DL absent from the profile."
+          }
+        ],
+        "reviewed_at": "2026-10-13T20:08:53.076776+07:00",
+        "artifact": "requests/review-JD01-enriched-gpt41.json",
+        "artifact_sha256": "8469bf6e3f32fd0f9022f34cd056305909f5496406632c37c7efe6957a773f33",
+        "semantic_status": "P0_observed",
+        "semantic_success": false
+      }
+    },
+    "review-JD01-enriched-mini-high": {
+      "status": "failed",
+      "metrics": {
+        "requested_model": "gpt-5.4-mini",
+        "resolved_model": "gpt-5.4-mini-2026-03-17",
+        "stage": "review",
+        "reasoning_effort": "high",
+        "temperature_sent": false,
+        "temperature": null,
+        "max_output_tokens": 16384,
+        "preflight_input_tokens": 16049,
+        "input_tokens": 16049,
+        "cached_input_tokens": 0,
+        "output_tokens": 16384,
+        "reasoning_tokens": 16384,
+        "total_tokens": 32433,
+        "estimated_cost_usd": "0.08576475",
+        "latency_seconds": 77.651,
+        "schema_validation": "not_available",
+        "evidence_validation": "not_available",
+        "semantic_grounding": "pending_manual_review",
+        "naturalness": null,
+        "completeness": null
+      },
+      "artifact": "requests/review-JD01-enriched-mini-high.json",
+      "manual_assessment": {
+        "scores": {
+          "jd_coverage": null,
+          "evidence_grounding": null,
+          "academic_achievement": null,
+          "gap_calibration": null,
+          "knowledge_vs_experience": null,
+          "conversational_continuity": null,
+          "completeness": null,
+          "naturalness": null,
+          "scope_adherence": null
+        },
+        "findings": [],
+        "semantic_status": "not_assessable_without_completed_text",
+        "notes": "{'reason': 'max_output_tokens'}",
+        "reviewed_at": "2026-10-13T20:08:53.076776+07:00",
+        "artifact": "requests/review-JD01-enriched-mini-high.json",
+        "artifact_sha256": "ee06dfa1a11975e38fc32dab8a524575a83b046b80ba92119f825cf7a95d56db",
+        "semantic_success": null
+      }
+    },
+    "review-JD01-enriched-gpt54-high": {
+      "status": "failed",
+      "metrics": {
+        "requested_model": "gpt-5.4",
+        "resolved_model": null,
+        "stage": "review",
+        "reasoning_effort": "high",
+        "temperature_sent": false,
+        "temperature": null,
+        "max_output_tokens": 16384,
+        "preflight_input_tokens": 16049,
+        "input_tokens": null,
+        "cached_input_tokens": 0,
+        "output_tokens": null,
+        "reasoning_tokens": null,
+        "total_tokens": null,
+        "estimated_cost_usd": null,
+        "latency_seconds": 180.627,
+        "schema_validation": "not_available",
+        "evidence_validation": "not_available",
+        "semantic_grounding": "pending_manual_review",
+        "naturalness": null,
+        "completeness": null
+      },
+      "artifact": "requests/review-JD01-enriched-gpt54-high.json",
+      "manual_assessment": {
+        "scores": {
+          "jd_coverage": null,
+          "evidence_grounding": null,
+          "academic_achievement": null,
+          "gap_calibration": null,
+          "knowledge_vs_experience": null,
+          "conversational_continuity": null,
+          "completeness": null,
+          "naturalness": null,
+          "scope_adherence": null
+        },
+        "findings": [],
+        "semantic_status": "not_assessable_without_completed_text",
+        "notes": "OpenAI timeout sau retry",
+        "reviewed_at": "2026-10-13T20:08:53.076776+07:00",
+        "artifact": "requests/review-JD01-enriched-gpt54-high.json",
+        "artifact_sha256": "1defaea7fcab3c8f49a3d5f43f355238eb539282c146c6beca67d8e1beb65242",
+        "semantic_success": null
+      }
+    },
+    "review-JD05-legacy-gpt41": {
+      "status": "passed",
+      "metrics": {
+        "requested_model": "gpt-4.1",
+        "resolved_model": "gpt-4.1-2025-04-14",
+        "stage": "review",
+        "reasoning_effort": null,
+        "temperature_sent": true,
+        "temperature": 0.0,
+        "max_output_tokens": 16384,
+        "preflight_input_tokens": 13096,
+        "input_tokens": 13096,
+        "cached_input_tokens": 12160,
+        "output_tokens": 1725,
+        "reasoning_tokens": 0,
+        "total_tokens": 14821,
+        "estimated_cost_usd": "0.021752",
+        "latency_seconds": 11.932,
+        "schema_validation": "passed",
+        "evidence_validation": "passed",
+        "semantic_grounding": "pending_manual_review",
+        "naturalness": null,
+        "completeness": null
+      },
+      "artifact": "requests/review-JD05-legacy-gpt41.json",
+      "manual_assessment": {
+        "scores": {
+          "jd_coverage": 1,
+          "evidence_grounding": 0,
+          "academic_achievement": 0,
+          "gap_calibration": 2,
+          "knowledge_vs_experience": 1,
+          "conversational_continuity": null,
+          "completeness": 1,
+          "naturalness": 1,
+          "scope_adherence": 1
+        },
+        "findings": [
+          {
+            "severity": "P0",
+            "description": "Python row says excellent for DAP391m/CLO1 (8.45/good), and conclusion assigns basic to SQL overall instead of individual CLOs."
+          },
+          {
+            "severity": "P0",
+            "description": "Statistics/ML row cites no MAI391/CLO4 for optimization or MAS291/CLO8/AIL303m/CLO3 for hypothesis testing."
+          },
+          {
+            "severity": "P0",
+            "description": "Dashboard claim cites DAP391m/CLO3/CLO4 and ADY201m/CLO6 but omits DAP391m/CLO7; legacy profile has no metadata.description fallback."
+          },
+          {
+            "severity": "P1",
+            "description": "Preserves Python OR R, SQL/BI preferred and at-least-one-tool limits, but basic-only SQL curriculum wording and completed-practice claims remain; conclusion adds suitability wording."
+          },
+          {
+            "severity": "P1",
+            "description": "Deep Learning concepts do exist in AIG202c/CLO2=8.0/good, but this output's ML/DL row omits that precise supporting reference; do not interpret this as DL absent from the profile."
+          }
+        ],
+        "reviewed_at": "2026-10-13T20:08:53.076776+07:00",
+        "artifact": "requests/review-JD05-legacy-gpt41.json",
+        "artifact_sha256": "2ec0a1e95c0bd75a5cd048e7de04806245003653f39e8550f63d0adab179ddba",
+        "semantic_status": "P0_observed",
+        "semantic_success": false
+      }
+    },
+    "review-JD05-enriched-gpt41": {
+      "status": "passed",
+      "metrics": {
+        "requested_model": "gpt-4.1",
+        "resolved_model": "gpt-4.1-2025-04-14",
+        "stage": "review",
+        "reasoning_effort": null,
+        "temperature_sent": true,
+        "temperature": 0.0,
+        "max_output_tokens": 16384,
+        "preflight_input_tokens": 16082,
+        "input_tokens": 16082,
+        "cached_input_tokens": 15232,
+        "output_tokens": 1751,
+        "reasoning_tokens": 0,
+        "total_tokens": 17833,
+        "estimated_cost_usd": "0.023324",
+        "latency_seconds": 10.198,
+        "schema_validation": "passed",
+        "evidence_validation": "passed",
+        "semantic_grounding": "pending_manual_review",
+        "naturalness": null,
+        "completeness": null
+      },
+      "artifact": "requests/review-JD05-enriched-gpt41.json",
+      "manual_assessment": {
+        "scores": {
+          "jd_coverage": 1,
+          "evidence_grounding": 0,
+          "academic_achievement": 0,
+          "gap_calibration": 2,
+          "knowledge_vs_experience": 1,
+          "conversational_continuity": null,
+          "completeness": 1,
+          "naturalness": 1,
+          "scope_adherence": 1
+        },
+        "findings": [
+          {
+            "severity": "P0",
+            "description": "Problem-solving row cites AIL303m/CLO10 (5.42/basic) but calls its cited outcomes excellent/good."
+          },
+          {
+            "severity": "P0",
+            "description": "Conclusion says SQL achievement is basic overall, erasing ADY201m/CLO1=8.30/good and CLO7=8.61/excellent despite correct row-level bands."
+          },
+          {
+            "severity": "P0",
+            "description": "Python row attributes data modeling/visualization/project use to PFP191/CLO7, CSD203/CLO1, ADY201m/CLO3 and DAP391m/CLO1, whose precise scopes do not establish that combined claim."
+          },
+          {
+            "severity": "P1",
+            "description": "SQL/BI preferred and Python OR R are retained; intended project/Understand outcomes are described as completed practice. Metadata references are not used, so richer data alone did not establish a semantic improvement here."
+          },
+          {
+            "severity": "P1",
+            "description": "Deep Learning concepts do exist in AIG202c/CLO2=8.0/good, but this output's ML/DL row omits that precise supporting reference; do not interpret this as DL absent from the profile."
+          }
+        ],
+        "reviewed_at": "2026-10-13T20:08:53.076776+07:00",
+        "artifact": "requests/review-JD05-enriched-gpt41.json",
+        "artifact_sha256": "aae8fdb7c40924ce6f191ca23163e866e18676030259b5db5f89a419878a3c69",
+        "semantic_status": "P0_observed",
+        "semantic_success": false
+      }
+    },
+    "review-JD05-enriched-mini-high": {
+      "status": "failed",
+      "metrics": {
+        "requested_model": "gpt-5.4-mini",
+        "resolved_model": "gpt-5.4-mini-2026-03-17",
+        "stage": "review",
+        "reasoning_effort": "high",
+        "temperature_sent": false,
+        "temperature": null,
+        "max_output_tokens": 16384,
+        "preflight_input_tokens": 16080,
+        "input_tokens": 16080,
+        "cached_input_tokens": 15616,
+        "output_tokens": 16384,
+        "reasoning_tokens": 16384,
+        "total_tokens": 32464,
+        "estimated_cost_usd": "0.0752472",
+        "latency_seconds": 102.027,
+        "schema_validation": "not_available",
+        "evidence_validation": "not_available",
+        "semantic_grounding": "pending_manual_review",
+        "naturalness": null,
+        "completeness": null
+      },
+      "artifact": "requests/review-JD05-enriched-mini-high.json",
+      "manual_assessment": {
+        "scores": {
+          "jd_coverage": null,
+          "evidence_grounding": null,
+          "academic_achievement": null,
+          "gap_calibration": null,
+          "knowledge_vs_experience": null,
+          "conversational_continuity": null,
+          "completeness": null,
+          "naturalness": null,
+          "scope_adherence": null
+        },
+        "findings": [],
+        "semantic_status": "not_assessable_without_completed_text",
+        "notes": "{'reason': 'max_output_tokens'}",
+        "reviewed_at": "2026-10-13T20:08:53.076776+07:00",
+        "artifact": "requests/review-JD05-enriched-mini-high.json",
+        "artifact_sha256": "e07913580a0e75bdca33be0bbc658991e435aefbf5745c302eed0f0d8d6ba75a",
+        "semantic_success": null
+      }
+    },
+    "review-JD05-enriched-gpt54-high": {
+      "status": "passed",
+      "metrics": {
+        "requested_model": "gpt-5.4",
+        "resolved_model": "gpt-5.4-2026-03-05",
+        "stage": "review",
+        "reasoning_effort": "high",
+        "temperature_sent": false,
+        "temperature": null,
+        "max_output_tokens": 16384,
+        "preflight_input_tokens": 16080,
+        "input_tokens": 16080,
+        "cached_input_tokens": 15104,
+        "output_tokens": 13600,
+        "reasoning_tokens": 11584,
+        "total_tokens": 29680,
+        "estimated_cost_usd": "0.210216",
+        "latency_seconds": 167.49,
+        "schema_validation": "passed",
+        "evidence_validation": "passed",
+        "semantic_grounding": "pending_manual_review",
+        "naturalness": null,
+        "completeness": null
+      },
+      "artifact": "requests/review-JD05-enriched-gpt54-high.json",
+      "manual_assessment": {
+        "scores": {
+          "jd_coverage": 2,
+          "evidence_grounding": 2,
+          "academic_achievement": 2,
+          "gap_calibration": 2,
+          "knowledge_vs_experience": 2,
+          "conversational_continuity": null,
+          "completeness": 2,
+          "naturalness": 2,
+          "scope_adherence": 2
+        },
+        "findings": [],
+        "notes": "No P0/P1/P2 observed in this single completed Review. Exact scores/bands, AIG202c conceptual DL, MAI391 optimization/PCA, ADY201m SQL project, Python OR R and SQL/BI preferred are correct. DAP391m description is correctly cited for dashboard curriculum. Initial Review JD01 timed out, so this is not a general acceptance claim.",
+        "reviewed_at": "2026-10-13T20:08:53.076776+07:00",
+        "artifact": "requests/review-JD05-enriched-gpt54-high.json",
+        "artifact_sha256": "5cbf17d089180d8c6dd0c9c5a5106fad62a1476e353bbaed96dba668aad8471f",
+        "semantic_status": "no_P0_observed",
+        "semantic_success": true
+      }
+    },
+    "chat-JD11-gpt41": {
+      "status": "passed",
+      "metrics": {
+        "requested_model": "gpt-4.1",
+        "resolved_model": "gpt-4.1-2025-04-14",
+        "stage": "chat",
+        "reasoning_effort": null,
+        "temperature_sent": true,
+        "temperature": 0.0,
+        "max_output_tokens": 8192,
+        "preflight_input_tokens": 22274,
+        "input_tokens": 22274,
+        "cached_input_tokens": 0,
+        "output_tokens": 1412,
+        "reasoning_tokens": 0,
+        "total_tokens": 23686,
+        "estimated_cost_usd": "0.055844",
+        "latency_seconds": 8.918,
+        "schema_validation": "passed",
+        "evidence_validation": "passed",
+        "semantic_grounding": "pending_manual_review",
+        "naturalness": null,
+        "completeness": null
+      },
+      "artifact": "requests/chat-JD11-gpt41.json",
+      "manual_assessment": {
+        "scores": {
+          "jd_coverage": 2,
+          "evidence_grounding": 0,
+          "academic_achievement": 2,
+          "gap_calibration": 2,
+          "knowledge_vs_experience": 2,
+          "conversational_continuity": 0,
+          "completeness": 1,
+          "naturalness": 1,
+          "scope_adherence": 2
+        },
+        "findings": [
+          {
+            "severity": "P0",
+            "description": "Explicitly says ADY201m/CLO7 mentions API in its workflow; the canonical CLO7 does not name API. Historical attribution error is repeated."
+          },
+          {
+            "severity": "P1",
+            "description": "DAP391m/CLO7 remains under API evidence without clarifying its data-project role; quoted ADY201m/CLO3 at-least-one statement has no CLO3 reference."
+          },
+          {
+            "severity": "P1",
+            "description": "Tool limits are explained correctly, but does not explicitly discuss the named PFP191/DBI202 tool contexts requested in the probe."
+          },
+          {
+            "severity": "P2",
+            "description": "Long full-English CLO quotations and a repetitive opening/conclusion reduce conversational naturalness."
+          }
+        ],
+        "reviewed_at": "2026-10-13T20:08:53.076776+07:00",
+        "artifact": "requests/chat-JD11-gpt41.json",
+        "artifact_sha256": "01f8d3eb11126707ae0ba5a626ed1cd7cdc781e59d48910d03f288d396c3da18",
+        "semantic_status": "P0_observed",
+        "semantic_success": false
+      }
+    },
+    "chat-JD11-mini-low": {
+      "status": "passed",
+      "metrics": {
+        "requested_model": "gpt-5.4-mini",
+        "resolved_model": "gpt-5.4-mini-2026-03-17",
+        "stage": "chat",
+        "reasoning_effort": "low",
+        "temperature_sent": false,
+        "temperature": null,
+        "max_output_tokens": 8192,
+        "preflight_input_tokens": 22280,
+        "input_tokens": 22280,
+        "cached_input_tokens": 0,
+        "output_tokens": 1982,
+        "reasoning_tokens": 65,
+        "total_tokens": 24262,
+        "estimated_cost_usd": "0.025629",
+        "latency_seconds": 16.277,
+        "schema_validation": "passed",
+        "evidence_validation": "passed",
+        "semantic_grounding": "pending_manual_review",
+        "naturalness": null,
+        "completeness": null
+      },
+      "artifact": "requests/chat-JD11-mini-low.json",
+      "manual_assessment": {
+        "scores": {
+          "jd_coverage": 2,
+          "evidence_grounding": 1,
+          "academic_achievement": 2,
+          "gap_calibration": 2,
+          "knowledge_vs_experience": 2,
+          "conversational_continuity": 1,
+          "completeness": 2,
+          "naturalness": 1,
+          "scope_adherence": 2
+        },
+        "findings": [
+          {
+            "severity": "P1",
+            "description": "ADY201m/CLO7 and DAP391m/CLO7 are still grouped under API evidence; wording only gives project context, not a false direct API claim, but does not explicitly correct the old attribution."
+          },
+          {
+            "severity": "P1",
+            "description": "Explains ADY201m/CLO3 use-at-least-one rule without citing CLO3; DAP391m/CLO6 wording 'cho thấy năng lực' is stronger than the bounded learning-outcome wording requested."
+          },
+          {
+            "severity": "P2",
+            "description": "Repeats tools/professional-use limitations in separate sections and conclusion; lengthy quotations."
+          }
+        ],
+        "reviewed_at": "2026-10-13T20:08:53.076776+07:00",
+        "artifact": "requests/chat-JD11-mini-low.json",
+        "artifact_sha256": "84eeece36096e1ad4fb56aeb1497fc5e2965800202be38dd4d04bea06851077a",
+        "semantic_status": "no_P0_observed",
+        "semantic_success": true
+      }
+    },
+    "chat-JD11-mini-medium": {
+      "status": "passed",
+      "metrics": {
+        "requested_model": "gpt-5.4-mini",
+        "resolved_model": "gpt-5.4-mini-2026-03-17",
+        "stage": "chat",
+        "reasoning_effort": "medium",
+        "temperature_sent": false,
+        "temperature": null,
+        "max_output_tokens": 8192,
+        "preflight_input_tokens": 22280,
+        "input_tokens": 22280,
+        "cached_input_tokens": 0,
+        "output_tokens": 3953,
+        "reasoning_tokens": 2070,
+        "total_tokens": 26233,
+        "estimated_cost_usd": "0.0344985",
+        "latency_seconds": 27.341,
+        "schema_validation": "passed",
+        "evidence_validation": "passed",
+        "semantic_grounding": "pending_manual_review",
+        "naturalness": null,
+        "completeness": null
+      },
+      "artifact": "requests/chat-JD11-mini-medium.json",
+      "manual_assessment": {
+        "scores": {
+          "jd_coverage": 2,
+          "evidence_grounding": 1,
+          "academic_achievement": 2,
+          "gap_calibration": 2,
+          "knowledge_vs_experience": 2,
+          "conversational_continuity": 1,
+          "completeness": 2,
+          "naturalness": 1,
+          "scope_adherence": 1
+        },
+        "findings": [
+          {
+            "severity": "P1",
+            "description": "Clarifies API is in ADY201m/CLO5 and project context in CLO7, but keeps DAP391m/CLO7 under API without clearly separating it from DAP391m/CLO6's Watson API outcome."
+          },
+          {
+            "severity": "P1",
+            "description": "Offers an evidence map for CV review at the end, outside the requested V1 academic/JD scope; no CV is actually produced."
+          },
+          {
+            "severity": "P2",
+            "description": "Explanations repeat across six sections and include an unnecessary follow-up offer."
+          }
+        ],
+        "reviewed_at": "2026-10-13T20:08:53.076776+07:00",
+        "artifact": "requests/chat-JD11-mini-medium.json",
+        "artifact_sha256": "68bbd6a7519e27244ace49c8869f73f567cd74833069f5b08b3dd6ba4079d873",
+        "semantic_status": "no_P0_observed",
+        "semantic_success": true
+      }
+    },
+    "chat-JD11-gpt54-medium": {
+      "status": "passed",
+      "metrics": {
+        "requested_model": "gpt-5.4",
+        "resolved_model": "gpt-5.4-2026-03-05",
+        "stage": "chat",
+        "reasoning_effort": "medium",
+        "temperature_sent": false,
+        "temperature": null,
+        "max_output_tokens": 8192,
+        "preflight_input_tokens": 22280,
+        "input_tokens": 22280,
+        "cached_input_tokens": 0,
+        "output_tokens": 6271,
+        "reasoning_tokens": 2542,
+        "total_tokens": 28551,
+        "estimated_cost_usd": "0.149765",
+        "latency_seconds": 90.97,
+        "schema_validation": "passed",
+        "evidence_validation": "passed",
+        "semantic_grounding": "pending_manual_review",
+        "naturalness": null,
+        "completeness": null
+      },
+      "artifact": "requests/chat-JD11-gpt54-medium.json",
+      "manual_assessment": {
+        "scores": {
+          "jd_coverage": 2,
+          "evidence_grounding": 0,
+          "academic_achievement": 2,
+          "gap_calibration": 2,
+          "knowledge_vs_experience": 2,
+          "conversational_continuity": 2,
+          "completeness": 2,
+          "naturalness": 1,
+          "scope_adherence": 2
+        },
+        "findings": [
+          {
+            "severity": "P0",
+            "description": "CPV paragraph says outcomes confirm 'học và triển khai ... segmentation, object detection, tracking'. CPV301/CLO5 is Understand segmentation; CLO9 is Explain face recognition/tracking. The grouped wording upgrades those learning verbs and cites only CPV metadata.tools for that paragraph, not the outcome descriptions."
+          },
+          {
+            "severity": "P1",
+            "description": "PFP191 fundamentals/data structures/file handling/OOP claims have only PFP191 metadata.tools reference, not the relevant PFP191 CLOs."
+          },
+          {
+            "severity": "P2",
+            "description": "Repeats tools/alternatives/professional limits across several long sections and ends with an unnecessary follow-up offer; detail is not itself penalized."
+          }
+        ],
+        "notes": "Explicitly corrects ADY201m/CLO7 and DAP391m/CLO7 API attribution, uses correct API CLOs and all quoted scores/bands. Metadata tools/resources/alternatives are correctly bounded; peripheral CV learning-verb overclaim prevents semantic acceptance.",
+        "reviewed_at": "2026-10-13T20:08:53.076776+07:00",
+        "artifact": "requests/chat-JD11-gpt54-medium.json",
+        "artifact_sha256": "20104ce8a22a1bf854c0d830f90373f4ae14033909cd2ae85c4ad727189903c4",
+        "semantic_status": "P0_observed",
+        "semantic_success": false
+      }
+    }
+  },
+  "recommendation": {
+    "review": {
+      "model": "gpt-5.4",
+      "reasoning_effort": "high",
+      "max_output_tokens": 16384,
+      "status": "provisional_quality_candidate_one_completed_case_one_timeout"
+    },
+    "chat": {
+      "model": "gpt-5.4-mini",
+      "reasoning_effort": "medium",
+      "max_output_tokens": 8192,
+      "status": "provisional_P1_remaining_single_frozen_context"
+    },
+    "mini_review_high": "not_recommended_at_16384_due_to_two_budget_incomplete_responses"
+  },
+  "limitations": [
+    "No second reviewer, one student profile, one sample per condition.",
+    "No isolated Initial Review effort comparison; metadata-only curriculum does not establish individual tool use.",
+    "One timeout has no returned usage; cost is not an invoice.",
+    "Same run resumed once after timeout to continue only unattempted conditions.",
+    "Exit code 1 represents recorded validation/completion failures, not missing conditions."
+  ],
+  "completion_status": "completed_with_failures",
+  "exported_reviews": [
+    {
+      "path": "data/academic_benchmark/initial_reviews/metadata-models-20261013/review-JD01-enriched-gpt41.json",
+      "sha256": "ebe0aaba345ddd0f068c546d1e186798b1310b3fba7d06eccd085885a1db983c",
+      "request_artifact": "data/academic_benchmark/evaluations/metadata-models-20261013/requests/review-JD01-enriched-gpt41.json",
+      "profile_path": "data/student_academic_profile.enriched.json",
+      "case_id": "JD01",
+      "semantic_status": "P0_observed"
+    },
+    {
+      "path": "data/academic_benchmark/initial_reviews/metadata-models-20261013/review-JD05-legacy-gpt41.json",
+      "sha256": "c901f649c0d48cdf5c7682e5bb347897a0ee21b0ff36d1457d10874231c4b374",
+      "request_artifact": "data/academic_benchmark/evaluations/metadata-models-20261013/requests/review-JD05-legacy-gpt41.json",
+      "profile_path": "data/student_academic_profile.json",
+      "case_id": "JD05",
+      "semantic_status": "P0_observed"
+    },
+    {
+      "path": "data/academic_benchmark/initial_reviews/metadata-models-20261013/review-JD05-enriched-gpt41.json",
+      "sha256": "013bec91084327b4a50b346a41ed693f796b1ad0ece4b480aaa5b9b2e0f83fd0",
+      "request_artifact": "data/academic_benchmark/evaluations/metadata-models-20261013/requests/review-JD05-enriched-gpt41.json",
+      "profile_path": "data/student_academic_profile.enriched.json",
+      "case_id": "JD05",
+      "semantic_status": "P0_observed"
+    },
+    {
+      "path": "data/academic_benchmark/initial_reviews/metadata-models-20261013/review-JD05-enriched-gpt54-high.json",
+      "sha256": "9fa4236d3527f930d20254a220fa952b81bd8e7ed01bce8edfcc34f6e589b4cc",
+      "request_artifact": "data/academic_benchmark/evaluations/metadata-models-20261013/requests/review-JD05-enriched-gpt54-high.json",
+      "profile_path": "data/student_academic_profile.enriched.json",
+      "case_id": "JD05",
+      "semantic_status": "no_P0_observed"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "category": "Assignment 1",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8, CLO9, CLO10"
+  },
+  {
+    "category": "Assignment 2",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8, CLO9, CLO10"
+  },
+  {
+    "category": "Exercise 1",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8, CLO9, CLO10"
+  },
+  {
+    "category": "Exercise 2",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8, CLO9, CLO10"
+  },
+  {
+    "category": "Exercise 3",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8, CLO9, CLO10"
+  },
+  {
+    "category": "Exercise 4",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8, CLO9, CLO10"
+  },
+  {
+    "category": "Final exam",
+    "part": "1",
+    "weight": "40.0%",
+    "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8, CLO9, CLO10"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "clo_name": "CLO1",
+    "clo_details": "Learners should be able to use common techniques to retrieve data from multiple data sources: SQL, NoSQL databases, APIs, Cloud"
+  },
+  {
+    "clo_name": "CLO2",
+    "clo_details": "Learners should be able to describe and use common feature selection and feature engineering techniques"
+  },
+  {
+    "clo_name": "CLO3",
+    "clo_details": "Learners should be able to use a variety of techniques for detecting and dealing with outliers"
+  },
+  {
+    "clo_name": "CLO4",
+    "clo_details": "Learners should be able to describe and use supervised models"
+  },
+  {
+    "clo_name": "CLO5",
+    "clo_details": "Learners should be able to use a variety of error metrics to compare and select a supervised model that best suits your data"
+  },
+  {
+    "clo_name": "CLO6",
+    "clo_details": "Learners should be able to use oversampling and undersampling as techniques to handle unbalanced classes in a data"
+  },
+  {
+    "clo_name": "CLO7",
+    "clo_details": "Learners should be able to explain the kinds of problems suitable for Unsupervised Learning approaches"
+  },
+  {
+    "clo_name": "CLO8",
+    "clo_details": "Explain the curse of dimensionality, and how it makes clustering difficult with many features"
+  },
+  {
+    "clo_name": "CLO9",
+    "clo_details": "Learners should be able to describe and use common clustering and dimensionality-reduction algorithms"
+  },
+  {
+    "clo_name": "CLO10",
+    "clo_details": "Implement a mini capstone ML project includes steps: data collection, data wrangling, exploratory data analysis, model development, model evaluation, and reporting"
+  }
+]

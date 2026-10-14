@@ -1,0 +1,21 @@
+{
+  "reply": "Trong phần đã trao đổi, bạn đã có bằng chứng học thuật trực tiếp về confidence intervals và hypothesis testing ở MAS291: MAS291/CLO7 ghi rõ cách xây dựng và diễn giải confidence intervals cho population parameters và các chênh lệch giữa chúng, với điểm 9.43 và achievement excellent; MAS291/CLO8 ghi rõ kiểm định các giả thuyết về population parameters bằng hypothesis testing, cũng với điểm 9.43 và achievement excellent.\n\nBạn cũng đã nhắc tới simple linear regression và PCA: MAS291/CLO9 ghi rõ xây dựng simple linear regression model để prediction và interpretation, với điểm 9.43 và achievement excellent; MAI391/CLO6 ghi rõ Apply dimensionality reduction with PCA, với điểm 9.4 và achievement excellent.",
+  "evidence": [
+    {
+      "course_code": "MAS291",
+      "clo": "CLO7"
+    },
+    {
+      "course_code": "MAS291",
+      "clo": "CLO8"
+    },
+    {
+      "course_code": "MAS291",
+      "clo": "CLO9"
+    },
+    {
+      "course_code": "MAI391",
+      "clo": "CLO6"
+    }
+  ]
+}

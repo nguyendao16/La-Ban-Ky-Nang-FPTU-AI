@@ -1,0 +1,103 @@
+{
+  "course_id": "MAD101",
+  "clos": [
+    {
+      "clo_id": "CLO1",
+      "original_description": "Manipulate logical expressions and use logic for inference\nLO1.1 Determine the truth value of a proposition; check if two propositions are equivalent; translate between logical expressions and sentences for propositional logic.\nLO1.2 Determine the truth value of a proposition; check if two propositions are equivalent; translate between logical expressions and sentences for predicate logic.\nLO1.3 Manipulate logical expressions with nested quantifiers.\nLO1.4 Recognize the inference rules used in a valid statemment; use inference rules to draw conclusions; check if a statement is valid.",
+      "enriched_description": "Manipulate logical expressions and use logic for inference. The scope includes Nested Quantifiers (1.5) and Rules of Inference (1.6).",
+      "source_topic_indices": [
+        4,
+        6
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO2",
+      "original_description": "Perform basic operations on sets, functions and sequences\nLO2.1 Distinguish basic terminologies in set theory; find the power set and cartersian product; represent a subset using binary bits.\nLO2.2 Perform operations on sets; check if two sets are equal.\nLO2.3 Determine if a given rule represents a function; perform operations on functions and manipulate functions inlvolving the floor and the ceiling functions.\nLO2.4 Determine if a function is one-to-one, onto or a bijection, and describe how these properties can be used to compare two sets.\nLO2.5 Find a formula for a sequence; evaluate a finite sum with a possible use of special summations.",
+      "enriched_description": "Perform basic operations on sets, functions and sequences. The scope includes Introduction to sets; Set operations; Functions (2.3, skip the topic on Partial Functions); and Sequences and Summations (2.4, skip the topic on Recurrence relations).",
+      "source_topic_indices": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO3",
+      "original_description": "Analyze basic algorithms written in pseudo codes and determine their complexities\nLO3.1 Determine if a procedure is an algorithm; work out basic algorithms written in pseudocodes including searching, sorting and greedy algorithms.\nLO3.2 Find big-O, big-Omega and big-Theta estimates of a function; describe complexity of an algorithm.",
+      "enriched_description": "Analyze basic algorithms written in pseudo codes and determine their complexities. The scope includes Algorithms and Complexity of Algorithms (3.3, skip the topics on Matrix multiplication, Algorithmic Paradigms).",
+      "source_topic_indices": [
+        0,
+        2
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO4",
+      "original_description": "Discuss applications of modular arithmetic and analyze algorithms on integers\nLO4.1 Perform integer division and modular arithmetic; apply congruence in generating pseudorandom numbers and in cryptology.\nLO4.2 Find the base b expansion of an integer; perform binary operations and modular exponentiation on integers.\nLO4.3 Check if a number is prime and find prime factorization of an integer; find greatest common divisor and least common multiple.",
+      "enriched_description": "Discuss applications of modular arithmetic and analyze algorithms on integers. The scope includes The Integers and Division (4.1, 4.5, and the topic on Classical Cryptography 4.6) and Intergers and Algorithms (4.2).",
+      "source_topic_indices": [
+        0,
+        4
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO5",
+      "original_description": "Use induction and recursive definition to prove a statement or to describe an object, and write recursive algorithms\nLO5.1 Prove mathematical statements by induction.\nLO5.2 Manipulate sequences and sets defined by recursion.\nLO5.3 Work out recursive algorithms, including the mergesort algorithm; distinguish between iterative and recursive algorithms.",
+      "enriched_description": "Use induction and recursive definition to prove a statement or to describe an object, and write recursive algorithms. The scope includes Mathematical Induction (5.1), Strong Induction (5.2), Recursive Definitions and Structural Induction (5.3), and Recursive Algorithms (5.4).",
+      "source_topic_indices": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO6",
+      "original_description": "Solve counting problems\nLO6.1 Use basic rules for counting\nLO6.2 Use recurrence relations for counting, including divide-and-conquer recurrence relations.",
+      "enriched_description": "Solve counting problems. The scope includes Basic Counting Principles (6.1); Recurrence Relations (8.1, skip the topic on Dynamic programming); and Divide-and-Conquer Algorithms and Recurrence Relations (8.3).",
+      "source_topic_indices": [
+        0,
+        4,
+        5
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO7",
+      "original_description": "Analyze the structure of a graph and find shortest paths in a weighted graph\nLO7.1 Classify and describe a graph; use hand-shaking theorem to analyze a graph; identify special graphs including bipartite graphs.\nLO7.2 Represent a graph using incidence and adjacency matrices; determine if two graphs are isomorphic.\nLO7.3 Check connectivity of a graph and identify its connected components; count paths in a graph.\nLO7.4 Determine if a graph has Euler/Hamilton paths/circuits; find Euler and Hamilton paths/circuits in a graph.\nLO7.5 Run Dijsktra's algorithm to determine the shortest paths and the shortest distance in a weighted graph.",
+      "enriched_description": "Analyze the structure of a graph and find shortest paths in a weighted graph. The scope includes Graphs and Graph Models (10.1), Graph Terminology and Special Types of Graphs, Representing Graphs and Graph Isomorphism (10.3), and Euler and Hamilton Paths (10.5).",
+      "source_topic_indices": [
+        0,
+        1,
+        2,
+        6
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO8",
+      "original_description": "Analyze the structure of a tree and describe algorithms using trees\nLO8.1 Check if a graph is a tree, and identify basic terminologies of a tree; use properties of m-ary trees to solve problems.\nLO8.2 Build binary search trees and decision trees; analyze complexities of algorithms described using binary search trees and decision trees.\nLO8.3 Recognize and construct prefix codes; build optimal trees using Huffman coding.\nLO8.4 Traverse a tree and use tree traversal to generate notations; evaluate prefix and postfix expressions.\nLO8.5 Run Depth-first search and Breadth-first search algorithms to find spanning trees\nLO8.6 Find minimum spanning trees using Prim, Kruskal,... algorithms",
+      "enriched_description": "Analyze the structure of a tree and describe algorithms using trees. The scope includes Introduction to Trees (11.1), Applications of Trees (11.2), Tree Traversal (11.3), Spanning Trees (11.4), and Minimum Spanning Trees (11.5).",
+      "source_topic_indices": [
+        0,
+        2,
+        4,
+        6,
+        8
+      ],
+      "review_required": false,
+      "review_notes": []
+    }
+  ]
+}

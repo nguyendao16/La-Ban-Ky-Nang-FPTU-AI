@@ -1,0 +1,18 @@
+[
+  {
+    "clo_name": "CLO1",
+    "clo_details": "Understand the rise of algorithms, from the most basic to the fully autonomous, and discuss the trajectory of artificial intelligence and the broader implications for society as well"
+  },
+  {
+    "clo_name": "CLO2",
+    "clo_details": "Explore fundamental issues of fairness and bias in machine learning and many aspects of building more ethical models"
+  },
+  {
+    "clo_name": "CLO3",
+    "clo_details": "Explore fundamental concepts involved in security and privacy of machine learning projects and affects user privacy and transparency now and in the future while creating useful predictive models."
+  },
+  {
+    "clo_name": "CLO4",
+    "clo_details": "Able to apply bias and fairness analysis and skills in a real world or a fictional scenario"
+  }
+]

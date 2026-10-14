@@ -1,0 +1,35 @@
+{
+  "approved_plan_sha256": "c1290e852fec45aa8aa22b1fff46e7baf4d7f44cbcf8e21e6c0ea4b9341fd5b3",
+  "checked_at": "2026-10-14T04:05:40.752427+07:00",
+  "request_parity_checked": 32,
+  "correct_snapshot_effort_output_timeout": 32,
+  "sdk_retries_zero": true,
+  "actual_input_equal_frozen_input": 32,
+  "no_model_output_in_future_inputs": true,
+  "source_integrity": {
+    "protected_files": 50,
+    "changed": [],
+    "passed": true
+  },
+  "historical_integrity": {
+    "protected_files": 1451,
+    "changed": [],
+    "passed": true
+  },
+  "original_inference_artifacts": {
+    "files": 110,
+    "passed": true
+  },
+  "manual_claim_spans_and_source_membership_checked": 675,
+  "semantic_support_checked_manually_not_by_membership": true,
+  "tests_postlive": {
+    "command": ".venv/bin/python -m pytest -q",
+    "passed": 376,
+    "duration_seconds": 145.01
+  },
+  "pip_check_postlive": {
+    "passed": true,
+    "output": "No broken requirements found."
+  },
+  "completed_at": "2026-10-14T04:23:15.688992+07:00"
+}

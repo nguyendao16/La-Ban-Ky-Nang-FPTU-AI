@@ -1,0 +1,84 @@
+{
+  "review_type": "academic_knowledge_review",
+  "overview": "Hồ sơ học thuật của sinh viên thể hiện nền tảng vững chắc về các khái niệm cơ bản của computer vision, xử lý ảnh, lập trình Python, OOP, cùng với các kỹ thuật phát hiện đối tượng ở mức học thuật. Một số yêu cầu về kinh nghiệm thực tế với các framework chuyên biệt như YOLO, Detectron, PyTorch, TensorFlow, ONNX và triển khai mô hình trong môi trường sản xuất chưa được xác nhận trực tiếp trong hồ sơ học thuật.",
+  "requirement_reviews": [
+    {
+      "jd_requirement": "Understand general computer vision concepts and image processing.",
+      "coverage": "covered",
+      "comment": "CLO1 và CLO3 của CPV301 yêu cầu sinh viên hiểu các khái niệm tổng quan về computer vision và áp dụng các kỹ thuật xử lý ảnh cơ bản như lọc ảnh, biến đổi Fourier, biến đổi hình học, với kết quả học thuật excellent. Điều này phản ánh sinh viên đã được đào tạo bài bản về lý thuyết và thực hành xử lý ảnh trong khuôn khổ học thuật.",
+      "evidence": [
+        {
+          "course_code": "CPV301",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "CPV301",
+          "clo": "CLO3"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Understand and implement object detection techniques.",
+      "coverage": "covered",
+      "comment": "CLO8 của CPV301 nêu rõ sinh viên được yêu cầu hiểu và triển khai các kỹ thuật phát hiện đối tượng (object detection techniques), với thành tích excellent. Đây là bằng chứng học thuật trực tiếp về kiến thức và thực hành phát hiện đối tượng ở mức học thuật.",
+      "evidence": [
+        {
+          "course_code": "CPV301",
+          "clo": "CLO8"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Use Python fundamentals and object-oriented programming for small applications.",
+      "coverage": "covered",
+      "comment": "CLO1, CLO2, CLO3, CLO6 của PFP191 thể hiện sinh viên đã học về môi trường lập trình Python, các khái niệm cơ bản, cấu trúc điều khiển, cấu trúc dữ liệu, với thành tích excellent. CLO7 của PFP191 yêu cầu hiểu và áp dụng lập trình hướng đối tượng (OOP) trong Python cho các ứng dụng nhỏ, cũng đạt excellent.",
+      "evidence": [
+        {
+          "course_code": "PFP191",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "PFP191",
+          "clo": "CLO2"
+        },
+        {
+          "course_code": "PFP191",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "PFP191",
+          "clo": "CLO6"
+        },
+        {
+          "course_code": "PFP191",
+          "clo": "CLO7"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Experience implementing object detection using YOLO or Detectron.",
+      "coverage": "not_evidenced",
+      "comment": "Hồ sơ học thuật hiện có chưa cung cấp bằng chứng trực tiếp về việc triển khai phát hiện đối tượng sử dụng YOLO hoặc Detectron. CLO8 của CPV301 chỉ xác nhận sinh viên đã học và triển khai các kỹ thuật phát hiện đối tượng nói chung, không đề cập đến các framework cụ thể này.",
+      "evidence": []
+    },
+    {
+      "jd_requirement": "Experience using PyTorch or TensorFlow for computer vision models.",
+      "coverage": "not_evidenced",
+      "comment": "Không có CLO nào trong hồ sơ học thuật đề cập trực tiếp đến việc sử dụng PyTorch hoặc TensorFlow cho các mô hình computer vision. Các CLO liên quan chỉ xác nhận kiến thức và thực hành xử lý ảnh, phát hiện đối tượng ở mức tổng quát.",
+      "evidence": []
+    },
+    {
+      "jd_requirement": "Export models using ONNX.",
+      "coverage": "not_evidenced",
+      "comment": "Hồ sơ học thuật chưa có CLO nào xác nhận sinh viên đã học hoặc thực hành xuất mô hình (model export) sử dụng ONNX.",
+      "evidence": []
+    },
+    {
+      "jd_requirement": "Professional experience deploying computer vision models in production and monitoring real-world inference systems.",
+      "coverage": "not_evidenced",
+      "comment": "Không có CLO nào xác nhận kinh nghiệm triển khai mô hình computer vision trong môi trường sản xuất hoặc giám sát hệ thống suy luận thực tế. Hồ sơ học thuật chỉ xác nhận các yêu cầu học tập về lý thuyết và thực hành trong khuôn khổ môn học.",
+      "evidence": []
+    }
+  ],
+  "conclusion": "Sinh viên có nền tảng học thuật xuất sắc về computer vision, xử lý ảnh, phát hiện đối tượng, lập trình Python và OOP, với nhiều CLO đạt thành tích excellent. Tuy nhiên, hồ sơ học thuật chưa cung cấp bằng chứng trực tiếp về việc sử dụng hoặc triển khai các framework chuyên biệt như YOLO, Detectron, PyTorch, TensorFlow, ONNX, cũng như chưa xác nhận kinh nghiệm triển khai mô hình computer vision trong môi trường sản xuất thực tế. Kết quả học tập phản ánh năng lực học thuật, không xác nhận kinh nghiệm chuyên môn hoặc thực tiễn ngoài phạm vi chương trình đào tạo."
+}

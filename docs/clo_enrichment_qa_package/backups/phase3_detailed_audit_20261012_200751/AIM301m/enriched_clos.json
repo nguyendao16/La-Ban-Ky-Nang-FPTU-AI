@@ -1,0 +1,106 @@
+{
+  "course_id": "AIM301m",
+  "clos": [
+    {
+      "clo_id": "CLO1",
+      "original_description": "Pre-process data and set up a pre-trained neural network.",
+      "enriched_description": "Pre-process medical imaging data and set up a pre-trained neural network for medical diagnosis tasks, including computer vision applications for disease detection, handling class imbalance and small training sets, image pre-processing, weighted loss functions, DenseNet, patient overlap checks, and chest.",
+      "source_topic_indices": [
+        1,
+        6
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO2",
+      "original_description": "Evaluate models by accuracy, specificity, predictive value, confidence intervals, ROC curve, and F1 score.",
+      "enriched_description": "Evaluate medical AI models using accuracy, specificity, predictive value, confidence intervals, ROC curves, thresholds, and F1 score.",
+      "source_topic_indices": [
+        0,
+        2
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO3",
+      "original_description": "Diagnose diseases from x-rays and 3D MRI brain images.",
+      "enriched_description": "Diagnose diseases from X-ray and 3D MRI brain images using medical image analysis methods, including exploring MRI data, image segmentation, extracting sub-sections, implementing U-Net, and applying these techniques to brain tumor auto-segmentation for magnetic resonance imaging.",
+      "source_topic_indices": [
+        0,
+        4
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO4",
+      "original_description": "Walk through examples of prognostic tasks.",
+      "enriched_description": "Walk through medical prognostic task examples using linear prognostic models, risk prediction, feature interactions, and prognostic model evaluation, including creating linear models, working with risk scores using Pandas, NumPy, combining features, and using the concordance index.",
+      "source_topic_indices": [
+        0
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO5",
+      "original_description": "Predict patient survival rates more accurately using tree-based models.",
+      "enriched_description": "Predict patient survival rates using tree-based and survival modeling methods, including decision trees, missing-data handling and imputation, survival estimates, time-to-event data, censored data, Kaplan-Meier estimation, survival and hazard functions, individualized risk models, survival trees, Cox.",
+      "source_topic_indices": [
+        0,
+        4,
+        6,
+        9,
+        13
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO6",
+      "original_description": "Navigate practical challenges in medicine, like missing data.",
+      "enriched_description": "Navigate practical modeling challenges in medicine, especially missing data, censored survival data, categorical variables, and permissible-pair evaluation, including identifying missing data, applying masks, using imputation, working with time-to-event, Kaplan-Meier concepts, and understanding hazard functions in survival analysis.",
+      "source_topic_indices": [
+        0,
+        6,
+        9
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO7",
+      "original_description": "Estimate treatment effects on patients using data from randomized trials.",
+      "enriched_description": "Estimate patient treatment effects using data from randomized control trials.",
+      "source_topic_indices": [
+        0,
+        4
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO8",
+      "original_description": "Explore methods to interpret diagnostic and prognostic models.",
+      "enriched_description": "Explore methods for interpreting diagnostic and prognostic machine learning models in medicine, including feature importance, individual feature importance, interpretation of deep learning models, permutation-based interpretation, Grad-CAM for visual explanation.",
+      "source_topic_indices": [
+        0
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO9",
+      "original_description": "Automate the task of labeling medical datasets using natural language processing.",
+      "enriched_description": "Automate labeling of medical datasets using natural language processing methods, including medical question answering, automatic labeling, evaluation of automatic labeling, text cleaning, BioC format, the NegBio library, preparing text classification inputs, and natural language entity.",
+      "source_topic_indices": [
+        0,
+        4
+      ],
+      "review_required": false,
+      "review_notes": []
+    }
+  ]
+}

@@ -1,0 +1,896 @@
+{
+  "schema_version": "stage1_v1",
+  "record_type": "normal_subject",
+  "subject": {
+    "code": "PFP191",
+    "name": {
+      "full": "Programming Fundamentals with Python_Cơ sở lập trình với Python",
+      "en": "Programming Fundamentals with Python",
+      "vi": "Cơ sở lập trình với Python"
+    },
+    "semester": 1,
+    "credits": 3,
+    "prerequisite": ""
+  },
+  "syllabus": {
+    "id": "12224",
+    "name": "Programming Fundamentals with Python_Cơ sở lập trình (với Python)",
+    "is_active": true,
+    "is_approved": true,
+    "decision_no": "1286/QĐ-ĐHFPT dated 11/22/2024"
+  },
+  "content": {
+    "metadata": {
+      "syllabus_id": "12224",
+      "syllabus_name": "Programming Fundamentals with Python_Cơ sở lập trình (với Python)",
+      "course_name_english": "Programming Fundamentals with Python",
+      "subject_code": "PFP191",
+      "learning_teaching_method": "In-class lecture,Inquiry-based Teaching,Offline",
+      "nocredit": "3",
+      "degree_level": "Bachelor",
+      "time_allocation": "45h (60 sessions) contact hours + 1h TE + 1.5h PE + 102.5h self-study",
+      "pre_requisite": "",
+      "description": "- Knowledge about programming language has become an essential part of an education in computer science because the realization of ideas, approaches, models, and algorithms is extremely important for the field of education and research as well as production. In order to deploy from an idea to a product, programming language tools are required.\n- In recent years, python has emerged as a popular, powerful, multitasking and widely applicable 3rd generation language, especially in some new technology fields such as AI, Fintech, Data Science, IoT, and so on.\n- This course covers the essential aspects of programming, including fundamental concepts, coding design, and the Python programming language, with an emphasis on object-oriented programming (OOP), given its importance for advanced software development and subsequent courses.",
+      "studenttasks": "- Students must attend at least 80% of contact slots in order to be accepted to the final examination.\n- Student is responsible to do all exercises given by instructor in class or at home and submit on time\n- Constantly follow https://flm.fpt.edu.vn/ for up-to-date course information regarding assignment submission and feedback on assignments and project work.",
+      "tools": "Visual Studio Code, Google Colab",
+      "scoring_scale": "10",
+      "decisionno_mm_dd_yyyy": "1286/QĐ-ĐHFPT dated 11/22/2024",
+      "isapproved": "True",
+      "note": "",
+      "is_scored": "True",
+      "minavgmarktopass": "5",
+      "isactive": "True",
+      "approveddate": "11/22/2024"
+    },
+    "materials": [
+      {
+        "no": "1",
+        "material_description": "Python for Everybody Exploring Data Using Python 3",
+        "author": "Charles R. Severance",
+        "publisher": "Creative Commons Attribution-NonCommercial-\nShareAlike 3.0 Unported License",
+        "published_date": "2016",
+        "edition": "1st",
+        "isbn": "978-1530051120",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "http://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf"
+      },
+      {
+        "no": "2",
+        "material_description": "Python for Everybody (PY4E)",
+        "author": "Charles R. Severance",
+        "publisher": "",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://www.py4e.com/"
+      },
+      {
+        "no": "3",
+        "material_description": "Python for Everybody Specialization",
+        "author": "Charles R. Severance",
+        "publisher": "",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://www.coursera.org/specializations/python"
+      },
+      {
+        "no": "4",
+        "material_description": "Python Programming and Numerical Methods - A Guide for Engineers and Scientists",
+        "author": "",
+        "publisher": "",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://pythonnumericalmethods.studentorg.berkeley.edu/notebooks/Index.html"
+      }
+    ],
+    "clos": [
+      {
+        "no": "1",
+        "clo_name": "CLO1",
+        "clo_details": "Understand the development environment (IDE), programming concepts and python's world"
+      },
+      {
+        "no": "2",
+        "clo_name": "CLO2",
+        "clo_details": "Understand variables, expression and statement"
+      },
+      {
+        "no": "3",
+        "clo_name": "CLO3",
+        "clo_details": "Understand Conditional Execution, Functions, Loop and Iterations"
+      },
+      {
+        "no": "4",
+        "clo_name": "CLO4",
+        "clo_details": "Understand Strings"
+      },
+      {
+        "no": "5",
+        "clo_name": "CLO5",
+        "clo_details": "Understand Files"
+      },
+      {
+        "no": "6",
+        "clo_name": "CLO6",
+        "clo_details": "Understand List, Dictionaries, Tuples"
+      },
+      {
+        "no": "7",
+        "clo_name": "CLO7",
+        "clo_details": "Understand OOP and how to apply this technology to an actual application"
+      }
+    ],
+    "schedule": [
+      {
+        "session": "1",
+        "topic": "Chapter 1. Why should you learn to write programs? (Part 1)\n1.1 Creativity and Motivation\n1.2 Computer hardware architecture\n1.3 Understanding programming",
+        "learning_teaching_type": "Offline",
+        "lo": "LO1",
+        "itu": "I",
+        "student_materials": "Textbook, slides",
+        "s_download": "PFP191_Mat",
+        "student_tasks": "Read chapter 1 in text book",
+        "urls": ""
+      },
+      {
+        "session": "2",
+        "topic": "1.4 Words and sentences\n1.5 Conversing with Python\n1.6 Terminology: Interpreter and compiler",
+        "learning_teaching_type": "Offline",
+        "lo": "LO1",
+        "itu": "I",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 1 in text book",
+        "urls": ""
+      },
+      {
+        "session": "3",
+        "topic": "Chapter 1. Why should you learn to write programs? (Part 2)\n1.7 Writing a program\n1.8 What is a program?\n1.9 The buiding blocks of programs\n1.10 What could possibly go wrong?\n1.11 Debugging\n1.12 The learning journey\n1.13 Introduce IDE",
+        "learning_teaching_type": "Offline",
+        "lo": "LO1",
+        "itu": "I",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 1 in text book",
+        "urls": ""
+      },
+      {
+        "session": "4",
+        "topic": "Chapter 2. Variables, expressions, and statements (Part 1)\n2.1 Values and types\n2.2 Variables\n2.3 Variable names and keywords\n2.4 Statements",
+        "learning_teaching_type": "Offline",
+        "lo": "LO2",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 2 in text book",
+        "urls": ""
+      },
+      {
+        "session": "5",
+        "topic": "2.5 Operators and operands\n2.6 Expressions",
+        "learning_teaching_type": "Offline",
+        "lo": "LO2",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 2 in text book",
+        "urls": ""
+      },
+      {
+        "session": "6",
+        "topic": "Chapter 2. Variables, expressions, and statements (Part 2)\n2.7 Order of operations\n2.8 Modulus operator\n2.9 String operations",
+        "learning_teaching_type": "Offline",
+        "lo": "LO2",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 2 in text book",
+        "urls": ""
+      },
+      {
+        "session": "7",
+        "topic": "2.10 Asking the user for input\n2.11 Comments\n2.12 Choosing mnemonic variable names\n2.13 Debugging",
+        "learning_teaching_type": "Offline",
+        "lo": "LO2",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 2 in text book",
+        "urls": ""
+      },
+      {
+        "session": "8",
+        "topic": "Lab1 assistance",
+        "learning_teaching_type": "Offline",
+        "lo": "LO1, LO2",
+        "itu": "U",
+        "student_materials": "Textbook, slides, lab's questions",
+        "s_download": "",
+        "student_tasks": "Do lab 1 as homework",
+        "urls": ""
+      },
+      {
+        "session": "9",
+        "topic": "Lab1 assistance (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO1, LO2",
+        "itu": "U",
+        "student_materials": "Textbook, slides, lab's questions",
+        "s_download": "",
+        "student_tasks": "Do lab 1 as homework",
+        "urls": ""
+      },
+      {
+        "session": "10",
+        "topic": "Chapter 3. Conditional execution\n3.1 Boolean expressions\n3.2 Logical operators\n3.3 Conditional execution\n3.4 Alternative execution",
+        "learning_teaching_type": "Offline",
+        "lo": "LO3",
+        "itu": "IT",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 3 in text book",
+        "urls": ""
+      },
+      {
+        "session": "11",
+        "topic": "3.5 Chained conditionals\n3.6 Nested conditionals\n3.7 Catching exceptions using try and except\n3.8 Short-circuit evaluation of logical expressions\n3.9 Debugging",
+        "learning_teaching_type": "Offline",
+        "lo": "LO3",
+        "itu": "IT",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 3 in text book",
+        "urls": ""
+      },
+      {
+        "session": "12",
+        "topic": "Chapter 4. Iteration\n4.1 Updating variables\n4.2 The while statement\n4.3 Infinite loops\n4.4 Finishing iterations with continue",
+        "learning_teaching_type": "Offline",
+        "lo": "LO3",
+        "itu": "IT",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 5 in text book",
+        "urls": ""
+      },
+      {
+        "session": "13",
+        "topic": "4.5 Definite loops using for\n4.6 Loop patterns\n4.7 Debugging",
+        "learning_teaching_type": "Offline",
+        "lo": "LO3",
+        "itu": "IT",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 5 in text book",
+        "urls": ""
+      },
+      {
+        "session": "14",
+        "topic": "Chapter 5. Functions (Part 1)\n5.1 Function calls\n5.2 Built-in functions\n5.3 Type conversion functions",
+        "learning_teaching_type": "Offline",
+        "lo": "LO3",
+        "itu": "I, T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 4 in text book",
+        "urls": ""
+      },
+      {
+        "session": "15",
+        "topic": "5.4 Math functions\n5.5 Random numbers\n5.6 Adding new functions",
+        "learning_teaching_type": "Offline",
+        "lo": "LO3",
+        "itu": "I, T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 4 in text book",
+        "urls": ""
+      },
+      {
+        "session": "16",
+        "topic": "Chapter 5. Functions (Part 2)\n5.7 Definitions and uses\n5.8 Flow of execution\n5.9 Parameters and arguments",
+        "learning_teaching_type": "Offline",
+        "lo": "LO3",
+        "itu": "I, T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 4 in text book",
+        "urls": ""
+      },
+      {
+        "session": "17",
+        "topic": "5.10 Fruitful functions and void functions\n5.11 Why functions?\n5.12 Debugging",
+        "learning_teaching_type": "Offline",
+        "lo": "LO3",
+        "itu": "I, T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 4 in text book",
+        "urls": ""
+      },
+      {
+        "session": "18",
+        "topic": "Lab 2 assistance",
+        "learning_teaching_type": "Offline",
+        "lo": "LO3",
+        "itu": "U",
+        "student_materials": "'Textbook, slides, lab's questions",
+        "s_download": "",
+        "student_tasks": "Do lab 2 as homework",
+        "urls": ""
+      },
+      {
+        "session": "19",
+        "topic": "Lab 2 assistance (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO3",
+        "itu": "U",
+        "student_materials": "'Textbook, slides, lab's questions",
+        "s_download": "",
+        "student_tasks": "Do lab 2 as homework",
+        "urls": ""
+      },
+      {
+        "session": "20",
+        "topic": "Progress test 1",
+        "learning_teaching_type": "Offline",
+        "lo": "LO1, LO2, LO3",
+        "itu": "I, U",
+        "student_materials": "Textbook, slides,assignment's questions",
+        "s_download": "",
+        "student_tasks": "Do the progress test on the class",
+        "urls": ""
+      },
+      {
+        "session": "21",
+        "topic": "Chapter 6. Strings (Part 1)\n6.1 A string is a sequence\n6.2 Getting the length of a string using len\n6.3 Traversal through a string with a loop",
+        "learning_teaching_type": "Offline",
+        "lo": "LO4",
+        "itu": "I, T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 6 in text book",
+        "urls": ""
+      },
+      {
+        "session": "22",
+        "topic": "6.4 String slices\n6.5 Strings are immutable\n6.6 Loop and counting",
+        "learning_teaching_type": "Offline",
+        "lo": "LO4",
+        "itu": "I, T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 6 in text book",
+        "urls": ""
+      },
+      {
+        "session": "23",
+        "topic": "Chapter 6. Strings (Part 2)\n6.7 The in operator\n6.8 String comparison\n6.9 String methods",
+        "learning_teaching_type": "Offline",
+        "lo": "LO4",
+        "itu": "I, T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 6 in text book",
+        "urls": ""
+      },
+      {
+        "session": "24",
+        "topic": "6.10 Parsing strings\n6.11 Format operator\n6.12 Debugging",
+        "learning_teaching_type": "Offline",
+        "lo": "LO4",
+        "itu": "I, T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 6 in text book",
+        "urls": ""
+      },
+      {
+        "session": "25",
+        "topic": "Chapter 7. Files\n7.1. Persistence\n7.2 Opening files\n7/3 Text files and lines\n7.4 Reading files",
+        "learning_teaching_type": "Offline",
+        "lo": "LO5",
+        "itu": "IT",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 7 in text book",
+        "urls": ""
+      },
+      {
+        "session": "26",
+        "topic": "7.5 Searching through a file\n7.6 Letting the user choose the file name\n7.7 Using try, except, and open\n7.8 Writing files\n7.9 Debugging",
+        "learning_teaching_type": "Offline",
+        "lo": "LO5",
+        "itu": "IT",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 7 in text book",
+        "urls": ""
+      },
+      {
+        "session": "27",
+        "topic": "Lab 3 assistance",
+        "learning_teaching_type": "Offline",
+        "lo": "LO5",
+        "itu": "U",
+        "student_materials": "Textbook, slides, lab's questions",
+        "s_download": "",
+        "student_tasks": "Do lab 3 as homework",
+        "urls": ""
+      },
+      {
+        "session": "28",
+        "topic": "Lab 3 assistance (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO5",
+        "itu": "U",
+        "student_materials": "Textbook, slides, lab's questions",
+        "s_download": "",
+        "student_tasks": "Do lab 3 as homework",
+        "urls": ""
+      },
+      {
+        "session": "29",
+        "topic": "Chapter 8. Lists (Part 1)\n8.1 A list is a sequence\n8.2 Lists are mutable\n8.3 Traversing a list",
+        "learning_teaching_type": "Offline",
+        "lo": "LO6",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 8 in text book",
+        "urls": ""
+      },
+      {
+        "session": "30",
+        "topic": "8.4 List operations\n8.5 List slices\n8.6 List methods",
+        "learning_teaching_type": "Offline",
+        "lo": "LO6",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 8 in text book",
+        "urls": ""
+      },
+      {
+        "session": "31",
+        "topic": "Chapter 8. Lists (Part 2)\n8.7 Deleting elements\n8.8 Lists and functions\n8.9 Lists and strings\n8.10 Parsing lines",
+        "learning_teaching_type": "Offline",
+        "lo": "LO6",
+        "itu": "IT",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 8 in text book",
+        "urls": ""
+      },
+      {
+        "session": "32",
+        "topic": "8.11 Objects and values\n8.12 Aliasing\n8.13 List arguments\n8.14 Debugging",
+        "learning_teaching_type": "Offline",
+        "lo": "LO6",
+        "itu": "IT",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 8 in text book",
+        "urls": ""
+      },
+      {
+        "session": "33",
+        "topic": "Chapter 9. Dictionaries\n9.1 Dictionary as a set of counters\n9.2 Dictionaries and files\n9.3 Looping and dictionaries",
+        "learning_teaching_type": "Offline",
+        "lo": "LO6",
+        "itu": "IT",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 9 in text book",
+        "urls": ""
+      },
+      {
+        "session": "34",
+        "topic": "9.4 Advanced text parsing\n9.5 Debugging",
+        "learning_teaching_type": "Offline",
+        "lo": "LO6",
+        "itu": "IT",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 9 in text book",
+        "urls": ""
+      },
+      {
+        "session": "35",
+        "topic": "Chapter 10. Tuples (Part 1)\n10.1 Tuples are immutable",
+        "learning_teaching_type": "Offline",
+        "lo": "LO6",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 10 in text book",
+        "urls": ""
+      },
+      {
+        "session": "36",
+        "topic": "10.2 Comparing tuples",
+        "learning_teaching_type": "Offline",
+        "lo": "LO6",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 10 in text book",
+        "urls": ""
+      },
+      {
+        "session": "37",
+        "topic": "10.3 Tuple assignment",
+        "learning_teaching_type": "Offline",
+        "lo": "LO6",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 10 in text book",
+        "urls": ""
+      },
+      {
+        "session": "38",
+        "topic": "10.4 Dictionaries and tuples",
+        "learning_teaching_type": "Offline",
+        "lo": "LO6",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 10 in text book",
+        "urls": ""
+      },
+      {
+        "session": "39",
+        "topic": "Lab 4 assistance",
+        "learning_teaching_type": "Offline",
+        "lo": "LO6",
+        "itu": "U",
+        "student_materials": "Textbook, slides, lab's questions",
+        "s_download": "",
+        "student_tasks": "Do lab 4 as homework",
+        "urls": ""
+      },
+      {
+        "session": "40",
+        "topic": "Lab 4 assistance (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO6",
+        "itu": "U",
+        "student_materials": "Textbook, slides, lab's questions",
+        "s_download": "",
+        "student_tasks": "Do lab 4 as homework",
+        "urls": ""
+      },
+      {
+        "session": "41",
+        "topic": "Chapter 14. Object-oriented programming\n14.1 Introduction to OOP",
+        "learning_teaching_type": "Offline",
+        "lo": "LO7",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 7 in text book 4",
+        "urls": ""
+      },
+      {
+        "session": "42",
+        "topic": "14.2 Classes and Objects",
+        "learning_teaching_type": "Offline",
+        "lo": "LO7",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 7 in text book 4",
+        "urls": ""
+      },
+      {
+        "session": "43",
+        "topic": "14.3 Encapsulation and Data Hiding",
+        "learning_teaching_type": "Offline",
+        "lo": "LO7",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 7 in text book 4",
+        "urls": ""
+      },
+      {
+        "session": "44",
+        "topic": "14.4 Abstraction and Modular Design",
+        "learning_teaching_type": "Offline",
+        "lo": "LO7",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 7 in text book 4",
+        "urls": ""
+      },
+      {
+        "session": "45",
+        "topic": "14.5 Inheritance",
+        "learning_teaching_type": "Offline",
+        "lo": "LO7",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 7 in text book 4",
+        "urls": ""
+      },
+      {
+        "session": "46",
+        "topic": "14.6 Polymorphism and Method Overloading",
+        "learning_teaching_type": "Offline",
+        "lo": "LO7",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 7 in text book 4",
+        "urls": ""
+      },
+      {
+        "session": "47",
+        "topic": "Assignment assistance",
+        "learning_teaching_type": "Offline",
+        "lo": "LO1, LO2, LO3, LO4, LO5, LO6, LO7",
+        "itu": "U",
+        "student_materials": "Textbook, slides,assignment's questions",
+        "s_download": "",
+        "student_tasks": "Do assignment as homework",
+        "urls": ""
+      },
+      {
+        "session": "48",
+        "topic": "Assignment assistance (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO1, LO2, LO3, LO4, LO5, LO6, LO7",
+        "itu": "U",
+        "student_materials": "Textbook, slides,assignment's questions",
+        "s_download": "",
+        "student_tasks": "Do assignment as homework",
+        "urls": ""
+      },
+      {
+        "session": "49",
+        "topic": "14.7 Using Objects and Work with OOP Programs",
+        "learning_teaching_type": "Offline",
+        "lo": "LO7",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 7 in text book 4",
+        "urls": ""
+      },
+      {
+        "session": "50",
+        "topic": "14.8 Object Lifecycle",
+        "learning_teaching_type": "Offline",
+        "lo": "LO7",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 7 in text book 4",
+        "urls": ""
+      },
+      {
+        "session": "51",
+        "topic": "Progress test 2",
+        "learning_teaching_type": "Offline",
+        "lo": "LO1, LO2, LO3, LO4, LO5, LO6, LO7",
+        "itu": "U",
+        "student_materials": "Textbook, slides, lab's questions",
+        "s_download": "",
+        "student_tasks": "Do the progress test on the class",
+        "urls": ""
+      },
+      {
+        "session": "52",
+        "topic": "14.9 Advanced OOP Concepts and Design Patterns",
+        "learning_teaching_type": "Offline",
+        "lo": "LO7",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 7 in text book 4",
+        "urls": ""
+      },
+      {
+        "session": "53",
+        "topic": "14.10 Case Studies",
+        "learning_teaching_type": "Offline",
+        "lo": "LO7",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 7 in text book 4",
+        "urls": ""
+      },
+      {
+        "session": "54",
+        "topic": "14.11 Summary",
+        "learning_teaching_type": "Offline",
+        "lo": "LO7",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 7 in text book 4",
+        "urls": ""
+      },
+      {
+        "session": "55",
+        "topic": "Lab 5 assistance",
+        "learning_teaching_type": "Offline",
+        "lo": "LO7",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 7 in text book 4",
+        "urls": ""
+      },
+      {
+        "session": "56",
+        "topic": "Lab 5 assistance (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO7",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 7 in text book 4",
+        "urls": ""
+      },
+      {
+        "session": "57",
+        "topic": "Assignment review",
+        "learning_teaching_type": "Offline",
+        "lo": "LO1, LO2, LO3, LO4, LO5, LO6, LO7",
+        "itu": "U",
+        "student_materials": "'Textbook, slides,assignment's questions",
+        "s_download": "",
+        "student_tasks": "Present the result of the assignment",
+        "urls": ""
+      },
+      {
+        "session": "58",
+        "topic": "Assignment review (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO1, LO2, LO3, LO4, LO5, LO6, LO7",
+        "itu": "U",
+        "student_materials": "'Textbook, slides,assignment's questions",
+        "s_download": "",
+        "student_tasks": "Present the result of the assignment",
+        "urls": ""
+      },
+      {
+        "session": "59",
+        "topic": "Review",
+        "learning_teaching_type": "Offline",
+        "lo": "All Los",
+        "itu": "",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "Review the course",
+        "urls": ""
+      },
+      {
+        "session": "60",
+        "topic": "Review",
+        "learning_teaching_type": "Offline",
+        "lo": "All Los",
+        "itu": "",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "Review the course",
+        "urls": ""
+      }
+    ],
+    "assessments": [
+      {
+        "no": "1",
+        "category": "Assignment",
+        "type": "on-going",
+        "part": "1",
+        "weight": "15.0%",
+        "completion_criteria": ">0",
+        "duration": "28 slots",
+        "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7",
+        "question_type": "Review",
+        "no_question": "",
+        "knowledge_and_skill": "All subjects in syllabus",
+        "grading_guide": "in class, by teacher",
+        "note": ""
+      },
+      {
+        "no": "2",
+        "category": "Lab",
+        "type": "on-going",
+        "part": "5",
+        "weight": "10.0%",
+        "completion_criteria": ">0",
+        "duration": "90'/each",
+        "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7",
+        "question_type": "Review",
+        "no_question": "",
+        "knowledge_and_skill": "",
+        "grading_guide": "in class, by teacher",
+        "note": ""
+      },
+      {
+        "no": "3",
+        "category": "Practical Exam",
+        "type": "on-going",
+        "part": "1",
+        "weight": "30.0%",
+        "completion_criteria": ">0",
+        "duration": "85'/each",
+        "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7",
+        "question_type": "PEA",
+        "no_question": "",
+        "knowledge_and_skill": "",
+        "grading_guide": "By exam board",
+        "note": ""
+      },
+      {
+        "no": "4",
+        "category": "Progress Test",
+        "type": "on-going",
+        "part": "2",
+        "weight": "15.0%",
+        "completion_criteria": ">0",
+        "duration": "30'/each",
+        "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7",
+        "question_type": "Multiple choices\nMarked by Computer or a suitable format",
+        "no_question": "20/each",
+        "knowledge_and_skill": "Based on the progress on the class",
+        "grading_guide": "in class, by LMS system",
+        "note": "Instruction and schedules for Progress Tests must be presented in the Course Implementation Plan approved by director of the campus.\nProgress test must be taken right after the last lectures of required material.\nInstructor has responsibility to review the test for students after graded.\n*** Note: Test 1: LO1, LO2, LO3\nTest 2: LO4, LO5, LO6, LO7"
+      },
+      {
+        "no": "5",
+        "category": "Final Exam",
+        "type": "Final exam",
+        "part": "1",
+        "weight": "30.0%",
+        "completion_criteria": "4",
+        "duration": "60'/each",
+        "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7",
+        "question_type": "Multiple choices\nMarked by Computer",
+        "no_question": "50",
+        "knowledge_and_skill": "All subjects in syllabus",
+        "grading_guide": "Exam room",
+        "note": "The exam questions must be updated or different at least 70% to the previous ones."
+      }
+    ]
+  },
+  "source": {
+    "raw_file": "flm_output/subjects/PFP191.json",
+    "curriculum_url": "https://flm.fpt.edu.vn/gui/role/student/CurriculumDetails?curid=3173",
+    "pre_syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/Syllabuses?subCode=PFP191&curriculumID=3173",
+    "syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=12224",
+    "details_source_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=12224"
+  },
+  "crawl": {
+    "error": null
+  },
+  "quality": {
+    "has_syllabus": true,
+    "counts": {
+      "materials": 4,
+      "clos": 7,
+      "schedule": 60,
+      "assessments": 5
+    },
+    "warnings": []
+  }
+}

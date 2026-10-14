@@ -1,0 +1,175 @@
+{
+  "review_type": "academic_knowledge_review",
+  "overview": "So sánh này tập trung vào các yêu cầu chuyên môn của vị trí Data Analyst Intern và không đánh giá các điều kiện hành chính như tình trạng năm cuối/tốt nghiệp, GPA hay chứng chỉ English vì hồ sơ CLO hiện có không tự xác lập các thông tin đó. Hồ sơ học thuật cung cấp bằng chứng trực tiếp về SQL, Python, data collection/cleaning/wrangling, exploratory data analysis, statistics, data visualization và workflow phân tích dữ liệu qua các môn DBI202, ADY201m, DAP391m, AIL303m và MAS291. Mức achievement giữa các bằng chứng có khác nhau: SQL có bằng chứng basic ở DBI202 nhưng được bổ trợ thêm bởi ADY201m ở mức good/excellent trong bối cảnh data science; workflow phân tích dữ liệu có nhiều CLO good/excellent, đồng thời AIL303m có mini-capstone liên quan ở mức basic. Với các công cụ nêu đích danh như Power BI/Tableau và Excel, hồ sơ hiện có không có CLO đánh giá trực tiếp theo tên công cụ; thay vào đó có bằng chứng học thuật về dashboard/data visualization bằng công cụ tương đương và ngữ cảnh chương trình học có nhắc Excel.",
+  "requirement_reviews": [
+    {
+      "jd_requirement": "Capture analytics needs; translate business questions into insights",
+      "coverage": "covered",
+      "comment": "ADY201m/CLO4 bao gồm yêu cầu học tập về data science methodology với các bước problem understanding, business understanding, analytic approach, data requirements, data collection, evaluation, deployment và feedback; achievement excellent phản ánh kết quả học thuật tốt đối với CLO này. MAS291/CLO9 bao gồm xây dựng và diễn giải simple linear regression cho prediction và interpretation; achievement excellent phản ánh kết quả học thuật tốt về diễn giải kết quả phân tích định lượng. DAP391m/CLO7 yêu cầu reporting trong mini-capstone workflow; achievement excellent. Mô tả môn DAP391m còn đặt phân tích và dashboard trong bối cảnh hỗ trợ người dùng hiểu dữ liệu và ra quyết định. Tập bằng chứng này bao phủ tốt nội dung học thuật tương ứng với việc nắm nhu cầu phân tích và chuyển câu hỏi thành kết quả/insight phân tích, nhưng không phải là xác nhận bối cảnh doanh nghiệp thực tế.",
+      "evidence": [
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "MAS291",
+          "clo": "CLO9"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "DAP391m",
+          "metadata_field": "description"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Collect, clean and transform data; support ad-hoc analysis",
+      "coverage": "covered",
+      "comment": "DAP391m/CLO2 bao gồm import data from multiple sources, clean and wrangle data, exploratory data analysis và tạo visualization; achievement excellent phản ánh kết quả học thuật tốt đối với CLO này. AIL303m/CLO1 yêu cầu retrieve data from SQL, NoSQL databases, APIs, Cloud và cleaning data; achievement good. AIL303m/CLO2 bao gồm feature selection và feature engineering, là phần liên quan trực tiếp đến biến đổi dữ liệu; achievement good. ADY201m/CLO7 yêu cầu áp dụng Python fundamentals, SQL/database access, data understanding, preprocessing, modeling, evaluation, visualization và final reporting trong guided project workflow; achievement excellent. AIL303m/CLO10 bổ sung mini-capstone gồm data collection, data wrangling, exploratory data analysis, model development, model evaluation và reporting; achievement basic cho thấy vẫn có bằng chứng liên quan nhưng mức kết quả học thuật ở CLO này thấp hơn các CLO vừa nêu. Nhìn chung, yêu cầu học thuật về thu thập, làm sạch, biến đổi dữ liệu và hỗ trợ phân tích được bao phủ rõ ràng.",
+      "evidence": [
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO2"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO2"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO10"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Assist reports/dashboards with Power BI/Tableau or comparable tools",
+      "coverage": "covered",
+      "comment": "DAP391m/CLO4 yêu cầu implement nhiều loại biểu đồ và chart cơ bản đến nâng cao; achievement excellent phản ánh kết quả học thuật tốt về data visualization. DAP391m/CLO7 nêu rõ Interactive Visual Analytics, Dashboard trong mini-capstone workflow; achievement excellent. Mô tả môn DAP391m cũng nêu việc làm việc với Data Visualization tools and techniques và create interactive dashboards. Vì JD cho phép \"Power BI/Tableau or comparable tools\", tập bằng chứng này bao phủ nhánh công cụ tương đương ở bối cảnh học thuật. Tuy vậy, hồ sơ hiện có không nêu đích danh Power BI hay Tableau.",
+      "evidence": [
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "DAP391m",
+          "metadata_field": "description"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Validate data quality",
+      "coverage": "related",
+      "comment": "DAP391m/CLO2 bao gồm clean and wrangle data và exploratory data analysis; achievement excellent. ADY201m/CLO7 bao gồm data understanding và preprocessing trong guided project workflow; achievement excellent. AIL303m/CLO3 yêu cầu dùng các kỹ thuật phát hiện và xử lý outliers; achievement good. Các CLO này liên quan trực tiếp đến việc kiểm tra và chuẩn hóa dữ liệu trước phân tích. Tuy nhiên, hồ sơ học thuật hiện có chưa cung cấp CLO nêu rõ data-quality validation như rule checking, reconciliation hoặc quy trình kiểm soát chất lượng dữ liệu như một outcome riêng, nên mức phù hợp dừng ở related.",
+      "evidence": [
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO2"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO3"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Qualifications: foundational SQL",
+      "coverage": "covered",
+      "comment": "DBI202/CLO5 trực tiếp bao gồm SQL DDL, DML, basic queries, multi-relation queries, nested queries, aggregation queries và database modifications trên Microsoft SQL Server; achievement basic phản ánh kết quả học thuật cơ bản đối với CLO SQL cốt lõi này. DBI202/CLO6 bổ sung T-SQL programming concepts, views, cursors, stored procedures, functions, triggers và transactions trong Microsoft SQL Server; achievement basic. ADY201m/CLO1 bao gồm relational database concepts, foundational SQL, nested queries và multi-table SELECT trong bối cảnh data science; achievement good. ADY201m/CLO7 còn nêu SQL/database access trong guided project workflow; achievement excellent. Tổ hợp này bao phủ rõ yêu cầu foundational SQL, đồng thời cho thấy các band đánh giá liên quan đến SQL không đồng nhất giữa các môn: có bằng chứng basic ở DBI202 và bằng chứng bổ trợ good/excellent ở ADY201m.",
+      "evidence": [
+        {
+          "course_code": "DBI202",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "DBI202",
+          "clo": "CLO6"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO7"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Qualifications: foundational Excel",
+      "coverage": "related",
+      "comment": "Mô tả môn MAS291 nêu kỹ năng dùng ít nhất một statistical software, ví dụ Excel hoặc Maxima, để giải bài toán; phần tools của môn cũng liệt kê Excel/DDXL add-ons. Đây là ngữ cảnh chương trình học có liên quan đến Excel. Tuy nhiên, không có CLO nào trong hồ sơ hiện có trực tiếp đánh giá Excel như một outcome được chấm điểm, nên chưa có bằng chứng học thuật trực tiếp ở mức assessed outcome cho yêu cầu foundational Excel.",
+      "evidence": [
+        {
+          "course_code": "MAS291",
+          "metadata_field": "description"
+        },
+        {
+          "course_code": "MAS291",
+          "metadata_field": "tools"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Preferred: Familiarity with Python OR R",
+      "coverage": "covered",
+      "comment": "PFP191/CLO7 trực tiếp bao gồm object-oriented programming in Python và apply it in application contexts; achievement excellent phản ánh kết quả học thuật tốt đối với Python. ADY201m/CLO5 bao gồm Python fundamentals, Python libraries và API support cho data science tasks; achievement excellent. DAP391m/CLO1 bao gồm data analysis with Python để build và evaluate data models; achievement good. Vì JD dùng OR, nhánh Python đã được bao phủ rõ ràng bằng CLO được đánh giá. ADY201m/CLO3 có nhắc R như một công cụ trong danh sách \"use at least one tool\" cùng nhiều công cụ khác; achievement good cho CLO này không xác định cụ thể công cụ nào được chọn, nên chỉ cho thấy R được nêu trong nội dung môn chứ không xác nhận đã dùng R.",
+      "evidence": [
+        {
+          "course_code": "PFP191",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO3"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Qualifications: analytical thinking and attention to detail",
+      "coverage": "related",
+      "comment": "MAD101/CLO3 bao gồm phân tích thuật toán và đánh giá độ phức tạp; achievement good. MAS291/CLO8 bao gồm hypothesis testing, p-values và testing errors; achievement excellent. MAS291/CLO9 bao gồm regression for prediction and interpretation; achievement excellent. Các CLO này hỗ trợ tốt phần analytical thinking trong bối cảnh học thuật định lượng và phân tích. Tuy nhiên, \"attention to detail\" là yêu cầu về cách làm việc/cẩn trọng và hồ sơ học thuật hiện có chưa cung cấp bằng chứng trực tiếp để xác nhận nội dung này như một outcome được đánh giá, nên toàn bộ yêu cầu ghép được xếp related.",
+      "evidence": [
+        {
+          "course_code": "MAD101",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "MAS291",
+          "clo": "CLO8"
+        },
+        {
+          "course_code": "MAS291",
+          "clo": "CLO9"
+        }
+      ]
+    }
+  ],
+  "conclusion": "Tổng thể, hồ sơ học thuật cung cấp bằng chứng trực tiếp về nền tảng chuyên môn phù hợp với nhiều phần của JD Data Analyst Intern: SQL, Python, thu thập/làm sạch/biến đổi dữ liệu, EDA, thống kê, data visualization, dashboard và workflow phân tích dữ liệu trong các môn DBI202, ADY201m, DAP391m, AIL303m và MAS291. Cần đọc các bằng chứng này theo đúng band học thuật đã cung cấp: SQL có kết quả basic ở DBI202 nhưng được bổ trợ thêm bởi ADY201m ở mức good/excellent; workflow phân tích dữ liệu có nhiều CLO good/excellent, đồng thời AIL303m cũng có mini-capstone liên quan ở mức basic. Với công cụ cụ thể, hồ sơ xác nhận tốt nhánh Python của yêu cầu preferred \"Python OR R\"; dashboard/reporting được bao phủ ở mức công cụ tương đương nhưng không xác nhận đích danh Power BI/Tableau; Excel chỉ xuất hiện trong mô tả môn và tools của MAS291 nên mới dừng ở ngữ cảnh chương trình học, chưa có CLO đánh giá trực tiếp. Hồ sơ CLO hiện có cũng không tự xác lập GPA, English credential hay các thông tin hành chính khác ngoài phạm vi bằng chứng học thuật này."
+}

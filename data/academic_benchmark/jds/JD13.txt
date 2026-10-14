@@ -1,0 +1,6 @@
+VSEC — Security Monitoring Intern
+Responsibilities: Learn/analyze/respond to cyberattacks; research attacks and detection rules; participate in SOC administration involving SIEM, SOAR and TIP; assist monitoring and incident response.
+Qualifications: Final-year information-security/IT study; operating-system basics and Windows/Linux administration; network foundations including OSI, TCP/IP and IP protocols; basic programming in at least one language such as C/C++, C#, Python or Java.
+Preferred: CEH certification or completion of a CEH course.
+Learning opportunities: Training in malware, web/cloud topics and participation in real projects; the opportunities do not prove prior SOC experience is mandatory.
+Source-grounded paraphrase of the VSEC posting on TopCV. Not verbatim employer text or a vacancy-status confirmation.

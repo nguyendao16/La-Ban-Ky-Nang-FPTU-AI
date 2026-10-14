@@ -1,0 +1,23 @@
+{
+  "approved_on": "2026-10-14",
+  "approved_plan_sha256": "54ea1fe098579d731af9c244b823d68f45454187357d89a3675c49320d5fd2e3",
+  "authorized_by": "explicit_user_message",
+  "model": "gpt-5.4-mini-2026-03-17",
+  "effort": "medium",
+  "budget": {
+    "max_generations": 32,
+    "max_preflights": 32,
+    "max_http_operations": 64,
+    "max_cost_usd": "3.00"
+  },
+  "production_integrity_before_dispatch": "passed",
+  "protected_files": 976,
+  "pricing_reverified_on": "2026-10-14",
+  "pricing_source": "https://developers.openai.com/api/docs/models/gpt-5.4-mini",
+  "prices_per_million_usd": {
+    "input": ".75",
+    "cached_input": ".075",
+    "output": "4.5"
+  },
+  "pricing_unchanged": true
+}

@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "syllabus_name": "AI for Scientific Research_TTNT cho Nghiên cứu khoa học",
+    "course_name_english": "AI for Scientific Research",
+    "subject_code": "ASR301c",
+    "description": "This course is about using AI in scientific situations to discover trends and patterns within datasets. Course 1 teaches a little about the Python language related to data science. We'll share some existing libraries to help analyze your datasets. By the end of the course, you'll apply a classification model to predict the presence or absence of heart disease from a patient's health data. Course 2 covers the complete machine learning pipeline, from reading in, cleaning, and transforming data to running basic and advanced machine learning algorithms. In the final project, we'll apply our skills to compare different machine learning models in Python. In Course 3, we will build on our knowledge of basic models and explore more advanced AI techniques. We’ll describe the differences between the two techniques and explore how they differ. Then, we’ll complete a project predicting similarities between health patients using random forests. In Course 4, a capstone project course, we'll compare genome sequences of COVID-19 mutations to identify potential areas a drug therapy can look to target. By the end, you'll be well on your way to discovering ways to combat disease with genome sequencing.",
+    "tools": ""
+  },
+  "clos": [
+    {
+      "clo_name": "CLO1",
+      "clo_details": "Employ artificial intelligence techniques to test hypothesis in Python, and apply a machine learning model combining Numpy, Pandas, and Scikit-Learn"
+    },
+    {
+      "clo_name": "CLO2",
+      "clo_details": "Implement and evaluate machine learning models (neural networks, random forests, etc.) on scientific data in Python"
+    },
+    {
+      "clo_name": "CLO3",
+      "clo_details": "Implement simple neural network models and describe the differences between Neural Networks and Random Forests"
+    },
+    {
+      "clo_name": "CLO4",
+      "clo_details": "Analyzing genome sequences to find similarities and identify target subsequences using predctive models"
+    }
+  ],
+  "schedule": [
+    {
+      "topic": "Specialization Introduction\nIntroduction to Data Science and scikit-learn in Python\n- Introduction to Python Programming for Hypothesis Testing\n- Creating a Hypothesis: Numpy, Pandas, and Scikit-Learn\nOffline 1: Guide learning and review of the specialization",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "Introduction to Data Science and scikit-learn in Python (cont.)\n- Scikit-Learn Revisited: ML for Hypothesis Testing\n- Using Classification to Predict the Presence of Heart Disease",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "Machine Learning Models in Science\n- Before the AI: Preparing and Preprocessing Data",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "Machine Learning Models in Science (cont.)\n- Foundational AI Algorithms: K-Means and SVM",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "Machine Learning Models in Science (cont.)\n- Advanced AI: Neural Networks and Decision Trees",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "Machine Learning Models in Science (cont.)\n- Course Project",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "Neural Networks and Random Forests\n- I2NN and Deep dive into NN",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "Neural Networks and Random Forests (cont.)\n- Exploring Random Forests",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "Neural Networks and Random Forests (cont.)\n- Final Project: Comparing Models to predict pedal width",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "Capstone Project: Advanced AI for Drug Discovery\n- Comparing genome sequences and PCA on genome sequence",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "Capstone Project: Advanced AI for Drug Discovery (cont.)\n- Feature Analysis using K-means Clustering",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "Capstone Project: Advanced AI for Drug Discovery (cont.)\n- Predicting Bit Score to find sequences matches\nCourse 4 Review",
+      "lo": "CLO4"
+    }
+  ],
+  "assessments": [
+    {
+      "category": "Final exam",
+      "part": "1",
+      "weight": "100.0%",
+      "clo": "CLO1, CLO2, CLO3, CLO4"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "course_id": "GAP301",
+  "clos": [
+    {
+      "clo_id": "CLO1",
+      "original_description": "Identify relevant generative-AI techniques (LLMs, diffusion, multimodal, RAG, agents, fine-tuning, alignment) for a capstone topic.",
+      "enriched_description": "Identify relevant generative-AI techniques (LLMs, diffusion, multimodal, RAG, agents, fine-tuning, alignment) for a capstone topic. The scope includes [Chapter 1: Course Introduction and Group Formation] Introduction to the course; Discussion on the Generative AI Capstone Project (GAP) topic, scope, feasibility, current frontier areas; Formation of teams/groups (2-3 members); roles and responsibilities; Discuss and choose a project topic; verify dataset/model licensing and compute feasibility on a single GPU; and References related to Report 1, required readings on the proposed approach (seminal papers and recent results).",
+      "source_topic_indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO2",
+      "original_description": "Formulate problem statements, scope, objectives, and success criteria in a project proposal.",
+      "enriched_description": "Formulate generative-AI project problem statements, scope, objectives, and success criteria. The scope includes topic selection with dataset/model licensing and compute feasibility, proposal guidance covering problem statement, related work, modalities/models, evaluation plan and compute budget, scoping, novelty checks, differentiation from off-the-shelf API use, required readings, proposal writing, and proposal improvement.",
+      "source_topic_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO3",
+      "original_description": "Plan data preparation, model selection, and licensing/ethics review.",
+      "enriched_description": "Plan data preparation, model selection, and licensing or ethics review for a generative-AI project. The scope includes dataset licensing, preprocessing, tokenization, data preparation discussion and improvement, hosted versus open-weight model selection, model size, license and cost considerations, data and baseline submission, and baseline improvement.",
+      "source_topic_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        8,
+        9,
+        11
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO4",
+      "original_description": "Conduct baseline analysis using pre-trained models, prompting, and in-context learning.",
+      "enriched_description": "Conduct baseline analysis using pre-trained models, prompting, and in-context learning. The scope includes zero-shot and few-shot baselines, structured prompt engineering, baseline and prompt discussion, prompt engineering improvement, data and baseline submission, and baseline improvement.",
+      "source_topic_indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        7
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO5",
+      "original_description": "Develop and adapt generative-AI systems to project requirements.",
+      "enriched_description": "Develop and adapt generative-AI systems to project requirements. The scope includes choosing adaptation paths such as prompt-only, RAG, LoRA/QLoRA fine-tuning, or agent/tool-use designs, model adaptation discussion, adaptation improvement, model-results submission, and model-results improvement.",
+      "source_topic_indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        7
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO6",
+      "original_description": "Evaluate and optimize systems using appropriate metrics and protocols, with attention to contamination and saturation.",
+      "enriched_description": "Evaluate and optimize generative-AI systems using appropriate metrics and iteration protocols. The scope includes metrics such as perplexity, ROUGE, faithfulness, FID, BLEU, human or LLM-based evaluation, evaluation and iteration discussion, iteration improvement, model-results submission, and model-results improvement.",
+      "source_topic_indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        7
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO7",
+      "original_description": "Interpret outputs and failure modes (hallucination, bias, jailbreak) and visualize results for stakeholders.",
+      "enriched_description": "Interpret outputs and failure modes, including hallucination, bias, jailbreak, grounding, and demo behavior, and visualize results for stakeholders. The scope includes results, demo, and failure-mode analysis; supporting references; failure-mode discussion; improvement cycles; model-results submission; and model-results improvement.",
+      "source_topic_indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        7
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO8",
+      "original_description": "Summarize conclusions and actionable recommendations, including deployment and cost/latency trade-offs.",
+      "enriched_description": "Summarize conclusions and actionable recommendations, including deployment and cost/latency trade-offs. The scope includes [Chapter 8: Conclusion, Ethics, and Recommendations] Guide Report No.3: Model & Result [Part 4: Conclusion and References related to Report No.3: Conclusion, Ethics, and Recommendations.",
+      "source_topic_indices": [
+        0,
+        1
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO9",
+      "original_description": "Compile a final report with an explicit ethics, safety, and provenance subsection.",
+      "enriched_description": "Compile a final report with an explicit ethics, safety, and provenance subsection. The scope includes [Chapter 8: Conclusion, Ethics, and Recommendations] Guide Report No.3: Model & Result [Part 4: Conclusion; References related to Report No.3: Conclusion, Ethics, and Recommendations; [Chapter 9: Finalization and Presentations] Guide Final Report, Report 4 integration: combining Reports 1-3; and References related to Final Report (template, examples, rubric).",
+      "source_topic_indices": [
+        0,
+        1,
+        5,
+        6
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO10",
+      "original_description": "Deliver oral presentations with live demonstrations and Q&A defense.",
+      "enriched_description": "Deliver oral presentations with live demonstrations and Q&A defense. The scope includes Practice for Presentation of Capstone Project, demo dry-run, Q&A defence, individual contribution statement; Practice for Presentation of Capstone Project, polish slides, rehearse failure-mode discussion, ethics; and Practice for Presentation of Capstone Project, final rehearsal before Final Exam (oral group presentation).",
+      "source_topic_indices": [
+        0,
+        1,
+        2
+      ],
+      "review_required": false,
+      "review_notes": []
+    }
+  ]
+}

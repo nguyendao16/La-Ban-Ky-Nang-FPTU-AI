@@ -1,0 +1,181 @@
+{
+  "review_type": "academic_knowledge_review",
+  "overview": "Hồ sơ học thuật của sinh viên thể hiện nền tảng vững chắc về toán học, xác suất-thống kê, lập trình Python, xử lý và phân tích dữ liệu, cũng như các kiến thức cơ bản về machine learning (ML), deep learning (DL) và khoa học dữ liệu. Các học phần liên quan đến cơ sở dữ liệu, SQL, trực quan hóa dữ liệu và các công cụ AI cũng được đề cập, tuy nhiên mức độ đạt được ở một số nội dung như SQL chủ yếu ở mức cơ bản. Một số yêu cầu ưu tiên như sử dụng Power BI, Tableau hoặc Google Data Studio chưa có bằng chứng học thuật trực tiếp.",
+  "requirement_reviews": [
+    {
+      "jd_requirement": "Nền tảng về thống kê, xử lý và phân tích dữ liệu, ML/DL.",
+      "coverage": "covered",
+      "comment": "Các học phần MAS291 (CLO1–CLO9) và MAI391 (CLO3, CLO5, CLO6, CLO7) cung cấp kiến thức toàn diện về xác suất, thống kê, hồi quy tuyến tính, kiểm định giả thuyết, phân tích dữ liệu, phân phối xác suất, PCA, SVM và các phương pháp tối ưu hóa. ADY201m (CLO6, CLO7) và DAP391m (CLO1–CLO7) nhấn mạnh thực hành phân tích dữ liệu, trực quan hóa, mô hình hóa, đánh giá mô hình và thực hiện dự án nhỏ về khoa học dữ liệu. AIL303m (CLO4–CLO10) và CPV301 (CLO3, CLO8) bổ sung kiến thức về ML, supervised/unsupervised learning, clustering, dimensionality reduction, object detection. Thành tích học thuật ở các CLO này chủ yếu đạt mức excellent hoặc good.",
+      "evidence": [
+        {
+          "course_code": "MAS291",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "MAS291",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "MAS291",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "MAS291",
+          "clo": "CLO9"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO6"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO6"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO8"
+        },
+        {
+          "course_code": "CPV301",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "CPV301",
+          "clo": "CLO8"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Sử dụng Python hoặc R cho phân tích dữ liệu.",
+      "coverage": "covered",
+      "comment": "PFP191 (CLO1–CLO7) cung cấp nền tảng lập trình Python, bao gồm OOP, xử lý file, cấu trúc dữ liệu, và áp dụng Python trong các ngữ cảnh ứng dụng. ADY201m (CLO3, CLO5, CLO7) và DAP391m (CLO1, CLO2, CLO7) nhấn mạnh sử dụng Python cho phân tích dữ liệu, thao tác dữ liệu, trực quan hóa, và thực hiện dự án khoa học dữ liệu. Thành tích học thuật ở các CLO này đạt excellent hoặc good. Không có CLO nào đề cập trực tiếp đến R.",
+      "evidence": [
+        {
+          "course_code": "PFP191",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "PFP191",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO2"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO7"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Kỹ năng giải quyết vấn đề phân tích và tinh thần học hỏi.",
+      "coverage": "covered",
+      "comment": "Các CLO như MAI391 (CLO8) và DAP391m (CLO7) yêu cầu phát triển kỹ năng làm việc nhóm, tự học, kỷ luật bản thân trong bối cảnh dự án toán ứng dụng và khoa học dữ liệu. ADY201m (CLO7) và AIL303m (CLO10) yêu cầu thực hiện dự án nhỏ, giải quyết bài toán thực tế, báo cáo kết quả. Thành tích học thuật ở các CLO này đạt excellent hoặc good.",
+      "evidence": [
+        {
+          "course_code": "MAI391",
+          "clo": "CLO8"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO10"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Kinh nghiệm với SQL.",
+      "coverage": "covered",
+      "comment": "DBI202 (CLO5, CLO6, CLO7) cung cấp kiến thức về SQL (DDL, DML), T-SQL, lập chỉ mục, stored procedures, triggers, transaction, và tối ưu hóa truy vấn trên Microsoft SQL Server. ADY201m (CLO1, CLO7) bổ sung thực hành truy cập cơ sở dữ liệu bằng SQL trong dự án khoa học dữ liệu. Tuy nhiên, thành tích học thuật ở DBI202 chủ yếu ở mức basic, trong khi ADY201m đạt good/excellent.",
+      "evidence": [
+        {
+          "course_code": "DBI202",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "DBI202",
+          "clo": "CLO6"
+        },
+        {
+          "course_code": "DBI202",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO7"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Trải nghiệm với ít nhất một công cụ trực quan hóa dữ liệu như Power BI, Tableau hoặc Google Data Studio.",
+      "coverage": "not_evidenced",
+      "comment": "Hồ sơ học thuật hiện có chưa cung cấp bằng chứng trực tiếp về việc sử dụng Power BI, Tableau hoặc Google Data Studio. Một số CLO như DAP391m (CLO4) và ADY201m (CLO7) đề cập đến trực quan hóa dữ liệu và dashboard, nhưng không nêu rõ tên công cụ cụ thể.",
+      "evidence": []
+    }
+  ],
+  "conclusion": "Hồ sơ học thuật của sinh viên cho thấy nền tảng vững chắc về toán học, xác suất-thống kê, lập trình Python, xử lý và phân tích dữ liệu, cũng như các kiến thức cơ bản và thực hành về machine learning, deep learning và khoa học dữ liệu. Các học phần về SQL và cơ sở dữ liệu được đề cập với mức độ đạt chủ yếu là basic, nhưng có bổ sung thực hành trong các dự án khoa học dữ liệu. Tuy nhiên, hồ sơ chưa có bằng chứng học thuật trực tiếp về việc sử dụng các công cụ trực quan hóa dữ liệu phổ biến như Power BI, Tableau hoặc Google Data Studio. Tất cả các nhận định đều dựa trên mô tả CLO và thành tích học thuật, không xác nhận kinh nghiệm thực tế hoặc triển khai sản phẩm."
+}

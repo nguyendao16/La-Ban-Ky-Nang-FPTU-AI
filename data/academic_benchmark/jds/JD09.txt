@@ -1,0 +1,6 @@
+Poshmark — AI/ML Engineering Intern, Summer 2026
+Responsibilities: Build/deploy ML models, document work, implement or adapt research algorithms, explore proof-of-concepts and collaborate with ML engineers/scientists.
+Qualifications: Relevant quantitative degree; regression, classification, loss functions, evaluation metrics, ensembles and cross-validation concepts; languages listed as Python, SQL, Java or Scala; data structures/algorithms; ML lifecycle and system architecture. The language listing's grouping is retained rather than requiring all four.
+Preferred: Spark or another big-data framework.
+Employer stack context, not a mandatory checklist: PyTorch/TensorFlow/sklearn; Flask/FastAPI; MLFlow/SageMaker/Airflow/Databricks; Docker/Kubernetes; Redis/Spark/Kafka and other services.
+Research paraphrase from indexed employer content. Direct ATS returned a JavaScript shell; no active-vacancy claim.

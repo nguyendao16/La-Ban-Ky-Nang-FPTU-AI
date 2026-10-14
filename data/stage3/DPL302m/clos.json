@@ -1,0 +1,30 @@
+[
+  {
+    "clo_name": "CLO1",
+    "clo_details": "Should build, train and apply fully connected deep neural networks, implement efficient neural networks, identify key parameters in a neural network's architecture, and apply deep learning to students' own applications."
+  },
+  {
+    "clo_name": "CLO2",
+    "clo_details": "Could train and develop test sets, analyze bias/variance for building deep learning applications, apply optimization algorithms, and implement a neural network using TensorFlow."
+  },
+  {
+    "clo_name": "CLO3",
+    "clo_details": "Understand complex ML settings, diagnose errors in a machine learning system, prioritize strategies for reducing errors, and apply end-to-end learning, transfer learning, and multi-task learning."
+  },
+  {
+    "clo_name": "CLO4",
+    "clo_details": "Build CNN models for visual detection and recognition tasks and use neural style transfer to generate art from various types of data."
+  },
+  {
+    "clo_name": "CLO5",
+    "clo_details": "Could build and train recurrent neural networks (RNNs), work with NLP and word embeddings, use HuggingFace tokenizers, and transformer models to solve different NLP tasks."
+  },
+  {
+    "clo_name": "CLO6",
+    "clo_details": "Implement a DL project includes steps: data collection, data wrangling, exploratory data analysis, model development, model evaluation, and reporting"
+  },
+  {
+    "clo_name": "CLO7",
+    "clo_details": "Understand how to apply AI tools to complete a mini project"
+  }
+]

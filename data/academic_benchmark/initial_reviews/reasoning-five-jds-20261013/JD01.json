@@ -1,0 +1,166 @@
+{
+  "review_type": "academic_knowledge_review",
+  "overview": "Hồ sơ thể hiện lộ trình học thuật liên quan trực tiếp đến vị trí AI Intern, với các học phần chuyên biệt về Machine Learning (AIL303m), Computer Vision (CPV301), AI/Data Science with Python & SQL (ADY201m), AI-DS Project (DAP391m), Mathematics for Machine Learning (MAI391), cùng nền tảng Python (PFP191), xác suất thống kê (MAS291) và cơ sở dữ liệu (DBI202). Ở các mảng Python, computer vision, image processing, toán/thống kê cho ML và project data science, nhiều CLO liên quan đạt good đến excellent; riêng một số bằng chứng thực hành ML/SQL ở mức basic, như AIL303m/CLO10 và DBI202/CLO5-CLO7. Hồ sơ cũng có bằng chứng học thuật về deep learning ở mức khái niệm qua AIG202c/CLO2. Tuy vậy, hồ sơ hiện có chưa xác nhận trực tiếp việc dùng các framework được nêu đích danh trong JD (scikit-learn, TensorFlow, Keras, PyTorch), chưa có bằng chứng trực tiếp về giao tiếp tiếng Anh cơ bản, và không xác nhận được yêu cầu một năm internship trước tốt nghiệp.",
+  "requirement_reviews": [
+    {
+      "jd_requirement": "Bắt buộc: Relevant university study",
+      "coverage": "covered",
+      "comment": "Mô tả các môn AIL303m, CPV301, MAI391 và ADY201m ghi rõ chương trình có học machine learning, computer vision, mathematics for machine learning, data science với Python/SQL và project dữ liệu. Đây là bằng chứng trực tiếp về phạm vi học phần phù hợp với vị trí AI Intern ở góc độ chương trình đào tạo. Vì hàng này dựa trên course description, nó phản ánh nội dung học thuật được giảng dạy, không phải kết quả đánh giá cá nhân cho mọi chủ đề.",
+      "evidence": [
+        {
+          "course_code": "AIL303m",
+          "metadata_field": "description"
+        },
+        {
+          "course_code": "CPV301",
+          "metadata_field": "description"
+        },
+        {
+          "course_code": "MAI391",
+          "metadata_field": "description"
+        },
+        {
+          "course_code": "ADY201m",
+          "metadata_field": "description"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Bắt buộc: Python programming experience",
+      "coverage": "covered",
+      "comment": "PFP191/CLO7 yêu cầu hiểu và áp dụng OOP trong Python bằng classes/objects, encapsulation, inheritance, polymorphism và ngữ cảnh ứng dụng, với achievement excellent. ADY201m/CLO7 yêu cầu implement một guided data science project bằng Python cùng SQL/database access, preprocessing, modeling, evaluation, deployment và reporting, achievement excellent. DAP391m/CLO7 tiếp tục yêu cầu implement mini capstone data science project với data wrangling, EDA, visualization, model development/evaluation và reporting, achievement excellent. Các CLO này hỗ trợ trực tiếp yêu cầu có kinh nghiệm học thuật về lập trình Python, nhưng không tự chuyển thành kinh nghiệm nghề nghiệp.",
+      "evidence": [
+        {
+          "course_code": "PFP191",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO7"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Bắt buộc: ML, deep-learning and computer-vision background",
+      "coverage": "covered",
+      "comment": "AIL303m/CLO4 yêu cầu describe và use supervised models, gồm introduction to supervised machine learning và linear regression, với achievement good. AIG202c/CLO2 yêu cầu explain các khái niệm nền tảng về Machine Learning, Deep Learning và Neural Networks, achievement good; đây là bằng chứng về nền tảng khái niệm deep learning, không phải framework-specific implementation. CPV301/CLO3 yêu cầu apply các kỹ thuật image processing cơ bản, achievement excellent, và CPV301/CLO8 yêu cầu understand and implement object detection techniques, achievement excellent. Tổng hợp lại, hồ sơ có nền tảng học thuật về ML, deep learning ở mức khái niệm, và computer vision.",
+      "evidence": [
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "AIG202c",
+          "clo": "CLO2"
+        },
+        {
+          "course_code": "CPV301",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "CPV301",
+          "clo": "CLO8"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Bắt buộc: modern ML-framework experience; nguồn nêu scikit-learn, TensorFlow, Keras, PyTorch (không nêu quan hệ Boolean rõ ràng)",
+      "coverage": "related",
+      "comment": "AIL303m/CLO4 yêu cầu use supervised models với achievement good; AIL303m/CLO10 là mini capstone ML project với các bước data collection, wrangling, EDA, model development, model evaluation và reporting, achievement basic. ADY201m/CLO7 và DAP391m/CLO7 đều yêu cầu implement project quy trình data science/model development bằng Python, với achievement excellent. Các CLO này cho thấy có học thuật triển khai ML/data-science tasks. Tuy nhiên, hồ sơ không có CLO hay metadata nào nêu đích danh scikit-learn, TensorFlow, Keras hoặc PyTorch, nên kinh nghiệm với các modern ML frameworks được JD liệt kê chưa được xác nhận trực tiếp.",
+      "evidence": [
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO10"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO7"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Bắt buộc: Basic English communication",
+      "coverage": "not_evidenced",
+      "comment": "Hồ sơ học thuật hiện có chưa cung cấp bằng chứng trực tiếp về giao tiếp tiếng Anh cơ bản. Tên môn học hoặc việc CLO được viết bằng tiếng Anh không phải là đánh giá năng lực giao tiếp.",
+      "evidence": []
+    },
+    {
+      "jd_requirement": "Bắt buộc: at least one internship year before graduation",
+      "coverage": "related",
+      "comment": "ADY201m/CLO7, AIL303m/CLO10, DAP391m/CLO7 và CPV301/CLO8 cho thấy chương trình có các outcome/project học thuật liên quan đến phát triển mô hình, đánh giá, reporting, mini capstone và object detection; achievement trải từ basic ở AIL303m/CLO10 đến excellent ở ADY201m/CLO7, DAP391m/CLO7 và CPV301/CLO8. Các bằng chứng này liên quan đến loại công việc AI intern trong môi trường học thuật, nhưng không xác nhận trực tiếp việc đã có một internship kéo dài một năm trước tốt nghiệp, cũng không xác nhận bối cảnh nghề nghiệp hay thời lượng thực tập.",
+      "evidence": [
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO10"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "CPV301",
+          "clo": "CLO8"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Ưu tiên: Image-processing knowledge",
+      "coverage": "covered",
+      "comment": "CPV301/CLO3 yêu cầu apply basic image processing techniques and corresponding algorithms cho point and line operations, image filtering, Fourier transforms, geometric transformations và point/patch-based processing, với achievement excellent. CPV301/CLO4 bổ sung feature extraction/matching cùng implement edge and line extraction, achievement excellent, và CPV301/CLO5 bao gồm image segmentation cơ bản, achievement excellent. Đây là bằng chứng phù hợp trực tiếp với ưu tiên về image-processing knowledge.",
+      "evidence": [
+        {
+          "course_code": "CPV301",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "CPV301",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "CPV301",
+          "clo": "CLO5"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Ưu tiên: backend experience",
+      "coverage": "related",
+      "comment": "PFP191/CLO7 yêu cầu apply OOP trong Python với classes/objects, encapsulation, inheritance và polymorphism, achievement excellent. DBI202/CLO5 và DBI202/CLO6 bao gồm SQL DDL/DML, multi-relation queries, stored procedures, functions, triggers và transaction concepts trong Microsoft SQL Server, nhưng achievement ở mức basic. DAP391m/CLO6 yêu cầu phát triển applications và AI powered solutions với Watson APIs/services, achievement excellent. Các học phần này liên quan đến nền tảng application/server-side development, nhưng hồ sơ chưa xác nhận trực tiếp backend experience theo nghĩa phát triển dịch vụ backend hoặc các yêu cầu vận hành service như performance, scale, availability và monitoring.",
+      "evidence": [
+        {
+          "course_code": "PFP191",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "DBI202",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "DBI202",
+          "clo": "CLO6"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO6"
+        }
+      ]
+    }
+  ],
+  "conclusion": "Tổng hợp lại, hồ sơ xác nhận nền tảng học thuật phù hợp về Python, machine learning, computer vision, image processing, data science, xác suất thống kê và toán cho ML. Các minh chứng đánh giá nổi bật tập trung ở PFP191, CPV301, MAI391, ADY201m và DAP391m; đồng thời DBI202 và một phần AIL303m cho thấy thêm nội dung SQL/ML với mức basic đến good, cần được đọc đúng như kết quả học thuật của các CLO tương ứng. Bằng chứng về deep learning hiện thiên về khái niệm hơn là framework-specific implementation. Giới hạn của hồ sơ hiện có là chưa xác nhận trực tiếp việc dùng các framework nêu đích danh trong JD, chưa có bằng chứng trực tiếp về giao tiếp tiếng Anh cơ bản, và không xác nhận được thời lượng hay bối cảnh internship một năm trước tốt nghiệp; các mô tả project/CLO chỉ phản ánh học tập học thuật, không tự xác nhận kinh nghiệm nghề nghiệp."
+}

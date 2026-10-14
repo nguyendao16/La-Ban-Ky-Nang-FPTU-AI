@@ -1,0 +1,20 @@
+[
+  {
+    "category": "Assignments/Exercises",
+    "part": "3",
+    "weight": "30.0%",
+    "clo": "LO1, LO2, LO3, LO4, LO5, LO6, LO7, LO8, LO9"
+  },
+  {
+    "category": "Progress Test",
+    "part": "3",
+    "weight": "30.0%",
+    "clo": "LO1, LO2, LO3, LO4, LO5, LO6, LO7, LO8, LO9"
+  },
+  {
+    "category": "Final Exam",
+    "part": "1",
+    "weight": "40.0%",
+    "clo": ""
+  }
+]

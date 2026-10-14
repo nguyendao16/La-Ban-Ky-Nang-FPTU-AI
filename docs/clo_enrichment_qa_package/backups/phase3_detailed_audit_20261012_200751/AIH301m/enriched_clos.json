@@ -1,0 +1,109 @@
+{
+  "course_id": "AIH301m",
+  "clos": [
+    {
+      "clo_id": "CLO1",
+      "original_description": "Learners should be able to describe the structure of healthcare systems, AI, and machine learning.",
+      "enriched_description": "Learners should be able to describe the structure of healthcare systems, AI, and machine learning, including Overview of Health Care Systems and Key Challenges They Face, Hospitals, Other Provider Organizations, and Related Payment Systems, AI and incentives in health care delivery and payment structures, More examples of AI and incentives in health care delivery and payment structures.",
+      "source_topic_indices": [
+        1,
+        4,
+        7
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO2",
+      "original_description": "The major challenges and the issues in efforts to improve healthcare delivery and system.",
+      "enriched_description": "The major challenges and the issues in efforts to improve healthcare delivery and system, including Intermediary approaches to influencing healthcare utilization and spending, Different intermediaries offering healthcare coverage, Healthcare product regulatiun: overview.",
+      "source_topic_indices": [
+        3,
+        4,
+        5
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO3",
+      "original_description": "How to apply a framework for medical data mining, makes good research questions, and construct a data mining workflow.",
+      "enriched_description": "How to apply a framework for medical data mining, makes good research questions, and construct a data mining workflow, including Asking and answering questions via clinical data mining, Data change over time, Creating analysis ready datasets from patient timelines, Handling unstructured healthcare data: text, images, signals, The Belmont Report: A Framework for Research Ethics.",
+      "source_topic_indices": [
+        0,
+        3,
+        5,
+        7,
+        11
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO4",
+      "original_description": "Define important relationships between the fields of machine learning, biostatistics, and computer programming.",
+      "enriched_description": "Define important relationships between the fields of machine learning, biostatistics, and computer programming, including The magic of machine learning and the different approaches, Machine Learning Terms, Definitions, and Jargon, Supervised Machine Learning, Deep learning and neural networks, Important concepts in deep learning, Evaluation and Metrics for machine learning in healthcare.",
+      "source_topic_indices": [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO5",
+      "original_description": "The machine learning models in dynamic medical practices and discontinuous timelines impact clinical machine learning applications.",
+      "enriched_description": "The machine learning models in dynamic medical practices and discontinuous timelines impact clinical machine learning applications, including Strategies and Challenges in Machine Learning in Healthcare, Challenges and strategies for clinical machine learning, Interpretability and performance of machine learning models in healthcare, Medical data for machine learning, Best practices, teams, and launching your machine learning journey, Designing and evaluating clinical machine learning applications.",
+      "source_topic_indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO6",
+      "original_description": "Principles and practical considerations for integrating AI into clinical workflows, improving the quality of healthcare applications.",
+      "enriched_description": "Principles and practical considerations for integrating AI into clinical workflows, improving the quality of healthcare applications, including Al in Healthcare, Current Al Models in Healthcare, Growth of Alin Healthcare, Evaluations of Al in Healthcare, Clinical Utility, Downstream Evaluations of Al in, Fairness, Review the evaluations of AI applications in healthcare.",
+      "source_topic_indices": [
+        0,
+        1,
+        2,
+        5,
+        7
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO7",
+      "original_description": "Learners should be able to understand AI-emerging technologies in the fields of healthcare.",
+      "enriched_description": "Learners should be able to understand AI-emerging technologies in the fields of healthcare, including Overview, Clinical Evaluation Process, Identifying Conflicts of Interest, Mitigating Conflicts of Interest.",
+      "source_topic_indices": [
+        0,
+        2
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO8",
+      "original_description": "The ethical issues for the combination of healthcare system and AI.",
+      "enriched_description": "The ethical issues for the combination of healthcare system and AI, including Ethics in Healthcare System, Overview of AI applications in delivery of health care services and ethical issues, Ethical frameworks for health care and for, AI, The Learning Health System.",
+      "source_topic_indices": [
+        0,
+        2,
+        5,
+        6
+      ],
+      "review_required": false,
+      "review_notes": []
+    }
+  ]
+}

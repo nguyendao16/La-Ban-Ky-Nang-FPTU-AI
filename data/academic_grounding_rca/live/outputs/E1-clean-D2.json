@@ -1,0 +1,63 @@
+{
+  "claims": [
+    {
+      "statement": "MAS291/CLO7 xác nhận nội dung confidence intervals: xây dựng và diễn giải khoảng tin cậy cho tham số tổng thể và cho chênh lệch giữa các tham số tổng thể.",
+      "sources": [
+        {
+          "course_code": "MAS291",
+          "clo": "CLO7",
+          "source_excerpt": "Construct and interpret confidence intervals for population parameters and differences between population parameters"
+        }
+      ]
+    },
+    {
+      "statement": "MAS291/CLO8 xác nhận nội dung hypothesis testing: kiểm định các phát biểu về tham số tổng thể và chênh lệch giữa các tham số tổng thể.",
+      "sources": [
+        {
+          "course_code": "MAS291",
+          "clo": "CLO8",
+          "source_excerpt": "Verify claims about population parameters and differences between population parameters using hypothesis testing"
+        }
+      ]
+    },
+    {
+      "statement": "MAS291/CLO9 xác nhận simple linear regression: xây dựng mô hình hồi quy tuyến tính đơn và dùng cho prediction và interpretation.",
+      "sources": [
+        {
+          "course_code": "MAS291",
+          "clo": "CLO9",
+          "source_excerpt": "Construct a simple linear regression model and use it for prediction and interpretation"
+        }
+      ]
+    },
+    {
+      "statement": "MAI391/CLO6 xác nhận PCA: áp dụng dimensionality reduction với PCA.",
+      "sources": [
+        {
+          "course_code": "MAI391",
+          "clo": "CLO6",
+          "source_excerpt": "Apply dimensionality reduction with PCA"
+        }
+      ]
+    }
+  ],
+  "reply": "Tóm tắt ngắn gọn phần mình đã trao đổi:\n\n- **Confidence intervals**: có trong **MAS291/CLO7** — *Construct and interpret confidence intervals for population parameters and differences between population parameters*; **score 9.43, achievement excellent**.\n- **Hypothesis testing**: có trong **MAS291/CLO8** — *Verify claims about population parameters and differences between population parameters using hypothesis testing*; **score 9.43, achievement excellent**.\n- **Simple linear regression**: có trong **MAS291/CLO9** — *Construct a simple linear regression model and use it for prediction and interpretation*; **score 9.43, achievement excellent**.\n- **PCA**: có trong **MAI391/CLO6** — *Apply dimensionality reduction with PCA*; **score 9.4, achievement excellent**.\n\nNếu gói lại theo chủ đề, thì hồ sơ học thuật đã xác nhận rõ 2 mảng thống kê suy luận (**confidence intervals**, **hypothesis testing**) từ MAS291, và 2 mảng mô hình hóa/giảm chiều (**simple linear regression**, **PCA**) từ MAS291 và MAI391.",
+  "evidence": [
+    {
+      "course_code": "MAS291",
+      "clo": "CLO7"
+    },
+    {
+      "course_code": "MAS291",
+      "clo": "CLO8"
+    },
+    {
+      "course_code": "MAS291",
+      "clo": "CLO9"
+    },
+    {
+      "course_code": "MAI391",
+      "clo": "CLO6"
+    }
+  ]
+}

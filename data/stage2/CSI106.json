@@ -1,0 +1,331 @@
+{
+  "metadata": {
+    "syllabus_name": "Introduction to Computer Science_Nhập môn khoa học máy tính",
+    "course_name_english": "Introduction to Computer Science",
+    "subject_code": "CSI106",
+    "description": "This course provides an overview of computer fundamentals. Topics cover all areas of computer science in breadth such as computer organization, network, operating system, data structure , file structure, social and ethical issues.\nMajor Instructional Areas\n- Introduction to Von Neumann Model and computer components\n- Numbering system & data representation\n- Different data types and operations on data\n- The concepts of computer networking and internet\n- Operating system\n- Introduction to basic algorithms and algorithms representation\n- Introduction to Data structure and File structure\n- The concepts of database\n- Software engineering\n- Computing Security & Ethics\n- Introduction to Artificial Intelligence (Additional Learning)",
+    "tools": ""
+  },
+  "clos": [
+    {
+      "clo_name": "CLO1",
+      "clo_details": "Understand the subsystems of a computer and describe the role of these components"
+    },
+    {
+      "clo_name": "CLO2",
+      "clo_details": "Know how to convert a number from one base to other base( decimal, binary, octal and hexadecimal)"
+    },
+    {
+      "clo_name": "CLO3",
+      "clo_details": "Describe how different data type is stored inside a computer as bit patterns and operations on data"
+    },
+    {
+      "clo_name": "CLO4",
+      "clo_details": "Describe the layers in netwoking and their relationship"
+    },
+    {
+      "clo_name": "CLO5",
+      "clo_details": "Undestand the role of OS in a computer system"
+    },
+    {
+      "clo_name": "CLO6",
+      "clo_details": "Define a algorithm and describe tools used to develop algorithms"
+    },
+    {
+      "clo_name": "CLO7",
+      "clo_details": "Explain how a program in a high-level language is translated into machine language"
+    },
+    {
+      "clo_name": "CLO8",
+      "clo_details": "Describe the software lifecycle"
+    },
+    {
+      "clo_name": "CLO9",
+      "clo_details": "Discuss some data structures: Array, Records, Linked list"
+    },
+    {
+      "clo_name": "CLO10",
+      "clo_details": "Distinguish between text file and binary file and access methods"
+    },
+    {
+      "clo_name": "CLO11",
+      "clo_details": "Describe and explain operations within a relational database"
+    },
+    {
+      "clo_name": "CLO12",
+      "clo_details": "Descibe security goals and discuss ethical issues"
+    },
+    {
+      "clo_name": "CLO13",
+      "clo_details": "Describe artificial intelligence and its basic concepts"
+    }
+  ],
+  "schedule": [
+    {
+      "topic": "Introduction to the Course\n1.Computer Organization\n1.1 Von Neumann model",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "1.2 Computer generations",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "1.3 Subsystems and the role of subsystems",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "1.4 Central Processing Unit",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "1.5 Memory: main memory",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "1.6 Input/Output subsystems",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "1.7 Different architectures",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "2. Numbering systems\n2.1 Introduction\n2.2 Positional Number Systems",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "2. Numbering systems\n2.3 Conversion",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "Lab 1: Guide",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "Lab 1: Guide",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "Introduction to presentation 1",
+      "lo": "One or many of CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8, CLO9, CLO10"
+    },
+    {
+      "topic": "3.Data storage and Operations on Data\n3.1 Storing Numbers",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "3.Data storage and Operations on Data\n3.2 Storing Text, Media, Image, Video",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "3.3 Logic operations",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "3.3 Shift, Arithmetic operations",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "4. Computer Networks and Internet\n4.1 Overview\n4.1.1 LAN & WAN\n4.1.2 TCP/IP protocol",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "4. Computer Networks and Internet\n4.2 layers in netwoking",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "Progress test 1",
+      "lo": "CLO1, CLO2, CLO3, CLO4, CLO5"
+    },
+    {
+      "topic": "5. Operating System\n5.1 Introduction\n5.2 Evolution",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "5. Operating System\n5.3 Components of OS: UI, memory manager",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "5. Operating System\n5.3 Components of OS: file manager",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "5. Operating System\n5.3 Components of OS: device manager",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "6. Algorithms\n6.1 Concepts: input, output, processing\n6.2 Three basic constructs",
+      "lo": "CLO6"
+    },
+    {
+      "topic": "6. Algorithms\n6.1 Concepts: input, output, processing\n6.2 Three basic constructs",
+      "lo": "CLO6"
+    },
+    {
+      "topic": "6.3 Algorithm representation\n6.4 Search Algorithms: linear, binary",
+      "lo": "CLO6"
+    },
+    {
+      "topic": "6.3 Algorithm representation\n6.4 Search Algorithms: linear, binary",
+      "lo": "CLO6"
+    },
+    {
+      "topic": "Presentations 1",
+      "lo": "Presentation1. One or many of CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8, CLO9, CLO10"
+    },
+    {
+      "topic": "Presentations 1",
+      "lo": "Presentation1. One or many of CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8, CLO9, CLO10"
+    },
+    {
+      "topic": "Introduction to Additional Learning: \"AI For Everyone\" course in Coursera\nIntroduction to presentation 2\n(Students have to complete Additional Learning and achieve the certificate before Presentation 2)",
+      "lo": "CLO13"
+    },
+    {
+      "topic": "7. Programming\n7.1 translation",
+      "lo": "CLO7"
+    },
+    {
+      "topic": "7. Programming\n7.2 programming paradigms",
+      "lo": "CLO7"
+    },
+    {
+      "topic": "Lab2: Guide",
+      "lo": "One or many of CLO6, CLO7"
+    },
+    {
+      "topic": "Lab2: Guide",
+      "lo": "One or many of CLO6, CLO7"
+    },
+    {
+      "topic": "8.Software engineering\n8.1 The software lifecycle\n8.2 Analysis phase",
+      "lo": "CLO8"
+    },
+    {
+      "topic": "8.Software engineering\n8.1 The software lifecycle\n8.2 Analysis phase\n8.3 Design phase",
+      "lo": "CLO8"
+    },
+    {
+      "topic": "8.4 Implementation phase",
+      "lo": "CLO8"
+    },
+    {
+      "topic": "8.5 Testing phase",
+      "lo": "CLO8"
+    },
+    {
+      "topic": "9. Data structures\n9.1 Arrays\n9.2 Records",
+      "lo": "CLO9"
+    },
+    {
+      "topic": "9. Data structures\n9.3 Linked List",
+      "lo": "CLO9"
+    },
+    {
+      "topic": "9.4 Introduction: Stack, Queue, Tree, graph",
+      "lo": "CLO9"
+    },
+    {
+      "topic": "Progress test 2",
+      "lo": "CLO5, CLO6, CLO7, CLO8, CLO9"
+    },
+    {
+      "topic": "10.File structure\n10.1 Text versus Binary",
+      "lo": "CLO10"
+    },
+    {
+      "topic": "10.File structure\n10.2 Access methods",
+      "lo": "CLO10"
+    },
+    {
+      "topic": "11. Database\n11.1 Introduction",
+      "lo": "CLO11"
+    },
+    {
+      "topic": "11. Database\n11.2 Database architecture",
+      "lo": "CLO11"
+    },
+    {
+      "topic": "11.3 Database model\n11.4 The relationship database model",
+      "lo": "CLO11"
+    },
+    {
+      "topic": "11.5 Database design",
+      "lo": "CLO11"
+    },
+    {
+      "topic": "11.6 Guide do practice set (database)",
+      "lo": "CLO11"
+    },
+    {
+      "topic": "12. Security and Ethical Issues\n12.1 Introduction\n12.2 Confidentiality",
+      "lo": "CLO12"
+    },
+    {
+      "topic": "12. Security and Ethical Issues\n12.3 Ethical Principles",
+      "lo": "CLO12"
+    },
+    {
+      "topic": "12.4 Privacy",
+      "lo": "CLO12"
+    },
+    {
+      "topic": "12.5 Hackers",
+      "lo": "CLO12"
+    },
+    {
+      "topic": "Presentation 2",
+      "lo": "CLO13"
+    },
+    {
+      "topic": "Presentation 2",
+      "lo": "CLO13"
+    },
+    {
+      "topic": "Review Additional Learning (AI For Everyone course)",
+      "lo": "CLO13"
+    },
+    {
+      "topic": "Progress test 3",
+      "lo": "CLO10, CLO11, CLO12, CLO13"
+    },
+    {
+      "topic": "Review",
+      "lo": "All CLOs"
+    },
+    {
+      "topic": "Review",
+      "lo": "All CLOs"
+    },
+    {
+      "topic": "Review",
+      "lo": "All CLOs"
+    }
+  ],
+  "assessments": [
+    {
+      "category": "Group presentation",
+      "part": "2",
+      "weight": "10.0%",
+      "clo": "Presentation1. One or many of CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8, CLO9, CLO10\nPresentation2. CLO13"
+    },
+    {
+      "category": "Lab",
+      "part": "2",
+      "weight": "20.0%",
+      "clo": "Lab1. CLO2\nLab2. One or many of CLO6, CLO7"
+    },
+    {
+      "category": "Progress Test",
+      "part": "3",
+      "weight": "30.0%",
+      "clo": "Test1. CLO1, CLO2, CLO3, CLO4, CLO5\nTest2. CLO6, CLO7, CLO8, CLO9\nTest3. CLO10, CLO11, CLO12, CLO13"
+    },
+    {
+      "category": "Final exam",
+      "part": "1",
+      "weight": "40.0%",
+      "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8, CLO9, CLO10, CLO11, CLO12"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "review_type": "academic_knowledge_review",
+  "overview": "Hồ sơ học thuật của sinh viên thể hiện nền tảng vững chắc về toán học, lập trình (Python), trí tuệ nhân tạo, thị giác máy tính, cơ sở dữ liệu, cấu trúc dữ liệu và giải thuật, cùng các kiến thức cơ bản về tổ chức máy tính, hệ điều hành và một số khía cạnh về hệ thống số và logic số. Các học phần như CPV301 (Computer Vision), MAI391 (Applied Mathematics for AI), PFP191 (Python Programming), CSI106 (Computer Systems), CEA201 (Computer Architecture), và các môn về AI/ML cung cấp nền tảng lý thuyết và thực hành liên quan đến nhiều chủ đề trong robotics hiện đại. Tuy nhiên, hồ sơ chưa cung cấp bằng chứng học thuật trực tiếp về ROS/ROS2, C++, hoặc các học phần chuyên sâu về thiết kế, lắp ráp, hoặc vận hành hệ thống robot vật lý/cyber-physical/mechatronic. Một số yêu cầu về kinh nghiệm thực tế, tài liệu kỹ thuật và triển khai công nghiệp cũng chưa được xác nhận qua CLO.",
+  "requirement_reviews": [
+    {
+      "jd_requirement": "Relevant bachelor's study/degree",
+      "coverage": "covered",
+      "comment": "Hồ sơ học thuật thể hiện sinh viên đã hoàn thành nhiều học phần cốt lõi về khoa học máy tính, trí tuệ nhân tạo, thị giác máy tính, toán ứng dụng, cấu trúc dữ liệu, giải thuật, hệ thống máy tính và lập trình Python, phù hợp với yêu cầu nền tảng đại học liên quan đến robotics hoặc kỹ thuật máy tính.",
+      "evidence": [
+        {
+          "course_code": "CPV301",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO0"
+        },
+        {
+          "course_code": "PFP191",
+          "clo": "CLO1"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Iterative cyber-physical/mechatronic design and prototyping",
+      "coverage": "not_evidenced",
+      "comment": "Hồ sơ học thuật hiện có chưa cung cấp bằng chứng trực tiếp về thiết kế, lắp ráp, thử nghiệm lặp lại các hệ thống cyber-physical hoặc mechatronic, cũng như các dự án thực hành về robot vật lý hoặc hệ thống nhúng.",
+      "evidence": []
+    },
+    {
+      "jd_requirement": "AI-tool familiarity",
+      "coverage": "covered",
+      "comment": "Sinh viên đã học và đạt thành tích tốt trong các học phần về trí tuệ nhân tạo, công cụ AI, và ứng dụng AI thực tiễn. Cụ thể, AIG202c/CLO3 đề cập đến các mô hình và công cụ Generative AI; DAP391m/CLO6 yêu cầu triển khai ứng dụng sử dụng Watson AI APIs; CPV301/CLO8 yêu cầu hiểu và triển khai kỹ thuật phát hiện đối tượng (object detection) – một ứng dụng AI trong thị giác máy tính.",
+      "evidence": [
+        {
+          "course_code": "AIG202c",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO6"
+        },
+        {
+          "course_code": "CPV301",
+          "clo": "CLO8"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Ability to read C++ and Python",
+      "coverage": "related",
+      "comment": "Hồ sơ học thuật cung cấp bằng chứng rõ ràng về khả năng đọc, hiểu và lập trình Python qua PFP191/CLO1–CLO7 (lập trình căn bản, OOP, thao tác file, cấu trúc dữ liệu). Tuy nhiên, chưa có CLO nào đề cập trực tiếp đến C++ hoặc các học phần lập trình với C++.",
+      "evidence": [
+        {
+          "course_code": "PFP191",
+          "clo": "CLO7"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "ROS OR ROS2 experience",
+      "coverage": "not_evidenced",
+      "comment": "Hồ sơ học thuật hiện có chưa cung cấp bằng chứng học thuật trực tiếp về ROS hoặc ROS2, cũng như các học phần liên quan đến middleware hoặc framework dành cho robot.",
+      "evidence": []
+    },
+    {
+      "jd_requirement": "General robotics exposure is welcomed",
+      "coverage": "related",
+      "comment": "Sinh viên đã học các học phần về thị giác máy tính (CPV301), trí tuệ nhân tạo (AIG202c, ITE303c), và các môn về hệ thống máy tính (CSI106, CEA201), cung cấp kiến thức nền tảng về các lĩnh vực liên quan đến robotics hiện đại. Tuy nhiên, chưa có CLO nào đề cập trực tiếp đến robotics tổng quát hoặc các hệ thống robot vật lý.",
+      "evidence": [
+        {
+          "course_code": "CPV301",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "AIG202c",
+          "clo": "CLO1"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Preferred: Advanced degree",
+      "coverage": "not_evidenced",
+      "comment": "Hồ sơ học thuật hiện tại chỉ thể hiện các học phần bậc đại học, chưa có bằng chứng về trình độ sau đại học.",
+      "evidence": []
+    },
+    {
+      "jd_requirement": "Preferred: Industry/internship autonomous-manufacturing experience",
+      "coverage": "not_evidenced",
+      "comment": "Hồ sơ học thuật chưa cung cấp bằng chứng về kinh nghiệm thực tập hoặc làm việc trong môi trường sản xuất tự động hóa công nghiệp.",
+      "evidence": []
+    },
+    {
+      "jd_requirement": "Preferred: Technical documentation",
+      "coverage": "not_evidenced",
+      "comment": "Chưa có CLO nào đề cập trực tiếp đến kỹ năng viết tài liệu kỹ thuật hoặc báo cáo kỹ thuật chuyên sâu.",
+      "evidence": []
+    },
+    {
+      "jd_requirement": "Preferred: Hands-on industrial robots/auxiliary systems",
+      "coverage": "not_evidenced",
+      "comment": "Hồ sơ học thuật chưa cung cấp bằng chứng về thực hành trực tiếp với robot công nghiệp hoặc các hệ thống phụ trợ.",
+      "evidence": []
+    }
+  ],
+  "conclusion": "Tóm lại, hồ sơ học thuật của sinh viên thể hiện nền tảng vững chắc về toán học, lập trình Python, trí tuệ nhân tạo, thị giác máy tính, cấu trúc dữ liệu, giải thuật và các kiến thức cơ bản về hệ thống máy tính, phù hợp với yêu cầu nền tảng đại học liên quan đến robotics. Sinh viên đã đạt thành tích học thuật tốt ở các học phần về AI và công cụ AI, cũng như các kỹ thuật thị giác máy tính hiện đại. Tuy nhiên, hồ sơ chưa cung cấp bằng chứng học thuật trực tiếp về ROS/ROS2, C++, thiết kế/lắp ráp hệ thống cyber-physical hoặc mechatronic, kinh nghiệm thực tế với robot công nghiệp, hoặc kỹ năng viết tài liệu kỹ thuật chuyên sâu. Một số yêu cầu ưu tiên về trình độ sau đại học và kinh nghiệm thực tập công nghiệp cũng chưa được xác nhận qua hồ sơ học thuật hiện tại."
+}

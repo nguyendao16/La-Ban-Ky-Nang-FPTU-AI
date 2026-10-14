@@ -1,0 +1,30 @@
+[
+  {
+    "clo": "CLO1",
+    "description": "Should build, train and apply fully connected deep neural networks, implement efficient neural networks, identify key parameters in a neural network's architecture, and apply deep learning to students' own applications, including Introduction to deep learning, Neural Networks Basics, Shallow neural networks, Deep Neural Networks."
+  },
+  {
+    "clo": "CLO2",
+    "description": "Could train and develop test sets, analyze bias/variance for building deep learning applications, apply optimization algorithms, and implement a neural network using TensorFlow, including Practical aspects of Deep Learning, Optimization algorithms."
+  },
+  {
+    "clo": "CLO3",
+    "description": "Understand complex ML settings, diagnose errors in a machine learning system, prioritize strategies for reducing errors, and apply end-to-end learning, transfer learning, and multi-task learning, including ML Strategy."
+  },
+  {
+    "clo": "CLO4",
+    "description": "Build CNN models for visual detection and recognition tasks and use neural style transfer to generate art from various types of data, including Foundations of CNNs, Deep convolutional models: case studies, Object detection, Special applications: Face recognition, Neural style transfer."
+  },
+  {
+    "clo": "CLO5",
+    "description": "Could build and train recurrent neural networks (RNNs), work with NLP and word embeddings, use HuggingFace tokenizers, and transformer models to solve different NLP tasks, including Recurrent Neural Networks, Natural Language Processing, Word Embeddings, Sequence models, Attention mechanism, Transformer Network."
+  },
+  {
+    "clo": "CLO6",
+    "description": "Implement a deep learning project that includes topic selection, proposal development, data collection, model development, model evaluation, results discussion, final reporting, and project defense."
+  },
+  {
+    "clo": "CLO7",
+    "description": "Understand how to apply AI tools to complete a mini project using deep learning foundations, neural networks, practical deep learning, optimization, hyperparameter tuning, batch normalization, NLP and word embeddings, sequence models, attention mechanisms, and transformer networks within a guided project workflow."
+  }
+]

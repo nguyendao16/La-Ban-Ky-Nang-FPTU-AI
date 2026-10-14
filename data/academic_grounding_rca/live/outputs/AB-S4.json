@@ -1,0 +1,69 @@
+{
+  "selections": [
+    {
+      "claim_id": "S4-SQL",
+      "claim": "DBI202 có SQL queries trên Microsoft SQL Server",
+      "relation": "direct",
+      "source_matches": [
+        {
+          "course_code": "DBI202",
+          "clo": "CLO5",
+          "source_excerpt": "Be proficient in SQL, including Data Definition Language (DDL) for defining database structures and implementing constraints such as primary and foreign keys, UNIQUE, and CHECK constraints using Microsoft SQL Server. Use Data Manipulation Language (DML) to perform basic queries, multi-relation queries, nested queries, aggregation queries, and database modifications using INSERT, UPDATE, and DELETE statements."
+        }
+      ]
+    },
+    {
+      "claim_id": "S4-TSQL",
+      "claim": "DBI202 có T-SQL programming",
+      "relation": "direct",
+      "source_matches": [
+        {
+          "course_code": "DBI202",
+          "clo": "CLO6",
+          "source_excerpt": "Understand T-SQL database programming concepts in Microsoft SQL Server and work with database views, cursors, stored procedures, functions, and triggers, including the use of triggers to enforce database constraints. Understand transaction concepts in database applications."
+        }
+      ]
+    },
+    {
+      "claim_id": "S4-ADY",
+      "claim": "ADY201m có SQL/database access trong guided project",
+      "relation": "direct",
+      "source_matches": [
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO7",
+          "source_excerpt": "Implement a small data science project by applying Python fundamentals, Python data structures, SQL/database access, data understanding, preprocessing, modeling, evaluation, deployment, visualization, probability, regression analysis, and final reporting within a guided project workflow."
+        }
+      ]
+    },
+    {
+      "claim_id": "S4-DAP",
+      "claim": "DAP391m/CLO7 nêu SQL/database access",
+      "relation": "insufficient",
+      "source_matches": [
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO7",
+          "source_excerpt": "Implement the small mini capstone data science project includes steps: involving data collection, data wrangling, exploratory data analysis, data visualization, model development, model evaluation, and reporting, including Applied Data Science Capstone: Interactive Visual Analytics, Dashboard , Applied Data Science Capstone: Interactive Visual Analytics, Dashboard , Applied Data Science Capstone: Predictive Analysis (Classification) , Applied Data Science Capstone: Predictive Analysis (Classification), Evaluate final project."
+        }
+      ]
+    },
+    {
+      "claim_id": "S4-BANDS",
+      "claim": "DBI202/CLO5 và CLO6 có achievement basic",
+      "relation": "insufficient",
+      "source_matches": [
+        {
+          "course_code": "DBI202",
+          "clo": "CLO5",
+          "source_excerpt": "Be proficient in SQL, including Data Definition Language (DDL) for defining database structures and implementing constraints such as primary and foreign keys, UNIQUE, and CHECK constraints using Microsoft SQL Server. Use Data Manipulation Language (DML) to perform basic queries, multi-relation queries, nested queries, aggregation queries, and database modifications using INSERT, UPDATE, and DELETE statements."
+        },
+        {
+          "course_code": "DBI202",
+          "clo": "CLO6",
+          "source_excerpt": "Understand T-SQL database programming concepts in Microsoft SQL Server and work with database views, cursors, stored procedures, functions, and triggers, including the use of triggers to enforce database constraints. Understand transaction concepts in database applications."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "combo_code": "AI17_COM1",
+    "combo_name": "Topic on Applied Data Science_Chủ đề Khoa học dữ liệu ứng dụng BIT_AI_K17C(FNO)",
+    "subject_count": 4,
+    "slots": [
+      "AI17_COM*1",
+      "AI17_COM*2",
+      "AI17_COM*3",
+      "AI17_COM*4"
+    ],
+    "actual_subject_codes": [
+      "BDI302c",
+      "DSR301m",
+      "DBM302m",
+      "DSP391m"
+    ],
+    "file": "flm_output/combos/AI17_COM1.json"
+  },
+  {
+    "combo_code": "AI17_COM2.1",
+    "combo_name": "Topic on AI Applied research_Chủ đề Định hướng nghiên cứu ứng dụng TTNT",
+    "subject_count": 4,
+    "slots": [
+      "AI17_COM*1",
+      "AI17_COM*2",
+      "AI17_COM*3",
+      "AI17_COM*4"
+    ],
+    "actual_subject_codes": [
+      "SEG301",
+      "TMG301",
+      "SLP301",
+      "IMP302"
+    ],
+    "file": "flm_output/combos/AI17_COM2.1.json"
+  },
+  {
+    "combo_code": "AI17_COM3",
+    "combo_name": "Topic on AI application_Chủ đề Ứng dụng TTNT BIT_AI_K17C(FNO)",
+    "subject_count": 4,
+    "slots": [
+      "AI17_COM*1",
+      "AI17_COM*2",
+      "AI17_COM*3",
+      "AI17_COM*4"
+    ],
+    "actual_subject_codes": [
+      "AIH301m",
+      "ASR301c",
+      "AIM301m",
+      "AIE301m"
+    ],
+    "file": "flm_output/combos/AI17_COM3.json"
+  },
+  {
+    "combo_code": "AI17_COM4",
+    "combo_name": "Topic on Generative AI_Chủ đề TTNT tạo sinh",
+    "subject_count": 4,
+    "slots": [
+      "AI17_COM*1",
+      "AI17_COM*2",
+      "AI17_COM*3",
+      "AI17_COM*4"
+    ],
+    "actual_subject_codes": [
+      "GAI201m",
+      "AGA301c",
+      "MGA301",
+      "GAP301"
+    ],
+    "file": "flm_output/combos/AI17_COM4.json"
+  },
+  {
+    "combo_code": "AI17_COM5",
+    "combo_name": "Topic on Machine Learning Operations_Chủ đề Hoạt động học máy",
+    "subject_count": 4,
+    "slots": [
+      "AI17_COM*1",
+      "AI17_COM*2",
+      "AI17_COM*3",
+      "AI17_COM*4"
+    ],
+    "actual_subject_codes": [
+      "AIS301c",
+      "MOI201m",
+      "CMO301m",
+      "AMO301m"
+    ],
+    "file": "flm_output/combos/AI17_COM5.json"
+  }
+]

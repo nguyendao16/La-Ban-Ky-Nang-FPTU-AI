@@ -1,0 +1,25 @@
+{
+  "checked_at": "2026-10-13T23:50:41.229546+07:00",
+  "plan_sha256": "54ea1fe098579d731af9c244b823d68f45454187357d89a3675c49320d5fd2e3",
+  "pytest": {
+    "command": ".venv/bin/python -m pytest -q --tb=short",
+    "passed": 327,
+    "new_rca_tests": 27,
+    "duration_seconds": 31.46
+  },
+  "pip_check": {
+    "command": ".venv/bin/python -m pip check",
+    "result": "No broken requirements found."
+  },
+  "plan_check": "passed",
+  "frozen_conditions": 32,
+  "frozen_asked_atomic_units": 132,
+  "source_fingerprints": 43,
+  "protected_files_unchanged": 976,
+  "profile_courses": 15,
+  "profile_clos": 122,
+  "paid_generation_http_attempts": 0,
+  "paid_preflight_http_attempts": 0,
+  "offline_api_client_constructed": false,
+  "live_authorization": "pending_explicit_user_approval"
+}

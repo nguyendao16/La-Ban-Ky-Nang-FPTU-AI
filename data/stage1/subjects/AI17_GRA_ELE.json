@@ -1,0 +1,52 @@
+{
+  "schema_version": "stage1_v1",
+  "record_type": "normal_subject",
+  "subject": {
+    "code": "AI17_GRA_ELE",
+    "name": {
+      "full": "Học phần lựa chọn Đồ án tốt nghiệp chuyên ngành Trí Tuệ Nhân Tạo",
+      "en": "Học phần lựa chọn Đồ án tốt nghiệp chuyên ngành Trí Tuệ Nhân Tạo",
+      "vi": null
+    },
+    "semester": 9,
+    "credits": 10,
+    "prerequisite": ""
+  },
+  "syllabus": {
+    "id": null,
+    "name": null,
+    "is_active": null,
+    "is_approved": null,
+    "decision_no": null
+  },
+  "content": {
+    "metadata": {},
+    "materials": [],
+    "clos": [],
+    "schedule": [],
+    "assessments": []
+  },
+  "source": {
+    "raw_file": "flm_output/subjects/AI17_GRA_ELE.json",
+    "curriculum_url": "https://flm.fpt.edu.vn/gui/role/student/CurriculumDetails?curid=3173",
+    "pre_syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/Syllabuses?subCode=AI17_GRA_ELE&curriculumID=3173",
+    "syllabus_url": null,
+    "details_source_url": null
+  },
+  "crawl": {
+    "error": "No syllabus version found"
+  },
+  "quality": {
+    "has_syllabus": false,
+    "counts": {
+      "materials": 0,
+      "clos": 0,
+      "schedule": 0,
+      "assessments": 0
+    },
+    "warnings": [
+      "missing_syllabus",
+      "crawl_error"
+    ]
+  }
+}

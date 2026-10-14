@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "syllabus_name": "AI in Production_Thiết kế sản phẩm TTNT",
+    "course_name_english": "AI in Production",
+    "subject_code": "AID301c",
+    "description": "This six course specialization is designed to prepare you to take the certification examination for IBM AI Enterprise Workflow V1 Data Science Specialist. IBM AI Enterprise Workflow is a comprehensive, end-to-end process that enables data scientists to build AI solutions, starting with business priorities and working through to taking AI into production. The learning aims to elevate the skills of practicing data scientists by explicitly connecting business priorities to technical implementations, connecting machine learning to specialized AI use cases such as visual recognition and NLP, and connecting Python to IBM Cloud technologies. The videos, readings, and case studies in these courses are designed to guide you through your work as a data scientist at a hypothetical streaming media company. Throughout this specialization, the focus will be on the practice of data science in large, modern enterprises. You will be guided through the use of enterprise-class tools on the IBM Cloud, tools that you will use to create, deploy and test machine learning models. Your favorite open source tools, such as Jupyter notebooks and Python libraries will be used extensively for data preparation and building models. Models will be deployed on the IBM Cloud using IBM Watson tooling that works seamlessly with open source tools.",
+    "tools": ""
+  },
+  "clos": [
+    {
+      "clo_name": "CLO1",
+      "clo_details": "Learners should be able to describe the business use case and the process of ingesting data."
+    },
+    {
+      "clo_name": "CLO2",
+      "clo_details": "Learners should be able to use common techniques such as: EDA, visualization, hypothesis testing and statistical tools."
+    },
+    {
+      "clo_name": "CLO3",
+      "clo_details": "Learners should be able to describe and use common feature selection and feature engineering techniques"
+    },
+    {
+      "clo_name": "CLO4",
+      "clo_details": "Learners should be able to implement the model: machine learning and deep learning algorithms, evaluation and performance metrics."
+    },
+    {
+      "clo_name": "CLO5",
+      "clo_details": "Learners should be able to deploy the model by interacting with Apache Spark then progressing to a tutorial with Docker."
+    }
+  ],
+  "schedule": [
+    {
+      "topic": "Specialization Introduction\nIntroduction to AI Workflow: Business Priorities and Data Ingestion\n- IBM AI Enterprise Workflow Introduction\nOffline 1: Guide learning and review of the specialization",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "Introduction to AI Workflow: Business Priorities and Data Ingestion (cont.)\n- Data Collection\n- Data Ingestion",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "AI Workflow: Data Analysis and Hypothesis Testing\n- Data Analysis",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "AI Workflow: Data Analysis and Hypothesis Testing (cont.)\n- Data Investigation",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "AI Workflow: Feature Engineering and Bias Detection\n- Data transforms and feature engineering",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "AI Workflow: Feature Engineering and Bias Detection (cont.)\n- Pattern recognition and data mining best practices",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "AI Workflow: Machine Learning, Visual Recognition and NLP\n- Model Evaluation and Performance Metrics",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "AI Workflow: Machine Learning, Visual Recognition and NLP (cont.)\n- Building Machine Learning and Deep Learning Models",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "AI Workflow: Enterprise Model Deployment\n- Deploying Models",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "AI Workflow: Enterprise Model Deployment (cont.)\n- Deploying Models using Spark",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "Capstone Project: AI Workflow: AI in Production\n- Feedback loops and Monitoring\n- Hands on with Openscale and Kubernetes\n)",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "Capstone Project: AI Workflow: AI in Production\n- Capstone: Pulling it all together (Part 1\n- Capstone: Pulling it all together (Part 2)",
+      "lo": "CLO5"
+    }
+  ],
+  "assessments": [
+    {
+      "category": "Final exam",
+      "part": "1",
+      "weight": "100.0%",
+      "clo": "CLO1, CLO2, CLO3, CLO4,CLO5"
+    }
+  ]
+}

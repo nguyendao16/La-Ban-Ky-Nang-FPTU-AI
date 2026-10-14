@@ -1,0 +1,62 @@
+[
+  {
+    "category": "Final Project",
+    "part": "1",
+    "weight": "20.0%",
+    "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8, CLO9, CLO10, CLO11, CLO12, CLO13, CLO14, CLO15, CLO16"
+  },
+  {
+    "category": "Lab 1",
+    "part": "1",
+    "weight": "7.5%",
+    "clo": "CLO3, CLO4, CLO5"
+  },
+  {
+    "category": "Lab 2",
+    "part": "2",
+    "weight": "7.5%",
+    "clo": "CLO6, CLO7, CLO8"
+  },
+  {
+    "category": "Lab 3",
+    "part": "3",
+    "weight": "7.5%",
+    "clo": "CLO9, CLO10, CLO11"
+  },
+  {
+    "category": "Lab 4",
+    "part": "4",
+    "weight": "7.5%",
+    "clo": "CLO11, CLO12, CLO13, CLO14"
+  },
+  {
+    "category": "Process Test 1",
+    "part": "1",
+    "weight": "7.5%",
+    "clo": "CLO12, CLO13, CLO14"
+  },
+  {
+    "category": "Process Test 2",
+    "part": "2",
+    "weight": "7.5%",
+    "clo": "CLO9, CLO10, CLO11, CLO13"
+  },
+  {
+    "category": "Progress Test 1",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6"
+  },
+  {
+    "category": "Progress Test 2",
+    "part": "2",
+    "weight": "10.0%",
+    "clo": "CLO6, CLO7, CLO8, CLO9, CLO10, CLO11"
+  },
+  {
+    "category": "Final Examination",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8, CLO9, CLO10, CLO11, CLO12, CLO13, CLO14, CLO15"
+  }
+]

@@ -1,0 +1,730 @@
+{
+  "record_type": "normal_subject",
+  "curriculum": {
+    "subject_code": "MLN122",
+    "subject_name": "Political economics of Marxism – Leninism_Kinh tế chính trị Mác - Lê-nin",
+    "semester": "8",
+    "credits": "2",
+    "prerequisite": "None",
+    "pre_syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/Syllabuses?subCode=MLN122&curriculumID=3173",
+    "curriculum_url": "https://flm.fpt.edu.vn/gui/role/student/CurriculumDetails?curid=3173"
+  },
+  "syllabus_versions": [
+    {
+      "subject_code": "MLN122",
+      "syllabus_name": "Political economics of Marxism – Leninism - Kinh tế chính trị Mác - Lê-nin",
+      "is_active": true,
+      "is_approved": true,
+      "decision_no": "1028/QĐ-ĐHFPT dated 08/21/2026",
+      "syllabus_id": "14465",
+      "syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=14465",
+      "pre_syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/Syllabuses?subCode=MLN122&curriculumID=3173"
+    }
+  ],
+  "selected_syllabus": {
+    "subject_code": "MLN122",
+    "syllabus_name": "Political economics of Marxism – Leninism - Kinh tế chính trị Mác - Lê-nin",
+    "is_active": true,
+    "is_approved": true,
+    "decision_no": "1028/QĐ-ĐHFPT dated 08/21/2026",
+    "syllabus_id": "14465",
+    "syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=14465",
+    "pre_syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/Syllabuses?subCode=MLN122&curriculumID=3173"
+  },
+  "details": {
+    "source_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=14465",
+    "metadata": {
+      "Syllabus ID": "14465",
+      "Syllabus Name": "Political economics of Marxism – Leninism - Kinh tế chính trị Mác - Lê-nin",
+      "Course Name English": "",
+      "Subject Code": "MLN122",
+      "Learning-Teaching Method": "Lecture,Presentation and implementation guidelines for a creative product",
+      "NoCredit": "2",
+      "Degree Level": "Bachelor",
+      "Time Allocation": "Thời gian học (103h) = 22.5 giờ học trên lớp (30 tiết) + 1 giờ thi cuối kỳ + 76.5 giờ tự học + 3 giờ học trên Coursera\nStudy hour (103h) = 22.5 contact hours (30 sessions) + 1 hour final exam + 76.5 hours self-study + 3 hours on Coursera",
+      "Pre-Requisite": "None",
+      "Description": "Giới thiệu môn học: Kinh tế chính trị Mác - Lênin hay kinh tế chính trị học Mác - Lênin là một lý thuyết kinh tế và là môn khoa học về kinh tế chính trị do C. Mác , Ăngghen và sau này là Lênin phát triển trong giai đoạn mới, có đối tượng nghiên cứu là phương thức sản xuất tư bản chủ nghĩa và những quan hệ sản xuất và trao đổi thích ứng với phương thức sản xuất tư bản chủ nghĩa. Qua đó vạch rõ bản chất, hiện tượng của các quá trình kinh tế để có cơ sở giải quyết các mối quan hệ liên quan đến học thuyết của chủ nghĩa Mác - Lênin. Cốt lõi của kinh tế chính trị Mác - Lênin là học thuyết giá trị thặng dư của Các Mác.\nCourse introduction: Political economics of Marxism – Leninism is an economic theory and scientific discipline on political economy developed by C. Marx, Engels and later Lenin in a new period, focusing on the capitalist mode of production and the production and economic exchange relations consistent with the capitalist mode of production, thereby clarifying the nature and phenomena of economic processes, laying a foundation to solve matters related to theories of Marxism - Leninism. The core of the Marxist-Leninist political economy is the surplus value theory of Marx.\nMục tiêu môn học:\n+ Trang bị cho sinh viên những tri thức cơ bản, cốt lõi của Kinh tế chính trị Mác - Lênin trong bối cảnh phát triển kinh tế của đất nước và thế giới ngày nay. Đảm bảo tính cơ bản, hệ thống, khoa học, cập nhật tri thức mới, gắn với thực tiễn, tính sáng tạo, kỹ năng, tư duy, phẩm chất người học, tính liên thông, khắc phục trùng lặp, tăng cường tích hợp và giảm tải, lược bớt những nội dung không còn phù hợp hoặc những nội dung mang tính kinh viện đối với sinh viên các trường Cao đẳng, Đại học không chuyên lý luận.\n+ Trên cơ sở đó hình thành tư duy, kỹ năng phân tích, đánh giá và nhận diện bản chất của các quan hệ lợi ích kinh tế trong phát triển kinh tế - xã hội của đất nước và góp phần giúp sinh viên xây dựng trách nhiệm xã hội phù hợp trong vị trí việc làm và cuộc sống sau khi ra trường.\n+ Góp phần xây dựng lập trường, ý thức hệ tư tưởng Mác - Lênin đối với sinh viên\n+ Hình thành tư duy phản biện, năng lực lý luận và ứng dụng thực tiễn các lý luận vào bối cảnh công nghiệp hóa, hiện đại hóa của đất nước hiện nay, đặc biệt là phát triển khoa học công nghệ, phát triển kinh tế tư nhân trong nền kinh tế thị trường định hướng xã hội chủ nghĩa. Nhấn mạnh vai trò công dân và tinh thần trách nhiệm xã hội.\nCourse objectives:\n+ Provide core knowledge of Marxist–Leninist Political Economy, ensuring fundamental, systematic, and scientific foundations, connected with practical realities and updated knowledge.\n+ Develop analytical and evaluative thinking, identifying the essence of economic interest relations in socio-economic development, linked with social responsibility and future career positions.\n+ Strengthen the standpoint and ideological consciousness of Marxism–Leninism among students.\n+ Foster critical thinking, reasoning competence, and practical application, particularly in the context of industrialization, modernization, scientific and technological advancement, and the development of the private sector within the socialist-oriented market economy. Emphasize civic roles and social responsibility.\nNội dung môn học: Kinh tế chính trị Mác-Lênin tập trung nghiên cứu các quan hệ kinh tế trong lòng xã hội tư bản và nghiên cứu sâu về các quy luật của nền sản xuất này, cụ thể là:\n+ Đề cập về hàng hóa, sản xuất hàng hóa và các quy luật kinh tế của sản xuất hàng hóa (trong chủ nghĩa Tư bản)\n+ Tập trung mổ xẻ quy luật kinh tế cơ bản của chủ nghĩa tư bản mà cốt lõi là việc sản xuất giá trị thặng dư\n+ Phân tích sự vận động của tư bản cá biệt và tái sản xuất tư bản xã hội\n+ Xem xét các hình thái tư bản và các hình thức biểu hiện của giá trị thặng dư\n+ Nghiên cứu về chủ nghĩa tư bản độc quyền và chủ nghĩa tư bản độc quyền nhà nước\n+ Nghiên cứu về kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam\n+ Phân tích quá trình công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế của Việt Nam trong bối cảnh thời đại\nPhương pháp dạy học: Thuyết giảng và kết hợp trình chiếu các slide bài giảng, ứng dụng AI hỗ trợ quá trình học. Hướng dẫn, giao bài tập đề tài theo nhóm. Tổ chức và hướng dẫn sinh viên thảo luận nhóm, thuyết trình và thực hiện sản phẩm sáng tạo\nContent of the course: Political economics of Marxism – Leninism focuses on investigating economic relations in capitalist society and in-depth studies on laws of this economy, namely:\n+ Mention about commodities, commodity production and economic laws of commodity production (in capitalist social system)\n+ Cncentrate on analyzing basic economic laws of capitalism wth thmain focus is surplus value production\n+ Analysis of the movement of spcific capitalist social system and social capital reproduction\n+ Consider forms of capitalism and forms of surplus value\n+ Study monopoly capitalism and State monopoly capitalism\n+ Research on the socialist-oriented market economy in Vietnam\n+ Analysis of Vietnam’s process of industrialization, modernization, and international economic integration in the context of the contemporary era\nTeaching methods: Lecturing combined with slide presentations, and applying AI to support the learning process. Providing instructions and assigning group projects. Organizing and guiding students in group discussions, presentations, and the creation of creative products.",
+      "StudentTasks": "Sinh viên phải tham gia tối thiểu 80% thời gian môn học.\nPhải có giáo trình Kinh tế chính trị Mác - Lênin, dành cho sinh viên bậc đại học hệ không chuyên lý luận chính trị của Bộ Giáo dục và Đào tạo.\nChỉ sử dụng máy tính xách tay trong lớp cho mục đích học tập.\nThực hiện đầy đủ các yêu cầu của giảng viên khi học trên lớp cũng như các chủ đề sinh viên tự chuẩn bị trước khi đến lớp.\nỨng dụng AI một cách có trách nhiệm, đạo đức trong quá trình học và thực tiễn\nAttend at least 80% of class hours. Own textbook of Political economics of Marxism–Leninism for non-politics majored students as promulgated by the Ministry of Education and Training. Use their own laptop in class only for learning purposes. Fulfill tasks given by the instructor in class as well as topics needed to prepare in advance. AI must be applied responsibly and ethically in both learning and practice.",
+      "Tools": "Internet, pdf reader, AI",
+      "Scoring Scale": "10",
+      "DecisionNo MM/dd/yyyy": "1028/QĐ-ĐHFPT dated 08/21/2026",
+      "IsApproved": "True",
+      "Note": "1) Progress test + Assignment: 70%\n- Participation: 10%\n- 01 Progress tests: 20%\n- Assignment: 40 %\n2) Final Exam: 30%\n3) Final result: 100%\n4) Completion Criteria:\nFinal Result >=5 & Final Exam Score >=4\n5) Students need to have a Coursera course completion certificate to be eligible for the final exam",
+      "Is Scored": "True",
+      "MinAvgMarkToPass": "5",
+      "IsActive": "True",
+      "ApprovedDate": "8/21/2026"
+    },
+    "materials": [
+      {
+        "No.": "1",
+        "Material Description": "C. Mác và Ph. Ăngghen: Toàn tập, t4,8,12,13, 18 ,20, 23, 25, 46\nMarx/Engels Collected Works, Vol. 4, 8, 12,13, 18 ,20, 23, 25, 46",
+        "Author": "C. Mác và Ph. Ăngghen",
+        "Publisher": "Nhà xuất bản Chính trị quốc giaNational Political Publishing House",
+        "Published Date": "2002",
+        "Edition": "1",
+        "ISBN": "",
+        "Is Main Material": "False",
+        "Is Hard Copy": "True",
+        "Is Online": "False",
+        "Note": ""
+      },
+      {
+        "No.": "2",
+        "Material Description": "Giáo trình Kinh tế chính trị Mác - Leenin, dùng cho sinh viên đại học hệ chuyên lý luận chính trị\nPolitical economics of Marxism – Leninism textbook for politics majored students",
+        "Author": "Bộ Giáo dục và Đào tạoMinistry of Education and Training",
+        "Publisher": "Nhà xuất bản Chính trị quốc gia sự thậtTruth National Political Publishing House",
+        "Published Date": "2021",
+        "Edition": "1",
+        "ISBN": "",
+        "Is Main Material": "False",
+        "Is Hard Copy": "True",
+        "Is Online": "False",
+        "Note": ""
+      },
+      {
+        "No.": "3",
+        "Material Description": "Giáo trình Kinh tế chính trị Mác-Lênin, dùng cho sinh viên đại học hệ không chuyên lý luận chính trị - Bản dự thảo\nPolitical economics of Marxism – Leninism textbook for non-politics majored students - Draft",
+        "Author": "Bộ Giáo dục và Đào tạoMinistry of Education and Training",
+        "Publisher": "Nhà xuất bản Chính trị quốc gia sự thậtTruth National Political Publishing House",
+        "Published Date": "2019",
+        "Edition": "",
+        "ISBN": "",
+        "Is Main Material": "False",
+        "Is Hard Copy": "False",
+        "Is Online": "True",
+        "Note": "https://moet.gov.vn/van-ban/vbdh/Pages/chi-tiet-van-ban.aspx?ItemID=2729#divShowDialogDownload"
+      },
+      {
+        "No.": "4",
+        "Material Description": "Giáo trình Kinh tế chính trị Mác-Lênin, dùng cho sinh viên đại học hệ không chuyên lý luận chính trị\nPolitical economics of Marxism – Leninism textbook for non-politics majored students",
+        "Author": "Bộ Giáo dục và Đào tạoMinistry of Education and Training",
+        "Publisher": "Nhà xuất bản Chính trị quốc gia sự thậtTruth National Political Publishing House",
+        "Published Date": "2021",
+        "Edition": "1",
+        "ISBN": "",
+        "Is Main Material": "True",
+        "Is Hard Copy": "True",
+        "Is Online": "False",
+        "Note": ""
+      },
+      {
+        "No.": "5",
+        "Material Description": "V.I. Lênnin: Toàn tập, t3, 27, 45\nV. I. Lenin, Collected Works, Vol. 3, 27, 45",
+        "Author": "V.I. Lênnin",
+        "Publisher": "Nhà xuất bản Chính trị quốc giaNational Political Publishing House",
+        "Published Date": "2005",
+        "Edition": "",
+        "ISBN": "",
+        "Is Main Material": "False",
+        "Is Hard Copy": "True",
+        "Is Online": "False",
+        "Note": ""
+      },
+      {
+        "No.": "6",
+        "Material Description": "Văn kiện Đại hội Đảng toàn quốc lần thứ VI, VII, VIII, IX, X, XI, XII, XIII\nPolitical report of the 6th, 7th, 8th, 9th, 10th, 11th, 12th, 13th Party Congress",
+        "Author": "Đảng Cộng sản Việt Nam\nThe Communist Party of Vietnam",
+        "Publisher": "Nhà xuất bản Chính trị quốc gia\nNational Political Publishing House",
+        "Published Date": "",
+        "Edition": "1",
+        "ISBN": "",
+        "Is Main Material": "False",
+        "Is Hard Copy": "False",
+        "Is Online": "True",
+        "Note": ""
+      },
+      {
+        "No.": "7",
+        "Material Description": "Nghị quyết số 57-NQ/TW, ngày 22/12/2024 của Bộ Chính trị về đột phá phát triển khoa học, công nghệ, đổi mới sáng tạo và chuyển đổi số quốc gia",
+        "Author": "Bộ Chính trị - Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam\nThe Politburo – The Central Committee of the Communist Party of Vietnam",
+        "Publisher": "Bộ Chính trị - Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam\nThe Politburo – The Central Committee of the Communist Party of Vietnam",
+        "Published Date": "2024",
+        "Edition": "1",
+        "ISBN": "",
+        "Is Main Material": "False",
+        "Is Hard Copy": "False",
+        "Is Online": "True",
+        "Note": "https://tulieuvankien.dangcongsan.vn/Uploads/2025/1/7/2/NQ-57-TW-BCT.pdf"
+      },
+      {
+        "No.": "8",
+        "Material Description": "Nghị quyết số 68-NQ/TW ngày 4/5/2025 của Bộ Chính trị về phát triển kinh tế tư nhân",
+        "Author": "Bộ Chính trị - Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam\nThe Politburo – The Central Committee of the Communist Party of Vietnam",
+        "Publisher": "Bộ Chính trị - Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam\nThe Politburo – The Central Committee of the Communist Party of Vietnam",
+        "Published Date": "2025",
+        "Edition": "1",
+        "ISBN": "",
+        "Is Main Material": "False",
+        "Is Hard Copy": "False",
+        "Is Online": "True",
+        "Note": "https://tulieuvankien.dangcongsan.vn/Uploads/2025/5/7/5/NQ-68-TW.pdf"
+      },
+      {
+        "No.": "9",
+        "Material Description": "Khóa học Coursera: Kinh tế chính trị Marx Lênin",
+        "Author": "Trường Đại Học FPT - FPT University",
+        "Publisher": "Coursera",
+        "Published Date": "",
+        "Edition": "",
+        "ISBN": "",
+        "Is Main Material": "False",
+        "Is Hard Copy": "False",
+        "Is Online": "True",
+        "Note": ""
+      }
+    ],
+    "clos": [
+      {
+        "No.": "1",
+        "CLO Name": "CLO1",
+        "CLO Details": "Nắm được lược sử hình thành, đối tượng, phương pháp và các chức năng cơ bản của kinh tế chính trị Mác – Lênin\nUnderstand history, objects, research methods and fundamental functions of Marxist-Leninist political economy"
+      },
+      {
+        "No.": "2",
+        "CLO Name": "CLO2",
+        "CLO Details": "Hiểu và phân tích được các quan điểm của chủ nghĩa Mác – Lênin về hàng hóa, tiền tệ, thị trường, các quy luật kinh tế chủ yếu của sản xuất hàng hóa; giá trị thặng dư trong nền kinh tế thị trường\nUnderstand and analyze the Marxist-Leninist views on commodities, currency, market, the main economic laws of commodity production; surplus-value in the market economy"
+      },
+      {
+        "No.": "3",
+        "CLO Name": "CLO3",
+        "CLO Details": "Hiểu được cạnh tranh và độc quyền trong nền kinh tế thị trường, cũng như những biểu hiện mới của độc quyền, độc quyền nhà nước trong điều kiện ngày nay; vai trò lịch sử của chủ nghĩa tư bản\nUnderstand competition and monopoly in the market economy, new manifestations of monopoly and state monopoly in current condition, historical significance of capitalism"
+      },
+      {
+        "No.": "4",
+        "CLO Name": "CLO4",
+        "CLO Details": "Hiểu đúng được bản chất kinh tế thị trường định hướng XHCN và các quan hệ lợi ích kinh tế ở Việt Nam cũng như một số vấn đề kinh tế cơ bản của kinh tế thị trường định hướng XHCN ở Việt Nam hiện nay\nUnderstand the nature of socialist-oriented market economy and economic interest relationship in Vietnam, some basic economic issues of the socialist-oriented market economy in Vietnam today"
+      },
+      {
+        "No.": "5",
+        "CLO Name": "CLO5",
+        "CLO Details": "Phân tích, đánh giá được quá trình công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế của Việt Nam\nAnalyze and evaluate Vietnam's process of industrialization, modernization and international economic integration"
+      },
+      {
+        "No.": "6",
+        "CLO Name": "CLO6",
+        "CLO Details": "Xây dựng phẩm chất đạo đức cách mạng và lập trường chính trị vững vàng. Thấy được giá trị khoa học trong các quan điểm kinh tế của chủ nghĩa Mác – Lênin. Cập nhật tri thức mới, gắn với thực tiễn. Góp phần xây dựng lập trường, ý thức hệ tư tưởng của Chủ nghĩa Marx - Lenin.\nTo build revolutionary ethics and a firm political stance. To recognize the scientific value in the economic viewpoints of Marxism–Leninism. To update knowledge in connection with practical realities. To contribute to building the standpoint and ideological consciousness of Marxism–Leninism."
+      },
+      {
+        "No.": "7",
+        "CLO Name": "CLO7",
+        "CLO Details": "Hình thành tư duy, kỹ năng phân tích, đánh giá, nhận diện bản chất của các quan hệ lợi ích kinh tế trong phát triển kinh tế xã hội của đất nước, góp phần xây dựng mục tiêu học tập, trách nhiệm xã hội phù hợp với các vị trí việc làm sau khi ra trường. Hình thành thế giới quan, phương pháp luận thích ứng trước sự biến đổi nhanh chóng của thời đại, khoa học công nghệ.\nTo develop thinking, analytical and evaluative skills, and the ability to identify the essence of economic interest relations in the socio-economic development of the country, thereby contributing to building appropriate learning objectives and social responsibility aligned with future career positions. To foster a worldview and methodology capable of adapting to the rapid transformations of the era and advances in science and technology."
+      },
+      {
+        "No.": "8",
+        "CLO Name": "CLO8",
+        "CLO Details": "Trang bị cho sinh viên những kiến thức cốt lõi của Kinh tế chính trị Marx - Lenin trong bối cảnh phát triển của đất nước và thế giới ngày nay. Củng cố niềm tin của người học vào cuộc sống, các chủ trương, đường lối của Đảng, chính sách và pháp luật của Nhà nước. Hình thành năng lực lý luận và ứng dụng thực tiễn, nhấn mạnh vai trò công dân và tinh thần trách nhiệm xã hội.\nTo equip students with the core knowledge of Marxist–Leninist Political Economy in the context of national and global development today. To strengthen learners’ confidence in life, in the Party’s guidelines, and in the State’s policies and laws. To develop reasoning competence and practical application skills, emphasizing civic roles and social responsibility."
+      },
+      {
+        "No.": "9",
+        "CLO Name": "CLO9",
+        "CLO Details": "Xây dựng kỹ năng lập luận, soạn thảo bài viết, thuyết trình, ứng dụng AI, sáng tạo trong việc thực hiện sản phẩm, tư duy phản biện, xử lý các quan hệ xã hội và hoạt động nhóm. Xây dựng kỹ năng thích ứng, tự học, sử dụng AI có trách nhiệm, đạo đức phù hợp với quan điểm triết học, văn hóa - xã hội, lịch sử Việt Nam\nTo develop skills in reasoning, academic writing, presentation, AI application, creativity in product implementation, critical thinking, social relations management, and teamwork. To build adaptability and self-learning skills, and to use AI responsibly and ethically in alignment with philosophical perspectives as well as Vietnam’s cultural, social, and historical context."
+      }
+    ],
+    "schedule": [
+      {
+        "Session": "1",
+        "Topic": "Chương 1: Đối tượng, phương pháp nghiên cứu và chức năng của kinh tế chính trị Mác - Lênin\n1.1. Khái quát sự hình thành và phát triển của kinh tế chính trị Mác - Lênin\nChapter 1: Objects, research methods and fundamental functions of Marxist-Leninist political economy\n1.1. Overview of the formation and development of Marxist-Leninist political economy",
+        "Learning-Teaching Type": "Offline",
+        "LO": "LO1",
+        "ITU": "TU",
+        "Student Materials": "Đọc trước giáo trình Kinh tế chính trị Mác - Lênin (2021) từ trang 11 đến trang 19.\nRead the the textbook of Marxist-Leninist Political Economy (2021) from page 11 to page 19.",
+        "S-Download": "link1-1",
+        "Student's Tasks": "- Giáo trình Kinh tế chính trị Mác - Lênin, dành cho hệ không chuyên lý luận chính trị. NXB chính trị quốc gia sự thật, 2021.\n- Đề cương bài giảng của giảng viên.\n- Political economics of Marxism – Leninism 2021 textbook\n- Slides",
+        "URLs": ""
+      },
+      {
+        "Session": "2",
+        "Topic": "Chương 1: Đối tượng, phương pháp nghiên cứu và chức năng của kinh tế chính trị Mác - Lênin.\n1.2. Đối tượng, mục đích và phương pháp nghiên cứu của kinh tế chính trị Mác - Lênin\nChapter 1: Objects, research methods and fundamental functions of Marxist-Leninist political economy\n1.2. Objects, purposes and research methods of Marxist-Leninist political economy",
+        "Learning-Teaching Type": "Offline",
+        "LO": "LO1",
+        "ITU": "TU",
+        "Student Materials": "Đọc trước giáo trình Kinh tế chính trị Mác - Lênin (2021) từ trang 19 đến trang 29.\nRead the textbook of Marxist-Leninist Political Economy (2021) from page 19 to page 29.",
+        "S-Download": "",
+        "Student's Tasks": "- Giáo trình Kinh tế chính trị Mác - Lênin, dành cho hệ không chuyên lý luận chính trị. NXB chính trị quốc gia sự thật, 2021.\n- Đề cương bài giảng của giảng viên.\n- Political economics of Marxism – Leninism 2021 textbook\n- Slides",
+        "URLs": ""
+      },
+      {
+        "Session": "3",
+        "Topic": "Chương 1: Đối tượng, phương pháp nghiên cứu và chức năng của kinh tế chính trị Mác - Lênin\n1.3. Chức năng của kinh tế chính trị Mác - Lênin\nChapter 1: Objects, research methods and fundamental functions of Marxist-Leninist political economy\n1.3. The function of Marxist-Leninist political economy",
+        "Learning-Teaching Type": "Offline",
+        "LO": "LO1",
+        "ITU": "TU",
+        "Student Materials": "Đọc trước giáo trình Kinh tế chính trị Mác - Lênin (2021) từ trang 29 đến trang 33.\nRead before the textbook of Marxist-Leninist Political Economy (2021) from page 160 to page 167.",
+        "S-Download": "",
+        "Student's Tasks": "- Giáo trình Kinh tế chính trị Mác - Lênin, dành cho hệ không chuyên lý luận chính trị. NXB chính trị quốc gia sự thật, 2021.\n- Đề cương bài giảng của giảng viên.\n- Political economics of Marxism – Leninism 2021 textbook\n- Slides",
+        "URLs": ""
+      },
+      {
+        "Session": "4",
+        "Topic": "Chương 2: Hàng hóa, thị trường và vai trò của các chủ thể tham gia thị trường\n2.1. Lý luận của C. Mác về hàng hóa và sản xuất hàng hóa\n2.1.1. Sản xuất hàng hóa\n2.1.2. Hàng hóa\nChapter 2: Commodities, markets and participants’ roles in the market\n2. C. Marx's Theory of Commodities and Commodity Production\n2.1.1 Commodity production\n2.1.2 Goods",
+        "Learning-Teaching Type": "Offline",
+        "LO": "LO2, LO6, LO7, LO8, LO9",
+        "ITU": "TU",
+        "Student Materials": "Đọc trước giáo trình Kinh tế chính trị Mác - Lênin (2021) từ trang 34 đến trang 46.\nRead before the textbook of Marxist-Leninist Political Economy (2021) from page 34 to page 46.",
+        "S-Download": "",
+        "Student's Tasks": "- Giáo trình Kinh tế chính trị Mác - Lênin, dành cho hệ không chuyên lý luận chính trị. NXB chính trị quốc gia sự thật, 2021.\n- Đề cương bài giảng của giảng viên.\n- Political economics of Marxism – Leninism 2021 textbook\n- Slides",
+        "URLs": ""
+      },
+      {
+        "Session": "5",
+        "Topic": "Chương 2: Hàng hóa, thị trường và vai trò của các chủ thể tham gia thị trường\n2.1. Lý luận của C. Mác về hàng hóa và sản xuất hàng hóa\n2.1.3. Tiền tệ\n2.1.4. Dịch vụ và các quan hệ trao đổi trong trường hợp một số yếu tố khác hàng hóa thông thường ở điều kiện hiện nay\nAssignment\nChapter 2: Commodities, markets and participants’ roles in the market\n2. 1Marx's theory of commodities and commodity production\n2.1.3. Currency\n2.1.4. Services and exchange relations in the case of some factors different from ordinary goods in current conditions\n(Assignment)",
+        "Learning-Teaching Type": "Offline",
+        "LO": "LO2, LO6, LO7, LO8, LO9",
+        "ITU": "TU",
+        "Student Materials": "Đọc trước giáo trình Kinh tế chính trị Mác - Lênin (2021) từ trang 46 đến trang 56.\nRead before the textbook of Marxist-Leninist Political Economy (2021) from page 46 to page 56.",
+        "S-Download": "",
+        "Student's Tasks": "- Giáo trình Kinh tế chính trị Mác - Lênin, dành cho hệ không chuyên lý luận chính trị. NXB chính trị quốc gia sự thật, 2021.\n- Đề cương bài giảng của giảng viên.\n- Political economics of Marxism – Leninism 2021 textbook\n- Slides",
+        "URLs": ""
+      },
+      {
+        "Session": "6",
+        "Topic": "Chương 2: Hàng hóa, thị trường và vai trò của các chủ thể tham gia thị trường\n2.2. Thị trường và nền kinh tế thị trường\n2.2.1. Khái niệm, phân loại và vai trò của thị trường\n2.2.2. Nền kinh tế thị trường và một số quy luật chủ yếu của nền kinh tế thị trường\nChapter 2: Commodities, markets and participants’ roles in the market\n2.2. Market and the market economy.\n2.2.1.The concept, classification and role of the market\n2.2.2. The market economy and some key rules of the market economy\nAssignment",
+        "Learning-Teaching Type": "Offline",
+        "LO": "LO2, LO6, LO7, LO8, LO9",
+        "ITU": "TU",
+        "Student Materials": "Đọc trước giáo trình Kinh tế chính trị Mác - Lênin (2021) từ trang 56 đến trang 77.\nRead before the textbook of Marxist-Leninist Political Economy (2021) from page 56 to page 77.",
+        "S-Download": "",
+        "Student's Tasks": "- Giáo trình Kinh tế chính trị Mác - Lênin, dành cho hệ không chuyên lý luận chính trị. NXB chính trị quốc gia sự thật, 2021.\n- Đề cương bài giảng của giảng viên.\n- Political economics of Marxism – Leninism 2021 textbook\n- Slides",
+        "URLs": ""
+      },
+      {
+        "Session": "7",
+        "Topic": "Chương 2: Hàng hóa, thị trường và vai trò của các chủ thể tham gia thị trường\n2.2. Thị trường và nền kinh tế thị trường\n2.2.3. Vai trò của một số chủ thể tham gia thị trường\nAssignment\nChapter 2: Commodities, markets and participants’ roles in the market\n2.2. Market and the market economy.\n2.2.3. The role of some market participants\nAssignment",
+        "Learning-Teaching Type": "Offline",
+        "LO": "LO2, LO6, LO7, LO8, LO9",
+        "ITU": "TU",
+        "Student Materials": "Đọc trước giáo trình Kinh tế chính trị Mác - Lênin (2021) từ trang 77 đến trang 83.\nRead before the textbook of Marxist-Leninist Political Economy (2021) from page 77 to page 83",
+        "S-Download": "",
+        "Student's Tasks": "- Giáo trình Kinh tế chính trị Mác - Lênin, dành cho hệ không chuyên lý luận chính trị. NXB chính trị quốc gia sự thật, 2021.\n- Đề cương bài giảng của giảng viên.\n- Political economics of Marxism – Leninism 2021 textbook\n- Slides",
+        "URLs": ""
+      },
+      {
+        "Session": "8",
+        "Topic": "Coursera Module 1: Chương 1, 2 — Đối tượng, phương pháp, chức năng của kinh tế chính trị Mác - Lênin; Hàng hóa, thị trường và vai trò của các chủ thể tham gia thị trường\nBài đọc (30 phút) + Video (5 phút) + Mini quiz (5-10 câu, 10 phút)\nCoursera Module 1: Chapters 1, 2 — Object, research method and functions of Marxist-Leninist political economy; Commodities, markets and participants' roles in the market\nReading (30 mins) + Video (5 mins) + Mini quiz (5-10 questions, 10 mins)",
+        "Learning-Teaching Type": "Online",
+        "LO": "LO1, LO2, LO6, LO7, LO8, LO9",
+        "ITU": "ITU",
+        "Student Materials": "Tự học trên nền tảng Coursera: đọc bài đọc Module 1, xem video bài giảng, làm mini quiz Module 1. Nội dung bám sát Chương 1, 2 - Giáo trình Kinh tế chính trị Mác - Lênin (Bộ Giáo dục và Đào tạo, 2021).\nSelf-study on Coursera: read Module 1 reading, watch the lecture video, complete the Module 1 mini quiz. Content strictly follows Chapters 1, 2 of the textbook.",
+        "S-Download": "",
+        "Student's Tasks": "- Sản phẩm Coursera Module (bài đọc, video, mini quiz)\n- Giáo trình Kinh tế chính trị Mác - Lênin, dành cho hệ không chuyên lý luận chính trị. NXB Chính trị quốc gia Sự thật, 2021.\n- Political economics of Marxism – Leninism 2021 textbook.",
+        "URLs": ""
+      },
+      {
+        "Session": "9",
+        "Topic": "Chương 3: Giá trị thặng dư trong nền kinh tế thị trường\n3.1. Lý luận của C. Mác về giá trị thặng dư\n3.1.1. Nguồn gốc của giá trị thặng dư\nAssignment\nChapter 3: Surplus values in the market economy\n3.1. Marx's theory of surplus values\n3.1.1. The origin of surplus value\nAssignment",
+        "Learning-Teaching Type": "Offline",
+        "LO": "LO2, LO6, LO7, LO8, LO9",
+        "ITU": "TU",
+        "Student Materials": "Đọc trước giáo trình Kinh tế chính trị Mác - Lênin (2021) từ trang 84 đến trang 98.\nRead the textbook of Marxist-Leninist Political Economy (2021) from page 84 to page 98.",
+        "S-Download": "",
+        "Student's Tasks": "- Giáo trình Kinh tế chính trị Mác - Lênin, dành cho hệ không chuyên lý luận chính trị. NXB chính trị quốc gia sự thật, 2021.\n- Đề cương bài giảng của giảng viên.\n- Political economics of Marxism – Leninism 2021 textbook\n- Slides",
+        "URLs": ""
+      },
+      {
+        "Session": "10",
+        "Topic": "Chương 3: Giá trị thặng dư trong nền kinh tế thị trường\n3.1. Lý luận của C. Mác về giá trị thặng dư\n3.1.2. Bản chất của giá trị thặng dư\nAssignment\nChapter 3: Surplus values in the market economy\n3.1. Marx's theory of surplus values\n3.1.2. The essence of surplus value\nAssignment",
+        "Learning-Teaching Type": "Offline",
+        "LO": "LO2, LO6, LO7, LO8, LO9",
+        "ITU": "TU",
+        "Student Materials": "Đọc trước giáo trình Kinh tế chính trị Mác - Lênin (2021) từ trang 98 đến trang 100.\nRead the textbook of Marxist-Leninist Political Economy (2021) from page 98 to page 100.",
+        "S-Download": "",
+        "Student's Tasks": "- Giáo trình Kinh tế chính trị Mác - Lênin, dành cho hệ không chuyên lý luận chính trị. NXB chính trị quốc gia sự thật, 2021.\n- Đề cương bài giảng của giảng viên.\n- Political economics of Marxism – Leninism 2021 textbook\n- Slides",
+        "URLs": ""
+      },
+      {
+        "Session": "11",
+        "Topic": "Chương 3: Giá trị thặng dư trong nền kinh tế thị trường\n3.1. Lý luận của C. Mác về giá trị thặng dư\n3.1.3. Các phương pháp sản xuất giá trị thặng dư trong nền kinh tế thị trường tư bản chủ nghĩa\nAssignment\nChapter 3: Surplus values in the market economy\n3.1. Marx's theory of surplus values\n3.1.3. The methods of generating surplus value in a capitalist market economy\nAssignment",
+        "Learning-Teaching Type": "Offline",
+        "LO": "LO2, LO6, LO7, LO8, LO9",
+        "ITU": "TU",
+        "Student Materials": "Đọc trước giáo trình Kinh tế chính trị Mác - Lênin (2021) từ trang 100 đến trang 104.\nRead the textbook of Marxist-Leninist Political Economy (2021) from page 100 to page 104.",
+        "S-Download": "",
+        "Student's Tasks": "- Giáo trình Kinh tế chính trị Mác - Lênin, dành cho hệ không chuyên lý luận chính trị. NXB chính trị quốc gia sự thật, 2021.\n- Đề cương bài giảng của giảng viên.\n- Political economics of Marxism – Leninism 2021 textbook\n- Slides",
+        "URLs": ""
+      },
+      {
+        "Session": "12",
+        "Topic": "Chương 3: Giá trị thặng dư trong nền kinh tế thị trường\n3.2. Tích lũy tư bản\nAssignment\nChapter 3: Surplus values in the market economy\n3.2. Capital accumulation\nAssignment",
+        "Learning-Teaching Type": "Offline",
+        "LO": "LO2, LO6, LO7, LO8, LO9",
+        "ITU": "TU",
+        "Student Materials": "Đọc trước giáo trình Kinh tế chính trị Mác - Lênin (2021) từ trang 104 đến trang 109.\nRead the textbook of Marxist-Leninist Political Economy (2021) from page 104 to page 109.",
+        "S-Download": "",
+        "Student's Tasks": "- Giáo trình Kinh tế chính trị Mác - Lênin, dành cho hệ không chuyên lý luận chính trị. NXB chính trị quốc gia sự thật, 2021.\n- Đề cương bài giảng của giảng viên.\n- Political economics of Marxism – Leninism 2021 textbook\n- Slides",
+        "URLs": ""
+      },
+      {
+        "Session": "13",
+        "Topic": "Chương 3: Giá trị thặng dư trong nền kinh tế thị trường\n3.3. Các hình thức biểu hiện của giá trị thặng dư trong nền kinh tế thị trường\nAssignment\nChapter 3: Surplus values in the market economy\n3.3. Manifestations of surplus value in the market economy\nAssignment",
+        "Learning-Teaching Type": "Offline",
+        "LO": "LO2, LO6, LO7, LO8, LO9",
+        "ITU": "TU",
+        "Student Materials": "Đọc trước giáo trình Kinh tế chính trị Mác - Lênin (2021) từ trang 109 đến trang 123.\nRead the textbook of Marxist-Leninist Political Economy (2021) from page 109 to page 123.",
+        "S-Download": "",
+        "Student's Tasks": "- Giáo trình Kinh tế chính trị Mác - Lênin, dành cho hệ không chuyên lý luận chính trị. NXB chính trị quốc gia sự thật, 2021.\n- Đề cương bài giảng của giảng viên.\n- Political economics of Marxism – Leninism 2021 textbook\n- Slides",
+        "URLs": ""
+      },
+      {
+        "Session": "14",
+        "Topic": "Chương 4: Cạnh tranh và độc quyền trong nền kinh tế thị trường\n4.1. Cạnh tranh ở cấp độ độc quyền trong nền kinh tế thị trường\nAssignment\nChapter 4: Competition and monopoly in the market economy\n4.1. Competition at monopoly level in the market economy\nAssignment",
+        "Learning-Teaching Type": "Offline",
+        "LO": "LO3, LO6, LO7, LO8, LO9",
+        "ITU": "TU",
+        "Student Materials": "Đọc trước giáo trình Kinh tế chính trị Mác - Lênin (2021) từ trang 124 đến trang 136.\nRead the textbook of Marxist-Leninist Political Economy (2021) from page 124 to page 136.",
+        "S-Download": "",
+        "Student's Tasks": "- Giáo trình Kinh tế chính trị Mác - Lênin, dành cho hệ không chuyên lý luận chính trị. NXB chính trị quốc gia sự thật, 2021.\n- Đề cương bài giảng của giảng viên.\n- Political economics of Marxism – Leninism 2021 textbook\n- Slides",
+        "URLs": ""
+      },
+      {
+        "Session": "15",
+        "Topic": "Chương 4: Cạnh tranh và độc quyền trong nền kinh tế thị trường\n4.2. Lý luận của V. I . Lênin về đặc điểm kinh tế của độc quyền và độc quyền nhà nước trong nền kinh tế thị trường tư bản chủ nghĩa\n4.2.1. Lý luận của V.I.Lenin về đặc điểm kinh tế của độc quyền\nAssignment\nChapter 4: Competition and monopoly in the market economy\n4.2. Theory of VI. Lenin on economic features of monopoly and state monopoly in the capitalist market economy\n4.2.1. V.I. Lenin’s theory on the economic characteristics of monopoly\nAssignment",
+        "Learning-Teaching Type": "Offline",
+        "LO": "LO3, LO6, LO7, LO8, LO9",
+        "ITU": "TU",
+        "Student Materials": "Đọc trước giáo trình Kinh tế chính trị Mác - Lênin (2021) từ trang 136 đến trang 144.\nRead the the textbook of Marxist-Leninist Political Economy (2021) from page 136 to page 144.",
+        "S-Download": "",
+        "Student's Tasks": "- Giáo trình Kinh tế chính trị Mác - Lênin, dành cho hệ không chuyên lý luận chính trị. NXB chính trị quốc gia sự thật, 2021.\n- Đề cương bài giảng của giảng viên.\n- Political economics of Marxism – Leninism 2021 textbook\n- Slides",
+        "URLs": ""
+      },
+      {
+        "Session": "16",
+        "Topic": "Chương 4: Cạnh tranh và độc quyền trong nền kinh tế thị trường\n4.2. Lý luận của V. I . Lênin về đặc điểm kinh tế của độc quyền và độc quyền nhà nước trong nền kinh tế thị trường tư bản chủ nghĩa\n4.2.2. Lý luận của V.I.Lenin về đặc điểm kinh tế của độc quyền nhà nước trong chủ nghĩa tư bản\nAssignment\nChapter 4: Competition and monopoly in the market economy\n4.2. Theory of VI. Lenin on economic features of monopoly and state monopoly in the capitalist market economy\n4.2.2. V.I. Lenin’s theory on the economic characteristics of state monopoly in capitalism\nAssignment",
+        "Learning-Teaching Type": "Offline",
+        "LO": "LO3, LO6, LO7, LO8, LO9",
+        "ITU": "TU",
+        "Student Materials": "Đọc trước giáo trình Kinh tế chính trị Mác - Lênin (2021) từ trang 144 đến trang 149.\nRead the the textbook of Marxist-Leninist Political Economy (2021) from page 144 to page 149.",
+        "S-Download": "",
+        "Student's Tasks": "- Giáo trình Kinh tế chính trị Mác - Lênin, dành cho hệ không chuyên lý luận chính trị. NXB chính trị quốc gia sự thật, 2021.\n- Đề cương bài giảng của giảng viên.\n- Political economics of Marxism – Leninism 2021 textbook\n- Slides",
+        "URLs": ""
+      },
+      {
+        "Session": "17",
+        "Topic": "Chương 4: Cạnh tranh và độc quyền trong nền kinh tế thị trường\n4.3. Biểu hiện mới của độc quyền, độc quyền nhà nước trong điều kiện ngày nay; Vai trò lịch sử của chủ nghĩa tư bản\n4.3.1. Biểu hiện mới của độc quyền\nAssignment\nChapter 4: Competition and monopoly in the market economy\n4.3. Manifestations of monopoly and state monopoly in current condition. Historical significance of capitalism\n4.3.1. New expression of monopoly\nAssignment",
+        "Learning-Teaching Type": "Offline",
+        "LO": "LO3, LO6, LO7, LO8, LO9",
+        "ITU": "TU",
+        "Student Materials": "Đọc trước giáo trình Kinh tế chính trị Mác - Lênin (2021) từ trang 149 đến trang 156.\nRead the textbook of Marxist-Leninist Political Economy (2021) from page 149 to page 156.",
+        "S-Download": "",
+        "Student's Tasks": "- Giáo trình Kinh tế chính trị Mác - Lênin, dành cho hệ không chuyên lý luận chính trị. NXB chính trị quốc gia sự thật, 2021.\n- Đề cương bài giảng của giảng viên.\n- Political economics of Marxism – Leninism 2021 textbook\n- Slides",
+        "URLs": ""
+      },
+      {
+        "Session": "18",
+        "Topic": "Chương 4: Cạnh tranh và độc quyền trong nền kinh tế thị trường\n4.3. Biểu hiện mới của độc quyền, độc quyền nhà nước trong điều kiện ngày nay; Vai trò lịch sử của chủ nghĩa tư bản\n4.3.2. Biểu hiện mới của độc quyền nhà nước dưới chủ nghĩa tư bản\nAssignment\nChapter 4: Competition and monopoly in the market economy\n4.3. Manifestations of monopoly and state monopoly in current condition. Historical significance of capitalism\n4.3.2. New manifestation of state monopoly under capitalism\nAssignment",
+        "Learning-Teaching Type": "Offline",
+        "LO": "LO3, LO6, LO7, LO8, LO9",
+        "ITU": "TU",
+        "Student Materials": "Đọc trước giáo trình Kinh tế chính trị Mác - Lênin (2021) từ trang 156 đến trang 160.\nRead the textbook of Marxist-Leninist Political Economy (2021) from page 156 to page 160.",
+        "S-Download": "",
+        "Student's Tasks": "- Giáo trình Kinh tế chính trị Mác - Lênin, dành cho hệ không chuyên lý luận chính trị. NXB chính trị quốc gia sự thật, 2021.\n- Đề cương bài giảng của giảng viên.\n- Political economics of Marxism – Leninism 2021 textbook\n- Slides",
+        "URLs": ""
+      },
+      {
+        "Session": "19",
+        "Topic": "Chương 4: Cạnh tranh và độc quyền trong nền kinh tế thị trường\n4.3. Biểu hiện mới của độc quyền, độc quyền nhà nước trong điều kiện ngày nay; Vai trò lịch sử của chủ nghĩa tư bản\n4.3.3. Vai trò lịch sử của chủ nghĩa tư bản\nAssignment\nChapter 4: Competition and monopoly in the market economy\n4.3. Manifestations of monopoly and state monopoly in current condition. Historical significance of capitalism\n4.3.3. The Historical Role of Capitalism\nAssignment",
+        "Learning-Teaching Type": "Offline",
+        "LO": "LO3, LO6, LO7, LO8, LO9",
+        "ITU": "TU",
+        "Student Materials": "Đọc trước giáo trình Kinh tế chính trị Mác - Lênin (2021) từ trang 160 đến trang 168.\nRead the textbook of Marxist-Leninist Political Economy (2021) from page 160 to page 168.",
+        "S-Download": "",
+        "Student's Tasks": "- Giáo trình Kinh tế chính trị Mác - Lênin, dành cho hệ không chuyên lý luận chính trị. NXB chính trị quốc gia sự thật, 2021.\n- Đề cương bài giảng của giảng viên.\n- Political economics of Marxism – Leninism 2021 textbook\n- Slides",
+        "URLs": ""
+      },
+      {
+        "Session": "20",
+        "Topic": "Coursera Module 2: Chương 3, 4 — Giá trị thặng dư trong nền kinh tế thị trường; Cạnh tranh và độc quyền trong nền kinh tế thị trường\nBài đọc (30 phút) + Video (5 phút) + Mini quiz (5-10 câu, 10 phút)\nCoursera Module 2: Chapters 3, 4 — Surplus value in the market economy; Competition and monopoly in the market economy\nReading (30 mins) + Video (5 mins) + Mini quiz (5-10 questions, 10 mins)",
+        "Learning-Teaching Type": "Online",
+        "LO": "LO2, LO3, LO6, LO7, LO8, LO9",
+        "ITU": "ITU",
+        "Student Materials": "Tự học trên nền tảng Coursera: đọc bài đọc Module 2, xem video bài giảng, làm mini quiz Module 2. Nội dung bám sát Chương 3, 4 - Giáo trình Kinh tế chính trị Mác - Lênin (Bộ Giáo dục và Đào tạo, 2021).\nSelf-study on Coursera: read Module 2 reading, watch the lecture video, complete the Module 2 mini quiz. Content strictly follows Chapters 3, 4 of the textbook.",
+        "S-Download": "",
+        "Student's Tasks": "- Sản phẩm Coursera Module (bài đọc, video, mini quiz)\n- Giáo trình Kinh tế chính trị Mác - Lênin, dành cho hệ không chuyên lý luận chính trị. NXB Chính trị quốc gia Sự thật, 2021.\n- Political economics of Marxism – Leninism 2021 textbook.",
+        "URLs": ""
+      },
+      {
+        "Session": "21",
+        "Topic": "(Tiếp) Coursera Module 2: Chương 3, 4 — Giá trị thặng dư trong nền kinh tế thị trường; Cạnh tranh và độc quyền trong nền kinh tế thị trường\nBài đọc (30 phút) + Video (5 phút) + Mini quiz (5-10 câu, 10 phút)\nCoursera Module 2: Chapters 3, 4 — Surplus value in the market economy; Competition and monopoly in the market economy\nReading (30 mins) + Video (5 mins) + Mini quiz (5-10 questions, 10 mins)",
+        "Learning-Teaching Type": "Online",
+        "LO": "LO2, LO3, LO6, LO7, LO8, LO9",
+        "ITU": "ITU",
+        "Student Materials": "Tự học trên nền tảng Coursera: đọc bài đọc Module 2, xem video bài giảng, làm mini quiz Module 2. Nội dung bám sát Chương 3, 4 - Giáo trình Kinh tế chính trị Mác - Lênin (Bộ Giáo dục và Đào tạo, 2021).\nSelf-study on Coursera: read Module 2 reading, watch the lecture video, complete the Module 2 mini quiz. Content strictly follows Chapters 3, 4 of the textbook.",
+        "S-Download": "",
+        "Student's Tasks": "- Sản phẩm Coursera Module (bài đọc, video, mini quiz)\n- Giáo trình Kinh tế chính trị Mác - Lênin, dành cho hệ không chuyên lý luận chính trị. NXB Chính trị quốc gia Sự thật, 2021.\n- Political economics of Marxism – Leninism 2021 textbook.",
+        "URLs": ""
+      },
+      {
+        "Session": "22",
+        "Topic": "(Tiếp) Coursera Module 2: Chương 3, 4 — Giá trị thặng dư trong nền kinh tế thị trường; Cạnh tranh và độc quyền trong nền kinh tế thị trường\nBài đọc (30 phút) + Video (5 phút) + Mini quiz (5-10 câu, 10 phút)\nCoursera Module 2: Chapters 3, 4 — Surplus value in the market economy; Competition and monopoly in the market economy\nReading (30 mins) + Video (5 mins) + Mini quiz (5-10 questions, 10 mins)",
+        "Learning-Teaching Type": "Online",
+        "LO": "LO2, LO3, LO6, LO7, LO8, LO9",
+        "ITU": "ITU",
+        "Student Materials": "Tự học trên nền tảng Coursera: đọc bài đọc Module 2, xem video bài giảng, làm mini quiz Module 2. Nội dung bám sát Chương 3, 4 - Giáo trình Kinh tế chính trị Mác - Lênin (Bộ Giáo dục và Đào tạo, 2021).\nSelf-study on Coursera: read Module 2 reading, watch the lecture video, complete the Module 2 mini quiz. Content strictly follows Chapters 3, 4 of the textbook.",
+        "S-Download": "",
+        "Student's Tasks": "- Sản phẩm Coursera Module (bài đọc, video, mini quiz)\n- Giáo trình Kinh tế chính trị Mác - Lênin, dành cho hệ không chuyên lý luận chính trị. NXB Chính trị quốc gia Sự thật, 2021.\n- Political economics of Marxism – Leninism 2021 textbook.",
+        "URLs": ""
+      },
+      {
+        "Session": "23",
+        "Topic": "Chương 5: Kinh tế thị trường định hướng xã hội chủ nghĩa và các quan hệ lợi ích kinh tế ở Việt Nam\n5.1.. Kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam\n5.1.1. Khái niệm kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam\n5.1.2. Tính tất yếu khách quan của việc phát triển kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam\nAssignment\nChapter 5: Socialist-oriented market economy and economic interest relationship in Vietnam\n5.1. Socialist-oriented market economy in Vietnam\n5.1.1. Concept of socialist-oriented market economy in Vietnam\n5.1.2. The inherent necessity of developing a socialist-oriented market economy in Vietnam.\nAssignment",
+        "Learning-Teaching Type": "Offline",
+        "LO": "LO4, LO6, LO7, LO8, LO9",
+        "ITU": "TU",
+        "Student Materials": "Đọc trước trình Kinh tế chính trị Mác - Lênin (2021) từ trang 169 đến trang 177.\nRead the textbook of Marxist-Leninist Political Economy (2021) from page 169 to page 177.",
+        "S-Download": "",
+        "Student's Tasks": "- Giáo trình Kinh tế chính trị Mác - Lênin, dành cho hệ không chuyên lý luận chính trị. NXB chính trị quốc gia sự thật, 2021.\n- Đề cương bài giảng của giảng viên.\n- Political economics of Marxism – Leninism 2021 textbook\n- Slides",
+        "URLs": ""
+      },
+      {
+        "Session": "24",
+        "Topic": "Chương 5: Kinh tế thị trường định hướng xã hội chủ nghĩa và các quan hệ lợi ích kinh tế ở Việt Nam\n5.1. Kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam\n5.1.3. Đặc trưng của kinh tế thị trường định hướng xã hôi chủ nghĩa ở Việt Nam\nAssignment\nChapter 5: Socialist-oriented market economy and economic interest relationship in Vietnam\n5.1. Socialist-oriented market economy in Vietnam\n5.1.3. The characteristics of the socialist-oriented market economy in Vietnam\nAssignment",
+        "Learning-Teaching Type": "Offline",
+        "LO": "LO4, LO6, LO7, LO8, LO9",
+        "ITU": "TU",
+        "Student Materials": "Đọc trước giáo trình Kinh tế chính trị Mác - Lênin (2021) từ trang 177 đến trang 187.\nRead the textbook of Marxist-Leninist Political Economy (2021) from page 177 to page 187.",
+        "S-Download": "",
+        "Student's Tasks": "- Giáo trình Kinh tế chính trị Mác - Lênin, dành cho hệ không chuyên lý luận chính trị. NXB chính trị quốc gia sự thật, 2021.\n- Đề cương bài giảng của giảng viên.\n- Political economics of Marxism – Leninism 2021 textbook\n- Slides",
+        "URLs": ""
+      },
+      {
+        "Session": "25",
+        "Topic": "Chương 5: Kinh tế thị trường định hướng xã hội chủ nghĩa và các quan hệ lợi ích kinh tế ở Việt Nam\n5.2. Hoàn thiện thể chế kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam\nAssignment\nChapter 5: Socialist-oriented market economy and economic interest relationship in Vietnam\n5.2. Perfect the system of institutions of socialist-oriented market economy in Vietnam\nAssignment",
+        "Learning-Teaching Type": "Offline",
+        "LO": "LO4, LO6, LO7, LO8, LO9",
+        "ITU": "TU",
+        "Student Materials": "Đọc trước giáo trình Kinh tế chính trị Mác - Lênin (2021) từ trang 187 đến trang 196.\nRead the textbook of Marxist-Leninist Political Economy (2021) from page 187 to page 196.",
+        "S-Download": "",
+        "Student's Tasks": "- Giáo trình Kinh tế chính trị Mác - Lênin, dành cho hệ không chuyên lý luận chính trị. NXB chính trị quốc gia sự thật, 2021.\n- Đề cương bài giảng của giảng viên.\n- Political economics of Marxism – Leninism 2021 textbook\n- Slides",
+        "URLs": ""
+      },
+      {
+        "Session": "26",
+        "Topic": "Chương 5: Kinh tế thị trường định hướng xã hội chủ nghĩa và các quan hệ lợi ích kinh tế ở Việt Nam\n5.3. Các quan hệ lợi ích kinh tế ở Việt Nam\n5.3.1. Lợi ích kinh tế và quan hệ lợi ích kinh tế\nAssignment\nChapter 5: Socialist-oriented market economy and economic interest relationship in Vietnam\n5.3. Economic interest relationship in Vietnam\n5.3.1. Economic benefits and economic interest relations\nAssignment",
+        "Learning-Teaching Type": "Offline",
+        "LO": "LO4, LO6, LO7, LO8, LO9",
+        "ITU": "TU",
+        "Student Materials": "Đọc trước giáo trình Kinh tế chính trị Mác - Lênin (2021) từ trang 196 đến trang 214.\nRead the textbook of Marxist-Leninist Political Economy (2021) from page 196 to page 214.",
+        "S-Download": "",
+        "Student's Tasks": "- Giáo trình Kinh tế chính trị Mác - Lênin, dành cho hệ không chuyên lý luận chính trị. NXB chính trị quốc gia sự thật, 2021.\n- Đề cương bài giảng của giảng viên.\n- Political economics of Marxism – Leninism 2021 textbook\n- Slides",
+        "URLs": ""
+      },
+      {
+        "Session": "27",
+        "Topic": "Chương 5: Kinh tế thị trường định hướng xã hội chủ nghĩa và các quan hệ lợi ích kinh tế ở Việt Nam\n5.3. Các quan hệ lợi ích kinh tế ở Việt Nam\n5.3.2. Vai trò nhà nước trong đảm bảo hài hòa các quan hệ lợi ích\nAssignment\nChapter 5: Socialist-oriented market economy and economic interest relationship in Vietnam\n5.3. Economic interest relationship in Vietnam\nThe role of the state in ensuring the harmony of economic interest relations\nAssignment",
+        "Learning-Teaching Type": "Offline",
+        "LO": "LO4, LO6, LO7, LO8, LO9",
+        "ITU": "TU",
+        "Student Materials": "Đọc trước giáo trình Kinh tế chính trị Mác - Lênin (2021) từ trang 214 đến trang 220.\nRead the textbook of Marxist-Leninist Political Economy (2021) from page 214 to page 220.",
+        "S-Download": "",
+        "Student's Tasks": "- Giáo trình Kinh tế chính trị Mác - Lênin, dành cho hệ không chuyên lý luận chính trị. NXB chính trị quốc gia sự thật, 2021.\n- Đề cương bài giảng của giảng viên.\n- Political economics of Marxism – Leninism 2021 textbook\n- Slides",
+        "URLs": ""
+      },
+      {
+        "Session": "28",
+        "Topic": "Review Chapters 2,3,4,5\nProgress Test",
+        "Learning-Teaching Type": "Offline",
+        "LO": "LO2, LO3, LO4",
+        "ITU": "TU",
+        "Student Materials": "Đọc trước giáo trình Kinh tế chính trị Mác - Lênin (2021) từ trang 34 đến trang 220.\nRead the textbook of Marxist-Leninist Political Economy (2021) from page 34 to page 220.",
+        "S-Download": "",
+        "Student's Tasks": "- Giáo trình Kinh tế chính trị Mác - Lênin, dành cho hệ không chuyên lý luận chính trị. NXB chính trị quốc gia sự thật, 2021.\n- Đề cương bài giảng của giảng viên.\n- Political economics of Marxism – Leninism 2021 textbook\n- Slides",
+        "URLs": ""
+      },
+      {
+        "Session": "29",
+        "Topic": "Chương 6: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế của Việt Nam\n6.1. Công nghiệp hóa, hiện đại hóa ở Việt Nam\n6.1.1. Khái quát về cách mạng công nghiệp và công nghiệp hóa\nAssignment\nChapter 6: Vietnam's process of industrialization, modernization and international economic integration\n6.1. Industrialization and modernization in Vietnam\n6.1.1. Overview of the Industrial Revolution and Industrialization\nAssignment\"",
+        "Learning-Teaching Type": "Offline",
+        "LO": "LO5, LO6, LO7, LO8, LO9",
+        "ITU": "TU",
+        "Student Materials": "Đọc trước giáo trình Kinh tế chính trị Mác - Lênin (2021) từ trang 224 đến trang 245.\nRead the textbook of Marxist-Leninist Political Economy (2021) from page 224 to page 245.",
+        "S-Download": "link29-1",
+        "Student's Tasks": "- Giáo trình Kinh tế chính trị Mác - Lênin, dành cho hệ không chuyên lý luận chính trị. NXB chính trị quốc gia sự thật, 2021.\n- Đề cương bài giảng của giảng viên.\n- Political economics of Marxism – Leninism 2021 textbook\n- Slides",
+        "URLs": ""
+      },
+      {
+        "Session": "30",
+        "Topic": "Chương 6: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế của Việt Nam\n6.1. Công nghiệp hóa, hiện đại hóa ở Việt Nam\n6.1.2. Tính tất yếu khách quan và nội dung của công nghiệp hóa hiện đại hóa ở Việt Nam\nAssignment\nChapter 6: Vietnam's process of industrialization, modernization and international economic integration\n6.1. Industrialization and modernization in Vietnam\n6.1.2. Objective necessity and content of industrialization and modernization in VietnamAssignment\"",
+        "Learning-Teaching Type": "Offline",
+        "LO": "LO5, LO6, LO7, LO8, LO9",
+        "ITU": "TU",
+        "Student Materials": "Đọc trước giáo trình Kinh tế chính trị Mác - Lênin (2021) từ trang 246 đến trang 259.\nRead the textbook of Marxist-Leninist Political Economy (2021) from page 246 to page 259.",
+        "S-Download": "",
+        "Student's Tasks": "- Giáo trình Kinh tế chính trị Mác - Lênin, dành cho hệ không chuyên lý luận chính trị. NXB chính trị quốc gia sự thật, 2021.\n- Đề cương bài giảng của giảng viên.\n- Political economics of Marxism – Leninism 2021 textbook\n- Slides",
+        "URLs": ""
+      },
+      {
+        "Session": "31",
+        "Topic": "Chương 6: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế của Việt Nam\n6.1. Công nghiệp hóa, hiện đại hóa ở Việt Nam\n6.1.2. Tính tất yếu khách quan và nội dung của công nghiệp hóa hiện đại hóa ở Việt Nam\nAssignment\nChapter 6: Vietnam's process of industrialization, modernization and international economic integration\n6.1. Industrialization and modernization in Vietnam\n6.1.2. Objective necessity and content of industrialization and modernization in VietnamAssignment\"",
+        "Learning-Teaching Type": "Offline",
+        "LO": "LO5, LO6, LO7, LO8, LO9",
+        "ITU": "TU",
+        "Student Materials": "Đọc trước giáo trình Kinh tế chính trị Mác - Lênin (2021) từ trang 246 đến trang 259.\nRead the textbook of Marxist-Leninist Political Economy (2021) from page 246 to page 259.",
+        "S-Download": "",
+        "Student's Tasks": "- Giáo trình Kinh tế chính trị Mác - Lênin, dành cho hệ không chuyên lý luận chính trị. NXB chính trị quốc gia sự thật, 2021.\n- Đề cương bài giảng của giảng viên.\n- Political economics of Marxism – Leninism 2021 textbook\n- Slides",
+        "URLs": ""
+      },
+      {
+        "Session": "32",
+        "Topic": "Chương 6: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế của Việt Nam\n6.2. Hội nhập kinh tế quốc tế của Việt Nam\n6.2.1. Khái niệm và các hình thức hội nhập kinh tế quốc tế\n6.2.2. Tác động của hội nhập kinh tế quốc tế đến quá trình phát triển của Việt Nam\nAssignment\nChapter 6: Vietnam's process of industrialization, modernization and international economic integration\n6.2. Vietnam's international economic integration\n6.2.1. Concept and content of international economic integration\n6.2.2. Impact of international economic integration on the development process of Vietnam\nAssignment",
+        "Learning-Teaching Type": "Offline",
+        "LO": "LO5, LO6, LO7, LO8, LO9",
+        "ITU": "TU",
+        "Student Materials": "Đọc trước giáo trình Kinh tế chính trị Mác - Lênin (2021) từ trang 260 đến trang 268.\nRead the textbook of Marxist-Leninist Political Economy (2021) from page 260 to page 268.",
+        "S-Download": "",
+        "Student's Tasks": "- Giáo trình Kinh tế chính trị Mác - Lênin, dành cho hệ không chuyên lý luận chính trị. NXB chính trị quốc gia sự thật, 2021.\n- Đề cương bài giảng của giảng viên.\n- Political economics of Marxism – Leninism 2021 textbook\n- Slides",
+        "URLs": ""
+      },
+      {
+        "Session": "33",
+        "Topic": "Chương 6: Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế của Việt Nam\n6.2. Hội nhập kinh tế quốc tế của Việt Nam\n6.2.2. Tác động của hội nhập kinh tế quốc tế đến quá trình phát triển của Việt Nam\n6.2.3. Phương hướng nâng cao hiệu quả hội nhập kinh tế quốc tế trong phát triển của Việt Nam\nAssignment\nChapter 6: Vietnam's process of industrialization, modernization and international economic integration\n6.2. Vietnam's international economic integration\n6.2.3. Orientation to improve the efficiency of international economic integration in Vietnam's development\nAssignment",
+        "Learning-Teaching Type": "Offline",
+        "LO": "LO5, LO6, LO7, LO8, LO9",
+        "ITU": "TU",
+        "Student Materials": "Đọc trước giáo trình Kinh tế chính trị Mác - Lênin (2021) từ trang 268 đến trang 286.\nRead the textbook of Marxist-Leninist Political Economy (2021) from page 268 to page 286.",
+        "S-Download": "",
+        "Student's Tasks": "- Giáo trình Kinh tế chính trị Mác - Lênin, dành cho hệ không chuyên lý luận chính trị. NXB chính trị quốc gia sự thật, 2021.\n- Đề cương bài giảng của giảng viên.\n- Political economics of Marxism – Leninism 2021 textbook\n- Slides",
+        "URLs": ""
+      },
+      {
+        "Session": "34",
+        "Topic": "Coursera Module 3: Chương 5, 6 — Kinh tế thị trường định hướng xã hội chủ nghĩa và các quan hệ lợi ích kinh tế ở Việt Nam; Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế của Việt Nam\nBài đọc (40 phút) + Video (5 phút)\nCoursera Module 3: Chapters 5, 6 — Socialist-oriented market economy and economic interest relationships in Vietnam; Industrialization, modernization and international economic integration of Vietnam\nReading (40 mins) + Video (5 mins)",
+        "Learning-Teaching Type": "Online",
+        "LO": "LO4, LO5, LO6, LO7, LO8, LO9",
+        "ITU": "ITU",
+        "Student Materials": "Tự học trên nền tảng Coursera: đọc bài đọc Module 3, xem video bài giảng. Nội dung bám sát Chương 5, 6 - Giáo trình Kinh tế chính trị Mác - Lênin (Bộ Giáo dục và Đào tạo, 2021).\nSelf-study on Coursera: read Module 3 reading, watch the lecture video. Content strictly follows Chapters 5, 6 of the textbook.",
+        "S-Download": "",
+        "Student's Tasks": "- Sản phẩm Coursera Module (bài đọc, video)\n- Giáo trình Kinh tế chính trị Mác - Lênin, dành cho hệ không chuyên lý luận chính trị. NXB Chính trị quốc gia Sự thật, 2021.\n- Political economics of Marxism – Leninism 2021 textbook.",
+        "URLs": ""
+      },
+      {
+        "Session": "35",
+        "Topic": "(Tiếp) Coursera Module 3: Chương 5, 6 — Kinh tế thị trường định hướng xã hội chủ nghĩa và các quan hệ lợi ích kinh tế ở Việt Nam; Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế của Việt Nam\nBài đọc (40 phút) + Video (5 phút)\nCoursera Module 3: Chapters 5, 6 — Socialist-oriented market economy and economic interest relationships in Vietnam; Industrialization, modernization and international economic integration of Vietnam\nReading (40 mins) + Video (5 mins)",
+        "Learning-Teaching Type": "Online",
+        "LO": "LO4, LO5, LO6, LO7, LO8, LO9",
+        "ITU": "ITU",
+        "Student Materials": "Tự học trên nền tảng Coursera: đọc bài đọc Module 3, xem video bài giảng. Nội dung bám sát Chương 5, 6 - Giáo trình Kinh tế chính trị Mác - Lênin (Bộ Giáo dục và Đào tạo, 2021).\nSelf-study on Coursera: read Module 3 reading, watch the lecture video. Content strictly follows Chapters 5, 6 of the textbook.",
+        "S-Download": "",
+        "Student's Tasks": "- Sản phẩm Coursera Module (bài đọc, video)\n- Giáo trình Kinh tế chính trị Mác - Lênin, dành cho hệ không chuyên lý luận chính trị. NXB Chính trị quốc gia Sự thật, 2021.\n- Political economics of Marxism – Leninism 2021 textbook.",
+        "URLs": ""
+      },
+      {
+        "Session": "36",
+        "Topic": "(Tiếp) Coursera Module 3: Chương 5, 6 — Kinh tế thị trường định hướng xã hội chủ nghĩa và các quan hệ lợi ích kinh tế ở Việt Nam; Công nghiệp hóa, hiện đại hóa và hội nhập kinh tế quốc tế của Việt Nam\nBài đọc (40 phút) + Video (5 phút)\nCoursera Module 3: Chapters 5, 6 — Socialist-oriented market economy and economic interest relationships in Vietnam; Industrialization, modernization and international economic integration of Vietnam\nReading (40 mins) + Video (5 mins)",
+        "Learning-Teaching Type": "Online",
+        "LO": "LO4, LO5, LO6, LO7, LO8, LO9",
+        "ITU": "ITU",
+        "Student Materials": "Tự học trên nền tảng Coursera: đọc bài đọc Module 3, xem video bài giảng. Nội dung bám sát Chương 5, 6 - Giáo trình Kinh tế chính trị Mác - Lênin (Bộ Giáo dục và Đào tạo, 2021).\nSelf-study on Coursera: read Module 3 reading, watch the lecture video. Content strictly follows Chapters 5, 6 of the textbook.",
+        "S-Download": "",
+        "Student's Tasks": "- Sản phẩm Coursera Module (bài đọc, video)\n- Giáo trình Kinh tế chính trị Mác - Lênin, dành cho hệ không chuyên lý luận chính trị. NXB Chính trị quốc gia Sự thật, 2021.\n- Political economics of Marxism – Leninism 2021 textbook.",
+        "URLs": ""
+      },
+      {
+        "Session": "37",
+        "Topic": "Coursera — Tự ôn tập tổng hợp Chương 1-6 và Final quiz kết thúc khoá học Coursera (25 phút)\nTự ôn tập + Final quiz (10-20 câu, 20 phút)\nCoursera — Self-review of Chapters 1-6 and Final quiz to complete the Coursera short course (25 mins)\nSelf-review + Final quiz (10-20 questions, 20 mins)",
+        "Learning-Teaching Type": "Online",
+        "LO": "LO1, LO2, LO3, LO4, LO5, LO6, LO7, LO8, LO9",
+        "ITU": "ITU",
+        "Student Materials": "Tự ôn tập lại bài đọc, video, sơ đồ tư duy của cả 3 module trên Coursera; sau đó làm Final quiz (ngân hàng 100 câu, hệ thống hiển thị ngẫu nhiên 10-20 câu/lượt, thời lượng làm bài 20 phút, phạm vi toàn bộ Chương 1 đến Chương 6 - Giáo trình Kinh tế chính trị Mác - Lênin, Bộ Giáo dục và Đào tạo, 2021). Hoàn thành Final quiz là điều kiện bắt buộc để hoàn thành khoá học Coursera.\nSelf-review the readings, videos and mind maps of all 3 Coursera modules, then take the Final quiz (100-question bank, system randomly displays 10-20 questions per attempt, 20-minute time limit, covering Chapters 1-6). Completing the Final quiz is mandatory to complete the Coursera short course.",
+        "S-Download": "",
+        "Student's Tasks": "- Sản phẩm Coursera Module (final quiz)\n- Giáo trình Kinh tế chính trị Mác - Lênin, dành cho hệ không chuyên lý luận chính trị. NXB Chính trị quốc gia Sự thật, 2021.\n- Political economics of Marxism – Leninism 2021 textbook.",
+        "URLs": ""
+      },
+      {
+        "Session": "38",
+        "Topic": "(Tiếp) Coursera — Tự ôn tập tổng hợp Chương 1-6 và Final quiz kết thúc khoá học Coursera (25 phút)\nTự ôn tập + Final quiz (10-20 câu, 20 phút)\nCoursera — Self-review of Chapters 1-6 and Final quiz to complete the Coursera short course (25 mins)\nSelf-review + Final quiz (10-20 questions, 20 mins)",
+        "Learning-Teaching Type": "Online",
+        "LO": "LO1, LO2, LO3, LO4, LO5, LO6, LO7, LO8, LO9",
+        "ITU": "ITU",
+        "Student Materials": "Tự ôn tập lại bài đọc, video, sơ đồ tư duy của cả 3 module trên Coursera; sau đó làm Final quiz (ngân hàng 100 câu, hệ thống hiển thị ngẫu nhiên 10-20 câu/lượt, thời lượng làm bài 20 phút, phạm vi toàn bộ Chương 1 đến Chương 6 - Giáo trình Kinh tế chính trị Mác - Lênin, Bộ Giáo dục và Đào tạo, 2021). Hoàn thành Final quiz là điều kiện bắt buộc để hoàn thành khoá học Coursera.\nSelf-review the readings, videos and mind maps of all 3 Coursera modules, then take the Final quiz (100-question bank, system randomly displays 10-20 questions per attempt, 20-minute time limit, covering Chapters 1-6). Completing the Final quiz is mandatory to complete the Coursera short course.",
+        "S-Download": "",
+        "Student's Tasks": "- Sản phẩm Coursera Module (final quiz)\n- Giáo trình Kinh tế chính trị Mác - Lênin, dành cho hệ không chuyên lý luận chính trị. NXB Chính trị quốc gia Sự thật, 2021.\n- Political economics of Marxism – Leninism 2021 textbook.",
+        "URLs": ""
+      },
+      {
+        "Session": "39",
+        "Topic": "(Tiếp) Coursera — Tự ôn tập tổng hợp Chương 1-6 và Final quiz kết thúc khoá học Coursera (25 phút)\nTự ôn tập + Final quiz (10-20 câu, 20 phút)\nCoursera — Self-review of Chapters 1-6 and Final quiz to complete the Coursera short course (25 mins)\nSelf-review + Final quiz (10-20 questions, 20 mins)",
+        "Learning-Teaching Type": "Online",
+        "LO": "LO1, LO2, LO3, LO4, LO5, LO6, LO7, LO8, LO9",
+        "ITU": "ITU",
+        "Student Materials": "Tự ôn tập lại bài đọc, video, sơ đồ tư duy của cả 3 module trên Coursera; sau đó làm Final quiz (ngân hàng 100 câu, hệ thống hiển thị ngẫu nhiên 10-20 câu/lượt, thời lượng làm bài 20 phút, phạm vi toàn bộ Chương 1 đến Chương 6 - Giáo trình Kinh tế chính trị Mác - Lênin, Bộ Giáo dục và Đào tạo, 2021). Hoàn thành Final quiz là điều kiện bắt buộc để hoàn thành khoá học Coursera.\nSelf-review the readings, videos and mind maps of all 3 Coursera modules, then take the Final quiz (100-question bank, system randomly displays 10-20 questions per attempt, 20-minute time limit, covering Chapters 1-6). Completing the Final quiz is mandatory to complete the Coursera short course.",
+        "S-Download": "",
+        "Student's Tasks": "- Sản phẩm Coursera Module (final quiz)\n- Giáo trình Kinh tế chính trị Mác - Lênin, dành cho hệ không chuyên lý luận chính trị. NXB Chính trị quốc gia Sự thật, 2021.\n- Political economics of Marxism – Leninism 2021 textbook.",
+        "URLs": ""
+      },
+      {
+        "Session": "40",
+        "Topic": "Review Chapters 1, 2, 3, 4, 5, 6",
+        "Learning-Teaching Type": "Offline",
+        "LO": "LO1, LO2, LO3, LO4, LO5, LO6, LO7, LO8, LO9",
+        "ITU": "TU",
+        "Student Materials": "Đọc trước giáo trình Kinh tế chính trị Mác - Lênin (2021) từ trang 11 đến trang 286.\nRead the textbook of Marxist-Leninist Political Economy (2021) from page 11 to page 286.",
+        "S-Download": "",
+        "Student's Tasks": "- Giáo trình Kinh tế chính trị Mác - Lênin, dành cho hệ không chuyên lý luận chính trị. NXB chính trị quốc gia sự thật, 2021.\n- Đề cương bài giảng của giảng viên.\n- Political economics of Marxism – Leninism 2021 textbook\n- Slides",
+        "URLs": ""
+      }
+    ],
+    "assessments": [
+      {
+        "No.": "1",
+        "Category": "Assignment",
+        "Type": "on-going",
+        "Part": "2",
+        "Weight": "40.0%",
+        "Completion Criteria": ">0",
+        "Duration": "Phụ thuộc theo hình thức kiểm tra đánh giá của giảng viên\nDepending on the instructor’s chosen form of assessment",
+        "CLO": "LO2, LO3, LO4, LO5, LO6, LO7, LO8, LO9",
+        "Question Type": "Bài thuyết trình và sản phẩm sáng tạo, bài thuyết trình, bài kiểm tra…\nPresentation with creative product, presentation, quiz…",
+        "No Question": "Phụ thuộc theo hình thức kiểm tra đánh giá của giảng viên\nDepending on the instructor’s chosen form of assessment",
+        "Knowledge and Skill": "Kiến thức và kỹ năng trong phạm vi chương 2, 3, 4, 5, 6\nCover chapter 2, 3, 4, 5, 6",
+        "Grading Guide": "Bài thuyết trình và sản phẩm sáng tạo, bài thuyết trình, bài kiểm tra… (Giảng viên linh hoạt lựa chọn hình thức kiểm tra đánh giá phù hợp)\nPresentation with a creative product, presentation, quiz, etc. (the instructor may flexibly choose the appropriate form of assessment)",
+        "Note": "Sinh viên làm thuyết trình và sản phẩm sáng tạo, thuyết trình, hoặc quiz tuỳ theo sĩ số lớp và điều kiện cơ sở\nDepending on class size and institutional conditions, students may be assessed through a presentation with a creative product, a presentation, or a quiz"
+      },
+      {
+        "No.": "2",
+        "Category": "Participation",
+        "Type": "on-going",
+        "Part": "1",
+        "Weight": "10.0%",
+        "Completion Criteria": ">0",
+        "Duration": "",
+        "CLO": "LO1, LO2, LO3, LO4, LO5, LO6, LO7, LO8, LO9",
+        "Question Type": "Đề xuất của giảng viên\nTeachers' proposal",
+        "No Question": "N/A",
+        "Knowledge and Skill": "",
+        "Grading Guide": "Trong lớp học",
+        "Note": "Sinh viên vắng không quá 20%\nAbsent no more than 20% of class hours"
+      },
+      {
+        "No.": "3",
+        "Category": "Progress tests",
+        "Type": "on-going",
+        "Part": "1",
+        "Weight": "20.0%",
+        "Completion Criteria": ">0",
+        "Duration": "20'",
+        "CLO": "LO2, LO3, LO4, LO6, LO7, LO8",
+        "Question Type": "Câu hỏi trắc nghiệm dạng đúng sai, câu hỏi trắc nghiệm dạng nhiều lựa chọn.\nYes-no questions, Multiple choice questions",
+        "No Question": "20- 25",
+        "Knowledge and Skill": "Kiến thức trong phạm vi chương 2, 3, 4, 5\nKnowledge within the scope of Chapter 1, 2, 3, 4, 5",
+        "Grading Guide": "Trong lớp học\nin class",
+        "Note": "Sinh viên không được sử dụng tài liệu.\nStudents are not allowed to use materials."
+      },
+      {
+        "No.": "4",
+        "Category": "Final exam",
+        "Type": "Final exam",
+        "Part": "1",
+        "Weight": "30.0%",
+        "Completion Criteria": "4",
+        "Duration": "60'",
+        "CLO": "LO1, LO2, LO3, LO4, LO5, LO6, LO7, LO8",
+        "Question Type": "Câu hỏi trắc nghiệm dạng đúng sai, câu hỏi trắc nghiệm dạng nhiều lựa chọn.Yes-no questions, Multiple choice questions",
+        "No Question": "60",
+        "Knowledge and Skill": "Tất cả 6 chương (Chương 1: 5 câu, chương 2: 10 câu, chương 3: 10 câu, chương 4: 10 câu, chương 5: 10 câu, chương 6: 15 câu)\nAll 6 chapters included (Chapter 1: 5 questions, chapter 2: 10 questions, chapter 3: 10 questions, chapter 4: 10 questions, chapter 5: 10 questions, chapter 6: 15 questions)",
+        "Grading Guide": "Phòng Khảo thí tổ chức\nby Office of Assessment",
+        "Note": "Sinh viên không được sử dụng tài liệu.\nStudents are not allowed to use materials."
+      }
+    ]
+  },
+  "error": null
+}

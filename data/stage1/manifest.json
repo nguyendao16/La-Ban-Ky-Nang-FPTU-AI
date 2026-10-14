@@ -1,0 +1,503 @@
+[
+  {
+    "subject_code": "OTP101",
+    "semester": 0,
+    "record_type": "normal_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/OTP101.json"
+  },
+  {
+    "subject_code": "PEN",
+    "semester": 0,
+    "record_type": "normal_subject",
+    "has_syllabus": false,
+    "file": "data/stage1/subjects/PEN.json"
+  },
+  {
+    "subject_code": "PHE_COM*1",
+    "semester": 0,
+    "record_type": "normal_subject",
+    "has_syllabus": false,
+    "file": "data/stage1/subjects/PHE_COM_1.json"
+  },
+  {
+    "subject_code": "TMI_ELE",
+    "semester": 0,
+    "record_type": "normal_subject",
+    "has_syllabus": false,
+    "file": "data/stage1/subjects/TMI_ELE.json"
+  },
+  {
+    "subject_code": "CSI106",
+    "semester": 1,
+    "record_type": "normal_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/CSI106.json"
+  },
+  {
+    "subject_code": "MAD101",
+    "semester": 1,
+    "record_type": "normal_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/MAD101.json"
+  },
+  {
+    "subject_code": "MAE101",
+    "semester": 1,
+    "record_type": "normal_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/MAE101.json"
+  },
+  {
+    "subject_code": "PFP191",
+    "semester": 1,
+    "record_type": "normal_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/PFP191.json"
+  },
+  {
+    "subject_code": "PHE_COM*2",
+    "semester": 1,
+    "record_type": "normal_subject",
+    "has_syllabus": false,
+    "file": "data/stage1/subjects/PHE_COM_2.json"
+  },
+  {
+    "subject_code": "SSA101",
+    "semester": 1,
+    "record_type": "normal_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/SSA101.json"
+  },
+  {
+    "subject_code": "AIG202c",
+    "semester": 2,
+    "record_type": "normal_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/AIG202c.json"
+  },
+  {
+    "subject_code": "CEA201",
+    "semester": 2,
+    "record_type": "normal_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/CEA201.json"
+  },
+  {
+    "subject_code": "CSD203",
+    "semester": 2,
+    "record_type": "normal_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/CSD203.json"
+  },
+  {
+    "subject_code": "DBI202",
+    "semester": 2,
+    "record_type": "normal_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/DBI202.json"
+  },
+  {
+    "subject_code": "JPD113",
+    "semester": 2,
+    "record_type": "normal_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/JPD113.json"
+  },
+  {
+    "subject_code": "PHE_COM*3",
+    "semester": 2,
+    "record_type": "normal_subject",
+    "has_syllabus": false,
+    "file": "data/stage1/subjects/PHE_COM_3.json"
+  },
+  {
+    "subject_code": "ADY201m",
+    "semester": 3,
+    "record_type": "normal_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/ADY201m.json"
+  },
+  {
+    "subject_code": "ITE303c",
+    "semester": 3,
+    "record_type": "normal_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/ITE303c.json"
+  },
+  {
+    "subject_code": "JPD123",
+    "semester": 3,
+    "record_type": "normal_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/JPD123.json"
+  },
+  {
+    "subject_code": "MAI391",
+    "semester": 3,
+    "record_type": "normal_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/MAI391.json"
+  },
+  {
+    "subject_code": "MAS291",
+    "semester": 3,
+    "record_type": "normal_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/MAS291.json"
+  },
+  {
+    "subject_code": "AIL303m",
+    "semester": 4,
+    "record_type": "normal_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/AIL303m.json"
+  },
+  {
+    "subject_code": "CPV301",
+    "semester": 4,
+    "record_type": "normal_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/CPV301.json"
+  },
+  {
+    "subject_code": "DAP391m",
+    "semester": 4,
+    "record_type": "normal_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/DAP391m.json"
+  },
+  {
+    "subject_code": "SSG105",
+    "semester": 4,
+    "record_type": "normal_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/SSG105.json"
+  },
+  {
+    "subject_code": "SWE201c",
+    "semester": 4,
+    "record_type": "normal_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/SWE201c.json"
+  },
+  {
+    "subject_code": "AGA301c",
+    "semester": 5,
+    "record_type": "combo_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/AGA301c.json",
+    "combo_code": "AI17_COM4",
+    "combo_slot_alias": "AI17_COM_2",
+    "combo_slot_number": 2
+  },
+  {
+    "subject_code": "AIH301m",
+    "semester": 5,
+    "record_type": "combo_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/AIH301m.json",
+    "combo_code": "AI17_COM3",
+    "combo_slot_alias": "AI17_COM_1",
+    "combo_slot_number": 1
+  },
+  {
+    "subject_code": "AIS301c",
+    "semester": 5,
+    "record_type": "combo_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/AIS301c.json",
+    "combo_code": "AI17_COM5",
+    "combo_slot_alias": "AI17_COM_1",
+    "combo_slot_number": 1
+  },
+  {
+    "subject_code": "ASR301c",
+    "semester": 5,
+    "record_type": "combo_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/ASR301c.json",
+    "combo_code": "AI17_COM3",
+    "combo_slot_alias": "AI17_COM_2",
+    "combo_slot_number": 2
+  },
+  {
+    "subject_code": "BDI302c",
+    "semester": 5,
+    "record_type": "combo_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/BDI302c.json",
+    "combo_code": "AI17_COM1",
+    "combo_slot_alias": "AI17_COM_1",
+    "combo_slot_number": 1
+  },
+  {
+    "subject_code": "DPL302m",
+    "semester": 5,
+    "record_type": "normal_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/DPL302m.json"
+  },
+  {
+    "subject_code": "DSR301m",
+    "semester": 5,
+    "record_type": "combo_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/DSR301m.json",
+    "combo_code": "AI17_COM1",
+    "combo_slot_alias": "AI17_COM_2",
+    "combo_slot_number": 2
+  },
+  {
+    "subject_code": "DWP301c",
+    "semester": 5,
+    "record_type": "normal_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/DWP301c.json"
+  },
+  {
+    "subject_code": "GAI201m",
+    "semester": 5,
+    "record_type": "combo_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/GAI201m.json",
+    "combo_code": "AI17_COM4",
+    "combo_slot_alias": "AI17_COM_1",
+    "combo_slot_number": 1
+  },
+  {
+    "subject_code": "MOI201m",
+    "semester": 5,
+    "record_type": "combo_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/MOI201m.json",
+    "combo_code": "AI17_COM5",
+    "combo_slot_alias": "AI17_COM_2",
+    "combo_slot_number": 2
+  },
+  {
+    "subject_code": "SEG301",
+    "semester": 5,
+    "record_type": "combo_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/SEG301.json",
+    "combo_code": "AI17_COM2.1",
+    "combo_slot_alias": "AI17_COM_1",
+    "combo_slot_number": 1
+  },
+  {
+    "subject_code": "TMG301",
+    "semester": 5,
+    "record_type": "combo_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/TMG301.json",
+    "combo_code": "AI17_COM2.1",
+    "combo_slot_alias": "AI17_COM_2",
+    "combo_slot_number": 2
+  },
+  {
+    "subject_code": "ENW493c",
+    "semester": 6,
+    "record_type": "normal_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/ENW493c.json"
+  },
+  {
+    "subject_code": "OJT202",
+    "semester": 6,
+    "record_type": "normal_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/OJT202.json"
+  },
+  {
+    "subject_code": "AIM301m",
+    "semester": 7,
+    "record_type": "combo_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/AIM301m.json",
+    "combo_code": "AI17_COM3",
+    "combo_slot_alias": "AI17_COM_3",
+    "combo_slot_number": 3
+  },
+  {
+    "subject_code": "CMO301m",
+    "semester": 7,
+    "record_type": "combo_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/CMO301m.json",
+    "combo_code": "AI17_COM5",
+    "combo_slot_alias": "AI17_COM_3",
+    "combo_slot_number": 3
+  },
+  {
+    "subject_code": "DAT301m",
+    "semester": 7,
+    "record_type": "normal_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/DAT301m.json"
+  },
+  {
+    "subject_code": "DBM302m",
+    "semester": 7,
+    "record_type": "combo_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/DBM302m.json",
+    "combo_code": "AI17_COM1",
+    "combo_slot_alias": "AI17_COM_3",
+    "combo_slot_number": 3
+  },
+  {
+    "subject_code": "EXE101",
+    "semester": 7,
+    "record_type": "normal_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/EXE101.json"
+  },
+  {
+    "subject_code": "MGA301",
+    "semester": 7,
+    "record_type": "combo_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/MGA301.json",
+    "combo_code": "AI17_COM4",
+    "combo_slot_alias": "AI17_COM_3",
+    "combo_slot_number": 3
+  },
+  {
+    "subject_code": "NLP301m",
+    "semester": 7,
+    "record_type": "normal_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/NLP301m.json"
+  },
+  {
+    "subject_code": "PMG201c",
+    "semester": 7,
+    "record_type": "normal_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/PMG201c.json"
+  },
+  {
+    "subject_code": "SLP301",
+    "semester": 7,
+    "record_type": "combo_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/SLP301.json",
+    "combo_code": "AI17_COM2.1",
+    "combo_slot_alias": "AI17_COM_3",
+    "combo_slot_number": 3
+  },
+  {
+    "subject_code": "AID301c",
+    "semester": 8,
+    "record_type": "normal_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/AID301c.json"
+  },
+  {
+    "subject_code": "AIE301m",
+    "semester": 8,
+    "record_type": "combo_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/AIE301m.json",
+    "combo_code": "AI17_COM3",
+    "combo_slot_alias": "AI17_COM_4",
+    "combo_slot_number": 4
+  },
+  {
+    "subject_code": "AMO301m",
+    "semester": 8,
+    "record_type": "combo_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/AMO301m.json",
+    "combo_code": "AI17_COM5",
+    "combo_slot_alias": "AI17_COM_4",
+    "combo_slot_number": 4
+  },
+  {
+    "subject_code": "DSP391m",
+    "semester": 8,
+    "record_type": "combo_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/DSP391m.json",
+    "combo_code": "AI17_COM1",
+    "combo_slot_alias": "AI17_COM_4",
+    "combo_slot_number": 4
+  },
+  {
+    "subject_code": "EXE201",
+    "semester": 8,
+    "record_type": "normal_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/EXE201.json"
+  },
+  {
+    "subject_code": "GAP301",
+    "semester": 8,
+    "record_type": "combo_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/GAP301.json",
+    "combo_code": "AI17_COM4",
+    "combo_slot_alias": "AI17_COM_4",
+    "combo_slot_number": 4
+  },
+  {
+    "subject_code": "IMP302",
+    "semester": 8,
+    "record_type": "combo_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/IMP302.json",
+    "combo_code": "AI17_COM2.1",
+    "combo_slot_alias": "AI17_COM_4",
+    "combo_slot_number": 4
+  },
+  {
+    "subject_code": "MLN111",
+    "semester": 8,
+    "record_type": "normal_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/MLN111.json"
+  },
+  {
+    "subject_code": "MLN122",
+    "semester": 8,
+    "record_type": "normal_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/MLN122.json"
+  },
+  {
+    "subject_code": "REL301m",
+    "semester": 8,
+    "record_type": "normal_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/REL301m.json"
+  },
+  {
+    "subject_code": "AI17_GRA_ELE",
+    "semester": 9,
+    "record_type": "normal_subject",
+    "has_syllabus": false,
+    "file": "data/stage1/subjects/AI17_GRA_ELE.json"
+  },
+  {
+    "subject_code": "HCM202",
+    "semester": 9,
+    "record_type": "normal_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/HCM202.json"
+  },
+  {
+    "subject_code": "MLN131",
+    "semester": 9,
+    "record_type": "normal_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/MLN131.json"
+  },
+  {
+    "subject_code": "VNR202",
+    "semester": 9,
+    "record_type": "normal_subject",
+    "has_syllabus": true,
+    "file": "data/stage1/subjects/VNR202.json"
+  }
+]

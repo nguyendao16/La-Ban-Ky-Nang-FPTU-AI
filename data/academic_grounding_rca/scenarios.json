@@ -1,0 +1,727 @@
+{
+  "version": 1,
+  "profile_path": "data/student_academic_profile.enriched.json",
+  "profile_sha256": "b0bfa72fdc04f8d2cfc94e68fd7b4745387cd378a923f55eb94e2aef391bf531",
+  "holdouts": [
+    "S7",
+    "S8"
+  ],
+  "holdouts_not_used_for_prompt_design": true,
+  "scenarios": [
+    {
+      "scenario_id": "S1",
+      "courses": [
+        "MAS291"
+      ],
+      "holdout": false,
+      "jd": "JD05",
+      "question": "Trong MAS291, CLO nào nói về confidence intervals, CLO nào nói về simple linear regression? Phân biệt hai nội dung và nêu điểm/achievement riêng.",
+      "targets": [
+        {
+          "claim_id": "S1-CI",
+          "claim": "MAS291 có nội dung confidence intervals",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "MAS291",
+              "clo": "CLO7"
+            }
+          ],
+          "acceptable_related_sources": [],
+          "acceptable_relations": [
+            "direct"
+          ],
+          "atomic_targets": [
+            "MAS291 có nội dung confidence intervals"
+          ],
+          "annotation_note": ""
+        },
+        {
+          "claim_id": "S1-LR",
+          "claim": "MAS291 có nội dung simple linear regression",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "MAS291",
+              "clo": "CLO9"
+            }
+          ],
+          "acceptable_related_sources": [],
+          "acceptable_relations": [
+            "direct"
+          ],
+          "atomic_targets": [
+            "MAS291 có nội dung simple linear regression"
+          ],
+          "annotation_note": ""
+        },
+        {
+          "claim_id": "S1-BOTH",
+          "claim": "MAS291 có cả confidence intervals và simple linear regression",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "MAS291",
+              "clo": "CLO7"
+            },
+            {
+              "course_code": "MAS291",
+              "clo": "CLO9"
+            }
+          ],
+          "acceptable_related_sources": [],
+          "acceptable_relations": [
+            "direct"
+          ],
+          "atomic_targets": [
+            "MAS291 confidence intervals",
+            "MAS291 simple linear regression"
+          ],
+          "annotation_note": "Compound requires support for both atoms; one reference does not cover both."
+        }
+      ]
+    },
+    {
+      "scenario_id": "S2",
+      "courses": [
+        "CSI106"
+      ],
+      "holdout": false,
+      "jd": "JD11",
+      "question": "Trong CSI106, data types/bit patterns và networking nằm ở CLO nào? Hai mô tả có khác nhau không?",
+      "targets": [
+        {
+          "claim_id": "S2-DATA",
+          "claim": "CSI106 học data types and bit patterns",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "CSI106",
+              "clo": "CLO3"
+            }
+          ],
+          "acceptable_related_sources": [],
+          "acceptable_relations": [
+            "direct"
+          ],
+          "atomic_targets": [
+            "CSI106 học data types and bit patterns"
+          ],
+          "annotation_note": ""
+        },
+        {
+          "claim_id": "S2-NET",
+          "claim": "CSI106 học networking layers",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "CSI106",
+              "clo": "CLO4"
+            }
+          ],
+          "acceptable_related_sources": [],
+          "acceptable_relations": [
+            "direct"
+          ],
+          "atomic_targets": [
+            "CSI106 học networking layers"
+          ],
+          "annotation_note": ""
+        },
+        {
+          "claim_id": "S2-BOTH",
+          "claim": "CSI106 có data representation và networking",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "CSI106",
+              "clo": "CLO3"
+            },
+            {
+              "course_code": "CSI106",
+              "clo": "CLO4"
+            }
+          ],
+          "acceptable_related_sources": [],
+          "acceptable_relations": [
+            "direct"
+          ],
+          "atomic_targets": [
+            "CSI106 data representation",
+            "CSI106 networking layers"
+          ],
+          "annotation_note": ""
+        }
+      ]
+    },
+    {
+      "scenario_id": "S3",
+      "courses": [
+        "CPV301"
+      ],
+      "holdout": false,
+      "jd": "JD01",
+      "question": "Object Detection, Face Recognition và Object Tracking trong CPV301 nằm ở đâu? Động từ học tập có xác nhận triển khai cả ba không?",
+      "targets": [
+        {
+          "claim_id": "S3-OD",
+          "claim": "CPV301 yêu cầu understand and implement object detection",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "CPV301",
+              "clo": "CLO8"
+            }
+          ],
+          "acceptable_related_sources": [],
+          "acceptable_relations": [
+            "direct"
+          ],
+          "atomic_targets": [
+            "CPV301 yêu cầu understand and implement object detection"
+          ],
+          "annotation_note": ""
+        },
+        {
+          "claim_id": "S3-FR",
+          "claim": "CPV301 yêu cầu explain face recognition and object tracking",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "CPV301",
+              "clo": "CLO9"
+            }
+          ],
+          "acceptable_related_sources": [],
+          "acceptable_relations": [
+            "direct"
+          ],
+          "atomic_targets": [
+            "Explain face recognition",
+            "Explain object tracking"
+          ],
+          "annotation_note": ""
+        },
+        {
+          "claim_id": "S3-IMPLEMENT",
+          "claim": "CPV301 xác nhận implement face recognition và object tracking",
+          "acceptable_direct_sources": [],
+          "acceptable_related_sources": [
+            {
+              "course_code": "CPV301",
+              "clo": "CLO9"
+            }
+          ],
+          "acceptable_relations": [
+            "related",
+            "insufficient"
+          ],
+          "atomic_targets": [
+            "CPV301 xác nhận implement face recognition và object tracking"
+          ],
+          "annotation_note": "Explain is not Implement; contextual metadata also does not confirm personal implementation."
+        }
+      ]
+    },
+    {
+      "scenario_id": "S4",
+      "courses": [
+        "DBI202",
+        "ADY201m",
+        "DAP391m",
+        "AIL303m"
+      ],
+      "holdout": false,
+      "jd": "JD05",
+      "question": "SQL/T-SQL trong DBI202 và SQL/database access trong ADY201m nằm ở CLO nào, với điểm/achievement nào? DAP391m/CLO7 có nêu SQL không?",
+      "targets": [
+        {
+          "claim_id": "S4-SQL",
+          "claim": "DBI202 có SQL queries trên Microsoft SQL Server",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "DBI202",
+              "clo": "CLO5"
+            }
+          ],
+          "acceptable_related_sources": [
+            {
+              "course_code": "DBI202",
+              "metadata_field": "tools"
+            }
+          ],
+          "acceptable_relations": [
+            "direct"
+          ],
+          "atomic_targets": [
+            "DBI202 có SQL queries trên Microsoft SQL Server"
+          ],
+          "annotation_note": ""
+        },
+        {
+          "claim_id": "S4-TSQL",
+          "claim": "DBI202 có T-SQL programming",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "DBI202",
+              "clo": "CLO6"
+            }
+          ],
+          "acceptable_related_sources": [],
+          "acceptable_relations": [
+            "direct"
+          ],
+          "atomic_targets": [
+            "DBI202 có T-SQL programming"
+          ],
+          "annotation_note": ""
+        },
+        {
+          "claim_id": "S4-ADY",
+          "claim": "ADY201m có SQL/database access trong guided project",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "ADY201m",
+              "clo": "CLO7"
+            }
+          ],
+          "acceptable_related_sources": [
+            {
+              "course_code": "ADY201m",
+              "clo": "CLO1"
+            }
+          ],
+          "acceptable_relations": [
+            "direct"
+          ],
+          "atomic_targets": [
+            "ADY201m có SQL/database access trong guided project"
+          ],
+          "annotation_note": ""
+        },
+        {
+          "claim_id": "S4-DAP",
+          "claim": "DAP391m/CLO7 nêu SQL/database access",
+          "acceptable_direct_sources": [],
+          "acceptable_related_sources": [
+            {
+              "course_code": "DAP391m",
+              "clo": "CLO7"
+            }
+          ],
+          "acceptable_relations": [
+            "related",
+            "insufficient"
+          ],
+          "atomic_targets": [
+            "DAP391m/CLO7 nêu SQL/database access"
+          ],
+          "annotation_note": "DAP7 is adjacent data-analysis workflow, not direct SQL evidence. ADY7 cannot establish what DAP7 says."
+        },
+        {
+          "claim_id": "S4-BANDS",
+          "claim": "DBI202/CLO5 và CLO6 có achievement basic",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "DBI202",
+              "clo": "CLO5"
+            },
+            {
+              "course_code": "DBI202",
+              "clo": "CLO6"
+            }
+          ],
+          "acceptable_related_sources": [],
+          "acceptable_relations": [
+            "direct"
+          ],
+          "atomic_targets": [
+            "DBI202/CLO5=5.96/basic",
+            "DBI202/CLO6=5.96/basic"
+          ],
+          "annotation_note": "Performance values are source fields, not quote substrings or a global SQL level."
+        }
+      ]
+    },
+    {
+      "scenario_id": "S5",
+      "courses": [
+        "MAI391",
+        "MAE101",
+        "MAS291",
+        "ADY201m",
+        "AIL303m"
+      ],
+      "holdout": false,
+      "jd": "JD05",
+      "question": "Hồ sơ có gradient descent/continuous optimization, linear regression, PCA và SVM ở những nguồn nào? Nêu nguồn riêng và giữ achievement của từng CLO.",
+      "targets": [
+        {
+          "claim_id": "S5-OPT",
+          "claim": "Continuous optimization bằng gradient descent",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "MAI391",
+              "clo": "CLO4"
+            }
+          ],
+          "acceptable_related_sources": [
+            {
+              "course_code": "MAE101",
+              "clo": "CLO3"
+            }
+          ],
+          "acceptable_relations": [
+            "direct"
+          ],
+          "atomic_targets": [
+            "Continuous optimization bằng gradient descent"
+          ],
+          "annotation_note": ""
+        },
+        {
+          "claim_id": "S5-LR",
+          "claim": "Linear regression",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "MAI391",
+              "clo": "CLO5"
+            },
+            {
+              "course_code": "MAS291",
+              "clo": "CLO9"
+            },
+            {
+              "course_code": "AIL303m",
+              "clo": "CLO4"
+            },
+            {
+              "course_code": "ADY201m",
+              "clo": "CLO6"
+            },
+            {
+              "course_code": "ADY201m",
+              "clo": "CLO7"
+            }
+          ],
+          "acceptable_related_sources": [],
+          "acceptable_relations": [
+            "direct"
+          ],
+          "atomic_targets": [
+            "Linear regression"
+          ],
+          "annotation_note": "These are alternative/complementary direct sources, not all mandatory citations. Cognitive scope differs by source."
+        },
+        {
+          "claim_id": "S5-PCA",
+          "claim": "PCA",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "MAI391",
+              "clo": "CLO6"
+            },
+            {
+              "course_code": "MAI391",
+              "metadata_field": "description"
+            }
+          ],
+          "acceptable_related_sources": [
+            {
+              "course_code": "AIL303m",
+              "clo": "CLO9"
+            }
+          ],
+          "acceptable_relations": [
+            "direct"
+          ],
+          "atomic_targets": [
+            "PCA"
+          ],
+          "annotation_note": "Metadata supports curriculum context; assessed Apply/score must use CLO6."
+        },
+        {
+          "claim_id": "S5-SVM",
+          "claim": "Support vector machine classification",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "MAI391",
+              "clo": "CLO7"
+            },
+            {
+              "course_code": "MAI391",
+              "metadata_field": "description"
+            }
+          ],
+          "acceptable_related_sources": [],
+          "acceptable_relations": [
+            "direct"
+          ],
+          "atomic_targets": [
+            "Support vector machine classification"
+          ],
+          "annotation_note": "Metadata cannot establish assessed performance or the Apply verb."
+        }
+      ]
+    },
+    {
+      "scenario_id": "S6",
+      "courses": [
+        "ADY201m",
+        "DAP391m"
+      ],
+      "holdout": false,
+      "jd": "JD05",
+      "question": "Git/GitHub, Jupyter/JupyterLab và RStudio xuất hiện ở đâu trong ADY201m/DAP391m? Danh sách đó và 'use at least one' có xác nhận mình đã sử dụng từng công cụ không?",
+      "targets": [
+        {
+          "claim_id": "S6-CONTEXT",
+          "claim": "ADY201m và DAP391m liệt kê Git và JupyterLab trong tools",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "ADY201m",
+              "metadata_field": "tools"
+            },
+            {
+              "course_code": "DAP391m",
+              "metadata_field": "tools"
+            }
+          ],
+          "acceptable_related_sources": [],
+          "acceptable_relations": [
+            "direct"
+          ],
+          "atomic_targets": [
+            "ADY201m tools names Git/JupyterLab",
+            "DAP391m tools names Git/JupyterLab"
+          ],
+          "annotation_note": "Direct for the listing fact only; Git/JupyterLab are not explicitly named by ADY CLO3."
+        },
+        {
+          "claim_id": "S6-CHOICE",
+          "claim": "ADY201m yêu cầu dùng ít nhất một data-science tool",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "ADY201m",
+              "clo": "CLO3"
+            }
+          ],
+          "acceptable_related_sources": [],
+          "acceptable_relations": [
+            "direct"
+          ],
+          "atomic_targets": [
+            "ADY201m yêu cầu dùng ít nhất một data-science tool"
+          ],
+          "annotation_note": ""
+        },
+        {
+          "claim_id": "S6-USE",
+          "claim": "Profile xác nhận cá nhân đã dùng GitHub, JupyterLab và RStudio từng công cụ",
+          "acceptable_direct_sources": [],
+          "acceptable_related_sources": [
+            {
+              "course_code": "ADY201m",
+              "clo": "CLO3"
+            },
+            {
+              "course_code": "ADY201m",
+              "metadata_field": "tools"
+            },
+            {
+              "course_code": "DAP391m",
+              "metadata_field": "tools"
+            }
+          ],
+          "acceptable_relations": [
+            "related",
+            "insufficient"
+          ],
+          "atomic_targets": [
+            "Personal GitHub use",
+            "Personal JupyterLab use",
+            "Personal RStudio use"
+          ],
+          "annotation_note": "Tool list and choice do not identify the selected tool or artifacts."
+        }
+      ]
+    },
+    {
+      "scenario_id": "S7",
+      "courses": [
+        "PFP191"
+      ],
+      "holdout": true,
+      "jd": "JD11",
+      "question": "Trong PFP191, xử lý strings và đọc/ghi files nằm ở CLO nào? Python có xác nhận FastAPI không, và VS Code/Google Colab là evidence cá nhân hay metadata của môn?",
+      "targets": [
+        {
+          "claim_id": "S7-STR",
+          "claim": "PFP191 học Python strings",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "PFP191",
+              "clo": "CLO4"
+            }
+          ],
+          "acceptable_related_sources": [],
+          "acceptable_relations": [
+            "direct"
+          ],
+          "atomic_targets": [
+            "PFP191 học Python strings"
+          ],
+          "annotation_note": ""
+        },
+        {
+          "claim_id": "S7-FILE",
+          "claim": "PFP191 học Python file handling",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "PFP191",
+              "clo": "CLO5"
+            }
+          ],
+          "acceptable_related_sources": [],
+          "acceptable_relations": [
+            "direct"
+          ],
+          "atomic_targets": [
+            "PFP191 học Python file handling"
+          ],
+          "annotation_note": ""
+        },
+        {
+          "claim_id": "S7-FASTAPI",
+          "claim": "Profile xác nhận FastAPI",
+          "acceptable_direct_sources": [],
+          "acceptable_related_sources": [
+            {
+              "course_code": "PFP191",
+              "clo": "CLO7"
+            },
+            {
+              "course_code": "ADY201m",
+              "clo": "CLO5"
+            },
+            {
+              "course_code": "DAP391m",
+              "clo": "CLO6"
+            }
+          ],
+          "acceptable_relations": [
+            "related",
+            "insufficient"
+          ],
+          "atomic_targets": [
+            "Profile xác nhận FastAPI"
+          ],
+          "annotation_note": ""
+        },
+        {
+          "claim_id": "S7-IDE",
+          "claim": "Visual Studio Code và Google Colab được liệt kê ở PFP191 tools",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "PFP191",
+              "metadata_field": "tools"
+            }
+          ],
+          "acceptable_related_sources": [],
+          "acceptable_relations": [
+            "direct"
+          ],
+          "atomic_targets": [
+            "Visual Studio Code và Google Colab được liệt kê ở PFP191 tools"
+          ],
+          "annotation_note": "The listing is direct contextual evidence; personal use is not confirmed."
+        }
+      ]
+    },
+    {
+      "scenario_id": "S8",
+      "courses": [
+        "CSD203"
+      ],
+      "holdout": true,
+      "jd": "JD11",
+      "question": "CSD203 có graphs, sorting và hashing ở CLO nào? Điểm/achievement của từng CLO đó là gì, và có thể gọi cả môn excellent từ một CLO khác không?",
+      "targets": [
+        {
+          "claim_id": "S8-GRAPH",
+          "claim": "CSD203 graphs và graph algorithms",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "CSD203",
+              "clo": "CLO5"
+            }
+          ],
+          "acceptable_related_sources": [],
+          "acceptable_relations": [
+            "direct"
+          ],
+          "atomic_targets": [
+            "CSD203 graphs và graph algorithms"
+          ],
+          "annotation_note": ""
+        },
+        {
+          "claim_id": "S8-SORT",
+          "claim": "CSD203 sorting algorithms",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "CSD203",
+              "clo": "CLO6"
+            }
+          ],
+          "acceptable_related_sources": [],
+          "acceptable_relations": [
+            "direct"
+          ],
+          "atomic_targets": [
+            "CSD203 sorting algorithms"
+          ],
+          "annotation_note": ""
+        },
+        {
+          "claim_id": "S8-HASH",
+          "claim": "CSD203 hashing",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "CSD203",
+              "clo": "CLO7"
+            }
+          ],
+          "acceptable_related_sources": [],
+          "acceptable_relations": [
+            "direct"
+          ],
+          "atomic_targets": [
+            "CSD203 hashing"
+          ],
+          "annotation_note": ""
+        },
+        {
+          "claim_id": "S8-BANDS",
+          "claim": "CSD203/CLO5–7 có achievement basic",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "CSD203",
+              "clo": "CLO5"
+            },
+            {
+              "course_code": "CSD203",
+              "clo": "CLO6"
+            },
+            {
+              "course_code": "CSD203",
+              "clo": "CLO7"
+            }
+          ],
+          "acceptable_related_sources": [],
+          "acceptable_relations": [
+            "direct"
+          ],
+          "atomic_targets": [
+            "CSD203/CLO5=6.06/basic",
+            "CSD203/CLO6=6.06/basic",
+            "CSD203/CLO7=6.06/basic"
+          ],
+          "annotation_note": "Do not aggregate into a course-level performance label."
+        }
+      ]
+    }
+  ]
+}

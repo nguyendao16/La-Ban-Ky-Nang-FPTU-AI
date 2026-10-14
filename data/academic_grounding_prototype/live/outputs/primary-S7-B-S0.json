@@ -1,0 +1,13 @@
+{
+  "reply": "Trong CSD203, sorting nằm ở CLO6: “Explain the operation and performance of basic and advanced sorting algorithms…”, với score 6.06 và achievement basic. Hashing nằm ở CLO7: “Explain hashing and its applications…”, với score 6.06 và achievement basic.",
+  "evidence": [
+    {
+      "course_code": "CSD203",
+      "clo": "CLO6"
+    },
+    {
+      "course_code": "CSD203",
+      "clo": "CLO7"
+    }
+  ]
+}

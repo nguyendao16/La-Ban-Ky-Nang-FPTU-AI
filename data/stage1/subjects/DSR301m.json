@@ -1,0 +1,954 @@
+{
+  "schema_version": "stage1_v1",
+  "record_type": "combo_subject",
+  "subject": {
+    "code": "DSR301m",
+    "name": {
+      "full": "Applied Data Science with R - Khoa học dữ liệu ứng dụng với R",
+      "en": "Applied Data Science with R - Khoa học dữ liệu ứng dụng với R",
+      "vi": null
+    },
+    "semester": 5,
+    "credits": 3,
+    "prerequisite": ""
+  },
+  "syllabus": {
+    "id": "11217",
+    "name": "Applied Data Science with R - Khoa học dữ liệu ứng dụng với R",
+    "is_active": true,
+    "is_approved": true,
+    "decision_no": "358/QĐ-ĐHFPT dated 04/03/2024"
+  },
+  "content": {
+    "metadata": {
+      "syllabus_id": "11217",
+      "syllabus_name": "Applied Data Science with R - Khoa học dữ liệu ứng dụng với R",
+      "course_name_english": "",
+      "subject_code": "DSR301m",
+      "learning_teaching_method": "In-class lecture, Social Constructivism, Active Learning",
+      "nocredit": "3",
+      "degree_level": "Bachelor",
+      "time_allocation": "Study hour (150h) =\n45h (60 sessions) contact hours + 1h final exam + 104h self-study",
+      "pre_requisite": "DBI202",
+      "description": "This course introduces the basics of the R language such as data types, techniques for manipulation. Students will be able to perform basic R programming tasks to complete the data analysis process, create relational databases and query the data using SQL and R and communicate their data findings using data visualization techniques. Students will work with tools like R Studio and related R libraries for data science such as Tidyverse, Tidymodels, R Shiny, ggplot2.",
+      "studenttasks": "- Students must attend at least 80% of contact slots in order to be accepted to the final examination.\n- Student is responsible to do all exercises, assignments and labs given by instructor in class or at home and submit on time\n- Use laptop in class only for learning purpose\n- Promptly access to the FU LMS at http://lms.fpt.edu.vn for up-to-date course information",
+      "tools": "Jupyter Notebooks, RStudio IDE",
+      "scoring_scale": "10",
+      "decisionno_mm_dd_yyyy": "358/QĐ-ĐHFPT dated 04/03/2024",
+      "isapproved": "True",
+      "note": "Assignment: plus 0.5 to 1 points for completed IBM certification",
+      "is_scored": "True",
+      "minavgmarktopass": "5",
+      "isactive": "True",
+      "approveddate": "4/3/2024"
+    },
+    "materials": [
+      {
+        "no": "1",
+        "material_description": "Introduction to R Programming for Data Science",
+        "author": "",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://www.coursera.org/learn/introducton-r-programming-data-science"
+      },
+      {
+        "no": "2",
+        "material_description": "SQL for Data Science with R",
+        "author": "",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://www.coursera.org/learn/sql-data-science-r"
+      },
+      {
+        "no": "3",
+        "material_description": "Data Analysis with R",
+        "author": "",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://www.coursera.org/learn/data-analysis-with-r?specialization=applied-data-science-r"
+      },
+      {
+        "no": "4",
+        "material_description": "Data Visualization with R",
+        "author": "",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://www.coursera.org/learn/data-visualization-r?specialization=applied-data-science-r"
+      }
+    ],
+    "clos": [
+      {
+        "no": "1",
+        "clo_name": "CLO1",
+        "clo_details": "Understand the basics of the R language"
+      },
+      {
+        "no": "2",
+        "clo_name": "CLO2",
+        "clo_details": "Understand how manipulate data with R programming language and implement fundamental programming tasks"
+      },
+      {
+        "no": "3",
+        "clo_name": "CLO3",
+        "clo_details": "Learn and apply foundational knowledge of the SQL &R languages, and how to access databases from Jupyter notebooks using SQL and R"
+      },
+      {
+        "no": "4",
+        "clo_name": "CLO4",
+        "clo_details": "Know how to wrangle data for data analysis, develop models, improve models, evaluate and tune the performance"
+      },
+      {
+        "no": "5",
+        "clo_name": "CLO5",
+        "clo_details": "Understand how to describe and build graphs using R packages. Implement various types of basic charts to visualize like bar charts, histograms, pie charts, scatter plots, line plots, and box plots"
+      },
+      {
+        "no": "6",
+        "clo_name": "CLO6",
+        "clo_details": "Implement a small data science project includes steps: data wrangling, data analysis, data visualization, model development, model evaluation, and reporting"
+      }
+    ],
+    "schedule": [
+      {
+        "session": "1",
+        "topic": "- Course Introduction\n- Chapter 1:\nIntroduction to R Programming for Data Science",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 1",
+        "itu": "I",
+        "student_materials": "- Slides: Introduction",
+        "s_download": "mat1",
+        "student_tasks": "Read slide introduction\nSyllabus Syllabus DSR301m",
+        "urls": ""
+      },
+      {
+        "session": "2",
+        "topic": "1.1.Introduction to R Language 1",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 1",
+        "itu": "T",
+        "student_materials": "- Slides: Chapter 1.1",
+        "s_download": "mat2",
+        "student_tasks": "Read Chapter 1.1",
+        "urls": ""
+      },
+      {
+        "session": "3",
+        "topic": "1.2.Introduction to R Language 2",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 1",
+        "itu": "T",
+        "student_materials": "- Slides: Chapter 1.2",
+        "s_download": "",
+        "student_tasks": "Read Chapter 1.2",
+        "urls": ""
+      },
+      {
+        "session": "4",
+        "topic": "1.3 Getting Data into R 1",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 1",
+        "itu": "T",
+        "student_materials": "- slide chapter 1.3",
+        "s_download": "",
+        "student_tasks": "Read chapter 1.3",
+        "urls": ""
+      },
+      {
+        "session": "5",
+        "topic": "1.4 Getting Data into R 2",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 1, CLO2",
+        "itu": "T",
+        "student_materials": "- slide chapter 1.4",
+        "s_download": "",
+        "student_tasks": "Read Chapter 1.4",
+        "urls": ""
+      },
+      {
+        "session": "6",
+        "topic": "1.5 Getting Data into R 3",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 1, CLO2",
+        "itu": "T",
+        "student_materials": "- slide chapter 1.5",
+        "s_download": "",
+        "student_tasks": "Read Chapter 1.5",
+        "urls": ""
+      },
+      {
+        "session": "7",
+        "topic": "1.6 Getting Data into R 4",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 1, CLO2",
+        "itu": "T",
+        "student_materials": "- slide chapter 1.6",
+        "s_download": "",
+        "student_tasks": "Read Chapter 1.6",
+        "urls": ""
+      },
+      {
+        "session": "8",
+        "topic": "1.7 Getting Data into R 5",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 1, CLO2",
+        "itu": "T",
+        "student_materials": "- slide chapter 1.7",
+        "s_download": "",
+        "student_tasks": "Read Chapter 1.7",
+        "urls": ""
+      },
+      {
+        "session": "9",
+        "topic": "1.8 R Programming Fundamentals 1",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 2",
+        "itu": "T",
+        "student_materials": "- slide chapter 1.8",
+        "s_download": "",
+        "student_tasks": "Read Chapter 1.8",
+        "urls": ""
+      },
+      {
+        "session": "10",
+        "topic": "1.9 R Programming Fundamentals 2",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 2",
+        "itu": "T",
+        "student_materials": "- slide chapter 1.9",
+        "s_download": "",
+        "student_tasks": "Read Chapter 1.9",
+        "urls": ""
+      },
+      {
+        "session": "11",
+        "topic": "Lab 1a: Introduction to R Programming",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 2",
+        "itu": "TU",
+        "student_materials": "- slide chapter 1, lab 1",
+        "s_download": "",
+        "student_tasks": "Read Lab 1",
+        "urls": ""
+      },
+      {
+        "session": "12",
+        "topic": "Lab 1b: Introduction to R Programming",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 2",
+        "itu": "TU",
+        "student_materials": "- slide chapter 1, lab 1",
+        "s_download": "",
+        "student_tasks": "Read Lab 1",
+        "urls": ""
+      },
+      {
+        "session": "13",
+        "topic": "Lab 1c: Introduction to R Programming",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 2",
+        "itu": "TU",
+        "student_materials": "- slide chapter 1, lab 1",
+        "s_download": "",
+        "student_tasks": "Read Lab 1",
+        "urls": ""
+      },
+      {
+        "session": "14",
+        "topic": "Guiding assignment",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 6",
+        "itu": "U",
+        "student_materials": "- The assignment (.docx file)",
+        "s_download": "",
+        "student_tasks": "",
+        "urls": ""
+      },
+      {
+        "session": "15",
+        "topic": "- Chapter 2: SQL for Data Science with R\n2.1 Remind: Relational Databases and Tables",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 3",
+        "itu": "T",
+        "student_materials": "- slide chapter 2.1",
+        "s_download": "",
+        "student_tasks": "Read Chapter 2.1",
+        "urls": ""
+      },
+      {
+        "session": "16",
+        "topic": "2.2 Remind: Intermediate SQL",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 3",
+        "itu": "T",
+        "student_materials": "- slide chapter 2.2",
+        "s_download": "",
+        "student_tasks": "Read Chapter 2.2",
+        "urls": ""
+      },
+      {
+        "session": "17",
+        "topic": "2.3 Getting Started with Databases using R 1",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 3",
+        "itu": "T",
+        "student_materials": "- slide chapter 2.3",
+        "s_download": "",
+        "student_tasks": "Read Chapter 2.3",
+        "urls": ""
+      },
+      {
+        "session": "18",
+        "topic": "2.4 Getting Started with Databases using R 2",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 3",
+        "itu": "T",
+        "student_materials": "- slide chapter 2.4",
+        "s_download": "",
+        "student_tasks": "Read Chapter 2.4",
+        "urls": ""
+      },
+      {
+        "session": "19",
+        "topic": "2.5 Working with Database Objects using R 1",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 3",
+        "itu": "T",
+        "student_materials": "- slide chapter 2.5",
+        "s_download": "",
+        "student_tasks": "Read Chapter 2.5",
+        "urls": ""
+      },
+      {
+        "session": "20",
+        "topic": "2.6 Working with Database Objects using R 2",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 3",
+        "itu": "T",
+        "student_materials": "- slide chapter 2.6",
+        "s_download": "",
+        "student_tasks": "Read Chapter 2.6",
+        "urls": ""
+      },
+      {
+        "session": "21",
+        "topic": "2.7 Working with Database Objects using R 3",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 3",
+        "itu": "T",
+        "student_materials": "- slide chapter 2.7",
+        "s_download": "",
+        "student_tasks": "Read Chapter 2.7",
+        "urls": ""
+      },
+      {
+        "session": "22",
+        "topic": "Lab 2a: SQL with R",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 3",
+        "itu": "TU",
+        "student_materials": "- slide chapter 2, lab 2a",
+        "s_download": "",
+        "student_tasks": "Read chapter 2, lab 2a",
+        "urls": ""
+      },
+      {
+        "session": "23",
+        "topic": "Lab 2b: SQL with R",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 3",
+        "itu": "TU",
+        "student_materials": "- slide chapter 2, lab 2b",
+        "s_download": "",
+        "student_tasks": "Read chapter 2, lab 2b",
+        "urls": ""
+      },
+      {
+        "session": "24",
+        "topic": "Lab 2c: SQL with R",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 3",
+        "itu": "TU",
+        "student_materials": "- slide chapter 2, lab 2c",
+        "s_download": "",
+        "student_tasks": "Read chapter 2, lab 2c",
+        "urls": ""
+      },
+      {
+        "session": "25",
+        "topic": "Lab 2d: SQL with R",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 3",
+        "itu": "TU",
+        "student_materials": "- slide chapter 2, lab 2d",
+        "s_download": "",
+        "student_tasks": "Read chapter 2, lab 2d",
+        "urls": ""
+      },
+      {
+        "session": "26",
+        "topic": "Review assignment",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 6",
+        "itu": "U",
+        "student_materials": "Student's assignment",
+        "s_download": "",
+        "student_tasks": "Presentation",
+        "urls": ""
+      },
+      {
+        "session": "27",
+        "topic": "Progress Test 1",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO2, CLO3",
+        "itu": "U",
+        "student_materials": "- Slide chapter 1, 2",
+        "s_download": "",
+        "student_tasks": "- Slide chapter 1, 2",
+        "urls": ""
+      },
+      {
+        "session": "28",
+        "topic": "Chapter 3: Data Analysis with R\n3.1 Introduction to Data Analysis with R 1",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 4",
+        "itu": "T",
+        "student_materials": "- slide chapter 3.1",
+        "s_download": "",
+        "student_tasks": "Read Chapter 3.1",
+        "urls": ""
+      },
+      {
+        "session": "29",
+        "topic": "3.2 Introduction to Data Analysis with R 2",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 4",
+        "itu": "T",
+        "student_materials": "- slide chapter 3.2",
+        "s_download": "",
+        "student_tasks": "Read Chapter 3.2",
+        "urls": ""
+      },
+      {
+        "session": "30",
+        "topic": "3.3 Data Wrangling 1",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 4",
+        "itu": "T",
+        "student_materials": "- slide chapter 3.3",
+        "s_download": "",
+        "student_tasks": "Read Chapter 3.3",
+        "urls": ""
+      },
+      {
+        "session": "31",
+        "topic": "3.4 Data Wrangling 2",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 4",
+        "itu": "T",
+        "student_materials": "- slide chapter 3.4",
+        "s_download": "",
+        "student_tasks": "Read Chapter 3.4",
+        "urls": ""
+      },
+      {
+        "session": "32",
+        "topic": "3.5 Exploratory Data Analysis 1",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 4",
+        "itu": "T",
+        "student_materials": "- slide chapter 3.5",
+        "s_download": "",
+        "student_tasks": "Read Chapter 3.5",
+        "urls": ""
+      },
+      {
+        "session": "33",
+        "topic": "3.6 Exploratory Data Analysis 2",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 4",
+        "itu": "T",
+        "student_materials": "- slide chapter 3.6",
+        "s_download": "",
+        "student_tasks": "Read chapter 3.6",
+        "urls": ""
+      },
+      {
+        "session": "34",
+        "topic": "3.7 Model Development in R 1",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 4",
+        "itu": "T",
+        "student_materials": "- slide chapter 3.7",
+        "s_download": "",
+        "student_tasks": "Read chapter 3.7",
+        "urls": ""
+      },
+      {
+        "session": "35",
+        "topic": "3.8 Model Development in R 2",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 4",
+        "itu": "T",
+        "student_materials": "- slide chapter 3.8",
+        "s_download": "",
+        "student_tasks": "Read chapter 3.8",
+        "urls": ""
+      },
+      {
+        "session": "36",
+        "topic": "3.9 Model Development in R 3",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 4",
+        "itu": "T",
+        "student_materials": "- slide chapter 3.9",
+        "s_download": "",
+        "student_tasks": "Slide: Chapter 3.9\n- Coursera",
+        "urls": ""
+      },
+      {
+        "session": "37",
+        "topic": "3.10 Model Evaluation",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 4",
+        "itu": "T",
+        "student_materials": "- slide chapter 3.10",
+        "s_download": "",
+        "student_tasks": "Read chapter 3.10",
+        "urls": ""
+      },
+      {
+        "session": "38",
+        "topic": "3.11 Model Evaluation",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 4",
+        "itu": "T",
+        "student_materials": "- slide chapter 3.11",
+        "s_download": "",
+        "student_tasks": "Read chapter 3.11",
+        "urls": ""
+      },
+      {
+        "session": "39",
+        "topic": "Lab 3a: Data Analysis with R 1",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 4",
+        "itu": "TU",
+        "student_materials": "- slide chapter 3, lab 3a",
+        "s_download": "",
+        "student_tasks": "Read chapter 3, lab 3a",
+        "urls": ""
+      },
+      {
+        "session": "40",
+        "topic": "Lab 3b: Data Analysis with R 2",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 4",
+        "itu": "TU",
+        "student_materials": "- slide chapter 3, lab 3b",
+        "s_download": "",
+        "student_tasks": "Read chapter 3, lab 3b",
+        "urls": ""
+      },
+      {
+        "session": "41",
+        "topic": "Lab 3c: Data Analysis with R 3",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 4",
+        "itu": "TU",
+        "student_materials": "- slide chapter 3, lab 3c",
+        "s_download": "",
+        "student_tasks": "Read chapter 3, lab 3c",
+        "urls": ""
+      },
+      {
+        "session": "42",
+        "topic": "Lab 3d: Data Analysis with R 4",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 4",
+        "itu": "TU",
+        "student_materials": "- slide chapter 3, lab 3d",
+        "s_download": "",
+        "student_tasks": "Read chapter 3, lab 3d",
+        "urls": ""
+      },
+      {
+        "session": "43",
+        "topic": "Lab 3e: Data Analysis with R 5",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 5",
+        "itu": "TU",
+        "student_materials": "- slide chapter 3, lab 3e",
+        "s_download": "",
+        "student_tasks": "Read chapter 3, lab 3e",
+        "urls": ""
+      },
+      {
+        "session": "44",
+        "topic": "Review the mini Capstone",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 6",
+        "itu": "U",
+        "student_materials": "Student's capstone",
+        "s_download": "",
+        "student_tasks": "Presentation",
+        "urls": ""
+      },
+      {
+        "session": "45",
+        "topic": "Chapter 4: Data Visualization with R\n4.1 Introduction to Data Visualization",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 5",
+        "itu": "T",
+        "student_materials": "- slide chapter 4.1",
+        "s_download": "",
+        "student_tasks": "Read Chapter 4.1",
+        "urls": ""
+      },
+      {
+        "session": "46",
+        "topic": "4.2 Basic Plots, Maps, and Customization 1",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 5",
+        "itu": "T",
+        "student_materials": "- slide chapter 4.2",
+        "s_download": "",
+        "student_tasks": "Read Chapter 4.2",
+        "urls": ""
+      },
+      {
+        "session": "47",
+        "topic": "4.3 Basic Plots, Maps, and Customization 2",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 5",
+        "itu": "T",
+        "student_materials": "- slide chapter 4.3",
+        "s_download": "",
+        "student_tasks": "Read Chapter 4.3",
+        "urls": ""
+      },
+      {
+        "session": "48",
+        "topic": "4.4 Basic Plots, Maps, and Customization 3",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 5",
+        "itu": "T",
+        "student_materials": "- slide chapter 4.4",
+        "s_download": "",
+        "student_tasks": "Read Chapter 4.4",
+        "urls": ""
+      },
+      {
+        "session": "49",
+        "topic": "4.5 Dashboards 1",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 5",
+        "itu": "T",
+        "student_materials": "- slide chapter 4.5",
+        "s_download": "",
+        "student_tasks": "Read Chapter 4.5",
+        "urls": ""
+      },
+      {
+        "session": "50",
+        "topic": "4.6 Dashboards 2",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 5",
+        "itu": "T",
+        "student_materials": "- slide chapter 4.6",
+        "s_download": "",
+        "student_tasks": "Read Chapter 4.6",
+        "urls": ""
+      },
+      {
+        "session": "51",
+        "topic": "4.7 Dashboards 3",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 5",
+        "itu": "T",
+        "student_materials": "- slide chapter 4.7",
+        "s_download": "",
+        "student_tasks": "Read Chapter 4.7",
+        "urls": ""
+      },
+      {
+        "session": "52",
+        "topic": "Lab 4a: Data Visualization with R 1",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 5",
+        "itu": "TU",
+        "student_materials": "- slide chapter 4, lab 4a",
+        "s_download": "",
+        "student_tasks": "Read chapter 4, lab 4a",
+        "urls": ""
+      },
+      {
+        "session": "53",
+        "topic": "Lab 4b: Data Visualization with R 2",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 5",
+        "itu": "TU",
+        "student_materials": "- slide chapter 4, lab 4b",
+        "s_download": "",
+        "student_tasks": "Read chapter 4, lab 4b",
+        "urls": ""
+      },
+      {
+        "session": "54",
+        "topic": "Lab 4c: Data Visualization with R 3",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 5",
+        "itu": "TU",
+        "student_materials": "- slide chapter 4, lab 4c",
+        "s_download": "",
+        "student_tasks": "Read chapter 4, lab 4c",
+        "urls": ""
+      },
+      {
+        "session": "55",
+        "topic": "Progress Test 2",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4, CLO5",
+        "itu": "U",
+        "student_materials": "- Slide chapter 3, 4",
+        "s_download": "",
+        "student_tasks": "- Slide chapter 3, 4",
+        "urls": ""
+      },
+      {
+        "session": "56",
+        "topic": "Grading assignment",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 6",
+        "itu": "U",
+        "student_materials": "Student's assignment and ppt.",
+        "s_download": "",
+        "student_tasks": "Presentation",
+        "urls": ""
+      },
+      {
+        "session": "57",
+        "topic": "Grading assignment",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 6",
+        "itu": "U",
+        "student_materials": "Student's assignment and ppt.",
+        "s_download": "",
+        "student_tasks": "Presentation",
+        "urls": ""
+      },
+      {
+        "session": "58",
+        "topic": "Grading assignment",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 6",
+        "itu": "U",
+        "student_materials": "Student's assignment and ppt.",
+        "s_download": "",
+        "student_tasks": "Presentation",
+        "urls": ""
+      },
+      {
+        "session": "59",
+        "topic": "Review course",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO2, CLO3, CLO4, CLO5",
+        "itu": "I",
+        "student_materials": "All Slides",
+        "s_download": "",
+        "student_tasks": "Review Slide",
+        "urls": ""
+      },
+      {
+        "session": "60",
+        "topic": "Review course\nResults",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO2, CLO3, CLO4, CLO5",
+        "itu": "I",
+        "student_materials": "All Slides",
+        "s_download": "",
+        "student_tasks": "Review Slide",
+        "urls": ""
+      }
+    ],
+    "assessments": [
+      {
+        "no": "1",
+        "category": "Assignment",
+        "type": "on-going",
+        "part": "1",
+        "weight": "30.0%",
+        "completion_criteria": ">0",
+        "duration": "8-10 weeks",
+        "clo": "CLO6",
+        "question_type": "Mini project",
+        "no_question": "1",
+        "knowledge_and_skill": "- cover chapter 1, 2, 3, 4",
+        "grading_guide": "at home",
+        "note": "Instructor has resposibility to review the test for students after graded."
+      },
+      {
+        "no": "2",
+        "category": "Lab 1",
+        "type": "on-going",
+        "part": "1",
+        "weight": "5.0%",
+        "completion_criteria": ">0",
+        "duration": "30'",
+        "clo": "CLO1, CLO2",
+        "question_type": "Home work, class",
+        "no_question": "1",
+        "knowledge_and_skill": "- cover chapter 1",
+        "grading_guide": "in class, by instructor",
+        "note": "Instruction and shedules for Progress tests must be presented in the Course Implementation Plan approved by director of the campus.\nProgress test must be taken right after the last lectures of required material.\nInstructor has resposibility to review the test for students after graded."
+      },
+      {
+        "no": "3",
+        "category": "Lab 2",
+        "type": "on-going",
+        "part": "1",
+        "weight": "5.0%",
+        "completion_criteria": ">0",
+        "duration": "30'",
+        "clo": "CLO3",
+        "question_type": "Home work, class",
+        "no_question": "1",
+        "knowledge_and_skill": "- cover chapter 2",
+        "grading_guide": "in class, by instructor",
+        "note": "Instruction and shedules for Progress tests must be presented in the Course Implementation Plan approved by director of the campus.\nProgress test must be taken right after the last lectures of required material.\nInstructor has resposibility to review the test for students after graded."
+      },
+      {
+        "no": "4",
+        "category": "Lab 3",
+        "type": "on-going",
+        "part": "1",
+        "weight": "5.0%",
+        "completion_criteria": ">0",
+        "duration": "30'",
+        "clo": "CLO4",
+        "question_type": "Home work, class",
+        "no_question": "1",
+        "knowledge_and_skill": "- cover chapter 3",
+        "grading_guide": "in class, by instructor",
+        "note": "Instruction and shedules for Progress tests must be presented in the Course Implementation Plan approved by director of the campus.\nProgress test must be taken right after the last lectures of required material.\nInstructor has resposibility to review the test for students after graded."
+      },
+      {
+        "no": "5",
+        "category": "Lab 4",
+        "type": "on-going",
+        "part": "1",
+        "weight": "5.0%",
+        "completion_criteria": ">0",
+        "duration": "30'",
+        "clo": "CLO5",
+        "question_type": "Home work, class",
+        "no_question": "1",
+        "knowledge_and_skill": "- cover chapter 4",
+        "grading_guide": "in class, by instructor",
+        "note": "Instruction and shedules for Progress tests must be presented in the Course Implementation Plan approved by director of the campus.\nProgress test must be taken right after the last lectures of required material.\nInstructor has resposibility to review the test for students after graded."
+      },
+      {
+        "no": "6",
+        "category": "Progress test 1",
+        "type": "on-going",
+        "part": "1",
+        "weight": "10.0%",
+        "completion_criteria": ">0",
+        "duration": "45'",
+        "clo": "CLO1, CLO2, CLO3",
+        "question_type": "Multiple choices\nMarked by Computer or a suitable format",
+        "no_question": "30",
+        "knowledge_and_skill": "- cover chapter 1,2",
+        "grading_guide": "in class, by instructor",
+        "note": "Instruction and shedules for Progress tests must be presented in the Course Implementation Plan approved by director of the campus.\nProgress test must be taken right after the last lectures of required material.\nInstructor has resposibility to review the test for students after graded."
+      },
+      {
+        "no": "7",
+        "category": "Progress test 2",
+        "type": "on-going",
+        "part": "1",
+        "weight": "10.0%",
+        "completion_criteria": ">0",
+        "duration": "45'",
+        "clo": "CLO1, CLO4, CLO5",
+        "question_type": "Multiple choices\nMarked by Computer or a suitable format",
+        "no_question": "30",
+        "knowledge_and_skill": "- cover chapter 3,4",
+        "grading_guide": "in class, by instructor",
+        "note": "Instruction and shedules for Progress tests must be presented in the Course Implementation Plan approved by director of the campus.\nProgress test must be taken right after the last lectures of required material.\nInstructor has resposibility to review the test for students after graded."
+      },
+      {
+        "no": "8",
+        "category": "Final exam",
+        "type": "Final exam",
+        "part": "1",
+        "weight": "30.0%",
+        "completion_criteria": "4",
+        "duration": "60'",
+        "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6",
+        "question_type": "Multiple choices\nMarked by Computer",
+        "no_question": "50",
+        "knowledge_and_skill": "- cover chapter 1, 2, 3, 4",
+        "grading_guide": "by exam board,\nusing computer",
+        "note": "The exam questions must be updated or different at least 70% to the previous ones."
+      }
+    ]
+  },
+  "combo": {
+    "family": "AI17_COM",
+    "code": "AI17_COM1",
+    "name": "Topic on Applied Data Science_Chủ đề Khoa học dữ liệu ứng dụng BIT_AI_K17C(FNO)",
+    "title": "AI17_COM1: Topic on Applied Data Science_Chủ đề Khoa học dữ liệu ứng dụng BIT_AI_K17C(FNO)",
+    "note": "",
+    "slot": {
+      "code": "AI17_COM*2",
+      "alias": "AI17_COM_2",
+      "number": 2,
+      "name": {
+        "full": "Subject 2 of Combo*_Học phần 2 của combo*",
+        "en": "Subject 2 of Combo*",
+        "vi": "Học phần 2 của combo*"
+      }
+    },
+    "row_note": ""
+  },
+  "source": {
+    "raw_file": "flm_output/subjects/AI17_COM_2.json",
+    "curriculum_url": "https://flm.fpt.edu.vn/gui/role/student/CurriculumDetails?curid=3173",
+    "pre_syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/Syllabuses?subCode=AI17_COM%2A2&curriculumID=3173",
+    "syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=11217",
+    "details_source_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=11217"
+  },
+  "crawl": {
+    "error": null
+  },
+  "quality": {
+    "has_syllabus": true,
+    "counts": {
+      "materials": 4,
+      "clos": 6,
+      "schedule": 60,
+      "assessments": 8
+    },
+    "warnings": []
+  }
+}

@@ -1,0 +1,632 @@
+{
+  "schema_version": "stage1_v1",
+  "record_type": "combo_subject",
+  "subject": {
+    "code": "CMO301m",
+    "name": {
+      "full": "Cloud for MLOps_Cloud cho hoạt động học máy",
+      "en": "Cloud for MLOps",
+      "vi": "Cloud cho hoạt động học máy"
+    },
+    "semester": 7,
+    "credits": 3,
+    "prerequisite": ""
+  },
+  "syllabus": {
+    "id": "14409",
+    "name": "Cloud for MLOps_Cloud cho hoạt động học máy",
+    "is_active": true,
+    "is_approved": true,
+    "decision_no": "968/QĐ-ĐHFPT dated 08/07/2026"
+  },
+  "content": {
+    "metadata": {
+      "syllabus_id": "14409",
+      "syllabus_name": "Cloud for MLOps_Cloud cho hoạt động học máy",
+      "course_name_english": "Cloud for MLOps",
+      "subject_code": "CMO301m",
+      "learning_teaching_method": "Offline",
+      "nocredit": "3",
+      "degree_level": "Bachelor",
+      "time_allocation": "45h (60 sessions) contact hours + 1h final exam + 104h self-study",
+      "pre_requisite": "DPL302m, AIS301c",
+      "description": "This course provides students with practical knowledge and skills to design, deploy, and operate end-to-end MLOps pipelines on cloud platforms (AWS, Azure, Google Cloud). Students will master cloud-native data engineering (S3/GCS, Kafka, Dataflow, Glue), data versioning with DVC, feature stores (Feast, Vertex Feature Store), and scalable model training using distributed GPU/TPU clusters. The curriculum covers CI/CD for ML (GitHub Actions, Jenkins, GitLab CI), containerization with Docker, Kubernetes-based deployment (GKE/EKS/AKS), and production monitoring with Prometheus, Grafana, and cloud-native logging. Through hands-on labs and a final cloud-deployed project, students will gain comprehensive experience in building production-ready ML systems with automated monitoring, drift detection, and retraining pipelines, while addressing cost optimization, security, and compliance (GDPR, HIPAA).",
+      "studenttasks": "- Students must attend at least 80% of contact slots in order to be accepted to the final examination.\n- Students are responsible for completing all exercises, assignments, 4 labs, and 2 process tests assigned by the instructor in class or at home, and submitting them on time.\n- Students must complete a final group project (end-to-end MLOps pipeline on cloud) and submit a 4–6 page scientific paper describing the architecture, experiments, ops plan, and cost analysis.\n- Laptops are to be used in class strictly for learning purposes.\n- Students must promptly access the FU FLM at https://flm.fpt.edu.vn/ for up-to-date course information.",
+      "tools": "Python, AWS (SageMaker, Lambda, ECR, GKE/EKS/AKS), Google Cloud (Vertex AI, Cloud Composer, GCR), Azure (Azure ML, ACR), Docker, Kubernetes, DVC, MLflow, Feast, TFX, GitHub Actions, Jenkins, GitLab CI, Terraform, Prometheus, Grafana, Evidently AI, FastAPI, TensorFlow Serving.",
+      "scoring_scale": "10",
+      "decisionno_mm_dd_yyyy": "968/QĐ-ĐHFPT dated 08/07/2026",
+      "isapproved": "True",
+      "note": "- The course adopts a practice oriented, PBL (project base learning) approach in which students progressively design, deploy, monitor, and maintain an end to end cloud native ML (Machine Learning) system throughout the semester.\n- Students complete four hands on laboratory assignments focusing on cloud data versioning and orchestration, TFX pipelines and model validation, containerization and Kubernetes deployment, and monitoring with automated retraining. Labs are completed individually or in assigned teams and submitted before the specified deadlines.\n- Two computer based multiple choice Progress Tests evaluate students' theoretical understanding of Cloud MLOps, cloud architecture, data engineering, MLOps pipelines, CI/CD, containerization, deployment, and monitoring concepts.\n- Two Process Tests assess practical competencies through production-oriented scenarios, including incident response, drift detection, rollback strategies, model promotion, CI/CD execution, and deployment validation.\n- The mandatory team based capstone project requires students to design and implement a complete cloud native MLOps solution, supported by an end-to-end pipeline, technical documentation, cost analysis, a scientific paper, and an in class presentation with a live demonstration.\n- The final examination is an individual computer-based multiple choice test covering all major Cloud MLOps concepts and practices.\n- The final course grade is calculated as follows: Progress Test 1 (10%), Progress Test 2 (10%), Lab 1 (7.5%), Lab 2 (7.5%), Lab 3 (7.5%), Lab 4 (7.5%), Process Test 1 (7.5%), Process Test 2 (7.5%), Final Project (20%), and Final Examination (10%).\n- Completion Criteria: All assessments must score above 0, with a minimum Final Examination score of 4.0 and an overall course grade of 5.0.",
+      "is_scored": "True",
+      "minavgmarktopass": "5",
+      "isactive": "True",
+      "approveddate": "8/7/2026"
+    },
+    "materials": [
+      {
+        "no": "1",
+        "material_description": "Hidden Technical Debt in Machine Learning Systems",
+        "author": "D. Sculley et al.",
+        "publisher": "NeurIPS (Google Research)",
+        "published_date": "2015",
+        "edition": "1st",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://dl.acm.org/doi/10.5555/2969442.2969519"
+      },
+      {
+        "no": "2",
+        "material_description": "Machine Learning Operations (MLOps): Overview, Definition, and Architecture",
+        "author": "Dominik Kreuzberger, Niklas Kühl, Sebastian Hirschl",
+        "publisher": "arXiv",
+        "published_date": "2022",
+        "edition": "1st",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "arXiv:2205.02302"
+      },
+      {
+        "no": "3",
+        "material_description": "MLOps Spanning Whole Machine Learning Life Cycle: A Survey",
+        "author": "Zhengxin Fang et al.",
+        "publisher": "arXiv",
+        "published_date": "2023",
+        "edition": "1st",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "arXiv:2304.07296"
+      },
+      {
+        "no": "4",
+        "material_description": "Who Needs MLOps: What Data Scientists Seek to Accomplish and How Can MLOps Help?",
+        "author": "Sasu Mäkinen et al.",
+        "publisher": "arXiv",
+        "published_date": "2021",
+        "edition": "1st",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "arXiv:2103.08942"
+      },
+      {
+        "no": "5",
+        "material_description": "MLOps: A Taxonomy and a Methodology",
+        "author": "Matteo Testi et al.",
+        "publisher": "IEEE Access",
+        "published_date": "2022",
+        "edition": "1st",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://doi.org/10.1109/ACCESS.2022.3181730"
+      },
+      {
+        "no": "6",
+        "material_description": "Towards Trustworthy Machine Learning in Production: An Overview of the Robustness in MLOps Approach",
+        "author": "Firas Bayram, Bestoun S. Ahmed",
+        "publisher": "arXiv / Hugging Face Papers",
+        "published_date": "2024",
+        "edition": "1st",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "arXiv:2410.21346"
+      },
+      {
+        "no": "7",
+        "material_description": "Automating the Training and Deployment of Models in MLOps by Integrating Systems with Machine Learning",
+        "author": "Penghao Liang et al.",
+        "publisher": "arXiv",
+        "published_date": "2024",
+        "edition": "1st",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "arXiv:2405.09819"
+      },
+      {
+        "no": "8",
+        "material_description": "TFX: A TensorFlow-Based Production-Scale Machine Learning Platform",
+        "author": "Denis Baylor et al.",
+        "publisher": "dl.acm",
+        "published_date": "2017",
+        "edition": "1st",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://dl.acm.org/doi/10.1145/3097983.3098021"
+      },
+      {
+        "no": "9",
+        "material_description": "Data Cascades in High-Stakes AI",
+        "author": "Sambasivan et al.",
+        "publisher": "ACM",
+        "published_date": "2021",
+        "edition": "1st",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://dl.acm.org/doi/10.1145/3411764.3445518"
+      },
+      {
+        "no": "10",
+        "material_description": "Model Cards for Model Reporting",
+        "author": "Margaret Mitchell et al.",
+        "publisher": "arXiv",
+        "published_date": "2019",
+        "edition": "1st",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "arXiv:1810.03993\nSearch..."
+      },
+      {
+        "no": "11",
+        "material_description": "Datasheets for Datasets",
+        "author": "Timnit Gebru et al.",
+        "publisher": "arXiv",
+        "published_date": "2021",
+        "edition": "1st",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "arXiv:1803.09010\nSearch..."
+      },
+      {
+        "no": "12",
+        "material_description": "The ML Test Score: A Rubric for ML Production Readiness and Technical Debt Reduction",
+        "author": "Eric Breck et al.",
+        "publisher": "IEEE Access",
+        "published_date": "2017",
+        "edition": "1st",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://doi.org/10.1109/BigData.2017.8258038"
+      },
+      {
+        "no": "13",
+        "material_description": "End-to-end Machine Learning using Kubeflow",
+        "author": "Johnu Georgeet al.",
+        "publisher": "ACM",
+        "published_date": "2018",
+        "edition": "1st",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://doi.org/10.1145/3493700.3493768"
+      }
+    ],
+    "clos": [
+      {
+        "no": "1",
+        "clo_name": "CLO1",
+        "clo_details": "Understand core concepts, differences, and relationships among MLOps, DevOps, DataOps, and LLMOps (including RAG & Prompt Engineering basics); apply cloud architecture patterns for ML systems (ingestion, storage, deployment models) across major cloud platforms (AWS SageMaker, Azure ML, Vertex AI)."
+      },
+      {
+        "no": "2",
+        "clo_name": "CLO2",
+        "clo_details": "Design and implement cloud-based data engineering pipelines using cloud-native services (AWS Lambda/Step Functions/Glue, GCP Dataflow/Cloud Composer, Azure Data Factory) and implement feature store management solutions (Feast, Vertex/Azure Feature Store) for offline/online inference."
+      },
+      {
+        "no": "3",
+        "clo_name": "CLO3",
+        "clo_details": "Apply experiment tracking tools (MLflow, WandB, SageMaker Experiments, Vertex Vizier) and data versioning principles using DVC with cloud remotes (S3/GCS/Azure) to ensure reproducibility, data lineage, and metadata management in ML experiments."
+      },
+      {
+        "no": "4",
+        "clo_name": "CLO4",
+        "clo_details": "Design and build end-to-end TensorFlow Extended (TFX) and cloud native pipelines (including ExampleGen, Transform, Trainer, Evaluator, Publisher), establish model baselines, and handle concept drift."
+      },
+      {
+        "no": "5",
+        "clo_name": "CLO5",
+        "clo_details": "Understand feature store concepts and implement feature management solutions using Feast, Vertex Feature Store, or Azure Feature Stores for offline/online inference on cloud."
+      },
+      {
+        "no": "6",
+        "clo_name": "CLO6",
+        "clo_details": "Apply Docker containerization best practices, build containerized MLOps pipelines to deploy to cloud registries (ECR/GCR/ACR) and services (Cloud Run, ECS, GKE, AKS), and implement model serving patterns (TF Serving, FastAPI, Flask) with progressive delivery (blue-green, canary) and autoscaling (HPA/VPA)."
+      },
+      {
+        "no": "7",
+        "clo_name": "CLO7",
+        "clo_details": "Implement automated CI/CD pipelines for ML using GitHub Actions, Jenkins, or GitLab CI integrated with cloud services to automate model deployments, testing, and continuous validation in cloud environments."
+      },
+      {
+        "no": "8",
+        "clo_name": "CLO8",
+        "clo_details": "Implement continuous model monitoring (Prometheus, Grafana, Cloud Monitoring) for data/concept drift, setup automated retraining triggers based on performance thresholds, and apply operational excellence principles (incident response, runbooks, rollback, data governance, GDPR, HIPAA, IAM)."
+      },
+      {
+        "no": "9",
+        "clo_name": "CLO9",
+        "clo_details": "Implement an end-to-end Cloud MLOps capstone project encompassing infrastructure setup, automated data pipelines, model tracking, cloud deployment, monitoring, automated retraining, and document it via a scientific/technical paper (4–6 pages) detailing architecture, experiments, ops plan, and cost analysis."
+      }
+    ],
+    "schedule": [
+      {
+        "session": "1",
+        "topic": "Course Introduction & Cloud MLOps Overview",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO9",
+        "itu": "I",
+        "student_materials": "'- Syllabus CMLOP301- Slides: Intro",
+        "s_download": "",
+        "student_tasks": "Read syllabus & introduction",
+        "urls": ""
+      },
+      {
+        "session": "2",
+        "topic": "1.1. What is MLOps?\n- Definition\n- key concepts\n- cloud impact",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "T",
+        "student_materials": "'- Slides: Chapter 1 (Slide 1)- Readings: Git & Docker basics",
+        "s_download": "",
+        "student_tasks": "Read Chapter 1 (Slide 1), practice Git/Docker basics",
+        "urls": ""
+      },
+      {
+        "session": "3",
+        "topic": "1.2. MLOps vs DevOps vs DataOps, differences & cloud relationships",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "T",
+        "student_materials": "- Slides: Chapter 1 (Slide 1)",
+        "s_download": "",
+        "student_tasks": "Read Chapter 1 (Slide 1), analyze cloud relationships",
+        "urls": ""
+      },
+      {
+        "session": "4",
+        "topic": "1.3. Key challenges in ML production on cloud: drift & cost spikes",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "T",
+        "student_materials": "'- Slides: Chapter 1 (Slide 1)",
+        "s_download": "",
+        "student_tasks": "Read Chapter 1 (Slide 1), study drift definitions",
+        "urls": ""
+      },
+      {
+        "session": "5",
+        "topic": "1.4. MLOps maturity models & cloud maturity hierarchy",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "T",
+        "student_materials": "''- Slides: Chapter 1 (Slide 1)- Cloud CLI Guide",
+        "s_download": "",
+        "student_tasks": "Read Chapter 1 (Slide 1), practice Cloud CLI commands",
+        "urls": ""
+      },
+      {
+        "session": "6",
+        "topic": "1.5. Case study: Speech recognition system deployed on cloud",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "T",
+        "student_materials": "'- Slides: Chapter 1 (Slide 1)- Case study document",
+        "s_download": "",
+        "student_tasks": "Read Case study, analyze system components",
+        "urls": ""
+      },
+      {
+        "session": "7",
+        "topic": "2.1. Steps of an ML project on cloud:\n- problem\n- data\n- model\n- deploy\n- monitor",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "T",
+        "student_materials": "'- Slides: Chapter 1 (Slide 2)",
+        "s_download": "",
+        "student_tasks": "Read Chapter 1 (Slide 2), understand ML lifecycle steps",
+        "urls": ""
+      },
+      {
+        "session": "8",
+        "topic": "2.2. Scoping diligence:\n- feasibility\n- value\n- cloud resource sizing\n- cost estimation",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "T",
+        "student_materials": "'- Slides: Chapter 1 (Slide 2)- Cloud Pricing Calculators",
+        "s_download": "",
+        "student_tasks": "Read Chapter 1 (Slide 2), practice cloud sizing",
+        "urls": ""
+      },
+      {
+        "session": "9",
+        "topic": "2.3. Defining project milestones, resourcing & cloud budgeting (tags, budgets)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "T",
+        "student_materials": "'- Slides: Chapter 1 (Slide 2)",
+        "s_download": "",
+        "student_tasks": "Read Chapter 1 (Slide 2), learn tags & cloud budgets",
+        "urls": ""
+      },
+      {
+        "session": "10",
+        "topic": "2.4. Deployment patterns on cloud:\n- batch vs online\n- static vs dynamic\n- serverless vs k8s",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO6",
+        "itu": "T",
+        "student_materials": "''- Slides: Chapter 1 (Slide 2)",
+        "s_download": "",
+        "student_tasks": "Read Chapter 1 (Slide 2), compare serving patterns",
+        "urls": ""
+      },
+      {
+        "session": "11",
+        "topic": "2.5. Establishing performance baselines\n- SLO/SLI\n- human-level performance (HLP)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "T",
+        "student_materials": "'- Slides: Chapter 1 (Slide 2)- Lab 0 Guideline: Scoping",
+        "s_download": "",
+        "student_tasks": "Read Chapter 1 (Slide 2), prepare project scoping plan",
+        "urls": ""
+      },
+      {
+        "session": "12",
+        "topic": "Discussion on Project Topics & Cloud Infrastructure Setup",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO9",
+        "itu": "U",
+        "student_materials": "'- Final Project Guidelines- Proposal template",
+        "s_download": "",
+        "student_tasks": "Form groups, choose project topics, write initial proposal",
+        "urls": ""
+      },
+      {
+        "session": "13",
+        "topic": "Formation of Teams and Group Agreement",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO9",
+        "itu": "U",
+        "student_materials": "'- Team contract template",
+        "s_download": "",
+        "student_tasks": "Finalize team roles, sign group agreements, setup cloud accounts",
+        "urls": ""
+      },
+      {
+        "session": "14",
+        "topic": "3.1. The 4 stages of ML product lifecycle on cloud:\n- Scoping\n- Data\n- Modeling\n- Deployment",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "T",
+        "student_materials": "'- Slides: Chapter 1 (Slide 3)",
+        "s_download": "",
+        "student_tasks": "Read Chapter 1 (Slide 3), visualize lifecycle stages",
+        "urls": ""
+      },
+      {
+        "session": "15",
+        "topic": "3.2. ML project lifecycle components on cloud (data lake, warehouse, clusters, serving)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO2",
+        "itu": "T",
+        "student_materials": "'- Slides: Chapter 1 (Slide 3)",
+        "s_download": "",
+        "student_tasks": "Read Chapter 1 (Slide 3), differentiate lake vs warehouse",
+        "urls": ""
+      },
+      {
+        "session": "16",
+        "topic": "3.3.1. Static vs dynamic training",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2",
+        "itu": "T",
+        "student_materials": "'- Slides: Chapter 1 (Slide 3)",
+        "s_download": "",
+        "student_tasks": "Read Chapter 1 (Slide 3), study cloud data processors",
+        "urls": ""
+      }
+    ],
+    "assessments": [
+      {
+        "no": "1",
+        "category": "Final Project: End-to-End Cloud MLOps Pipeline + Scientific Paper",
+        "type": "on-going",
+        "part": "1",
+        "weight": "20.0%",
+        "completion_criteria": ">0",
+        "duration": "Throughout semester (Final presentation: 225 minutes)",
+        "clo": "CLO1–CLO16",
+        "question_type": "Group Project + Scientific Paper (4–6 pages) + Live Demo + Git Repository",
+        "no_question": "1",
+        "knowledge_and_skill": "Design and implement a complete cloud-native MLOps pipeline including data ingestion, versioning, training, validation, deployment, monitoring, automated retraining, cost analysis, architecture documentation and reproducibility",
+        "grading_guide": "Submitted via LMS, Git repository and live demonstration; evaluated by instructor using project rubric",
+        "note": "Grading distribution: Demo (40%), Scientific Paper (30%), Repository & Reproducibility (20%), Peer Evaluation (10%)."
+      },
+      {
+        "no": "2",
+        "category": "Lab 1: Data Versioning & Pipeline Orchestration",
+        "type": "on-going",
+        "part": "1",
+        "weight": "7.5%",
+        "completion_criteria": ">0",
+        "duration": "225 minutes",
+        "clo": "CLO3, CLO4, CLO5",
+        "question_type": "Practical Lab + Git Repository",
+        "no_question": "1",
+        "knowledge_and_skill": "Configure DVC with cloud storage (S3/GCS/Azure Blob), build ETL pipeline using Airflow/Cloud Composer, implement data lineage and reproducibility",
+        "grading_guide": "Submitted via LMS and Git repository; instructor executes pipeline and evaluates reproducibility",
+        "note": "Repository must execute successfully; documentation and reproducibility are mandatory."
+      },
+      {
+        "no": "3",
+        "category": "Lab 2: TFX Pipeline & Model Validation",
+        "type": "on-going",
+        "part": "2",
+        "weight": "7.5%",
+        "completion_criteria": ">0",
+        "duration": "225 minutes",
+        "clo": "CLO6, CLO7, CLO8",
+        "question_type": "Practical Lab + Pipeline Implementation",
+        "no_question": "1",
+        "knowledge_and_skill": "Build complete TFX pipeline (ExampleGen, Transform, Trainer, Evaluator), perform TFMA evaluation and model validation",
+        "grading_guide": "Instructor validates pipeline execution, evaluation reports and testing results",
+        "note": "Pipeline must execute without critical errors; evaluation report required."
+      },
+      {
+        "no": "4",
+        "category": "Lab 3: Containerization & Kubernetes Deployment",
+        "type": "on-going",
+        "part": "3",
+        "weight": "7.5%",
+        "completion_criteria": ">0",
+        "duration": "225 minutes",
+        "clo": "CLO9, CLO10, CLO11",
+        "question_type": "Practical Lab + Cloud Deployment",
+        "no_question": "1",
+        "knowledge_and_skill": "Docker image creation, cloud container registry (ECR/GCR/ACR), Kubernetes Deployment & Service, health monitoring",
+        "grading_guide": "Submitted through Git repository with deployed endpoint demonstration",
+        "note": "Dockerfile quality, deployment reproducibility and endpoint availability are evaluated."
+      },
+      {
+        "no": "5",
+        "category": "Lab 4: Monitoring, Alerting & Automated Retraining",
+        "type": "on-going",
+        "part": "4",
+        "weight": "7.5%",
+        "completion_criteria": ">0",
+        "duration": "225 minutes",
+        "clo": "CLO11, CLO12, CLO13, CLO14",
+        "question_type": "Practical Lab + Monitoring Dashboard",
+        "no_question": "1",
+        "knowledge_and_skill": "Implement Prometheus metrics, Grafana dashboards, alert rules, automated retraining workflow using cloud events",
+        "grading_guide": "Instructor verifies monitoring dashboard, alert notifications and retraining execution",
+        "note": "Students must demonstrate complete monitoring and automated response workflow."
+      },
+      {
+        "no": "6",
+        "category": "Process Test 1: Incident Simulation (Drift & Rollback)",
+        "type": "on-going",
+        "part": "1",
+        "weight": "7.5%",
+        "completion_criteria": ">0",
+        "duration": "90 minutes",
+        "clo": "CLO12, CLO13, CLO14",
+        "question_type": "Scenario-based Practical Assessment",
+        "no_question": "1",
+        "knowledge_and_skill": "Diagnose production drift, identify root cause, rollback deployment, update monitoring and incident documentation",
+        "grading_guide": "Conducted in laboratory under instructor supervision",
+        "note": "Assessment rubric includes recovery time, correctness of rollback procedure, documentation quality and teamwork."
+      },
+      {
+        "no": "7",
+        "category": "Process Test 2: Model Promotion Workflow",
+        "type": "on-going",
+        "part": "2",
+        "weight": "7.5%",
+        "completion_criteria": ">0",
+        "duration": "60 minutes",
+        "clo": "CLO9, CLO10, CLO11, CLO13",
+        "question_type": "Scenario-based Practical Assessment",
+        "no_question": "1",
+        "knowledge_and_skill": "Execute CI/CD workflow from validated model to canary deployment and full production rollout with reproducibility verification",
+        "grading_guide": "Conducted in laboratory under instructor supervision",
+        "note": "Rubric evaluates CI/CD correctness, deployment strategy, testing coverage and documentation."
+      },
+      {
+        "no": "8",
+        "category": "Progress Test 1",
+        "type": "on-going",
+        "part": "1",
+        "weight": "10.0%",
+        "completion_criteria": ">0",
+        "duration": "45 minutes",
+        "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6",
+        "question_type": "Computer-based Multiple Choice",
+        "no_question": "30",
+        "knowledge_and_skill": "Chapters 1–2: Introduction to MLOps, cloud architecture, ML lifecycle, cloud infrastructure, data lifecycle, cloud storage, orchestration fundamentals",
+        "grading_guide": "Conducted in class via LMS/computer; automatically graded and reviewed by instructor",
+        "note": "Test schedule announced in Course Implementation Plan. Instructor reviews solutions after grading."
+      },
+      {
+        "no": "9",
+        "category": "Progress Test 2",
+        "type": "on-going",
+        "part": "2",
+        "weight": "10.0%",
+        "completion_criteria": ">0",
+        "duration": "45 minutes",
+        "clo": "CLO6, CLO7, CLO8, CLO9, CLO10, CLO11",
+        "question_type": "Computer-based Multiple Choice",
+        "no_question": "30",
+        "knowledge_and_skill": "Chapters 2–3: TFX pipelines, experiment tracking, Feature Store, CI/CD, Docker, Kubernetes, deployment strategies",
+        "grading_guide": "Conducted in class via LMS/computer; instructor reviews results after grading",
+        "note": "Questions are updated every semester to maintain assessment quality."
+      },
+      {
+        "no": "10",
+        "category": "Final Examination",
+        "type": "Final exam",
+        "part": "1",
+        "weight": "10.0%",
+        "completion_criteria": "4",
+        "duration": "60 minutes",
+        "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8, CLO9, CLO10, CLO11, CLO12, CLO13, CLO14, CLO15",
+        "question_type": "Computer-based Multiple Choice",
+        "no_question": "50",
+        "knowledge_and_skill": "Comprehensive assessment covering Cloud MLOps foundations, cloud data engineering, TFX, Feature Store, CI/CD, Docker, Kubernetes, deployment, monitoring, governance, security, cloud operations and LLMOps fundamentals",
+        "grading_guide": "Conducted by the Examination Board using the university examination system",
+        "note": "Examination questions must be updated by at least 70% compared with previous semesters."
+      }
+    ]
+  },
+  "combo": {
+    "family": "AI17_COM",
+    "code": "AI17_COM5",
+    "name": "Topic on Machine Learning Operations_Chủ đề Hoạt động học máy",
+    "title": "AI17_COM5: Topic on Machine Learning Operations_Chủ đề Hoạt động học máy",
+    "note": "",
+    "slot": {
+      "code": "AI17_COM*3",
+      "alias": "AI17_COM_3",
+      "number": 3,
+      "name": {
+        "full": "Subject 3 of Combo*_Học phần 3 của combo*",
+        "en": "Subject 3 of Combo*",
+        "vi": "Học phần 3 của combo*"
+      }
+    },
+    "row_note": ""
+  },
+  "source": {
+    "raw_file": "flm_output/subjects/AI17_COM_3.json",
+    "curriculum_url": "https://flm.fpt.edu.vn/gui/role/student/CurriculumDetails?curid=3173",
+    "pre_syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/Syllabuses?subCode=AI17_COM%2A3&curriculumID=3173",
+    "syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=14409",
+    "details_source_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=14409"
+  },
+  "crawl": {
+    "error": null
+  },
+  "quality": {
+    "has_syllabus": true,
+    "counts": {
+      "materials": 13,
+      "clos": 9,
+      "schedule": 16,
+      "assessments": 10
+    },
+    "warnings": []
+  }
+}

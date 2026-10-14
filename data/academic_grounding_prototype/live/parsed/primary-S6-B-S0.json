@@ -1,0 +1,170 @@
+{
+  "segments": [
+    {
+      "kind": "general_explanation",
+      "text": "Mình tóm gọn theo từng nhóm nội dung học thuật đã nhắc trong cuộc trao đổi, và giữ nguyên điểm/achievement khi nêu lại từng CLO.",
+      "academic_sources": [],
+      "jd_excerpt": null
+    },
+    {
+      "kind": "academic_claim",
+      "text": "Về statistics, hồ sơ của bạn có MAS291/CLO5 với nội dung \"Describe data using numerical summaries and visual displays\", điểm 9.15, achievement excellent; MAS291/CLO6 với \"Discuss sampling distributions and point estimation\", điểm 9.15, achievement excellent; MAS291/CLO7 với \"Construct and interpret confidence intervals\", điểm 9.43, achievement excellent; MAS291/CLO8 với \"Verify claims about population parameters\", điểm 9.43, achievement excellent; và MAS291/CLO9 với \"Construct a simple linear regression model\", điểm 9.43, achievement excellent. Ngoài ra, ADY201m/CLO6 cũng bổ sung mảng statistics for data science với mean, median, mode, variance, standard deviation, data visualization, probability distributions và regression analysis, điểm 8.61, achievement excellent.",
+      "academic_sources": [
+        {
+          "course_code": "MAS291",
+          "clo": "CLO5",
+          "source_excerpt": "Describe data using numerical summaries and visual displays"
+        },
+        {
+          "course_code": "MAS291",
+          "clo": "CLO6",
+          "source_excerpt": "Discuss sampling distributions and point estimation"
+        },
+        {
+          "course_code": "MAS291",
+          "clo": "CLO7",
+          "source_excerpt": "Construct and interpret confidence intervals"
+        },
+        {
+          "course_code": "MAS291",
+          "clo": "CLO8",
+          "source_excerpt": "Verify claims about population parameters"
+        },
+        {
+          "course_code": "MAS291",
+          "clo": "CLO9",
+          "source_excerpt": "Construct a simple linear regression model"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO6",
+          "source_excerpt": "Explain statistics for data science, including mean, median, mode, variance, standard deviation, data visualization, probability distributions, and regression analysis"
+        }
+      ],
+      "jd_excerpt": null
+    },
+    {
+      "kind": "academic_claim",
+      "text": "Về data processing/analysis và visualization, DAP391m/CLO2 nêu \"import data from multiple sources, clean and wrangle data, perform exploratory data analysis (EDA), and create meaningful data visualizations\", điểm 8.79, achievement excellent; DAP391m/CLO7 nêu mini capstone với data collection, data wrangling, EDA, data visualization, model development, model evaluation và reporting, điểm 9.1, achievement excellent. ADY201m/CLO7 cũng cho thấy một guided project trong đó bạn áp dụng Python fundamentals, Python data structures, SQL/database access, data understanding, preprocessing, modeling, evaluation, deployment, visualization, probability, regression analysis và final reporting, điểm 8.61, achievement excellent.",
+      "academic_sources": [
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO2",
+          "source_excerpt": "import data from multiple sources, clean and wrangle data, perform exploratory data analysis (EDA), and create meaningful data visualizations"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO7",
+          "source_excerpt": "Implement the small mini capstone data science project includes steps: involving data collection, data wrangling, exploratory data analysis, data visualization, model development, model evaluation, and reporting"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO7",
+          "source_excerpt": "Implement a small data science project by applying Python fundamentals, Python data structures, SQL/database access, data understanding, preprocessing, modeling, evaluation, deployment, visualization, probability, regression analysis, and final reporting"
+        }
+      ],
+      "jd_excerpt": null
+    },
+    {
+      "kind": "academic_claim",
+      "text": "Về Python, PFP191/CLO7 có nội dung \"Understand object-oriented programming in Python and apply it in application contexts\", điểm 8.9, achievement excellent; PFP191/CLO1–CLO6 lần lượt bao phủ Python environment, variables/statements, conditionals/functions/loops, strings, file handling, và lists/dictionaries/tuples, đều có achievement excellent. ADY201m/CLO5 cũng nêu Python fundamentals, Python libraries, API support và Python for data science, AI, and development workflows, điểm 8.61, achievement excellent.",
+      "academic_sources": [
+        {
+          "course_code": "PFP191",
+          "clo": "CLO7",
+          "source_excerpt": "Understand object-oriented programming in Python and apply it in application contexts"
+        },
+        {
+          "course_code": "PFP191",
+          "clo": "CLO1",
+          "source_excerpt": "Understand the Python programming environment and foundational programming concepts"
+        },
+        {
+          "course_code": "PFP191",
+          "clo": "CLO2",
+          "source_excerpt": "Understand Python variables, expressions, and statements"
+        },
+        {
+          "course_code": "PFP191",
+          "clo": "CLO3",
+          "source_excerpt": "Understand conditional execution, functions, loops, and iteration in Python"
+        },
+        {
+          "course_code": "PFP191",
+          "clo": "CLO4",
+          "source_excerpt": "Understand Python strings as sequences"
+        },
+        {
+          "course_code": "PFP191",
+          "clo": "CLO5",
+          "source_excerpt": "Understand file handling in Python"
+        },
+        {
+          "course_code": "PFP191",
+          "clo": "CLO6",
+          "source_excerpt": "Understand Python lists, dictionaries, and tuples as core data structures"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO5",
+          "source_excerpt": "Discuss Python fundamentals, Python libraries, and API support for data science tasks"
+        }
+      ],
+      "jd_excerpt": null
+    },
+    {
+      "kind": "academic_claim",
+      "text": "Về SQL và database, DBI202/CLO5 có \"Be proficient in SQL\" với DDL/DML, basic queries, multi-relation queries, nested queries và database modifications, điểm 5.96, achievement basic; DBI202/CLO6 có T-SQL database programming concepts in Microsoft SQL Server với views, cursors, stored procedures, functions, triggers và transaction concepts, điểm 5.96, achievement basic. ADY201m/CLO1 bổ sung foundational SQL language knowledge trong bối cảnh data science, gồm accessing databases with Python, basic through advanced SQL-based data analysis, database fundamentals, nested queries và multi-table SELECT statements, điểm 8.3, achievement good.",
+      "academic_sources": [
+        {
+          "course_code": "DBI202",
+          "clo": "CLO5",
+          "source_excerpt": "Be proficient in SQL"
+        },
+        {
+          "course_code": "DBI202",
+          "clo": "CLO6",
+          "source_excerpt": "Understand T-SQL database programming concepts in Microsoft SQL Server"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO1",
+          "source_excerpt": "Understand relational database concepts and foundational SQL language knowledge in the context of data science work"
+        }
+      ],
+      "jd_excerpt": null
+    },
+    {
+      "kind": "academic_claim",
+      "text": "Về ML/DL và các nền tảng liên quan, AIG202c/CLO2 giải thích underlying concepts related to Machine Learning, Deep Learning and Neural Networks, điểm 8.0, achievement good. AIL303m/CLO4 nêu supervised models, including Linear Regression, điểm 8.39, achievement good; AIL303m/CLO9 nêu common clustering and dimensionality-reduction algorithms, điểm 6.87, achievement basic; và MAI391/CLO6, CLO7 lần lượt bao gồm PCA và SVM classification, đều đạt 9.4, achievement excellent. Nếu nhìn riêng phần statistics/machine learning foundations đã trao đổi, đây là các mảnh bằng chứng học thuật trực tiếp.",
+      "academic_sources": [
+        {
+          "course_code": "AIG202c",
+          "clo": "CLO2",
+          "source_excerpt": "Explain underlying concepts related to Machine Learning, Deep Learning and Neural Networks"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO4",
+          "source_excerpt": "describe and use supervised models, including Introduction to Supervised Machine Learning, Linear Regression"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO9",
+          "source_excerpt": "describe and use common clustering and dimensionality-reduction algorithms"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO6",
+          "source_excerpt": "Apply dimensionality reduction with PCA"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO7",
+          "source_excerpt": "Apply support vector machine classification"
+        }
+      ],
+      "jd_excerpt": null
+    }
+  ]
+}

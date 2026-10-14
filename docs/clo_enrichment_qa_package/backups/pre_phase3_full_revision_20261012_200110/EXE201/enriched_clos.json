@@ -1,0 +1,54 @@
+{
+  "course_id": "EXE201",
+  "clos": [
+    {
+      "clo_id": "CLO1",
+      "original_description": "Build physical product/service",
+      "enriched_description": "Build physical product/service. The scope includes Design for Startups; “Be Successful in Your Own Way” - Guest speaker; Design for Startups, Part 2; “Choosing a Startup Idea” - Guest Speaker; How to get your first ten customers?; and Relaunch & try to approach customers again if previously failed.",
+      "source_topic_indices": [
+        0,
+        1,
+        2,
+        4,
+        6,
+        9
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO2",
+      "original_description": "Be able to map out the customer acquisition plan",
+      "enriched_description": "Be able to map out the customer acquisition plan. The scope includes How to get your first ten customers? and Relaunch & try to approach customers again if previously failed.",
+      "source_topic_indices": [
+        2,
+        7
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO3",
+      "original_description": "Launch product on different channels",
+      "enriched_description": "Launch product on different channels. The scope includes How to Get Users and Grow, How to do market research - Instructor or Guest speaker, MVP and How to Shorten Time-To- Market - Guest speaker, “Startup Fundraising & Venture Investment” - Guest speaker, and Relaunch & try to approach customers again if previously failed.",
+      "source_topic_indices": [
+        0,
+        3,
+        7
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO4",
+      "original_description": "Able to analyze feedback from the channels",
+      "enriched_description": "Able to analyze feedback from the channels. The scope includes How to do market research - Instructor or Guest speaker, MVP and How to Shorten Time-To- Market - Guest speaker, “Startup Fundraising & Venture Investment” - Guest speaker, and Relaunch & try to approach customers again if previously failed.",
+      "source_topic_indices": [
+        4,
+        8
+      ],
+      "review_required": false,
+      "review_notes": []
+    }
+  ]
+}

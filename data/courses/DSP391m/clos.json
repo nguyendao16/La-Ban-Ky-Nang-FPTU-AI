@@ -1,0 +1,42 @@
+[
+  {
+    "clo": "CLO1",
+    "description": "Identify relevant data science techniques for addressing Capstone Project topics, including Discussion on the Capstone Project (CP) topic, Discuss and choose a project topic."
+  },
+  {
+    "clo": "CLO2",
+    "description": "Formulate clear data science problem statements, project objectives, and proposal components, including project proposal guidance, proposal discussion, references related to Report , proposal writing, introduction and problem statement submission, proposal improvement, and final proposal submission."
+  },
+  {
+    "clo": "CLO3",
+    "description": "Plan and execute data collection and data cleaning procedures for a capstone project, including data collection and cleaning plans, references for data tasks, data collection discussion, data collection improvement, data cleaning discussion, and data cleaning improvement."
+  },
+  {
+    "clo": "CLO4",
+    "description": "Conduct exploratory data analysis to uncover patterns and insights in project data, including EDA guidance, references for exploratory analysis, EDA discussion, EDA improvement, data task submission, and data task improvement."
+  },
+  {
+    "clo": "CLO5",
+    "description": "Develop and deploy machine learning models tailored to project requirements, including model development guidance, references for model development, model development discussion, and iterative model development improvement."
+  },
+  {
+    "clo": "CLO6",
+    "description": "Evaluate, refine, and optimize machine learning models for improved performance, including model evaluation and fine-tuning guidance, supporting references, evaluation and fine-tuning discussion, and iterative model improvement."
+  },
+  {
+    "clo": "CLO7",
+    "description": "Interpret and visualize project results effectively for stakeholders, including results interpretation and visualization guidance, supporting references, results visualization discussion, and iterative improvement of result communication."
+  },
+  {
+    "clo": "CLO8",
+    "description": "Summarize conclusions from data analysis and provide actionable recommendations, including conclusion and recommendation guidance, supporting references, conclusion discussion, recommendation improvement, and model-results submission."
+  },
+  {
+    "clo": "CLO9",
+    "description": "Compile comprehensive final project reports that integrate insights and methodologies learned throughout the course, including final report guidance, final report references, and final report discussion."
+  },
+  {
+    "clo": "CLO10",
+    "description": "Enhance oral presentation skills through final report refinement, final report submission, and practice for the capstone project presentation."
+  }
+]

@@ -1,0 +1,832 @@
+{
+  "version": 1,
+  "profile_path": "data/student_academic_profile.enriched.json",
+  "profile_sha256": "b0bfa72fdc04f8d2cfc94e68fd7b4745387cd378a923f55eb94e2aef391bf531",
+  "holdouts": [
+    "S4",
+    "S8"
+  ],
+  "scenarios": [
+    {
+      "scenario_id": "S1",
+      "jd": "JD05",
+      "question": "Trong MAS291, CLO nào nói về confidence intervals, CLO nào nói về simple linear regression? Phân biệt hai nội dung và nêu điểm/achievement riêng.",
+      "history": [],
+      "summary_scope": "not_summary",
+      "holdout": false,
+      "targets": [
+        {
+          "target_id": "S1-CI",
+          "statement": "Confidence intervals trong MAS291",
+          "category": "curriculum",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "MAS291",
+              "clo": "CLO7"
+            }
+          ],
+          "acceptable_related_sources": [],
+          "note": "",
+          "semantic_assessment": "manual_only"
+        },
+        {
+          "target_id": "S1-LR",
+          "statement": "Simple linear regression trong MAS291",
+          "category": "curriculum",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "MAS291",
+              "clo": "CLO9"
+            }
+          ],
+          "acceptable_related_sources": [],
+          "note": "",
+          "semantic_assessment": "manual_only"
+        },
+        {
+          "target_id": "S1-CI-GRADE",
+          "statement": "MAS291/CLO7=9.43/excellent",
+          "category": "assessment",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "MAS291",
+              "clo": "CLO7"
+            }
+          ],
+          "acceptable_related_sources": [],
+          "note": "",
+          "semantic_assessment": "manual_only"
+        },
+        {
+          "target_id": "S1-LR-GRADE",
+          "statement": "MAS291/CLO9=9.43/excellent",
+          "category": "assessment",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "MAS291",
+              "clo": "CLO9"
+            }
+          ],
+          "acceptable_related_sources": [],
+          "note": "",
+          "semantic_assessment": "manual_only"
+        }
+      ]
+    },
+    {
+      "scenario_id": "S2",
+      "jd": "JD11",
+      "question": "CSI106 cho mình những nền tảng gì về biểu diễn dữ liệu và mạng máy tính, và chúng liên quan thế nào tới Backend Engineering trong JD này?",
+      "history": [],
+      "summary_scope": "not_summary",
+      "holdout": false,
+      "targets": [
+        {
+          "target_id": "S2-DATA",
+          "statement": "Data types/bit patterns",
+          "category": "curriculum",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "CSI106",
+              "clo": "CLO3"
+            },
+            {
+              "course_code": "CSI106",
+              "metadata_field": "description"
+            }
+          ],
+          "acceptable_related_sources": [],
+          "note": "Metadata supports curriculum coverage, not the assessed Describe outcome/score.",
+          "semantic_assessment": "manual_only"
+        },
+        {
+          "target_id": "S2-NET",
+          "statement": "Networking layers",
+          "category": "curriculum",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "CSI106",
+              "clo": "CLO4"
+            },
+            {
+              "course_code": "CSI106",
+              "metadata_field": "description"
+            }
+          ],
+          "acceptable_related_sources": [],
+          "note": "",
+          "semantic_assessment": "manual_only"
+        },
+        {
+          "target_id": "S2-LINK",
+          "statement": "Liên hệ nền tảng với backend, không suy framework/kinh nghiệm",
+          "category": "boundary",
+          "acceptable_direct_sources": [],
+          "acceptable_related_sources": [
+            {
+              "course_code": "CSI106",
+              "clo": "CLO3"
+            },
+            {
+              "course_code": "CSI106",
+              "clo": "CLO4"
+            }
+          ],
+          "note": "",
+          "semantic_assessment": "manual_only"
+        }
+      ]
+    },
+    {
+      "scenario_id": "S3",
+      "jd": "JD01",
+      "question": "Object Detection, Face Recognition và Object Tracking trong CPV301 nằm ở đâu? Động từ học tập có xác nhận triển khai cả ba không?",
+      "history": [],
+      "summary_scope": "not_summary",
+      "holdout": false,
+      "targets": [
+        {
+          "target_id": "S3-OD",
+          "statement": "Understand/Implement Object Detection",
+          "category": "curriculum",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "CPV301",
+              "clo": "CLO8"
+            }
+          ],
+          "acceptable_related_sources": [],
+          "note": "",
+          "semantic_assessment": "manual_only"
+        },
+        {
+          "target_id": "S3-FACE",
+          "statement": "Explain Face Recognition",
+          "category": "curriculum",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "CPV301",
+              "clo": "CLO9"
+            }
+          ],
+          "acceptable_related_sources": [],
+          "note": "",
+          "semantic_assessment": "manual_only"
+        },
+        {
+          "target_id": "S3-TRACK",
+          "statement": "Explain Object Tracking",
+          "category": "curriculum",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "CPV301",
+              "clo": "CLO9"
+            }
+          ],
+          "acceptable_related_sources": [],
+          "note": "",
+          "semantic_assessment": "manual_only"
+        },
+        {
+          "target_id": "S3-LIMIT",
+          "statement": "Explain Face Recognition/Tracking không xác nhận Implement cả ba",
+          "category": "boundary",
+          "acceptable_direct_sources": [],
+          "acceptable_related_sources": [
+            {
+              "course_code": "CPV301",
+              "clo": "CLO8"
+            },
+            {
+              "course_code": "CPV301",
+              "clo": "CLO9"
+            }
+          ],
+          "note": "",
+          "semantic_assessment": "manual_only"
+        }
+      ]
+    },
+    {
+      "scenario_id": "S4",
+      "jd": "JD11",
+      "question": "Trong MAD101, C programming tools và Maxima được nêu ở đâu? Hồ sơ có xác nhận mình đã sử dụng từng công cụ và được đánh giá riêng trên chúng không?",
+      "history": [],
+      "summary_scope": "not_summary",
+      "holdout": true,
+      "holdout_rationale": "New metadata/example-versus-personal-use question about MAD101; not the old ADY/DAP/PFP tool fixtures or their schema rerun.",
+      "targets": [
+        {
+          "target_id": "S4-C",
+          "statement": "C programming tools trong MAD101 metadata.tools, for example",
+          "category": "metadata",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "MAD101",
+              "metadata_field": "tools"
+            }
+          ],
+          "acceptable_related_sources": [],
+          "note": "",
+          "semantic_assessment": "manual_only"
+        },
+        {
+          "target_id": "S4-MAXIMA",
+          "statement": "Maxima trong MAD101 metadata.tools, for example",
+          "category": "metadata",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "MAD101",
+              "metadata_field": "tools"
+            }
+          ],
+          "acceptable_related_sources": [],
+          "note": "",
+          "semantic_assessment": "manual_only"
+        },
+        {
+          "target_id": "S4-USE-C",
+          "statement": "Không xác nhận cá nhân đã dùng C programming tools",
+          "category": "boundary",
+          "acceptable_direct_sources": [],
+          "acceptable_related_sources": [
+            {
+              "course_code": "MAD101",
+              "metadata_field": "tools"
+            }
+          ],
+          "note": "",
+          "semantic_assessment": "manual_only"
+        },
+        {
+          "target_id": "S4-USE-MAXIMA",
+          "statement": "Không xác nhận cá nhân đã dùng Maxima",
+          "category": "boundary",
+          "acceptable_direct_sources": [],
+          "acceptable_related_sources": [
+            {
+              "course_code": "MAD101",
+              "metadata_field": "tools"
+            }
+          ],
+          "note": "",
+          "semantic_assessment": "manual_only"
+        },
+        {
+          "target_id": "S4-GRADE",
+          "statement": "Không suy điểm hoặc performance riêng của hai công cụ",
+          "category": "boundary",
+          "acceptable_direct_sources": [],
+          "acceptable_related_sources": [
+            {
+              "course_code": "MAD101",
+              "metadata_field": "tools"
+            }
+          ],
+          "note": "",
+          "semantic_assessment": "manual_only"
+        }
+      ]
+    },
+    {
+      "scenario_id": "S5",
+      "jd": "JD05",
+      "question": "Bạn tóm tắt các nội dung học thuật đã trao đổi, kèm nguồn phù hợp và giữ đúng điểm/achievement nếu nhắc lại.",
+      "history": [
+        {
+          "role": "user",
+          "content": "Mình có học confidence intervals và hypothesis testing không?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"reply\": \"MAS291/CLO9: CLO ghi Construct and interpret confidence intervals for population parameters and differences between population parameters, including intervals for means of normal distributions with known or unknown variance, large-sample intervals for population proportions, inference on differences between two means, and inference on differences between two proportions. Điểm 9.43, achievement excellent thuộc outcome này.\\nMAS291/CLO8: CLO ghi Verify claims about population parameters and differences between population parameters using hypothesis testing, including formulating hypotheses, identifying critical values and test statistics, computing p-values, recognizing testing errors, and conducting tests for single means, single proportions, differences between two means, and differences between two proportions. Điểm 9.43, achievement excellent thuộc outcome này.\", \"evidence\": [{\"course_code\": \"MAS291\", \"clo\": \"CLO9\"}, {\"course_code\": \"MAS291\", \"clo\": \"CLO8\"}]}"
+        },
+        {
+          "role": "user",
+          "content": "Còn simple linear regression và PCA thì sao?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"reply\": \"MAS291/CLO9: CLO ghi Construct a simple linear regression model and use it for prediction and interpretation, including empirical models, least-squares estimation, sums of squares, regression equations, correlation coefficients, properties of least-squares estimators, and hypothesis tests for significance in simple linear regression. Điểm 9.43, achievement excellent thuộc outcome này.\\nMAI391/CLO6: CLO ghi Apply dimensionality reduction with PCA, including covariance matrices, maximum-variance subspaces, principal subspace bases, low-rank matrix approximation, PCA in high dimensions, projection perspectives, eigenvector computation, and key practical PCA steps. Điểm 9.4, achievement excellent thuộc outcome này.\", \"evidence\": [{\"course_code\": \"MAS291\", \"clo\": \"CLO9\"}, {\"course_code\": \"MAI391\", \"clo\": \"CLO6\"}]}"
+        }
+      ],
+      "history_origin": "Exact isolated RCA E2-contaminated history; only historical CI attribution is seeded wrong",
+      "summary_scope": "conversation",
+      "holdout": false,
+      "targets": [
+        {
+          "target_id": "S5-CI",
+          "statement": "Giữ CI và sửa nguồn thành MAS291/CLO7",
+          "category": "curriculum",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "MAS291",
+              "clo": "CLO7"
+            }
+          ],
+          "acceptable_related_sources": [],
+          "note": "",
+          "semantic_assessment": "manual_only"
+        },
+        {
+          "target_id": "S5-HYP",
+          "statement": "Hypothesis testing",
+          "category": "curriculum",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "MAS291",
+              "clo": "CLO8"
+            }
+          ],
+          "acceptable_related_sources": [],
+          "note": "",
+          "semantic_assessment": "manual_only"
+        },
+        {
+          "target_id": "S5-LR",
+          "statement": "Simple linear regression",
+          "category": "curriculum",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "MAS291",
+              "clo": "CLO9"
+            }
+          ],
+          "acceptable_related_sources": [],
+          "note": "",
+          "semantic_assessment": "manual_only"
+        },
+        {
+          "target_id": "S5-PCA",
+          "statement": "PCA",
+          "category": "curriculum",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "MAI391",
+              "clo": "CLO6"
+            }
+          ],
+          "acceptable_related_sources": [],
+          "note": "",
+          "semantic_assessment": "manual_only"
+        }
+      ]
+    },
+    {
+      "scenario_id": "S6",
+      "jd": "JD05",
+      "question": "Bạn tóm tắt các nội dung học thuật đã trao đổi, kèm nguồn phù hợp và giữ đúng điểm/achievement nếu nhắc lại.",
+      "history": [
+        {
+          "role": "user",
+          "content": "Tóm các nội dung statistics mình đã học."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"reply\": \"MAS291/CLO5: CLO ghi Describe data using numerical summaries and visual displays, including descriptive statistics, stem-and-leaf diagrams, frequency distributions, histograms, box plots, quartiles, outlier identification, and time sequence plots. Điểm 9.15, achievement excellent thuộc outcome này.\\nMAS291/CLO6: CLO ghi Discuss sampling distributions and point estimation, then use the Central Limit Theorem to analyze sampling distributions of means. Điểm 9.15, achievement excellent thuộc outcome này.\\nMAS291/CLO7: CLO ghi Construct and interpret confidence intervals for population parameters and differences between population parameters, including intervals for means of normal distributions with known or unknown variance, large-sample intervals for population proportions, inference on differences between two means, and inference on differences between two proportions. Điểm 9.43, achievement excellent thuộc outcome này.\\nMAS291/CLO8: CLO ghi Verify claims about population parameters and differences between population parameters using hypothesis testing, including formulating hypotheses, identifying critical values and test statistics, computing p-values, recognizing testing errors, and conducting tests for single means, single proportions, differences between two means, and differences between two proportions. Điểm 9.43, achievement excellent thuộc outcome này.\\nMAS291/CLO9: CLO ghi Construct a simple linear regression model and use it for prediction and interpretation, including empirical models, least-squares estimation, sums of squares, regression equations, correlation coefficients, properties of least-squares estimators, and hypothesis tests for significance in simple linear regression. Điểm 9.43, achievement excellent thuộc outcome này.\", \"evidence\": [{\"course_code\": \"MAS291\", \"clo\": \"CLO5\"}, {\"course_code\": \"MAS291\", \"clo\": \"CLO6\"}, {\"course_code\": \"MAS291\", \"clo\": \"CLO7\"}, {\"course_code\": \"MAS291\", \"clo\": \"CLO8\"}, {\"course_code\": \"MAS291\", \"clo\": \"CLO9\"}]}"
+        }
+      ],
+      "summary_scope": "conversation",
+      "holdout": false,
+      "targets": [
+        {
+          "target_id": "S6-DESCR",
+          "statement": "Descriptive statistics",
+          "category": "curriculum",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "MAS291",
+              "clo": "CLO5"
+            }
+          ],
+          "acceptable_related_sources": [],
+          "note": "",
+          "semantic_assessment": "manual_only"
+        },
+        {
+          "target_id": "S6-SAMPLING",
+          "statement": "Sampling distributions",
+          "category": "curriculum",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "MAS291",
+              "clo": "CLO6"
+            }
+          ],
+          "acceptable_related_sources": [],
+          "note": "",
+          "semantic_assessment": "manual_only"
+        },
+        {
+          "target_id": "S6-CLT",
+          "statement": "Central Limit Theorem",
+          "category": "curriculum",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "MAS291",
+              "clo": "CLO6"
+            }
+          ],
+          "acceptable_related_sources": [],
+          "note": "",
+          "semantic_assessment": "manual_only"
+        },
+        {
+          "target_id": "S6-CI",
+          "statement": "Confidence intervals",
+          "category": "curriculum",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "MAS291",
+              "clo": "CLO7"
+            }
+          ],
+          "acceptable_related_sources": [],
+          "note": "",
+          "semantic_assessment": "manual_only"
+        },
+        {
+          "target_id": "S6-HYP",
+          "statement": "Hypothesis testing",
+          "category": "curriculum",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "MAS291",
+              "clo": "CLO8"
+            }
+          ],
+          "acceptable_related_sources": [],
+          "note": "",
+          "semantic_assessment": "manual_only"
+        },
+        {
+          "target_id": "S6-LR",
+          "statement": "Simple linear regression",
+          "category": "curriculum",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "MAS291",
+              "clo": "CLO9"
+            }
+          ],
+          "acceptable_related_sources": [],
+          "note": "",
+          "semantic_assessment": "manual_only"
+        }
+      ]
+    },
+    {
+      "scenario_id": "S7",
+      "jd": "JD11",
+      "question": "Tóm tắt ngắn đúng hai nội dung sorting và hashing mình vừa trao đổi.",
+      "history": [
+        {
+          "role": "user",
+          "content": "Sorting và hashing trong CSD203 nằm ở đâu?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"reply\": \"CSD203/CLO6: CLO ghi Explain the operation and performance of basic and advanced sorting algorithms, including selection sort, insertion sort, bubble sort, quicksort, merge sort, heap sort, bucket sort, radix sort, and comparison of sorting algorithm performance. Điểm 6.06, achievement basic thuộc outcome này.\\nCSD203/CLO7: CLO ghi Explain hashing and its applications, including hash tables, hash functions, collision handling, load factors, rehashing, efficiency considerations, and Python hash table implementation. Điểm 6.06, achievement basic thuộc outcome này.\", \"evidence\": [{\"course_code\": \"CSD203\", \"clo\": \"CLO6\"}, {\"course_code\": \"CSD203\", \"clo\": \"CLO7\"}]}"
+        }
+      ],
+      "summary_scope": "conversation",
+      "holdout": false,
+      "previous_holdout_now_development": true,
+      "targets": [
+        {
+          "target_id": "S7-SORT",
+          "statement": "Sorting",
+          "category": "curriculum",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "CSD203",
+              "clo": "CLO6"
+            }
+          ],
+          "acceptable_related_sources": [],
+          "note": "",
+          "semantic_assessment": "manual_only"
+        },
+        {
+          "target_id": "S7-HASH",
+          "statement": "Hashing",
+          "category": "curriculum",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "CSD203",
+              "clo": "CLO7"
+            }
+          ],
+          "acceptable_related_sources": [],
+          "note": "",
+          "semantic_assessment": "manual_only"
+        }
+      ]
+    },
+    {
+      "scenario_id": "S8",
+      "jd": "JD07",
+      "question": "Tổng hợp tất cả kiến thức học thuật trong hồ sơ liên quan tới JD này, kể cả phần chưa bàn trong hội thoại; phân biệt nội dung có nguồn, công nghệ chưa được xác nhận và điều kiện JD mà CLO không chứng minh.",
+      "history": [
+        {
+          "role": "user",
+          "content": "AIL303m có nội dung phát hiện và xử lý outliers không?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"reply\": \"AIL303m/CLO3 ghi: Learners should be able to use a variety of techniques for detecting and dealing with outliers, including Inferential Statistics, Hypothesis Testing, Estimation, Inference, Hypothesis Testing (Homework). Điểm 7.56, achievement good thuộc CLO này.\", \"evidence\": [{\"course_code\": \"AIL303m\", \"clo\": \"CLO3\"}]}"
+        }
+      ],
+      "summary_scope": "comprehensive_jd",
+      "holdout": true,
+      "holdout_rationale": "New JD07 comprehensive synthesis with a new AIL303m/outliers-only history; not an old PFP/CSD RCA holdout rerun. JD07 and its Review were historical inputs, not claimed entirely unseen.",
+      "targets": [
+        {
+          "target_id": "S8-WORKFLOW",
+          "statement": "Methodology/business questions và phân tích dữ liệu",
+          "category": "curriculum",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "ADY201m",
+              "clo": "CLO4"
+            },
+            {
+              "course_code": "DAP391m",
+              "clo": "CLO1"
+            },
+            {
+              "course_code": "DAP391m",
+              "clo": "CLO2"
+            },
+            {
+              "course_code": "DAP391m",
+              "clo": "CLO7"
+            }
+          ],
+          "acceptable_related_sources": [],
+          "note": "",
+          "semantic_assessment": "manual_only"
+        },
+        {
+          "target_id": "S8-COLLECTION",
+          "statement": "Data collection/retrieval",
+          "category": "curriculum",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "ADY201m",
+              "clo": "CLO5"
+            },
+            {
+              "course_code": "ADY201m",
+              "clo": "CLO4"
+            },
+            {
+              "course_code": "DAP391m",
+              "clo": "CLO7"
+            },
+            {
+              "course_code": "AIL303m",
+              "clo": "CLO1"
+            },
+            {
+              "course_code": "AIL303m",
+              "clo": "CLO10"
+            }
+          ],
+          "acceptable_related_sources": [],
+          "note": "Do not bind collection to ADY201m/CLO7; preserve cognitive verbs.",
+          "semantic_assessment": "manual_only"
+        },
+        {
+          "target_id": "S8-CLEAN",
+          "statement": "Cleaning/wrangling/transform",
+          "category": "curriculum",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "DAP391m",
+              "clo": "CLO1"
+            },
+            {
+              "course_code": "DAP391m",
+              "clo": "CLO2"
+            },
+            {
+              "course_code": "DAP391m",
+              "clo": "CLO7"
+            },
+            {
+              "course_code": "ADY201m",
+              "clo": "CLO5"
+            },
+            {
+              "course_code": "ADY201m",
+              "clo": "CLO7"
+            },
+            {
+              "course_code": "AIL303m",
+              "clo": "CLO1"
+            },
+            {
+              "course_code": "AIL303m",
+              "clo": "CLO2"
+            },
+            {
+              "course_code": "AIL303m",
+              "clo": "CLO10"
+            }
+          ],
+          "acceptable_related_sources": [],
+          "note": "",
+          "semantic_assessment": "manual_only"
+        },
+        {
+          "target_id": "S8-VIS",
+          "statement": "Visualization/reports/dashboard",
+          "category": "curriculum",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "DAP391m",
+              "clo": "CLO2"
+            },
+            {
+              "course_code": "DAP391m",
+              "clo": "CLO3"
+            },
+            {
+              "course_code": "DAP391m",
+              "clo": "CLO4"
+            },
+            {
+              "course_code": "DAP391m",
+              "clo": "CLO7"
+            },
+            {
+              "course_code": "DAP391m",
+              "metadata_field": "description"
+            },
+            {
+              "course_code": "ADY201m",
+              "clo": "CLO7"
+            }
+          ],
+          "acceptable_related_sources": [],
+          "note": "Dashboard needs DAP391m/CLO7 or explicit course-description scope; other visualization sources do not individually prove dashboard.",
+          "semantic_assessment": "manual_only"
+        },
+        {
+          "target_id": "S8-QUALITY",
+          "statement": "Data quality/outliers",
+          "category": "curriculum",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "AIL303m",
+              "clo": "CLO3"
+            },
+            {
+              "course_code": "DAP391m",
+              "clo": "CLO2"
+            },
+            {
+              "course_code": "AIL303m",
+              "clo": "CLO1"
+            }
+          ],
+          "acceptable_related_sources": [],
+          "note": "",
+          "semantic_assessment": "manual_only"
+        },
+        {
+          "target_id": "S8-SQL",
+          "statement": "Foundational SQL",
+          "category": "curriculum",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "DBI202",
+              "clo": "CLO5"
+            },
+            {
+              "course_code": "DBI202",
+              "clo": "CLO6"
+            },
+            {
+              "course_code": "ADY201m",
+              "clo": "CLO1"
+            },
+            {
+              "course_code": "ADY201m",
+              "clo": "CLO7"
+            }
+          ],
+          "acceptable_related_sources": [],
+          "note": "Each CLO has its own assessment; no overall SQL proficiency tier.",
+          "semantic_assessment": "manual_only"
+        },
+        {
+          "target_id": "S8-PYTHON",
+          "statement": "Python trong lựa chọn preferred Python OR R",
+          "category": "curriculum",
+          "acceptable_direct_sources": [
+            {
+              "course_code": "PFP191",
+              "clo": "CLO3"
+            },
+            {
+              "course_code": "PFP191",
+              "clo": "CLO4"
+            },
+            {
+              "course_code": "PFP191",
+              "clo": "CLO5"
+            },
+            {
+              "course_code": "PFP191",
+              "clo": "CLO6"
+            },
+            {
+              "course_code": "PFP191",
+              "clo": "CLO7"
+            },
+            {
+              "course_code": "ADY201m",
+              "clo": "CLO5"
+            },
+            {
+              "course_code": "DAP391m",
+              "clo": "CLO1"
+            }
+          ],
+          "acceptable_related_sources": [],
+          "note": "",
+          "semantic_assessment": "manual_only"
+        },
+        {
+          "target_id": "S8-R",
+          "statement": "R được nhắc nhưng use-at-least-one không xác định lựa chọn cá nhân; preferred/OR được giữ",
+          "category": "boundary",
+          "acceptable_direct_sources": [],
+          "acceptable_related_sources": [
+            {
+              "course_code": "ADY201m",
+              "clo": "CLO3"
+            },
+            {
+              "course_code": "ADY201m",
+              "metadata_field": "tools"
+            }
+          ],
+          "note": "ADY metadata.tools says RStudio, not standalone R use; CLO3 explicitly names R.",
+          "semantic_assessment": "manual_only"
+        },
+        {
+          "target_id": "S8-TOOLS",
+          "statement": "Excel/Power BI/Tableau chưa được xác nhận trực tiếp là personal use",
+          "category": "boundary",
+          "acceptable_direct_sources": [],
+          "acceptable_related_sources": [
+            {
+              "course_code": "MAS291",
+              "metadata_field": "tools"
+            },
+            {
+              "course_code": "MAD101",
+              "metadata_field": "tools"
+            },
+            {
+              "course_code": "DAP391m",
+              "clo": "CLO7"
+            }
+          ],
+          "note": "MAS metadata names Excel as example; MAD tools does not name Excel/Power BI/Tableau. Split named tool assertions manually.",
+          "semantic_assessment": "manual_only"
+        },
+        {
+          "target_id": "S8-GPA",
+          "statement": "Không suy GPA>=7.5 từ CLO",
+          "category": "boundary",
+          "acceptable_direct_sources": [],
+          "acceptable_related_sources": [],
+          "note": "",
+          "semantic_assessment": "manual_only"
+        },
+        {
+          "target_id": "S8-ENGLISH",
+          "statement": "Không suy chứng chỉ English B1 từ CLO",
+          "category": "boundary",
+          "acceptable_direct_sources": [],
+          "acceptable_related_sources": [],
+          "note": "",
+          "semantic_assessment": "manual_only"
+        },
+        {
+          "target_id": "S8-STUDENT",
+          "statement": "Không suy final-year/recent graduate eligibility hoặc projects nghề nghiệp",
+          "category": "boundary",
+          "acceptable_direct_sources": [],
+          "acceptable_related_sources": [],
+          "note": "",
+          "semantic_assessment": "manual_only"
+        }
+      ]
+    }
+  ]
+}

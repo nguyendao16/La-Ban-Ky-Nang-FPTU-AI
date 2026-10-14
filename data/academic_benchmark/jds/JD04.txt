@@ -1,0 +1,6 @@
+Bosch HcP — Industrial AI Engineer Intern
+Responsibilities: Develop manufacturing vision solutions; train/validate detection, classification, OCR and anomaly models; integrate cameras and production systems; develop LLM/RAG/agent workflows and enterprise integration; build APIs; deploy to edge, servers or cloud; support MLOps/AgentOps reliability.
+Qualifications: Relevant third/fourth-year university study; Python explicitly required. Listed technical skills include OpenCV, YOLO, PyTorch/TensorFlow, REST APIs with FastAPI/Flask, SQL, databases, Git and Docker. Listed foundations include CV/image processing, ML/DL, LLMs, RAG and agent concepts.
+Preferred: ONNX deployment is explicitly a plus.
+Responsibilities describe internship work, not an explicit requirement for prior industrial employment.
+Source-grounded paraphrase from iAgora's employer-posting reproduction, not exact employer text or vacancy-status confirmation.

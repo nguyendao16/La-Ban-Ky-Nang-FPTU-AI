@@ -1,0 +1,969 @@
+{
+  "schema_version": "stage1_v1",
+  "record_type": "normal_subject",
+  "subject": {
+    "code": "AIL303m",
+    "name": {
+      "full": "Machine Learning_Học máy",
+      "en": "Machine Learning",
+      "vi": "Học máy"
+    },
+    "semester": 4,
+    "credits": 3,
+    "prerequisite": "MAS291, MAI391, PFP191"
+  },
+  "syllabus": {
+    "id": "10736",
+    "name": "Machine Learning_Học máy",
+    "is_active": true,
+    "is_approved": true,
+    "decision_no": "358/QĐ-ĐHFPT dated 04/03/2024"
+  },
+  "content": {
+    "metadata": {
+      "syllabus_id": "10736",
+      "syllabus_name": "Machine Learning_Học máy",
+      "course_name_english": "Machine Learning",
+      "subject_code": "AIL303m",
+      "learning_teaching_method": "Blended,Lecture,Active learning,Social Constructivism,Offline, Discussion",
+      "nocredit": "3",
+      "degree_level": "Bachelor",
+      "time_allocation": "45h (60 sessions) contact hours + 1h final exam + 104h self-study",
+      "pre_requisite": "MAS291, MAI391, PFP191",
+      "description": "The course provides an introduction to Exploratory Data Analysis for Machine Learning (common techniques to retrieve your data, clean it, apply feature engineering, and have it ready for preliminary analysis and hypothesis testing), Supervised Machine Learning (how to train models to predict outcomes and how to use error metrics to compare across different supervised models), , Unsupervised Machine Learning (how to find insights from data sets that do not have a target or labeled variable. Learners will learn several clustering and dimension reduction algorithms for unsupervised learning as well as how to select the algorithm that best suits your data).",
+      "studenttasks": "- Students must attend at least 80% of contact slots in order to be accepted to the final examination.\n- Student is responsible to do all exercises, assignments and labs given by instructor in class or at home and submit on time\n- Use laptop in class only for learning purpose\n- Promptly access to the FU LMS at https://flm.fpt.edu.vn/ for up-to-date course information",
+      "tools": "- jupyterlite\n- JupyterLab",
+      "scoring_scale": "10",
+      "decisionno_mm_dd_yyyy": "358/QĐ-ĐHFPT dated 04/03/2024",
+      "isapproved": "True",
+      "note": "",
+      "is_scored": "True",
+      "minavgmarktopass": "5",
+      "isactive": "True",
+      "approveddate": "4/3/2024"
+    },
+    "materials": [
+      {
+        "no": "1",
+        "material_description": "https://www.coursera.org/specializations/ibm-intro-machine-learning",
+        "author": "Coursera",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": ""
+      },
+      {
+        "no": "2",
+        "material_description": "https://www.coursera.org/learn/ibm-exploratory-data-analysis-for-machine-learning?specialization=ibm-intro-machine-learning",
+        "author": "Coursera",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": ""
+      },
+      {
+        "no": "3",
+        "material_description": "https://www.coursera.org/learn/supervised-machine-learning-regression?specialization=ibm-intro-machine-learning",
+        "author": "Coursera",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": ""
+      },
+      {
+        "no": "4",
+        "material_description": "https://www.coursera.org/learn/supervised-machine-learning-classification?specialization=ibm-intro-machine-learning",
+        "author": "Coursera",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": ""
+      },
+      {
+        "no": "5",
+        "material_description": "https://www.coursera.org/learn/ibm-unsupervised-machine-learning?specialization=ibm-intro-machine-learning",
+        "author": "Coursera",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": ""
+      }
+    ],
+    "clos": [
+      {
+        "no": "1",
+        "clo_name": "CLO1",
+        "clo_details": "Learners should be able to use common techniques to retrieve data from multiple data sources: SQL, NoSQL databases, APIs, Cloud"
+      },
+      {
+        "no": "2",
+        "clo_name": "CLO2",
+        "clo_details": "Learners should be able to describe and use common feature selection and feature engineering techniques"
+      },
+      {
+        "no": "3",
+        "clo_name": "CLO3",
+        "clo_details": "Learners should be able to use a variety of techniques for detecting and dealing with outliers"
+      },
+      {
+        "no": "4",
+        "clo_name": "CLO4",
+        "clo_details": "Learners should be able to describe and use supervised models"
+      },
+      {
+        "no": "5",
+        "clo_name": "CLO5",
+        "clo_details": "Learners should be able to use a variety of error metrics to compare and select a supervised model that best suits your data"
+      },
+      {
+        "no": "6",
+        "clo_name": "CLO6",
+        "clo_details": "Learners should be able to use oversampling and undersampling as techniques to handle unbalanced classes in a data"
+      },
+      {
+        "no": "7",
+        "clo_name": "CLO7",
+        "clo_details": "Learners should be able to explain the kinds of problems suitable for Unsupervised Learning approaches"
+      },
+      {
+        "no": "8",
+        "clo_name": "CLO8",
+        "clo_details": "Explain the curse of dimensionality, and how it makes clustering difficult with many features"
+      },
+      {
+        "no": "9",
+        "clo_name": "CLO9",
+        "clo_details": "Learners should be able to describe and use common clustering and dimensionality-reduction algorithms"
+      },
+      {
+        "no": "10",
+        "clo_name": "CLO10",
+        "clo_details": "Implement a mini capstone ML project includes steps: data collection, data wrangling, exploratory data analysis, model development, model evaluation, and reporting"
+      }
+    ],
+    "schedule": [
+      {
+        "session": "1",
+        "topic": "Course Introduction\n1.1. A brief history of modern AI and its Application\n1.1.1. Introduction to AI and Machine Learning",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "IT",
+        "student_materials": "Slide , Videos of Introduction to Artificial Intelligence and Machine Learning",
+        "s_download": "mat1",
+        "student_tasks": "Read Slide and Watch Video",
+        "urls": ""
+      },
+      {
+        "session": "2",
+        "topic": "1.1. A brief history of modern AI and its Application\n1.1.2. Modern AI: Applications and Machine Learning Workflow",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "T",
+        "student_materials": "Slide, Videos of Modern AI: Applications and the Machine Learning Workflow",
+        "s_download": "",
+        "student_tasks": "Read Slide and Watch Video",
+        "urls": ""
+      },
+      {
+        "session": "3",
+        "topic": "1.2. Retrieving and Cleaning data\n1.2.1. Retrieving data\n1.2.2. Cleaning data",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "T",
+        "student_materials": "Slide, Videos of Retrieving Data and Cleaning Data",
+        "s_download": "",
+        "student_tasks": "Read Slide and Watch Video",
+        "urls": ""
+      },
+      {
+        "session": "4",
+        "topic": "1.3. Exploratory Data Analysis and Feature Engineering\n1.3.1 Exploratory Data Analysis",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2",
+        "itu": "T",
+        "student_materials": "Slide, Videos of Exploratory Data Analysis",
+        "s_download": "",
+        "student_tasks": "Read Slide and Watch Video",
+        "urls": ""
+      },
+      {
+        "session": "5",
+        "topic": "1.3. Exploratory Data Analysis and Feature Engineering\n1.3.1 Exploratory Data Analysis",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2",
+        "itu": "T",
+        "student_materials": "Slide, Videos of Exploratory Data Analysis",
+        "s_download": "",
+        "student_tasks": "Read Slide and Watch Video",
+        "urls": ""
+      },
+      {
+        "session": "6",
+        "topic": "1.3. Exploratory Data Analysis and Feature Engineering\n1.3.2 Feature Engineering and Variable\nTransformation",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2",
+        "itu": "T",
+        "student_materials": "Slide, Videos of Feature Engineering and Variable\nTransformation",
+        "s_download": "",
+        "student_tasks": "Read Slide and Watch Video",
+        "urls": ""
+      },
+      {
+        "session": "7",
+        "topic": "1.3. Exploratory Data Analysis and Feature Engineering\n1.3.2 Feature Engineering and Variable\nTransformation",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2",
+        "itu": "T",
+        "student_materials": "Slide, Videos of Feature Engineering and Variable\nTransformation",
+        "s_download": "",
+        "student_tasks": "Read Slide and Watch Video",
+        "urls": ""
+      },
+      {
+        "session": "8",
+        "topic": "1.4 Inferential Statistics and Hypothesis Testing\n1.4.1 Estimation and Inference",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "T",
+        "student_materials": "Slide, Videos of Estimation and Inference, and Hypothesis Testing",
+        "s_download": "",
+        "student_tasks": "Read Slide and Watch Video",
+        "urls": ""
+      },
+      {
+        "session": "9",
+        "topic": "1.4 Inferential Statistics and Hypothesis Testing\n1.4.2 Hypothesis Testing (Homework)\n1.3.3 Demo Lab Feature Engineering",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "T",
+        "student_materials": "Slide, Videos of Hypothesis Testing",
+        "s_download": "",
+        "student_tasks": "Read Slide and Watch Video",
+        "urls": ""
+      },
+      {
+        "session": "10",
+        "topic": "Progress test 1\nGuiding mini Capstone",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO10",
+        "itu": "U",
+        "student_materials": "- Content 1 - 9.\n- Progress test 1.\n- The mini capstone (.docx file)",
+        "s_download": "",
+        "student_tasks": "- Review Content 1 - 9\n- Do Progress test 1",
+        "urls": ""
+      },
+      {
+        "session": "11",
+        "topic": "2.1 Introduction to Supervised Machine Learning and Linear Regression\n2.1.1 Introduction to Supervised Machine Learning\n2.2 Data Splits and Cross Validation\n2.2.1 Training and Test Splits",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "T",
+        "student_materials": "Slide, Videos of Introduction to Supervised Machine Learning\n'Slide, Videos of Training and Test Splits",
+        "s_download": "",
+        "student_tasks": "Read Slide and Watch Video",
+        "urls": ""
+      },
+      {
+        "session": "12",
+        "topic": "2.2 Data Splits and Cross Validation\n2.2.1 Training and Test Splits",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO5",
+        "itu": "T",
+        "student_materials": "Slide, Videos of Training and Test Splits",
+        "s_download": "",
+        "student_tasks": "Read Slide and Watch Video",
+        "urls": ""
+      },
+      {
+        "session": "13",
+        "topic": "2.2 Data Splits and Cross Validation\n2.2.2 Cross Validation",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO5",
+        "itu": "T",
+        "student_materials": "Slide, Videos of Cross Validation",
+        "s_download": "",
+        "student_tasks": "Read Slide and Watch Video",
+        "urls": ""
+      },
+      {
+        "session": "14",
+        "topic": "2.3 Linear Regression",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "T",
+        "student_materials": "Slide, Videos of Linear Regression",
+        "s_download": "",
+        "student_tasks": "Read Slide and Watch Video",
+        "urls": ""
+      },
+      {
+        "session": "15",
+        "topic": "2.4 Polynomial Regression\n2.5 Regression with Regularization Techniques\n2.5.1 Regularization Techniques\nElastic Net, Recursive Feature Elimination (Homework)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO5",
+        "itu": "T",
+        "student_materials": "Slide, Videos of Polynomial Regression\n'Slide, Videos of Regularization Techniques",
+        "s_download": "",
+        "student_tasks": "",
+        "urls": ""
+      },
+      {
+        "session": "16",
+        "topic": "2.5 Regression with Regularization Techniques\n2.5.2 Polynomial Features and Regularization Demo",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO5",
+        "itu": "T",
+        "student_materials": "Slide, Videos of Regularization Techniques",
+        "s_download": "",
+        "student_tasks": "Read Slide and Watch Video",
+        "urls": ""
+      },
+      {
+        "session": "17",
+        "topic": "2.5 Regression with Regularization Techniques\n2.5.2 Polynomial Features and Regularization Demo",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO5",
+        "itu": "T",
+        "student_materials": "Slide, Videos of Polynomial Features and Regularization Demo",
+        "s_download": "",
+        "student_tasks": "Read Slide and Watch Video",
+        "urls": ""
+      },
+      {
+        "session": "18",
+        "topic": "2.5 Regression with Regularization Techniques\n2.5.3. Details of Regularization",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO5",
+        "itu": "T",
+        "student_materials": "Slide, Videos of Details of Regularization",
+        "s_download": "",
+        "student_tasks": "Read Slide and Watch Video",
+        "urls": ""
+      },
+      {
+        "session": "19",
+        "topic": "Progress Test 2\nReview Lab 1",
+        "learning_teaching_type": "Offline",
+        "lo": "",
+        "itu": "U",
+        "student_materials": "- Content 11 - 19.\n- Progress test 2\n- Student's lab",
+        "s_download": "",
+        "student_tasks": "- Review Content 11 - 19\n- Do Progress test 2",
+        "urls": ""
+      },
+      {
+        "session": "20",
+        "topic": "Review Lab 1",
+        "learning_teaching_type": "Offline",
+        "lo": "",
+        "itu": "U",
+        "student_materials": "Student's lab",
+        "s_download": "",
+        "student_tasks": "Presentation",
+        "urls": ""
+      },
+      {
+        "session": "21",
+        "topic": "Review the mini Capstone",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO10",
+        "itu": "U",
+        "student_materials": "Student's capstone",
+        "s_download": "",
+        "student_tasks": "Presentation",
+        "urls": ""
+      },
+      {
+        "session": "22",
+        "topic": "3.1 Logistic Regression\n3.1.1 Logistic Regression: Introduction to Classification and Error Metrics",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4, CLO5",
+        "itu": "T",
+        "student_materials": "Slide, Videos of Logistic Regression: Introduction to Classification and Error Metrics",
+        "s_download": "",
+        "student_tasks": "Read Slide and Watch Video",
+        "urls": ""
+      },
+      {
+        "session": "23",
+        "topic": "3.1 Logistic Regression\n3.1.2 Error Metrics\n3.1.3 Logistic Regression Labs",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4, CLO5",
+        "itu": "T",
+        "student_materials": "Slide, Videos of Error Metrics\n'Slide, Videos of Logistic Regression Labs",
+        "s_download": "",
+        "student_tasks": "Read Slide and Watch Video",
+        "urls": ""
+      },
+      {
+        "session": "24",
+        "topic": "3.1 Logistic Regression\n3.1.2 Logistic Regression Labs",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4, CLO5",
+        "itu": "T",
+        "student_materials": "Slide, Videos of Logistic Regression Labs",
+        "s_download": "",
+        "student_tasks": "Read Slide and Watch Video",
+        "urls": ""
+      },
+      {
+        "session": "25",
+        "topic": "3.2 K Nearest Neighbors\n3.2.1 K Nearest Neighbors",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4, CLO5",
+        "itu": "T",
+        "student_materials": "Slide, Videos of K Nearest Neighbors",
+        "s_download": "",
+        "student_tasks": "Presentation",
+        "urls": ""
+      },
+      {
+        "session": "26",
+        "topic": "3.2 K Nearest Neighbors\n3.2.1 K Nearest Neighbors",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4, CLO5",
+        "itu": "T",
+        "student_materials": "Slide, Videos of K Nearest Neighbors",
+        "s_download": "",
+        "student_tasks": "Read Slide and Watch Video",
+        "urls": ""
+      },
+      {
+        "session": "27",
+        "topic": "3.2 K Nearest Neighbors\n3.2.2 K Nearest Neighbors Labs",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4, CLO5",
+        "itu": "T",
+        "student_materials": "Slide, Videos of K Nearest Neighbors Labs",
+        "s_download": "",
+        "student_tasks": "Read Slide and Watch Video",
+        "urls": ""
+      },
+      {
+        "session": "28",
+        "topic": "3.2 K Nearest Neighbors\n3.2.2 K Nearest Neighbors Labs",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4, CLO5",
+        "itu": "T",
+        "student_materials": "Slide, Videos of K Nearest Neighbors Labs",
+        "s_download": "",
+        "student_tasks": "Read Slide and Watch Video",
+        "urls": ""
+      },
+      {
+        "session": "29",
+        "topic": "Review lab 2",
+        "learning_teaching_type": "Offline",
+        "lo": "",
+        "itu": "U",
+        "student_materials": "Student's lab 2",
+        "s_download": "",
+        "student_tasks": "Presentation",
+        "urls": ""
+      },
+      {
+        "session": "30",
+        "topic": "Review the mini Capstone",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO10",
+        "itu": "U",
+        "student_materials": "Student's capstone",
+        "s_download": "",
+        "student_tasks": "Presentation",
+        "urls": ""
+      },
+      {
+        "session": "31",
+        "topic": "3.3 Support Vector Machines\n3.3.1 Support Vector Machines",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4, CLO5",
+        "itu": "T",
+        "student_materials": "Slide, Videos of Support Vector Machines",
+        "s_download": "",
+        "student_tasks": "Read Slide and Watch Video",
+        "urls": ""
+      },
+      {
+        "session": "32",
+        "topic": "3.3 Support Vector Machines\n3.3.2 Support Vector Machines Kernels",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4, CLO5",
+        "itu": "T",
+        "student_materials": "Slide, Videos of Support Vector Machines Kernels",
+        "s_download": "",
+        "student_tasks": "Read Slide and Watch Video",
+        "urls": ""
+      },
+      {
+        "session": "33",
+        "topic": "3.3 Support Vector Machines\n3.3.3 Support Vector Machines Labs",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4, CLO5",
+        "itu": "T",
+        "student_materials": "Slide, Videos of Support Vector Machines Labs",
+        "s_download": "",
+        "student_tasks": "Read Slide and Watch Video",
+        "urls": ""
+      },
+      {
+        "session": "34",
+        "topic": "3.3 Support Vector Machines\n3.3.3 Support Vector Machines Labs",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4, CLO5",
+        "itu": "T",
+        "student_materials": "Slide, Videos of Support Vector Machines Labs",
+        "s_download": "",
+        "student_tasks": "Read Slide and Watch Video",
+        "urls": ""
+      },
+      {
+        "session": "35",
+        "topic": "3.4 Decision Trees\n3.4.1 Decision Trees",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4, CLO5",
+        "itu": "T",
+        "student_materials": "Slide, Videos of Decision Trees",
+        "s_download": "",
+        "student_tasks": "Read Slide and Watch Video",
+        "urls": ""
+      },
+      {
+        "session": "36",
+        "topic": "3.4 Decision Trees\n3.4.2 Decision Trees Labs",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4, CLO5",
+        "itu": "T",
+        "student_materials": "Slide, Videos of Decision Trees Labs",
+        "s_download": "",
+        "student_tasks": "Read Slide and Watch Video",
+        "urls": ""
+      },
+      {
+        "session": "37",
+        "topic": "3.5 Ensemble Models\n3.5.1 Ensemble Based Methods and Bagging",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4, CLO5",
+        "itu": "T",
+        "student_materials": "Slide, Videos of Ensemble Based Methods and Bagging",
+        "s_download": "",
+        "student_tasks": "Read Slide and Watch Video",
+        "urls": ""
+      },
+      {
+        "session": "38",
+        "topic": "3.5 Ensemble Models\n3.5.1 Ensemble Based Methods and Bagging",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4, CLO5",
+        "itu": "T",
+        "student_materials": "Slide, Videos of Random Forest",
+        "s_download": "",
+        "student_tasks": "Read Slide and Watch Video",
+        "urls": ""
+      },
+      {
+        "session": "39",
+        "topic": "3.5 Ensemble Models\n3.5.2 Bagging Labs",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4, CLO5",
+        "itu": "T",
+        "student_materials": "Slide, Videos of Bagging Labs",
+        "s_download": "",
+        "student_tasks": "Read Slide and Watch Video",
+        "urls": ""
+      },
+      {
+        "session": "40",
+        "topic": "3.5 Ensemble Models\n3.5.2 Bagging Labs",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4, CLO5",
+        "itu": "T",
+        "student_materials": "Slide, Videos of Bagging Labs",
+        "s_download": "",
+        "student_tasks": "Read Slide and Watch Video",
+        "urls": ""
+      },
+      {
+        "session": "41",
+        "topic": "3.5 Ensemble Models\n3.5.3 Boosting and Stacking (Homework for Stacking)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4, CLO5",
+        "itu": "T",
+        "student_materials": "Slide, Videos of Boosting and Stacking",
+        "s_download": "",
+        "student_tasks": "Read Slide and Watch Video",
+        "urls": ""
+      },
+      {
+        "session": "42",
+        "topic": "3.5 Ensemble Models\n3.5.4 Boosting and Stacking Labs",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4, CLO5",
+        "itu": "T",
+        "student_materials": "Slide, Videos of Boosting and Stacking Labs",
+        "s_download": "",
+        "student_tasks": "Read Slide and Watch Video",
+        "urls": ""
+      },
+      {
+        "session": "43",
+        "topic": "3.6 Modeling Unbalanced Classes\n3.6.1 Model Interpretability (Homework)\n3.6.2 Modeling Unbalanced Classes",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4, CLO5",
+        "itu": "T",
+        "student_materials": "Slide, Videos of Model Interpretability",
+        "s_download": "",
+        "student_tasks": "Read Slide and Watch Video",
+        "urls": ""
+      },
+      {
+        "session": "44",
+        "topic": "3.6 Modeling Unbalanced Classes\n3.6.2 Modeling Unbalanced Classes\n3.6.3 Practice Lab: Modeling Imbalanced Classes",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO6",
+        "itu": "T",
+        "student_materials": "Slide, Videos of Modeling Unbalanced Classes",
+        "s_download": "",
+        "student_tasks": "Read Slide and Watch Video",
+        "urls": ""
+      },
+      {
+        "session": "45",
+        "topic": "Progress Test 3\nReview the mini capstone",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO10",
+        "itu": "U",
+        "student_materials": "- Content 24 - 30 and 34 - 47.\n- Progress test 3\n- Student's capstone",
+        "s_download": "",
+        "student_tasks": "- Review Content 24 - 30 and 34 - 47\n- Do Progress test 3\n-",
+        "urls": ""
+      },
+      {
+        "session": "46",
+        "topic": "Review the mini capstone",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO10",
+        "itu": "U",
+        "student_materials": "Student's capstone",
+        "s_download": "",
+        "student_tasks": "Presentation",
+        "urls": ""
+      },
+      {
+        "session": "47",
+        "topic": "4.1 Introduction to Unsupervised Learning and K Means\n4.1.1 Introduction to Unsupervised Learning\n4.1.2 K Means Clustering",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO7, CLO8",
+        "itu": "T",
+        "student_materials": "Slide, Videos of Introduction to Unsupervised Learning, K Means Clustering",
+        "s_download": "",
+        "student_tasks": "Read Slide and Watch Video",
+        "urls": ""
+      },
+      {
+        "session": "48",
+        "topic": "4.1 Introduction to Unsupervised Learning and K Means\n4.1.2 K Means Clustering\n4.1.3 K-Means Lab",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO8",
+        "itu": "T",
+        "student_materials": "Slide, Videos of K Means Clustering",
+        "s_download": "",
+        "student_tasks": "Read Slide and Watch Video",
+        "urls": ""
+      },
+      {
+        "session": "49",
+        "topic": "4.2 Selecting a clustering algorithm\n4.2.1 Distance Metrics of Clustering Algorithms\n4.2.2 Common clustering algorithms\n4.2.2.1 Hierarchical Agglomerative Clustering",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO8, CLO9",
+        "itu": "T",
+        "student_materials": "Slide, Videos of Computational hurdles of clustering algorithms",
+        "s_download": "",
+        "student_tasks": "Read Slide and Watch Video",
+        "urls": ""
+      },
+      {
+        "session": "50",
+        "topic": "4.2 Selecting a clustering algorithm\n4.2.2.2 DBSCAN (homework)\n4.2.2.3 Mean-shift (howework)\n4.2.2.4Hierarchical Agglomerative Clustering Lab",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO8, CLO9",
+        "itu": "T",
+        "student_materials": "Slide , Videos of Common clustering algorithms",
+        "s_download": "",
+        "student_tasks": "Read Slide and Watch Video",
+        "urls": ""
+      },
+      {
+        "session": "51",
+        "topic": "4.2 Selecting a clustering algorithm\n4.2.3 Compare clustering algorithms",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO8, CLO9",
+        "itu": "T",
+        "student_materials": "Slide, Video of Compare clustering algorithms",
+        "s_download": "",
+        "student_tasks": "Read Slide and Watch Video",
+        "urls": ""
+      },
+      {
+        "session": "52",
+        "topic": "4.2 Selecting a clustering algorithm\n4.2.3 Compare clustering algorithms\nClustering Demo",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO8, CLO9",
+        "itu": "T",
+        "student_materials": "Slide, Video of Compare clustering algorithms",
+        "s_download": "",
+        "student_tasks": "Read Slide and Watch Video",
+        "urls": ""
+      },
+      {
+        "session": "53",
+        "topic": "4.3 Dimensionality Reduction\n4.3.1 Dimensionality Reduction",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO8, CLO9",
+        "itu": "T",
+        "student_materials": "Slide, Videos of Dimensionality Reduction",
+        "s_download": "",
+        "student_tasks": "Read Slide and Watch Video",
+        "urls": ""
+      },
+      {
+        "session": "54",
+        "topic": "4.3 Dimensionality Reduction\n4.3.2 Principal Component Analysis",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO8, CLO9",
+        "itu": "T",
+        "student_materials": "Slide, Videos of Principal Component Analysis and Matrix Factorization",
+        "s_download": "",
+        "student_tasks": "Read Slide and Watch Video",
+        "urls": ""
+      },
+      {
+        "session": "55",
+        "topic": "4.3 Dimensionality Reduction\n4.3.2 Matrix Factorization (homework)\n4.3.3 Principal Component Analysis Lab",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO8, CLO9",
+        "itu": "T",
+        "student_materials": "Slide, Videos of Principal Component Analysis and Matrix Factorization",
+        "s_download": "",
+        "student_tasks": "Read Slide and Watch Video",
+        "urls": ""
+      },
+      {
+        "session": "56",
+        "topic": "Progress test 4\nReview mini Capstone",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO10",
+        "itu": "U",
+        "student_materials": "- Content 50 - 58.\n- Progress test 4\n- Student's projects and ppt.",
+        "s_download": "",
+        "student_tasks": "- Review Content 50 - 58.\n- Do Progress test 4\n-",
+        "urls": ""
+      },
+      {
+        "session": "57",
+        "topic": "Review the mini Capstone",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO10",
+        "itu": "U",
+        "student_materials": "Student's capstone and ppt.",
+        "s_download": "",
+        "student_tasks": "Presentation",
+        "urls": ""
+      },
+      {
+        "session": "58",
+        "topic": "Review the mini Capstone",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO10",
+        "itu": "U",
+        "student_materials": "Student's capstone and ppt.",
+        "s_download": "",
+        "student_tasks": "Presentation",
+        "urls": ""
+      },
+      {
+        "session": "59",
+        "topic": "Review",
+        "learning_teaching_type": "Offline",
+        "lo": "",
+        "itu": "U",
+        "student_materials": "All Slides",
+        "s_download": "",
+        "student_tasks": "Review Slide",
+        "urls": ""
+      },
+      {
+        "session": "60",
+        "topic": "Review",
+        "learning_teaching_type": "Offline",
+        "lo": "",
+        "itu": "U",
+        "student_materials": "All Slides",
+        "s_download": "",
+        "student_tasks": "Review Slide",
+        "urls": ""
+      }
+    ],
+    "assessments": [
+      {
+        "no": "1",
+        "category": "Lab 1",
+        "type": "on-going",
+        "part": "1",
+        "weight": "10.0%",
+        "completion_criteria": ">0",
+        "duration": "1 week - 2 weeks",
+        "clo": "CLO1, CLO2, CLO3",
+        "question_type": "",
+        "no_question": "2",
+        "knowledge_and_skill": "- cover content of Moduel 1",
+        "grading_guide": "in home, by instructor",
+        "note": "Instructor has resposibility to review the test for students after graded."
+      },
+      {
+        "no": "2",
+        "category": "Lab 2",
+        "type": "on-going",
+        "part": "1",
+        "weight": "10.0%",
+        "completion_criteria": ">0",
+        "duration": "1 week - 2 weeks",
+        "clo": "CLO4, CLO5",
+        "question_type": "",
+        "no_question": "2",
+        "knowledge_and_skill": "- cover content of Module 2",
+        "grading_guide": "in home by instructor",
+        "note": "Instructor has resposibility to review the test for students after graded."
+      },
+      {
+        "no": "3",
+        "category": "Mini capstone",
+        "type": "on-going",
+        "part": "1",
+        "weight": "30.0%",
+        "completion_criteria": ">0",
+        "duration": "8 weeks",
+        "clo": "CLO10",
+        "question_type": "",
+        "no_question": "2",
+        "knowledge_and_skill": "- cover content of all Modules",
+        "grading_guide": "in home by instructor",
+        "note": "Instructor has resposibility to review the test for students after graded."
+      },
+      {
+        "no": "4",
+        "category": "Progress test 1",
+        "type": "on-going",
+        "part": "1",
+        "weight": "5.0%",
+        "completion_criteria": ">0",
+        "duration": "20'-30'",
+        "clo": "CLO1, CLO2, CLO3",
+        "question_type": "Multiple choices\nMarked by Computer or a suitable format",
+        "no_question": "20",
+        "knowledge_and_skill": "- cover content of Module 1",
+        "grading_guide": "in class, by instructor",
+        "note": "Instruction and shedules for Progress tests must be presented in the Course Implementation Plan approved by director of the campus.\nProgress test must be taken right after the last lectures of required material.\nInstructor has resposibility to review the test for students after graded."
+      },
+      {
+        "no": "5",
+        "category": "Progress test 2",
+        "type": "on-going",
+        "part": "1",
+        "weight": "5.0%",
+        "completion_criteria": ">0",
+        "duration": "20'-30'",
+        "clo": "CLO4, CLO5",
+        "question_type": "Multiple choices\nMarked by Computer or a suitable format",
+        "no_question": "20",
+        "knowledge_and_skill": "- cover content of Module 2",
+        "grading_guide": "in class, by instructor",
+        "note": "Instruction and shedules for Progress tests must be presented in the Course Implementation Plan approved by director of the campus.\nProgress test must be taken right after the last lectures of required material.\nInstructor has resposibility to review the test for students after graded."
+      },
+      {
+        "no": "6",
+        "category": "Progress test 3",
+        "type": "on-going",
+        "part": "1",
+        "weight": "5.0%",
+        "completion_criteria": ">0",
+        "duration": "20'-30'",
+        "clo": "CLO4, CLO5, CLO6",
+        "question_type": "Multiple choices\nMarked by Computer or a suitable format",
+        "no_question": "20",
+        "knowledge_and_skill": "- cover content of Module 3",
+        "grading_guide": "in class, by instructor",
+        "note": "Instruction and shedules for Progress tests must be presented in the Course Implementation Plan approved by director of the campus.\nProgress test must be taken right after the last lectures of required material.\nInstructor has resposibility to review the test for students after graded."
+      },
+      {
+        "no": "7",
+        "category": "Progress test 4",
+        "type": "on-going",
+        "part": "1",
+        "weight": "5.0%",
+        "completion_criteria": ">0",
+        "duration": "20'-30'",
+        "clo": "CLO8, CLO9, CLO10",
+        "question_type": "Multiple choices\nMarked by Computer or a suitable format",
+        "no_question": "20",
+        "knowledge_and_skill": "- cover content of Module 4",
+        "grading_guide": "in class, by instructor",
+        "note": "Instruction and shedules for Progress tests must be presented in the Course Implementation Plan approved by director of the campus.\nProgress test must be taken right after the last lectures of required material.\nInstructor has resposibility to review the test for students after graded."
+      },
+      {
+        "no": "8",
+        "category": "Final exam",
+        "type": "Final exam",
+        "part": "1",
+        "weight": "30.0%",
+        "completion_criteria": "4",
+        "duration": "60'",
+        "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8, CLO9",
+        "question_type": "Multiple choices\nMarked by Computer",
+        "no_question": "50",
+        "knowledge_and_skill": "all studied modules",
+        "grading_guide": "by exam board,\nusing computer",
+        "note": "The exam questions must be updated or different at least 70% to the previous ones."
+      }
+    ]
+  },
+  "source": {
+    "raw_file": "flm_output/subjects/AIL303m.json",
+    "curriculum_url": "https://flm.fpt.edu.vn/gui/role/student/CurriculumDetails?curid=3173",
+    "pre_syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/Syllabuses?subCode=AIL303m&curriculumID=3173",
+    "syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=10736",
+    "details_source_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=10736"
+  },
+  "crawl": {
+    "error": null
+  },
+  "quality": {
+    "has_syllabus": true,
+    "counts": {
+      "materials": 5,
+      "clos": 10,
+      "schedule": 60,
+      "assessments": 8
+    },
+    "warnings": []
+  }
+}

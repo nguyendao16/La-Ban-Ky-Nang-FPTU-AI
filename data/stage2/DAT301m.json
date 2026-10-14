@@ -1,0 +1,331 @@
+{
+  "metadata": {
+    "syllabus_name": "AI Development_Phát triển UDTTNT",
+    "course_name_english": "AI Development",
+    "subject_code": "DAT301m",
+    "description": "Learn how to build real-world AI applications with TensorFlow! In this hands-on course, you’ll train neural networks for computer vision, apply techniques like data augmentation, dropout, and transfer learning, and build natural language processing systems using RNNs, GRUs, and LSTMs. Through project-based learning, you’ll gain practical experience creating image classifiers, object detectors, and text generators—preparing you with the skills to design and deploy powerful AI solutions.",
+    "tools": "Jupyter Notebooks, Google Colab, ChatGPT, Github Copilot"
+  },
+  "clos": [
+    {
+      "clo_name": "CLO1",
+      "clo_details": "Understand the basics of TensorFlow and application of TensorFlow framework in Machine Learning, Deep Learning."
+    },
+    {
+      "clo_name": "CLO2",
+      "clo_details": "Understand how to build a basic neural network in TensorFlow and train a neural network for a computer vision application."
+    },
+    {
+      "clo_name": "CLO3",
+      "clo_details": "Understan the convolutional Neural Networks in TensorFlow, include the strategies to prevent overfitting, including augmentation and dropout"
+    },
+    {
+      "clo_name": "CLO4",
+      "clo_details": "Undesrstand the transfer learning and how learned features can be extracted from models"
+    },
+    {
+      "clo_name": "CLO5",
+      "clo_details": "Understand basic concepts of sentiment in text, word Embeddings, sequence model and literature"
+    },
+    {
+      "clo_name": "CLO6",
+      "clo_details": "Implementing natural language processing systems using TensorFlow"
+    },
+    {
+      "clo_name": "CLO7",
+      "clo_details": "Understand the sequences, time series and prediction problems in TensorFlow"
+    },
+    {
+      "clo_name": "CLO8",
+      "clo_details": "Understand how to apply RNNs, GRUs, and LSTMs as you train them using text repositories"
+    },
+    {
+      "clo_name": "CLO9",
+      "clo_details": "Understand how to apply AI tools to complete a mini project"
+    },
+    {
+      "clo_name": "CLO10",
+      "clo_details": "Implement a AI project includes steps: data collection, data wrangling, exploratory data analysis, model development, model evaluation, and reporting"
+    }
+  ],
+  "schedule": [
+    {
+      "topic": "Course Introduction",
+      "lo": "CLO1,CLO9"
+    },
+    {
+      "topic": "1.1. Working with TensorFlow",
+      "lo": "CLO1,CLO9"
+    },
+    {
+      "topic": "1.2. Machine learning and computer vision in TensorFlow",
+      "lo": "CLO1,CLO9"
+    },
+    {
+      "topic": "1.3 Coding with TensorFlow in Google Colaboratory",
+      "lo": "CLO1,CLO9"
+    },
+    {
+      "topic": "1.4 Computer Vision Neural Network",
+      "lo": "CLO2,CLO9"
+    },
+    {
+      "topic": "1.5 Understand Convolutional Neural Networks in TensorFlow",
+      "lo": "CLO2,CLO9"
+    },
+    {
+      "topic": "1.6 The techniques of Convolutional Neural Networks in TensorFlow",
+      "lo": "CLO2,CLO9"
+    },
+    {
+      "topic": "Discussion on the Capstone Project (CP) topic",
+      "lo": "CLO9,CLO10"
+    },
+    {
+      "topic": "Formation of teams/groups",
+      "lo": "CLO9,CLO10"
+    },
+    {
+      "topic": "Discuss and choose a project topic",
+      "lo": "CLO9,CLO10"
+    },
+    {
+      "topic": "Report 1: Project Proposal (Discussion)",
+      "lo": "CLO9,CLO10"
+    },
+    {
+      "topic": "2.1 The large dataset in the Neural network",
+      "lo": "CLO3,CLO9"
+    },
+    {
+      "topic": "2.2 Image Augmentation",
+      "lo": "CLO3,CLO9"
+    },
+    {
+      "topic": "2.3 Overfitting and solutions",
+      "lo": "CLO3,CLO9"
+    },
+    {
+      "topic": "2.4 The concept of transfer learning",
+      "lo": "CLO4,CLO9"
+    },
+    {
+      "topic": "2.5 Create model with transferred features",
+      "lo": "CLO4,CLO9"
+    },
+    {
+      "topic": "2.6 Exploring dropouts and Transfer Learning with Inception",
+      "lo": "CLO4,CLO9"
+    },
+    {
+      "topic": "2.7 The multi-class classification: discusses and examples",
+      "lo": "CLO4,CLO9"
+    },
+    {
+      "topic": "Team Meeting: Project Proposal Writing (Report 1)",
+      "lo": "CLO9,CLO10"
+    },
+    {
+      "topic": "Team Meeting: Project Proposal Writing (Report 1)",
+      "lo": "CLO9,CLO10"
+    },
+    {
+      "topic": "Team Meeting: Instructor's feedbacks for Project Proposal (Report 1)",
+      "lo": "CLO9,CLO10"
+    },
+    {
+      "topic": "Team Meeting: Instructor's feedbacks for Project Proposal (Report 1)",
+      "lo": "CLO9,CLO10"
+    },
+    {
+      "topic": "Team Meeting: Instructor's feedbacks for Project Proposal (Report 1)",
+      "lo": "CLO9,CLO10"
+    },
+    {
+      "topic": "Team Meeting: Instructor's feedbacks for Project Proposal (Report 1)",
+      "lo": "CLO9,CLO10"
+    },
+    {
+      "topic": "Team Meeting: Data Collection(Present the issues discussed and agreed upon by the group) (Report 2)",
+      "lo": "CLO9,CLO10"
+    },
+    {
+      "topic": "3.1 The word based encodings in TensorFlow",
+      "lo": "CLO5,CLO9"
+    },
+    {
+      "topic": "3.2 Text to sequence in TensorFlow",
+      "lo": "CLO5,CLO9"
+    },
+    {
+      "topic": "3.3 The Tokenizer in TensorFlow",
+      "lo": "CLO5,CLO9"
+    },
+    {
+      "topic": "3.4 The padding in TensorFlow",
+      "lo": "CLO5.CLO9"
+    },
+    {
+      "topic": "3.5 The vector in TensorFlow",
+      "lo": "CLO5,CLO9"
+    },
+    {
+      "topic": "3.6 Classifier for the sarcasm dataset",
+      "lo": "CLO6,CLO9"
+    },
+    {
+      "topic": "3.7 Subwords text encoder",
+      "lo": "CLO6,CLO9"
+    },
+    {
+      "topic": "3.8 The Long Short Term Memory (LSTM) for NLP",
+      "lo": "CLO6,CLO9"
+    },
+    {
+      "topic": "3.9 Exploring different sequence models",
+      "lo": "CLO6,CLO9"
+    },
+    {
+      "topic": "3.10 Sequence models and literature for NLP",
+      "lo": "CLO6,CLO9"
+    },
+    {
+      "topic": "Team Meeting: Data Collection(Present the issues discussed and agreed upon by the group) (Report 2)",
+      "lo": "CLO9,CLO10"
+    },
+    {
+      "topic": "Team Meeting: Instructor's feedbacks for Data Tasks all phase (Report 2)",
+      "lo": "CLO9,CLO10"
+    },
+    {
+      "topic": "Team Meeting: Instructor's feedbacks for Data Tasks all phase (Report 2)",
+      "lo": "CLO9,CLO10"
+    },
+    {
+      "topic": "Team Meeting: Instructor's feedbacks for Data Tasks all phase (Report 2)",
+      "lo": "CLO9,CLO10"
+    },
+    {
+      "topic": "Progess test",
+      "lo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6"
+    },
+    {
+      "topic": "4.1 The introduction of Time series and its application",
+      "lo": "CLO7,CLO9"
+    },
+    {
+      "topic": "4.2 Machine learning applied to time series",
+      "lo": "CLO7,CLO9"
+    },
+    {
+      "topic": "4.3 Time series: Train, validation and test sets",
+      "lo": "CLO7,CLO9"
+    },
+    {
+      "topic": "4.4 Time series: Metrics for evaluating performance",
+      "lo": "CLO7,CLO9"
+    },
+    {
+      "topic": "4.5 Time series:tips to build the forecasting",
+      "lo": "CLO7,CLO9"
+    },
+    {
+      "topic": "4.6 Deep neural networks for time series: Preparing features and labels",
+      "lo": "CLO8,CLO9"
+    },
+    {
+      "topic": "4.7 Deep neural networks for time series: build the layer neural network",
+      "lo": "CLO8,CLO9"
+    },
+    {
+      "topic": "4.8 Deep neural networks for time series: training, tuning and prediction",
+      "lo": "CLO8,CLO9"
+    },
+    {
+      "topic": "4.9 Conceptual of Recurrent neural network for time series",
+      "lo": "CLO8,CLO9"
+    },
+    {
+      "topic": "4.10 Recurrent neural network for time series: input, lambda layer, learnig rate, output",
+      "lo": "CLO8,CLO9"
+    },
+    {
+      "topic": "Team Meeting: Model & Results (Present the issues discussed and agreed upon by the group) (Report 3)",
+      "lo": "CLO9,CLO10"
+    },
+    {
+      "topic": "Team Meeting: Model & Results (Present the issues discussed and agreed upon by the group) (Report 3)",
+      "lo": "CLO9,CLO10"
+    },
+    {
+      "topic": "Team Meeting: Instructor's feedbacks for Model & Results (Report 3)",
+      "lo": "CLO9,CLO10"
+    },
+    {
+      "topic": "Team Meeting: Instructor's feedbacks for Model & Results (Report 3)",
+      "lo": "CLO9,CLO10"
+    },
+    {
+      "topic": "Team Meeting: Instructor's feedbacks for Model & Results (Report 3)",
+      "lo": "CLO9,CLO10"
+    },
+    {
+      "topic": "Team Meeting: Practice for Presentation of Capstone Project (Report 4)",
+      "lo": "CLO9,CLO10"
+    },
+    {
+      "topic": "Team Meeting: Practice for Presentation of Capstone Project (Report 4)",
+      "lo": "CLO9,CLO10"
+    },
+    {
+      "topic": "Team Meeting: Practice for Presentation of Capstone Project (Report 4)",
+      "lo": "CLO9,CLO10"
+    },
+    {
+      "topic": "Team Meeting: Practice for Presentation of Capstone Project (Report 4)",
+      "lo": "CLO9,CLO10"
+    },
+    {
+      "topic": "Review course\nResults",
+      "lo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8"
+    }
+  ],
+  "assessments": [
+    {
+      "category": "Progress test",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6"
+    },
+    {
+      "category": "Report 1: Project Proposal [ Oral group presentation]",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": "CLO9, CLO10"
+    },
+    {
+      "category": "Report 2: Data Tasks [ Oral group presentation]",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": "CLO9, CLO10"
+    },
+    {
+      "category": "Report 3: Model & Results [ Oral group presentation]",
+      "part": "1",
+      "weight": "30.0%",
+      "clo": "CLO9, CLO10"
+    },
+    {
+      "category": "Report 4: Final report & Group presentation",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": "CLO9, CLO10"
+    },
+    {
+      "category": "Final exam",
+      "part": "1",
+      "weight": "30.0%",
+      "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8"
+    }
+  ]
+}

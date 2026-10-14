@@ -1,0 +1,26 @@
+[
+  {
+    "clo": "CLO1",
+    "description": "Understand the basics of the R language, including Introduction to R Language."
+  },
+  {
+    "clo": "CLO2",
+    "description": "Understand how manipulate data with R programming language and implement fundamental programming tasks."
+  },
+  {
+    "clo": "CLO3",
+    "description": "Learn and apply foundational SQL and R knowledge for accessing databases from Jupyter notebooks, including relational database reminders, intermediate SQL, database access with R, working with database objects, and SQL-with-R practice."
+  },
+  {
+    "clo": "CLO4",
+    "description": "Know how to wrangle data for data analysis, develop models, improve models, evaluate and tune the performance."
+  },
+  {
+    "clo": "CLO5",
+    "description": "Understand how to describe and build graphs using R packages. Implement various types of basic charts to visualize like bar charts, histograms, pie charts, scatter plots, line plots, and box plots, including Basic Plots, Maps, and Customization."
+  },
+  {
+    "clo": "CLO6",
+    "description": "Implement a small data science project that includes data wrangling, data analysis, data visualization, model development, model evaluation, reporting, and presentation."
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "syllabus_name": "Big Data_Dữ liệu lớn",
+  "course_name_english": "Big Data",
+  "subject_code": "BDI302c",
+  "description": "This course covers 5 of 6 courses of Big Data Specialization (UC San Diego) on the Coursera platform. This course will prepare students to ask the right questions about data, communicate effectively with data scientists, and do basic exploration of large, complex datasets. By following along with provided code, students will experience how one can perform predictive modeling and leverage graph analytics to model problems. They will be guided through the basics of using Hadoop with MapReduce, Spark, Pig and Hive.",
+  "tools": "Hadoop, Cloudera VM, KNIME, Spark"
+}

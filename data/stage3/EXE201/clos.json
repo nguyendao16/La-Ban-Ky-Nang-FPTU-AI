@@ -1,0 +1,18 @@
+[
+  {
+    "clo_name": "CLO1",
+    "clo_details": "Build physical product/service"
+  },
+  {
+    "clo_name": "CLO2",
+    "clo_details": "Be able to map out the customer acquisition plan"
+  },
+  {
+    "clo_name": "CLO3",
+    "clo_details": "Launch product on different channels"
+  },
+  {
+    "clo_name": "CLO4",
+    "clo_details": "Able to analyze feedback from the channels"
+  }
+]

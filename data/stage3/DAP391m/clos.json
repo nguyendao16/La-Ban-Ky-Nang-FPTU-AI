@@ -1,0 +1,30 @@
+[
+  {
+    "clo_name": "CLO1",
+    "clo_details": "Understand the basics of data analysis with Python to building and evaluating data models."
+  },
+  {
+    "clo_name": "CLO2",
+    "clo_details": "Understand how to import data from multiple sources, clean and wrangle data, perform exploratory data analysis (EDA), and create meaningful data visualizations."
+  },
+  {
+    "clo_name": "CLO3",
+    "clo_details": "Know difference ways to effectively visualize both small and large-scale data"
+  },
+  {
+    "clo_name": "CLO4",
+    "clo_details": "Implement various types of basic and advanced graphs and charts like: Waffle Charts, Area Plots, Histograms, Bar Charts, Pie Charts, Scatter Plots, Word Clouds, Choropleth Maps, and many more"
+  },
+  {
+    "clo_name": "CLO5",
+    "clo_details": "Implement an application that leverages multiple Watson AI services (Discovery, Speech to Text, Assistant, and Text to Speech)"
+  },
+  {
+    "clo_name": "CLO6",
+    "clo_details": "Implementing different techniques to develop applications and AI powered solutions."
+  },
+  {
+    "clo_name": "CLO7",
+    "clo_details": "Implement the small mini capstone data science projec includes steps: involving data collection, data wrangling, exploratory data analysis, data visualization, model development, model evaluation, and reporting"
+  }
+]

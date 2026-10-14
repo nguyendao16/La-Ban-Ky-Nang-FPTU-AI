@@ -1,0 +1,38 @@
+[
+  {
+    "clo": "CLO1",
+    "description": "Discuss the roles of statistics in engineering through statistical thinking, the engineering method, and engineering data collection. Explain statistical inference reasoning and distinguish mechanistic models from empirical models, statistics from parameters, and samples from populations in the context of probability and probability models."
+  },
+  {
+    "clo": "CLO2",
+    "description": "Identify sample spaces, events, and random variables, distinguishing continuous and discrete cases. Use interpretations of probability, event operations, addition rules, conditional probability, multiplication and total probability rules, independence, and Bayes' theorem to calculate event probabilities."
+  },
+  {
+    "clo": "CLO3",
+    "description": "Describe probability distributions for discrete random variables and calculate probabilities, means, and variances, including probability mass functions, cumulative distribution functions, discrete uniform, binomial, geometric, negative binomial, hypergeometric, Poisson distributions."
+  },
+  {
+    "clo": "CLO4",
+    "description": "Describe probability distributions for continuous random variables and calculate means, variances, and probabilities using probability density functions and cumulative distribution functions, including continuous uniform, normal, and exponential distributions, standardization of normal distributions, and normal approximations to binomial, Poisson distributions."
+  },
+  {
+    "clo": "CLO5",
+    "description": "Describe data using numerical summaries and visual displays, including descriptive statistics, stem-and-leaf diagrams, frequency distributions, histograms, box plots, quartiles, outlier identification, and time sequence plots."
+  },
+  {
+    "clo": "CLO6",
+    "description": "Discuss sampling distributions and point estimation, then use the Central Limit Theorem to analyze sampling distributions of means."
+  },
+  {
+    "clo": "CLO7",
+    "description": "Construct and interpret confidence intervals for population parameters and differences between population parameters, including intervals for means of normal distributions with known or unknown variance, large-sample intervals for population proportions, inference on differences between two means, and inference on differences between two proportions."
+  },
+  {
+    "clo": "CLO8",
+    "description": "Verify claims about population parameters and differences between population parameters using hypothesis testing, including formulating hypotheses, identifying critical values and test statistics, computing p-values, recognizing testing errors, and conducting tests for single means, single proportions, differences between two means, and differences between two proportions."
+  },
+  {
+    "clo": "CLO9",
+    "description": "Construct a simple linear regression model and use it for prediction and interpretation, including empirical models, least-squares estimation, sums of squares, regression equations, correlation coefficients, properties of least-squares estimators, and hypothesis tests for significance in simple linear regression."
+  }
+]

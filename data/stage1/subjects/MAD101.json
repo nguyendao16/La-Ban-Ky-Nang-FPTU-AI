@@ -1,0 +1,912 @@
+{
+  "schema_version": "stage1_v1",
+  "record_type": "normal_subject",
+  "subject": {
+    "code": "MAD101",
+    "name": {
+      "full": "Discrete mathematics_Toán rời rạc",
+      "en": "Discrete mathematics",
+      "vi": "Toán rời rạc"
+    },
+    "semester": 1,
+    "credits": 3,
+    "prerequisite": "None"
+  },
+  "syllabus": {
+    "id": "13144",
+    "name": "Toán rời rạc",
+    "is_active": true,
+    "is_approved": true,
+    "decision_no": "932/QĐ-ĐHFPT dated 08/22/2025"
+  },
+  "content": {
+    "metadata": {
+      "syllabus_id": "13144",
+      "syllabus_name": "Toán rời rạc",
+      "course_name_english": "Discrete mathematics",
+      "subject_code": "MAD101",
+      "learning_teaching_method": "Lecture,Project based learning,Problem based learning,Social Constructivism",
+      "nocredit": "3",
+      "degree_level": "Bachelor",
+      "time_allocation": "Study hour (150h) = 45 contact hours (60 sessions) + 1 hour final exam + 104 hours self-study",
+      "pre_requisite": "None",
+      "description": "Upon finishing the course, students must acquire:\n1. the following knowledge: (ABET a.1)\n• Concepts of logical expressions & predicate logic.\n• The method of induction and recursive definition.\n• Concepts of algorithms, recursive algorithms, the complexity.\n• Recurrence relations and divide-and-conquer algorithms.\n• Application of integers and congruence in information technology.\n• Set structure and map, counting principles and combinatorics concepts.\n• The terminologies and properties of graphs & trees & weighted graphs.\n• The applications of graphs, trees and weighted graphs in information technology.\n2. the following skills: (ABET a.2)\n• Manipulate logical expressions & produce equivalent logical expressions.\n• Produce proof of simple mathematical propositions, including applying induction method.\n• Evaluate complexity of algorithms.\n• Solving simple congruence equations.\n• Apply counting techniques in evaluating various set cardinalities.\n• Solve counting problems, apply in analyze algorithms.\n• Apply graph’s algorithms to solve problems related to graph theory.",
+      "studenttasks": "Students must attend at least 80% of contact hours in order to be accepted to the final examination.",
+      "tools": "- Testbank for ST1.\n- Powerpoint image in CD + Powerpoint prepared by previous lecturers (PP).\n- Computerized tools (for example C programming tools, Maxima http://maxima.sourceforge.net/) (CT)\n- Teaching Suggestion and Applications of Discrete Mathematics for ST1 (TS).",
+      "scoring_scale": "10",
+      "decisionno_mm_dd_yyyy": "932/QĐ-ĐHFPT dated 08/22/2025",
+      "isapproved": "True",
+      "note": "",
+      "is_scored": "True",
+      "minavgmarktopass": "5",
+      "isactive": "True",
+      "approveddate": "8/22/2025"
+    },
+    "materials": [
+      {
+        "no": "1",
+        "material_description": "Adam Drozdek. Data structure and Algorithms in Java. 3rd Edition.",
+        "author": "",
+        "publisher": "",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": true,
+        "is_online": false,
+        "note": ""
+      },
+      {
+        "no": "2",
+        "material_description": "Computerized tools (for example C programming tools, Maxima http://maxima.sourceforge.net/) (CT)",
+        "author": "",
+        "publisher": "",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": false,
+        "note": ""
+      },
+      {
+        "no": "3",
+        "material_description": "Discrete Mathematics and its applications",
+        "author": "Kenneth Rosen",
+        "publisher": "Mc.Graw Hill, IE",
+        "published_date": "2007",
+        "edition": "Ed.7 (or 6)",
+        "isbn": "978-0073383095",
+        "is_main_material": true,
+        "is_hard_copy": true,
+        "is_online": false,
+        "note": ""
+      },
+      {
+        "no": "4",
+        "material_description": "Powerpoint image in CD + Powerpoint prepared by previous lecturers (PP)",
+        "author": "",
+        "publisher": "",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": false,
+        "note": ""
+      },
+      {
+        "no": "5",
+        "material_description": "Teaching Suggestion and Applications of Discrete Mathematics for ST1 (TS)",
+        "author": "",
+        "publisher": "",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": false,
+        "note": ""
+      },
+      {
+        "no": "6",
+        "material_description": "Testbank for ST1",
+        "author": "",
+        "publisher": "",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": false,
+        "note": ""
+      }
+    ],
+    "clos": [
+      {
+        "no": "1",
+        "clo_name": "CLO1",
+        "clo_details": "Manipulate logical expressions and use logic for inference\nLO1.1 Determine the truth value of a proposition; check if two propositions are equivalent; translate between logical expressions and sentences for propositional logic.\nLO1.2 Determine the truth value of a proposition; check if two propositions are equivalent; translate between logical expressions and sentences for predicate logic.\nLO1.3 Manipulate logical expressions with nested quantifiers.\nLO1.4 Recognize the inference rules used in a valid statemment; use inference rules to draw conclusions; check if a statement is valid."
+      },
+      {
+        "no": "2",
+        "clo_name": "CLO2",
+        "clo_details": "Perform basic operations on sets, functions and sequences\nLO2.1 Distinguish basic terminologies in set theory; find the power set and cartersian product; represent a subset using binary bits.\nLO2.2 Perform operations on sets; check if two sets are equal.\nLO2.3 Determine if a given rule represents a function; perform operations on functions and manipulate functions inlvolving the floor and the ceiling functions.\nLO2.4 Determine if a function is one-to-one, onto or a bijection, and describe how these properties can be used to compare two sets.\nLO2.5 Find a formula for a sequence; evaluate a finite sum with a possible use of special summations."
+      },
+      {
+        "no": "3",
+        "clo_name": "CLO3",
+        "clo_details": "Analyze basic algorithms written in pseudo codes and determine their complexities\nLO3.1 Determine if a procedure is an algorithm; work out basic algorithms written in pseudocodes including searching, sorting and greedy algorithms.\nLO3.2 Find big-O, big-Omega and big-Theta estimates of a function; describe complexity of an algorithm."
+      },
+      {
+        "no": "4",
+        "clo_name": "CLO4",
+        "clo_details": "Discuss applications of modular arithmetic and analyze algorithms on integers\nLO4.1 Perform integer division and modular arithmetic; apply congruence in generating pseudorandom numbers and in cryptology.\nLO4.2 Find the base b expansion of an integer; perform binary operations and modular exponentiation on integers.\nLO4.3 Check if a number is prime and find prime factorization of an integer; find greatest common divisor and least common multiple."
+      },
+      {
+        "no": "5",
+        "clo_name": "CLO5",
+        "clo_details": "Use induction and recursive definition to prove a statement or to describe an object, and write recursive algorithms\nLO5.1 Prove mathematical statements by induction.\nLO5.2 Manipulate sequences and sets defined by recursion.\nLO5.3 Work out recursive algorithms, including the mergesort algorithm; distinguish between iterative and recursive algorithms."
+      },
+      {
+        "no": "6",
+        "clo_name": "CLO6",
+        "clo_details": "Solve counting problems\nLO6.1 Use basic rules for counting\nLO6.2 Use recurrence relations for counting, including divide-and-conquer recurrence relations."
+      },
+      {
+        "no": "7",
+        "clo_name": "CLO7",
+        "clo_details": "Analyze the structure of a graph and find shortest paths in a weighted graph\nLO7.1 Classify and describe a graph; use hand-shaking theorem to analyze a graph; identify special graphs including bipartite graphs.\nLO7.2 Represent a graph using incidence and adjacency matrices; determine if two graphs are isomorphic.\nLO7.3 Check connectivity of a graph and identify its connected components; count paths in a graph.\nLO7.4 Determine if a graph has Euler/Hamilton paths/circuits; find Euler and Hamilton paths/circuits in a graph.\nLO7.5 Run Dijsktra's algorithm to determine the shortest paths and the shortest distance in a weighted graph."
+      },
+      {
+        "no": "8",
+        "clo_name": "CLO8",
+        "clo_details": "Analyze the structure of a tree and describe algorithms using trees\nLO8.1 Check if a graph is a tree, and identify basic terminologies of a tree; use properties of m-ary trees to solve problems.\nLO8.2 Build binary search trees and decision trees; analyze complexities of algorithms described using binary search trees and decision trees.\nLO8.3 Recognize and construct prefix codes; build optimal trees using Huffman coding.\nLO8.4 Traverse a tree and use tree traversal to generate notations; evaluate prefix and postfix expressions.\nLO8.5 Run Depth-first search and Breadth-first search algorithms to find spanning trees\nLO8.6 Find minimum spanning trees using Prim, Kruskal,... algorithms"
+      }
+    ],
+    "schedule": [
+      {
+        "session": "1",
+        "topic": "0 Introduction\n1.1 Propositional Logic (1.1 and 1.2, skip the topic on Logic Circuits)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO1",
+        "itu": "TU",
+        "student_materials": "Textbook Chapter 1",
+        "s_download": "MAD101_Part1",
+        "student_tasks": "Exercises Chapter 1",
+        "urls": ""
+      },
+      {
+        "session": "2",
+        "topic": "1.2 Propositional Equivalences (1.3, skip the topic on Satisfiability)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO1",
+        "itu": "TU",
+        "student_materials": "Textbook Chapter 1",
+        "s_download": "MAD101_Part2",
+        "student_tasks": "Exercises Chapter 1",
+        "urls": ""
+      },
+      {
+        "session": "3",
+        "topic": "1.3 Predicates (1.4)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO1",
+        "itu": "TU",
+        "student_materials": "Textbook Chapter 1",
+        "s_download": "",
+        "student_tasks": "Exercises Chapter 1",
+        "urls": ""
+      },
+      {
+        "session": "4",
+        "topic": "1.3 Quantifiers",
+        "learning_teaching_type": "Offline",
+        "lo": "LO1",
+        "itu": "TU",
+        "student_materials": "Textbook Chapter 1",
+        "s_download": "",
+        "student_tasks": "Exercises Chapter 1",
+        "urls": ""
+      },
+      {
+        "session": "5",
+        "topic": "1.4 Nested Quantifiers (1.5)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO1",
+        "itu": "TU",
+        "student_materials": "Textbook Chapter 1",
+        "s_download": "",
+        "student_tasks": "Exercises Chapter 1",
+        "urls": ""
+      },
+      {
+        "session": "6",
+        "topic": "1.4 Nested Quantifiers (1.5) (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO1",
+        "itu": "TU",
+        "student_materials": "Textbook Chapter 1",
+        "s_download": "",
+        "student_tasks": "Exercises Chapter 1",
+        "urls": ""
+      },
+      {
+        "session": "7",
+        "topic": "1.5 Rules of Inference (1.6)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO1",
+        "itu": "TU",
+        "student_materials": "Textbook Chapter 1",
+        "s_download": "",
+        "student_tasks": "Exercises Chapter 1",
+        "urls": ""
+      },
+      {
+        "session": "8",
+        "topic": "1.5 Rules of Inference (1.6) (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO1",
+        "itu": "IT",
+        "student_materials": "Textbook Chapter 1",
+        "s_download": "",
+        "student_tasks": "Exercises Chapter 1",
+        "urls": ""
+      },
+      {
+        "session": "9",
+        "topic": "2.1 Introduction to sets",
+        "learning_teaching_type": "Offline",
+        "lo": "LO2",
+        "itu": "TU",
+        "student_materials": "Textbook Chapter 2",
+        "s_download": "",
+        "student_tasks": "Exercises Chapter 2",
+        "urls": ""
+      },
+      {
+        "session": "10",
+        "topic": "2.2 Set operations",
+        "learning_teaching_type": "Offline",
+        "lo": "LO2",
+        "itu": "TU",
+        "student_materials": "Textbook Chapter 2",
+        "s_download": "",
+        "student_tasks": "Exercises Chapter 2",
+        "urls": ""
+      },
+      {
+        "session": "11",
+        "topic": "2.3 Functions (2.3, skip the topic on Partial Functions)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO2",
+        "itu": "TU",
+        "student_materials": "Textbook Chapter 2",
+        "s_download": "",
+        "student_tasks": "Exercises Chapter 2",
+        "urls": ""
+      },
+      {
+        "session": "12",
+        "topic": "2.3 Functions (2.3, skip the topic on Partial Functions) (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO2",
+        "itu": "TU",
+        "student_materials": "Textbook Chapter 2",
+        "s_download": "",
+        "student_tasks": "Exercises Chapter 2",
+        "urls": ""
+      },
+      {
+        "session": "13",
+        "topic": "2.4 Sequences and Summations (2.4, skip the topic on Recurrence relations)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO2",
+        "itu": "TU",
+        "student_materials": "Textbook Chapter 2",
+        "s_download": "",
+        "student_tasks": "Exercises Chapter 2",
+        "urls": ""
+      },
+      {
+        "session": "14",
+        "topic": "2.4 Sequences and Summations (2.4, skip the topic on Recurrence relations) (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO2",
+        "itu": "TU",
+        "student_materials": "Textbook Chapter 2",
+        "s_download": "",
+        "student_tasks": "Exercises Chapter 2",
+        "urls": ""
+      },
+      {
+        "session": "15",
+        "topic": "5.1 Basic Counting Principles (6.1)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO6",
+        "itu": "TU",
+        "student_materials": "Textbook Chapter 5",
+        "s_download": "",
+        "student_tasks": "Exercises Chapter 5",
+        "urls": ""
+      },
+      {
+        "session": "16",
+        "topic": "5.1 Basic Counting Principles (6.1) (continued)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO6",
+        "itu": "TU",
+        "student_materials": "Textbook Chapter 5",
+        "s_download": "",
+        "student_tasks": "Exercises Chapter 5",
+        "urls": ""
+      },
+      {
+        "session": "17",
+        "topic": "Review",
+        "learning_teaching_type": "Offline",
+        "lo": "LO1, LO2, LO6",
+        "itu": "",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "",
+        "urls": ""
+      },
+      {
+        "session": "18",
+        "topic": "Progress Test 1",
+        "learning_teaching_type": "Offline",
+        "lo": "LO1, LO2, LO6",
+        "itu": "",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "",
+        "urls": ""
+      },
+      {
+        "session": "19",
+        "topic": "3.1 Algorithms",
+        "learning_teaching_type": "Offline",
+        "lo": "LO3",
+        "itu": "TU",
+        "student_materials": "Textbook Chapter 3",
+        "s_download": "",
+        "student_tasks": "Exercises Chapter 3",
+        "urls": ""
+      },
+      {
+        "session": "20",
+        "topic": "3.2 The Growth of Functions",
+        "learning_teaching_type": "Offline",
+        "lo": "LO3",
+        "itu": "TU",
+        "student_materials": "Textbook Chapter 3",
+        "s_download": "",
+        "student_tasks": "Exercises Chapter 3",
+        "urls": ""
+      },
+      {
+        "session": "21",
+        "topic": "3.3 Complexity of Algorithms (3.3, skip the topics on Matrix multiplication, Algorithmic Paradigms)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO3",
+        "itu": "TU",
+        "student_materials": "Textbook Chapter 3",
+        "s_download": "",
+        "student_tasks": "Exercises Chapter 3",
+        "urls": ""
+      },
+      {
+        "session": "22",
+        "topic": "3.4 The Integers and Division (4.1, 4.5, and the topic on Classical Cryptography 4.6)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO4",
+        "itu": "TU",
+        "student_materials": "Textbook Chapter 3",
+        "s_download": "",
+        "student_tasks": "Exercises Chapter 3",
+        "urls": ""
+      },
+      {
+        "session": "23",
+        "topic": "3.4 The Integers and Division (4.1, 4.5, and the topic on Classical Cryptography 4.6) (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO4",
+        "itu": "TU",
+        "student_materials": "Textbook Chapter 3",
+        "s_download": "",
+        "student_tasks": "Exercises Chapter 3",
+        "urls": ""
+      },
+      {
+        "session": "24",
+        "topic": "3.5 Primes and Greatest Common Divisors (4.3)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO4",
+        "itu": "TU",
+        "student_materials": "Textbook Chapter 3",
+        "s_download": "",
+        "student_tasks": "Exercises Chapter 3",
+        "urls": ""
+      },
+      {
+        "session": "25",
+        "topic": "3.5 Primes and Greatest Common Divisors (4.3) (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO4",
+        "itu": "TU",
+        "student_materials": "Textbook Chapter 3",
+        "s_download": "",
+        "student_tasks": "Exercises Chapter 3",
+        "urls": ""
+      },
+      {
+        "session": "26",
+        "topic": "3.6 Intergers and Algorithms (4.2)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO4",
+        "itu": "TU",
+        "student_materials": "Textbook Chapter 3",
+        "s_download": "",
+        "student_tasks": "Exercises Chapter 3",
+        "urls": ""
+      },
+      {
+        "session": "27",
+        "topic": "3.6 Intergers and Algorithms (4.2) (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO4",
+        "itu": "TU",
+        "student_materials": "Textbook Chapter 3",
+        "s_download": "",
+        "student_tasks": "Exercises Chapter 3",
+        "urls": ""
+      },
+      {
+        "session": "28",
+        "topic": "3.6 Intergers and Algorithms (4.2) (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO4",
+        "itu": "TU",
+        "student_materials": "Textbook Chapter 3",
+        "s_download": "",
+        "student_tasks": "Exercises Chapter 3",
+        "urls": ""
+      },
+      {
+        "session": "29",
+        "topic": "4.1 Mathematical Induction (5.1)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO5",
+        "itu": "IT",
+        "student_materials": "Textbook Chapter 4",
+        "s_download": "",
+        "student_tasks": "Exercises Chapter 4",
+        "urls": ""
+      },
+      {
+        "session": "30",
+        "topic": "4.2 Strong Induction (5.2)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO5",
+        "itu": "IT",
+        "student_materials": "Textbook Chapter 4",
+        "s_download": "",
+        "student_tasks": "Exercises Chapter 4",
+        "urls": ""
+      },
+      {
+        "session": "31",
+        "topic": "4.3 Recursive Definitions and Structural Induction (5.3)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO5",
+        "itu": "IT",
+        "student_materials": "Textbook Chapter 4",
+        "s_download": "",
+        "student_tasks": "Exercises Chapter 4",
+        "urls": ""
+      },
+      {
+        "session": "32",
+        "topic": "4.3 Recursive Definitions and Structural Induction (5.3) (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO5",
+        "itu": "IT",
+        "student_materials": "Textbook Chapter 4",
+        "s_download": "",
+        "student_tasks": "Exercises Chapter 4",
+        "urls": ""
+      },
+      {
+        "session": "33",
+        "topic": "4.4 Recursive Algorithms (5.4)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO5",
+        "itu": "TU",
+        "student_materials": "Textbook Chapter 4",
+        "s_download": "",
+        "student_tasks": "Exercises Chapter 4",
+        "urls": ""
+      },
+      {
+        "session": "34",
+        "topic": "4.4 Recursive Algorithms (5.4) (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO5",
+        "itu": "TU",
+        "student_materials": "Textbook Chapter 4",
+        "s_download": "",
+        "student_tasks": "Exercises Chapter 4",
+        "urls": ""
+      },
+      {
+        "session": "35",
+        "topic": "7.1 Recurrence Relations (8.1, skip the topic on Dynamic programming)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO6",
+        "itu": "TU",
+        "student_materials": "Textbook Chapter 7",
+        "s_download": "",
+        "student_tasks": "Exercises Chapter 7",
+        "urls": ""
+      },
+      {
+        "session": "36",
+        "topic": "7.3 Divide-and-Conquer Algorithms and Recurrence Relations (8.3)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO6",
+        "itu": "IT",
+        "student_materials": "Textbook Chapter 7",
+        "s_download": "",
+        "student_tasks": "Exercises Chapter 7",
+        "urls": ""
+      },
+      {
+        "session": "37",
+        "topic": "Review",
+        "learning_teaching_type": "Offline",
+        "lo": "",
+        "itu": "U",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "",
+        "urls": ""
+      },
+      {
+        "session": "38",
+        "topic": "Progress Test 2",
+        "learning_teaching_type": "Offline",
+        "lo": "LO3, LO4, LO5, LO6",
+        "itu": "U",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "",
+        "urls": ""
+      },
+      {
+        "session": "39",
+        "topic": "9.1 Graphs and Graph Models (10.1)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO7",
+        "itu": "I",
+        "student_materials": "Textbook Chapter 9",
+        "s_download": "",
+        "student_tasks": "Exercises Chapter 9",
+        "urls": ""
+      },
+      {
+        "session": "40",
+        "topic": "9.2 Graph Terminology and Special Types of Graphs",
+        "learning_teaching_type": "Offline",
+        "lo": "LO7",
+        "itu": "TU",
+        "student_materials": "Textbook Chapter 9",
+        "s_download": "",
+        "student_tasks": "Exercises Chapter 9",
+        "urls": ""
+      },
+      {
+        "session": "41",
+        "topic": "9.3 Representing Graphs and Graph Isomorphism (10.3)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO7",
+        "itu": "TU",
+        "student_materials": "Textbook Chapter 9",
+        "s_download": "",
+        "student_tasks": "Exercises Chapter 9",
+        "urls": ""
+      },
+      {
+        "session": "42",
+        "topic": "9.3 Representing Graphs and Graph Isomorphism (10.3) (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO7",
+        "itu": "TU",
+        "student_materials": "Textbook Chapter 9",
+        "s_download": "",
+        "student_tasks": "Exercises Chapter 9",
+        "urls": ""
+      },
+      {
+        "session": "43",
+        "topic": "9.4 Connectivity (10.4)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO7",
+        "itu": "TU",
+        "student_materials": "Textbook Chapter 9",
+        "s_download": "",
+        "student_tasks": "Exercises Chapter 9",
+        "urls": ""
+      },
+      {
+        "session": "44",
+        "topic": "9.4 Connectivity (10.4) (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO7",
+        "itu": "TU",
+        "student_materials": "Textbook Chapter 9",
+        "s_download": "",
+        "student_tasks": "Exercises Chapter 9",
+        "urls": ""
+      },
+      {
+        "session": "45",
+        "topic": "9.5 Euler and Hamilton Paths (10.5)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO7",
+        "itu": "TU",
+        "student_materials": "Textbook Chapter 9",
+        "s_download": "",
+        "student_tasks": "Exercises Chapter 9",
+        "urls": ""
+      },
+      {
+        "session": "46",
+        "topic": "9.5 Euler and Hamilton Paths (10.5) (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO7",
+        "itu": "TU",
+        "student_materials": "Textbook Chapter 9",
+        "s_download": "",
+        "student_tasks": "Exercises Chapter 9",
+        "urls": ""
+      },
+      {
+        "session": "47",
+        "topic": "9.6 Shortest-Path Problems (10.6)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO7",
+        "itu": "TU",
+        "student_materials": "Textbook Chapter 9",
+        "s_download": "",
+        "student_tasks": "Exercises Chapter 9",
+        "urls": ""
+      },
+      {
+        "session": "48",
+        "topic": "9.6 Shortest-Path Problems (10.6) (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO7",
+        "itu": "TU",
+        "student_materials": "Textbook Chapter 9",
+        "s_download": "",
+        "student_tasks": "Exercises Chapter 9",
+        "urls": ""
+      },
+      {
+        "session": "49",
+        "topic": "10.1 Introduction to Trees (11.1)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO8",
+        "itu": "IT",
+        "student_materials": "Textbook Chapter 10",
+        "s_download": "",
+        "student_tasks": "Exercises Chapter 10",
+        "urls": ""
+      },
+      {
+        "session": "50",
+        "topic": "10.1 Introduction to Trees (11.1) (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO8",
+        "itu": "IT",
+        "student_materials": "Textbook Chapter 10",
+        "s_download": "",
+        "student_tasks": "Exercises Chapter 10",
+        "urls": ""
+      },
+      {
+        "session": "51",
+        "topic": "10.2 Applications of Trees (11.2)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO8",
+        "itu": "TU",
+        "student_materials": "Textbook Chapter 10",
+        "s_download": "",
+        "student_tasks": "Exercises Chapter 10",
+        "urls": ""
+      },
+      {
+        "session": "52",
+        "topic": "10.2 Applications of Trees (11.2) (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO8",
+        "itu": "TU",
+        "student_materials": "Textbook Chapter 10",
+        "s_download": "",
+        "student_tasks": "Exercises Chapter 10",
+        "urls": ""
+      },
+      {
+        "session": "53",
+        "topic": "10.3 Tree Traversal (11.3)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO8",
+        "itu": "TU",
+        "student_materials": "Textbook Chapter 10",
+        "s_download": "",
+        "student_tasks": "Exercises Chapter 10",
+        "urls": ""
+      },
+      {
+        "session": "54",
+        "topic": "10.3 Tree Traversal (11.3) (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO8",
+        "itu": "TU",
+        "student_materials": "Textbook Chapter 10",
+        "s_download": "",
+        "student_tasks": "Exercises Chapter 10",
+        "urls": ""
+      },
+      {
+        "session": "55",
+        "topic": "10.4 Spanning Trees (11.4)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO8",
+        "itu": "TU",
+        "student_materials": "Textbook Chapter 10",
+        "s_download": "",
+        "student_tasks": "Exercises Chapter 10",
+        "urls": ""
+      },
+      {
+        "session": "56",
+        "topic": "10.4 Spanning Trees (11.4) (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO8",
+        "itu": "TU",
+        "student_materials": "Textbook Chapter 10",
+        "s_download": "",
+        "student_tasks": "Exercises Chapter 10",
+        "urls": ""
+      },
+      {
+        "session": "57",
+        "topic": "10.5 Minimum Spanning Trees (11.5)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO8",
+        "itu": "TU",
+        "student_materials": "Textbook Chapter 10",
+        "s_download": "",
+        "student_tasks": "Exercises Chapter 10",
+        "urls": ""
+      },
+      {
+        "session": "58",
+        "topic": "10.5 Minimum Spanning Trees (11.5) (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO8",
+        "itu": "TU",
+        "student_materials": "Textbook Chapter 10",
+        "s_download": "",
+        "student_tasks": "Exercises Chapter 10",
+        "urls": ""
+      },
+      {
+        "session": "59",
+        "topic": "Review",
+        "learning_teaching_type": "Offline",
+        "lo": "LO7, LO8",
+        "itu": "U",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "",
+        "urls": ""
+      },
+      {
+        "session": "60",
+        "topic": "Progress Test 3",
+        "learning_teaching_type": "Offline",
+        "lo": "LO7, LO8",
+        "itu": "U",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "",
+        "urls": ""
+      }
+    ],
+    "assessments": [
+      {
+        "no": "1",
+        "category": "Progress Test",
+        "type": "quiz",
+        "part": "3",
+        "weight": "30.0%",
+        "completion_criteria": ">0",
+        "duration": "30 minutes",
+        "clo": "PT 1: LO1, LO2, LO6\nPT 2: LO3, LO4, LO5, LO6\nPT 3: LO7, LO8",
+        "question_type": "OP1: MC or a suitable format // OP2: (For Constructivism Approach only): Follow lecturer's proposal",
+        "no_question": "15 questions within 30 minutes",
+        "knowledge_and_skill": "PT 1: Chapter 1, Chapter 2, Chapter 5\nPT 2: Chapter 3, Chapter 4, Chapter 7\nPT 3: Chapter 9, Chapter 10",
+        "grading_guide": "OP1: by instructor, and by suitable means (computer, paper, oral...)\nOP2: (For Constructivism Approach only): Follow lecturer's proposal",
+        "note": "OP1: Instruction and schedules for Progress tests must be presented in the Course Implementation Plan approved by the director of the campus.\nProgress test must be taken right after the last lectures of the required material.\nInstructor has responsibility to review the test for students after graded.\nOP2: (For Constructivism Approach only): Follow lecturer's proposal"
+      },
+      {
+        "no": "2",
+        "category": "Assignments/Exercises",
+        "type": "on-going",
+        "part": "2",
+        "weight": "20.0%",
+        "completion_criteria": ">0",
+        "duration": "at home/in class",
+        "clo": "Assignment 1: LO1, LO2, LO6\nAssignment 2: LO3, LO4, LO5, LO6",
+        "question_type": "OP1: Open // OP2: (For Constructivism Approach only): Follow lecturer's proposal",
+        "no_question": "At least 5/ chapter",
+        "knowledge_and_skill": "Assignment 1: Chapter 1, Chapter 2, Chapter 5\nAssignment 2: Chapter 3, Chapter 4, Chapter 7",
+        "grading_guide": "OP1: Each assignment is divided into two parts: the take-home component counts for no more than 50% of the total grade, and the in-class component counts for at least 50% (this may take the form of a presentation, essay, problem-solving, etc.).\nOP2: (For Constructivism Approach only): Follow lecturer's proposal",
+        "note": "Students use\nnotebooks for\nexercises"
+      },
+      {
+        "no": "3",
+        "category": "Programming Assignment",
+        "type": "on-going",
+        "part": "1",
+        "weight": "10.0%",
+        "completion_criteria": ">0",
+        "duration": "at home/in class",
+        "clo": "LO3, LO4, LO7, LO8",
+        "question_type": "OP1: Open // OP2: (For Constructivism Approach only): Follow lecturer's proposal",
+        "no_question": "At least 1/ chapter",
+        "knowledge_and_skill": "Chapter 3, Chapter 4, Chapter 9, Chapter 10",
+        "grading_guide": "Students are expected to write codes to implement algorithms including, but not restricted to, those covered in the scope.\nInstructor may combine with other in-class assessment methods to grade the computer assignment, in which the work (source files,...) should accounts for up to 50% of the total grade.",
+        "note": "Students use notebooks and coding tools for exercises"
+      },
+      {
+        "no": "4",
+        "category": "Final Exam",
+        "type": "Final exam",
+        "part": "1",
+        "weight": "40.0%",
+        "completion_criteria": "4",
+        "duration": "60'",
+        "clo": "",
+        "question_type": "Computer gradable",
+        "no_question": "50",
+        "knowledge_and_skill": "All studied chapters. At least 6 questions/chapter",
+        "grading_guide": "by Exam Board",
+        "note": "~10% of\nquestions is a2 objective oriented"
+      }
+    ]
+  },
+  "source": {
+    "raw_file": "flm_output/subjects/MAD101.json",
+    "curriculum_url": "https://flm.fpt.edu.vn/gui/role/student/CurriculumDetails?curid=3173",
+    "pre_syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/Syllabuses?subCode=MAD101&curriculumID=3173",
+    "syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=13144",
+    "details_source_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=13144"
+  },
+  "crawl": {
+    "error": null
+  },
+  "quality": {
+    "has_syllabus": true,
+    "counts": {
+      "materials": 6,
+      "clos": 8,
+      "schedule": 60,
+      "assessments": 4
+    },
+    "warnings": []
+  }
+}

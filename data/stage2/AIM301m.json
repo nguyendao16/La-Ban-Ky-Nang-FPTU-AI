@@ -1,0 +1,351 @@
+{
+  "metadata": {
+    "syllabus_name": "AI for Medicine_Ứng dụng TTNT cho y học",
+    "course_name_english": "AI for Medicine",
+    "subject_code": "AIM301m",
+    "description": "Artificial intelligence (AI) has transformed industries around the world, and has the potential to radically alter the field of healthcare. The aim of this unit is to introducethe current and future applications of AI in healthcare with the goal of learning to bring AI technologies into the clinic safely and ethically. Students will be guided to analyze data on patient, such as diseases, medications, tests, or valuable health information, and get a sense of how AI could transform patient care and diagnoses.",
+    "tools": "No"
+  },
+  "clos": [
+    {
+      "clo_name": "CLO1",
+      "clo_details": "Pre-process data and set up a pre-trained neural network."
+    },
+    {
+      "clo_name": "CLO2",
+      "clo_details": "Evaluate models by accuracy, specificity, predictive value, confidence intervals, ROC curve, and F1 score."
+    },
+    {
+      "clo_name": "CLO3",
+      "clo_details": "Diagnose diseases from x-rays and 3D MRI brain images."
+    },
+    {
+      "clo_name": "CLO4",
+      "clo_details": "Walk through examples of prognostic tasks."
+    },
+    {
+      "clo_name": "CLO5",
+      "clo_details": "Predict patient survival rates more accurately using tree-based models."
+    },
+    {
+      "clo_name": "CLO6",
+      "clo_details": "Navigate practical challenges in medicine, like missing data."
+    },
+    {
+      "clo_name": "CLO7",
+      "clo_details": "Estimate treatment effects on patients using data from randomized trials."
+    },
+    {
+      "clo_name": "CLO8",
+      "clo_details": "Explore methods to interpret diagnostic and prognostic models."
+    },
+    {
+      "clo_name": "CLO9",
+      "clo_details": "Automate the task of labeling medical datasets using natural language processing."
+    }
+  ],
+  "schedule": [
+    {
+      "topic": "Course introduction:\n- Introduce the materials of the courses and how to asses these materials\n- Introduce the assignments and how to pass\n- Introduce the way to log on the system to submit the assignments and class forum with enroll key.",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "1. AI for Medical Diagnosis\n1.1. Disease Detection with Computer Vision\nApplications of Computer Vision to Medical Diagnosis\nHandling Class Imbalance and Small Training Sets\nChecking your Model Performance",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "Lab 1 - Data Exploration & Image Pre-Processing",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "Lab 2 - Counting labels and weighted loss function",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "Lab 3 - Densenet",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "Lab 4 - Patient Overlap - Practice",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "Assignment 1: Chest X-Ray Medical Diagnosis with Deep Learning",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "Review Assignment 1",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "1. AI for Medical Diagnosis\n1.2. Evaluating Models\nKey Evaluation Metrics\nThreshold and Evaluation Metrics\nInterpreting Confidence Intervals Correctly",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "Lab 5 - ROC Curve and Threshold",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "1. AI for Medical Diagnosis\n1.3. Image Segmentation on MRI Images\nExploring MRI Data\nImage Segmentation\nPractical Considerations",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "Lab 6 - Explore MRI data",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "Lab 7 - Get a sub section",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "Lab 8 - Implement U-Net",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "Assignment 2: Brain Tumor Auto-Segmentation for Magnetic Resonance Imaging (MRI)",
+      "lo": "CLO2 - CLO3"
+    },
+    {
+      "topic": "Review Assignment 2",
+      "lo": "CLO2 - CLO3"
+    },
+    {
+      "topic": "Summary AI for Medical Diagnosis",
+      "lo": "CLO1 - CLO3"
+    },
+    {
+      "topic": "Progress Test 1",
+      "lo": "CLO1 - CLO3"
+    },
+    {
+      "topic": "Review Progress Test 1",
+      "lo": "CLO1 - CLO3"
+    },
+    {
+      "topic": "2. AI for Medical Prognosis\n2.1. Linear Prognostic Models\nWhat is the Risk of Getting a Disease?\nPrognostic Models in Medical Practice\nRepresenting Feature Interactions\nEvaluating Prognostic Models",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "Lab 9 - Create a linear model",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "Lab 10 - Risk Scores, Pandas and Numpy",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "Lab 11 - Combine Features",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "Lab 12 - Concordance index",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "2. AI for Medical Prognosis\n2.2. Prognosis with Tree-based Models\nTree-based Models\nIdentifying Missing Data\nUsing Imputation to Handle Missing Data",
+      "lo": "CLO5 - CLO6"
+    },
+    {
+      "topic": "Lab 13 - Decision trees",
+      "lo": "CLO5 - CLO6"
+    },
+    {
+      "topic": "Lab 14 - Missing data and applying a mask",
+      "lo": "CLO5 - CLO6"
+    },
+    {
+      "topic": "Lab 15 - Imputation",
+      "lo": "CLO5 - CLO6"
+    },
+    {
+      "topic": "Assignment 3: Risk Models Using Tree-based Models",
+      "lo": "CLO5 - CLO6"
+    },
+    {
+      "topic": "Review Assignment 3",
+      "lo": "CLO5 - CLO6"
+    },
+    {
+      "topic": "2. AI for Medical Prognosis\n2.3. Survival Models and Time\nSurvival Estimates\nTime to Event Data\nEstimate Survival with Censored Data",
+      "lo": "CLO5 - CLO6"
+    },
+    {
+      "topic": "Lab 16 - Counting patients",
+      "lo": "CLO5 - CLO6"
+    },
+    {
+      "topic": "Lab 17 - Kaplan Meier",
+      "lo": "CLO5 - CLO6"
+    },
+    {
+      "topic": "2. AI for Medical Prognosis\n2.4. Build a Risk Model Using Linear and Tree-based Models\nSurvival and Hazard Functions\nCustomizing Risk Models to Individual Patients\nNon-linear Risk Models with Survival Trees\nEvaluate Survival Models",
+      "lo": "CLO5 - CLO6"
+    },
+    {
+      "topic": "Lab 18 - Categorical variables",
+      "lo": "CLO5 - CLO6"
+    },
+    {
+      "topic": "Lab 19 - Hazard function",
+      "lo": "CLO5 - CLO6"
+    },
+    {
+      "topic": "Lab 20 - Permissible pairs",
+      "lo": "CLO5 - CLO6"
+    },
+    {
+      "topic": "Assignment 4: Cox proportional hazards and random survival forests",
+      "lo": "CLO5 - CLO6"
+    },
+    {
+      "topic": "Review Assignment 4",
+      "lo": "CLO5 - CLO6"
+    },
+    {
+      "topic": "Summary AI for Medical Prognosis",
+      "lo": "CLO4 - CLO6"
+    },
+    {
+      "topic": "Progress Test 2",
+      "lo": "CLO4 - CLO6"
+    },
+    {
+      "topic": "Review Progress Test 2",
+      "lo": "CLO4 - CLO6"
+    },
+    {
+      "topic": "3. AI For Medical Treatment\n3.1. Treatment Effect Estimation\nIntroduction\nRandomized Control Trials\nAverage Treatment Effect\nIndividualized Treatment Effect",
+      "lo": "CLO7"
+    },
+    {
+      "topic": "Lab 21 - Pandas operations on Medical Data",
+      "lo": "CLO7"
+    },
+    {
+      "topic": "Lab 22 - Model Training Tuning Basics with Sklearn",
+      "lo": "CLO7"
+    },
+    {
+      "topic": "Lab 23 - Logistic Regression Model Interpretation",
+      "lo": "CLO7"
+    },
+    {
+      "topic": "Assignment 5: Treatment Effect Estimation",
+      "lo": "CLO7"
+    },
+    {
+      "topic": "Review Assignment 5",
+      "lo": "CLO7"
+    },
+    {
+      "topic": "3. AI For Medical Treatment\n3.2. Medical Question Answering\nQuestion Answering\nAutomatic Labeling\nEvaluate Automatic Labeling",
+      "lo": "CLO8"
+    },
+    {
+      "topic": "Lab 24 - Cleaning Text",
+      "lo": "CLO8"
+    },
+    {
+      "topic": "Lab 25 - BioC format and the NegBio Library",
+      "lo": "CLO8"
+    },
+    {
+      "topic": "Lab 26 - Preparing Input for Text Classification",
+      "lo": "CLO8"
+    },
+    {
+      "topic": "Assignment 6: Natural Language Entity Extraction",
+      "lo": "CLO8"
+    },
+    {
+      "topic": "Review Assignment 6",
+      "lo": "CLO8"
+    },
+    {
+      "topic": "3. AI For Medical Treatment\n3.3. ML Interpretation\nFeature Importance\nIndividual Feature Importance\nInterpreting Deep Learning Models",
+      "lo": "CLO9"
+    },
+    {
+      "topic": "Lab 27 - Permutation method",
+      "lo": "CLO9"
+    },
+    {
+      "topic": "Lab 28 - GradCam Part 1 & 2",
+      "lo": "CLO9"
+    },
+    {
+      "topic": "Summary AI For Medical Treatment",
+      "lo": "CLO7 - CLO9"
+    },
+    {
+      "topic": "Progress Test 3",
+      "lo": "CLO7 - CLO9"
+    },
+    {
+      "topic": "Review Progress Test 3",
+      "lo": "CLO7 - CLO9"
+    }
+  ],
+  "assessments": [
+    {
+      "category": "Assignment 1",
+      "part": "1",
+      "weight": "5.0%",
+      "clo": "CLO1"
+    },
+    {
+      "category": "Assignment 2",
+      "part": "1",
+      "weight": "5.0%",
+      "clo": "CLO2, CLO3"
+    },
+    {
+      "category": "Assignment 3",
+      "part": "1",
+      "weight": "5.0%",
+      "clo": "CLO4, CLO5"
+    },
+    {
+      "category": "Assignment 4",
+      "part": "1",
+      "weight": "5.0%",
+      "clo": "CLO6"
+    },
+    {
+      "category": "Assignment 5",
+      "part": "1",
+      "weight": "5.0%",
+      "clo": "CLO7"
+    },
+    {
+      "category": "Assignment 6",
+      "part": "1",
+      "weight": "5.0%",
+      "clo": "CLO8 - CLO9"
+    },
+    {
+      "category": "Progress test 1",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": "CLO1, CLO2, CLO3"
+    },
+    {
+      "category": "Progress test 2",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": "CLO4, CLO5, CLO6"
+    },
+    {
+      "category": "Progress test 3",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": "CLO7, CLO8, CLO9"
+    },
+    {
+      "category": "Final exam",
+      "part": "1",
+      "weight": "40.0%",
+      "clo": "CLO1 - CLO9"
+    }
+  ]
+}

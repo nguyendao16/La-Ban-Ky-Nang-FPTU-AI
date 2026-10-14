@@ -1,0 +1,7 @@
+{
+  "syllabus_name": "Deep Learning_Học sâu",
+  "course_name_english": "",
+  "subject_code": "DPL302m",
+  "description": "In this course, student will build and train neural network architectures such as Convolutional Neural Networks, Recurrent Neural Networks, LSTMs, Transformers, and learn how to make them better with strategies such as Dropout, BatchNorm, Xavier/He initialization, and more. Get ready to master theoretical concepts and their industry applications using Python and TensorFlow and tackle real-world cases such as speech recognition, music synthesis, chatbots, machine translation, natural language processing, and more.",
+  "tools": "- Jupyter notebook\n- Cloud server: 72 hours/project"
+}

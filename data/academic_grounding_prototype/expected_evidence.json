@@ -1,0 +1,2022 @@
+{
+  "origin": "human_authored_canonical_before_live",
+  "targets": [
+    {
+      "scenario_id": "S1",
+      "target_id": "S1-CI",
+      "statement": "Confidence intervals trong MAS291",
+      "category": "curriculum",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "MAS291",
+          "clo": "CLO7"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "note": "",
+      "semantic_assessment": "manual_only",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO7",
+            "description": "Construct and interpret confidence intervals for population parameters and differences between population parameters, including intervals for means of normal distributions with known or unknown variance, large-sample intervals for population proportions, inference on differences between two means, and inference on differences between two proportions.",
+            "score": 9.43,
+            "achievement": "excellent"
+          }
+        }
+      ],
+      "sources_are_alternatives_not_all_required": true,
+      "available_in_operations": [
+        "primary-S1-A-S0",
+        "primary-S1-B-S0",
+        "repeat-S1-A-S0",
+        "repeat-S1-B-S0"
+      ]
+    },
+    {
+      "scenario_id": "S1",
+      "target_id": "S1-LR",
+      "statement": "Simple linear regression trong MAS291",
+      "category": "curriculum",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "MAS291",
+          "clo": "CLO9"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "note": "",
+      "semantic_assessment": "manual_only",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO9",
+            "description": "Construct a simple linear regression model and use it for prediction and interpretation, including empirical models, least-squares estimation, sums of squares, regression equations, correlation coefficients, properties of least-squares estimators, and hypothesis tests for significance in simple linear regression.",
+            "score": 9.43,
+            "achievement": "excellent"
+          }
+        }
+      ],
+      "sources_are_alternatives_not_all_required": true,
+      "available_in_operations": [
+        "primary-S1-A-S0",
+        "primary-S1-B-S0",
+        "repeat-S1-A-S0",
+        "repeat-S1-B-S0"
+      ]
+    },
+    {
+      "scenario_id": "S1",
+      "target_id": "S1-CI-GRADE",
+      "statement": "MAS291/CLO7=9.43/excellent",
+      "category": "assessment",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "MAS291",
+          "clo": "CLO7"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "note": "",
+      "semantic_assessment": "manual_only",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO7",
+            "description": "Construct and interpret confidence intervals for population parameters and differences between population parameters, including intervals for means of normal distributions with known or unknown variance, large-sample intervals for population proportions, inference on differences between two means, and inference on differences between two proportions.",
+            "score": 9.43,
+            "achievement": "excellent"
+          }
+        }
+      ],
+      "sources_are_alternatives_not_all_required": true,
+      "available_in_operations": [
+        "primary-S1-A-S0",
+        "primary-S1-B-S0",
+        "repeat-S1-A-S0",
+        "repeat-S1-B-S0"
+      ]
+    },
+    {
+      "scenario_id": "S1",
+      "target_id": "S1-LR-GRADE",
+      "statement": "MAS291/CLO9=9.43/excellent",
+      "category": "assessment",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "MAS291",
+          "clo": "CLO9"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "note": "",
+      "semantic_assessment": "manual_only",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO9",
+            "description": "Construct a simple linear regression model and use it for prediction and interpretation, including empirical models, least-squares estimation, sums of squares, regression equations, correlation coefficients, properties of least-squares estimators, and hypothesis tests for significance in simple linear regression.",
+            "score": 9.43,
+            "achievement": "excellent"
+          }
+        }
+      ],
+      "sources_are_alternatives_not_all_required": true,
+      "available_in_operations": [
+        "primary-S1-A-S0",
+        "primary-S1-B-S0",
+        "repeat-S1-A-S0",
+        "repeat-S1-B-S0"
+      ]
+    },
+    {
+      "scenario_id": "S2",
+      "target_id": "S2-DATA",
+      "statement": "Data types/bit patterns",
+      "category": "curriculum",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "CSI106",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "CSI106",
+          "metadata_field": "description"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "note": "Metadata supports curriculum coverage, not the assessed Describe outcome/score.",
+      "semantic_assessment": "manual_only",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "CSI106",
+            "clo": "CLO3"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO3",
+            "description": "Describe how different data type is stored inside a computer as bit patterns and operations on data, including Data storage and Operations on Data, Logic operations, Shift, Arithmetic operations.",
+            "score": 8.1,
+            "achievement": "good"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "CSI106",
+            "metadata_field": "description"
+          },
+          "relation": "direct",
+          "canonical_source": "This course provides an overview of computer fundamentals. Topics cover all areas of computer science in breadth such as computer organization, network, operating system, data structure , file structure, social and ethical issues.\nMajor Instructional Areas\n- Introduction to Von Neumann Model and computer components\n- Numbering system & data representation\n- Different data types and operations on data\n- The concepts of computer networking and internet\n- Operating system\n- Introduction to basic algorithms and algorithms representation\n- Introduction to Data structure and File structure\n- The concepts of database\n- Software engineering\n- Computing Security & Ethics\n- Introduction to Artificial Intelligence (Additional Learning)"
+        }
+      ],
+      "sources_are_alternatives_not_all_required": true,
+      "available_in_operations": [
+        "primary-S2-B-S0",
+        "primary-S2-A-S0"
+      ]
+    },
+    {
+      "scenario_id": "S2",
+      "target_id": "S2-NET",
+      "statement": "Networking layers",
+      "category": "curriculum",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "CSI106",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "CSI106",
+          "metadata_field": "description"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "note": "",
+      "semantic_assessment": "manual_only",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "CSI106",
+            "clo": "CLO4"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO4",
+            "description": "Describe the layers in networking and their relationship, including Computer Networks, Internet, Overview, and layers in netwoking.",
+            "score": 8.1,
+            "achievement": "good"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "CSI106",
+            "metadata_field": "description"
+          },
+          "relation": "direct",
+          "canonical_source": "This course provides an overview of computer fundamentals. Topics cover all areas of computer science in breadth such as computer organization, network, operating system, data structure , file structure, social and ethical issues.\nMajor Instructional Areas\n- Introduction to Von Neumann Model and computer components\n- Numbering system & data representation\n- Different data types and operations on data\n- The concepts of computer networking and internet\n- Operating system\n- Introduction to basic algorithms and algorithms representation\n- Introduction to Data structure and File structure\n- The concepts of database\n- Software engineering\n- Computing Security & Ethics\n- Introduction to Artificial Intelligence (Additional Learning)"
+        }
+      ],
+      "sources_are_alternatives_not_all_required": true,
+      "available_in_operations": [
+        "primary-S2-B-S0",
+        "primary-S2-A-S0"
+      ]
+    },
+    {
+      "scenario_id": "S2",
+      "target_id": "S2-LINK",
+      "statement": "Liên hệ nền tảng với backend, không suy framework/kinh nghiệm",
+      "category": "boundary",
+      "acceptable_direct_sources": [],
+      "acceptable_related_sources": [
+        {
+          "course_code": "CSI106",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "CSI106",
+          "clo": "CLO4"
+        }
+      ],
+      "note": "",
+      "semantic_assessment": "manual_only",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "CSI106",
+            "clo": "CLO3"
+          },
+          "relation": "related",
+          "canonical_source": {
+            "clo": "CLO3",
+            "description": "Describe how different data type is stored inside a computer as bit patterns and operations on data, including Data storage and Operations on Data, Logic operations, Shift, Arithmetic operations.",
+            "score": 8.1,
+            "achievement": "good"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "CSI106",
+            "clo": "CLO4"
+          },
+          "relation": "related",
+          "canonical_source": {
+            "clo": "CLO4",
+            "description": "Describe the layers in networking and their relationship, including Computer Networks, Internet, Overview, and layers in netwoking.",
+            "score": 8.1,
+            "achievement": "good"
+          }
+        }
+      ],
+      "sources_are_alternatives_not_all_required": true,
+      "available_in_operations": [
+        "primary-S2-B-S0",
+        "primary-S2-A-S0"
+      ]
+    },
+    {
+      "scenario_id": "S3",
+      "target_id": "S3-OD",
+      "statement": "Understand/Implement Object Detection",
+      "category": "curriculum",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "CPV301",
+          "clo": "CLO8"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "note": "",
+      "semantic_assessment": "manual_only",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "CPV301",
+            "clo": "CLO8"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO8",
+            "description": "Understand and implement object detection techniques.",
+            "score": 8.81,
+            "achievement": "excellent"
+          }
+        }
+      ],
+      "sources_are_alternatives_not_all_required": true,
+      "available_in_operations": [
+        "primary-S3-A-S0",
+        "primary-S3-B-S0"
+      ]
+    },
+    {
+      "scenario_id": "S3",
+      "target_id": "S3-FACE",
+      "statement": "Explain Face Recognition",
+      "category": "curriculum",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "CPV301",
+          "clo": "CLO9"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "note": "",
+      "semantic_assessment": "manual_only",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "CPV301",
+            "clo": "CLO9"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO9",
+            "description": "Explain the principles of face recognition and object tracking techniques.",
+            "score": 8.81,
+            "achievement": "excellent"
+          }
+        }
+      ],
+      "sources_are_alternatives_not_all_required": true,
+      "available_in_operations": [
+        "primary-S3-A-S0",
+        "primary-S3-B-S0"
+      ]
+    },
+    {
+      "scenario_id": "S3",
+      "target_id": "S3-TRACK",
+      "statement": "Explain Object Tracking",
+      "category": "curriculum",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "CPV301",
+          "clo": "CLO9"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "note": "",
+      "semantic_assessment": "manual_only",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "CPV301",
+            "clo": "CLO9"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO9",
+            "description": "Explain the principles of face recognition and object tracking techniques.",
+            "score": 8.81,
+            "achievement": "excellent"
+          }
+        }
+      ],
+      "sources_are_alternatives_not_all_required": true,
+      "available_in_operations": [
+        "primary-S3-A-S0",
+        "primary-S3-B-S0"
+      ]
+    },
+    {
+      "scenario_id": "S3",
+      "target_id": "S3-LIMIT",
+      "statement": "Explain Face Recognition/Tracking không xác nhận Implement cả ba",
+      "category": "boundary",
+      "acceptable_direct_sources": [],
+      "acceptable_related_sources": [
+        {
+          "course_code": "CPV301",
+          "clo": "CLO8"
+        },
+        {
+          "course_code": "CPV301",
+          "clo": "CLO9"
+        }
+      ],
+      "note": "",
+      "semantic_assessment": "manual_only",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "CPV301",
+            "clo": "CLO8"
+          },
+          "relation": "related",
+          "canonical_source": {
+            "clo": "CLO8",
+            "description": "Understand and implement object detection techniques.",
+            "score": 8.81,
+            "achievement": "excellent"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "CPV301",
+            "clo": "CLO9"
+          },
+          "relation": "related",
+          "canonical_source": {
+            "clo": "CLO9",
+            "description": "Explain the principles of face recognition and object tracking techniques.",
+            "score": 8.81,
+            "achievement": "excellent"
+          }
+        }
+      ],
+      "sources_are_alternatives_not_all_required": true,
+      "available_in_operations": [
+        "primary-S3-A-S0",
+        "primary-S3-B-S0"
+      ]
+    },
+    {
+      "scenario_id": "S4",
+      "target_id": "S4-C",
+      "statement": "C programming tools trong MAD101 metadata.tools, for example",
+      "category": "metadata",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "MAD101",
+          "metadata_field": "tools"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "note": "",
+      "semantic_assessment": "manual_only",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "MAD101",
+            "metadata_field": "tools"
+          },
+          "relation": "direct",
+          "canonical_source": "- Testbank for ST1.\n- Powerpoint image in CD + Powerpoint prepared by previous lecturers (PP).\n- Computerized tools (for example C programming tools, Maxima http://maxima.sourceforge.net/) (CT)\n- Teaching Suggestion and Applications of Discrete Mathematics for ST1 (TS)."
+        }
+      ],
+      "sources_are_alternatives_not_all_required": true,
+      "available_in_operations": [
+        "primary-S4-A-S0",
+        "primary-S4-B-S0"
+      ]
+    },
+    {
+      "scenario_id": "S4",
+      "target_id": "S4-MAXIMA",
+      "statement": "Maxima trong MAD101 metadata.tools, for example",
+      "category": "metadata",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "MAD101",
+          "metadata_field": "tools"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "note": "",
+      "semantic_assessment": "manual_only",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "MAD101",
+            "metadata_field": "tools"
+          },
+          "relation": "direct",
+          "canonical_source": "- Testbank for ST1.\n- Powerpoint image in CD + Powerpoint prepared by previous lecturers (PP).\n- Computerized tools (for example C programming tools, Maxima http://maxima.sourceforge.net/) (CT)\n- Teaching Suggestion and Applications of Discrete Mathematics for ST1 (TS)."
+        }
+      ],
+      "sources_are_alternatives_not_all_required": true,
+      "available_in_operations": [
+        "primary-S4-A-S0",
+        "primary-S4-B-S0"
+      ]
+    },
+    {
+      "scenario_id": "S4",
+      "target_id": "S4-USE-C",
+      "statement": "Không xác nhận cá nhân đã dùng C programming tools",
+      "category": "boundary",
+      "acceptable_direct_sources": [],
+      "acceptable_related_sources": [
+        {
+          "course_code": "MAD101",
+          "metadata_field": "tools"
+        }
+      ],
+      "note": "",
+      "semantic_assessment": "manual_only",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "MAD101",
+            "metadata_field": "tools"
+          },
+          "relation": "related",
+          "canonical_source": "- Testbank for ST1.\n- Powerpoint image in CD + Powerpoint prepared by previous lecturers (PP).\n- Computerized tools (for example C programming tools, Maxima http://maxima.sourceforge.net/) (CT)\n- Teaching Suggestion and Applications of Discrete Mathematics for ST1 (TS)."
+        }
+      ],
+      "sources_are_alternatives_not_all_required": true,
+      "available_in_operations": [
+        "primary-S4-A-S0",
+        "primary-S4-B-S0"
+      ]
+    },
+    {
+      "scenario_id": "S4",
+      "target_id": "S4-USE-MAXIMA",
+      "statement": "Không xác nhận cá nhân đã dùng Maxima",
+      "category": "boundary",
+      "acceptable_direct_sources": [],
+      "acceptable_related_sources": [
+        {
+          "course_code": "MAD101",
+          "metadata_field": "tools"
+        }
+      ],
+      "note": "",
+      "semantic_assessment": "manual_only",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "MAD101",
+            "metadata_field": "tools"
+          },
+          "relation": "related",
+          "canonical_source": "- Testbank for ST1.\n- Powerpoint image in CD + Powerpoint prepared by previous lecturers (PP).\n- Computerized tools (for example C programming tools, Maxima http://maxima.sourceforge.net/) (CT)\n- Teaching Suggestion and Applications of Discrete Mathematics for ST1 (TS)."
+        }
+      ],
+      "sources_are_alternatives_not_all_required": true,
+      "available_in_operations": [
+        "primary-S4-A-S0",
+        "primary-S4-B-S0"
+      ]
+    },
+    {
+      "scenario_id": "S4",
+      "target_id": "S4-GRADE",
+      "statement": "Không suy điểm hoặc performance riêng của hai công cụ",
+      "category": "boundary",
+      "acceptable_direct_sources": [],
+      "acceptable_related_sources": [
+        {
+          "course_code": "MAD101",
+          "metadata_field": "tools"
+        }
+      ],
+      "note": "",
+      "semantic_assessment": "manual_only",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "MAD101",
+            "metadata_field": "tools"
+          },
+          "relation": "related",
+          "canonical_source": "- Testbank for ST1.\n- Powerpoint image in CD + Powerpoint prepared by previous lecturers (PP).\n- Computerized tools (for example C programming tools, Maxima http://maxima.sourceforge.net/) (CT)\n- Teaching Suggestion and Applications of Discrete Mathematics for ST1 (TS)."
+        }
+      ],
+      "sources_are_alternatives_not_all_required": true,
+      "available_in_operations": [
+        "primary-S4-A-S0",
+        "primary-S4-B-S0"
+      ]
+    },
+    {
+      "scenario_id": "S5",
+      "target_id": "S5-CI",
+      "statement": "Giữ CI và sửa nguồn thành MAS291/CLO7",
+      "category": "curriculum",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "MAS291",
+          "clo": "CLO7"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "note": "",
+      "semantic_assessment": "manual_only",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO7",
+            "description": "Construct and interpret confidence intervals for population parameters and differences between population parameters, including intervals for means of normal distributions with known or unknown variance, large-sample intervals for population proportions, inference on differences between two means, and inference on differences between two proportions.",
+            "score": 9.43,
+            "achievement": "excellent"
+          }
+        }
+      ],
+      "sources_are_alternatives_not_all_required": true,
+      "available_in_operations": [
+        "primary-S5-B-S0",
+        "primary-S5-A-S0",
+        "scope-S5-A-S1",
+        "scope-S5-B-S1",
+        "repeat-S5-B-S0",
+        "repeat-S5-A-S0"
+      ]
+    },
+    {
+      "scenario_id": "S5",
+      "target_id": "S5-HYP",
+      "statement": "Hypothesis testing",
+      "category": "curriculum",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "MAS291",
+          "clo": "CLO8"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "note": "",
+      "semantic_assessment": "manual_only",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO8"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO8",
+            "description": "Verify claims about population parameters and differences between population parameters using hypothesis testing, including formulating hypotheses, identifying critical values and test statistics, computing p-values, recognizing testing errors, and conducting tests for single means, single proportions, differences between two means, and differences between two proportions.",
+            "score": 9.43,
+            "achievement": "excellent"
+          }
+        }
+      ],
+      "sources_are_alternatives_not_all_required": true,
+      "available_in_operations": [
+        "primary-S5-B-S0",
+        "primary-S5-A-S0",
+        "scope-S5-A-S1",
+        "scope-S5-B-S1",
+        "repeat-S5-B-S0",
+        "repeat-S5-A-S0"
+      ]
+    },
+    {
+      "scenario_id": "S5",
+      "target_id": "S5-LR",
+      "statement": "Simple linear regression",
+      "category": "curriculum",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "MAS291",
+          "clo": "CLO9"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "note": "",
+      "semantic_assessment": "manual_only",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO9",
+            "description": "Construct a simple linear regression model and use it for prediction and interpretation, including empirical models, least-squares estimation, sums of squares, regression equations, correlation coefficients, properties of least-squares estimators, and hypothesis tests for significance in simple linear regression.",
+            "score": 9.43,
+            "achievement": "excellent"
+          }
+        }
+      ],
+      "sources_are_alternatives_not_all_required": true,
+      "available_in_operations": [
+        "primary-S5-B-S0",
+        "primary-S5-A-S0",
+        "scope-S5-A-S1",
+        "scope-S5-B-S1",
+        "repeat-S5-B-S0",
+        "repeat-S5-A-S0"
+      ]
+    },
+    {
+      "scenario_id": "S5",
+      "target_id": "S5-PCA",
+      "statement": "PCA",
+      "category": "curriculum",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "MAI391",
+          "clo": "CLO6"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "note": "",
+      "semantic_assessment": "manual_only",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "MAI391",
+            "clo": "CLO6"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO6",
+            "description": "Apply dimensionality reduction with PCA, including covariance matrices, maximum-variance subspaces, principal subspace bases, low-rank matrix approximation, PCA in high dimensions, projection perspectives, eigenvector computation, and key practical PCA steps.",
+            "score": 9.4,
+            "achievement": "excellent"
+          }
+        }
+      ],
+      "sources_are_alternatives_not_all_required": true,
+      "available_in_operations": [
+        "primary-S5-B-S0",
+        "primary-S5-A-S0",
+        "scope-S5-A-S1",
+        "scope-S5-B-S1",
+        "repeat-S5-B-S0",
+        "repeat-S5-A-S0"
+      ]
+    },
+    {
+      "scenario_id": "S6",
+      "target_id": "S6-DESCR",
+      "statement": "Descriptive statistics",
+      "category": "curriculum",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "MAS291",
+          "clo": "CLO5"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "note": "",
+      "semantic_assessment": "manual_only",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO5"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO5",
+            "description": "Describe data using numerical summaries and visual displays, including descriptive statistics, stem-and-leaf diagrams, frequency distributions, histograms, box plots, quartiles, outlier identification, and time sequence plots.",
+            "score": 9.15,
+            "achievement": "excellent"
+          }
+        }
+      ],
+      "sources_are_alternatives_not_all_required": true,
+      "available_in_operations": [
+        "primary-S6-A-S0",
+        "primary-S6-B-S0",
+        "scope-S6-B-S1",
+        "scope-S6-A-S1",
+        "repeat-S6-A-S0",
+        "repeat-S6-B-S0"
+      ]
+    },
+    {
+      "scenario_id": "S6",
+      "target_id": "S6-SAMPLING",
+      "statement": "Sampling distributions",
+      "category": "curriculum",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "MAS291",
+          "clo": "CLO6"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "note": "",
+      "semantic_assessment": "manual_only",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO6"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO6",
+            "description": "Discuss sampling distributions and point estimation, then use the Central Limit Theorem to analyze sampling distributions of means.",
+            "score": 9.15,
+            "achievement": "excellent"
+          }
+        }
+      ],
+      "sources_are_alternatives_not_all_required": true,
+      "available_in_operations": [
+        "primary-S6-A-S0",
+        "primary-S6-B-S0",
+        "scope-S6-B-S1",
+        "scope-S6-A-S1",
+        "repeat-S6-A-S0",
+        "repeat-S6-B-S0"
+      ]
+    },
+    {
+      "scenario_id": "S6",
+      "target_id": "S6-CLT",
+      "statement": "Central Limit Theorem",
+      "category": "curriculum",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "MAS291",
+          "clo": "CLO6"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "note": "",
+      "semantic_assessment": "manual_only",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO6"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO6",
+            "description": "Discuss sampling distributions and point estimation, then use the Central Limit Theorem to analyze sampling distributions of means.",
+            "score": 9.15,
+            "achievement": "excellent"
+          }
+        }
+      ],
+      "sources_are_alternatives_not_all_required": true,
+      "available_in_operations": [
+        "primary-S6-A-S0",
+        "primary-S6-B-S0",
+        "scope-S6-B-S1",
+        "scope-S6-A-S1",
+        "repeat-S6-A-S0",
+        "repeat-S6-B-S0"
+      ]
+    },
+    {
+      "scenario_id": "S6",
+      "target_id": "S6-CI",
+      "statement": "Confidence intervals",
+      "category": "curriculum",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "MAS291",
+          "clo": "CLO7"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "note": "",
+      "semantic_assessment": "manual_only",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO7",
+            "description": "Construct and interpret confidence intervals for population parameters and differences between population parameters, including intervals for means of normal distributions with known or unknown variance, large-sample intervals for population proportions, inference on differences between two means, and inference on differences between two proportions.",
+            "score": 9.43,
+            "achievement": "excellent"
+          }
+        }
+      ],
+      "sources_are_alternatives_not_all_required": true,
+      "available_in_operations": [
+        "primary-S6-A-S0",
+        "primary-S6-B-S0",
+        "scope-S6-B-S1",
+        "scope-S6-A-S1",
+        "repeat-S6-A-S0",
+        "repeat-S6-B-S0"
+      ]
+    },
+    {
+      "scenario_id": "S6",
+      "target_id": "S6-HYP",
+      "statement": "Hypothesis testing",
+      "category": "curriculum",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "MAS291",
+          "clo": "CLO8"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "note": "",
+      "semantic_assessment": "manual_only",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO8"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO8",
+            "description": "Verify claims about population parameters and differences between population parameters using hypothesis testing, including formulating hypotheses, identifying critical values and test statistics, computing p-values, recognizing testing errors, and conducting tests for single means, single proportions, differences between two means, and differences between two proportions.",
+            "score": 9.43,
+            "achievement": "excellent"
+          }
+        }
+      ],
+      "sources_are_alternatives_not_all_required": true,
+      "available_in_operations": [
+        "primary-S6-A-S0",
+        "primary-S6-B-S0",
+        "scope-S6-B-S1",
+        "scope-S6-A-S1",
+        "repeat-S6-A-S0",
+        "repeat-S6-B-S0"
+      ]
+    },
+    {
+      "scenario_id": "S6",
+      "target_id": "S6-LR",
+      "statement": "Simple linear regression",
+      "category": "curriculum",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "MAS291",
+          "clo": "CLO9"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "note": "",
+      "semantic_assessment": "manual_only",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO9",
+            "description": "Construct a simple linear regression model and use it for prediction and interpretation, including empirical models, least-squares estimation, sums of squares, regression equations, correlation coefficients, properties of least-squares estimators, and hypothesis tests for significance in simple linear regression.",
+            "score": 9.43,
+            "achievement": "excellent"
+          }
+        }
+      ],
+      "sources_are_alternatives_not_all_required": true,
+      "available_in_operations": [
+        "primary-S6-A-S0",
+        "primary-S6-B-S0",
+        "scope-S6-B-S1",
+        "scope-S6-A-S1",
+        "repeat-S6-A-S0",
+        "repeat-S6-B-S0"
+      ]
+    },
+    {
+      "scenario_id": "S7",
+      "target_id": "S7-SORT",
+      "statement": "Sorting",
+      "category": "curriculum",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "CSD203",
+          "clo": "CLO6"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "note": "",
+      "semantic_assessment": "manual_only",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "CSD203",
+            "clo": "CLO6"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO6",
+            "description": "Explain the operation and performance of basic and advanced sorting algorithms, including selection sort, insertion sort, bubble sort, quicksort, merge sort, heap sort, bucket sort, radix sort, and comparison of sorting algorithm performance.",
+            "score": 6.06,
+            "achievement": "basic"
+          }
+        }
+      ],
+      "sources_are_alternatives_not_all_required": true,
+      "available_in_operations": [
+        "primary-S7-B-S0",
+        "primary-S7-A-S0",
+        "scope-S7-A-S1",
+        "scope-S7-B-S1"
+      ]
+    },
+    {
+      "scenario_id": "S7",
+      "target_id": "S7-HASH",
+      "statement": "Hashing",
+      "category": "curriculum",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "CSD203",
+          "clo": "CLO7"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "note": "",
+      "semantic_assessment": "manual_only",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "CSD203",
+            "clo": "CLO7"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO7",
+            "description": "Explain hashing and its applications, including hash tables, hash functions, collision handling, load factors, rehashing, efficiency considerations, and Python hash table implementation.",
+            "score": 6.06,
+            "achievement": "basic"
+          }
+        }
+      ],
+      "sources_are_alternatives_not_all_required": true,
+      "available_in_operations": [
+        "primary-S7-B-S0",
+        "primary-S7-A-S0",
+        "scope-S7-A-S1",
+        "scope-S7-B-S1"
+      ]
+    },
+    {
+      "scenario_id": "S8",
+      "target_id": "S8-WORKFLOW",
+      "statement": "Methodology/business questions và phân tích dữ liệu",
+      "category": "curriculum",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO2"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO7"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "note": "",
+      "semantic_assessment": "manual_only",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "ADY201m",
+            "clo": "CLO4"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO4",
+            "description": "Understand why data science methodology is needed and how it guides data science work, including problem understanding, business understanding, analytic approach, data requirements, data collection, data understanding, preprocessing, modeling, evaluation, deployment, feedback, and data science process steps.",
+            "score": 8.83,
+            "achievement": "excellent"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "DAP391m",
+            "clo": "CLO1"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO1",
+            "description": "Understand the basics of data analysis with Python for building and evaluating data models, including importing datasets and data wrangling.",
+            "score": 8.45,
+            "achievement": "good"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "DAP391m",
+            "clo": "CLO2"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO2",
+            "description": "Understand how to import data from multiple sources, clean and wrangle data, perform exploratory data analysis (EDA), and create meaningful data visualizations, including Data Analysis, Data Analysis with Python- Exploratory Data Analysis, Data Analysis with Python- Exploratory Data Analysis.",
+            "score": 8.79,
+            "achievement": "excellent"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "DAP391m",
+            "clo": "CLO7"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO7",
+            "description": "Implement the small mini capstone data science project includes steps: involving data collection, data wrangling, exploratory data analysis, data visualization, model development, model evaluation, and reporting, including Applied Data Science Capstone: Interactive Visual Analytics, Dashboard , Applied Data Science Capstone: Interactive Visual Analytics, Dashboard , Applied Data Science Capstone: Predictive Analysis (Classification) , Applied Data Science Capstone: Predictive Analysis (Classification), Evaluate final project.",
+            "score": 9.1,
+            "achievement": "excellent"
+          }
+        }
+      ],
+      "sources_are_alternatives_not_all_required": true,
+      "available_in_operations": [
+        "primary-S8-B-S0",
+        "primary-S8-A-S0",
+        "scope-S8-B-S1",
+        "scope-S8-A-S1",
+        "repeat-S8-B-S0",
+        "repeat-S8-A-S0"
+      ]
+    },
+    {
+      "scenario_id": "S8",
+      "target_id": "S8-COLLECTION",
+      "statement": "Data collection/retrieval",
+      "category": "curriculum",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO10"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "note": "Do not bind collection to ADY201m/CLO7; preserve cognitive verbs.",
+      "semantic_assessment": "manual_only",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "ADY201m",
+            "clo": "CLO5"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO5",
+            "description": "Discuss Python fundamentals, Python libraries, and API support for data science tasks, including understanding Python APIs, collecting data with Python, understanding and preprocessing data in Python, and using Python for data science, AI, and development workflows.",
+            "score": 8.61,
+            "achievement": "excellent"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "ADY201m",
+            "clo": "CLO4"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO4",
+            "description": "Understand why data science methodology is needed and how it guides data science work, including problem understanding, business understanding, analytic approach, data requirements, data collection, data understanding, preprocessing, modeling, evaluation, deployment, feedback, and data science process steps.",
+            "score": 8.83,
+            "achievement": "excellent"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "DAP391m",
+            "clo": "CLO7"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO7",
+            "description": "Implement the small mini capstone data science project includes steps: involving data collection, data wrangling, exploratory data analysis, data visualization, model development, model evaluation, and reporting, including Applied Data Science Capstone: Interactive Visual Analytics, Dashboard , Applied Data Science Capstone: Interactive Visual Analytics, Dashboard , Applied Data Science Capstone: Predictive Analysis (Classification) , Applied Data Science Capstone: Predictive Analysis (Classification), Evaluate final project.",
+            "score": 9.1,
+            "achievement": "excellent"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "AIL303m",
+            "clo": "CLO1"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO1",
+            "description": "Learners should be able to use common techniques to retrieve data from multiple data sources: SQL, NoSQL databases, APIs, Cloud, including Retrieving, Cleaning data.",
+            "score": 7.56,
+            "achievement": "good"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "AIL303m",
+            "clo": "CLO10"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO10",
+            "description": "Implement a mini capstone ML project includes steps: data collection, data wrangling, exploratory data analysis, model development, model evaluation, and reporting, including Guiding mini Capstone, Review the mini Capstone, Review mini Capstone.",
+            "score": 5.42,
+            "achievement": "basic"
+          }
+        }
+      ],
+      "sources_are_alternatives_not_all_required": true,
+      "available_in_operations": [
+        "primary-S8-B-S0",
+        "primary-S8-A-S0",
+        "scope-S8-B-S1",
+        "scope-S8-A-S1",
+        "repeat-S8-B-S0",
+        "repeat-S8-A-S0"
+      ]
+    },
+    {
+      "scenario_id": "S8",
+      "target_id": "S8-CLEAN",
+      "statement": "Cleaning/wrangling/transform",
+      "category": "curriculum",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO2"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO2"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO10"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "note": "",
+      "semantic_assessment": "manual_only",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "DAP391m",
+            "clo": "CLO1"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO1",
+            "description": "Understand the basics of data analysis with Python for building and evaluating data models, including importing datasets and data wrangling.",
+            "score": 8.45,
+            "achievement": "good"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "DAP391m",
+            "clo": "CLO2"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO2",
+            "description": "Understand how to import data from multiple sources, clean and wrangle data, perform exploratory data analysis (EDA), and create meaningful data visualizations, including Data Analysis, Data Analysis with Python- Exploratory Data Analysis, Data Analysis with Python- Exploratory Data Analysis.",
+            "score": 8.79,
+            "achievement": "excellent"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "DAP391m",
+            "clo": "CLO7"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO7",
+            "description": "Implement the small mini capstone data science project includes steps: involving data collection, data wrangling, exploratory data analysis, data visualization, model development, model evaluation, and reporting, including Applied Data Science Capstone: Interactive Visual Analytics, Dashboard , Applied Data Science Capstone: Interactive Visual Analytics, Dashboard , Applied Data Science Capstone: Predictive Analysis (Classification) , Applied Data Science Capstone: Predictive Analysis (Classification), Evaluate final project.",
+            "score": 9.1,
+            "achievement": "excellent"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "ADY201m",
+            "clo": "CLO5"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO5",
+            "description": "Discuss Python fundamentals, Python libraries, and API support for data science tasks, including understanding Python APIs, collecting data with Python, understanding and preprocessing data in Python, and using Python for data science, AI, and development workflows.",
+            "score": 8.61,
+            "achievement": "excellent"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "ADY201m",
+            "clo": "CLO7"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO7",
+            "description": "Implement a small data science project by applying Python fundamentals, Python data structures, SQL/database access, data understanding, preprocessing, modeling, evaluation, deployment, visualization, probability, regression analysis, and final reporting within a guided project workflow.",
+            "score": 8.61,
+            "achievement": "excellent"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "AIL303m",
+            "clo": "CLO1"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO1",
+            "description": "Learners should be able to use common techniques to retrieve data from multiple data sources: SQL, NoSQL databases, APIs, Cloud, including Retrieving, Cleaning data.",
+            "score": 7.56,
+            "achievement": "good"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "AIL303m",
+            "clo": "CLO2"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO2",
+            "description": "Learners should be able to describe and use common feature selection and feature engineering techniques, including Exploratory Data Analysis, Feature Engineering, Variable.",
+            "score": 7.56,
+            "achievement": "good"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "AIL303m",
+            "clo": "CLO10"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO10",
+            "description": "Implement a mini capstone ML project includes steps: data collection, data wrangling, exploratory data analysis, model development, model evaluation, and reporting, including Guiding mini Capstone, Review the mini Capstone, Review mini Capstone.",
+            "score": 5.42,
+            "achievement": "basic"
+          }
+        }
+      ],
+      "sources_are_alternatives_not_all_required": true,
+      "available_in_operations": [
+        "primary-S8-B-S0",
+        "primary-S8-A-S0",
+        "scope-S8-B-S1",
+        "scope-S8-A-S1",
+        "repeat-S8-B-S0",
+        "repeat-S8-A-S0"
+      ]
+    },
+    {
+      "scenario_id": "S8",
+      "target_id": "S8-VIS",
+      "statement": "Visualization/reports/dashboard",
+      "category": "curriculum",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO2"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "DAP391m",
+          "metadata_field": "description"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO7"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "note": "Dashboard needs DAP391m/CLO7 or explicit course-description scope; other visualization sources do not individually prove dashboard.",
+      "semantic_assessment": "manual_only",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "DAP391m",
+            "clo": "CLO2"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO2",
+            "description": "Understand how to import data from multiple sources, clean and wrangle data, perform exploratory data analysis (EDA), and create meaningful data visualizations, including Data Analysis, Data Analysis with Python- Exploratory Data Analysis, Data Analysis with Python- Exploratory Data Analysis.",
+            "score": 8.79,
+            "achievement": "excellent"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "DAP391m",
+            "clo": "CLO3"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO3",
+            "description": "Know difference ways to effectively visualize both small and large-scale data, including Project Topic Introduction and discuss, Evaluate final project.",
+            "score": 8.79,
+            "achievement": "excellent"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "DAP391m",
+            "clo": "CLO4"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO4",
+            "description": "Implement various types of basic and advanced graphs and charts like: Waffle Charts, Area Plots, Histograms, Bar Charts, Pie Charts, Scatter Plots, Word Clouds, Choropleth Maps, and many more, including Advanced Visualizations, Geospatial Data.",
+            "score": 8.79,
+            "achievement": "excellent"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "DAP391m",
+            "clo": "CLO7"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO7",
+            "description": "Implement the small mini capstone data science project includes steps: involving data collection, data wrangling, exploratory data analysis, data visualization, model development, model evaluation, and reporting, including Applied Data Science Capstone: Interactive Visual Analytics, Dashboard , Applied Data Science Capstone: Interactive Visual Analytics, Dashboard , Applied Data Science Capstone: Predictive Analysis (Classification) , Applied Data Science Capstone: Predictive Analysis (Classification), Evaluate final project.",
+            "score": 9.1,
+            "achievement": "excellent"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "DAP391m",
+            "metadata_field": "description"
+          },
+          "relation": "direct",
+          "canonical_source": "This course will take student from the basics of data analysis with Python to building and evaluating data models. The students will learn to work with some Data Visualization tools and techniques and create interactive dashboards that allow even those without any Data Science experience to better understand data, and make more effective and informed decisions. A student will be able to write an application that leverages multiple Watson AI services. This course allows students to practice data scientists' work in real life when working with datasets."
+        },
+        {
+          "reference": {
+            "course_code": "ADY201m",
+            "clo": "CLO7"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO7",
+            "description": "Implement a small data science project by applying Python fundamentals, Python data structures, SQL/database access, data understanding, preprocessing, modeling, evaluation, deployment, visualization, probability, regression analysis, and final reporting within a guided project workflow.",
+            "score": 8.61,
+            "achievement": "excellent"
+          }
+        }
+      ],
+      "sources_are_alternatives_not_all_required": true,
+      "available_in_operations": [
+        "primary-S8-B-S0",
+        "primary-S8-A-S0",
+        "scope-S8-B-S1",
+        "scope-S8-A-S1",
+        "repeat-S8-B-S0",
+        "repeat-S8-A-S0"
+      ]
+    },
+    {
+      "scenario_id": "S8",
+      "target_id": "S8-QUALITY",
+      "statement": "Data quality/outliers",
+      "category": "curriculum",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO2"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO1"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "note": "",
+      "semantic_assessment": "manual_only",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "AIL303m",
+            "clo": "CLO3"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO3",
+            "description": "Learners should be able to use a variety of techniques for detecting and dealing with outliers, including Inferential Statistics, Hypothesis Testing, Estimation, Inference, Hypothesis Testing (Homework).",
+            "score": 7.56,
+            "achievement": "good"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "DAP391m",
+            "clo": "CLO2"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO2",
+            "description": "Understand how to import data from multiple sources, clean and wrangle data, perform exploratory data analysis (EDA), and create meaningful data visualizations, including Data Analysis, Data Analysis with Python- Exploratory Data Analysis, Data Analysis with Python- Exploratory Data Analysis.",
+            "score": 8.79,
+            "achievement": "excellent"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "AIL303m",
+            "clo": "CLO1"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO1",
+            "description": "Learners should be able to use common techniques to retrieve data from multiple data sources: SQL, NoSQL databases, APIs, Cloud, including Retrieving, Cleaning data.",
+            "score": 7.56,
+            "achievement": "good"
+          }
+        }
+      ],
+      "sources_are_alternatives_not_all_required": true,
+      "available_in_operations": [
+        "primary-S8-B-S0",
+        "primary-S8-A-S0",
+        "scope-S8-B-S1",
+        "scope-S8-A-S1",
+        "repeat-S8-B-S0",
+        "repeat-S8-A-S0"
+      ]
+    },
+    {
+      "scenario_id": "S8",
+      "target_id": "S8-SQL",
+      "statement": "Foundational SQL",
+      "category": "curriculum",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "DBI202",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "DBI202",
+          "clo": "CLO6"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO7"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "note": "Each CLO has its own assessment; no overall SQL proficiency tier.",
+      "semantic_assessment": "manual_only",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "DBI202",
+            "clo": "CLO5"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO5",
+            "description": "Be proficient in SQL, including Data Definition Language (DDL) for defining database structures and implementing constraints such as primary and foreign keys, UNIQUE, and CHECK constraints using Microsoft SQL Server. Use Data Manipulation Language (DML) to perform basic queries, multi-relation queries, nested queries, aggregation queries, and database modifications using INSERT, UPDATE, and DELETE statements.",
+            "score": 5.96,
+            "achievement": "basic"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "DBI202",
+            "clo": "CLO6"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO6",
+            "description": "Understand T-SQL database programming concepts in Microsoft SQL Server and work with database views, cursors, stored procedures, functions, and triggers, including the use of triggers to enforce database constraints. Understand transaction concepts in database applications.",
+            "score": 5.96,
+            "achievement": "basic"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "ADY201m",
+            "clo": "CLO1"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO1",
+            "description": "Understand relational database concepts and foundational SQL language knowledge in the context of data science work, including accessing databases with Python, getting started with SQL, basic through advanced SQL-based data analysis, database fundamentals, nested queries, and multi-table SELECT statements.",
+            "score": 8.3,
+            "achievement": "good"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "ADY201m",
+            "clo": "CLO7"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO7",
+            "description": "Implement a small data science project by applying Python fundamentals, Python data structures, SQL/database access, data understanding, preprocessing, modeling, evaluation, deployment, visualization, probability, regression analysis, and final reporting within a guided project workflow.",
+            "score": 8.61,
+            "achievement": "excellent"
+          }
+        }
+      ],
+      "sources_are_alternatives_not_all_required": true,
+      "available_in_operations": [
+        "primary-S8-B-S0",
+        "primary-S8-A-S0",
+        "scope-S8-B-S1",
+        "scope-S8-A-S1",
+        "repeat-S8-B-S0",
+        "repeat-S8-A-S0"
+      ]
+    },
+    {
+      "scenario_id": "S8",
+      "target_id": "S8-PYTHON",
+      "statement": "Python trong lựa chọn preferred Python OR R",
+      "category": "curriculum",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "PFP191",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "PFP191",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "PFP191",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "PFP191",
+          "clo": "CLO6"
+        },
+        {
+          "course_code": "PFP191",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO1"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "note": "",
+      "semantic_assessment": "manual_only",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "PFP191",
+            "clo": "CLO3"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO3",
+            "description": "Understand conditional execution, functions, loops, and iteration in Python, including Boolean expressions, logical operators, alternative and nested conditionals, exception handling with try and except, short-circuit evaluation, while loops, for loops, loop patterns, function calls.",
+            "score": 8.98,
+            "achievement": "excellent"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "PFP191",
+            "clo": "CLO4"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO4",
+            "description": "Understand Python strings as sequences, including length calculation with len, traversal with loops, slicing, immutability, loop-based counting, membership with the in operator, string comparison, string methods, parsing strings, format operators, and debugging string-related code.",
+            "score": 9.0,
+            "achievement": "excellent"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "PFP191",
+            "clo": "CLO5"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO5",
+            "description": "Understand file handling in Python, including persistence, opening files, working with text files and lines, reading files, searching through file contents, allowing users to choose file names, using try, except, and open for safer file access, writing files, and debugging file-processing code.",
+            "score": 9.0,
+            "achievement": "excellent"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "PFP191",
+            "clo": "CLO6"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO6",
+            "description": "Understand Python lists, dictionaries, and tuples as core data structures, including lists as mutable sequences, list traversal, operations, slices, methods, deletion, list-function interactions, lists and strings, parsing lines, object values and aliasing, dictionaries as counters.",
+            "score": 9.15,
+            "achievement": "excellent"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "PFP191",
+            "clo": "CLO7"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO7",
+            "description": "Understand object-oriented programming in Python and apply it in application contexts using classes and objects, encapsulation and data hiding, abstraction and modular design, inheritance, polymorphism, method overloading, object usage in OOP programs, object lifecycle, advanced OOP concepts, design patterns, and case studies.",
+            "score": 8.9,
+            "achievement": "excellent"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "ADY201m",
+            "clo": "CLO5"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO5",
+            "description": "Discuss Python fundamentals, Python libraries, and API support for data science tasks, including understanding Python APIs, collecting data with Python, understanding and preprocessing data in Python, and using Python for data science, AI, and development workflows.",
+            "score": 8.61,
+            "achievement": "excellent"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "DAP391m",
+            "clo": "CLO1"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO1",
+            "description": "Understand the basics of data analysis with Python for building and evaluating data models, including importing datasets and data wrangling.",
+            "score": 8.45,
+            "achievement": "good"
+          }
+        }
+      ],
+      "sources_are_alternatives_not_all_required": true,
+      "available_in_operations": [
+        "primary-S8-B-S0",
+        "primary-S8-A-S0",
+        "scope-S8-B-S1",
+        "scope-S8-A-S1",
+        "repeat-S8-B-S0",
+        "repeat-S8-A-S0"
+      ]
+    },
+    {
+      "scenario_id": "S8",
+      "target_id": "S8-R",
+      "statement": "R được nhắc nhưng use-at-least-one không xác định lựa chọn cá nhân; preferred/OR được giữ",
+      "category": "boundary",
+      "acceptable_direct_sources": [],
+      "acceptable_related_sources": [
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "ADY201m",
+          "metadata_field": "tools"
+        }
+      ],
+      "note": "ADY metadata.tools says RStudio, not standalone R use; CLO3 explicitly names R.",
+      "semantic_assessment": "manual_only",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "ADY201m",
+            "clo": "CLO3"
+          },
+          "relation": "related",
+          "canonical_source": {
+            "clo": "CLO3",
+            "description": "Know common tools used in data science and use at least one tool for basic data operations, including tool introduction and analysis workflows using Python, R, Scala, SQL, GitHub, Jupyter Notebooks, RStudio IDE, Watson Studio.",
+            "score": 8.43,
+            "achievement": "good"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "ADY201m",
+            "metadata_field": "tools"
+          },
+          "relation": "related",
+          "canonical_source": "Jupyter Notebooks\n- JupyterLab\n- RStudio IDE\n- Git, GitHub\n-Watson Studio."
+        }
+      ],
+      "sources_are_alternatives_not_all_required": true,
+      "available_in_operations": [
+        "primary-S8-B-S0",
+        "primary-S8-A-S0",
+        "scope-S8-B-S1",
+        "scope-S8-A-S1",
+        "repeat-S8-B-S0",
+        "repeat-S8-A-S0"
+      ]
+    },
+    {
+      "scenario_id": "S8",
+      "target_id": "S8-TOOLS",
+      "statement": "Excel/Power BI/Tableau chưa được xác nhận trực tiếp là personal use",
+      "category": "boundary",
+      "acceptable_direct_sources": [],
+      "acceptable_related_sources": [
+        {
+          "course_code": "MAS291",
+          "metadata_field": "tools"
+        },
+        {
+          "course_code": "MAD101",
+          "metadata_field": "tools"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO7"
+        }
+      ],
+      "note": "MAS metadata names Excel as example; MAD tools does not name Excel/Power BI/Tableau. Split named tool assertions manually.",
+      "semantic_assessment": "manual_only",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "MAS291",
+            "metadata_field": "tools"
+          },
+          "relation": "related",
+          "canonical_source": "- Internet\n- Computerized tools (for example Excel and DDXL add-ons) (CT)"
+        },
+        {
+          "reference": {
+            "course_code": "MAD101",
+            "metadata_field": "tools"
+          },
+          "relation": "related",
+          "canonical_source": "- Testbank for ST1.\n- Powerpoint image in CD + Powerpoint prepared by previous lecturers (PP).\n- Computerized tools (for example C programming tools, Maxima http://maxima.sourceforge.net/) (CT)\n- Teaching Suggestion and Applications of Discrete Mathematics for ST1 (TS)."
+        },
+        {
+          "reference": {
+            "course_code": "DAP391m",
+            "clo": "CLO7"
+          },
+          "relation": "related",
+          "canonical_source": {
+            "clo": "CLO7",
+            "description": "Implement the small mini capstone data science project includes steps: involving data collection, data wrangling, exploratory data analysis, data visualization, model development, model evaluation, and reporting, including Applied Data Science Capstone: Interactive Visual Analytics, Dashboard , Applied Data Science Capstone: Interactive Visual Analytics, Dashboard , Applied Data Science Capstone: Predictive Analysis (Classification) , Applied Data Science Capstone: Predictive Analysis (Classification), Evaluate final project.",
+            "score": 9.1,
+            "achievement": "excellent"
+          }
+        }
+      ],
+      "sources_are_alternatives_not_all_required": true,
+      "available_in_operations": [
+        "primary-S8-B-S0",
+        "primary-S8-A-S0",
+        "scope-S8-B-S1",
+        "scope-S8-A-S1",
+        "repeat-S8-B-S0",
+        "repeat-S8-A-S0"
+      ]
+    },
+    {
+      "scenario_id": "S8",
+      "target_id": "S8-GPA",
+      "statement": "Không suy GPA>=7.5 từ CLO",
+      "category": "boundary",
+      "acceptable_direct_sources": [],
+      "acceptable_related_sources": [],
+      "note": "",
+      "semantic_assessment": "manual_only",
+      "canonical_evidence": [],
+      "sources_are_alternatives_not_all_required": true,
+      "available_in_operations": [
+        "primary-S8-B-S0",
+        "primary-S8-A-S0",
+        "scope-S8-B-S1",
+        "scope-S8-A-S1",
+        "repeat-S8-B-S0",
+        "repeat-S8-A-S0"
+      ]
+    },
+    {
+      "scenario_id": "S8",
+      "target_id": "S8-ENGLISH",
+      "statement": "Không suy chứng chỉ English B1 từ CLO",
+      "category": "boundary",
+      "acceptable_direct_sources": [],
+      "acceptable_related_sources": [],
+      "note": "",
+      "semantic_assessment": "manual_only",
+      "canonical_evidence": [],
+      "sources_are_alternatives_not_all_required": true,
+      "available_in_operations": [
+        "primary-S8-B-S0",
+        "primary-S8-A-S0",
+        "scope-S8-B-S1",
+        "scope-S8-A-S1",
+        "repeat-S8-B-S0",
+        "repeat-S8-A-S0"
+      ]
+    },
+    {
+      "scenario_id": "S8",
+      "target_id": "S8-STUDENT",
+      "statement": "Không suy final-year/recent graduate eligibility hoặc projects nghề nghiệp",
+      "category": "boundary",
+      "acceptable_direct_sources": [],
+      "acceptable_related_sources": [],
+      "note": "",
+      "semantic_assessment": "manual_only",
+      "canonical_evidence": [],
+      "sources_are_alternatives_not_all_required": true,
+      "available_in_operations": [
+        "primary-S8-B-S0",
+        "primary-S8-A-S0",
+        "scope-S8-B-S1",
+        "scope-S8-A-S1",
+        "repeat-S8-B-S0",
+        "repeat-S8-A-S0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "clo_name": "CLO1",
+    "clo_details": "Learners should be able to describe the business use case and the process of ingesting data."
+  },
+  {
+    "clo_name": "CLO2",
+    "clo_details": "Learners should be able to use common techniques such as: EDA, visualization, hypothesis testing and statistical tools."
+  },
+  {
+    "clo_name": "CLO3",
+    "clo_details": "Learners should be able to describe and use common feature selection and feature engineering techniques"
+  },
+  {
+    "clo_name": "CLO4",
+    "clo_details": "Learners should be able to implement the model: machine learning and deep learning algorithms, evaluation and performance metrics."
+  },
+  {
+    "clo_name": "CLO5",
+    "clo_details": "Learners should be able to deploy the model by interacting with Apache Spark then progressing to a tutorial with Docker."
+  }
+]

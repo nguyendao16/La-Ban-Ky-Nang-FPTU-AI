@@ -1,0 +1,114 @@
+{
+  "claims": [
+    {
+      "statement": "Trong CSD203, phần graphs nằm ở CLO5: score 6.06, achievement basic.",
+      "sources": [
+        {
+          "course_code": "CSD203",
+          "clo": "CLO5",
+          "source_excerpt": "Discuss graphs and their applications, and implement basic graph operations, including graph representations using edge lists, adjacency lists, and adjacency matrices, depth-first and breadth-first traversal, weighted graphs, shortest paths, Dijkstra's algorithm, minimum spanning trees with Prim-Jarnik and Kruskal algorithms."
+        }
+      ]
+    },
+    {
+      "statement": "Trong CSD203, phần sorting nằm ở CLO6: score 6.06, achievement basic.",
+      "sources": [
+        {
+          "course_code": "CSD203",
+          "clo": "CLO6",
+          "source_excerpt": "Explain the operation and performance of basic and advanced sorting algorithms, including selection sort, insertion sort, bubble sort, quicksort, merge sort, heap sort, bucket sort, radix sort, and comparison of sorting algorithm performance."
+        }
+      ]
+    },
+    {
+      "statement": "Trong CSD203, phần hashing nằm ở CLO7: score 6.06, achievement basic.",
+      "sources": [
+        {
+          "course_code": "CSD203",
+          "clo": "CLO7",
+          "source_excerpt": "Explain hashing and its applications, including hash tables, hash functions, collision handling, load factors, rehashing, efficiency considerations, and Python hash table implementation."
+        }
+      ]
+    },
+    {
+      "statement": "Không nên gọi cả môn CSD203 là excellent chỉ từ một CLO khác; achievement được ghi nhận theo từng CLO riêng, và trong CSD203 các CLO1-4 có achievement good còn CLO5-8 có achievement basic, nên hồ sơ này không cho phép gán một nhãn excellent cho toàn môn.",
+      "sources": [
+        {
+          "course_code": "CSD203",
+          "clo": "CLO1",
+          "source_excerpt": "Describe list data structures and their implementation approaches, including arrays, singly linked lists, circularly linked lists, and doubly linked lists. Implement singly linked lists while understanding how list representation choices affect data structure operations."
+        },
+        {
+          "course_code": "CSD203",
+          "clo": "CLO2",
+          "source_excerpt": "Define stacks and queues and describe their basic operations and uses, including stack operations, queues, double-ended queues (deques), and priority queues as fundamental linear data structures."
+        },
+        {
+          "course_code": "CSD203",
+          "clo": "CLO3",
+          "source_excerpt": "Describe recursive definitions, recursive algorithms, recursive functions, and their implementation and use, including factorial, binary search, file-system examples, recursive algorithm analysis, linear recursion, binary recursion, multiple recursion, recursive algorithm design, and tail-recursion elimination."
+        },
+        {
+          "course_code": "CSD203",
+          "clo": "CLO4",
+          "source_excerpt": "Explain general trees, binary trees, and binary search trees, and implement BST operations, including tree definitions and properties, tree abstract data types, binary tree properties, tree implementation, traversal algorithms, BST search, insertions and deletions, balanced search trees, AVL."
+        },
+        {
+          "course_code": "CSD203",
+          "clo": "CLO5",
+          "source_excerpt": "Discuss graphs and their applications, and implement basic graph operations, including graph representations using edge lists, adjacency lists, and adjacency matrices, depth-first and breadth-first traversal, weighted graphs, shortest paths, Dijkstra's algorithm, minimum spanning trees with Prim-Jarnik and Kruskal algorithms."
+        },
+        {
+          "course_code": "CSD203",
+          "clo": "CLO6",
+          "source_excerpt": "Explain the operation and performance of basic and advanced sorting algorithms, including selection sort, insertion sort, bubble sort, quicksort, merge sort, heap sort, bucket sort, radix sort, and comparison of sorting algorithm performance."
+        },
+        {
+          "course_code": "CSD203",
+          "clo": "CLO7",
+          "source_excerpt": "Explain hashing and its applications, including hash tables, hash functions, collision handling, load factors, rehashing, efficiency considerations, and Python hash table implementation."
+        },
+        {
+          "course_code": "CSD203",
+          "clo": "CLO8",
+          "source_excerpt": "Describe text processing problems and their applications, including digitized text, pattern-matching algorithms, brute-force matching, the Knuth-Morris-Pratt algorithm, text compression, Huffman coding, LZW, and run-length encoding."
+        }
+      ]
+    }
+  ],
+  "reply": "Có nhé: \n- **Graphs**: **CSD203/CLO5** — **6.06, basic**.\n- **Sorting**: **CSD203/CLO6** — **6.06, basic**.\n- **Hashing**: **CSD203/CLO7** — **6.06, basic**.\n\nCòn câu “có thể gọi cả môn excellent từ một CLO khác không?” thì **không nên**. Trong hồ sơ này, achievement là của **từng CLO**, không phải một nhãn chung cho cả môn. Với CSD203, các CLO1-4 là **good**, còn CLO5-8 là **basic**, nên không có cơ sở để gọi cả môn là **excellent** chỉ vì một CLO nào đó. Nếu bạn muốn, mình có thể tách tiếp ra từng CLO của CSD203 theo chủ đề để bạn dễ đối chiếu với JD hoặc CV.",
+  "evidence": [
+    {
+      "course_code": "CSD203",
+      "clo": "CLO1"
+    },
+    {
+      "course_code": "CSD203",
+      "clo": "CLO2"
+    },
+    {
+      "course_code": "CSD203",
+      "clo": "CLO3"
+    },
+    {
+      "course_code": "CSD203",
+      "clo": "CLO4"
+    },
+    {
+      "course_code": "CSD203",
+      "clo": "CLO5"
+    },
+    {
+      "course_code": "CSD203",
+      "clo": "CLO6"
+    },
+    {
+      "course_code": "CSD203",
+      "clo": "CLO7"
+    },
+    {
+      "course_code": "CSD203",
+      "clo": "CLO8"
+    }
+  ]
+}

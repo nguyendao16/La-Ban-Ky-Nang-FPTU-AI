@@ -1,0 +1,319 @@
+{
+  "metadata": {
+    "syllabus_name": "Reinforcement Learning_Học tăng cường",
+    "course_name_english": "Reinforcement Learning",
+    "subject_code": "REL301m",
+    "description": "This course helps students understand the concepts of Reinforcement Learning including the space of RL algorithms (Temporal- Difference learning, Monte Carlo, Sarsa, Q-learning, Policy Gradients, Dyna, and more). Students will understand how to formalize these tasks as a Reinforcement Learning problem. Students will learn how RL fits under the broader umbrella of machine learning, and how it complements deep learning, supervised and unsupervised learning. Students can implement a complete RL solution and understand how to apply AI tools to solve real-world problems.",
+    "tools": "Jupyter Notebooks, google Colab,"
+  },
+  "clos": [
+    {
+      "clo_name": "CLO1",
+      "clo_details": "Understand the concepts of Reinforcement Learning"
+    },
+    {
+      "clo_name": "CLO2",
+      "clo_details": "Know how to implement dynamic programming as an efficient solution approach to an industrial control problem"
+    },
+    {
+      "clo_name": "CLO3",
+      "clo_details": "Understand several algorithms for estimating value: Temporal-Difference learning, Monte Carlo"
+    },
+    {
+      "clo_name": "CLO4",
+      "clo_details": "Undersatnd and implement a model-based approach to RL: Temporal-Difference, Expected Sarsa, Q-learning"
+    },
+    {
+      "clo_name": "CLO5",
+      "clo_details": "Understand several approaches that affect approximate value functions: supervised learning, fixed basis, neural network."
+    },
+    {
+      "clo_name": "CLO6",
+      "clo_details": "Understand how function approximation is used to predict and control in Reinforcement Learning"
+    },
+    {
+      "clo_name": "CLO7",
+      "clo_details": "Understand and implement an RL solution to a problem step by step: problem formulation, appropriate algorithm selection, implementation, and empirical study into the effectiveness of the solution."
+    }
+  ],
+  "schedule": [
+    {
+      "topic": "Course Introduction",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "1.1. The K-Armed Bandit Problem",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "1.2. Estimating Action Values",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "1.3 Exploration vs. Exploitation Tradeoff",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "1.4 Introduction to Markov Decision Processes",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "1.5 Goal of Reinforcement Learning",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "1.6 Continuing Tasks",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "1.7 Policies and Value Functions",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "1.8 Bellman Equations",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "1.9 Optimality (Optimal Policies & Value Functions)",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "1.10 Policy Evaluation (Prediction)",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "1.11 Policy Iteration (Control)",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "1.12 Generalized Policy Iteration",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "Lab 1",
+      "lo": "CLO1, CLO2"
+    },
+    {
+      "topic": "Lab 1",
+      "lo": "CLO1, CLO2"
+    },
+    {
+      "topic": "Lab 1",
+      "lo": "CLO1, CLO2"
+    },
+    {
+      "topic": "Lab 1",
+      "lo": "CLO1, CLO2"
+    },
+    {
+      "topic": "4.1 Assignment introduction",
+      "lo": "CLO7"
+    },
+    {
+      "topic": "2.1 Introduction to Monte-Carlo Methods",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "2.2 Monte-Carlo for Control",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "2.3 Exploration Methods for Monte-Carlo",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "2.4 Off-policy learning for prediction",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "2.5 Introduction to Temporal Difference Learning",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "2.6 Advantages of Temporal Difference",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "2.7 Temporal Difference for Control",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "2.8 Off-policy Temporal Difference Control: Q-learning",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "2.9 Expected Sarsa",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "2.10 Define model in Reinforcement Learning",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "2.11 Define Planning in Reinforcement Learning",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "2.12 Dyna as a formalism for planning",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "2.13 Dealing with inaccurate models",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "Lab 2",
+      "lo": "CLO3, CLO4"
+    },
+    {
+      "topic": "Lab 2",
+      "lo": "CLO3, CLO4"
+    },
+    {
+      "topic": "Lab 2",
+      "lo": "CLO3, CLO4"
+    },
+    {
+      "topic": "Lab 2",
+      "lo": "CLO3, CLO4"
+    },
+    {
+      "topic": "4.2 Assignment guide 1",
+      "lo": "CLO7"
+    },
+    {
+      "topic": "3.1 Estimating Value Functions as Supervised Learning",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "3.2 The Objective for On-policy Prediction",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "3.3 The Objective for Temporal Difference",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "3.4 Linear Temporal Difference",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "3.5 Feature Construction for Linear Methods",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "3.6 Episodic Sarsa with Function Approximation",
+      "lo": "CLO6"
+    },
+    {
+      "topic": "3.7 Exploration under Function Approximation",
+      "lo": "CLO6"
+    },
+    {
+      "topic": "3.8 Understand Average Reward",
+      "lo": "CLO6"
+    },
+    {
+      "topic": "3.9 Learning Parameterized Policies",
+      "lo": "CLO6"
+    },
+    {
+      "topic": "3.10 Policy Gradient for Continuing Tasks",
+      "lo": "CLO6"
+    },
+    {
+      "topic": "3.11 Actor-Critic for Continuing Tasks",
+      "lo": "CLO6"
+    },
+    {
+      "topic": "3.12 Policy Parameterizations",
+      "lo": "CLO6"
+    },
+    {
+      "topic": "Lab 3",
+      "lo": "CLO5, CLO6"
+    },
+    {
+      "topic": "Lab 3",
+      "lo": "CLO5, CLO6"
+    },
+    {
+      "topic": "Lab 3",
+      "lo": "CLO5, CLO6"
+    },
+    {
+      "topic": "Lab 3",
+      "lo": "CLO5, CLO6"
+    },
+    {
+      "topic": "4.3 Assignment guide 2",
+      "lo": "CLO7"
+    },
+    {
+      "topic": "Guided Project: Create a Tic-Tac-Toe game in Python",
+      "lo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6"
+    },
+    {
+      "topic": "Guided Project: Create a Tic-Tac-Toe game in Python",
+      "lo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6"
+    },
+    {
+      "topic": "Quiz",
+      "lo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6"
+    },
+    {
+      "topic": "Assignment- Assignment grading",
+      "lo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7"
+    },
+    {
+      "topic": "Assignment- Assignment grading",
+      "lo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7"
+    },
+    {
+      "topic": "Assignment- Assignment grading",
+      "lo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7"
+    },
+    {
+      "topic": "Review course\nResults",
+      "lo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7"
+    }
+  ],
+  "assessments": [
+    {
+      "category": "Assignment",
+      "part": "1",
+      "weight": "30.0%",
+      "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7"
+    },
+    {
+      "category": "Lab1",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": "CLO1, CLO2"
+    },
+    {
+      "category": "lab2",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": "CLO3, CLO4"
+    },
+    {
+      "category": "lab3",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": "CLO5, CLO6"
+    },
+    {
+      "category": "Progress test",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6"
+    },
+    {
+      "category": "Final exam",
+      "part": "1",
+      "weight": "30.0%",
+      "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7"
+    }
+  ]
+}

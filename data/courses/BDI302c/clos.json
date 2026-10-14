@@ -1,0 +1,26 @@
+[
+  {
+    "clo": "CLO1",
+    "description": "Explain basis concepts in big data, architectural components and programming models used for scalable big data analysis, including Big Data: Why, Where, Characteristics of Big Data, Dimensions of Scalability."
+  },
+  {
+    "clo": "CLO2",
+    "description": "Collect, store and organize data using big data solutions, including Big Data Modeling, Management Systems, Introduction to Big Data Modeling, Management, Big Data Modeling, Working With Data Models, Big Data Management: The \"M\" in DBMS, Designing a Big Data Management System for an Online Game."
+  },
+  {
+    "clo": "CLO3",
+    "description": "Design a big data information system for a small company using big data integration, data retrieval, big data processing, and Spark-based big data analytics concepts."
+  },
+  {
+    "clo": "CLO4",
+    "description": "Execute simple big data integration and processing on Hadoop and Spark platforms, including Big Data Analytics using Spark, Learn By Doing: Putting MongoDB, Spark to Work."
+  },
+  {
+    "clo": "CLO5",
+    "description": "Use tools and algorithms to create machine learning models that learn from data, and to scale those models up to big data problems, including Data Exploration, Evaluation of Machine Learning Models, Regression, Cluster Analysis, and Association Analysis."
+  },
+  {
+    "clo": "CLO6",
+    "description": "Model a problem as a graph database and perform scalable graph analytics using graph concepts, graph analytics techniques, and computing platforms for graph analytics."
+  }
+]

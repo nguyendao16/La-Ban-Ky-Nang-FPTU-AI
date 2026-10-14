@@ -1,0 +1,325 @@
+{
+  "metadata": {
+    "syllabus_name": "Natural Language Processing_Xử lý ngôn ngữ tự nhiên",
+    "course_name_english": "Natural Language Processing",
+    "subject_code": "NLP301m",
+    "description": "This course provides students with a foundation in core concepts and methods of Natural Language Processing. The course covers text classification, vector space models, probabilistic methods, sequence models, attention, and transformer-based approaches. Through a research-oriented team project, students learn how to define an NLP problem, review related work, select datasets, build baseline and improved models, evaluate results, analyze errors, and report findings clearly. By the end of the course, students are expected to understand major NLP techniques, apply them to real problems, design and compare experiments, and write technical reports and a short research paper.",
+    "tools": "- Jupyter Notebook / Google Colab\n- Python libraries: NumPy, NLTK, scikit-learn, TensorFlow / Keras, PyTorch or equivalent as needed for specialization-aligned models\n- Git/GitHub for version control, experiment logs, and teamwork\n- Reference manager / citation workflow (e.g., Zotero, Mendeley, or equivalent)\n- Cloud/GPU server or Colab runtime as needed for project experiments"
+  },
+  "clos": [
+    {
+      "clo_name": "CLO1",
+      "clo_details": "Explain the end-to-end NLP pipeline, text preprocessing, corpus preparation, tokenization, and core linguistic concepts used in natural language processing."
+    },
+    {
+      "clo_name": "CLO2",
+      "clo_details": "Apply classical NLP methods including vectorization, Naive Bayes, edit-distance reasoning, HMM/POS tagging, n-gram language modeling, and word embeddings to baseline NLP tasks."
+    },
+    {
+      "clo_name": "CLO3",
+      "clo_details": "Build and analyze neural sequence models for NLP, including feed-forward networks for text, RNN/LSTM/GRU models, and attention-based sequence learning ideas."
+    },
+    {
+      "clo_name": "CLO4",
+      "clo_details": "Use transformer-based pretrained language models for classification, sequence labeling, retrieval, question answering, and generation-oriented workflows."
+    },
+    {
+      "clo_name": "CLO5",
+      "clo_details": "Evaluate NLP systems with suitable metrics, perform error analysis, discuss bias and limitations, and justify research conclusions with evidence and reproducible experiments."
+    },
+    {
+      "clo_name": "CLO6",
+      "clo_details": "Implement an end-to-end NLP research project including problem formulation, data collection or selection, baseline development, improved modeling, evaluation, report writing, short paper writing, and presentation."
+    },
+    {
+      "clo_name": "CLO7",
+      "clo_details": "Use AI-assisted development tools responsibly to accelerate experimentation, documentation, teamwork, and reflective learning in NLP projects."
+    }
+  ],
+  "schedule": [
+    {
+      "topic": "1. Course Introduction",
+      "lo": "CLO1, CLO6, CLO7"
+    },
+    {
+      "topic": "1.1 NLTK platform introduction, environment setup, and installation guide",
+      "lo": "CLO1, CLO6, CLO7"
+    },
+    {
+      "topic": "1.2 Tutorial: a small hands-on example with NLTK",
+      "lo": "CLO1, CLO6, CLO7"
+    },
+    {
+      "topic": "2. Supervised ML Pipeline, Sentiment Analysis, and Vocabulary Building",
+      "lo": "CLO1, CLO2, CLO5"
+    },
+    {
+      "topic": "2.1 Tweet preprocessing, feature extraction, logistic regression, and cost function",
+      "lo": "CLO1, CLO2, CLO5"
+    },
+    {
+      "topic": "2.2 Tutorial: sentiment prediction, error analysis, and guided discussion",
+      "lo": "CLO1, CLO2, CLO5"
+    },
+    {
+      "topic": "3. Probability, Conditional Probability, and Bayes' Rule",
+      "lo": "CLO2, CLO5"
+    },
+    {
+      "topic": "3.1 Priors, posteriors, likelihood, Naive Bayes, and Laplace smoothing",
+      "lo": "CLO2, CLO5"
+    },
+    {
+      "topic": "3.2 Tutorial: Naive Bayes classification, baseline comparison, and error analysis",
+      "lo": "CLO2, CLO5"
+    },
+    {
+      "topic": "4. Vector Space Models, W/W-W/D Matrices, and Similarity",
+      "lo": "CLO2, CLO5"
+    },
+    {
+      "topic": "4.1 PCA, analogy reasoning, vector transformation, and document search",
+      "lo": "CLO2, CLO5"
+    },
+    {
+      "topic": "4.2 Tutorial: similarity computation, vector exploration, and project discussion",
+      "lo": "CLO2, CLO5"
+    },
+    {
+      "topic": "5. Autocorrect, Candidate Generation, and Minimum Edit Distance",
+      "lo": "CLO2, CLO5"
+    },
+    {
+      "topic": "5.1 Dynamic programming, weighted costs, candidate ranking, and language evidence",
+      "lo": "CLO2, CLO5"
+    },
+    {
+      "topic": "5.2 Tutorial: autocorrect walkthrough, evaluation, and failure cases",
+      "lo": "CLO2, CLO5"
+    },
+    {
+      "topic": "6. Research Problem Formulation and Proposal Design",
+      "lo": "CLO1, CLO5, CLO6, CLO7"
+    },
+    {
+      "topic": "6.1 Literature search, related-work matrix, and citation/reproducibility plan",
+      "lo": "CLO1, CLO5, CLO6, CLO7"
+    },
+    {
+      "topic": "6.2 Review Report 1: proposal and literature review",
+      "lo": "CLO1, CLO5, CLO6, CLO7"
+    },
+    {
+      "topic": "7. POS Tagging, Sequence Labeling, and Markov Chains",
+      "lo": "CLO2, CLO5"
+    },
+    {
+      "topic": "7.1 HMM transitions/emissions, Viterbi decoding, and ambiguity resolution",
+      "lo": "CLO2, CLO5"
+    },
+    {
+      "topic": "7.2 Tutorial: POS tagging, decoding practice, and error analysis",
+      "lo": "CLO2, CLO5"
+    },
+    {
+      "topic": "8. N-grams, Corpus-Based Language Modeling, and Sequence Probabilities",
+      "lo": "CLO2, CLO5"
+    },
+    {
+      "topic": "8.1 Sentence generation, autocomplete, perplexity, and smoothing",
+      "lo": "CLO2, CLO5"
+    },
+    {
+      "topic": "8.2 Tutorial: n-gram modeling and language model evaluation",
+      "lo": "CLO2, CLO5"
+    },
+    {
+      "topic": "9. Word Embeddings, Dense Representations, and Co-occurrence Intuition",
+      "lo": "CLO2, CLO5"
+    },
+    {
+      "topic": "9.1 One-hot vectors, embedding objectives, CBOW/skip-gram, and analogies",
+      "lo": "CLO2, CLO5"
+    },
+    {
+      "topic": "9.2 Tutorial: embedding exploration, debiasing, and evaluation",
+      "lo": "CLO2, CLO5"
+    },
+    {
+      "topic": "10. Baseline Method Selection, Dataset Splits, and Experimental Protocol",
+      "lo": "CLO2, CLO5, CLO6, CLO7"
+    },
+    {
+      "topic": "10.1 Metrics, ablation/control variables, and error-analysis plan",
+      "lo": "CLO2, CLO5, CLO6, CLO7"
+    },
+    {
+      "topic": "10.2 Review Report 2: baseline method and experimental design",
+      "lo": "CLO2, CLO5, CLO6, CLO7"
+    },
+    {
+      "topic": "11. Neural Networks for Sentiment Analysis, Embedding Input, and Forward Propagation",
+      "lo": "CLO3, CLO5"
+    },
+    {
+      "topic": "11.1 Dense layers, activations, loss functions, optimization, and regularization",
+      "lo": "CLO3, CLO5"
+    },
+    {
+      "topic": "11.2 Tutorial: neural vs classical models for sentiment analysis",
+      "lo": "CLO3, CLO5"
+    },
+    {
+      "topic": "12. Recurrent Neural Networks, Sequence Models, and Hidden States",
+      "lo": "CLO3, CLO5"
+    },
+    {
+      "topic": "12.1 Sequence prediction, sequence generation, encoder-decoder, and GRU",
+      "lo": "CLO3, CLO5"
+    },
+    {
+      "topic": "12.2 Tutorial: RNN/GRU walkthrough and model behavior discussion",
+      "lo": "CLO3, CLO5"
+    },
+    {
+      "topic": "13. Long-Term Dependencies, BPTT, and Gradient Issues",
+      "lo": "CLO3, CLO5"
+    },
+    {
+      "topic": "13.1 LSTM architecture, named entity recognition, and sequence-labeling evaluation",
+      "lo": "CLO3, CLO5"
+    },
+    {
+      "topic": "13.2 Tutorial: LSTM/NER practice and error analysis",
+      "lo": "CLO3, CLO5"
+    },
+    {
+      "topic": "14. Siamese Networks, Semantic Similarity, and Triplet Loss",
+      "lo": "CLO3, CLO5"
+    },
+    {
+      "topic": "14.1 One-shot learning, embedding-space training, retrieval, and similarity evaluation",
+      "lo": "CLO3, CLO5"
+    },
+    {
+      "topic": "14.2 Tutorial: duplicate-question detection and trade-off discussion",
+      "lo": "CLO3, CLO5"
+    },
+    {
+      "topic": "15. Model Improvement Review, Baseline vs Improved Models, and Error Categories",
+      "lo": "CLO3, CLO5, CLO6, CLO7"
+    },
+    {
+      "topic": "15.1 Comparative evaluation, reproducibility evidence, and reporting strategy",
+      "lo": "CLO3, CLO5, CLO6, CLO7"
+    },
+    {
+      "topic": "15.2 Review Report 3: advanced-model progress and discussion",
+      "lo": "CLO3, CLO5, CLO6, CLO7"
+    },
+    {
+      "topic": "16. Neural Machine Translation, Seq2Seq, and Information Bottleneck",
+      "lo": "CLO3, CLO4, CLO5"
+    },
+    {
+      "topic": "16.1 Teacher forcing, attention, queries/keys/values, and generation metrics",
+      "lo": "CLO3, CLO4, CLO5"
+    },
+    {
+      "topic": "16.2 Tutorial: attention-based translation and decoding analysis",
+      "lo": "CLO3, CLO4, CLO5"
+    },
+    {
+      "topic": "17. Transformers, Self-Attention, and Positional Encoding",
+      "lo": "CLO4, CLO5"
+    },
+    {
+      "topic": "17.1 Masking, multi-head attention, summarization, and state-of-the-art reasons",
+      "lo": "CLO4, CLO5"
+    },
+    {
+      "topic": "17.2 Tutorial: transformer applications and comparison with RNNs",
+      "lo": "CLO4, CLO5"
+    },
+    {
+      "topic": "18. Transfer Learning, BERT, T5, and Question Answering",
+      "lo": "CLO4, CLO5"
+    },
+    {
+      "topic": "18.1 Pretraining vs fine-tuning, reliability, long-sequence challenges, and efficient transformers",
+      "lo": "CLO4, CLO5"
+    },
+    {
+      "topic": "18.2 Tutorial: context-based QA and context-window limitations",
+      "lo": "CLO4, CLO5"
+    },
+    {
+      "topic": "19. Progress Test on Core NLP Concepts and Project Status",
+      "lo": "CLO1, CLO5, CLO6, CLO7"
+    },
+    {
+      "topic": "19.1 Review Report 4, final paper structure, figures/tables, citations, and limitations",
+      "lo": "CLO5, CLO6, CLO7"
+    },
+    {
+      "topic": "19.2 Oral Presentation: final paper draft",
+      "lo": "CLO5, CLO6, CLO7"
+    },
+    {
+      "topic": "20. Oral Presentation: final project review and peer feedback",
+      "lo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7"
+    },
+    {
+      "topic": "20.1 Oral Presentation: revision plan and final improvements",
+      "lo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7"
+    },
+    {
+      "topic": "20.2 Oral Presentation: course reflection, research findings, and future work",
+      "lo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7"
+    }
+  ],
+  "assessments": [
+    {
+      "category": "Labs: Đánh giá tính chuyên cần trong các bài lab, thảo luận",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": "CLO1, CLO2, CLO3, CLO4, CLO6, CLO7"
+    },
+    {
+      "category": "Progress test",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": "CLO1, CLO5, CLO6, CLO7"
+    },
+    {
+      "category": "Report 1: Project proposal and literature review",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": "CLO1, CLO5, CLO6, CLO7"
+    },
+    {
+      "category": "Report 2: Baseline method and experimental design",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": "CLO2, CLO5, CLO6, CLO7"
+    },
+    {
+      "category": "Report 3: Advanced-model progress and discussion",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": "CLO3, CLO5, CLO6, CLO7"
+    },
+    {
+      "category": "Report 4: Final paper and oral presentation",
+      "part": "1",
+      "weight": "20.0%",
+      "clo": "CLO4, CLO5, CLO6, CLO7"
+    },
+    {
+      "category": "Final exam",
+      "part": "1",
+      "weight": "30.0%",
+      "clo": "CLO1, CLO2, CLO3, CLO4, CLO5"
+    }
+  ]
+}

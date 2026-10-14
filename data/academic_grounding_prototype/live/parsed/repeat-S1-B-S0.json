@@ -1,0 +1,34 @@
+{
+  "segments": [
+    {
+      "kind": "academic_claim",
+      "text": "Trong MAS291, nội dung về confidence intervals nằm ở CLO7: “Construct and interpret confidence intervals for population parameters and differences between population parameters...”. CLO này có điểm 9.43 và achievement excellent. Nó tập trung vào việc lập và diễn giải khoảng tin cậy cho tham số tổng thể hoặc chênh lệch giữa các tham số, nên khác với phần kiểm định giả thuyết.",
+      "academic_sources": [
+        {
+          "course_code": "MAS291",
+          "clo": "CLO7",
+          "source_excerpt": "Construct and interpret confidence intervals for population parameters and differences between population parameters"
+        }
+      ],
+      "jd_excerpt": null
+    },
+    {
+      "kind": "academic_claim",
+      "text": "Nội dung về simple linear regression nằm ở CLO9: “Construct a simple linear regression model and use it for prediction and interpretation...”. CLO này có điểm 9.43 và achievement excellent. Nó tập trung vào xây dựng mô hình hồi quy tuyến tính đơn, dùng để dự đoán và diễn giải mối quan hệ giữa các biến, chứ không phải khoảng tin cậy.",
+      "academic_sources": [
+        {
+          "course_code": "MAS291",
+          "clo": "CLO9",
+          "source_excerpt": "Construct a simple linear regression model and use it for prediction and interpretation"
+        }
+      ],
+      "jd_excerpt": null
+    },
+    {
+      "kind": "general_explanation",
+      "text": "Tóm lại, MAS291 tách hai nội dung này thành hai CLO riêng: confidence intervals là CLO7, còn simple linear regression là CLO9. Hai CLO đều có cùng điểm 9.43 và cùng achievement excellent, nhưng chúng đo hai kết quả học tập khác nhau nên không nên gộp lại thành một nội dung duy nhất.",
+      "academic_sources": [],
+      "jd_excerpt": null
+    }
+  ]
+}

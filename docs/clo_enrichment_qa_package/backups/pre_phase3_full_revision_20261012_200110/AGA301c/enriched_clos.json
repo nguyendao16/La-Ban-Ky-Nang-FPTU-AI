@@ -1,0 +1,60 @@
+{
+  "course_id": "AGA301c",
+  "clos": [
+    {
+      "clo_id": "CLO1",
+      "original_description": "Distinguish the major generative-AI model families and implement tokenization and PyTorch data pipelines.",
+      "enriched_description": "Distinguish the major generative-AI model families and implement tokenization and PyTorch data pipelines. The scope includes Specialization Introduction Generative AI and LLMs: Architecture and Data Preparation; Tokenization techniques with NLTK, spaCy, Hugging Face; and PyTorch data loaders and pipelines for generative AI.",
+      "source_topic_indices": [
+        0,
+        1
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO2",
+      "original_description": "Build NLP systems using foundational language-modelling techniques",
+      "enriched_description": "Build NLP systems using foundational language-modelling techniques. The scope includes Gen AI Foundational Models for NLP & Language Understanding; Word embeddings: Word2Vec, GloVe; Document classification; Encoder-decoder RNNs; and Introduction to attention mechanisms.",
+      "source_topic_indices": [
+        0,
+        1
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO3",
+      "original_description": "Apply transformer LLMs to generation, classification, translation, and understanding tasks.",
+      "enriched_description": "Apply transformer LLMs to generation, classification, translation, and understanding tasks. The scope includes Generative AI Language Modeling with Transformers; Transformer architecture in depth; and Applying transformers to translation, classification, and text generation.",
+      "source_topic_indices": [
+        0,
+        1
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO4",
+      "original_description": "Adapt LLMs for domain tasks using PEFT, instruction tuning, and alignment",
+      "enriched_description": "Adapt LLMs for domain tasks using PEFT, instruction tuning, and alignment. The scope includes Generative AI Engineering and Fine-Tuning Transformers; Hugging Face fine-tuning pipelines; Parameter-efficient fine-tuning: LoRA, QLoRA, adapters; Quantization for fine-tuning on consumer GPUs; Generative AI Advance Fine-Tuning for LLMs; and Instruction tuning; reward modelling; preference data.",
+      "source_topic_indices": [
+        0,
+        1,
+        2
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO5",
+      "original_description": "Design, build, and deploy production LLM applications using RAG, vector stores, and agent patterns.",
+      "enriched_description": "Design, build, and deploy production LLM applications using RAG, vector stores, and agent patterns. The scope includes Fundamentals of AI Agents Using RAG and LangChain; LangChain components, chains, agents; and Embeddings, vector stores, and Retrieval-Augmented Generation.",
+      "source_topic_indices": [
+        0
+      ],
+      "review_required": false,
+      "review_notes": []
+    }
+  ]
+}

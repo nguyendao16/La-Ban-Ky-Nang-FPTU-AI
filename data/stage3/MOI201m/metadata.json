@@ -1,0 +1,7 @@
+{
+  "syllabus_name": "Introduction to MLOps_Nhập môn hoạt động học máy",
+  "course_name_english": "Introduction to MLOps",
+  "subject_code": "MOI201m",
+  "description": "This course introduces students to the end to end machine learning lifecycle, focusing on the practices, tools, and culture of Machine Learning Operations (MLOps). Students will learn how to transition machine learning models from isolated experimental notebooks into production-ready, scalable, and continuously monitored software systems. The curriculum covers project scoping, data version control (DVC), automated data and model pipelines (TFX), containerization (Docker), continuous integration and continuous deployment (CI/CD), model serving architectures, and automated drift monitoring. By completing hands-on labs and a final capstone project, students will gain engineering skills to build reliable, reproducible, and automated AI systems.",
+  "tools": "Python, Git, Docker, DVC, TFX (TensorFlow Extended), MLflow, FastAPI, GitHub Actions, Prometheus, Grafana, Evidently AI."
+}

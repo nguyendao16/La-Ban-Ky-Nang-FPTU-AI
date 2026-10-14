@@ -1,0 +1,157 @@
+{
+  "version": 1,
+  "session_id": "a8c7e1743dab46e992b322b04ca8bedc",
+  "sources": {
+    "profile": {
+      "path": "/data/FPT/Learning_Materials/Semester_5/DPL302m/skillbridge/data/student_academic_profile.json",
+      "sha256": "99f34048ed8c3d11ed972fa0a97476aa7fba6f071ad8aea454bb66b6b5c2eca1"
+    },
+    "jd": {
+      "path": "/data/FPT/Learning_Materials/Semester_5/DPL302m/skillbridge/data/academic_benchmark/jds/JD08.txt",
+      "sha256": "55e36c3380fcdb99817539bc88979d0aeebd1b1982e94d7b9b99ea691fdf31f2"
+    },
+    "review": {
+      "path": "/data/FPT/Learning_Materials/Semester_5/DPL302m/skillbridge/data/academic_benchmark/initial_reviews/internship-20261013/JD08.json",
+      "sha256": "ecdedb752fbb47e4cf9606a67263e6c5fa6f4c97710abcfb65b48b7607b652e6"
+    }
+  },
+  "messages": [
+    {
+      "role": "user",
+      "content": "Với JD này thì những kiến thức nào mình đã học ở trường có liên quan nhất?"
+    },
+    {
+      "role": "assistant",
+      "content": "Các kiến thức bạn đã học ở trường liên quan nhất đến JD Data Scientist Intern (Personalisation) của Razer gồm:\n\n1. Nền tảng Machine Learning (ML): Bạn đã học và đạt thành tích excellent ở các thuật toán cơ bản như linear regression, PCA, SVM (MAI391/CLO5, CLO6, CLO7), cùng với supervised/unsupervised learning, error metrics, clustering, dimensionality reduction (AIL303m/CLO4, CLO5, CLO7, CLO9). Ngoài ra, AIG202c/CLO2 xác nhận hiểu biết về Machine Learning, Deep Learning và Neural Networks.\n\n2. Kinh nghiệm thực hiện dự án ML học thuật: Bạn đã triển khai các dự án data science/ML nhỏ qua ADY201m/CLO7, AIL303m/CLO10 và DAP391m/CLO7, bao gồm các bước: thu thập, xử lý, phân tích dữ liệu, phát triển và đánh giá mô hình, báo cáo kết quả.\n\n3. Python và SQL cho data science: Bạn có nền tảng Python vững chắc (PFP191/CLO7, ADY201m/CLO5, DAP391m/CLO1) và đã sử dụng SQL trong các bài tập và dự án (DBI202/CLO5, ADY201m/CLO1, CLO7).\n\n4. Feature engineering và data wrangling: Bạn đã học về các kỹ thuật chọn và xây dựng đặc trưng (AIL303m/CLO2), thực hiện data wrangling, exploratory data analysis trong các dự án (DAP391m/CLO1, CLO2, CLO7; ADY201m/CLO7).\n\n5. Đánh giá mô hình, A/B testing: Bạn đã học về kiểm định giả thuyết, confidence intervals, p-value, đánh giá thống kê (MAS291/CLO7, CLO8; MAI391/CLO3), là nền tảng cho A/B testing và đánh giá mô hình.\n\n6. Lý thuyết nền tảng cho recommendation/ranking models: Bạn đã học supervised learning, regression, classification, error metrics (MAI391/CLO5, CLO7; AIL303m/CLO4, CLO5), là nền tảng lý thuyết cho các hệ thống recommendation/ranking.\n\nTóm lại, các kiến thức nền tảng về ML, Python, SQL, quy trình dự án ML, feature engineering, data wrangling và đánh giá mô hình bạn đã học đều liên quan trực tiếp đến các yêu cầu chính của JD này.",
+      "evidence": [
+        {
+          "course_code": "MAI391",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO6"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO9"
+        },
+        {
+          "course_code": "AIG202c",
+          "clo": "CLO2"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO10"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "PFP191",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "DBI202",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO2"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO2"
+        },
+        {
+          "course_code": "MAS291",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "MAS291",
+          "clo": "CLO8"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO3"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "So với JD thì những nội dung nào mình còn thiếu hoặc chưa được hồ sơ xác nhận?"
+    },
+    {
+      "role": "assistant",
+      "content": "Đối chiếu với JD Data Scientist Intern (Personalisation) của Razer, các nội dung sau chưa được hồ sơ học thuật xác nhận trực tiếp:\n\n1. Các framework Machine Learning cụ thể: Chưa có CLO nào xác nhận bạn đã học hoặc sử dụng TensorFlow, Keras, sklearn, hay PyTorch. Hồ sơ chỉ xác nhận nền tảng lý thuyết và thực hành ML nói chung, chưa đề cập đến các framework này.\n\n2. Workflow embedding/LLM: Không có CLO nào xác nhận bạn đã học về quy trình làm việc với embedding hoặc Large Language Models (LLM), cũng như các workflow liên quan.\n\n3. Triển khai pipeline trên cloud (AWS/GCP), Airflow: Hồ sơ chưa có bằng chứng về việc học hoặc thực hành triển khai pipeline mô hình trên các nền tảng cloud như AWS, GCP, hoặc sử dụng Airflow cho pipeline tự động hóa.\n\n4. Recommendation/ranking models chuyên biệt: Bạn đã học nền tảng supervised learning, regression, classification – là cơ sở cho recommendation system, nhưng chưa có CLO nào xác nhận học hoặc triển khai các thuật toán recommendation/ranking models cụ thể.\n\nNếu bạn đã tự học hoặc có kinh nghiệm thực tế với các công nghệ, framework hoặc workflow này ngoài trường, hồ sơ học thuật hiện tại chưa phản ánh được điều đó. Đây là những chủ đề bạn có thể cân nhắc bổ sung hoặc kiểm tra lại nếu muốn đáp ứng đầy đủ các yêu cầu chuyên biệt mà JD đề cập.",
+      "evidence": []
+    },
+    {
+      "role": "user",
+      "content": "Mình học kiểm định giả thuyết và ML rồi, A/B testing với recommender systems có được xác nhận trực tiếp không?"
+    },
+    {
+      "role": "assistant",
+      "content": "Bạn đã được xác nhận học kiểm định giả thuyết, confidence intervals, p-value và các kỹ năng đánh giá thống kê qua MAS291 (CLO7, CLO8), đây là nền tảng lý thuyết trực tiếp cho A/B testing. Tuy nhiên, không có CLO nào xác nhận bạn đã học hoặc thực hành A/B testing trong bối cảnh triển khai thực tế (ví dụ: A/B test cho sản phẩm, hệ thống recommendation, hoặc mô hình ML cụ thể).\n\nVề recommender systems, hồ sơ xác nhận bạn đã học supervised learning, regression, classification (MAI391/CLO5, CLO7; AIL303m/CLO4, CLO5), là nền tảng lý thuyết cho recommendation/ranking models. Tuy nhiên, chưa có CLO nào xác nhận bạn đã học hoặc triển khai các thuật toán recommendation system chuyên biệt.\n\nTóm lại:\n- Kiểm định giả thuyết/A/B testing: Được xác nhận nền tảng lý thuyết, chưa xác nhận thực hành A/B testing trong hệ thống recommendation hoặc sản phẩm thực tế.\n- Recommender systems: Được xác nhận lý thuyết nền tảng, chưa xác nhận học hoặc triển khai thuật toán recommendation chuyên biệt.",
+      "evidence": [
+        {
+          "course_code": "MAS291",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "MAS291",
+          "clo": "CLO8"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO5"
+        }
+      ]
+    }
+  ]
+}

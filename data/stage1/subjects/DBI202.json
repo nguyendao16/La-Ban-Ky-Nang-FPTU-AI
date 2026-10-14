@@ -1,0 +1,909 @@
+{
+  "schema_version": "stage1_v1",
+  "record_type": "normal_subject",
+  "subject": {
+    "code": "DBI202",
+    "name": {
+      "full": "Introduction to Databases_Các hệ cơ sở dữ liệu",
+      "en": "Introduction to Databases",
+      "vi": "Các hệ cơ sở dữ liệu"
+    },
+    "semester": 2,
+    "credits": 3,
+    "prerequisite": ""
+  },
+  "syllabus": {
+    "id": "12039",
+    "name": "Database Systems_Các hệ cơ sở dữ liệu",
+    "is_active": true,
+    "is_approved": true,
+    "decision_no": "1286/QĐ-ĐHFPT dated 11/22/2024"
+  },
+  "content": {
+    "metadata": {
+      "syllabus_id": "12039",
+      "syllabus_name": "Database Systems_Các hệ cơ sở dữ liệu",
+      "course_name_english": "Database Systems",
+      "subject_code": "DBI202",
+      "learning_teaching_method": "Social Constructivism,In-class lecture,Inquiry-based Teaching",
+      "nocredit": "3",
+      "degree_level": "Bachelor",
+      "time_allocation": "Study hour (150h) = 45h contact hours + 1h final exam + 85' practical exam + 104h self-study",
+      "pre_requisite": "",
+      "description": "- Knowledge about database systems has become an essential part of an education in computer science because database management has evolved from a specialized computer application to a central component of a modern computing environment.\n- The content of this course includes aspects of database management basic concepts, database design, database languages, and database-system implementation. Basing on these contents, the course emphasizes on how to organize, maintain and retrieve efficiently data and information from a DBMS.",
+      "studenttasks": "- Students must attend at least 80% of contact slots in order to be accepted to the final examination.\n- Student is responsible to do all exercises given by instructor in class or at home and submit on time\n- Promptly access to the https://flm.fpt.edu.vn/ for up-to-date course information",
+      "tools": "Microsoft SQL Server",
+      "scoring_scale": "10",
+      "decisionno_mm_dd_yyyy": "1286/QĐ-ĐHFPT dated 11/22/2024",
+      "isapproved": "True",
+      "note": "",
+      "is_scored": "True",
+      "minavgmarktopass": "5",
+      "isactive": "True",
+      "approveddate": "11/22/2024"
+    },
+    "materials": [
+      {
+        "no": "1",
+        "material_description": "First Course in Database Systems",
+        "author": "Jeffrey D. Ullman, Jennifer Widom",
+        "publisher": "Pearson",
+        "published_date": "2008",
+        "edition": "Third edition",
+        "isbn": "9781292025827 or 9780136006374",
+        "is_main_material": true,
+        "is_hard_copy": true,
+        "is_online": false,
+        "note": ""
+      },
+      {
+        "no": "2",
+        "material_description": "Database Management System",
+        "author": "Raghu ramakrishnan",
+        "publisher": "Mc Graw-Hill",
+        "published_date": "",
+        "edition": "Third edition",
+        "isbn": "978-8131769591",
+        "is_main_material": false,
+        "is_hard_copy": true,
+        "is_online": false,
+        "note": ""
+      },
+      {
+        "no": "3",
+        "material_description": "Database Management System (DBMS): A Practical Approach",
+        "author": "Rajiv Chopra",
+        "publisher": "SChand Publications",
+        "published_date": "",
+        "edition": "",
+        "isbn": "9788121932455",
+        "is_main_material": false,
+        "is_hard_copy": true,
+        "is_online": false,
+        "note": ""
+      },
+      {
+        "no": "4",
+        "material_description": "Course slides (.pptx)",
+        "author": "",
+        "publisher": "",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": false,
+        "note": ""
+      },
+      {
+        "no": "5",
+        "material_description": "Labs & assignment",
+        "author": "",
+        "publisher": "",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": false,
+        "note": ""
+      }
+    ],
+    "clos": [
+      {
+        "no": "1",
+        "clo_name": "CLO1",
+        "clo_details": "Understand thedatabase concepts and database management system software"
+      },
+      {
+        "no": "2",
+        "clo_name": "CLO2",
+        "clo_details": "Understand the relation model of data and Algebraic Query Language"
+      },
+      {
+        "no": "3",
+        "clo_name": "CLO3",
+        "clo_details": "Understand data normalization and apply normalization techniques in database design"
+      },
+      {
+        "no": "4",
+        "clo_name": "CLO4",
+        "clo_details": "Be able to model an application’s data requirements using conceptual modeling tools like ER diagrams and design database schemas based on the conceptual model."
+      },
+      {
+        "no": "5",
+        "clo_name": "CLO5",
+        "clo_details": "Be proficient in structure query language including Data Definition Language(DDL) and Data Manipulation Language(DML)"
+      },
+      {
+        "no": "6",
+        "clo_name": "CLO6",
+        "clo_details": "Understand PL/SQL concepts and manipulate with View, Cursors, Stored Procedures, Functions, Database Triggers"
+      },
+      {
+        "no": "7",
+        "clo_name": "CLO7",
+        "clo_details": "Apply the Index in database design and query optimization"
+      }
+    ],
+    "schedule": [
+      {
+        "session": "1",
+        "topic": "Chapter 1. The Worlds of Database Systems\n1.1 The Evolution of Database Systems\n1.2 Overview of Database Management System",
+        "learning_teaching_type": "Offline",
+        "lo": "LO1",
+        "itu": "I",
+        "student_materials": "Textbook, slides",
+        "s_download": "DBI202",
+        "student_tasks": "Read chapter 1 in text book, focus on 1.1 and 1.2",
+        "urls": ""
+      },
+      {
+        "session": "2",
+        "topic": "1.3 Outline of Database-System Studies\nAssignment Introduction (individual)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO1",
+        "itu": "I",
+        "student_materials": "Textbook, slides",
+        "s_download": "DBI202",
+        "student_tasks": "Read chapter 1 in text book, focus on 1.1 and 1.2",
+        "urls": ""
+      },
+      {
+        "session": "3",
+        "topic": "Chapter 2. The Relational Model of Data\n2.1 An Overview of Data Models",
+        "learning_teaching_type": "Offline",
+        "lo": "LO2",
+        "itu": "IT",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 2 in text book, focus on 2.1 and 2.2",
+        "urls": ""
+      },
+      {
+        "session": "4",
+        "topic": "2.2 Basics of the Relational Model",
+        "learning_teaching_type": "Offline",
+        "lo": "LO2",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 2 in text book, focus on 2.1 and 2.2",
+        "urls": ""
+      },
+      {
+        "session": "5",
+        "topic": "2.4 An Algebraic Query Language",
+        "learning_teaching_type": "Offline",
+        "lo": "LO2",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 2 in text book, focus on 2.4",
+        "urls": ""
+      },
+      {
+        "session": "6",
+        "topic": "2.4 An Algebraic Query Language (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO2",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 2 in text book, focus on 2.4",
+        "urls": ""
+      },
+      {
+        "session": "7",
+        "topic": "Lab1 assistance",
+        "learning_teaching_type": "Offline",
+        "lo": "LO1, LO2",
+        "itu": "U",
+        "student_materials": "Textbook, slides, lab's questions",
+        "s_download": "",
+        "student_tasks": "Do lab 1 as homework",
+        "urls": ""
+      },
+      {
+        "session": "8",
+        "topic": "Lab1 assistance (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO1, LO2",
+        "itu": "U",
+        "student_materials": "Textbook, slides, lab's questions",
+        "s_download": "",
+        "student_tasks": "Do lab 1 as homework",
+        "urls": ""
+      },
+      {
+        "session": "9",
+        "topic": "Chapter 3. Design Theory for Relational Databases\n3.1 Functional Dependencies",
+        "learning_teaching_type": "Offline",
+        "lo": "LO3",
+        "itu": "I, T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 3 in text book, focus on 3.1 and 3.2",
+        "urls": ""
+      },
+      {
+        "session": "10",
+        "topic": "3.2 Rules About Functional Dependencies",
+        "learning_teaching_type": "Offline",
+        "lo": "LO3",
+        "itu": "I, T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 3 in text book, focus on 3.1 and 3.2",
+        "urls": ""
+      },
+      {
+        "session": "11",
+        "topic": "3.3 Design of Relational Database Schema",
+        "learning_teaching_type": "Offline",
+        "lo": "LO3",
+        "itu": "I, T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 3 in text book, focus on 3.3",
+        "urls": ""
+      },
+      {
+        "session": "12",
+        "topic": "3.3 Design of Relational Database Schema (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO3",
+        "itu": "I, T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 3 in text book, focus on 3.3",
+        "urls": ""
+      },
+      {
+        "session": "13",
+        "topic": "3.5 Normal Forms (1NF, 2NF)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO3",
+        "itu": "I, T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 3 in text book, focus on 3.5",
+        "urls": ""
+      },
+      {
+        "session": "14",
+        "topic": "3.5 Normal Forms (cont. 3NF, BCNF)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO3",
+        "itu": "I, T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 3 in text book, focus on 3.5",
+        "urls": ""
+      },
+      {
+        "session": "15",
+        "topic": "Lab 2 assistance",
+        "learning_teaching_type": "Offline",
+        "lo": "LO3",
+        "itu": "U",
+        "student_materials": "'Textbook, slides, lab's questions",
+        "s_download": "",
+        "student_tasks": "Do lab 2 as homework",
+        "urls": ""
+      },
+      {
+        "session": "16",
+        "topic": "Lab 2 assistance (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO3",
+        "itu": "U",
+        "student_materials": "'Textbook, slides, lab's questions",
+        "s_download": "",
+        "student_tasks": "Do lab 2 as homework",
+        "urls": ""
+      },
+      {
+        "session": "17",
+        "topic": "Progress test 1 (<=30')\nAssignment assistance",
+        "learning_teaching_type": "Offline",
+        "lo": "LO1, LO2, LO3",
+        "itu": "I, U",
+        "student_materials": "Textbook, slides,assignment's questions",
+        "s_download": "",
+        "student_tasks": "Do assignment as homework",
+        "urls": ""
+      },
+      {
+        "session": "18",
+        "topic": "Assignment assistance (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO1, LO2, LO3",
+        "itu": "I, U",
+        "student_materials": "Textbook, slides,assignment's questions",
+        "s_download": "",
+        "student_tasks": "Do assignment as homework",
+        "urls": ""
+      },
+      {
+        "session": "19",
+        "topic": "Chapter 4. High-Level Database Models\n4.1 The Entity / Relationship Model",
+        "learning_teaching_type": "Offline",
+        "lo": "LO4",
+        "itu": "I, T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 4 in text book, focus on 4.1, 4.2 and 4.3",
+        "urls": ""
+      },
+      {
+        "session": "20",
+        "topic": "4.2 Design Principles\n4.3 Constraints in the E / R Model",
+        "learning_teaching_type": "Offline",
+        "lo": "LO4",
+        "itu": "I, T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 4 in text book, focus on 4.1, 4.2 and 4.3",
+        "urls": ""
+      },
+      {
+        "session": "21",
+        "topic": "4.4 Weak Entity Sets\n4.5 From E / R Diagrams to Relational Models",
+        "learning_teaching_type": "Offline",
+        "lo": "LO4",
+        "itu": "I, T, U",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 4 in text book, focus on 4.4, 4.5 and 4.6",
+        "urls": ""
+      },
+      {
+        "session": "22",
+        "topic": "4.6 Converting Subclass Structures to Relations",
+        "learning_teaching_type": "Offline",
+        "lo": "LO4",
+        "itu": "I, T, U",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 4 in text book, focus on 4.4, 4.5 and 4.6",
+        "urls": ""
+      },
+      {
+        "session": "23",
+        "topic": "Lab 3 assistance",
+        "learning_teaching_type": "Offline",
+        "lo": "LO4",
+        "itu": "U",
+        "student_materials": "Textbook, slides, lab's questions",
+        "s_download": "",
+        "student_tasks": "Do lab 3 as homework",
+        "urls": ""
+      },
+      {
+        "session": "24",
+        "topic": "Lab 3 assistance (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO4",
+        "itu": "U",
+        "student_materials": "Textbook, slides, lab's questions",
+        "s_download": "",
+        "student_tasks": "Do lab 3 as homework",
+        "urls": ""
+      },
+      {
+        "session": "25",
+        "topic": "Assignment assistance",
+        "learning_teaching_type": "Offline",
+        "lo": "LO1, LO2, LO3, LO4",
+        "itu": "U",
+        "student_materials": "Textbook, slides,assignment's questions",
+        "s_download": "",
+        "student_tasks": "Do assignment as homework",
+        "urls": ""
+      },
+      {
+        "session": "26",
+        "topic": "Assignment assistance (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO1, LO2, LO3, LO4",
+        "itu": "U",
+        "student_materials": "Textbook, slides,assignment's questions",
+        "s_download": "",
+        "student_tasks": "Do assignment as homework",
+        "urls": ""
+      },
+      {
+        "session": "27",
+        "topic": "Chapter 6. The Database Language SQL\n6.1 Data Definition Lanaguage (DDL)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO5",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 6 in text book, focus on 6.1 and 6.2",
+        "urls": ""
+      },
+      {
+        "session": "28",
+        "topic": "DDL (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO5",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 6 in text book, focus on 6.1 and 6.2",
+        "urls": ""
+      },
+      {
+        "session": "29",
+        "topic": "6.2. Implement constraints on attributes with MS SQL Server (Keys and Foreign Keys, UNIQUE, CHECK,..)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO5",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 7 in text book, focus on 7.1 and 7.2",
+        "urls": ""
+      },
+      {
+        "session": "30",
+        "topic": "6.2. Implement constraints on attributes with MS SQL Server (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO5",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 7 in text book, focus on 7.1 and 7.2",
+        "urls": ""
+      },
+      {
+        "session": "31",
+        "topic": "6.3 DML introduction & Basic of SQL Queries",
+        "learning_teaching_type": "Offline",
+        "lo": "LO5",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 6 in text book",
+        "urls": ""
+      },
+      {
+        "session": "32",
+        "topic": "DML (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO5",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 6 in text book",
+        "urls": ""
+      },
+      {
+        "session": "33",
+        "topic": "6.4 Query on more one relation",
+        "learning_teaching_type": "Offline",
+        "lo": "LO5",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 6 in text book",
+        "urls": ""
+      },
+      {
+        "session": "34",
+        "topic": "6.4 Query on more one relation (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO5",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 6 in text book",
+        "urls": ""
+      },
+      {
+        "session": "35",
+        "topic": "6.5 Nested Queries in SQL",
+        "learning_teaching_type": "Offline",
+        "lo": "LO5",
+        "itu": "T,U",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 6 in text book",
+        "urls": ""
+      },
+      {
+        "session": "36",
+        "topic": "6.5 Nested Queries in SQL (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO5",
+        "itu": "T,U",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 6 in text book",
+        "urls": ""
+      },
+      {
+        "session": "37",
+        "topic": "6.6 Aggregation Queries in SQL",
+        "learning_teaching_type": "Offline",
+        "lo": "LO5",
+        "itu": "T,U",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 6 in text book",
+        "urls": ""
+      },
+      {
+        "session": "38",
+        "topic": "6.6 Aggregation Queries in SQL (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO5",
+        "itu": "T,U",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 6 in text book",
+        "urls": ""
+      },
+      {
+        "session": "39",
+        "topic": "6.7 Database Modifications (INSERT, UPDATE statement)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO5",
+        "itu": "T,U",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 6 in text book",
+        "urls": ""
+      },
+      {
+        "session": "40",
+        "topic": "6.7 Database Modifications (cont. DELETE statement)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO5",
+        "itu": "T,U",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 6 in text book",
+        "urls": ""
+      },
+      {
+        "session": "41",
+        "topic": "Chapter 7. Practical Issues of database application\n7.1. Index",
+        "learning_teaching_type": "Offline",
+        "lo": "LO7",
+        "itu": "I,T, U",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 6 in text book",
+        "urls": ""
+      },
+      {
+        "session": "42",
+        "topic": "Index (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO7",
+        "itu": "I,T, U",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 6 in text book",
+        "urls": ""
+      },
+      {
+        "session": "43",
+        "topic": "7.2. Transaction, View and Query Optimization",
+        "learning_teaching_type": "Offline",
+        "lo": "LO6, LO7",
+        "itu": "I,T, U",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 6 in text book",
+        "urls": ""
+      },
+      {
+        "session": "44",
+        "topic": "7.2. Transaction, View and Query Optimization (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO6, LO7",
+        "itu": "I,T, U",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 6 in text book",
+        "urls": ""
+      },
+      {
+        "session": "45",
+        "topic": "Lab 4 assistance",
+        "learning_teaching_type": "Offline",
+        "lo": "LO5, LO6, LO7",
+        "itu": "U",
+        "student_materials": "Textbook, slides, lab's questions",
+        "s_download": "",
+        "student_tasks": "Do lab 4 as homework",
+        "urls": ""
+      },
+      {
+        "session": "46",
+        "topic": "Lab 4 assistance (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO5, LO6, LO7",
+        "itu": "U",
+        "student_materials": "Textbook, slides, lab's questions",
+        "s_download": "",
+        "student_tasks": "Do lab 4 as homework",
+        "urls": ""
+      },
+      {
+        "session": "47",
+        "topic": "Assignment assistance (focus on query)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO1, LO2, LO3, LO4, LO5, LO7",
+        "itu": "U",
+        "student_materials": "'Textbook, slides,assignment's questions",
+        "s_download": "",
+        "student_tasks": "Do assignment as homework",
+        "urls": ""
+      },
+      {
+        "session": "48",
+        "topic": "Assignment assistance (focus on query) (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO1, LO2, LO3, LO4, LO5, LO7",
+        "itu": "U",
+        "student_materials": "'Textbook, slides,assignment's questions",
+        "s_download": "",
+        "student_tasks": "Do assignment as homework",
+        "urls": ""
+      },
+      {
+        "session": "49",
+        "topic": "Chapter 8. Constraints and T-SQL Programming\n8.1 Triggers",
+        "learning_teaching_type": "Offline",
+        "lo": "LO6",
+        "itu": "T,U",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 7 in text book, focus on 7.5",
+        "urls": ""
+      },
+      {
+        "session": "50",
+        "topic": "8.2 Constraint with triggers",
+        "learning_teaching_type": "Offline",
+        "lo": "LO6",
+        "itu": "T,U",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 7 in text book, focus on 7.5",
+        "urls": ""
+      },
+      {
+        "session": "51",
+        "topic": "8.3 View, Function",
+        "learning_teaching_type": "Offline",
+        "lo": "LO6",
+        "itu": "T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 7 in text book",
+        "urls": ""
+      },
+      {
+        "session": "52",
+        "topic": "8.3 View, Function (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO6",
+        "itu": "T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 7 in text book",
+        "urls": ""
+      },
+      {
+        "session": "53",
+        "topic": "8.4 Cursors",
+        "learning_teaching_type": "Offline",
+        "lo": "LO6",
+        "itu": "T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 9 in text book",
+        "urls": ""
+      },
+      {
+        "session": "54",
+        "topic": "8.5 Implement stored procedure with MS SQL Server",
+        "learning_teaching_type": "Offline",
+        "lo": "LO6",
+        "itu": "T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Read chapter 9 in text book",
+        "urls": ""
+      },
+      {
+        "session": "55",
+        "topic": "Progress test 2\nLab 5 assistance",
+        "learning_teaching_type": "Offline",
+        "lo": "LO4, LO5, LO6, LO7",
+        "itu": "U",
+        "student_materials": "Textbook, slides, lab's questions",
+        "s_download": "",
+        "student_tasks": "Do lab 5 as homework",
+        "urls": ""
+      },
+      {
+        "session": "56",
+        "topic": "Lab 5 assistance (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO4, LO5, LO6, LO7",
+        "itu": "U",
+        "student_materials": "Textbook, slides, lab's questions",
+        "s_download": "",
+        "student_tasks": "Do lab 5 as homework",
+        "urls": ""
+      },
+      {
+        "session": "57",
+        "topic": "Assignment review",
+        "learning_teaching_type": "Offline",
+        "lo": "LO1, LO2, LO3, LO4, LO5, LO6, LO7",
+        "itu": "U",
+        "student_materials": "'Textbook, slides,assignment's questions",
+        "s_download": "",
+        "student_tasks": "Do assignment as homework",
+        "urls": ""
+      },
+      {
+        "session": "58",
+        "topic": "Assignment review (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "LO1, LO2, LO3, LO4, LO5, LO6, LO7",
+        "itu": "U",
+        "student_materials": "'Textbook, slides,assignment's questions",
+        "s_download": "",
+        "student_tasks": "Do assignment as homework",
+        "urls": ""
+      },
+      {
+        "session": "59",
+        "topic": "Review",
+        "learning_teaching_type": "Offline",
+        "lo": "All LOs",
+        "itu": "",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "",
+        "urls": ""
+      },
+      {
+        "session": "60",
+        "topic": "Review",
+        "learning_teaching_type": "Offline",
+        "lo": "All LOs",
+        "itu": "",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "",
+        "urls": ""
+      }
+    ],
+    "assessments": [
+      {
+        "no": "1",
+        "category": "Assignment",
+        "type": "on-going",
+        "part": "1",
+        "weight": "20.0%",
+        "completion_criteria": ">0",
+        "duration": "28 slots",
+        "clo": "",
+        "question_type": "",
+        "no_question": "N/A",
+        "knowledge_and_skill": "All subjects in syllabus",
+        "grading_guide": "in class, by teacher",
+        "note": ""
+      },
+      {
+        "no": "2",
+        "category": "Lab",
+        "type": "on-going",
+        "part": "5",
+        "weight": "10.0%",
+        "completion_criteria": ">0",
+        "duration": "90'",
+        "clo": "",
+        "question_type": "",
+        "no_question": "N/A",
+        "knowledge_and_skill": "",
+        "grading_guide": "in class, by teacher",
+        "note": ""
+      },
+      {
+        "no": "3",
+        "category": "Practical Exam",
+        "type": "on-going",
+        "part": "1",
+        "weight": "30.0%",
+        "completion_criteria": ">0",
+        "duration": "85'",
+        "clo": "",
+        "question_type": "",
+        "no_question": "N/A",
+        "knowledge_and_skill": "",
+        "grading_guide": "By exam board",
+        "note": ""
+      },
+      {
+        "no": "4",
+        "category": "Progress test",
+        "type": "on-going",
+        "part": "2",
+        "weight": "10.0%",
+        "completion_criteria": ">0",
+        "duration": "30'",
+        "clo": "",
+        "question_type": "Multiple choices; Marked by Computer or a suitable format",
+        "no_question": "20",
+        "knowledge_and_skill": "",
+        "grading_guide": "in class, by LMS system",
+        "note": "Instruction and schedules for Progress Tests must be presented in the Course Implementation Plan approved by director of the campus.\nProgress test must be taken right after the last lectures of required material.\nInstructor has responsibility to review the test for students after graded.\nProgress test must be taken right after the last lectures of required material.\nInstructor has resposibility to review the test for students after graded."
+      },
+      {
+        "no": "5",
+        "category": "Final exam",
+        "type": "Final exam",
+        "part": "1",
+        "weight": "30.0%",
+        "completion_criteria": "4",
+        "duration": "60",
+        "clo": "",
+        "question_type": "",
+        "no_question": "50",
+        "knowledge_and_skill": "All subjects in syllabus",
+        "grading_guide": "Exam room",
+        "note": "The exam questions must be updated or different at least 70% to the previous ones."
+      }
+    ]
+  },
+  "source": {
+    "raw_file": "flm_output/subjects/DBI202.json",
+    "curriculum_url": "https://flm.fpt.edu.vn/gui/role/student/CurriculumDetails?curid=3173",
+    "pre_syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/Syllabuses?subCode=DBI202&curriculumID=3173",
+    "syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=12039",
+    "details_source_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=12039"
+  },
+  "crawl": {
+    "error": null
+  },
+  "quality": {
+    "has_syllabus": true,
+    "counts": {
+      "materials": 5,
+      "clos": 7,
+      "schedule": 60,
+      "assessments": 5
+    },
+    "warnings": []
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "review_type": "academic_knowledge_review",
+  "overview": "Hồ sơ học thuật của sinh viên thể hiện nền tảng vững chắc về khoa học máy tính, lập trình Python, xử lý dữ liệu, AI/ML, cơ sở dữ liệu và các kỹ năng phân tích dữ liệu. Các học phần liên quan cung cấp kiến thức về lập trình Python (bao gồm pandas/numpy), thao tác dữ liệu với SQL, hiểu biết về AI/ML, các khái niệm về API, JSON/CSV, cũng như các kỹ năng xây dựng và triển khai quy trình AI. Tuy nhiên, một số yêu cầu chuyên biệt về LLM (Large Language Model), RAG/vector search, agent frameworks, MCP, BigQuery/Snowflake và kinh nghiệm thực tế với LLM-API prototype chưa được xác nhận trực tiếp qua các CLO học thuật.",
+  "requirement_reviews": [
+    {
+      "jd_requirement": "Build data/API integration tools and guided AI workflows for product/marketing",
+      "coverage": "related",
+      "comment": "Các CLO trong ADY201m (CLO3, CLO7) và DAP391m (CLO1, CLO7) đề cập đến việc sử dụng Python, thao tác dữ liệu, truy cập cơ sở dữ liệu, thực hiện dự án nhỏ về khoa học dữ liệu, bao gồm tích hợp dữ liệu từ nhiều nguồn (SQL, API). Tuy nhiên, CLO chỉ mô tả yêu cầu học tập về thao tác dữ liệu và tích hợp API ở mức cơ bản hoặc trong phạm vi dự án hướng dẫn, chưa xác nhận xây dựng công cụ tích hợp API chuyên sâu cho sản phẩm/marketing thực tế.",
+      "evidence": [
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO7"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Design/test prompts, evaluation cases and a versioned prompt library",
+      "coverage": "related",
+      "comment": "AIG202c (CLO4) cung cấp kiến thức về prompt engineering cho Generative AI, bao gồm các kỹ thuật và phương pháp xây dựng prompt. Tuy nhiên, CLO này chỉ đề cập đến việc khám phá công cụ và kỹ thuật prompt engineering, chưa xác nhận thiết kế/thử nghiệm prompt, xây dựng bộ test hoặc quản lý thư viện prompt có version hóa như yêu cầu thực tế.",
+      "evidence": [
+        {
+          "course_code": "AIG202c",
+          "clo": "CLO4"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Create tool-calling/MCP agents and integrations with communication/business services",
+      "coverage": "not_evidenced",
+      "comment": "Hồ sơ học thuật hiện có chưa cung cấp bằng chứng trực tiếp về việc xây dựng agent frameworks, MCP (Multi-Channel Platform) hoặc tích hợp với các dịch vụ giao tiếp/doanh nghiệp. Không có CLO nào đề cập đến agent frameworks, MCP hoặc các tích hợp chuyên biệt này.",
+      "evidence": []
+    },
+    {
+      "jd_requirement": "Python with pandas/numpy",
+      "coverage": "covered",
+      "comment": "ADY201m (CLO5, CLO7) và DAP391m (CLO1, CLO7) đều yêu cầu sử dụng Python cho thao tác dữ liệu, phân tích dữ liệu, và thực hiện dự án khoa học dữ liệu, bao gồm sử dụng các thư viện phổ biến như pandas/numpy. Thành tích học thuật ở mức excellent/good phản ánh kết quả học tập tốt đối với các CLO này.",
+      "evidence": [
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO7"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "APIs, JSON/CSV and AI SDKs",
+      "coverage": "related",
+      "comment": "ADY201m (CLO3, CLO5) và DAP391m (CLO1, CLO6) đề cập đến thao tác dữ liệu với Python, sử dụng API, thao tác với dữ liệu định dạng JSON/CSV, và xây dựng ứng dụng AI sử dụng các dịch vụ như Watson API. Tuy nhiên, CLO không xác nhận rõ ràng về kinh nghiệm với AI SDKs ngoài Watson hoặc các API chuyên biệt cho LLM.",
+      "evidence": [
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO6"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Analytical SQL and data-warehouse concepts",
+      "coverage": "related",
+      "comment": "DBI202 (CLO5, CLO6, CLO7) cung cấp kiến thức về SQL (DDL, DML, T-SQL, index, query optimization) ở mức basic. ADY201m (CLO1, CLO7) bổ sung kỹ năng truy cập cơ sở dữ liệu và thực hiện phân tích dữ liệu với SQL trong dự án nhỏ. Tuy nhiên, các CLO này chủ yếu tập trung vào SQL cơ bản và thao tác trên hệ quản trị truyền thống, chưa xác nhận kiến thức chuyên sâu về data warehouse hoặc các hệ thống như BigQuery/Snowflake.",
+      "evidence": [
+        {
+          "course_code": "DBI202",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "DBI202",
+          "clo": "CLO6"
+        },
+        {
+          "course_code": "DBI202",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO7"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "LLM concepts including tokens, context, temperature and function calling",
+      "coverage": "not_evidenced",
+      "comment": "Không có CLO nào trong hồ sơ học thuật đề cập trực tiếp đến các khái niệm chuyên sâu về LLM như tokens, context window, temperature, function calling hoặc các API LLM hiện đại.",
+      "evidence": []
+    },
+    {
+      "jd_requirement": "Applied prompting/structured JSON/XML outputs",
+      "coverage": "related",
+      "comment": "AIG202c (CLO4) cung cấp kiến thức về prompt engineering cho Generative AI, bao gồm các kỹ thuật xây dựng prompt. Tuy nhiên, CLO này không xác nhận rõ ràng về thực hành xuất dữ liệu có cấu trúc (structured JSON/XML) từ LLM hoặc các workflow áp dụng prompt thực tế.",
+      "evidence": [
+        {
+          "course_code": "AIG202c",
+          "clo": "CLO4"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "A prior LLM-API prototype",
+      "coverage": "not_evidenced",
+      "comment": "Hồ sơ học thuật hiện có chưa cung cấp bằng chứng về việc sinh viên từng xây dựng prototype sử dụng LLM-API. Không có CLO nào xác nhận thực hiện dự án hoặc sản phẩm với LLM-API.",
+      "evidence": []
+    },
+    {
+      "jd_requirement": "Basic Git operations",
+      "coverage": "not_evidenced",
+      "comment": "Không có CLO nào trong hồ sơ học thuật đề cập đến việc sử dụng Git hoặc các thao tác quản lý mã nguồn.",
+      "evidence": []
+    },
+    {
+      "jd_requirement": "Preferred: RAG/vector search, agent frameworks or MCP; BigQuery/Snowflake and report automation; gaming interest",
+      "coverage": "not_evidenced",
+      "comment": "Không có CLO nào xác nhận kiến thức về RAG (Retrieval-Augmented Generation), vector search, agent frameworks, MCP, BigQuery, Snowflake, report automation hoặc sở thích về game.",
+      "evidence": []
+    }
+  ],
+  "conclusion": "Hồ sơ học thuật của sinh viên thể hiện nền tảng vững chắc về lập trình Python, thao tác dữ liệu với pandas/numpy, SQL cơ bản, phân tích dữ liệu, AI/ML, và một số kiến thức về prompt engineering cho Generative AI. Các CLO liên quan phản ánh kết quả học tập tốt đến xuất sắc ở các nội dung này. Tuy nhiên, hồ sơ chưa cung cấp bằng chứng học thuật trực tiếp về các khái niệm chuyên sâu về LLM (tokens, context, temperature, function calling), kinh nghiệm với LLM-API prototype, Git, RAG/vector search, agent frameworks, MCP, BigQuery/Snowflake hoặc các tích hợp chuyên biệt với dịch vụ doanh nghiệp. Một số yêu cầu về prompt engineering và thao tác API chỉ được xác nhận ở mức liên quan, chưa đầy đủ theo phạm vi thực tế của JD. Hồ sơ học thuật hiện tại phù hợp với các nội dung nền tảng về khoa học dữ liệu và AI, nhưng chưa xác nhận các kỹ năng chuyên sâu hoặc kinh nghiệm thực tế với các công nghệ AI hiện đại và hệ thống doanh nghiệp."
+}

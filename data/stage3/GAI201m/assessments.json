@@ -1,0 +1,38 @@
+[
+  {
+    "category": "Final Project - Final report & Group presentation",
+    "part": "2",
+    "weight": "30.0%",
+    "clo": "CLO3, CLO4, CLO5"
+  },
+  {
+    "category": "Lab 1: Prompting and Evaluation",
+    "part": "1",
+    "weight": "5.0%",
+    "clo": "CLO2, CLO4"
+  },
+  {
+    "category": "Lab 2: Building and Customizing a GenAI Application",
+    "part": "2",
+    "weight": "5.0%",
+    "clo": "CLO3, CLO4"
+  },
+  {
+    "category": "Progress Test",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO1, CLO2, CLO4"
+  },
+  {
+    "category": "Project proposal",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO3, CLO4, CLO5"
+  },
+  {
+    "category": "Final Exam",
+    "part": "1",
+    "weight": "40.0%",
+    "clo": "CLO1, CLO2, CLO3, CLO4, CLO5"
+  }
+]

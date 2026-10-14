@@ -1,0 +1,22 @@
+[
+  {
+    "clo_name": "CLO1",
+    "clo_details": "Distinguish the major generative-AI model families and implement tokenization and PyTorch data pipelines."
+  },
+  {
+    "clo_name": "CLO2",
+    "clo_details": "Build NLP systems using foundational language-modelling techniques"
+  },
+  {
+    "clo_name": "CLO3",
+    "clo_details": "Apply transformer LLMs to generation, classification, translation, and understanding tasks."
+  },
+  {
+    "clo_name": "CLO4",
+    "clo_details": "Adapt LLMs for domain tasks using PEFT, instruction tuning, and alignment"
+  },
+  {
+    "clo_name": "CLO5",
+    "clo_details": "Design, build, and deploy production LLM applications using RAG, vector stores, and agent patterns."
+  }
+]

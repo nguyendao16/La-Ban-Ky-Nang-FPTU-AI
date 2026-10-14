@@ -1,0 +1,32 @@
+[
+  {
+    "category": "Constructivism Presentation",
+    "part": "1",
+    "weight": "15.0%",
+    "clo": "CLO1, CLO2, CLO3, CLO4, CLO5"
+  },
+  {
+    "category": "Group Assignm ent 1 (Checkp oint 1)",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO1, CLO2,"
+  },
+  {
+    "category": "Group Assignm ent 2 (Checkp oint 2)",
+    "part": "1",
+    "weight": "20.0%",
+    "clo": "CLO3"
+  },
+  {
+    "category": "Group Assignm ent 3 (Checkp oint 3)",
+    "part": "1",
+    "weight": "15.0%",
+    "clo": "CLO4"
+  },
+  {
+    "category": "Presentation (Checkp oint 4)",
+    "part": "1",
+    "weight": "40.0%",
+    "clo": "CLO5"
+  }
+]

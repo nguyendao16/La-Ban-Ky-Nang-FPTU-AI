@@ -1,0 +1,428 @@
+{
+  "version": 1,
+  "purpose": "diagnostic_only_no_production_change",
+  "live_authorization": "required_after_offline_review",
+  "model": "gpt-5.4-mini-2026-03-17",
+  "reasoning_effort": "medium",
+  "max_output_tokens": 8192,
+  "timeout_seconds": 180.0,
+  "temperature_sent": false,
+  "store": false,
+  "truncation": "disabled",
+  "max_retries": 0,
+  "context_window": 400000,
+  "budgets": {
+    "max_generations": 32,
+    "max_preflights": 32,
+    "max_http_operations": 64,
+    "max_cost_usd": "3.00"
+  },
+  "planning_input_tokens": 64000,
+  "planning_input_is_not_a_truncation_cap": true,
+  "planning_uncached_cost_ceiling_usd": "2.715648",
+  "prices_per_million_usd": {
+    "input": ".75",
+    "cached_input": ".075",
+    "output": "4.5"
+  },
+  "pricing_source": "https://developers.openai.com/api/docs/models/gpt-5.4-mini",
+  "pricing_checked_at": "2026-10-13",
+  "reverify_official_pricing_before_authorized_live": true,
+  "artifacts": {
+    "annotation_protocol.json": "942e3acd889d8d4dccce04b8e323dc75bd22e03f6c82aeab31a0c8ed1dea1b6b",
+    "scenarios.json": "8310cc85875350d230d49fe397a68b78f834d708a39dc53d801af8dd913dfb94",
+    "expected_evidence.json": "1f7a0966fd350567a265e6ba04751b52013da86f2910cbd55b571ea7dd3e1cf6",
+    "histories.json": "8140b8b211298320e2e70531518a0aca3f7f56c6c669fe912a3b4bdc8d150176",
+    "conditions.json": "3a4edf4a64445588c2d4abb88ef58f1eb00ee6fb6d4ae82814b6a52cf9230ec3",
+    "forensic_findings.json": "e3b7568ddeeeb6691d02af22654fbff9cc8fff059c88ee3aa676524795f4e23d",
+    "schemas.json": "06f0ec0f24f1909c58120b46a1f267f0c7fd3ea0d2ce43d8be9065c2ecc893d0"
+  },
+  "sources": {
+    "data/academic_benchmark/evaluations/internship-20261013/manual_assessments.json": "b08fe6ef831fd6c4756ffb2f8433cff363b82f49a731edb636eefbd5db4ad301",
+    "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD12-3.json": "d202ce73f6af7acbb0b079a595b4d626c723b97b1161efdff33cc9f56f8cea78",
+    "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD14-1.json": "40d249ec1ad6244b93897de29838e753aef92b62264cc9d4514b65b773e99803",
+    "data/academic_benchmark/evaluations/internship-20261013/requests/review-JD01.json": "d4c8edee19bf2534fab486a7c2d39198f067c62f866d40641254add12fb49ce3",
+    "data/academic_benchmark/evaluations/internship-20261013/requests/review-JD03.json": "12072bb900cfe3cda7c6d19e7cff6a733d55ea82d71529a2fb26231610d9cddb",
+    "data/academic_benchmark/evaluations/internship-20261013/requests/review-JD05.json": "638858e59348f659c53b63d142300a8384966a81791a4c1fa80432e0beea645a",
+    "data/academic_benchmark/evaluations/internship-20261013/requests/review-JD07.json": "c59c0b0fba6b5add7e1908ed3ae3fae76fd411e5b3c6109db9d8cf668c75124c",
+    "data/academic_benchmark/evaluations/internship-20261013/requests/review-JD10.json": "3e53e35d7f494ddd5cf5161ab6b10ecdc316c769c5a910ceb69042a874cd318b",
+    "data/academic_benchmark/evaluations/internship-20261013/requests/review-JD12.json": "507dfc982b42599b34abf7fdce3ff7ee8d39e86bbacc547ea27382c71f82c403",
+    "data/academic_benchmark/evaluations/metadata-models-20261013/manual_assessments.json": "943fac1ceae1f1a2fc3f8b4d944017cb05f37db6af4b40a87d4f3de9d6d01023",
+    "data/academic_benchmark/evaluations/metadata-models-20261013/requests/chat-JD11-gpt41.json": "01f8d3eb11126707ae0ba5a626ed1cd7cdc781e59d48910d03f288d396c3da18",
+    "data/academic_benchmark/evaluations/metadata-models-20261013/requests/review-JD01-legacy-gpt41.json": "27eb3e9832eb8392b6cd35aa5a4d688e7b1a5e0076ca088d3bcf4654163449a4",
+    "data/academic_benchmark/evaluations/reasoning-five-jds-20261013/manual_assessments.json": "9bb71b37d9dcc3fe82ffb06b7aaeaf9a30568ba615c5b5307271bd3443f4c4d1",
+    "data/academic_benchmark/evaluations/reasoning-five-jds-20261013/requests/chat-JD01-3.json": "7ae0cc09c4f9ef76ff45feec4a2ab13a6e76539531a50bb25e0da43c14a423ca",
+    "data/academic_benchmark/evaluations/reasoning-five-jds-20261013/requests/chat-JD05-1.json": "fbda0db4b9a377f2123d6ce3fb6dbae507d667720637ed45a25d837b2522762b",
+    "data/academic_benchmark/evaluations/reasoning-five-jds-20261013/requests/chat-JD05-2.json": "8ff3ec65cd29d6fa7382ce0b89a44ad3647bad6de56d9d794612f4faca1f2372",
+    "data/academic_benchmark/evaluations/reasoning-five-jds-20261013/requests/chat-JD10-1.json": "4502df993dde2d8f4c98b33034d01cf3c61b985e2bc4d0aea60f56092809e230",
+    "data/academic_benchmark/evaluations/reasoning-five-jds-20261013/requests/chat-JD10-4.json": "ef13d727ad1ba2b0bb54ff8a1602ca1f555edfd2a7fd02ecdc7a0c08af9f51d9",
+    "data/academic_benchmark/evaluations/reasoning-five-jds-20261013/requests/chat-JD11-1.json": "ead7858679a38c510712ed983e32b62bd6fec771415ede39554094438d4dfb54",
+    "data/academic_benchmark/evaluations/reasoning-five-jds-20261013/requests/chat-JD11-3.json": "9a2308b8935cbd3d250f0bed34d37846389c4cb877518541a76117b1fae1771e",
+    "data/academic_benchmark/evaluations/rubric.json": "f62c48bba6ed0e2cb3cf5bff46c32b097e22becd9b1531c52ef1ac7b040efa4f",
+    "data/academic_benchmark/initial_reviews/reasoning-five-jds-20261013/JD01.json": "5fdc6ced97ae287c225ba0428295a0b3087ef1d067f695c786b69c7bb23a3253",
+    "data/academic_benchmark/initial_reviews/reasoning-five-jds-20261013/JD05.json": "25970c23c61907db3e82d65a72ef800926e04433c6aa0c58db5e2b4c1a3c2df8",
+    "data/academic_benchmark/initial_reviews/reasoning-five-jds-20261013/JD11.json": "5cc99d6825e3dc4818c0554ba037b0db2bb2f1923ffb204695ce6b6aec8bb862",
+    "data/academic_benchmark/jds/JD01.txt": "0caa2a9237c9ba797c98ca6888118333aed23f4a06f32946ab392b9feded2a1d",
+    "data/academic_benchmark/jds/JD05.txt": "318609c7106c3e08ba47ed31a8304cdee358fcf38adbb69b58877fc942e556f8",
+    "data/academic_benchmark/jds/JD11.txt": "126514f3dfe7101147c1aeca66e34a46f1dd5f4fdba758e43c5fa171e1d4a4f9",
+    "data/academic_benchmark/manifest.json": "fe16a0ea60a8a44eb8a24d2164504f0a80ab6f1ac33b295861da2f7ada2c2f0d",
+    "data/student_academic_profile.enriched.json": "b0bfa72fdc04f8d2cfc94e68fd7b4745387cd378a923f55eb94e2aef391bf531",
+    "docs/academic_benchmark_evaluation.md": "c577184125d0cb31ac6e42956f72f8e989590bfdd3266c254d05084813492e88",
+    "docs/academic_metadata_models_evaluation.md": "a3735f8af536f945c2f8f1ec958091e6362b5636b396802a11d226d222caf63d",
+    "docs/academic_reasoning_five_jds_evaluation.md": "c09dc87eda9b37552c0c09e5740a2d2200e8886c167b33fe8632831b2688a635",
+    "research/diagnostics/academic_grounding_rca.py": "d4c5bb40289063ccfbedf0eae3cbb860058b1bcdb5e4043fe09a26970fd59d47",
+    "research/diagnostics/rca_fixtures.py": "cf2f8edad6c555033c2f335b722a638cd2264385c61798ff7aac20be11ae3c4f",
+    "research/diagnostics/rca_forensics.py": "8101a33113e161ab5cfa3bf4f62d7ce0ba3f637867bba24e7b03958a51c1b700",
+    "scripts/academic_chat.py": "368a2515ccbe31d9366ec7ccbfe1c3ee3540d7ede494e9519b2e23974f80e2e0",
+    "scripts/academic_chat_prompt.py": "66fa34a17dcf8163b68a1f4008983c2524c9ad40dd89a053ab1e322d4cfb99f5",
+    "scripts/academic_metadata_prompt.py": "f5b766c1ee51ae1b94bb0ccdd5acc09d209d747614c8f69ca2f8d489c74922c3",
+    "scripts/academic_model_comparison.py": "fcb129833513b9ab2d7dbeca8cf89bb8de850d1547475dd2bb06710fbc0e3871",
+    "scripts/academic_review.py": "e6c5a1319e03b0a2394466d371442b9d172a53cb660e4b3fb26f095162e3b5a5",
+    "scripts/academic_review_prompt.py": "75f7b0ad2cd1ace39e7ebadb2a7e530921153b8a65b55b7cc563851452da716f",
+    "scripts/evaluate_academic_benchmark.py": "e621f451e07e967862392150572f34279e37086cc011b9537a25ef99854568a3",
+    "scripts/openai_model_config.py": "2d04847a38b4372aebe5ab4a8ded2fccfb934c69947658f0d40448e06cc0a5a6"
+  },
+  "operations": [
+    {
+      "operation": "AB-S1",
+      "family": "A/B",
+      "scenario_ids": [
+        "S1"
+      ],
+      "schema": "identification",
+      "context_condition": "candidate_courses_only",
+      "holdout": false
+    },
+    {
+      "operation": "AB-S2",
+      "family": "A/B",
+      "scenario_ids": [
+        "S2"
+      ],
+      "schema": "identification",
+      "context_condition": "candidate_courses_only",
+      "holdout": false
+    },
+    {
+      "operation": "AB-S3",
+      "family": "A/B",
+      "scenario_ids": [
+        "S3"
+      ],
+      "schema": "identification",
+      "context_condition": "candidate_courses_only",
+      "holdout": false
+    },
+    {
+      "operation": "AB-S4",
+      "family": "A/B",
+      "scenario_ids": [
+        "S4"
+      ],
+      "schema": "identification",
+      "context_condition": "candidate_courses_only",
+      "holdout": false
+    },
+    {
+      "operation": "AB-S5",
+      "family": "A/B",
+      "scenario_ids": [
+        "S5"
+      ],
+      "schema": "identification",
+      "context_condition": "candidate_courses_only",
+      "holdout": false
+    },
+    {
+      "operation": "AB-S6",
+      "family": "A/B",
+      "scenario_ids": [
+        "S6"
+      ],
+      "schema": "identification",
+      "context_condition": "candidate_courses_only",
+      "holdout": false
+    },
+    {
+      "operation": "C1",
+      "family": "C",
+      "scenario_ids": [
+        "S1"
+      ],
+      "schema": "chat",
+      "context_condition": "C1",
+      "holdout": false
+    },
+    {
+      "operation": "C2",
+      "family": "C",
+      "scenario_ids": [
+        "S1"
+      ],
+      "schema": "chat",
+      "context_condition": "C2",
+      "holdout": false
+    },
+    {
+      "operation": "C3",
+      "family": "C",
+      "scenario_ids": [
+        "S1"
+      ],
+      "schema": "chat",
+      "context_condition": "C3",
+      "holdout": false
+    },
+    {
+      "operation": "C4",
+      "family": "C",
+      "scenario_ids": [
+        "S1"
+      ],
+      "schema": "chat",
+      "context_condition": "C4",
+      "holdout": false
+    },
+    {
+      "operation": "D-S1-D1",
+      "family": "D",
+      "scenario_ids": [
+        "S1"
+      ],
+      "schema": "chat",
+      "context_condition": "full_profile_jd_review_no_history",
+      "holdout": false
+    },
+    {
+      "operation": "D-S1-D2",
+      "family": "D",
+      "scenario_ids": [
+        "S1"
+      ],
+      "schema": "claim_level",
+      "context_condition": "full_profile_jd_review_no_history",
+      "holdout": false
+    },
+    {
+      "operation": "D-S6-D1",
+      "family": "D",
+      "scenario_ids": [
+        "S6"
+      ],
+      "schema": "chat",
+      "context_condition": "full_profile_jd_review_no_history",
+      "holdout": false
+    },
+    {
+      "operation": "D-S6-D2",
+      "family": "D",
+      "scenario_ids": [
+        "S6"
+      ],
+      "schema": "claim_level",
+      "context_condition": "full_profile_jd_review_no_history",
+      "holdout": false
+    },
+    {
+      "operation": "E1-clean",
+      "family": "E",
+      "scenario_ids": [
+        "S1",
+        "S5"
+      ],
+      "schema": "chat",
+      "context_condition": "E1-clean",
+      "holdout": false
+    },
+    {
+      "operation": "E1-clean-D2",
+      "family": "E-mapping",
+      "scenario_ids": [
+        "S1",
+        "S5"
+      ],
+      "schema": "claim_level",
+      "context_condition": "E1-clean",
+      "holdout": false
+    },
+    {
+      "operation": "E2-contaminated",
+      "family": "E",
+      "scenario_ids": [
+        "S1",
+        "S5"
+      ],
+      "schema": "chat",
+      "context_condition": "E2-contaminated",
+      "holdout": false
+    },
+    {
+      "operation": "E2-contaminated-D2",
+      "family": "E-mapping",
+      "scenario_ids": [
+        "S1",
+        "S5"
+      ],
+      "schema": "claim_level",
+      "context_condition": "E2-contaminated",
+      "holdout": false
+    },
+    {
+      "operation": "E3-same-course",
+      "family": "E",
+      "scenario_ids": [
+        "S1"
+      ],
+      "schema": "chat",
+      "context_condition": "E3-same-course",
+      "holdout": false
+    },
+    {
+      "operation": "E4-multiple-sources",
+      "family": "E",
+      "scenario_ids": [
+        "S4",
+        "S5"
+      ],
+      "schema": "chat",
+      "context_condition": "E4-multiple-sources",
+      "holdout": false
+    },
+    {
+      "operation": "C2-reversed",
+      "family": "ordering",
+      "scenario_ids": [
+        "S1"
+      ],
+      "schema": "chat",
+      "context_condition": "C2_reversed_clo_order",
+      "holdout": false
+    },
+    {
+      "operation": "C1-repeat",
+      "family": "repeat",
+      "scenario_ids": [
+        "S1"
+      ],
+      "schema": "chat",
+      "context_condition": "C1",
+      "holdout": false
+    },
+    {
+      "operation": "C4-repeat",
+      "family": "repeat",
+      "scenario_ids": [
+        "S1"
+      ],
+      "schema": "chat",
+      "context_condition": "C4",
+      "holdout": false
+    },
+    {
+      "operation": "E2-contaminated-repeat",
+      "family": "repeat",
+      "scenario_ids": [
+        "S1",
+        "S5"
+      ],
+      "schema": "chat",
+      "context_condition": "E2-contaminated",
+      "holdout": false
+    },
+    {
+      "operation": "D-S1-verified-mapping",
+      "family": "verified_mapping",
+      "scenario_ids": [
+        "S1"
+      ],
+      "schema": "chat",
+      "context_condition": "external_mapping_added",
+      "holdout": false
+    },
+    {
+      "operation": "AB-S7",
+      "family": "A/B",
+      "scenario_ids": [
+        "S7"
+      ],
+      "schema": "identification",
+      "context_condition": "candidate_courses_only",
+      "holdout": true
+    },
+    {
+      "operation": "AB-S8",
+      "family": "A/B",
+      "scenario_ids": [
+        "S8"
+      ],
+      "schema": "identification",
+      "context_condition": "candidate_courses_only",
+      "holdout": true
+    },
+    {
+      "operation": "D-S7-D1",
+      "family": "D",
+      "scenario_ids": [
+        "S7"
+      ],
+      "schema": "chat",
+      "context_condition": "full_profile_jd_review_no_history",
+      "holdout": true
+    },
+    {
+      "operation": "D-S7-D2",
+      "family": "D",
+      "scenario_ids": [
+        "S7"
+      ],
+      "schema": "claim_level",
+      "context_condition": "full_profile_jd_review_no_history",
+      "holdout": true
+    },
+    {
+      "operation": "D-S8-D1",
+      "family": "D",
+      "scenario_ids": [
+        "S8"
+      ],
+      "schema": "chat",
+      "context_condition": "full_profile_jd_review_no_history",
+      "holdout": true
+    },
+    {
+      "operation": "D-S8-D2",
+      "family": "D",
+      "scenario_ids": [
+        "S8"
+      ],
+      "schema": "claim_level",
+      "context_condition": "full_profile_jd_review_no_history",
+      "holdout": true
+    },
+    {
+      "operation": "E5-holdout",
+      "family": "E",
+      "scenario_ids": [
+        "S8"
+      ],
+      "schema": "chat",
+      "context_condition": "E5-holdout",
+      "holdout": true
+    }
+  ],
+  "holdouts": [
+    "S7",
+    "S8"
+  ],
+  "comparability_notes": [
+    "C uses the exact production prompt/schema, but replaces the historical question with an atomic question.",
+    "A/B changes task and schema, so contrast with Chat is not a schema-only causal comparison.",
+    "D/E share a diagnostic copy of the production prompt with only the output contract changed; D2 also changes output order and size.",
+    "E1 versus E2 changes one attribution in reply and corresponding reference; other E histories are distinct scenarios, not causal ablations.",
+    "Ordering is one exploratory check. Three predetermined repeats yield only two observations per repeated condition.",
+    "External verified mapping is an intervention, not evidence of hidden model selection.",
+    "No diagnostic output becomes another condition's history; synthetic histories are isolated from production sessions."
+  ],
+  "production_chat_prompt_sha256": "e897551924e282c1a03e7420ea80e8d1d220729cd5bf43d669b88b0aa685a898",
+  "production_chat_schema_sha256": "2f8ad0eed0ab8adf0537afd2533a45a96c99b873871d933cd1c3c5fe386831de"
+}

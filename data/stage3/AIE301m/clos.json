@@ -1,0 +1,38 @@
+[
+  {
+    "clo_name": "CLO1",
+    "clo_details": "Understand the fundamentals of trading."
+  },
+  {
+    "clo_name": "CLO2",
+    "clo_details": "Define quantitative trading and the main types of quantitative trading strategies."
+  },
+  {
+    "clo_name": "CLO3",
+    "clo_details": "Basic steps in exchange arbitrage, statistical arbitrage, index arbitrage and the application of machine learning to financial use cases."
+  },
+  {
+    "clo_name": "CLO4",
+    "clo_details": "Design basic quantitative trading strategies."
+  },
+  {
+    "clo_name": "CLO5",
+    "clo_details": "Use Keras and Tensorflow to build machine learning models."
+  },
+  {
+    "clo_name": "CLO6",
+    "clo_details": "Build a pair trading strategy prediction model, a momentum-based trading model, and back test them."
+  },
+  {
+    "clo_name": "CLO7",
+    "clo_details": "Understand the structure and techniques used in reinforcement learning (RL) strategies."
+  },
+  {
+    "clo_name": "CLO8",
+    "clo_details": "Understand the benefits of using RL vs. other learning methods."
+  },
+  {
+    "clo_name": "CLO9",
+    "clo_details": "Describe the steps required to develop, test, and optimize an RL trading strategy."
+  }
+]

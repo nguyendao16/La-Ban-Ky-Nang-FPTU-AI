@@ -1,0 +1,21 @@
+{
+  "reply": "CSI106 cho bạn 2 nền tảng học thuật khá rõ ở đúng hai mảng này:\n\n1. **Biểu diễn dữ liệu**  \n- Ở **CSI106/CLO2**, môn này yêu cầu bạn **“know how to convert a number from one base to other base”** với decimal, binary, octal, hexadecimal. Đây là nền tảng trực tiếp về **number representation / base conversion**.  \n- Ở **CSI106/CLO3**, CLO yêu cầu bạn **“describe how different data type is stored inside a computer as bit patterns and operations on data”**. Nghĩa là môn này còn cho bạn nền tảng về **cách dữ liệu được mã hoá ở mức bit pattern** và các phép toán trên dữ liệu.  \n- Trong mô tả môn học, CSI106 cũng nêu rõ phạm vi có **“Numbering system & data representation”**, nên phần này là nội dung curriculum được xác nhận, không chỉ là suy đoán từ tên môn.\n\n2. **Mạng máy tính**  \n- Ở **CSI106/CLO4**, bạn học **“describe the layers in networking and their relationship”**, tức là nắm được **mô hình lớp mạng** và cách các lớp liên hệ với nhau.  \n- Mô tả môn học cũng xác nhận môn bao gồm **“the concepts of computer networking and internet”**. Vậy đây là nền tảng học thuật về networking ở mức tổng quan, không phải một môn chuyên sâu về backend hay hạ tầng mạng.\n\n**Liên quan thế nào tới Backend Engineering trong JD này?**  \n- Phần **biểu diễn dữ liệu** giúp bạn hiểu dữ liệu đi qua hệ thống backend ở mức nền tảng: số liệu, kiểu dữ liệu, cách máy tính lưu trữ dữ liệu dưới dạng bit pattern. Điều này hỗ trợ tư duy khi làm việc với request/response payload, lưu trữ dữ liệu, và xử lý dữ liệu trong hệ thống.  \n- Phần **mạng máy tính** liên quan trực tiếp hơn tới backend vì backend services vận hành qua các lớp mạng và giao tiếp qua internet. Hiểu **network layers** và quan hệ giữa chúng giúp bạn đọc và suy luận tốt hơn về luồng giao tiếp giữa client, API service, và các thành phần hệ thống.\n\n**Điểm cần phân biệt trong hồ sơ này**  \n- CSI106 cho thấy **nền tảng học thuật về data representation và networking**.  \n- Nhưng riêng môn này **chưa xác nhận trực tiếp** các yêu cầu backend cụ thể trong JD như **FastAPI, SQLAlchemy, REST API design, event-driven systems, queues/caching, hay cloud deployment**. Những phần đó cần bằng chứng CLO riêng nếu muốn khẳng định ở mức học thuật đã học trực tiếp.",
+  "evidence": [
+    {
+      "course_code": "CSI106",
+      "clo": "CLO2"
+    },
+    {
+      "course_code": "CSI106",
+      "clo": "CLO3"
+    },
+    {
+      "course_code": "CSI106",
+      "clo": "CLO4"
+    },
+    {
+      "course_code": "CSI106",
+      "metadata_field": "description"
+    }
+  ]
+}

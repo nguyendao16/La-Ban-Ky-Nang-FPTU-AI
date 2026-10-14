@@ -1,0 +1,168 @@
+{
+  "review_type": "academic_knowledge_review",
+  "overview": "Hồ sơ học thuật của sinh viên thể hiện nền tảng vững chắc về Python, lập trình hướng đối tượng, cấu trúc dữ liệu, thuật toán, cơ sở dữ liệu quan hệ (bao gồm SQL và T-SQL trên Microsoft SQL Server), cũng như các kiến thức về AI, machine learning, và một số khía cạnh về hệ thống backend. Tuy nhiên, các công nghệ cụ thể như FastAPI, SQLAlchemy, Flask, Django, PostgreSQL, MySQL, event-driven systems, caching, cloud platforms (AWS/GCP), và REST API design principles chỉ được đề cập một phần hoặc chưa có bằng chứng học thuật trực tiếp. Một số CLO liên quan đến dự án nhỏ về data science, AI integration, và sử dụng API, nhưng không xác nhận kinh nghiệm thực tế với các framework hoặc hệ thống backend chuyên biệt.",
+  "requirement_reviews": [
+    {
+      "jd_requirement": "Help build Python REST APIs/services with FastAPI and SQLAlchemy",
+      "coverage": "related",
+      "comment": "CLO PFP191/CLO7 yêu cầu sinh viên hiểu và áp dụng lập trình hướng đối tượng trong Python, bao gồm các khái niệm về class, object, kế thừa, đa hình, và thiết kế module. ADY201m/CLO5 và CLO7 đề cập đến việc sử dụng Python cho các workflow về data science, bao gồm thao tác với API và truy cập cơ sở dữ liệu. Tuy nhiên, hồ sơ chưa có CLO nào đề cập trực tiếp đến FastAPI hoặc SQLAlchemy, cũng như xây dựng REST API với các framework này.",
+      "evidence": [
+        {
+          "course_code": "PFP191",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO7"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Maintain schemas/queries/caching",
+      "coverage": "related",
+      "comment": "DBI202/CLO5 và CLO6 yêu cầu sinh viên thành thạo SQL (DDL, DML) và lập trình T-SQL trên Microsoft SQL Server, bao gồm tạo schema, truy vấn, view, stored procedure, trigger và transaction. ADY201m/CLO1, CLO7 cũng đề cập đến truy cập và thao tác cơ sở dữ liệu bằng Python và SQL. Tuy nhiên, chưa có CLO nào đề cập trực tiếp đến caching hoặc các hệ quản trị cơ sở dữ liệu như PostgreSQL/MySQL.",
+      "evidence": [
+        {
+          "course_code": "DBI202",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "DBI202",
+          "clo": "CLO6"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO7"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Integrate AI and enterprise services",
+      "coverage": "related",
+      "comment": "DAP391m/CLO5, CLO6, CLO7 yêu cầu sinh viên triển khai ứng dụng tích hợp nhiều dịch vụ AI của Watson (Discovery, Speech to Text, Watson Assistant, Text to Speech) và phát triển giải pháp AI-powered, cũng như thực hiện dự án nhỏ về data science có tích hợp API. Tuy nhiên, các CLO này tập trung vào Watson AI services, chưa xác nhận tích hợp AI vào hệ thống backend doanh nghiệp nói chung.",
+      "evidence": [
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO6"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO7"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Contribute to event-driven systems and pipelines",
+      "coverage": "not_evidenced",
+      "comment": "Hồ sơ học thuật hiện có chưa cung cấp bằng chứng trực tiếp về kiến thức hoặc thực hành với event-driven systems, message queues, hoặc data pipelines trong môi trường backend.",
+      "evidence": []
+    },
+    {
+      "jd_requirement": "Python and basic backend frameworks such as FastAPI, Flask OR Django",
+      "coverage": "related",
+      "comment": "PFP191/CLO7 xác nhận sinh viên đã học lập trình hướng đối tượng với Python và áp dụng trong các ngữ cảnh ứng dụng. ADY201m/CLO5, CLO7 xác nhận sử dụng Python cho workflow data science, bao gồm thao tác với API và cơ sở dữ liệu. Tuy nhiên, chưa có CLO nào đề cập trực tiếp đến FastAPI, Flask hoặc Django.",
+      "evidence": [
+        {
+          "course_code": "PFP191",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO7"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Databases such as PostgreSQL, MySQL OR similar and SQL queries",
+      "coverage": "related",
+      "comment": "DBI202/CLO5, CLO6 xác nhận sinh viên đã học SQL, T-SQL, thao tác với schema, truy vấn, stored procedure, trigger trên Microsoft SQL Server. ADY201m/CLO1, CLO7 xác nhận sử dụng SQL và truy cập cơ sở dữ liệu trong dự án nhỏ. Tuy nhiên, chưa có CLO nào đề cập trực tiếp đến PostgreSQL hoặc MySQL.",
+      "evidence": [
+        {
+          "course_code": "DBI202",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "DBI202",
+          "clo": "CLO6"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO7"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Interest in distributed/cloud/backend systems",
+      "coverage": "not_evidenced",
+      "comment": "Hồ sơ học thuật hiện có chưa cung cấp bằng chứng trực tiếp về các hệ thống phân tán, cloud platforms (AWS/GCP), hoặc kiến trúc backend chuyên sâu.",
+      "evidence": []
+    },
+    {
+      "jd_requirement": "Preferred: Queues/caching/event-driven work",
+      "coverage": "not_evidenced",
+      "comment": "Chưa có CLO nào xác nhận kiến thức hoặc thực hành về message queues, caching, hoặc event-driven architecture.",
+      "evidence": []
+    },
+    {
+      "jd_requirement": "Preferred: AI integration",
+      "coverage": "covered",
+      "comment": "DAP391m/CLO5, CLO6, CLO7 xác nhận sinh viên đã triển khai ứng dụng tích hợp nhiều dịch vụ AI của Watson và thực hiện dự án nhỏ về data science có tích hợp API AI. Achievement excellent phản ánh kết quả học thuật xuất sắc đối với các CLO này.",
+      "evidence": [
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO6"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO7"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Preferred: Cloud-platform familiarity",
+      "coverage": "not_evidenced",
+      "comment": "Hồ sơ học thuật hiện có chưa cung cấp bằng chứng trực tiếp về kiến thức hoặc thực hành với cloud platforms như AWS hoặc GCP.",
+      "evidence": []
+    },
+    {
+      "jd_requirement": "Preferred: REST/API design principles",
+      "coverage": "related",
+      "comment": "ADY201m/CLO5, CLO7 xác nhận sinh viên đã sử dụng Python để thao tác với API trong workflow data science, nhưng chưa có CLO nào đề cập trực tiếp đến nguyên lý thiết kế RESTful API hoặc xây dựng API backend.",
+      "evidence": [
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO7"
+        }
+      ]
+    }
+  ],
+  "conclusion": "Hồ sơ học thuật của sinh viên cho thấy nền tảng vững chắc về Python, lập trình hướng đối tượng, thao tác với cơ sở dữ liệu quan hệ (SQL, T-SQL trên Microsoft SQL Server), và tích hợp dịch vụ AI (Watson) trong các dự án nhỏ về data science. Các CLO liên quan đều đạt thành tích học thuật từ tốt đến xuất sắc. Tuy nhiên, hồ sơ chưa cung cấp bằng chứng học thuật trực tiếp về các framework backend phổ biến như FastAPI, Flask, Django, các hệ quản trị cơ sở dữ liệu như PostgreSQL/MySQL, caching, event-driven systems, cloud platforms (AWS/GCP), hoặc nguyên lý thiết kế RESTful API. Một số yêu cầu về hệ thống phân tán, cloud, và kiến trúc backend chuyên sâu cũng chưa được xác nhận qua CLO. Nhìn chung, hồ sơ học thuật xác nhận kiến thức nền tảng liên quan đến backend và AI integration, nhưng chưa xác nhận kinh nghiệm thực tế hoặc học thuật với các công nghệ backend chuyên biệt và cloud."
+}

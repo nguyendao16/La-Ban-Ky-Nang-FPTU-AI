@@ -1,0 +1,22 @@
+[
+  {
+    "clo": "CLO1",
+    "description": "Distinguish the major generative-AI model families and implement tokenization and PyTorch data pipelines, including Specialization Introduction Generative AI and LLMs: Architecture and Data Preparation, Tokenization techniques with NLTK, spaCy, Hugging Face, PyTorch data loaders and pipelines for generative AI."
+  },
+  {
+    "clo": "CLO2",
+    "description": "Build NLP systems using foundational language-modelling techniques, including Gen AI Foundational Models for NLP & Language Understanding, Word embeddings: Word2Vec, GloVe, Document classification, Encoder-decoder RNNs, Introduction to attention mechanisms."
+  },
+  {
+    "clo": "CLO3",
+    "description": "Apply transformer LLMs to generation, classification, translation, and understanding tasks, including Generative AI Language Modeling with Transformers, Transformer architecture in depth, Applying transformers to translation, classification, and text generation."
+  },
+  {
+    "clo": "CLO4",
+    "description": "Adapt LLMs for domain tasks using PEFT, instruction tuning, and alignment, including Generative AI Engineering and Fine-Tuning Transformers, Hugging Face fine-tuning pipelines, Parameter-efficient fine-tuning: LoRA, QLoRA, adapters, Quantization for fine-tuning on consumer GPUs, Generative AI Advance Fine-Tuning for LLMs, Instruction tuning."
+  },
+  {
+    "clo": "CLO5",
+    "description": "Design, build, and deploy production LLM applications using RAG, vector stores, and agent patterns, including Fundamentals of AI Agents Using RAG and LangChain, LangChain components, chains, agents, Embeddings, vector stores, and Retrieval-Augmented Generation."
+  }
+]

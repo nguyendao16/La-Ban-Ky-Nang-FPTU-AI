@@ -1,0 +1,129 @@
+{
+  "histories": {
+    "E1-clean": {
+      "history": [
+        {
+          "role": "user",
+          "content": "Mình có học confidence intervals và hypothesis testing không?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"reply\": \"MAS291/CLO7: CLO ghi Construct and interpret confidence intervals for population parameters and differences between population parameters, including intervals for means of normal distributions with known or unknown variance, large-sample intervals for population proportions, inference on differences between two means, and inference on differences between two proportions. Điểm 9.43, achievement excellent thuộc outcome này.\\nMAS291/CLO8: CLO ghi Verify claims about population parameters and differences between population parameters using hypothesis testing, including formulating hypotheses, identifying critical values and test statistics, computing p-values, recognizing testing errors, and conducting tests for single means, single proportions, differences between two means, and differences between two proportions. Điểm 9.43, achievement excellent thuộc outcome này.\", \"evidence\": [{\"course_code\": \"MAS291\", \"clo\": \"CLO7\"}, {\"course_code\": \"MAS291\", \"clo\": \"CLO8\"}]}"
+        },
+        {
+          "role": "user",
+          "content": "Còn simple linear regression và PCA thì sao?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"reply\": \"MAS291/CLO9: CLO ghi Construct a simple linear regression model and use it for prediction and interpretation, including empirical models, least-squares estimation, sums of squares, regression equations, correlation coefficients, properties of least-squares estimators, and hypothesis tests for significance in simple linear regression. Điểm 9.43, achievement excellent thuộc outcome này.\\nMAI391/CLO6: CLO ghi Apply dimensionality reduction with PCA, including covariance matrices, maximum-variance subspaces, principal subspace bases, low-rank matrix approximation, PCA in high dimensions, projection perspectives, eigenvector computation, and key practical PCA steps. Điểm 9.4, achievement excellent thuộc outcome này.\", \"evidence\": [{\"course_code\": \"MAS291\", \"clo\": \"CLO9\"}, {\"course_code\": \"MAI391\", \"clo\": \"CLO6\"}]}"
+        }
+      ],
+      "history_sha256": "71268122b23b72d963b6bcabd3bd91fea52f686db875ddb7a7681d0a7f36a96b",
+      "origin": "human_authored_canonical_descriptions",
+      "known_corruption": null
+    },
+    "E2-contaminated": {
+      "history": [
+        {
+          "role": "user",
+          "content": "Mình có học confidence intervals và hypothesis testing không?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"reply\": \"MAS291/CLO9: CLO ghi Construct and interpret confidence intervals for population parameters and differences between population parameters, including intervals for means of normal distributions with known or unknown variance, large-sample intervals for population proportions, inference on differences between two means, and inference on differences between two proportions. Điểm 9.43, achievement excellent thuộc outcome này.\\nMAS291/CLO8: CLO ghi Verify claims about population parameters and differences between population parameters using hypothesis testing, including formulating hypotheses, identifying critical values and test statistics, computing p-values, recognizing testing errors, and conducting tests for single means, single proportions, differences between two means, and differences between two proportions. Điểm 9.43, achievement excellent thuộc outcome này.\", \"evidence\": [{\"course_code\": \"MAS291\", \"clo\": \"CLO9\"}, {\"course_code\": \"MAS291\", \"clo\": \"CLO8\"}]}"
+        },
+        {
+          "role": "user",
+          "content": "Còn simple linear regression và PCA thì sao?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"reply\": \"MAS291/CLO9: CLO ghi Construct a simple linear regression model and use it for prediction and interpretation, including empirical models, least-squares estimation, sums of squares, regression equations, correlation coefficients, properties of least-squares estimators, and hypothesis tests for significance in simple linear regression. Điểm 9.43, achievement excellent thuộc outcome này.\\nMAI391/CLO6: CLO ghi Apply dimensionality reduction with PCA, including covariance matrices, maximum-variance subspaces, principal subspace bases, low-rank matrix approximation, PCA in high dimensions, projection perspectives, eigenvector computation, and key practical PCA steps. Điểm 9.4, achievement excellent thuộc outcome này.\", \"evidence\": [{\"course_code\": \"MAS291\", \"clo\": \"CLO9\"}, {\"course_code\": \"MAI391\", \"clo\": \"CLO6\"}]}"
+        }
+      ],
+      "history_sha256": "d028bf2dca1d914da4f347c72cfaff2bcbdb2721a16b874bbcf14da8af286458",
+      "origin": "human_authored_canonical_descriptions",
+      "known_corruption": "CI source CLO7 changed to CLO9 in reply/reference only"
+    },
+    "E3-same-course": {
+      "history": [
+        {
+          "role": "user",
+          "content": "Tóm các nội dung statistics mình đã học."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"reply\": \"MAS291/CLO5: CLO ghi Describe data using numerical summaries and visual displays, including descriptive statistics, stem-and-leaf diagrams, frequency distributions, histograms, box plots, quartiles, outlier identification, and time sequence plots. Điểm 9.15, achievement excellent thuộc outcome này.\\nMAS291/CLO6: CLO ghi Discuss sampling distributions and point estimation, then use the Central Limit Theorem to analyze sampling distributions of means. Điểm 9.15, achievement excellent thuộc outcome này.\\nMAS291/CLO7: CLO ghi Construct and interpret confidence intervals for population parameters and differences between population parameters, including intervals for means of normal distributions with known or unknown variance, large-sample intervals for population proportions, inference on differences between two means, and inference on differences between two proportions. Điểm 9.43, achievement excellent thuộc outcome này.\\nMAS291/CLO8: CLO ghi Verify claims about population parameters and differences between population parameters using hypothesis testing, including formulating hypotheses, identifying critical values and test statistics, computing p-values, recognizing testing errors, and conducting tests for single means, single proportions, differences between two means, and differences between two proportions. Điểm 9.43, achievement excellent thuộc outcome này.\\nMAS291/CLO9: CLO ghi Construct a simple linear regression model and use it for prediction and interpretation, including empirical models, least-squares estimation, sums of squares, regression equations, correlation coefficients, properties of least-squares estimators, and hypothesis tests for significance in simple linear regression. Điểm 9.43, achievement excellent thuộc outcome này.\", \"evidence\": [{\"course_code\": \"MAS291\", \"clo\": \"CLO5\"}, {\"course_code\": \"MAS291\", \"clo\": \"CLO6\"}, {\"course_code\": \"MAS291\", \"clo\": \"CLO7\"}, {\"course_code\": \"MAS291\", \"clo\": \"CLO8\"}, {\"course_code\": \"MAS291\", \"clo\": \"CLO9\"}]}"
+        }
+      ],
+      "history_sha256": "4cfd75c3d842b7426b5025058a4659687dfecca8d4df59b1bdd85838bced07ca",
+      "origin": "human_authored_canonical_descriptions",
+      "known_corruption": null
+    },
+    "E4-multiple-sources": {
+      "history": [
+        {
+          "role": "user",
+          "content": "SQL và optimization có nguồn nào?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"reply\": \"DBI202/CLO5: CLO ghi Be proficient in SQL, including Data Definition Language (DDL) for defining database structures and implementing constraints such as primary and foreign keys, UNIQUE, and CHECK constraints using Microsoft SQL Server. Use Data Manipulation Language (DML) to perform basic queries, multi-relation queries, nested queries, aggregation queries, and database modifications using INSERT, UPDATE, and DELETE statements. Điểm 5.96, achievement basic thuộc outcome này.\\nMAI391/CLO4: CLO ghi Solve continuous optimization problems using gradient descent for local minima, Lagrange multipliers for constrained extrema, convex optimization concepts, and linear programming. Điểm 9.43, achievement excellent thuộc outcome này.\", \"evidence\": [{\"course_code\": \"DBI202\", \"clo\": \"CLO5\"}, {\"course_code\": \"MAI391\", \"clo\": \"CLO4\"}]}"
+        },
+        {
+          "role": "user",
+          "content": "PCA và SVM có nguồn nào?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"reply\": \"MAI391/CLO6: CLO ghi Apply dimensionality reduction with PCA, including covariance matrices, maximum-variance subspaces, principal subspace bases, low-rank matrix approximation, PCA in high dimensions, projection perspectives, eigenvector computation, and key practical PCA steps. Điểm 9.4, achievement excellent thuộc outcome này.\\nMAI391/CLO7: CLO ghi Apply support vector machine classification, including separating hyperplanes, primal and dual SVM formulations, kernel-based nonlinear classifiers, and numerical approaches for finding optimal SVM solutions. Điểm 9.4, achievement excellent thuộc outcome này.\", \"evidence\": [{\"course_code\": \"MAI391\", \"clo\": \"CLO6\"}, {\"course_code\": \"MAI391\", \"clo\": \"CLO7\"}]}"
+        }
+      ],
+      "history_sha256": "1ae8d36f1eb88900292b31d23b3d0f7e3d1c23befaee15c1bcf33d4f7eaaf53c",
+      "origin": "human_authored_canonical_descriptions",
+      "known_corruption": null
+    },
+    "E5-holdout": {
+      "history": [
+        {
+          "role": "user",
+          "content": "Sorting và hashing trong CSD203 nằm ở đâu?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"reply\": \"CSD203/CLO6: CLO ghi Explain the operation and performance of basic and advanced sorting algorithms, including selection sort, insertion sort, bubble sort, quicksort, merge sort, heap sort, bucket sort, radix sort, and comparison of sorting algorithm performance. Điểm 6.06, achievement basic thuộc outcome này.\\nCSD203/CLO7: CLO ghi Explain hashing and its applications, including hash tables, hash functions, collision handling, load factors, rehashing, efficiency considerations, and Python hash table implementation. Điểm 6.06, achievement basic thuộc outcome này.\", \"evidence\": [{\"course_code\": \"CSD203\", \"clo\": \"CLO6\"}, {\"course_code\": \"CSD203\", \"clo\": \"CLO7\"}]}"
+        }
+      ],
+      "history_sha256": "7823aec54b658bf6915e26aefa41b4d77bbf04577526ad37f86f13d2f576bb85",
+      "origin": "human_authored_canonical_descriptions",
+      "known_corruption": null
+    }
+  },
+  "verified_mapping": [
+    {
+      "statement": "confidence intervals",
+      "sources": [
+        {
+          "course_code": "MAS291",
+          "clo": "CLO7",
+          "source_excerpt": "Construct and interpret confidence intervals for population parameters and differences between population parameters, including intervals for means of normal distributions with known or unknown variance, large-sample intervals for population proportions, inference on differences between two means, and inference on differences between two proportions."
+        }
+      ],
+      "score": 9.43,
+      "achievement": "excellent"
+    },
+    {
+      "statement": "simple linear regression",
+      "sources": [
+        {
+          "course_code": "MAS291",
+          "clo": "CLO9",
+          "source_excerpt": "Construct a simple linear regression model and use it for prediction and interpretation, including empirical models, least-squares estimation, sums of squares, regression equations, correlation coefficients, properties of least-squares estimators, and hypothesis tests for significance in simple linear regression."
+        }
+      ],
+      "score": 9.43,
+      "achievement": "excellent"
+    }
+  ]
+}

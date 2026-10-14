@@ -1,0 +1,21 @@
+{
+  "reply": "Tóm tắt ngắn các nội dung học thuật đã trao đổi:\n\n- **SQL**: nguồn rõ nhất là **DBI202/CLO5** với mô tả *“Be proficient in SQL”*, bao gồm DDL, basic queries, multi-relation queries, nested queries, aggregation queries và database modifications bằng INSERT/UPDATE/DELETE trên Microsoft SQL Server. CLO này có **score 5.96** và **achievement basic**.\n- **Optimization**: nguồn là **MAI391/CLO4** với mô tả *“Solve continuous optimization problems”*, bao gồm gradient descent, Lagrange multipliers, convex optimization concepts và linear programming. CLO này có **score 9.43** và **achievement excellent**.\n- **PCA**: nguồn là **MAI391/CLO6** với mô tả *“Apply dimensionality reduction with PCA”*, bao gồm covariance matrices, maximum-variance subspaces, principal subspace bases, low-rank matrix approximation và key practical PCA steps. CLO này có **score 9.4** và **achievement excellent**.\n- **SVM**: nguồn là **MAI391/CLO7** với mô tả *“Apply support vector machine classification”*, bao gồm separating hyperplanes, primal and dual SVM formulations, kernel-based nonlinear classifiers và numerical approaches for finding optimal SVM solutions. CLO này có **score 9.4** và **achievement excellent**.\n\nNếu cần, mình có thể tóm tắt tiếp theo kiểu **mỗi nội dung gắn với 1 câu diễn giải ngắn để bạn dùng khi đối chiếu JD**.",
+  "evidence": [
+    {
+      "course_code": "DBI202",
+      "clo": "CLO5"
+    },
+    {
+      "course_code": "MAI391",
+      "clo": "CLO4"
+    },
+    {
+      "course_code": "MAI391",
+      "clo": "CLO6"
+    },
+    {
+      "course_code": "MAI391",
+      "clo": "CLO7"
+    }
+  ]
+}

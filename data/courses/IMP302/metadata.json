@@ -1,0 +1,7 @@
+{
+  "syllabus_name": "Image and Video processing_Xử lý ảnh và video",
+  "course_name_english": "Image and Video processing",
+  "subject_code": "IMP302",
+  "description": "Image & Video Processing is an advanced course that covers the fundamental principles, techniques, and applications of image and video processing. The course explores manipulating digital images and videos to extract useful information, enhance visual quality, and perform analysis. It covers various topics, including image acquisition and digitization, image enhancement and restoration, image compression and coding, image segmentation and feature extraction, and object recognition and tracking. The course also covers fundamental concepts in video processing, including video coding and compression, motion estimation, and video analysis. Students will learn to process images and videos using various tools and software platforms, including MATLAB and Python.",
+  "tools": "No"
+}

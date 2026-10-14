@@ -1,0 +1,44 @@
+[
+  {
+    "category": "Individual Progress Test",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "LO1-10"
+  },
+  {
+    "category": "Participation",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "LO1-10"
+  },
+  {
+    "category": "Project Part 1 – Proposal & Presentation",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "LO1,2,3,4,5"
+  },
+  {
+    "category": "Project Part 2 – Project Execution",
+    "part": "1",
+    "weight": "20.0%",
+    "clo": "LO5,6,7,8"
+  },
+  {
+    "category": "Project Part 3 – Final Report & Presentation",
+    "part": "1",
+    "weight": "20.0%",
+    "clo": "LO1-10"
+  },
+  {
+    "category": "Quiz",
+    "part": "1",
+    "weight": "5.0%",
+    "clo": "LO2, LO4, LO8"
+  },
+  {
+    "category": "Final Exam",
+    "part": "1",
+    "weight": "25.0%",
+    "clo": "LO1-LO10"
+  }
+]

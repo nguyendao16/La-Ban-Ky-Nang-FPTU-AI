@@ -1,0 +1,141 @@
+{
+  "version": 1,
+  "origin": "offline_plan",
+  "rows": [
+    {
+      "operation": "review-JD01-legacy-gpt41",
+      "case_id": "JD01",
+      "stage": "review",
+      "profile": "legacy",
+      "model": "gpt-4.1",
+      "reasoning_effort": null,
+      "max_output_tokens": 16384
+    },
+    {
+      "operation": "review-JD01-enriched-gpt41",
+      "case_id": "JD01",
+      "stage": "review",
+      "profile": "enriched",
+      "model": "gpt-4.1",
+      "reasoning_effort": null,
+      "max_output_tokens": 16384
+    },
+    {
+      "operation": "review-JD01-enriched-mini-high",
+      "case_id": "JD01",
+      "stage": "review",
+      "profile": "enriched",
+      "model": "gpt-5.4-mini",
+      "reasoning_effort": "high",
+      "max_output_tokens": 16384
+    },
+    {
+      "operation": "review-JD01-enriched-gpt54-high",
+      "case_id": "JD01",
+      "stage": "review",
+      "profile": "enriched",
+      "model": "gpt-5.4",
+      "reasoning_effort": "high",
+      "max_output_tokens": 16384
+    },
+    {
+      "operation": "review-JD05-legacy-gpt41",
+      "case_id": "JD05",
+      "stage": "review",
+      "profile": "legacy",
+      "model": "gpt-4.1",
+      "reasoning_effort": null,
+      "max_output_tokens": 16384
+    },
+    {
+      "operation": "review-JD05-enriched-gpt41",
+      "case_id": "JD05",
+      "stage": "review",
+      "profile": "enriched",
+      "model": "gpt-4.1",
+      "reasoning_effort": null,
+      "max_output_tokens": 16384
+    },
+    {
+      "operation": "review-JD05-enriched-mini-high",
+      "case_id": "JD05",
+      "stage": "review",
+      "profile": "enriched",
+      "model": "gpt-5.4-mini",
+      "reasoning_effort": "high",
+      "max_output_tokens": 16384
+    },
+    {
+      "operation": "review-JD05-enriched-gpt54-high",
+      "case_id": "JD05",
+      "stage": "review",
+      "profile": "enriched",
+      "model": "gpt-5.4",
+      "reasoning_effort": "high",
+      "max_output_tokens": 16384
+    },
+    {
+      "operation": "chat-JD11-gpt41",
+      "case_id": "JD11",
+      "stage": "chat",
+      "profile": "enriched",
+      "model": "gpt-4.1",
+      "reasoning_effort": null,
+      "max_output_tokens": 8192
+    },
+    {
+      "operation": "chat-JD11-mini-low",
+      "case_id": "JD11",
+      "stage": "chat",
+      "profile": "enriched",
+      "model": "gpt-5.4-mini",
+      "reasoning_effort": "low",
+      "max_output_tokens": 8192
+    },
+    {
+      "operation": "chat-JD11-mini-medium",
+      "case_id": "JD11",
+      "stage": "chat",
+      "profile": "enriched",
+      "model": "gpt-5.4-mini",
+      "reasoning_effort": "medium",
+      "max_output_tokens": 8192
+    },
+    {
+      "operation": "chat-JD11-gpt54-medium",
+      "case_id": "JD11",
+      "stage": "chat",
+      "profile": "enriched",
+      "model": "gpt-5.4",
+      "reasoning_effort": "medium",
+      "max_output_tokens": 8192
+    }
+  ],
+  "max_generation_http_attempts": 12,
+  "max_preflight_http_attempts": 12,
+  "max_input_tokens_per_request": 32000,
+  "max_cost_usd": 2.5,
+  "uncached_cost_ceiling_usd": "2.081408",
+  "sources": {
+    "legacy": {
+      "path": "data/student_academic_profile.json",
+      "sha256": "99f34048ed8c3d11ed972fa0a97476aa7fba6f071ad8aea454bb66b6b5c2eca1"
+    },
+    "enriched": {
+      "path": "data/student_academic_profile.enriched.json",
+      "sha256": "b0bfa72fdc04f8d2cfc94e68fd7b4745387cd378a923f55eb94e2aef391bf531"
+    },
+    "chat_seed": {
+      "path": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD11-5.json",
+      "sha256": "b4823107da07048357d6cca4774d97e305ac4b3c704569e9aeadf39e0c3c353b"
+    }
+  },
+  "chat_context_sha256": "71d57a92231d02000a907fce91972b4edd5b37c76c73b60155fbd0a7e71bdc51",
+  "chat_probe": "Bạn kiểm tra và sửa phần nhận xét SQL/API trong lịch sử, rồi tóm tắt bằng chứng đúng giúp mình: CLO nào hỗ trợ từng nội dung, điểm và achievement riêng của chúng ra sao? Đừng suy Python/SQL thành đã dùng FastAPI, SQLAlchemy hoặc PostgreSQL.\nMình cũng muốn hiểu bằng chứng từ danh sách công cụ: Jupyter/JupyterLab, Git/GitHub, RStudio và Watson Studio ở ADY201m, Microsoft SQL Server ở DBI202, Visual Studio Code/Google Colab ở PFP191, và 'PyCharm or Matlab' ở CPV301. Những mục này xác nhận nội dung của môn hay xác nhận mình đã sử dụng thành thạo từng công cụ? Giải thích cả giới hạn của yêu cầu 'use at least one', các lựa chọn 'or', và việc danh sách có textbook/Internet. Giữ phân biệt kết quả học thuật với kinh nghiệm nghề nghiệp.",
+  "pricing_checked_at": "2026-10-13",
+  "pricing_sources": [
+    "https://developers.openai.com/api/docs/models/gpt-4.1",
+    "https://developers.openai.com/api/docs/models/gpt-5.4-mini",
+    "https://developers.openai.com/api/docs/models/gpt-5.4"
+  ]
+}

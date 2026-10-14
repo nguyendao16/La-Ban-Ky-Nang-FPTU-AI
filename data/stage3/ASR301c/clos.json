@@ -1,0 +1,18 @@
+[
+  {
+    "clo_name": "CLO1",
+    "clo_details": "Employ artificial intelligence techniques to test hypothesis in Python, and apply a machine learning model combining Numpy, Pandas, and Scikit-Learn"
+  },
+  {
+    "clo_name": "CLO2",
+    "clo_details": "Implement and evaluate machine learning models (neural networks, random forests, etc.) on scientific data in Python"
+  },
+  {
+    "clo_name": "CLO3",
+    "clo_details": "Implement simple neural network models and describe the differences between Neural Networks and Random Forests"
+  },
+  {
+    "clo_name": "CLO4",
+    "clo_details": "Analyzing genome sequences to find similarities and identify target subsequences using predctive models"
+  }
+]

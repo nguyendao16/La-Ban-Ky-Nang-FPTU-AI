@@ -1,0 +1,42 @@
+[
+  {
+    "clo_name": "CLO1",
+    "clo_details": "Identify relevant data science techniques for addressing Capstone Project topics."
+  },
+  {
+    "clo_name": "CLO2",
+    "clo_details": "Formulate clear problem statements and objectives in project proposals."
+  },
+  {
+    "clo_name": "CLO3",
+    "clo_details": "Plan and execute data collection and cleaning procedures effectively."
+  },
+  {
+    "clo_name": "CLO4",
+    "clo_details": "Conduct exploratory data analysis (EDA) to uncover patterns and insights in data."
+  },
+  {
+    "clo_name": "CLO5",
+    "clo_details": "Develop and deploy machine learning models tailored to project requirements."
+  },
+  {
+    "clo_name": "CLO6",
+    "clo_details": "Evaluate, refine, and optimize machine learning models for improved performance."
+  },
+  {
+    "clo_name": "CLO7",
+    "clo_details": "Interpret and visualize results effectively to communicate findings to stakeholders."
+  },
+  {
+    "clo_name": "CLO8",
+    "clo_details": "Summarize conclusions drawn from data analysis and provide actionable recommendations."
+  },
+  {
+    "clo_name": "CLO9",
+    "clo_details": "Compile comprehensive final project reports integrating insights and methodologies learned throughout the course."
+  },
+  {
+    "clo_name": "CLO10",
+    "clo_details": "Enhance oral presentation skills through participation in Team Meetings and Final Presentations."
+  }
+]

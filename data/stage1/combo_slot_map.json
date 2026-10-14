@@ -1,0 +1,222 @@
+[
+  {
+    "combo_code": "AI17_COM1",
+    "combo_name": "Topic on Applied Data Science_Chủ đề Khoa học dữ liệu ứng dụng BIT_AI_K17C(FNO)",
+    "combo_title": "AI17_COM1: Topic on Applied Data Science_Chủ đề Khoa học dữ liệu ứng dụng BIT_AI_K17C(FNO)",
+    "combo_note": "",
+    "subjects": [
+      {
+        "slot_number": 1,
+        "slot_code": "AI17_COM*1",
+        "slot_alias": "AI17_COM_1",
+        "semester": 5,
+        "credits": 3,
+        "subject_code": "BDI302c",
+        "syllabus_available": true
+      },
+      {
+        "slot_number": 2,
+        "slot_code": "AI17_COM*2",
+        "slot_alias": "AI17_COM_2",
+        "semester": 5,
+        "credits": 3,
+        "subject_code": "DSR301m",
+        "syllabus_available": true
+      },
+      {
+        "slot_number": 3,
+        "slot_code": "AI17_COM*3",
+        "slot_alias": "AI17_COM_3",
+        "semester": 7,
+        "credits": 3,
+        "subject_code": "DBM302m",
+        "syllabus_available": true
+      },
+      {
+        "slot_number": 4,
+        "slot_code": "AI17_COM*4",
+        "slot_alias": "AI17_COM_4",
+        "semester": 8,
+        "credits": 3,
+        "subject_code": "DSP391m",
+        "syllabus_available": true
+      }
+    ]
+  },
+  {
+    "combo_code": "AI17_COM2.1",
+    "combo_name": "Topic on AI Applied research_Chủ đề Định hướng nghiên cứu ứng dụng TTNT",
+    "combo_title": "AI17_COM2.1: Topic on AI Applied research_Chủ đề Định hướng nghiên cứu ứng dụng TTNT",
+    "combo_note": "Adjust the subject code in the combo (remove ending m)",
+    "subjects": [
+      {
+        "slot_number": 1,
+        "slot_code": "AI17_COM*1",
+        "slot_alias": "AI17_COM_1",
+        "semester": 5,
+        "credits": 3,
+        "subject_code": "SEG301",
+        "syllabus_available": true
+      },
+      {
+        "slot_number": 2,
+        "slot_code": "AI17_COM*2",
+        "slot_alias": "AI17_COM_2",
+        "semester": 5,
+        "credits": 3,
+        "subject_code": "TMG301",
+        "syllabus_available": true
+      },
+      {
+        "slot_number": 3,
+        "slot_code": "AI17_COM*3",
+        "slot_alias": "AI17_COM_3",
+        "semester": 7,
+        "credits": 3,
+        "subject_code": "SLP301",
+        "syllabus_available": true
+      },
+      {
+        "slot_number": 4,
+        "slot_code": "AI17_COM*4",
+        "slot_alias": "AI17_COM_4",
+        "semester": 8,
+        "credits": 3,
+        "subject_code": "IMP302",
+        "syllabus_available": true
+      }
+    ]
+  },
+  {
+    "combo_code": "AI17_COM3",
+    "combo_name": "Topic on AI application_Chủ đề Ứng dụng TTNT BIT_AI_K17C(FNO)",
+    "combo_title": "AI17_COM3: Topic on AI application_Chủ đề Ứng dụng TTNT BIT_AI_K17C(FNO)",
+    "combo_note": "",
+    "subjects": [
+      {
+        "slot_number": 1,
+        "slot_code": "AI17_COM*1",
+        "slot_alias": "AI17_COM_1",
+        "semester": 5,
+        "credits": 3,
+        "subject_code": "AIH301m",
+        "syllabus_available": true
+      },
+      {
+        "slot_number": 2,
+        "slot_code": "AI17_COM*2",
+        "slot_alias": "AI17_COM_2",
+        "semester": 5,
+        "credits": 3,
+        "subject_code": "ASR301c",
+        "syllabus_available": true
+      },
+      {
+        "slot_number": 3,
+        "slot_code": "AI17_COM*3",
+        "slot_alias": "AI17_COM_3",
+        "semester": 7,
+        "credits": 3,
+        "subject_code": "AIM301m",
+        "syllabus_available": true
+      },
+      {
+        "slot_number": 4,
+        "slot_code": "AI17_COM*4",
+        "slot_alias": "AI17_COM_4",
+        "semester": 8,
+        "credits": 3,
+        "subject_code": "AIE301m",
+        "syllabus_available": true
+      }
+    ]
+  },
+  {
+    "combo_code": "AI17_COM4",
+    "combo_name": "Topic on Generative AI_Chủ đề TTNT tạo sinh",
+    "combo_title": "AI17_COM4: Topic on Generative AI_Chủ đề TTNT tạo sinh",
+    "combo_note": "",
+    "subjects": [
+      {
+        "slot_number": 1,
+        "slot_code": "AI17_COM*1",
+        "slot_alias": "AI17_COM_1",
+        "semester": 5,
+        "credits": 3,
+        "subject_code": "GAI201m",
+        "syllabus_available": true
+      },
+      {
+        "slot_number": 2,
+        "slot_code": "AI17_COM*2",
+        "slot_alias": "AI17_COM_2",
+        "semester": 5,
+        "credits": 3,
+        "subject_code": "AGA301c",
+        "syllabus_available": true
+      },
+      {
+        "slot_number": 3,
+        "slot_code": "AI17_COM*3",
+        "slot_alias": "AI17_COM_3",
+        "semester": 7,
+        "credits": 3,
+        "subject_code": "MGA301",
+        "syllabus_available": true
+      },
+      {
+        "slot_number": 4,
+        "slot_code": "AI17_COM*4",
+        "slot_alias": "AI17_COM_4",
+        "semester": 8,
+        "credits": 3,
+        "subject_code": "GAP301",
+        "syllabus_available": true
+      }
+    ]
+  },
+  {
+    "combo_code": "AI17_COM5",
+    "combo_name": "Topic on Machine Learning Operations_Chủ đề Hoạt động học máy",
+    "combo_title": "AI17_COM5: Topic on Machine Learning Operations_Chủ đề Hoạt động học máy",
+    "combo_note": "",
+    "subjects": [
+      {
+        "slot_number": 1,
+        "slot_code": "AI17_COM*1",
+        "slot_alias": "AI17_COM_1",
+        "semester": 5,
+        "credits": 3,
+        "subject_code": "AIS301c",
+        "syllabus_available": true
+      },
+      {
+        "slot_number": 2,
+        "slot_code": "AI17_COM*2",
+        "slot_alias": "AI17_COM_2",
+        "semester": 5,
+        "credits": 3,
+        "subject_code": "MOI201m",
+        "syllabus_available": true
+      },
+      {
+        "slot_number": 3,
+        "slot_code": "AI17_COM*3",
+        "slot_alias": "AI17_COM_3",
+        "semester": 7,
+        "credits": 3,
+        "subject_code": "CMO301m",
+        "syllabus_available": true
+      },
+      {
+        "slot_number": 4,
+        "slot_code": "AI17_COM*4",
+        "slot_alias": "AI17_COM_4",
+        "semester": 8,
+        "credits": 3,
+        "subject_code": "AMO301m",
+        "syllabus_available": true
+      }
+    ]
+  }
+]

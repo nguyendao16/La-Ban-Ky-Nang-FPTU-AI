@@ -1,0 +1,30 @@
+[
+  {
+    "clo": "CLO1",
+    "description": "Explain the end-to-end NLP pipeline, including corpus preparation, tokenization, text preprocessing, feature extraction, and core linguistic concepts, with NLTK-based setup and examples used to ground the workflow."
+  },
+  {
+    "clo": "CLO2",
+    "description": "Apply classical NLP methods to baseline tasks, including supervised sentiment pipelines, vocabulary building, Naive Bayes with Bayes rule and Laplace smoothing, vector-space models and similarity, PCA, analogy and vector transformation, minimum-edit-distance autocorrect, HMM and POS tagging with Viterbi decoding, n-gram language modeling with perplexity and smoothing, and word embeddings including CBOW, skip-gram, evaluation, and debiasing."
+  },
+  {
+    "clo": "CLO3",
+    "description": "Build and analyze neural sequence models for NLP, including feed-forward neural networks for text, RNNs, GRUs, LSTMs, named entity recognition and sequence labeling, attention mechanisms, sequence-to-sequence models, and neural machine translation."
+  },
+  {
+    "clo": "CLO4",
+    "description": "Use transformer-based and pretrained language models for classification, sequence labeling, retrieval, question answering, and generation-oriented workflows, including self-attention, positional encoding, masking, multi-head attention, summarization, transfer learning, BERT, T5, pretraining and fine-tuning, and efficient transformers for long sequences."
+  },
+  {
+    "clo": "CLO5",
+    "description": "Evaluate NLP systems using suitable metrics, error analysis, bias and limitation discussion, ablation or control-variable comparisons, reproducibility evidence, and reporting strategies across classical, embedding, neural sequence, transformer, and generation settings."
+  },
+  {
+    "clo": "CLO6",
+    "description": "Implement an end-to-end NLP research project, including problem formulation, literature review, data collection or selection, baseline method selection, dataset splits, experimental protocol, metrics, ablation or control variables, error analysis, improved modeling, comparative evaluation, reproducibility evidence, report writing, short paper writing, and presentation."
+  },
+  {
+    "clo": "CLO7",
+    "description": "Use AI-assisted development tools responsibly to accelerate experimentation, documentation, teamwork, and reflective learning in NLP projects."
+  }
+]

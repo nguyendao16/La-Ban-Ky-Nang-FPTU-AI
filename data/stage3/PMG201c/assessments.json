@@ -1,0 +1,14 @@
+[
+  {
+    "category": "PE",
+    "part": "1",
+    "weight": "50.0%",
+    "clo": "All LOs"
+  },
+  {
+    "category": "TE",
+    "part": "1",
+    "weight": "50.0%",
+    "clo": "All LOs"
+  }
+]

@@ -1,0 +1,496 @@
+{
+  "record_type": "normal_subject",
+  "curriculum": {
+    "subject_code": "EXE101",
+    "subject_name": "Experiential Entrepreneurship 1_Trải nghiệm khởi nghiệp 1",
+    "semester": "7",
+    "credits": "3",
+    "prerequisite": "None",
+    "pre_syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/Syllabuses?subCode=EXE101&curriculumID=3173",
+    "curriculum_url": "https://flm.fpt.edu.vn/gui/role/student/CurriculumDetails?curid=3173"
+  },
+  "syllabus_versions": [
+    {
+      "subject_code": "EXE101",
+      "syllabus_name": "Experiential Entrepreneurship 1 - Trải nghiệm khởi nghiệp 1",
+      "is_active": true,
+      "is_approved": true,
+      "decision_no": "871/QĐ-ĐHFPT dated 08/25/2023",
+      "syllabus_id": "10358",
+      "syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=10358",
+      "pre_syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/Syllabuses?subCode=EXE101&curriculumID=3173"
+    }
+  ],
+  "selected_syllabus": {
+    "subject_code": "EXE101",
+    "syllabus_name": "Experiential Entrepreneurship 1 - Trải nghiệm khởi nghiệp 1",
+    "is_active": true,
+    "is_approved": true,
+    "decision_no": "871/QĐ-ĐHFPT dated 08/25/2023",
+    "syllabus_id": "10358",
+    "syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=10358",
+    "pre_syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/Syllabuses?subCode=EXE101&curriculumID=3173"
+  },
+  "details": {
+    "source_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=10358",
+    "metadata": {
+      "Syllabus ID": "10358",
+      "Syllabus Name": "Experiential Entrepreneurship 1 - Trải nghiệm khởi nghiệp 1",
+      "Course Name English": "Experiential Entrepreneurship 1",
+      "Subject Code": "EXE101",
+      "Learning-Teaching Method": "Blended, Social Constructivism,Presentation, Coaching, Project based learning",
+      "NoCredit": "3",
+      "Degree Level": "Bachelor",
+      "Time Allocation": "Study hour (150h) =\n'-Self-paced online learning: 15 hours\n- Learning face-to-face with an instructor: 10 sessions (1 session/week x 10 weeks; 2,25 hrs/session)\n- Guest speakers' Sharing - Seminars: 3 sessions (2,25 hrs/session)\n- Mentors' Mentoring: 2 (2,25hr/session). 1-3 additional sessions can be set up depending on the necessity and on the mentor's avaibility.\n- 102h self-study",
+      "Pre-Requisite": "None",
+      "Description": "- This course will provide students with essential knowledge and tips on starting a start-up efficiently and effectively.\n- The course covers the most important aspects of modern entrepreneurship.\n- Students will study by watching videos shared by prolific startup founders on various topics. Each week, there will be a face-to-face session with an instructor, typically a faculty lecturer of business administration experimented in entrepreneurship, who will re-cap and check on students' understanding of the week's main topic.\nStudents are grouped into teams of 4 to 6. Each team must be formed from at least 2 different majors.\n- Each team will have to develop a startup idea and work on the project with guidance and support from instructors and mentors throughout the course.\n- There will be seminars or workshops with guest speakers who are entrepreneurs or venture capitalists, who will share their extensive experience and unique perspective in the entrepreneurial world of startups.",
+      "StudentTasks": "- Students must attend at least 80% of Instructor's Coaching sessions, Seminars and Mentor's Mentoring.\n- Students are responsible for doing all exercises and assignments given by the instructor in class or at home and submitting them on time.\n- Students must meet all checkpoints' requirements.\n- Use laptop in class only for learning purpose\n- Promplty access to the FPTU Learning Materials platform at https://flm.fpt.edu.vn/ and Edunext systems at https://fu.edunext.vn/ for up to date course information.",
+      "Tools": "- Laptop computer\n- Internet\n- Meeting hall with capacity of at least 200 seats for seminars\n- Video conference platforms, such as Google Meet, Microsoft Teams, or Zoom.",
+      "Scoring Scale": "10",
+      "DecisionNo MM/dd/yyyy": "871/QĐ-ĐHFPT dated 08/25/2023",
+      "IsApproved": "True",
+      "Note": "",
+      "Is Scored": "True",
+      "MinAvgMarkToPass": "5",
+      "IsActive": "True",
+      "ApprovedDate": "8/25/2023"
+    },
+    "materials": [
+      {
+        "No.": "1",
+        "Material Description": "Online material sources (video, documents)",
+        "Author": "Y Combinator (San Jose, CA)",
+        "Publisher": "",
+        "Published Date": "",
+        "Edition": "",
+        "ISBN": "",
+        "Is Main Material": "True",
+        "Is Hard Copy": "False",
+        "Is Online": "True",
+        "Note": "www.StartupSchool.org"
+      },
+      {
+        "No.": "2",
+        "Material Description": "Startup Directory sources",
+        "Author": "Y\nCombinator (San Jose, CA)",
+        "Publisher": "",
+        "Published Date": "",
+        "Edition": "",
+        "ISBN": "",
+        "Is Main Material": "False",
+        "Is Hard Copy": "False",
+        "Is Online": "True",
+        "Note": "https://www.ycombinator.com/companies"
+      },
+      {
+        "No.": "3",
+        "Material Description": "Techstars",
+        "Author": "Techstars (Boulder, Colorado)",
+        "Publisher": "",
+        "Published Date": "",
+        "Edition": "",
+        "ISBN": "",
+        "Is Main Material": "False",
+        "Is Hard Copy": "False",
+        "Is Online": "True",
+        "Note": "https://www.techstars.com/portfolio"
+      },
+      {
+        "No.": "4",
+        "Material Description": "500 Startups",
+        "Author": "500\nStartups",
+        "Publisher": "",
+        "Published Date": "",
+        "Edition": "",
+        "ISBN": "",
+        "Is Main Material": "False",
+        "Is Hard Copy": "False",
+        "Is Online": "True",
+        "Note": "https://500.co/companies"
+      },
+      {
+        "No.": "5",
+        "Material Description": "AngelPad (NYC)",
+        "Author": "AngelPad (NYC)",
+        "Publisher": "",
+        "Published Date": "",
+        "Edition": "",
+        "ISBN": "",
+        "Is Main Material": "False",
+        "Is Hard Copy": "False",
+        "Is Online": "True",
+        "Note": "https://angelpad.com/portfolio/"
+      },
+      {
+        "No.": "6",
+        "Material Description": "Seed Accelerators database",
+        "Author": "Seed Accelerators",
+        "Publisher": "",
+        "Published Date": "",
+        "Edition": "",
+        "ISBN": "",
+        "Is Main Material": "False",
+        "Is Hard Copy": "False",
+        "Is Online": "True",
+        "Note": "https://www.seed-db.com/accelerators"
+      },
+      {
+        "No.": "7",
+        "Material Description": "The Lean Startup",
+        "Author": "Eric Ries",
+        "Publisher": "",
+        "Published Date": "",
+        "Edition": "",
+        "ISBN": "",
+        "Is Main Material": "False",
+        "Is Hard Copy": "True",
+        "Is Online": "False",
+        "Note": ""
+      },
+      {
+        "No.": "8",
+        "Material Description": "How to Design a Better Pitch Deck",
+        "Author": "Kevin Hale",
+        "Publisher": "",
+        "Published Date": "",
+        "Edition": "",
+        "ISBN": "",
+        "Is Main Material": "False",
+        "Is Hard Copy": "False",
+        "Is Online": "True",
+        "Note": "https://www.ycombinator.com/library/4T-how-to-design-a-better-pitch-deck/"
+      },
+      {
+        "No.": "9",
+        "Material Description": "A Guide to Seed Fundraising",
+        "Author": "Geoff Ralston",
+        "Publisher": "",
+        "Published Date": "",
+        "Edition": "",
+        "ISBN": "",
+        "Is Main Material": "False",
+        "Is Hard Copy": "False",
+        "Is Online": "True",
+        "Note": "https://www.ycombinator.com/library/4A-a-guide-to-seed-fundraising"
+      },
+      {
+        "No.": "10",
+        "Material Description": "A Guide to YC Demo Day Presentations",
+        "Author": "Geoff Ralston",
+        "Publisher": "",
+        "Published Date": "",
+        "Edition": "",
+        "ISBN": "",
+        "Is Main Material": "False",
+        "Is Hard Copy": "False",
+        "Is Online": "True",
+        "Note": "https://www.ycombinator.com/library/49-a-guide-to-yc-demo-day-presentations"
+      }
+    ],
+    "clos": [
+      {
+        "No.": "1",
+        "CLO Name": "CLO1",
+        "CLO Details": "Demonstrate understanding of key aspects of startup at a basic level"
+      },
+      {
+        "No.": "2",
+        "CLO Name": "CLO2",
+        "CLO Details": "Demonstrate the ability to build a right team and express effective teamwork"
+      },
+      {
+        "No.": "3",
+        "CLO Name": "CLO3",
+        "CLO Details": "Able to conduct survey and do market research"
+      },
+      {
+        "No.": "4",
+        "CLO Name": "CLO4",
+        "CLO Details": "Able to build the right product and the reasonable business model"
+      },
+      {
+        "No.": "5",
+        "CLO Name": "CLO5",
+        "CLO Details": "Able to create a preliminary pitch deck and present it convincingly"
+      }
+    ],
+    "schedule": [
+      {
+        "Session": "1",
+        "Topic": "Week 1\nInstructor's coaching\nSpark and nurture entrepreneurial spirit\n1 offline session (2,25 hrs)",
+        "Learning-Teaching Type": "Online, offline",
+        "LO": "CLO1",
+        "ITU": "IT",
+        "Student Materials": "Watch video lectures below:\na) Ideas, Products, Teams and Execution Part I - Why to Start a Startup (Link: https://startupclass.samaltman.com/courses/lec01/)\nb) Ideas, Products, Teams and Execution Part II (Link: https://startupclass.samaltman.com/courses/lec02/)\nc) How to Succeed With a Startup (Link: https://blog.ycombinator.com/sam-altman-how-to-succeed-with-a-startup/)\nd) Biggest Mistakes First-Time Founders Make (Link: https://www.ycombinator.com/library/66-biggest-mistakes-first-time-founders-make)\ne) (Optional) Stop searching for you passion (Link: https://www.youtube.com/watch?v=6MBaFL7sCb8)\nf) (Optional) Mark Zuckerberg on Building a Startup (Link: https://www.ycombinator.com/library/5s-mark-zuckerberg-on-building-a-startup)\n- (Optional) Read book The Lean Startup, chapter 1",
+        "S-Download": "Slides",
+        "Student's Tasks": "During class:\n- Form a team with 4-6 members, divide tasks and roles, name the team.\n(Note: Each team must be formed from at least 2 different majors). Answer and debate on the constructive questions.",
+        "URLs": ""
+      },
+      {
+        "Session": "2",
+        "Topic": "Week 1\nSeminar 1\n“Be Successful in Your Own Way” – Guest speaker",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO2",
+        "ITU": "T,U",
+        "Student Materials": "",
+        "S-Download": "Case studies",
+        "Student's Tasks": "- Attend the seminar\nDuring Seminar:\n- Prepare questions for Guest speakers",
+        "URLs": ""
+      },
+      {
+        "Session": "3",
+        "Topic": "Week 2\nInstructor's coaching\nForm a Winning Team\n1 offline session (2,25 hrs)",
+        "Learning-Teaching Type": "Online, offline",
+        "LO": "2",
+        "ITU": "T,U",
+        "Student Materials": "Watch video lectures below:\na) How to Find the Right Co-founder (Link: https://www.ycombinator.com/library/8h-how-to-find-the-right-co-founder)\nb) How to Work Together (Link: https://www.ycombinator.com/library/6n-how-to-work-together)\nc) (Optional) How to Find a Co-founder (Link: https://www.ycombinator.com/library/7j-how-to-find-a-co-founder)\nd) (Optional) How do You Convince Someone to Join Your Startup? (Link: https://www.ycombinator.com/library/5b-how-do-you-convince-someone-to-join-your-startup)\n- (Optional) Read book The Lean Startup, chapter 2",
+        "S-Download": "EXE101_Tai lieu huong dan nhom mon Trai nghiem khoi nghiep_V5_Tu SU23",
+        "Student's Tasks": "Before class:\n- Watch video lectures and note down key points of each video.\n- Prepare answer for the assigned constructive question.\n- Research and prepare arguments on the constructive questions assigned to other groups.\nDuring class:\n- Answer and debate on the constructive questions\nAfter class:\n- Brainstorm a startup idea: products/services and customer segment.\n- Prepare for Checkpoint 1",
+        "URLs": ""
+      },
+      {
+        "Session": "4",
+        "Topic": "Week 3\nInstructor's coaching\nDevelop and Evaluate a Startup Idea\n1 offline session (2,25 hrs)",
+        "Learning-Teaching Type": "Online, offline",
+        "LO": "CLO3, CLO4",
+        "ITU": "T,U",
+        "Student Materials": "Watch video lectures below:\na) How to Get and Test Ideas (Link: https://www.ycombinator.com/library/7x-how-to-get-and-test-ideas)\nb) How to Evaluate Startup Ideas (Link: https://www.ycombinator.com/library/6e-how-to-evaluate-startup-ideas)\nc) How to Measure (Link: https://www.ycombinator.com/library/6e-how-to-evaluate-startup-ideas)\nd) (Optional) How to Build the Future (Link: https://www.ycombinator.com/library/6G-how-to-build-the-future)\n- (Optional) Read book The Lean Startup chapter 3",
+        "S-Download": "",
+        "Student's Tasks": "Before class:\n- Watch video lectures and note down key points of each video.\n- Discuss in group to choose a startup idea for the group.\n- Prepare a brief presentation on the chosen startup idea\nDuring class:\n- Present the startup idea to the class",
+        "URLs": ""
+      },
+      {
+        "Session": "5",
+        "Topic": "Week 3\nSeminar 2\n“Choosing a Startup Idea” – Guest Speaker",
+        "Learning-Teaching Type": "Offline",
+        "LO": "",
+        "ITU": "I,T",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "- Attend the seminar\nDuring Seminar:\n- Prepare questions for Guest speakers",
+        "URLs": ""
+      },
+      {
+        "Session": "6",
+        "Topic": "Week 3\nMentoring 1",
+        "Learning-Teaching Type": "Online",
+        "LO": "CLO3, CLO4",
+        "ITU": "T,U",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "Before mentoring:\nPrepare the entrepreneurial topic\nDuring mentoring: discuss and require guidance from the mentor.\nAfter mentoring:\nPut into practice the knowledge and try to deepen it in the project.",
+        "URLs": ""
+      },
+      {
+        "Session": "7",
+        "Topic": "Week 4\nInstructor's coaching\nUnderstand Customer and Find Market-fit\n1 offline session (2,25 hrs)",
+        "Learning-Teaching Type": "Online, offline",
+        "LO": "CLO3, CLO4",
+        "ITU": "T,U",
+        "Student Materials": "Watch video lectures below:\na) How to Talk to Users (Link: https://www.ycombinator.com/library/6g-how-to-talk-to-users)\nb) How to Find Product-Market Fit (Link: https://www.ycombinator.com/library/7V-how-to-find-product-market-fit-sus-2018)\nc) (Optional) How to Run a User Interview (Link: https://startupclass.samaltman.com/courses/lec16/)\nd) (Optional) 10 Ways to Have a Better Conversation (Link: https://www.youtube.com/watch?v=R1vskiVDwl4)\ne) (Optional) How to Find Product Market Fit (Link: https://blog.ycombinator.com/how-to-find-product-market-fit-peter-reinhardt/)\n- (Optional) Read book The Lean Startup, chapter 4",
+        "S-Download": "",
+        "Student's Tasks": "Before class:\n- Watch video lectures and note down key points of each video.\n- Prepare answer for the assigned constructive question.\n- Research and prepare arguments on the constructive questions assigned to other groups.\nDuring class:\n- Answer and debate on the constructive questions\nAfter class:\n- Start doing market research\n- Prepare for Checkpoint 2",
+        "URLs": ""
+      },
+      {
+        "Session": "8",
+        "Topic": "Week 5\nInstructor's coaching\nMarket Research\n1 offline session (2,25 hrs)",
+        "Learning-Teaching Type": "Online, offline",
+        "LO": "CLO3, CLO4",
+        "ITU": "T,U",
+        "Student Materials": "Perform real-world customer interview to understand their problem and formulate a solution",
+        "S-Download": "",
+        "Student's Tasks": "- During class: each team presents its market research (market pain, solution, market fit, customer segments, competitors, market size,…).\n- Oral present market analysis and problem statement, give insign information from its market research",
+        "URLs": ""
+      },
+      {
+        "Session": "9",
+        "Topic": "Week 5\nMentoring 2 (optional)",
+        "Learning-Teaching Type": "Online",
+        "LO": "CLO4",
+        "ITU": "T,U",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "Carry out different required market analysis tasks.\nAcquire the guidance of the mentor and put it into practice.",
+        "URLs": ""
+      },
+      {
+        "Session": "10",
+        "Topic": "Week 6\nInstructor's coaching\nBuild Product\n1 offline session (2,25 hrs)",
+        "Learning-Teaching Type": "Online, offline",
+        "LO": "CLO4",
+        "ITU": "TU",
+        "Student Materials": "Watch video lectures below:\na) How to Plan an MVP (Link: https://www.ycombinator.com/library/6f-how-to-plan-an-mvp)\nb) How to Build Products Users Love (Link: https://startupclass.samaltman.com/courses/lec07/)\nc) Building Product, Talking to Users, and Growing (Link: https://startupclass.samaltman.com/courses/lec04/)\n- (Optional) Read book The Lean Startup, chapter 5",
+        "S-Download": "",
+        "Student's Tasks": "Before class:\n- Watch video lectures and note down key points of each video.\n- Prepare answer for the assigned constructive question.\n- Research and prepare arguments on the constructive questions assigned to other groups.\nDuring class:\n- Answer and debate on the constructive questions\n- Present plan for building a Prototype.\nAfter Class:\n- Build a Prototype then send to at least 20 pp for feedback then modify it.",
+        "URLs": ""
+      },
+      {
+        "Session": "11",
+        "Topic": "Week 6\nMentoring 3 (optional)",
+        "Learning-Teaching Type": "Online",
+        "LO": "CLO4",
+        "ITU": "TU",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "Develop the product/service's description.\nAcquire the guidance of the mentor and put it into practice.",
+        "URLs": ""
+      },
+      {
+        "Session": "12",
+        "Topic": "Week 7\nInstructor's coaching\nBusiness Model\n1 offline session (2,25 hrs)",
+        "Learning-Teaching Type": "Online, offline",
+        "LO": "CLO4",
+        "ITU": "TU",
+        "Student Materials": "Watch videos below:\na) Nine Business Models and the Metrics Investors Want (Link: https://www.ycombinator.com/library/8E-nine-business-models-and-the-metrics-investors-want-sus-2019)\nb) Startup Pricing 101 (Link: https://www.ycombinator.com/library/6h-startup-pricing-101)",
+        "S-Download": "",
+        "Student's Tasks": "\"Before class:\n- Watch video lectures and note down key points of each video.\n- Prepare answer for the assigned constructive question.\n- Research and prepare arguments on the constructive questions assigned to other groups.\nDuring class:\n- Answer and debate on the constructive questions\n- Present plan for building a Prototype.\nAfter Class:\n- Build a Prototype then send to at least 20 pp for feedback then modify it.",
+        "URLs": ""
+      },
+      {
+        "Session": "13",
+        "Topic": "Week 8\nInstructor's coaching\nFundraising\n1 offline session (2,25 hrs)",
+        "Learning-Teaching Type": "Online, offline",
+        "LO": "CLO5",
+        "ITU": "T,U",
+        "Student Materials": "Watch videos below:\na) Modern Startup Funding (Link: https://www.ycombinator.com/library/8F-modern-startup-funding-sus-2019)\nb) Fundraising Fundamentals (Link: https://www.ycombinator.com/library/7I-fundraising-fundamentals-sus-2018)\nc) Reading: A Guide to Seed Fundraising (Link: https://www.ycombinator.com/library/4A-a-guide-to-seed-fundraising)\nOptional:\nd) A Conversation With Aileen Lee (Link: https://www.ycombinator.com/library/75-a-conversation-with-aileen-lee-sus-2018)",
+        "S-Download": "",
+        "Student's Tasks": "Before class:\n- Watch video lectures and note down key points of each video.\n- Prepare answer for the assigned constructive question.\n- Research and prepare arguments on the constructive questions assigned to other groups.\nDuring class:\n- Answer and debate on the constructive questions",
+        "URLs": ""
+      },
+      {
+        "Session": "14",
+        "Topic": "Week 8\nSeminar 3\nRecommended topics:\n1. How to do market research – Instructor or Guest speaker\n2. MVP and How to Shorten Time-To- Market\n3. Startup Fundraising & Venture Investment",
+        "Learning-Teaching Type": "Offline",
+        "LO": "",
+        "ITU": "I,T",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "- Attend the seminar\nDuring Seminar:\n- Prepare questions for Guest speakers",
+        "URLs": ""
+      },
+      {
+        "Session": "15",
+        "Topic": "Week 8\nMentoring 4 (optional)",
+        "Learning-Teaching Type": "Online",
+        "LO": "CLO5",
+        "ITU": "T,U",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "Develop the canvas business model.\nAcquire the guidance of the mentor and put it into practice.",
+        "URLs": ""
+      },
+      {
+        "Session": "16",
+        "Topic": "Week 9\nInstructor's coaching\nManage a Startup\n1 offline session (2,25 hrs)",
+        "Learning-Teaching Type": "Online, offline",
+        "LO": "CLO5",
+        "ITU": "T,U",
+        "Student Materials": "Watch videos below:\na) Legal and Accounting Basics for Startups (Link: https://startupclass.samaltman.com/courses/lec18/)\nb) Managing Startup Finances (Link: https://www.ycombinator.com/library/8I-managing-startup-finances-sus-2019)\nc) Building an Engineering Team (Link: https://www.ycombinator.com/library/7N-building-an-engineering-team-sus-2018)\nd) How to Lead (Link: https://www.ycombinator.com/library/6s-how-to-lead)",
+        "S-Download": "",
+        "Student's Tasks": "\"Before class:\n- Watch video lectures and note down key points of each video.\n- Prepare answer for the assigned constructive question.\n- Research and prepare arguments on the constructive questions assigned to other groups.\nDuring class:\n- Answer and debate on the constructive questions",
+        "URLs": ""
+      },
+      {
+        "Session": "17",
+        "Topic": "Week 9\nMentoring 5",
+        "Learning-Teaching Type": "Online",
+        "LO": "CLO5",
+        "ITU": "TU",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "Prepare the pitch deck",
+        "URLs": ""
+      },
+      {
+        "Session": "18",
+        "Topic": "Week 10\nIntroduce your startup\n1 offline session (2,25 hrs)",
+        "Learning-Teaching Type": "Online, offline",
+        "LO": "CLO5",
+        "ITU": "T,U",
+        "Student Materials": "Watch videos below:\na) How to Pitch Your Startup (Link: https://www.ycombinator.com/library/6q-how-to-pitch-your-startup)\nb) Reading: How to Design a Better Pitch Deck (Link: https://www.ycombinator.com/library/4T-how-to-design-a-better-pitch-deck/)\nc) Reading: A Guide to YC Demo Day Presentations (Link: https://www.ycombinator.com/library/49-a-guide-to-yc-demo-day-presentations)",
+        "S-Download": "",
+        "Student's Tasks": "Introduce your startup",
+        "URLs": ""
+      }
+    ],
+    "assessments": [
+      {
+        "No.": "1",
+        "Category": "Constructivism Presentations",
+        "Type": "on- goin g",
+        "Part": "1",
+        "Weight": "15.0%",
+        "Completion Criteria": "5",
+        "Duration": "15'",
+        "CLO": "all",
+        "Question Type": "Oral Presentation",
+        "No Question": "",
+        "Knowledge and Skill": "Topic from video lectures, class discussion activities.",
+        "Grading Guide": "- Guided by instructor\n- Questions from video lectures, class discussion activities.\n- Students discuss on group then present.\n- An average point could be evaluated and publised to students at the end of the semesters",
+        "Note": ""
+      },
+      {
+        "No.": "2",
+        "Category": "Group Assignm ent 1 (Checkp oint 1)",
+        "Type": "on- goin g",
+        "Part": "1",
+        "Weight": "10.0%",
+        "Completion Criteria": "5",
+        "Duration": "10'-30'",
+        "CLO": "CLO1, CLO2,",
+        "Question Type": "Oral Presentation",
+        "No Question": "-",
+        "Knowledge and Skill": "",
+        "Grading Guide": "- In class, by instructor\n- The class will be divided into groups, each group of 4-6 students (must be from 2 majors or more).\n- The group assigns roles to each member, for example, team leader - CEO, in charge of engineering - CTO, in charge of marketing - CMO,...\n- Each group has the task of finding a startup idea, naming the group, and presenting the business area of that idea.",
+        "Note": "Instructor has resposibility to review the group's checkpoint 1 for students after grading."
+      },
+      {
+        "No.": "3",
+        "Category": "Group Assignm ent 2 (Checkp oint 2)",
+        "Type": "on- goin g",
+        "Part": "1",
+        "Weight": "20.0%",
+        "Completion Criteria": "5",
+        "Duration": "10'-30'",
+        "CLO": "CLO3",
+        "Question Type": "Oral Presentation",
+        "No Question": "-",
+        "Knowledge and Skill": "",
+        "Grading Guide": "- In class, by instructor\n- Identify the problem to be solved and analyze the market:\n. Servery group (> 100 people) or interview two experts in their industry.\n. The team presented market research results and analysis insights related to their business areas, including industry outlook, market size, trends, segments, key players, market share, product/service pricing.\n. The team presented the value proposition for their idea, market fit and compared it with competitors.",
+        "Note": "Instructor has resposibility to review the group's checkpoint 2 for students after grading."
+      },
+      {
+        "No.": "4",
+        "Category": "Group Assignm ent 3 (Checkp oint 3)",
+        "Type": "on- goin g",
+        "Part": "1",
+        "Weight": "15.0%",
+        "Completion Criteria": "5",
+        "Duration": "10'-30'",
+        "CLO": "CLO4",
+        "Question Type": "Oral Presentation",
+        "No Question": "-",
+        "Knowledge and Skill": "",
+        "Grading Guide": "- Product/service description:\n- Technology tools description\n- Canvas business model presentation.",
+        "Note": "Instructor has resposibility to review the group's checkpoint 3 for students after grading."
+      },
+      {
+        "No.": "5",
+        "Category": "Presentation (Checkp oint 4)",
+        "Type": "on- goin g",
+        "Part": "1",
+        "Weight": "40.0%",
+        "Completion Criteria": "5",
+        "Duration": "10'-30'",
+        "CLO": "CLO5",
+        "Question Type": "Oral Presentation",
+        "No Question": "-",
+        "Knowledge and Skill": "",
+        "Grading Guide": "Build a preliminary pitch deck and present it.\nGraded by instructor and mentor.\nMarking criteria:\n- Team profile 10%\n- Product market fit 40%\n- Business model 20%\n- Operative 20%\n- Fundraising plan 10%\nNote: Students can ask the University for financial support for the implementing of their project. For this purpose, the group submit a funding estimation which will be examined and validated by the instructor and the mentor.",
+        "Note": "Instructor has resposibility to review the group's checkpoint 4 for students after grading."
+      }
+    ]
+  },
+  "error": null
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "category": "Assignment",
+    "part": "1",
+    "weight": "20.0%",
+    "clo": ""
+  },
+  {
+    "category": "Lab",
+    "part": "5",
+    "weight": "10.0%",
+    "clo": ""
+  },
+  {
+    "category": "Practical Exam",
+    "part": "1",
+    "weight": "30.0%",
+    "clo": ""
+  },
+  {
+    "category": "Progress test",
+    "part": "2",
+    "weight": "10.0%",
+    "clo": ""
+  },
+  {
+    "category": "Final exam",
+    "part": "1",
+    "weight": "30.0%",
+    "clo": ""
+  }
+]

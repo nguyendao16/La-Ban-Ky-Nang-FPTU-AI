@@ -1,0 +1,80 @@
+{
+  "CLO1": [
+    "[Chapter 1: Course Introduction and Group Formation] Introduction to the course",
+    "Discussion on the Capstone Project (CP) topic",
+    "Formation of teams/groups",
+    "Discuss and choose a project topic"
+  ],
+  "CLO2": [
+    "[Chapter 2: Project Proposal ] Guide Report No.1: Project Proposal",
+    "Report No.1: Project Proposal (Discussion)",
+    "References related to Report 1",
+    "Team Meeting: Project Proposal Writing",
+    "Report No.1 Submission: Introduction & Problem Statement",
+    "Team Meeting: Instructor's feedbacks for Project Proposal & Group Division",
+    "Team Meeting: Project Proposal Improvement",
+    "Report No.1 Final Submission"
+  ],
+  "CLO3": [
+    "[Chapter 3: Data Collection and Cleaning] Guide Report No.2: Data Tasks [Part 1: Data Collection and Cleaning]",
+    "References related to Report No.2: Data Collection and Cleaning Plan",
+    "Team Meeting: Data Collection(Present the issues discussed and agreed upon by the group)",
+    "Team Meeting: Instructor's feedbacks for Data Collection",
+    "Team Meeting: Data Collection Improvement",
+    "Team Meeting: Data Cleaning (Present the issues discussed and agreed upon by the group)",
+    "Team Meeting: Instructor's feedbacks for Data Cleaning",
+    "Team Meeting: Data Cleaning Improvement"
+  ],
+  "CLO4": [
+    "[Chapter 4: Exploratory Data Analysis ] Guide Report No.2: Data Tasks [Part 2: Exploratory Data Analysis]",
+    "References related to Report No.2: Exploratory Data Analysis",
+    "Team Meeting: Exploratory Data Analysis (Present the issues discussed and agreed upon by the group)",
+    "Team Meeting: Instructor's feedback for Exploratory Data Analysis",
+    "Team Meeting: Exploratory Data Analysis Improvement",
+    "Report No.2 Submission: Data Tasks",
+    "Team Meeting: Instructor's feedbacks for Data Tasks all phase",
+    "Team Meeting: Data Tasks Improvement"
+  ],
+  "CLO5": [
+    "[Chapter 5: Model Development] Guide Report No.3: Model & Result [ Part 1: Model Development]",
+    "References related to Report No.3: Model Development",
+    "Team Meeting: Model Development (Present the issues discussed and agreed upon by the group)",
+    "Team Meeting: Instructor's feedback for Model Development",
+    "Team Meeting: Model Development Improvement"
+  ],
+  "CLO6": [
+    "[Chapter 6:Model Evaluation and Fine-Tuning] Guide Report No.3: Model & Result [ Part 2: Model Evaluation and Fine-Tuning]",
+    "References related to Report No.3: Model Evaluation and Fine-Tuning",
+    "Team Meeting: Model Evaluation and Fine-Tuning (Present the issues discussed and agreed upon by the group)",
+    "Team Meeting: Instructor's feedbacks for Model Evaluation and Fine-Tuning",
+    "Team Meeting: Model Evaluation and Fine-Tuning Improvement"
+  ],
+  "CLO7": [
+    "[Chapter 7: Results Interpretation and Visualization\n]Guide Report No.3: Model & Result [ Part 3: Results Interpretation and Visualization]",
+    "References related to Report No.3: Results Interpretation and Visualization",
+    "Team Meeting: Results Interpretation and Visualization (Present the issues discussed and agreed upon by the group)",
+    "Team Meeting: Instructor's feedbacks for Results Interpretation and Visualization",
+    "Team Meeting: Results Interpretation and Visualization Improvement"
+  ],
+  "CLO8": [
+    "[Chapter 8: Conclusion and Recommendations\n]Guide Report No.3: Model & Result [ Part 4: Conclusion and Recommendations]",
+    "References related to Report No.3: Conclusion and Recommendations",
+    "Team Meeting: Conclusion and Recommendations (Present the issues discussed and agreed upon by the group)",
+    "Team Meeting: Instructor's feedbacks for Conclusion and Recommendations",
+    "Team Meeting: Conclusion and Recommendations Improvement",
+    "Report No.3 Submission: Model & Results",
+    "Team Meeting: Instructor's feedbacks for Model & Results all phase"
+  ],
+  "CLO9": [
+    "Team Meeting: Model & Results Improvement",
+    "[Chapter 9: Finalization and Presentations] Guide Final Report",
+    "References related to Final Report",
+    "Team Meeting: Final Report (Present the issues discussed and agreed upon by the group)"
+  ],
+  "CLO10": [
+    "Team Meeting: Instructor's discussion for Final Report",
+    "Team Meeting: Final Report Improvement",
+    "Final Report Submission",
+    "Team Meeting: Practice for Presentation of Capstone Project"
+  ]
+}

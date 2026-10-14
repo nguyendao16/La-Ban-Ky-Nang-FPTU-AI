@@ -1,0 +1,40 @@
+{
+  "selections": [
+    {
+      "claim_id": "S3-OD",
+      "claim": "CPV301 yêu cầu understand and implement object detection",
+      "relation": "direct",
+      "source_matches": [
+        {
+          "course_code": "CPV301",
+          "clo": "CLO8",
+          "source_excerpt": "Understand and implement object detection techniques."
+        }
+      ]
+    },
+    {
+      "claim_id": "S3-FR",
+      "claim": "CPV301 yêu cầu explain face recognition and object tracking",
+      "relation": "direct",
+      "source_matches": [
+        {
+          "course_code": "CPV301",
+          "clo": "CLO9",
+          "source_excerpt": "Explain the principles of face recognition and object tracking techniques."
+        }
+      ]
+    },
+    {
+      "claim_id": "S3-IMPLEMENT",
+      "claim": "CPV301 xác nhận implement face recognition và object tracking",
+      "relation": "insufficient",
+      "source_matches": [
+        {
+          "course_code": "CPV301",
+          "clo": "CLO9",
+          "source_excerpt": "Explain the principles of face recognition and object tracking techniques."
+        }
+      ]
+    }
+  ]
+}

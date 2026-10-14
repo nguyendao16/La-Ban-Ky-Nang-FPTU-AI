@@ -1,0 +1,38 @@
+[
+  {
+    "category": "Assignment 1",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": ""
+  },
+  {
+    "category": "Assignment 2",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": ""
+  },
+  {
+    "category": "Practical exam",
+    "part": "1",
+    "weight": "30.0%",
+    "clo": ""
+  },
+  {
+    "category": "Progress test 1",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": ""
+  },
+  {
+    "category": "Progress test 2",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": ""
+  },
+  {
+    "category": "Final exam",
+    "part": "1",
+    "weight": "30.0%",
+    "clo": ""
+  }
+]

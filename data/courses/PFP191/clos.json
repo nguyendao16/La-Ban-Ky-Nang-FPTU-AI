@@ -1,0 +1,30 @@
+[
+  {
+    "clo": "CLO1",
+    "description": "Understand the Python programming environment and foundational programming concepts, including why programs are written, basic computer hardware architecture, interpreters and compilers, program structure, building blocks of programs, debugging, and the role of an IDE in writing Python code."
+  },
+  {
+    "clo": "CLO2",
+    "description": "Understand Python variables, expressions, and statements, including values and types, variable names and keywords, operators and operands, order of operations, the modulus operator, string operations, user input, comments, mnemonic variable naming, and debugging basic code."
+  },
+  {
+    "clo": "CLO3",
+    "description": "Understand conditional execution, functions, loops, and iteration in Python, including Boolean expressions, logical operators, alternative and nested conditionals, exception handling with try and except, short-circuit evaluation, while loops, for loops, loop patterns, function calls."
+  },
+  {
+    "clo": "CLO4",
+    "description": "Understand Python strings as sequences, including length calculation with len, traversal with loops, slicing, immutability, loop-based counting, membership with the in operator, string comparison, string methods, parsing strings, format operators, and debugging string-related code."
+  },
+  {
+    "clo": "CLO5",
+    "description": "Understand file handling in Python, including persistence, opening files, working with text files and lines, reading files, searching through file contents, allowing users to choose file names, using try, except, and open for safer file access, writing files, and debugging file-processing code."
+  },
+  {
+    "clo": "CLO6",
+    "description": "Understand Python lists, dictionaries, and tuples as core data structures, including lists as mutable sequences, list traversal, operations, slices, methods, deletion, list-function interactions, lists and strings, parsing lines, object values and aliasing, dictionaries as counters."
+  },
+  {
+    "clo": "CLO7",
+    "description": "Understand object-oriented programming in Python and apply it in application contexts using classes and objects, encapsulation and data hiding, abstraction and modular design, inheritance, polymorphism, method overloading, object usage in OOP programs, object lifecycle, advanced OOP concepts, design patterns, and case studies."
+  }
+]

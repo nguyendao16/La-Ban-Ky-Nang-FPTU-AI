@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "semantic_assessment": "manual_only",
+  "rubric_path": "data/academic_benchmark/evaluations/rubric.json",
+  "rubric_sha256": "f62c48bba6ed0e2cb3cf5bff46c32b097e22becd9b1531c52ef1ac7b040efa4f",
+  "severity": {
+    "P0": "Bịa kiến thức/điểm/bằng chứng; gán sai CLO hoặc technology; xác nhận kinh nghiệm nghề nghiệp không có nguồn; coi history là bằng chứng mới. Case có P0 không đạt semantic.",
+    "P1": "Sai diễn giải curriculum/achievement, thiếu evidence cho claim đúng, lẫn kiến thức/kinh nghiệm, thiếu requirement đáng kể, đổi optional thành mandatory.",
+    "P2": "Lặp, hình thức cứng, quá ngắn/dài so với câu hỏi, trích tiếng Anh dư thừa, chuyển ý thiếu tự nhiên."
+  },
+  "claim_record_fields": [
+    "operation",
+    "stage",
+    "claim_id",
+    "original_claim_verbatim",
+    "span",
+    "origin_asked_or_added",
+    "model_sources",
+    "acceptable_sources",
+    "actually_provided_sources",
+    "quote_provenance",
+    "semantic_support",
+    "result",
+    "taxonomy",
+    "severity",
+    "explanation",
+    "reviewer"
+  ],
+  "metrics": {
+    "asked": "Frozen asked_atomic_units, each once; do not count a compound plus its atoms twice.",
+    "answered": "Manually split every factual assertion in final reply, including summaries; independently verify scores, bands, verbs and implied use.",
+    "added": "Answered atomic assertions not required by asked units; report counts/errors separately, not extra credit.",
+    "omission": "Asked assertion omitted or unanswered; do not penalize an excluded source, nonessential alternative citation or optional grade detail.",
+    "wrong_attribution": "Incorrect source-topic association, including a verbatim quote attached to another source.",
+    "interpretation_error": "Unsupported cognitive verb, curriculum-to-personal-use, framework, project or achievement inference.",
+    "summary_invention": "New unsupported assertion/association first present in summary, after inspecting prior Review/history.",
+    "history_propagation": "Same specific incorrect association recurs; topic overlap alone is insufficient.",
+    "source_compression": "Combined independent claims lose necessary distinct support; separate missing reference from false binding."
+  },
+  "limitations": [
+    "Exact quote is provenance, not entailment or semantic acceptance.",
+    "Empty but schema-valid output is not complete or correct.",
+    "Unknown/incomplete/parser/provenance failures are not automatically academic P0.",
+    "A/B observable selections do not expose private model reasoning.",
+    "Do not tune after live output or replace frozen expected evidence silently."
+  ]
+}

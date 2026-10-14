@@ -1,0 +1,7 @@
+{
+  "syllabus_name": "AI for Cybersecurity_ Trí tuệ nhân tạo cho an toàn thông tin",
+  "course_name_english": "AI for Cybersecurity",
+  "subject_code": "AIS301c",
+  "description": "This course is designed based on the Coursera AI for Cybersecurity Specialization by Johns Hopkins University. The course introduces how artificial intelligence and machine learning techniques are applied to cybersecurity problems, including email threat detection, spam and phishing classification, authentication security, malware detection, network anomaly detection, fraud prevention, adversarial machine learning, Generative Adversarial Networks, reinforcement learning, and AI model evaluation. Students learn to frame cybersecurity problems as data-driven AI tasks, engineer security-relevant features, train and evaluate supervised and unsupervised models, analyze anomalies in network traffic, and assess the robustness of AI systems against adversarial conditions. The course emphasizes defensive, ethical, and responsible applications of AI in cybersecurity through Coursera-based videos, readings, quizzes, hands-on notebooks, and review sessions.",
+  "tools": "Coursera, Jupyter Notebook, Python, common machine learning libraries, course datasets and online quizzes/labs."
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "category": "Progress Test",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6"
+  },
+  {
+    "category": "Report 1: Infrastructure & Pipeline Proposal",
+    "part": "1",
+    "weight": "5.0%",
+    "clo": "CLO1, CLO2, CLO3, CLO10"
+  },
+  {
+    "category": "Report 2: Data Engineering & AWS Integration",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO4, CLO6, CLO7, CLO10"
+  },
+  {
+    "category": "Report 3: Model Tracking & Deployment",
+    "part": "1",
+    "weight": "15.0%",
+    "clo": "CLO8, CLO9, CLO10"
+  },
+  {
+    "category": "Report 4: Final System Report & Group Presentation",
+    "part": "1",
+    "weight": "30.0%",
+    "clo": "CLO1, CLO4, CLO7, CLO9, CLO10"
+  },
+  {
+    "category": "Final Exam (Computer-based Multiple-choice Examination)",
+    "part": "1",
+    "weight": "30.0%",
+    "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8, CLO9"
+  }
+]

@@ -1,0 +1,5 @@
+AI Intern — GreenNode
+Responsibilities: Evaluate AI algorithms and LLM/VLM models for computer-vision/IDP products; collect and label data; develop and test AI/CV products; collaborate on product features; implement services with performance, scale, availability and monitoring considerations.
+Required qualifications: Relevant university study; Python programming experience; ML, deep-learning and computer-vision background; modern ML-framework experience. The source lists scikit-learn, TensorFlow, Keras and PyTorch without an explicit Boolean relationship. Basic English communication; at least one internship year before graduation.
+Preferred: Image-processing knowledge; backend experience.
+This is a source-grounded research paraphrase, not the employer's exact JD or confirmation of an open vacancy.

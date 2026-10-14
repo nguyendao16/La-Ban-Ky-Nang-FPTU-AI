@@ -1,0 +1,27 @@
+{
+  "CLO1": [
+    "Specialization Introduction\nIntroduction to Artificial Intelligence (AI)\n- What is AI? Applications and Examples of AI\n- AI Concepts, Terminology, and Application Areas\nOffline 1: Introduction to the online course AIG202c",
+    "- AI: Issues, Concerns and Ethical Considerations",
+    "- The Future with AI, and AI in Action"
+  ],
+  "CLO3": [
+    "Generative AI: Introduction and Applications:\n- Introduction and capacities of Generative AI\n- Application and tools of Generative AI",
+    "- Course quiz, project and warm-up"
+  ],
+  "CLO4": [
+    "Generative AI: Prompt Engineering Basics:\n- Prompt Engineering for Generative AI",
+    "- Prompt Engineering: Techniques and Approaches",
+    "- Course quiz, project and warm-up"
+  ],
+  "CLO5": [
+    "Building AI Powered Chatbots Without Programming:\n- Introduction\n- Intents",
+    "- Entities\n- Dialog",
+    "- Deployment\n- Context Variables & Slots",
+    "- Digressions\n- Summary\n- (Optional) Watson Actions\n- Final Exam (spec)\nOffline 2: Review AI Foundations for Everyone Specialization (Spec)"
+  ],
+  "CLO2": [
+    "Specialization Introduction\nIntroduction to Artificial Intelligence (AI)\n- What is AI? Applications and Examples of AI\n- AI Concepts, Terminology, and Application Areas\nOffline 1: Introduction to the online course AIG202c",
+    "- AI: Issues, Concerns and Ethical Considerations",
+    "- The Future with AI, and AI in Action"
+  ]
+}

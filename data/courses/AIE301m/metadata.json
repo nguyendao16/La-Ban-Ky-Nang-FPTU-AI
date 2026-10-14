@@ -1,0 +1,7 @@
+{
+  "syllabus_name": "AI for Trading_Ứng dụng TTNT cho giao dịch",
+  "course_name_english": "AI for Trading",
+  "subject_code": "AIE301m",
+  "description": "Artificial intelligence (AI) has transformed industries around the world. The aim of this unit is to introduce the current and future applications of AI in trading strategy. Students will be guided to discover the structure used in machine learning (ML), deep learning (DL), and reinforcement learning (RL) techniques, the required steps, and the optimized methods in the AI-driven trading field. Students also learn how to build some ML models on Keras and Tensorflow.",
+  "tools": "No"
+}

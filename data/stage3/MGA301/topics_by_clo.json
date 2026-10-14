@@ -1,0 +1,85 @@
+{
+  "CLO1": [
+    "1. Foundations of Multimodality\n- What multimodal AI is and isn't\n- The four core problems: representation, alignment, fusion, translation",
+    "1. Foundations of Multimodality (continued)\n- Why now: from connectors to native multimodality\n- Across modalities (vision, language, audio, video, 3D)",
+    "Guided Exercises / In-class Activity",
+    "Review and Discussion",
+    "Report 1 - Project proposal",
+    "Progress Test",
+    "Capstone Project - Final Presentation and Demonstrations"
+  ],
+  "CLO2": [
+    "2. Cross-Modal Representation Learning\n- Joint vs coordinated spaces\n- Contrastive learning and the InfoNCE objective",
+    "2. Cross-Modal Representation Learning (continued)\n- CLIP, ALIGN, SigLIP at scale\n- ImageBind: binding many modalities",
+    "Review and Discussion",
+    "Report 2 - Representation & Fusion Milestone",
+    "Progress Test",
+    "Capstone Project - Final Presentation and Demonstrations"
+  ],
+  "CLO3": [
+    "3. Fusion Architectures\n- Early/late/hybrid fusion\n- Cross-attention as the fusion engine",
+    "3. Fusion Architectures (continued)\n- Perceiver and latent bottlenecks\n- Q-Former and projection connectors",
+    "Guided Exercises / In-class Activity",
+    "Review and Discussion",
+    "4. Vision-Language Models I\n- The connector paradigm\n- The LLaVA recipe end to end",
+    "4. Vision-Language Models I (continued)\n- Flamingo: gated cross-attention\n- Two-stage training and visual instruction tuning",
+    "Report 2 - Representation & Fusion Milestone",
+    "Progress Test",
+    "Capstone Project - Proposal Workshop (One-page proposal due this week)",
+    "Capstone Project - Final Presentation and Demonstrations"
+  ],
+  "CLO4": [
+    "4. Vision-Language Models I\n- The connector paradigm\n- The LLaVA recipe end to end",
+    "4. Vision-Language Models I (continued)\n- Flamingo: gated cross-attention\n- Two-stage training and visual instruction tuning",
+    "Review and Discussion",
+    "5. Vision-Language Models II\n- Captioning, VQA, and grounding/referring expressions\n- The VLM task zoo",
+    "5. Vision-Language Models II (continued)\n- OCR and long-document understanding\n- Data, scaling, and failure modes",
+    "Guided Exercises / In-class Activity",
+    "6. Multimodal LLMs, Unification and Any-to-Any\n- From connectors to native architectures\n- Unified-token decoder-only models (Chameleon, Emu3)",
+    "6. Multimodal LLMs, Unification and Any-to-Any (continued)\n- Diffusion transformers and hybrid AR+diffusion (Transfusion, Janus, BAGEL)\n- The discrete-token understanding gap",
+    "Report 3 - Integrated Prototype Milestone",
+    "Progress Test",
+    "Capstone Project - Proposal Workshop (One-page proposal due this week)",
+    "Capstone Project - Final Presentation and Demonstrations"
+  ],
+  "CLO5": [
+    "7. Speech and Audio\n- Audio as a modality; ASR and Whisper\n- Audio understanding and audio-LMs",
+    "7. Speech and Audio (continued)\n- TTS and speech/music generation\n- Real-time, streaming omni models",
+    "Report 3 - Integrated Prototype Milestone",
+    "Review and Discussion",
+    "Progress Test",
+    "9. Cross-Modal Generation\n- Conditioning is a prerequisite\n- Conditioning across modalities",
+    "9. Cross-Modal Generation (continued)\n- Text-to-audio and music generation\n- How generation joins the unified model",
+    "Capstone Project - Proposal Workshop (One-page proposal due this week)",
+    "10. Video\n- Why video is hard: temporal structure and scale\n- Temporal modeling and long-video strategies",
+    "10. Video (continued)\n- Video diffusion and text-to-video maturation\n- Video as a step toward world models",
+    "Guided Exercises / In-class Activity",
+    "11. 3D and Embodied Multimodality\n- Representing 3D scenes: NeRF and Gaussian splatting\n- Text-to-3D via score distillation (DreamFusion)",
+    "11. 3D and Embodied Multimodality (continued)\n- Vision-language-action (VLA) models\n- Embodied agents and world models",
+    "Capstone Project - Final Presentation and Demonstrations"
+  ],
+  "CLO6": [
+    "Report 3 - Integrated Prototype Milestone",
+    "12. Multimodal Reasoning, Agents and Retrieval\n- Multimodal reasoning and thinking with images\n- Test-time compute over visual input",
+    "12. Multimodal Reasoning, Agents and Retrieval (continued)\n- Computer-use and GUI agents\n- Cross-modal retrieval and multimodal RAG",
+    "Guided Exercises / In-class Activity",
+    "Review and Discussion",
+    "14. Efficiency and Deployment\n- The token-explosion problem\n- Token reduction and resampling",
+    "14. Efficiency and Deployment (continued)\n- Quantization for VLMs; serving multimodal models\n- Latency, cost, and model-tier selection",
+    "Capstone Project - Final Presentation and Demonstrations"
+  ],
+  "CLO7": [
+    "Report 4 - Evaluation & Analysis Milestone",
+    "13. Evaluating Multimodal Systems\n- Why evaluation is hard; the saturation story (MMMU-Pro)\n- Where the frontier moved: video, OCR, audio, unified eval",
+    "13. Evaluating Multimodal Systems (continued)\n- Hallucination and grounding diagnostics (POPE)\n- Contamination, robustness, judge bias",
+    "Review and Discussion",
+    "Capstone Project - Final Presentation and Demonstrations"
+  ],
+  "CLO8": [
+    "Capstone Project - Proposal Workshop (One-page proposal due this week)",
+    "15. Safety, Provenance and Frontiers / Course Wrap\n- The multimodal risk surface; deepfakes and synthetic media\n- Provenance and watermarking (C2PA)",
+    "15.Safety, Provenance and Frontiers / Course Wrap (continued)\n- Biometric and facial privacy; bias across modalities\n- Open problems and frontiers; course consolidation",
+    "Capstone Project - Final Presentation and Demonstrations",
+    "Review and Discussion"
+  ]
+}

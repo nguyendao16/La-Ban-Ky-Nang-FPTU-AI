@@ -1,0 +1,139 @@
+{
+  "course_id": "MAE101",
+  "clos": [
+    {
+      "clo_id": "CLO1",
+      "original_description": "Describe basic properties and find the limit of a function\nLO1.1 Find the domain, range, zeros and analyze the symmetry of the graph; create new functions from old functions.\nLO1.2 Find the slope and write an equation of a line; describe how a function changes under graph translations.\nLO1.3 Compute the limit of a function using graphs and limit laws, including the Squeeze's Theorem.\nLO1.4 Find limits at infinity and infinity limits, and apply in finding asymptotes of a function.\nLO1.5 Identify where a function is continuous; use the Intermedia Value Theorem to show that an equation has a solution.",
+      "enriched_description": "Describe basic function properties and find limits, including domain, range, zeros, symmetry, creation of new functions, slopes and line equations, graph translations, graphical and limit-law computation, the Squeeze Theorem, limits at infinity and infinite limits, asymptotes, continuity, and the Intermediate Value Theorem.",
+      "source_topic_indices": [
+        0,
+        1,
+        2
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO2",
+      "original_description": "Calculate derivatives of a function\nLO2.1 Find the average rate of change; identify derivative as the limit of a difference quotient.\nLO2.2 Recognize derivative as the instantaneous velocity and the slope of tangent lines.\nLO2.3 Find derivatives using basic formulas and the sum, difference, product, quotient, chain rules.",
+      "enriched_description": "Calculate derivatives of functions, including average rates of change, derivatives as limits of difference quotients, instantaneous velocity, tangent-line slopes, basic differentiation formulas, sum, difference, product, quotient, and chain rules, trigonometric derivatives, implicit differentiation, and derivatives of exponential and logarithmic functions.",
+      "source_topic_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO3",
+      "original_description": "Use derivatives to analyze a function and to solve applications\nLO3.1 Use implicit differentiation to find derivatives and to solve related rates problems.\nLO3.2 Find linear approximation of a function; calculate differentials and apply in calculating errors of approximation.\nLO3.3 Apply Rolle's Theorem and Mean Value Theorem to a function; find critical numbers and absolute extrema of a function.\nLO3.4 Identify local extrema, and describe the monotonicity of a function; solve optimization problems.\nLO3.5 Recognize acceleration as second derivative; determine inflection points and describe the concavity of a function.\nLO3.6 Use Newton method to approximate solutions of an equation.",
+      "enriched_description": "Use derivatives to analyze functions and solve applications, including implicit differentiation, related rates, linear approximation, differentials and approximation error, Rolle's Theorem, the Mean Value Theorem, critical numbers, absolute and local extrema, monotonicity, optimization, acceleration as a second derivative, inflection points, concavity, and Newton's method.",
+      "source_topic_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO4",
+      "original_description": "Calculate integrals and find area under the graph of a function\nLO4.1 Use Riemann sums to approximate area; recognize area as a definite integral which is the limit of Riemann sums.\nLO4.2 Apply the Fundamental Theorems of Calculus to find derivatives of integrals, and to evaluate definite integrals.\nLO4.3 Recognize indefinite integrals as anti-derivatives; find integrals using basic formulas and the techniques of substitution and integration by parts.\nLO4.4 Use integration to solve applications and to compute the average value of a function.\nLO4.5 Approximate definite integrals using Midpoint, Trapezoidal and Simpson rules.\nLO4.6 Determine if an improper integral converges.",
+      "enriched_description": "Calculate integrals and areas under graphs, including Riemann sums, definite integrals as limits of Riemann sums, the Fundamental Theorems of Calculus, indefinite integrals as antiderivatives, basic integration formulas, substitution, integration by parts, integration applications, average value, midpoint, trapezoidal and Simpson numerical rules, and convergence of improper integrals.",
+      "source_topic_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO5",
+      "original_description": "Solve a system of linear equations using Gaussian elimination\nLO5.1 Identify if a matrix is in echelon forms; carry a matrix into an echelon using row operations; calculate the rank of a matrix.\nLO5.2 Use echelon matrices to solve/describe the solution set of a linear system.",
+      "enriched_description": "Solve systems of linear equations using Gaussian elimination, including echelon forms, row operations, matrix rank, solution sets, and homogeneous equations.",
+      "source_topic_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO6",
+      "original_description": "Perform basic operations on matrices and manipulate matrix transformations\nLO6.1 Perform addition, scalar multiplication and transpose of matrices; verify if a matrix is symmetric.\nLO6.2 Multiply two matrices of appropriate sizes; transform between a linear system and a matrix equation.\nLO6.3 Determine the matrix of a linear transformation; use properties of linear transformations in solving problems.",
+      "enriched_description": "Perform basic matrix operations and manipulate matrix transformations, including matrix addition, scalar multiplication, transposition, symmetry, matrix-vector multiplication, matrix multiplication, matrix equations, inverses, inverse properties, and linear transformations.",
+      "source_topic_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO7",
+      "original_description": "Find the determinant, inverse and diagonalization of a matrix\nLO7.1 Compute the cofactors and the determinant of a matrix; analyze determinants in relation with row/column operations.\nLO7.2 Check if a matrix is invertible; find the adjugate and the inverse of a matrix; use properties of inverses and determinants in solving problems.\nLO7.3 Solve a system of linear equations using inverse matrices or Cramer's rule.\nLO7.4 Find the characteristic polynomial, eigenvalues and eigenvectors to diagonalize a matrix; check if a matrix is diagonalizable.",
+      "enriched_description": "Find determinants, inverses, and diagonalizations of matrices, including cofactor expansion, determinant properties and row or column operations, invertibility, adjugates, inverse matrices, Cramer's rule, characteristic polynomials, eigenvalues, eigenvectors, and diagonalization.",
+      "source_topic_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO8",
+      "original_description": "Manipulate vector operations and linear transformations in R^3.\nLO8.1 Manipulate vector operations; find equations of lines.\nLO8.2 Compute the dot product and the angle between two vectors; find the projection of a vector on another vector and manipulate equations of planes.\nLO8.3 Compute the cross product; analyze areas and volumns in relation with dot and cross products.\nLO8.4 Determine linear transformations in R^3 and discuss applications in computer graphic.",
+      "enriched_description": "Manipulate vector operations and linear transformations in R^3, including vector operations, equations of lines, dot products, angles, projections, planes, cross products, area and volume analysis, transformations of areas and volumes, and applications in computer graphics.",
+      "source_topic_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO9",
+      "original_description": "Find the dimension and bases of a subspace\nLO9.1 Determine if a subset of vectors is a subspace; describe the subspace spanned by a set of vectors.\nLO9.2 Check if a set of vectors are independent; determine if a set of vectors form a basis.\nLO9.3 Find a basis and the dimension of a subspace; analyze the rank in relation with the dimension of the column, row and the null space of a matrix.\nLO9.4 Compute dot product and length of vectors; check if a set of vectors are orthogonal or orthonormal; write a vector as a linear combination of an orthogonal basis.",
+      "enriched_description": "Find dimensions and bases of subspaces, including subspace verification, spans, linear independence, bases, dimension, rank, column space, row space, null space, dot products, vector length and distance, orthogonal and orthonormal sets, and expansion in an orthogonal basis.",
+      "source_topic_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "review_required": false,
+      "review_notes": []
+    }
+  ]
+}

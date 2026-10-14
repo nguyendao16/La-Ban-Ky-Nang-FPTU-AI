@@ -1,0 +1,337 @@
+{
+  "status": "passed",
+  "errors": [],
+  "checks": [
+    {
+      "path": "segments/1/academic_sources/0",
+      "reference": {
+        "course_code": "MAS291",
+        "clo": "CLO5"
+      },
+      "source_excerpt": "Describe data using numerical summaries and visual displays, including descriptive statistics, stem-and-leaf diagrams, frequency distributions, histograms, box plots, quartiles, outlier identification, and time sequence plots.",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/1/academic_sources/1",
+      "reference": {
+        "course_code": "MAS291",
+        "clo": "CLO6"
+      },
+      "source_excerpt": "Discuss sampling distributions and point estimation, then use the Central Limit Theorem to analyze sampling distributions of means.",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/1/academic_sources/2",
+      "reference": {
+        "course_code": "MAS291",
+        "clo": "CLO7"
+      },
+      "source_excerpt": "Construct and interpret confidence intervals for population parameters and differences between population parameters, including intervals for means of normal distributions with known or unknown variance, large-sample intervals for population proportions, inference on differences between two means, and inference on differences between two proportions.",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/1/academic_sources/3",
+      "reference": {
+        "course_code": "MAS291",
+        "clo": "CLO8"
+      },
+      "source_excerpt": "Verify claims about population parameters and differences between population parameters using hypothesis testing, including formulating hypotheses, identifying critical values and test statistics, computing p-values, recognizing testing errors, and conducting tests for single means, single proportions, differences between two means, and differences between two proportions.",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/1/academic_sources/4",
+      "reference": {
+        "course_code": "MAS291",
+        "clo": "CLO9"
+      },
+      "source_excerpt": "Construct a simple linear regression model and use it for prediction and interpretation, including empirical models, least-squares estimation, sums of squares, regression equations, correlation coefficients, properties of least-squares estimators, and hypothesis tests for significance in simple linear regression.",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/2/academic_sources/0",
+      "reference": {
+        "course_code": "DAP391m",
+        "clo": "CLO1"
+      },
+      "source_excerpt": "Understand the basics of data analysis with Python for building and evaluating data models, including importing datasets and data wrangling.",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/2/academic_sources/1",
+      "reference": {
+        "course_code": "DAP391m",
+        "clo": "CLO2"
+      },
+      "source_excerpt": "Understand how to import data from multiple sources, clean and wrangle data, perform exploratory data analysis (EDA), and create meaningful data visualizations, including Data Analysis, Data Analysis with Python- Exploratory Data Analysis, Data Analysis with Python- Exploratory Data Analysis.",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/2/academic_sources/2",
+      "reference": {
+        "course_code": "DAP391m",
+        "clo": "CLO7"
+      },
+      "source_excerpt": "Implement the small mini capstone data science project includes steps: involving data collection, data wrangling, exploratory data analysis, data visualization, model development, model evaluation, and reporting, including Applied Data Science Capstone: Interactive Visual Analytics, Dashboard , Applied Data Science Capstone: Interactive Visual Analytics, Dashboard , Applied Data Science Capstone: Predictive Analysis (Classification) , Applied Data Science Capstone: Predictive Analysis (Classification), Evaluate final project.",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/2/academic_sources/3",
+      "reference": {
+        "course_code": "ADY201m",
+        "clo": "CLO7"
+      },
+      "source_excerpt": "Implement a small data science project by applying Python fundamentals, Python data structures, SQL/database access, data understanding, preprocessing, modeling, evaluation, deployment, visualization, probability, regression analysis, and final reporting within a guided project workflow.",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/2/academic_sources/4",
+      "reference": {
+        "course_code": "AIL303m",
+        "clo": "CLO1"
+      },
+      "source_excerpt": "Learners should be able to use common techniques to retrieve data from multiple data sources: SQL, NoSQL databases, APIs, Cloud, including Retrieving, Cleaning data.",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/3/academic_sources/0",
+      "reference": {
+        "course_code": "AIG202c",
+        "clo": "CLO2"
+      },
+      "source_excerpt": "Explain underlying concepts related to Machine Learning, Deep Learning and Neural Networks, including AI Concepts, Terminology, Application Areas, AI: Issues, Concerns, Ethical Considerations.",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/3/academic_sources/1",
+      "reference": {
+        "course_code": "MAI391",
+        "clo": "CLO5"
+      },
+      "source_excerpt": "Apply linear regression concepts, including problem formulation, parameter estimation, maximum likelihood estimation, maximum a posteriori estimation, generalization error, overfitting, and Bayesian linear regression.",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/3/academic_sources/2",
+      "reference": {
+        "course_code": "MAI391",
+        "clo": "CLO6"
+      },
+      "source_excerpt": "Apply dimensionality reduction with PCA, including covariance matrices, maximum-variance subspaces, principal subspace bases, low-rank matrix approximation, PCA in high dimensions, projection perspectives, eigenvector computation, and key practical PCA steps.",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/3/academic_sources/3",
+      "reference": {
+        "course_code": "MAI391",
+        "clo": "CLO7"
+      },
+      "source_excerpt": "Apply support vector machine classification, including separating hyperplanes, primal and dual SVM formulations, kernel-based nonlinear classifiers, and numerical approaches for finding optimal SVM solutions.",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/3/academic_sources/4",
+      "reference": {
+        "course_code": "AIL303m",
+        "clo": "CLO4"
+      },
+      "source_excerpt": "Learners should be able to describe and use supervised models, including Introduction to Supervised Machine Learning, Linear Regression.",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/3/academic_sources/5",
+      "reference": {
+        "course_code": "AIL303m",
+        "clo": "CLO8"
+      },
+      "source_excerpt": "Explain the curse of dimensionality, and how it makes clustering difficult with many features, including K Means Clustering, Selecting a clustering algorithm, Distance Metrics of Clustering Algorithms, Common clustering algorithms, Hierarchical Agglomerative Clustering, Hierarchical Agglomerative Clustering Lab, Compare clustering, Dimensionality Reduction.",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/3/academic_sources/6",
+      "reference": {
+        "course_code": "AIL303m",
+        "clo": "CLO9"
+      },
+      "source_excerpt": "Learners should be able to describe and use common clustering and dimensionality-reduction algorithms, including Selecting a clustering algorithm, Distance Metrics of Clustering Algorithms, Common clustering algorithms, Hierarchical Agglomerative Clustering, Hierarchical Agglomerative Clustering Lab, Compare clustering algorithms, Clustering Demo.",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/3/academic_sources/7",
+      "reference": {
+        "course_code": "AIL303m",
+        "clo": "CLO10"
+      },
+      "source_excerpt": "Implement a mini capstone ML project includes steps: data collection, data wrangling, exploratory data analysis, model development, model evaluation, and reporting, including Guiding mini Capstone, Review the mini Capstone, Review mini Capstone.",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/4/academic_sources/0",
+      "reference": {
+        "course_code": "PFP191",
+        "clo": "CLO7"
+      },
+      "source_excerpt": "Understand object-oriented programming in Python and apply it in application contexts using classes and objects, encapsulation and data hiding, abstraction and modular design, inheritance, polymorphism, method overloading, object usage in OOP programs, object lifecycle, advanced OOP concepts, design patterns, and case studies.",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/4/academic_sources/1",
+      "reference": {
+        "course_code": "ADY201m",
+        "clo": "CLO5"
+      },
+      "source_excerpt": "Discuss Python fundamentals, Python libraries, and API support for data science tasks, including understanding Python APIs, collecting data with Python, understanding and preprocessing data in Python, and using Python for data science, AI, and development workflows.",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/4/academic_sources/2",
+      "reference": {
+        "course_code": "DAP391m",
+        "clo": "CLO1"
+      },
+      "source_excerpt": "Understand the basics of data analysis with Python for building and evaluating data models, including importing datasets and data wrangling.",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/4/academic_sources/3",
+      "reference": {
+        "course_code": "DBI202",
+        "clo": "CLO5"
+      },
+      "source_excerpt": "Be proficient in SQL, including Data Definition Language (DDL) for defining database structures and implementing constraints such as primary and foreign keys, UNIQUE, and CHECK constraints using Microsoft SQL Server. Use Data Manipulation Language (DML) to perform basic queries, multi-relation queries, nested queries, aggregation queries, and database modifications using INSERT, UPDATE, and DELETE statements.",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/4/academic_sources/4",
+      "reference": {
+        "course_code": "DBI202",
+        "clo": "CLO6"
+      },
+      "source_excerpt": "Understand T-SQL database programming concepts in Microsoft SQL Server and work with database views, cursors, stored procedures, functions, and triggers, including the use of triggers to enforce database constraints. Understand transaction concepts in database applications.",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/4/academic_sources/5",
+      "reference": {
+        "course_code": "DBI202",
+        "clo": "CLO7"
+      },
+      "source_excerpt": "Apply database indexes in relational database design to support query optimization and improve query performance in practical database applications.",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/4/academic_sources/6",
+      "reference": {
+        "course_code": "ADY201m",
+        "clo": "CLO1"
+      },
+      "source_excerpt": "Understand relational database concepts and foundational SQL language knowledge in the context of data science work, including accessing databases with Python, getting started with SQL, basic through advanced SQL-based data analysis, database fundamentals, nested queries, and multi-table SELECT statements.",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/4/academic_sources/7",
+      "reference": {
+        "course_code": "ADY201m",
+        "clo": "CLO7"
+      },
+      "source_excerpt": "Implement a small data science project by applying Python fundamentals, Python data structures, SQL/database access, data understanding, preprocessing, modeling, evaluation, deployment, visualization, probability, regression analysis, and final reporting within a guided project workflow.",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/5/academic_sources/0",
+      "reference": {
+        "course_code": "DAP391m",
+        "clo": "CLO2"
+      },
+      "source_excerpt": "Understand how to import data from multiple sources, clean and wrangle data, perform exploratory data analysis (EDA), and create meaningful data visualizations, including Data Analysis, Data Analysis with Python- Exploratory Data Analysis, Data Analysis with Python- Exploratory Data Analysis.",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/5/academic_sources/1",
+      "reference": {
+        "course_code": "DAP391m",
+        "clo": "CLO3"
+      },
+      "source_excerpt": "Know difference ways to effectively visualize both small and large-scale data, including Project Topic Introduction and discuss, Evaluate final project.",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/5/academic_sources/2",
+      "reference": {
+        "course_code": "DAP391m",
+        "clo": "CLO4"
+      },
+      "source_excerpt": "Implement various types of basic and advanced graphs and charts like: Waffle Charts, Area Plots, Histograms, Bar Charts, Pie Charts, Scatter Plots, Word Clouds, Choropleth Maps, and many more, including Advanced Visualizations, Geospatial Data.",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/5/academic_sources/3",
+      "reference": {
+        "course_code": "DAP391m",
+        "clo": "CLO7"
+      },
+      "source_excerpt": "Implement the small mini capstone data science project includes steps: involving data collection, data wrangling, exploratory data analysis, data visualization, model development, model evaluation, and reporting, including Applied Data Science Capstone: Interactive Visual Analytics, Dashboard , Applied Data Science Capstone: Interactive Visual Analytics, Dashboard , Applied Data Science Capstone: Predictive Analysis (Classification) , Applied Data Science Capstone: Predictive Analysis (Classification), Evaluate final project.",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/6/academic_sources/0",
+      "reference": {
+        "course_code": "MAE101",
+        "clo": "CLO3"
+      },
+      "source_excerpt": "Use derivatives to analyze functions and solve applications, including implicit differentiation, related rates, linear approximation, differentials and approximation error, Rolle's Theorem, the Mean Value Theorem, critical numbers, absolute and local extrema, monotonicity, optimization, acceleration as a second derivative, inflection points, concavity, and Newton's method.",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/6/academic_sources/1",
+      "reference": {
+        "course_code": "MAD101",
+        "clo": "CLO3"
+      },
+      "source_excerpt": "Analyze basic algorithms written in pseudocode and determine their complexities, including searching, sorting, greedy algorithms, growth of functions, and Big-O, Big-Omega, and Big-Theta estimates.",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/6/academic_sources/2",
+      "reference": {
+        "course_code": "MAI391",
+        "clo": "CLO4"
+      },
+      "source_excerpt": "Solve continuous optimization problems using gradient descent for local minima, Lagrange multipliers for constrained extrema, convex optimization concepts, and linear programming.",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    }
+  ],
+  "semantic_support": "requires_manual_assessment"
+}

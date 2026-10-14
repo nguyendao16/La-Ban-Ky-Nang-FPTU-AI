@@ -1,0 +1,50 @@
+{
+  "claims": [
+    {
+      "statement": "Trong MAS291, confidence intervals nằm ở CLO7: CLO7 yêu cầu \"Construct and interpret confidence intervals for population parameters and differences between population parameters\"; CLO này có score 9.43 và achievement excellent.",
+      "sources": [
+        {
+          "course_code": "MAS291",
+          "clo": "CLO7",
+          "source_excerpt": "Construct and interpret confidence intervals for population parameters and differences between population parameters"
+        }
+      ]
+    },
+    {
+      "statement": "Trong MAS291, simple linear regression nằm ở CLO9: CLO9 yêu cầu \"Construct a simple linear regression model and use it for prediction and interpretation\"; CLO này có score 9.43 và achievement excellent.",
+      "sources": [
+        {
+          "course_code": "MAS291",
+          "clo": "CLO9",
+          "source_excerpt": "Construct a simple linear regression model and use it for prediction and interpretation"
+        }
+      ]
+    },
+    {
+      "statement": "Hai nội dung này khác nhau ở phạm vi: CLO7 tập trung vào ước lượng khoảng tin cậy cho tham số tổng thể và chênh lệch giữa các tham số, còn CLO9 tập trung vào dựng mô hình hồi quy tuyến tính đơn và dùng mô hình đó cho dự đoán, diễn giải.",
+      "sources": [
+        {
+          "course_code": "MAS291",
+          "clo": "CLO7",
+          "source_excerpt": "Construct and interpret confidence intervals for population parameters and differences between population parameters"
+        },
+        {
+          "course_code": "MAS291",
+          "clo": "CLO9",
+          "source_excerpt": "Construct a simple linear regression model and use it for prediction and interpretation"
+        }
+      ]
+    }
+  ],
+  "reply": "Trong MAS291:\n\n- **Confidence intervals** là **CLO7**. CLO này ghi rõ: *\"Construct and interpret confidence intervals for population parameters and differences between population parameters\"*. Điểm của CLO7 là **9.43**, achievement **excellent**.\n- **Simple linear regression** là **CLO9**. CLO này ghi rõ: *\"Construct a simple linear regression model and use it for prediction and interpretation\"*. Điểm của CLO9 là **9.43**, achievement **excellent**.\n\nPhân biệt ngắn gọn:\n- **CLO7** nói về **khoảng tin cậy** cho tham số tổng thể và chênh lệch giữa các tham số.\n- **CLO9** nói về **mô hình hồi quy tuyến tính đơn** để **dự đoán** và **diễn giải**.\n\nHai CLO này là hai nội dung khác nhau, dù cả hai đều có cùng score **9.43** và cùng achievement **excellent**.",
+  "evidence": [
+    {
+      "course_code": "MAS291",
+      "clo": "CLO7"
+    },
+    {
+      "course_code": "MAS291",
+      "clo": "CLO9"
+    }
+  ]
+}

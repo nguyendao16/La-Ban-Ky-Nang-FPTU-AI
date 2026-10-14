@@ -1,0 +1,9 @@
+{
+  "generation_http_attempts": 32,
+  "preflight_http_attempts": 32,
+  "known_cost_usd": "0.24872130",
+  "unknown_usage_reservation_usd": "0",
+  "accounted_cost_usd": "0.24872130",
+  "reasoning_tokens_included_in_output_tokens": true,
+  "semantic_status": "manually_assessed_with_p0_failures"
+}

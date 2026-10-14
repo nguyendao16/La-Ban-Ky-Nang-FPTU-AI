@@ -1,0 +1,119 @@
+{
+  "origin": "live",
+  "status": "completed",
+  "model": "gpt-4.1",
+  "started_at": "2026-10-12T23:25:48.434004+07:00",
+  "cases": [
+    {
+      "case": "computer_vision_followups",
+      "sources": {
+        "profile": {
+          "path": "data/student_academic_profile.json",
+          "sha256": "99f34048ed8c3d11ed972fa0a97476aa7fba6f071ad8aea454bb66b6b5c2eca1"
+        },
+        "jd": {
+          "path": "data/sample_jd.txt",
+          "sha256": "93feb444800b15c391ae9deacdf9bacda5ccc4539d2ea42795c279ba8d1558dc"
+        },
+        "review": {
+          "path": "data/jd_academic_review.json",
+          "sha256": "0dbd52a3c967bc9accb5472938bf501b3fe82fb92c776fc4812e1cf7f78e5d9c"
+        }
+      },
+      "turns": [
+        {
+          "turn_in_session": 6,
+          "origin": "live",
+          "user": "Quay lại câu hỏi các môn khác hỗ trợ JD hiện tại: chọn tối đa 3 môn, giải thích đúng nội dung các CLO được viện dẫn và phân biệt học thuật với kinh nghiệm framework.",
+          "response": {
+            "reply": "Ba môn hỗ trợ tốt nhất cho JD Computer Vision Intern ngoài CPV301 là:\n\n1. PFP191: Các CLO như CLO1 và CLO7 xác nhận bạn đã học lập trình Python cơ bản và lập trình hướng đối tượng (OOP) với Python, đạt thành tích excellent. Đây là nền tảng quan trọng để phát triển ứng dụng computer vision, nhưng không xác nhận kinh nghiệm với framework chuyên biệt như PyTorch hay TensorFlow.\n\n2. MAI391: Các CLO như CLO1 và CLO2 cung cấp kiến thức về đại số tuyến tính, giải tích, đạo hàm, gradient, eigenvalues, SVD, rất cần thiết cho việc hiểu và xây dựng các mô hình machine learning, đặc biệt là các thuật toán nền tảng trong computer vision. Tuy nhiên, các CLO này chỉ xác nhận kiến thức toán học, không xác nhận kinh nghiệm thực hành với framework lập trình.\n\n3. MAS291: CLO3 và CLO9 xác nhận bạn đã học về xác suất, phân phối xác suất, hồi quy tuyến tính, phân tích dữ liệu – là nền tảng để hiểu các mô hình thống kê và đánh giá mô hình trong computer vision. Đây là kiến thức học thuật, không xác nhận kinh nghiệm triển khai framework chuyên biệt.\n\nTóm lại, các môn này cung cấp nền tảng học thuật liên quan, nhưng không xác nhận kinh nghiệm thực tế với các framework như YOLO, PyTorch, TensorFlow.",
+            "evidence": [
+              {
+                "course_code": "PFP191",
+                "clo": "CLO1"
+              },
+              {
+                "course_code": "PFP191",
+                "clo": "CLO7"
+              },
+              {
+                "course_code": "MAI391",
+                "clo": "CLO1"
+              },
+              {
+                "course_code": "MAI391",
+                "clo": "CLO2"
+              },
+              {
+                "course_code": "MAS291",
+                "clo": "CLO3"
+              },
+              {
+                "course_code": "MAS291",
+                "clo": "CLO9"
+              }
+            ]
+          }
+        }
+      ],
+      "resumed_previous_session": true,
+      "session_id": "f939b1c135614f1fbb9052b50db2e968",
+      "sources_unchanged": true
+    },
+    {
+      "case": "sql_achievement_and_review_correction",
+      "sources": {
+        "profile": {
+          "path": "data/student_academic_profile.json",
+          "sha256": "99f34048ed8c3d11ed972fa0a97476aa7fba6f071ad8aea454bb66b6b5c2eca1"
+        },
+        "jd": {
+          "path": "data/academic_review_evaluation/sql_data_analysis.txt",
+          "sha256": "3cb7f7a82569ac6873e379861f81d258baf5575519082d520b75fe216f5a7c03"
+        },
+        "review": {
+          "path": "data/academic_review_evaluation/sql_data_analysis.initial.live.json",
+          "sha256": "5d3489df1215c1a8c767b1b5bc59f698e84517800f1f8b335f5c95551ea8a313"
+        }
+      },
+      "turns": [
+        {
+          "turn_in_session": 1,
+          "origin": "live",
+          "user": "Tại sao SQL của mình chỉ ở mức basic? Có CLO của môn khác bổ sung kiến thức SQL không?",
+          "response": {
+            "reply": "Theo hồ sơ học thuật, mức độ đạt được của bạn với SQL trong DBI202/CLO5 là \"basic\" (điểm 5.96). CLO này tập trung vào việc sử dụng SQL để định nghĩa cấu trúc cơ sở dữ liệu, thực hiện các truy vấn cơ bản, truy vấn nhiều bảng, truy vấn lồng nhau, truy vấn tổng hợp và các thao tác INSERT, UPDATE, DELETE trên Microsoft SQL Server. Tuy nhiên, mức điểm và nhãn \"basic\" phản ánh rằng bạn mới chỉ đạt được các kỹ năng cơ bản, chưa có bằng chứng về thành thạo các kỹ năng nâng cao hoặc tối ưu hóa truy vấn.\n\nNgoài DBI202, môn ADY201m/CLO1 cũng cung cấp kiến thức về SQL trong bối cảnh khoa học dữ liệu, bao gồm truy cập cơ sở dữ liệu với Python, các truy vấn SQL từ cơ bản đến nâng cao, và thao tác với nhiều bảng. Tuy nhiên, CLO này không ghi nhận mức độ chuyên sâu về tối ưu hóa hoặc các tính năng đặc thù của SQL Server, PostgreSQL hay Snowflake.\n\nNhư vậy, kiến thức SQL của bạn được củng cố bởi cả DBI202 và ADY201m, nhưng mức độ thành thạo vẫn chủ yếu ở mức cơ bản đến khá, chưa có bằng chứng về kỹ năng nâng cao hoặc tối ưu hóa truy vấn trong môi trường thực tế.",
+            "evidence": [
+              {
+                "course_code": "DBI202",
+                "clo": "CLO5"
+              },
+              {
+                "course_code": "ADY201m",
+                "clo": "CLO1"
+              }
+            ]
+          }
+        },
+        {
+          "turn_in_session": 2,
+          "origin": "live",
+          "user": "Review ban đầu nói chưa có bằng chứng về Microsoft SQL Server và T-SQL. Nhưng DBI202/CLO6 ghi rõ các nội dung đó mà? Nhận xét ban đầu có đúng không?",
+          "response": {
+            "reply": "Bạn nhận xét đúng: DBI202/CLO6 thực sự ghi rõ về các khái niệm lập trình cơ sở dữ liệu với T-SQL trên Microsoft SQL Server, bao gồm views, cursors, stored procedures, functions, triggers và giao dịch. Như vậy, hồ sơ học thuật của bạn có bằng chứng trực tiếp về việc học và hiểu các tính năng nâng cao của Microsoft SQL Server và T-SQL, chứ không chỉ dừng lại ở mức liên quan như review ban đầu đã nêu.\n\nNhận xét ban đầu chưa hoàn toàn chính xác ở điểm này, vì đã bỏ sót bằng chứng từ DBI202/CLO6 về T-SQL và các thành phần nâng cao của SQL Server.",
+            "evidence": [
+              {
+                "course_code": "DBI202",
+                "clo": "CLO6"
+              }
+            ]
+          }
+        }
+      ],
+      "resumed_previous_session": false,
+      "session_id": "de86f54ba94e4f539402035124ef6418",
+      "sources_unchanged": true
+    }
+  ],
+  "completed_at": "2026-10-12T23:26:01.379173+07:00"
+}

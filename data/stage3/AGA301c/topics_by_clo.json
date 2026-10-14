@@ -1,0 +1,24 @@
+{
+  "CLO1": [
+    "Specialization Introduction Generative AI and LLMs: Architecture and Data Preparation - Generative AI architectures and models (RNNs, transformers, GANs, VAEs, diffusion) Offline 1: Introduction to the online course AGA301c",
+    "- Tokenization techniques with NLTK, spaCy, Hugging Face - PyTorch data loaders and pipelines for generative AI"
+  ],
+  "CLO2": [
+    "Gen AI Foundational Models for NLP & Language Understanding: - N-gram language models - Word embeddings: Word2Vec, GloVe - Document classification",
+    "- Sequence-to-sequence models - Encoder-decoder RNNs - Introduction to attention mechanisms"
+  ],
+  "CLO3": [
+    "Generative AI Language Modeling with Transformers: - Transformer architecture in depth - Positional encoding; multi-head self-attention - Encoder vs decoder; causal vs masked attention",
+    "- Applying transformers to translation, classification, and text generation - Decoding and sampling strategies"
+  ],
+  "CLO4": [
+    "Generative AI Engineering and Fine-Tuning Transformers: - Pretraining objectives (MLM, CLM) - Transfer learning - Hugging Face fine-tuning pipelines",
+    "- Parameter-efficient fine-tuning: LoRA, QLoRA, adapters - Quantization for fine-tuning on consumer GPUs",
+    "Generative AI Advance Fine-Tuning for LLMs: - LLMs as policies - Instruction tuning; reward modelling; preference data",
+    "- Reinforcement Learning from Human Feedback (RLHF) and PPO - Direct Preference Optimization (DPO) - Evaluation of aligned models"
+  ],
+  "CLO5": [
+    "Fundamentals of AI Agents Using RAG and LangChain: - In-context learning and advanced prompting - LangChain components, chains, agents - Embeddings, vector stores, and Retrieval-Augmented Generation",
+    "Project: Generative AI Applications with RAG and LangChain (Capstone RAG-based Q&A system) Offline 2: Review Generative AI Engineering with LLMs Specialization"
+  ]
+}

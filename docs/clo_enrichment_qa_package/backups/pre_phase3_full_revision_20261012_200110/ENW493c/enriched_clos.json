@@ -1,0 +1,60 @@
+{
+  "course_id": "ENW493c",
+  "clos": [
+    {
+      "clo_id": "CLO1",
+      "original_description": "Explain the fundamental research methods and approaches and how they can be applied in academic or professional contexts.",
+      "enriched_description": "Explain the fundamental research methods and approaches and how they can be applied in academic or professional contexts. The scope includes Understanding Research Methods and How do you know you have been a good researcher at the end of a project?.",
+      "source_topic_indices": [
+        0,
+        1
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO2",
+      "original_description": "Compare and contrast qualitative and quantitative research methodologies, including sampling methods and data collection techniques, to assess their suitability for different research contexts.",
+      "enriched_description": "Compare and contrast qualitative and quantitative research methodologies, including sampling methods and data collection techniques, to assess their suitability for different research contexts. The scope includes Quantitative Research: Experimental and Survey Methods, Sampling Design Process, Sampling techniques: Probability sampling, Sampling Techniques: Non-probability Sampling, Internal Secondary Data and Implications of Market Research, The Role of Internet in Market Research & Non-Comparative Scaling Techniques, Conducting Different Data Collection Approaches I, Conducting Different Data Collection Approaches II, Conducting Different Data Collection Approaches III, Conducting Different Data Collection Approaches IV, and Being a researcher.",
+      "source_topic_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO3",
+      "original_description": "Develop a comprehensive research proposal that integrates historical perspectives, appropriate methodologies, ethical considerations, and strategies for publication and evaluation in Information and Communication Science and Technology.",
+      "enriched_description": "Develop a comprehensive research proposal that integrates historical perspectives, appropriate methodologies, ethical considerations, and strategies for publication and evaluation in Information and Communication Science and Technology. The scope includes Being a researcher and The researcher's progress.",
+      "source_topic_indices": [
+        0
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO4",
+      "original_description": "Develop sophisticated argument essays through critical analysis, ethical sourcing, and anti-plagiarism, forming well-founded opinions and thesis statements",
+      "enriched_description": "Develop sophisticated argument essays through critical analysis, ethical sourcing, and anti-plagiarism, forming well-founded opinions and thesis statements. The scope includes Introduction to Research for Essay Writing, Doing Research and Planning the Paper, Language for Research Writing, Citing sources and Formatting, and First Draft.",
+      "source_topic_indices": [
+        0,
+        1
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO5",
+      "original_description": "Plan and conduct research on an academic topic, following these steps: topic selection, outlining, source gathering, note-taking, maintaining an academic tone, citing sources in MLA format, and avoiding plagiarism. Write a 7-8 page research paper demonstrating proper MLA formatting for source material.",
+      "enriched_description": "Plan and conduct research on an academic topic, following these steps: topic selection, outlining, source gathering, note-taking, maintaining an academic tone, citing sources in MLA format, and avoiding plagiarism. Write a 7-8 page research paper. The scope includes Introduction to Research for Essay Writing and Revise and Rewrite the Final Draft.",
+      "source_topic_indices": [
+        0
+      ],
+      "review_required": false,
+      "review_notes": []
+    }
+  ]
+}

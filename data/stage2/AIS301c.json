@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "syllabus_name": "AI for Cybersecurity_ Trí tuệ nhân tạo cho an toàn thông tin",
+    "course_name_english": "AI for Cybersecurity",
+    "subject_code": "AIS301c",
+    "description": "This course is designed based on the Coursera AI for Cybersecurity Specialization by Johns Hopkins University. The course introduces how artificial intelligence and machine learning techniques are applied to cybersecurity problems, including email threat detection, spam and phishing classification, authentication security, malware detection, network anomaly detection, fraud prevention, adversarial machine learning, Generative Adversarial Networks, reinforcement learning, and AI model evaluation. Students learn to frame cybersecurity problems as data-driven AI tasks, engineer security-relevant features, train and evaluate supervised and unsupervised models, analyze anomalies in network traffic, and assess the robustness of AI systems against adversarial conditions. The course emphasizes defensive, ethical, and responsible applications of AI in cybersecurity through Coursera-based videos, readings, quizzes, hands-on notebooks, and review sessions.",
+    "tools": "Coursera, Jupyter Notebook, Python, common machine learning libraries, course datasets and online quizzes/labs."
+  },
+  "clos": [
+    {
+      "clo_name": "CLO1",
+      "clo_details": "Learners should be able to explain AI-driven cybersecurity use cases, security threat detection workflows, and the machine learning development process for cybersecurity applications."
+    },
+    {
+      "clo_name": "CLO2",
+      "clo_details": "Learners should be able to develop and evaluate machine learning models for email security, spam/phishing detection, and AI-supported authentication security."
+    },
+    {
+      "clo_name": "CLO3",
+      "clo_details": "Learners should be able to analyze malware and network traffic features and apply supervised or unsupervised learning algorithms for malware and anomaly detection."
+    },
+    {
+      "clo_name": "CLO4",
+      "clo_details": "Learners should be able to implement network anomaly detection experiments using botnet or traffic data and interpret model evaluation results for cybersecurity decision-making."
+    },
+    {
+      "clo_name": "CLO5",
+      "clo_details": "Learners should be able to apply advanced AI security concepts, including fraud detection, GANs, adversarial machine learning, model resilience, and reinforcement learning for adaptive cybersecurity."
+    }
+  ],
+  "schedule": [
+    {
+      "topic": "Specialization Introduction\nIntroduction to AI for Cybersecurity\n- AI for Cybersecurity Specialization overview\n- AI for cybersecurity professionals",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "Introduction to AI for Cybersecurity (cont.)\n- Machine learning development process\n- AI role in cyber threat detection\n- Spam filtering and email threat detection\nOffline 1: Course 1 orientation and learning review",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "Email Threat Detection\n- Spam and phishing email classification\n- Decision trees and Naïve Bayes for email security",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "Authentication Security with AI\n- Keystroke dynamics\n- Facial recognition and fake login detection\n- Model evaluation for authentication tasks",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "Advanced Malware and Network Anomaly Detection\n- Malware types and malware analysis fundamentals\n- Feature extraction for malware detection\n- Supervised learning for malware classification",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "Malware Threats Detection Part 2\n- Advanced detection techniques\n- Clustering and decision trees for malware detection\n- Malware model evaluation",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "Network Anomaly Detection with AI\n- Network threats and anomaly detection background\n- Botnet data case study",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "Network Traffic Analysis and Research Presentation\n- Anomaly detection algorithms\n- Model interpretation and performance analysis\n- Present current trends in network anomaly detection",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "Securing AI and Advanced Topics\n- Fraud prevention with cloud AI solutions\n- Credit card fraud detection\n- Feature engineering and performance metrics",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "Generative AI and Adversarial Machine Learning\n- Fundamentals of Generative Adversarial Networks (GANs)\n- Synthetic data for cybersecurity\n- Black-box and white-box adversarial attacks\nOffline 2: Course 3 review",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "Model Resilience and Adaptive Cybersecurity\n- Model robustness evaluation\n- Reinforcement learning for adaptive cybersecurity measures\n- Model optimization and security strategy",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "Course Integration and Final Review\n- AI model evaluation for cybersecurity applications\n- Defensive and responsible use of AI in cybersecurity\n- Final specialization review",
+      "lo": "CLO5"
+    }
+  ],
+  "assessments": [
+    {
+      "category": "Final exam",
+      "part": "1",
+      "weight": "100.0%",
+      "clo": "CLO1, CLO2, CLO3, CLO4,\nCLO5"
+    }
+  ]
+}

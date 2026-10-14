@@ -1,0 +1,333 @@
+{
+  "metadata": {
+    "syllabus_name": "Introduction to MLOps_Nhập môn hoạt động học máy",
+    "course_name_english": "Introduction to MLOps",
+    "subject_code": "MOI201m",
+    "description": "This course introduces students to the end to end machine learning lifecycle, focusing on the practices, tools, and culture of Machine Learning Operations (MLOps). Students will learn how to transition machine learning models from isolated experimental notebooks into production-ready, scalable, and continuously monitored software systems. The curriculum covers project scoping, data version control (DVC), automated data and model pipelines (TFX), containerization (Docker), continuous integration and continuous deployment (CI/CD), model serving architectures, and automated drift monitoring. By completing hands-on labs and a final capstone project, students will gain engineering skills to build reliable, reproducible, and automated AI systems.",
+    "tools": "Python, Git, Docker, DVC, TFX (TensorFlow Extended), MLflow, FastAPI, GitHub Actions, Prometheus, Grafana, Evidently AI."
+  },
+  "clos": [
+    {
+      "clo_name": "CLO1",
+      "clo_details": "Explain the core concepts of the MLOps lifecycle, maturity models, and the fundamental architectural differences between DevOps, DataOps, and MLOps."
+    },
+    {
+      "clo_name": "CLO2",
+      "clo_details": "Execute machine learning project scoping, define business key performance indicators (KPIs), select appropriate deployment patterns, and establish reliable performance baselines."
+    },
+    {
+      "clo_name": "CLO3",
+      "clo_details": "Implement systematic error analysis, data-centric AI techniques, and experiment tracking to address issues like skewed datasets and class imbalance."
+    },
+    {
+      "clo_name": "CLO4",
+      "clo_details": "Build automated data pipelines utilizing version control tools (DVC) and centralized feature stores (TFX) to guarantee data lineage and experiment reproducibility."
+    },
+    {
+      "clo_name": "CLO5",
+      "clo_details": "Design and coordinate end-to-end machine learning orchestration pipelines utilizing components like TensorFlow Extended (TFX) for training, evaluation, and validation."
+    },
+    {
+      "clo_name": "CLO6",
+      "clo_details": "Apply containerization (Docker) and Continuous Integration/Continuous Deployment (CI/CD) workflows to automate model testing and infrastructure provisioning."
+    },
+    {
+      "clo_name": "CLO7",
+      "clo_details": "Deploy production-grade model serving microservices using architectures like FastAPI, TensorFlow Serving, and Kubernetes supporting progressive delivery patterns."
+    },
+    {
+      "clo_name": "CLO8",
+      "clo_details": "Construct automated production monitoring infrastructures with Prometheus, Grafana, and Evidently AI to detect data drift, concept drift, and performance degradation."
+    },
+    {
+      "clo_name": "CLO9",
+      "clo_details": "Architect, document, and present a complete, end-to-end operational MLOps system that solves a real-world enterprise problem."
+    }
+  ],
+  "schedule": [
+    {
+      "topic": "1. Foundations of MLOps & ML Lifecycle\n1.1. Introduction to MLOps & ML Production Systems\n1.1.1. Course Introduction & Overview",
+      "lo": "CLO1, CLO9"
+    },
+    {
+      "topic": "1.1.2. What is MLOps? Definition and key concepts",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "1.1.3. MLOps vs DevOps vs DataOps: Differences and relationships",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "1.1.4. Key challenges in ML production:\n- data drift\n- concept drift\n- model degradation",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "1.1.5. MLOps maturity models and hierarchy of needs",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "1.1.6. Case study: Speech recognition system in production",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "1.2. ML Project Scoping & Design\n1.2.1. Steps of an ML project: from problem definition to deployment",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "1.2.2. Scoping process: diligence on feasibility and value",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "1.2.3. Defining project milestones and resourcing",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "1.2.4. Deployment patterns: batch vs online, static vs dynamic inference",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "1.2.5. Establishing performance baselines and human-level performance (HLP)",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "Lab: Scoping a real ML project",
+      "lo": "CLO2, CLO9"
+    },
+    {
+      "topic": "Discussion on Project Topics & Team Formation",
+      "lo": "CLO9"
+    },
+    {
+      "topic": "1.3 ML Lifecycle Overview & Deployment Patterns\n1.3.1. The 4 stages of ML product lifecycle:\n- Scoping\n- Data\n- Modeling\n- Deployment",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "1.3.1. ML project lifecycle components",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "1.3.2. 1. Static vs dynamic training\n1.3.2. 2. Batch vs online processing",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "1.3.2. 3. Continuous training systems",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "1.3.3. Monitoring strategies: pipeline monitoring vs model monitoring",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "1.4 Key Challenges in ML Development\n1.4.1. Why low average error isn't good enough: prioritizing important examples",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "1.4.2. Error analysis and performance auditing",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "1.4.3. Skewed datasets and class imbalance handling",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "1.4.4. Data-centric AI development approach\n1.4.5. Experiment tracking fundamentals",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "Lab: Error analysis on a dataset",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "Progress Test 1",
+      "lo": "CLO1, CLO2, CLO3"
+    },
+    {
+      "topic": "2. Data & Model Pipelines\n2.1. Data Lifecycle & Data Pipelines\n2.1.1. Data lifecycle:\n- collection\n- cleaning\n- validation\n- versioning",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "2.1.2. Building data pipelines:\n- gathering\n- cleaning\n- validating datasets",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "2.1.3. Data provenance, lineage, and metadata management",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "2.1.4. Enterprise data schemas and data evolution tracking",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "2.1.5. Data labeling best practices and label consistency",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "2.2. Data Versioning & Reproducibility\n2.2.1. Principles of reproducible research in ML",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "2.2.2. Data Version Control (DVC): implementation and best practices",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "2.2.3. Git for code versioning + DVC for data versioning",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "2.2.4. Structuring experiments for reproducibility\n2.2.5. Logging and documentation practices",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "Lab: Setting up DVC for a project",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "2.3. Feature Engineering & Feature Stores\n2.3.1. Feature engineering, transformation, and selection",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "2.3.2. What is a Feature Store? Concepts and benefits",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "2.3.3. Implementing feature stores with TensorFlow Extended (TFX)",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "2.3.4. Feature management for offline/online inference\n2.3.5. Data augmentation techniques",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "2.4. Experiment Tracking & Model Training\n2.4.1. Experiment tracking:\n- metrics\n- artifacts\n- parameters",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "2.4.2. MLflow for experiment tracking and model registry",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "2.4.3. Model training strategies and hyperparameter tuning",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "2.4.4. Managing modeling resources efficiently\n2.4.5. From big data to good data: data quality over quantity",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "2.5. Model Pipeline & TFX\n2.5.1. ML Pipeline concepts:\n- training\n- evaluation\n- tuning",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "2.5.2. TensorFlow Extended (TFX) pipeline components",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "2.5.3. TFX components:\n- ExampleGen\n- Transform\n- Trainer\n- Evaluator\n- Publisher",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "2.5.4. Model baseline establishment and improvement strategies\n2.5.5. Addressing concept drift in models",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "Lab: Building a TFX pipeline",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "2.6. Model Validation & Testing\n2.6.1. Model validation strategies and best practices\n2.6.2. Testing strategies for ML:\n- data tests\n- model tests\n- pipeline tests",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "2.6.3. Evaluation metrics for production:\n- fairnes\n- explainability\n2.6.4. Balanced train/dev/test splits\n2.6.5. Performance auditing for production models",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "Progress Test 2",
+      "lo": "CLO4, CLO5"
+    },
+    {
+      "topic": "3. Deployment, Monitoring & Operations\n3.1 CI/CD for Machine Learning\n3.1.1. CI/CD fundamentals: Continuous Integration vs Continuous Delivery\n3.1.2. CI/CD for ML: differences from traditional software",
+      "lo": "CLO6"
+    },
+    {
+      "topic": "3.1.3. Building CI/CD pipelines for ML:\n- GitHub Actions\n- Jenkins\n- GitLab CI\n3.1.4. Automating ML model deployments with CI/CD\n3. 1.5. Testing and validation in CI/CD pipelines",
+      "lo": "CLO6"
+    },
+    {
+      "topic": "3.2. Containerization & Docker for ML\n3.2.1. Docker essentials for ML projects\n3.2.2. Containerizing ML models: Dockerfiles best practices\n3.2.3. Building containerized MLOps pipelines",
+      "lo": "CLO6"
+    },
+    {
+      "topic": "3.2.4. Environment reproducibility using Docker\n3.2.5. Docker + cloud service deployment",
+      "lo": "CLO6"
+    },
+    {
+      "topic": "Lab: Containerizing a ML model",
+      "lo": "CLO6"
+    },
+    {
+      "topic": "3.3. Model Deployment & Serving\n3.3.1. Deployment strategies: batch vs real-time deployment\n3.3.2. Model serving patterns:\n- TensorFlow Serving\n- Flask\n- FastAPI\n3.3.3. Progressive delivery techniques:\n- rolling updates\n- blue-green\n- canary",
+      "lo": "CLO7"
+    },
+    {
+      "topic": "3.3.4. Deploying to different infrastructures:\n- serverless\n- Kubernetes\n3.3.5. Kubernetes for scalable model deployment",
+      "lo": "CLO7"
+    },
+    {
+      "topic": "3.4. Model Monitoring & Drift Detection\n3.4.1. Why continuous monitoring is essential\n3.4.2. Model monitoring techniques:\n- performance\n- latency\n- throughput\n3.4.3. Model drift vs concept drift: detection and response",
+      "lo": "CLO8"
+    },
+    {
+      "topic": "3.4.4. Monitoring tools: Prometheus, Grafana\n3.4.5. Alerting and logging frameworks\n3.5 Automated Monitoring & Retraining\n3.5.1. Automating model monitoring with tools\n3.5.2. Building dashboards for ML model monitoring\n3.5.3. Feedback loops and automatic retraining triggers\n3.5.4. Automating model retraining in CI/CD\n3.5.5. Detecting and responding to drift in real-time",
+      "lo": "CLO8"
+    },
+    {
+      "topic": "Lab: Setting up monitoring dashboard\n3.6. MLOps Operations & Final Project\n3.6.1. Operational excellence of ML systems\n3.6.2. Troubleshooting and incident response\n3.6.3. Data governance and compliance (GDPR, HIPAA)\n3.6.4. Cloud MLOps tools overview:\n- AWS SageMaker\n- Azure ML\n- Google Vertex AI\n3.6.5. LLMOps basics: prompt engineering, RAG pipelines",
+      "lo": "CLO6, CLO7, CLO8, CLO9"
+    }
+  ],
+  "assessments": [
+    {
+      "category": "Progress Test 1",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": "CLO1, CLO2, CLO3"
+    },
+    {
+      "category": "Progress Test 2",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": "CLO4, CLO5"
+    },
+    {
+      "category": "Report 1: Project Scoping & Lifecycle Design",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": "CLO1, CLO2, CLO9"
+    },
+    {
+      "category": "Report 2: Data Pipeline & Reproducibility Setup",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": "CLO3, CLO4, CLO9"
+    },
+    {
+      "category": "Report 3: Automated Pipeline & Model Testing",
+      "part": "1",
+      "weight": "20.0%",
+      "clo": "CLO5, CLO6, CLO9"
+    },
+    {
+      "category": "Report 4: Model Serving & Active Monitoring",
+      "part": "1",
+      "weight": "20.0%",
+      "clo": "CLO6, CLO7, CLO8, CLO9"
+    },
+    {
+      "category": "Final Examination",
+      "part": "1",
+      "weight": "20.0%",
+      "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "course_id": "DSR301m",
+  "clos": [
+    {
+      "clo_id": "CLO1",
+      "original_description": "Understand the basics of the R language",
+      "enriched_description": "Understand the basics of the R language, including Introduction to R Language.",
+      "source_topic_indices": [
+        1,
+        2
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO2",
+      "original_description": "Understand how manipulate data with R programming language and implement fundamental programming tasks",
+      "enriched_description": "Understand how manipulate data with R programming language and implement fundamental programming tasks.",
+      "source_topic_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO3",
+      "original_description": "Learn and apply foundational knowledge of the SQL &R languages, and how to access databases from Jupyter notebooks using SQL and R",
+      "enriched_description": "Learn and apply foundational SQL and R knowledge for accessing databases from Jupyter notebooks, including relational database reminders, intermediate SQL, database access with R, working with database objects, and SQL-with-R practice.",
+      "source_topic_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO4",
+      "original_description": "Know how to wrangle data for data analysis, develop models, improve models, evaluate and tune the performance",
+      "enriched_description": "Know how to wrangle data for data analysis, develop models, improve models, evaluate and tune the performance.",
+      "source_topic_indices": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO5",
+      "original_description": "Understand how to describe and build graphs using R packages. Implement various types of basic charts to visualize like bar charts, histograms, pie charts, scatter plots, line plots, and box plots",
+      "enriched_description": "Understand how to describe and build graphs using R packages. Implement various types of basic charts to visualize like bar charts, histograms, pie charts, scatter plots, line plots, and box plots, including Basic Plots, Maps, and Customization.",
+      "source_topic_indices": [
+        2,
+        3,
+        4
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO6",
+      "original_description": "Implement a small data science project includes steps: data wrangling, data analysis, data visualization, model development, model evaluation, and reporting",
+      "enriched_description": "Implement a small data science project that includes data wrangling, data analysis, data visualization, model development, model evaluation, reporting, and presentation.",
+      "source_topic_indices": [],
+      "review_required": true,
+      "review_notes": [
+        "Mapped topics are assignment, review, mini-capstone, or grading labels rather than substantive project-skill topics; no topic-supported enrichment was added."
+      ]
+    }
+  ]
+}

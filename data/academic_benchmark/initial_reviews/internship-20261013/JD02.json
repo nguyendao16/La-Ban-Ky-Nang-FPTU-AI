@@ -1,0 +1,138 @@
+{
+  "review_type": "academic_knowledge_review",
+  "overview": "Vị trí Intern AI / Perception Engineer tại FPT Software yêu cầu kiến thức nền tảng về phát triển pipeline nhận diện đối tượng thời gian thực, sử dụng các công cụ như PyTorch, ONNX, TensorRT, OpenCV, triển khai mô hình trên Jetson, cùng với kiến thức Python/C++ cơ bản và nền tảng về AI, Computer Vision. Hồ sơ học thuật cung cấp bằng chứng vững chắc về kiến thức nền tảng AI, Computer Vision, Python, các thuật toán học máy, xử lý ảnh, và các kỹ thuật nhận diện đối tượng. Tuy nhiên, các công nghệ cụ thể như PyTorch, ONNX, TensorRT, OpenCV và triển khai trên Jetson chưa được đề cập trực tiếp trong các CLO. Thành tích học tập ở các môn liên quan đều đạt mức excellent hoặc good, phản ánh kết quả học thuật xuất sắc ở các chủ đề nền tảng.",
+  "requirement_reviews": [
+    {
+      "jd_requirement": "Develop real-time object-detection pipelines",
+      "coverage": "covered",
+      "comment": "CPV301/CLO8 yêu cầu sinh viên hiểu và triển khai các kỹ thuật nhận diện đối tượng (object detection techniques), phản ánh đúng yêu cầu phát triển pipeline nhận diện đối tượng. CPV301/CLO3, CLO4, CLO5, CLO7 bổ sung kiến thức về xử lý ảnh, trích xuất đặc trưng, phân đoạn ảnh, và ghép ảnh, là các thành phần quan trọng trong pipeline nhận diện đối tượng. Thành tích excellent cho thấy sinh viên đã đạt kết quả học thuật xuất sắc ở các nội dung này.",
+      "evidence": [
+        {
+          "course_code": "CPV301",
+          "clo": "CLO8"
+        },
+        {
+          "course_code": "CPV301",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "CPV301",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "CPV301",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "CPV301",
+          "clo": "CLO7"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Work with PyTorch, ONNX, TensorRT and OpenCV",
+      "coverage": "not_evidenced",
+      "comment": "Hồ sơ học thuật hiện có chưa cung cấp bằng chứng trực tiếp về việc học hoặc sử dụng các công cụ PyTorch, ONNX, TensorRT hoặc OpenCV. Các CLO liên quan đến AI, học máy, xử lý ảnh và lập trình Python không đề cập cụ thể đến các thư viện hoặc framework này.",
+      "evidence": []
+    },
+    {
+      "jd_requirement": "Deploy models on Jetson",
+      "coverage": "not_evidenced",
+      "comment": "Không có CLO nào đề cập đến việc triển khai mô hình trên Jetson hoặc các nền tảng nhúng tương tự. Hồ sơ học thuật hiện có chưa cung cấp bằng chứng trực tiếp về nội dung này.",
+      "evidence": []
+    },
+    {
+      "jd_requirement": "Basic Python knowledge",
+      "coverage": "covered",
+      "comment": "PFP191/CLO1–CLO7 cung cấp nền tảng vững chắc về lập trình Python, bao gồm môi trường lập trình, biến, cấu trúc điều khiển, xử lý file, cấu trúc dữ liệu (list, dict, tuple), và lập trình hướng đối tượng. Thành tích excellent ở tất cả các CLO này phản ánh kết quả học tập xuất sắc về Python.",
+      "evidence": [
+        {
+          "course_code": "PFP191",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "PFP191",
+          "clo": "CLO2"
+        },
+        {
+          "course_code": "PFP191",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "PFP191",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "PFP191",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "PFP191",
+          "clo": "CLO6"
+        },
+        {
+          "course_code": "PFP191",
+          "clo": "CLO7"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Basic C++ knowledge",
+      "coverage": "not_evidenced",
+      "comment": "Hồ sơ học thuật hiện có chưa cung cấp bằng chứng trực tiếp về việc học hoặc sử dụng ngôn ngữ lập trình C++. Không có CLO nào đề cập đến C++.",
+      "evidence": []
+    },
+    {
+      "jd_requirement": "Interest in learning AI, CV, Robotics or UAV",
+      "coverage": "covered",
+      "comment": "Các CLO của CPV301, AIG202c, ITE303c, DAP391m, MAI391 thể hiện sinh viên đã học các chủ đề về AI, Computer Vision, học máy, và các ứng dụng liên quan. CPV301/CLO1, AIG202c/CLO1, CLO2, CLO3, ITE303c/CLO1, DAP391m/CLO6, MAI391/CLO5, CLO7 đều đề cập đến các khái niệm, ứng dụng và thuật toán AI, học máy, và xử lý ảnh. Thành tích học tập ở các môn này đều đạt good hoặc excellent.",
+      "evidence": [
+        {
+          "course_code": "CPV301",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "AIG202c",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "AIG202c",
+          "clo": "CLO2"
+        },
+        {
+          "course_code": "AIG202c",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "ITE303c",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO6"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO7"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Final-year students or recent graduates in IT, Computer Science, AI, Robotics, Embedded or Mechatronics",
+      "coverage": "not_evidenced",
+      "comment": "Hồ sơ học thuật chỉ cung cấp thông tin về các môn học và kết quả học tập, không xác nhận năm học hoặc tình trạng tốt nghiệp của sinh viên.",
+      "evidence": []
+    },
+    {
+      "jd_requirement": "Preferred: A personal project",
+      "coverage": "not_evidenced",
+      "comment": "Các CLO có thể yêu cầu thực hiện dự án học thuật (ví dụ: DAP391m/CLO7, ADY201m/CLO7), nhưng không xác nhận sinh viên đã thực hiện dự án cá nhân ngoài chương trình học. Hồ sơ học thuật hiện có chưa cung cấp bằng chứng trực tiếp về dự án cá nhân.",
+      "evidence": []
+    }
+  ],
+  "conclusion": "Hồ sơ học thuật cung cấp bằng chứng vững chắc về kiến thức nền tảng và ứng dụng trong lĩnh vực AI, Computer Vision, học máy, xử lý ảnh, và lập trình Python, với thành tích học tập xuất sắc ở các môn liên quan. Sinh viên đã được học về các kỹ thuật nhận diện đối tượng, xây dựng pipeline xử lý ảnh, và các thuật toán học máy hiện đại. Tuy nhiên, hồ sơ chưa xác nhận việc học hoặc sử dụng các công nghệ cụ thể như PyTorch, ONNX, TensorRT, OpenCV, triển khai mô hình trên Jetson, lập trình C++, cũng như chưa có bằng chứng về dự án cá nhân hoặc xác nhận năm cuối/tốt nghiệp. Các giới hạn này phản ánh phạm vi của bằng chứng học thuật hiện có, không phải là đánh giá về năng lực cá nhân ngoài hồ sơ."
+}

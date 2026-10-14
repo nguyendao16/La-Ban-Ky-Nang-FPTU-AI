@@ -1,0 +1,34 @@
+[
+  {
+    "clo": "CLO1",
+    "description": "Describe list data structures and their implementation approaches, including arrays, singly linked lists, circularly linked lists, and doubly linked lists. Implement singly linked lists while understanding how list representation choices affect data structure operations."
+  },
+  {
+    "clo": "CLO2",
+    "description": "Define stacks and queues and describe their basic operations and uses, including stack operations, queues, double-ended queues (deques), and priority queues as fundamental linear data structures."
+  },
+  {
+    "clo": "CLO3",
+    "description": "Describe recursive definitions, recursive algorithms, recursive functions, and their implementation and use, including factorial, binary search, file-system examples, recursive algorithm analysis, linear recursion, binary recursion, multiple recursion, recursive algorithm design, and tail-recursion elimination."
+  },
+  {
+    "clo": "CLO4",
+    "description": "Explain general trees, binary trees, and binary search trees, and implement BST operations, including tree definitions and properties, tree abstract data types, binary tree properties, tree implementation, traversal algorithms, BST search, insertions and deletions, balanced search trees, AVL."
+  },
+  {
+    "clo": "CLO5",
+    "description": "Discuss graphs and their applications, and implement basic graph operations, including graph representations using edge lists, adjacency lists, and adjacency matrices, depth-first and breadth-first traversal, weighted graphs, shortest paths, Dijkstra's algorithm, minimum spanning trees with Prim-Jarnik and Kruskal algorithms."
+  },
+  {
+    "clo": "CLO6",
+    "description": "Explain the operation and performance of basic and advanced sorting algorithms, including selection sort, insertion sort, bubble sort, quicksort, merge sort, heap sort, bucket sort, radix sort, and comparison of sorting algorithm performance."
+  },
+  {
+    "clo": "CLO7",
+    "description": "Explain hashing and its applications, including hash tables, hash functions, collision handling, load factors, rehashing, efficiency considerations, and Python hash table implementation."
+  },
+  {
+    "clo": "CLO8",
+    "description": "Describe text processing problems and their applications, including digitized text, pattern-matching algorithms, brute-force matching, the Knuth-Morris-Pratt algorithm, text compression, Huffman coding, LZW, and run-length encoding."
+  }
+]

@@ -1,0 +1,80 @@
+{
+  "histories": {
+    "S1": {
+      "messages": [],
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "S2": {
+      "messages": [],
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "S3": {
+      "messages": [],
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "S4": {
+      "messages": [],
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "S5": {
+      "messages": [
+        {
+          "role": "user",
+          "content": "Mình có học confidence intervals và hypothesis testing không?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"reply\": \"MAS291/CLO9: CLO ghi Construct and interpret confidence intervals for population parameters and differences between population parameters, including intervals for means of normal distributions with known or unknown variance, large-sample intervals for population proportions, inference on differences between two means, and inference on differences between two proportions. Điểm 9.43, achievement excellent thuộc outcome này.\\nMAS291/CLO8: CLO ghi Verify claims about population parameters and differences between population parameters using hypothesis testing, including formulating hypotheses, identifying critical values and test statistics, computing p-values, recognizing testing errors, and conducting tests for single means, single proportions, differences between two means, and differences between two proportions. Điểm 9.43, achievement excellent thuộc outcome này.\", \"evidence\": [{\"course_code\": \"MAS291\", \"clo\": \"CLO9\"}, {\"course_code\": \"MAS291\", \"clo\": \"CLO8\"}]}"
+        },
+        {
+          "role": "user",
+          "content": "Còn simple linear regression và PCA thì sao?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"reply\": \"MAS291/CLO9: CLO ghi Construct a simple linear regression model and use it for prediction and interpretation, including empirical models, least-squares estimation, sums of squares, regression equations, correlation coefficients, properties of least-squares estimators, and hypothesis tests for significance in simple linear regression. Điểm 9.43, achievement excellent thuộc outcome này.\\nMAI391/CLO6: CLO ghi Apply dimensionality reduction with PCA, including covariance matrices, maximum-variance subspaces, principal subspace bases, low-rank matrix approximation, PCA in high dimensions, projection perspectives, eigenvector computation, and key practical PCA steps. Điểm 9.4, achievement excellent thuộc outcome này.\", \"evidence\": [{\"course_code\": \"MAS291\", \"clo\": \"CLO9\"}, {\"course_code\": \"MAI391\", \"clo\": \"CLO6\"}]}"
+        }
+      ],
+      "sha256": "d028bf2dca1d914da4f347c72cfaff2bcbdb2721a16b874bbcf14da8af286458"
+    },
+    "S6": {
+      "messages": [
+        {
+          "role": "user",
+          "content": "Tóm các nội dung statistics mình đã học."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"reply\": \"MAS291/CLO5: CLO ghi Describe data using numerical summaries and visual displays, including descriptive statistics, stem-and-leaf diagrams, frequency distributions, histograms, box plots, quartiles, outlier identification, and time sequence plots. Điểm 9.15, achievement excellent thuộc outcome này.\\nMAS291/CLO6: CLO ghi Discuss sampling distributions and point estimation, then use the Central Limit Theorem to analyze sampling distributions of means. Điểm 9.15, achievement excellent thuộc outcome này.\\nMAS291/CLO7: CLO ghi Construct and interpret confidence intervals for population parameters and differences between population parameters, including intervals for means of normal distributions with known or unknown variance, large-sample intervals for population proportions, inference on differences between two means, and inference on differences between two proportions. Điểm 9.43, achievement excellent thuộc outcome này.\\nMAS291/CLO8: CLO ghi Verify claims about population parameters and differences between population parameters using hypothesis testing, including formulating hypotheses, identifying critical values and test statistics, computing p-values, recognizing testing errors, and conducting tests for single means, single proportions, differences between two means, and differences between two proportions. Điểm 9.43, achievement excellent thuộc outcome này.\\nMAS291/CLO9: CLO ghi Construct a simple linear regression model and use it for prediction and interpretation, including empirical models, least-squares estimation, sums of squares, regression equations, correlation coefficients, properties of least-squares estimators, and hypothesis tests for significance in simple linear regression. Điểm 9.43, achievement excellent thuộc outcome này.\", \"evidence\": [{\"course_code\": \"MAS291\", \"clo\": \"CLO5\"}, {\"course_code\": \"MAS291\", \"clo\": \"CLO6\"}, {\"course_code\": \"MAS291\", \"clo\": \"CLO7\"}, {\"course_code\": \"MAS291\", \"clo\": \"CLO8\"}, {\"course_code\": \"MAS291\", \"clo\": \"CLO9\"}]}"
+        }
+      ],
+      "sha256": "4cfd75c3d842b7426b5025058a4659687dfecca8d4df59b1bdd85838bced07ca"
+    },
+    "S7": {
+      "messages": [
+        {
+          "role": "user",
+          "content": "Sorting và hashing trong CSD203 nằm ở đâu?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"reply\": \"CSD203/CLO6: CLO ghi Explain the operation and performance of basic and advanced sorting algorithms, including selection sort, insertion sort, bubble sort, quicksort, merge sort, heap sort, bucket sort, radix sort, and comparison of sorting algorithm performance. Điểm 6.06, achievement basic thuộc outcome này.\\nCSD203/CLO7: CLO ghi Explain hashing and its applications, including hash tables, hash functions, collision handling, load factors, rehashing, efficiency considerations, and Python hash table implementation. Điểm 6.06, achievement basic thuộc outcome này.\", \"evidence\": [{\"course_code\": \"CSD203\", \"clo\": \"CLO6\"}, {\"course_code\": \"CSD203\", \"clo\": \"CLO7\"}]}"
+        }
+      ],
+      "sha256": "7823aec54b658bf6915e26aefa41b4d77bbf04577526ad37f86f13d2f576bb85"
+    },
+    "S8": {
+      "messages": [
+        {
+          "role": "user",
+          "content": "AIL303m có nội dung phát hiện và xử lý outliers không?"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"reply\": \"AIL303m/CLO3 ghi: Learners should be able to use a variety of techniques for detecting and dealing with outliers, including Inferential Statistics, Hypothesis Testing, Estimation, Inference, Hypothesis Testing (Homework). Điểm 7.56, achievement good thuộc CLO này.\", \"evidence\": [{\"course_code\": \"AIL303m\", \"clo\": \"CLO3\"}]}"
+        }
+      ],
+      "sha256": "08ad75fbeef7769e5e866bc5c08858b7898a4ae0a843dbd7350985ebb5cdc772"
+    }
+  }
+}

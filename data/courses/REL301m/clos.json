@@ -1,0 +1,30 @@
+[
+  {
+    "clo": "CLO1",
+    "description": "Understand the concepts of Reinforcement Learning, including Exploration vs. Exploitation Tradeoff, Introduction to Markov Decision Processes, Goal of Reinforcement Learning, Guided Project: Create a Tic-Tac-Toe game in Python."
+  },
+  {
+    "clo": "CLO2",
+    "description": "Know how to implement dynamic programming as an efficient solution approach to an industrial control problem, including Policy Evaluation (Prediction), Policy Iteration (Control), Generalized Policy Iteration, Guided Project: Create a Tic-Tac-Toe game in Python."
+  },
+  {
+    "clo": "CLO3",
+    "description": "Understand several algorithms for estimating value: Temporal-Difference learning, Monte Carlo, including Introduction to Monte-Carlo Methods, Monte-Carlo for Control, Exploration Methods for Monte-Carlo, Introduction to Temporal Difference Learning."
+  },
+  {
+    "clo": "CLO4",
+    "description": "Understand and implement a model-based approach to RL: Temporal-Difference, Expected Sarsa, Q-learning, including Off-policy Temporal Difference Control: Q-learning, Expected Sarsa."
+  },
+  {
+    "clo": "CLO5",
+    "description": "Understand several approaches that affect approximate value functions: supervised learning, fixed basis, neural network, including Estimating Value Functions as Supervised Learning, The Objective for Temporal Difference, Linear Temporal Difference, Feature Construction for Linear Methods, Guided Project: Create a Tic-Tac-Toe game in Python."
+  },
+  {
+    "clo": "CLO6",
+    "description": "Understand how function approximation is used to predict and control in Reinforcement Learning, including Episodic Sarsa with Function Approximation, Exploration under Function Approximation, Understand Average Reward, Learning Parameterized Policies."
+  },
+  {
+    "clo": "CLO7",
+    "description": "Understand and implement an RL solution to a problem step by step: problem formulation, appropriate algorithm selection, implementation, and empirical study into the effectiveness of the solution, including Assignment guide , Assignment guide , Assignment- Assignment grading."
+  }
+]

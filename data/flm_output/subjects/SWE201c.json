@@ -1,0 +1,328 @@
+{
+  "record_type": "normal_subject",
+  "curriculum": {
+    "subject_code": "SWE201c",
+    "subject_name": "Introduction to Software Engineering_Nhập môn kĩ thuật phần mềm",
+    "semester": "4",
+    "credits": "3",
+    "prerequisite": "PRO192 (not applied to the BIT_AI ; BIT_IC; BIT_AS; BIT_DX and BA programs)",
+    "pre_syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/Syllabuses?subCode=SWE201c&curriculumID=3173",
+    "curriculum_url": "https://flm.fpt.edu.vn/gui/role/student/CurriculumDetails?curid=3173"
+  },
+  "syllabus_versions": [
+    {
+      "subject_code": "SWE201c",
+      "syllabus_name": "Introduction to Software Engineering_Nhập môn kỹ thuật phần mềm",
+      "is_active": true,
+      "is_approved": true,
+      "decision_no": "1028/QĐ-ĐHFPT dated 08/21/2026",
+      "syllabus_id": "14443",
+      "syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=14443",
+      "pre_syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/Syllabuses?subCode=SWE201c&curriculumID=3173"
+    }
+  ],
+  "selected_syllabus": {
+    "subject_code": "SWE201c",
+    "syllabus_name": "Introduction to Software Engineering_Nhập môn kỹ thuật phần mềm",
+    "is_active": true,
+    "is_approved": true,
+    "decision_no": "1028/QĐ-ĐHFPT dated 08/21/2026",
+    "syllabus_id": "14443",
+    "syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=14443",
+    "pre_syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/Syllabuses?subCode=SWE201c&curriculumID=3173"
+  },
+  "details": {
+    "source_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=14443",
+    "metadata": {
+      "Syllabus ID": "14443",
+      "Syllabus Name": "Introduction to Software Engineering_Nhập môn kỹ thuật phần mềm",
+      "Course Name English": "Introduction to Software Engineering",
+      "Subject Code": "SWE201c",
+      "Learning-Teaching Method": "Blended,Online,Active learning,Inquiry-based Teaching",
+      "NoCredit": "3",
+      "Degree Level": "Bachelor",
+      "Time Allocation": "Study hour (150h) = 62h online + 3h offline + 1h TE + 2h PE + 82 h self-study",
+      "Pre-Requisite": "PRO192 (not applied to the BIT_AI ; BIT_IC; BIT_AS; BIT_DX and BA programs)",
+      "Description": "SWE201c is for people who are new to software engineering. It's also for those who have already developed software, but wish to gain a deeper understanding of the underlying context and theory of software development practices.\nAt the end of this course, we expect learners to be able to:\n1.) Build high-quality and secure software using SDLC methodologies such as agile, lean, and traditional/waterfall.\n2.) Analyze a software development team's SDLC methodology and make recommendations for improvements.\n3.) Compare and contrast software development methodologies with respect to environmental, organizational, and product constraints.",
+      "StudentTasks": "Student must get the certification of Software Development Lifecycle specialization from Coursera to be accepted to the final examination",
+      "Tools": "",
+      "Scoring Scale": "10",
+      "DecisionNo MM/dd/yyyy": "1028/QĐ-ĐHFPT dated 08/21/2026",
+      "IsApproved": "True",
+      "Note": "1. Complete the online course to be allowed to take Final Exam\n2. Final Exam is included of Final Theory Exam (TE) & Final Practical Exam (PE): 100%\n3. Students who complete all MOOCs before the course deadline will receive 1 bonus point; otherwise, no bonus point will be awarded.\n4. Completion Criteria: Final TE Score >=4 & Final PE Score >=4 & FR >= 5\nFR = min[10, (Final TE Score * weight of Final TE) + (Final PE Score * weight of Final PE) + bonus]",
+      "Is Scored": "True",
+      "MinAvgMarkToPass": "5",
+      "IsActive": "True",
+      "ApprovedDate": "8/21/2026"
+    },
+    "materials": [
+      {
+        "No.": "1",
+        "Material Description": "https://learner.coursera.help/hc/en-us/articles/208280036-Coursera-Code-of-Conduct",
+        "Author": "",
+        "Publisher": "Coursera",
+        "Published Date": "",
+        "Edition": "",
+        "ISBN": "",
+        "Is Main Material": "False",
+        "Is Hard Copy": "False",
+        "Is Online": "True",
+        "Note": ""
+      },
+      {
+        "No.": "2",
+        "Material Description": "https://www.coursera.org/learn/software-processes",
+        "Author": "",
+        "Publisher": "Coursera",
+        "Published Date": "",
+        "Edition": "",
+        "ISBN": "",
+        "Is Main Material": "True",
+        "Is Hard Copy": "False",
+        "Is Online": "True",
+        "Note": "MOOC 01: Software Development Processes and Methodologies"
+      },
+      {
+        "No.": "3",
+        "Material Description": "https://www.coursera.org/learn/agile-software-development",
+        "Author": "",
+        "Publisher": "Coursera",
+        "Published Date": "",
+        "Edition": "",
+        "ISBN": "",
+        "Is Main Material": "True",
+        "Is Hard Copy": "False",
+        "Is Online": "True",
+        "Note": "MOOC 02: Agile Software Development"
+      },
+      {
+        "No.": "4",
+        "Material Description": "https://www.coursera.org/learn/lean-software-development",
+        "Author": "",
+        "Publisher": "Coursera",
+        "Published Date": "",
+        "Edition": "",
+        "ISBN": "",
+        "Is Main Material": "True",
+        "Is Hard Copy": "False",
+        "Is Online": "True",
+        "Note": "MOOC 03: Lean Software Development"
+      },
+      {
+        "No.": "5",
+        "Material Description": "https://www.coursera.org/learn/engineering-practices-secure-software-quality",
+        "Author": "",
+        "Publisher": "Coursera",
+        "Published Date": "",
+        "Edition": "",
+        "ISBN": "",
+        "Is Main Material": "True",
+        "Is Hard Copy": "False",
+        "Is Online": "True",
+        "Note": "MOOC 04: Engineering Practices for Building Quality Software"
+      },
+      {
+        "No.": "6",
+        "Material Description": "https://www.coursera.org/specializations/software-development-lifecycle",
+        "Author": "",
+        "Publisher": "Coursera",
+        "Published Date": "",
+        "Edition": "",
+        "ISBN": "",
+        "Is Main Material": "True",
+        "Is Hard Copy": "False",
+        "Is Online": "True",
+        "Note": "SPEC: Software Development Lifecycle"
+      }
+    ],
+    "clos": [
+      {
+        "No.": "1",
+        "CLO Name": "CLO1",
+        "CLO Details": "Compare and contrast software development methodologies with respect to environmental, organizational, and product constraints."
+      },
+      {
+        "No.": "2",
+        "CLO Name": "CLO2",
+        "CLO Details": "Demonstrate the ability to participate effectively in agile practices/process for software development."
+      },
+      {
+        "No.": "3",
+        "CLO Name": "CLO3",
+        "CLO Details": "Apply lean techniques / methods to software development"
+      },
+      {
+        "No.": "4",
+        "CLO Name": "CLO4",
+        "CLO Details": "Comfortably and effectively participate in various techniques and processes for building secure and high quality software."
+      }
+    ],
+    "schedule": [
+      {
+        "Session": "1",
+        "Topic": "Specialization Introduction\nSoftware Development Processes and Methodologies:\n- Software development processes: Part 1\nOffline 1: Introduction to the online course SWE201c",
+        "Learning-Teaching Type": "Offline,Online",
+        "LO": "LO1",
+        "ITU": "",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "- Watch all videos, read all materials in the MOOC\n- Finish quizzes, self-assessment, assignments and take part in discussion boards (if needed)\nAll students should participate in offline slot (if any question)",
+        "URLs": ""
+      },
+      {
+        "Session": "2",
+        "Topic": "- Software Development Processes : Part 2",
+        "Learning-Teaching Type": "Online",
+        "LO": "LO1",
+        "ITU": "",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "- Watch all videos, read all materials in the MOOC\n- Finish quizzes, self-assessment, assignments and take part in discussion boards (if needed)",
+        "URLs": ""
+      },
+      {
+        "Session": "3",
+        "Topic": "- Software Development Models: Traditional Models",
+        "Learning-Teaching Type": "Online",
+        "LO": "LO1",
+        "ITU": "",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "- Watch all videos, read all materials in the MOOC\n- Finish quizzes, self-assessment, assignments and take part in discussion boards (if needed)",
+        "URLs": ""
+      },
+      {
+        "Session": "4",
+        "Topic": "- Software Development Models: Agile and Lean",
+        "Learning-Teaching Type": "Online",
+        "LO": "LO1",
+        "ITU": "",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "- Watch all videos, read all materials in the MOOC\n- Finish quizzes, self-assessment, assignments and take part in discussion boards (if needed)",
+        "URLs": ""
+      },
+      {
+        "Session": "5",
+        "Topic": "Agile Software Development:\n- Agile Fundamentals\n- Requirements and Planning",
+        "Learning-Teaching Type": "Online",
+        "LO": "LO2",
+        "ITU": "",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "- Watch all videos, read all materials in the MOOC\n- Finish quizzes, self-assessment, assignments and take part in discussion boards (if needed)",
+        "URLs": ""
+      },
+      {
+        "Session": "6",
+        "Topic": "- Scrum\n- XP and Course Wrap-up",
+        "Learning-Teaching Type": "Online",
+        "LO": "LO2",
+        "ITU": "",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "- Watch all videos, read all materials in the MOOC\n- Finish quizzes, self-assessment, assignments and take part in discussion boards (if needed)",
+        "URLs": ""
+      },
+      {
+        "Session": "7",
+        "Topic": "Lean Software Development:\n- Lean Fundamentals\n- Kanban, Value Steam Mapping and Kaizen",
+        "Learning-Teaching Type": "Online",
+        "LO": "LO4",
+        "ITU": "",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "- Watch all videos, read all materials in the MOOC\n- Finish quizzes, self-assessment, assignments and take part in discussion boards (if needed)",
+        "URLs": ""
+      },
+      {
+        "Session": "8",
+        "Topic": "- Lean Startup\n- Design Thinking",
+        "Learning-Teaching Type": "Online",
+        "LO": "LO3",
+        "ITU": "",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "- Watch all videos, read all materials in the MOOC\n- Finish quizzes, self-assessment, assignments and take part in discussion boards (if needed)",
+        "URLs": ""
+      },
+      {
+        "Session": "9",
+        "Topic": "Engineering Practices for Building Quality Software:\n- Introduction to Quality Software\n- Quality in Design",
+        "Learning-Teaching Type": "Online",
+        "LO": "LO4",
+        "ITU": "",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "- Watch all videos, read all materials in the MOOC\n- Finish quizzes, self-assessment, assignments and take part in discussion boards (if needed)",
+        "URLs": ""
+      },
+      {
+        "Session": "10",
+        "Topic": "- Quality in Architecture",
+        "Learning-Teaching Type": "Online",
+        "LO": "LO4",
+        "ITU": "",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "- Watch all videos, read all materials in the MOOC\n- Finish quizzes, self-assessment, assignments and take part in discussion boards (if needed)",
+        "URLs": ""
+      },
+      {
+        "Session": "11",
+        "Topic": "- Quality in Implementation",
+        "Learning-Teaching Type": "Online",
+        "LO": "LO4",
+        "ITU": "",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "- Watch all videos, read all materials in the MOOC\n- Finish quizzes, self-assessment, assignments and take part in discussion boards (if needed)",
+        "URLs": ""
+      },
+      {
+        "Session": "12",
+        "Topic": "- Quality in Testing and Deployment\nOffline 2: Review Software Development Lifecycle Specialization",
+        "Learning-Teaching Type": "Offline,Online",
+        "LO": "LO4",
+        "ITU": "",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "- Watch all videos, read all materials in the MOOC\n- Finish quizzes, self-assessment, assignments and take part in discussion boards (if needed\nDeadline of Coursera completion: End of Friday of the week.\nAll students should participate in review slot (if any question)",
+        "URLs": ""
+      }
+    ],
+    "assessments": [
+      {
+        "No.": "1",
+        "Category": "PE",
+        "Type": "Final exam",
+        "Part": "1",
+        "Weight": "40.0%",
+        "Completion Criteria": "4",
+        "Duration": "120'",
+        "CLO": "",
+        "Question Type": "",
+        "No Question": "",
+        "Knowledge and Skill": "All studied courses.",
+        "Grading Guide": "by Exam Board",
+        "Note": "Customized from the exercises of this specialization."
+      },
+      {
+        "No.": "2",
+        "Category": "TE",
+        "Type": "Final exam",
+        "Part": "1",
+        "Weight": "60.0%",
+        "Completion Criteria": "4",
+        "Duration": "60'",
+        "CLO": "",
+        "Question Type": "Computer gradable",
+        "No Question": "50",
+        "Knowledge and Skill": "All studied courses. Each module of course contributes 2-3 questions.",
+        "Grading Guide": "by Exam Board",
+        "Note": "Customized from the quizzes of this specialization."
+      }
+    ]
+  },
+  "error": null
+}

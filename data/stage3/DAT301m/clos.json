@@ -1,0 +1,42 @@
+[
+  {
+    "clo_name": "CLO1",
+    "clo_details": "Understand the basics of TensorFlow and application of TensorFlow framework in Machine Learning, Deep Learning."
+  },
+  {
+    "clo_name": "CLO2",
+    "clo_details": "Understand how to build a basic neural network in TensorFlow and train a neural network for a computer vision application."
+  },
+  {
+    "clo_name": "CLO3",
+    "clo_details": "Understan the convolutional Neural Networks in TensorFlow, include the strategies to prevent overfitting, including augmentation and dropout"
+  },
+  {
+    "clo_name": "CLO4",
+    "clo_details": "Undesrstand the transfer learning and how learned features can be extracted from models"
+  },
+  {
+    "clo_name": "CLO5",
+    "clo_details": "Understand basic concepts of sentiment in text, word Embeddings, sequence model and literature"
+  },
+  {
+    "clo_name": "CLO6",
+    "clo_details": "Implementing natural language processing systems using TensorFlow"
+  },
+  {
+    "clo_name": "CLO7",
+    "clo_details": "Understand the sequences, time series and prediction problems in TensorFlow"
+  },
+  {
+    "clo_name": "CLO8",
+    "clo_details": "Understand how to apply RNNs, GRUs, and LSTMs as you train them using text repositories"
+  },
+  {
+    "clo_name": "CLO9",
+    "clo_details": "Understand how to apply AI tools to complete a mini project"
+  },
+  {
+    "clo_name": "CLO10",
+    "clo_details": "Implement a AI project includes steps: data collection, data wrangling, exploratory data analysis, model development, model evaluation, and reporting"
+  }
+]

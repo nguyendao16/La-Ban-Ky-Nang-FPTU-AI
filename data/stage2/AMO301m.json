@@ -1,0 +1,331 @@
+{
+  "metadata": {
+    "syllabus_name": "Advanced MLOps_Hoạt động học máy nâng cao",
+    "course_name_english": "Advanced MLOps",
+    "subject_code": "AMO301m",
+    "description": "This course provides students with practical knowledge and skills to bridge the gap between machine learning model development and production deployment. Students will master essential Python programming for MLOps, explore the integration of DevOps practices, and build efficient microservices, including the application of high-performance languages like Rust for zero-shot classification. The curriculum covers cloud-based data engineering pipelines using AWS technologies (such as AWS Step Functions, Lambda, and SageMaker) alongside industry-standard tools like MLflow and Hugging Face for model tracking, reproducibility, and deployment. Through hands-on projects, students will gain comprehensive experience in designing, building, and managing end-to-end operational pipelines for real-world AI and ML solutions.",
+    "tools": "Python, AWS (SageMaker, Lambda, Step Functions), MLflow, Hugging Face, Rust, GitHub."
+  },
+  "clos": [
+    {
+      "clo_name": "CLO1",
+      "clo_details": "Understand the core concepts of Python programming, advanced data structures, and their specific applications within MLOps workflows."
+    },
+    {
+      "clo_name": "CLO2",
+      "clo_details": "Apply clean coding practices, modern testing frameworks, and efficient data manipulation using Pandas and NumPy for machine learning data readiness."
+    },
+    {
+      "clo_name": "CLO3",
+      "clo_details": "Understand the fundamental principles of MLOps, DevOps, and DataOps methodologies, including their importance in the software development lifecycle."
+    },
+    {
+      "clo_name": "CLO4",
+      "clo_details": "Design and compose software solutions using microservices architectures and automated operations pipelines to support scalable machine learning applications."
+    },
+    {
+      "clo_name": "CLO5",
+      "clo_details": "Understand the principles of ethical AI and the application of high-performance languages like Rust for zero-shot classification and efficient processing."
+    },
+    {
+      "clo_name": "CLO6",
+      "clo_details": "Understand cloud-based data engineering architectures, including data ingestion, repository creation, and secure data transformation solutions."
+    },
+    {
+      "clo_name": "CLO7",
+      "clo_details": "Apply cloud technologies (such as AWS Step Functions, AWS Lambda, and Amazon SageMaker) to build, monitor, and automate end-to-end data engineering and modeling pipelines."
+    },
+    {
+      "clo_name": "CLO8",
+      "clo_details": "Understand the fundamentals of MLflow, including the Tracking UI, model registries, and artifact management via APIs."
+    },
+    {
+      "clo_name": "CLO9",
+      "clo_details": "Apply MLflow and Hugging Face modules to package reproducible machine learning projects and deploy pre-trained models efficiently."
+    },
+    {
+      "clo_name": "CLO10",
+      "clo_details": "Implement an end-to-end Advanced MLOps project that includes infrastructure setup, automated data pipelines, model tracking, cloud deployment, and reporting."
+    }
+  ],
+  "schedule": [
+    {
+      "topic": "Course Introduction & MLOps Overview",
+      "lo": "CLO1, CLO10"
+    },
+    {
+      "topic": "1.1. Introduction to MLOps Concepts & Python Foundations for MLOps",
+      "lo": "CLO1, CLO9"
+    },
+    {
+      "topic": "1.2. Functional & Object-Oriented Programming for MLOps Pipelines",
+      "lo": "CLO1, CLO9"
+    },
+    {
+      "topic": "1.3. Software Testing, Code Quality & Frameworks for MLOps",
+      "lo": "CLO2, CLO9"
+    },
+    {
+      "topic": "1.4. Data Engineering Foundations & Pipeline Processing with Pandas & NumPy",
+      "lo": "CLO2, CLO9"
+    },
+    {
+      "topic": "1.5. Applied Python Workflows for MLOps",
+      "lo": "CLO1, CLO2"
+    },
+    {
+      "topic": "Discussion on Project Topics & Infrastructure",
+      "lo": "CLO10"
+    },
+    {
+      "topic": "Formation of Teams and Group Agreement",
+      "lo": "CLO10"
+    },
+    {
+      "topic": "Report 1: Infrastructure & Pipeline Proposal Discussion",
+      "lo": "CLO10"
+    },
+    {
+      "topic": "2.1. Introduction to MLOps Methodology",
+      "lo": "CLO3, CLO9"
+    },
+    {
+      "topic": "2.2. Essential Math & Data Science Foundations",
+      "lo": "CLO3, CLO9"
+    },
+    {
+      "topic": "2.3. Principles of Operations Pipelines",
+      "lo": "CLO4, CLO9"
+    },
+    {
+      "topic": "2.4. End-to-End MLOps & AIOps Architecture",
+      "lo": "CLO4, CLO9"
+    },
+    {
+      "topic": "2.5. Rust for MLOps Zero Shot Classification (HF)",
+      "lo": "CLO5, CLO9"
+    },
+    {
+      "topic": "2.6. High-Performance Rust for MLOps",
+      "lo": "CLO5, CLO9"
+    },
+    {
+      "topic": "Team Meeting: Report 1 Writing & Review",
+      "lo": "CLO10"
+    },
+    {
+      "topic": "Team Meeting: Report 1 Writing & Review",
+      "lo": "CLO10"
+    },
+    {
+      "topic": "Team Meeting: Instructor's Feedback for Report 1",
+      "lo": "CLO10"
+    },
+    {
+      "topic": "Team Meeting: Instructor's Feedback for Report 1",
+      "lo": "CLO10"
+    },
+    {
+      "topic": "Team Meeting: Instructor's Feedback for Report 1",
+      "lo": "CLO10"
+    },
+    {
+      "topic": "Team Meeting: Instructor's Feedback for Report 1",
+      "lo": "CLO10"
+    },
+    {
+      "topic": "Team Meeting: Report 2 Data Pipeline Setup",
+      "lo": "CLO10"
+    },
+    {
+      "topic": "3.1. Amazon SageMaker and Azure ML Platforms",
+      "lo": "CLO6, CLO9"
+    },
+    {
+      "topic": "3.2. Exploratory Data Analysis with AWS Technology",
+      "lo": "CLO6, CLO9"
+    },
+    {
+      "topic": "3.3. Core Modeling with AWS Cloud Technology",
+      "lo": "CLO7, CLO9"
+    },
+    {
+      "topic": "3.4. Production MLOps with AWS Technology",
+      "lo": "CLO7, CLO9"
+    },
+    {
+      "topic": "AWS Lab: Data Ingestion with AWS Lambda",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "AWS Lab: Data Transformation with Step Functions",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "Team Meeting: Report 2 AWS Integration",
+      "lo": "CLO10"
+    },
+    {
+      "topic": "Team Meeting: Report 2 AWS Integration",
+      "lo": "CLO10"
+    },
+    {
+      "topic": "Team Meeting: Instructor's Feedback for Report 2",
+      "lo": "CLO10"
+    },
+    {
+      "topic": "Team Meeting: Instructor's Feedback for Report 2",
+      "lo": "CLO10"
+    },
+    {
+      "topic": "Team Meeting: Instructor's Feedback for Report 2",
+      "lo": "CLO10"
+    },
+    {
+      "topic": "Progress Test",
+      "lo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6"
+    },
+    {
+      "topic": "4.1. Introduction to MLflow Module",
+      "lo": "CLO8, CLO9"
+    },
+    {
+      "topic": "4.2. Understanding the MLflow Tracking UI",
+      "lo": "CLO8, CLO9"
+    },
+    {
+      "topic": "4.3. Working with MLflow Projects for Reproducibility",
+      "lo": "CLO9"
+    },
+    {
+      "topic": "4.4. Model Registry and Interaction via API",
+      "lo": "CLO8, CLO9"
+    },
+    {
+      "topic": "4.5. Reference Artifacts from MLflow API",
+      "lo": "CLO8, CLO9"
+    },
+    {
+      "topic": "4.6. Introduction to Hugging Face Modules",
+      "lo": "CLO9"
+    },
+    {
+      "topic": "4.7. Deploying Hugging Face Models",
+      "lo": "CLO9"
+    },
+    {
+      "topic": "4.8. Integration of MLflow and Hugging Face",
+      "lo": "CLO8, CLO9"
+    },
+    {
+      "topic": "Hands-on Lab: Tracking Runs and Model Registration",
+      "lo": "CLO8, CLO9"
+    },
+    {
+      "topic": "Hands-on Lab: Deploying Models to Production API",
+      "lo": "CLO8, CLO9"
+    },
+    {
+      "topic": "Team Meeting: Report 3 Model Tracking Setup",
+      "lo": "CLO10"
+    },
+    {
+      "topic": "Team Meeting: Report 3 Integration & Results",
+      "lo": "CLO10"
+    },
+    {
+      "topic": "Team Meeting: Report 3 Integration & Results",
+      "lo": "CLO10"
+    },
+    {
+      "topic": "Team Meeting: Instructor's Feedback for Report 3",
+      "lo": "CLO10"
+    },
+    {
+      "topic": "Team Meeting: Instructor's Feedback for Report 3",
+      "lo": "CLO10"
+    },
+    {
+      "topic": "Team Meeting: Instructor's Feedback for Report 3",
+      "lo": "CLO10"
+    },
+    {
+      "topic": "Team Meeting: Instructor's Feedback for Report 3",
+      "lo": "CLO10"
+    },
+    {
+      "topic": "Team Meeting: Report 4 Final System Packaging",
+      "lo": "CLO10"
+    },
+    {
+      "topic": "Team Meeting: Report 4 Final System Packaging",
+      "lo": "CLO10"
+    },
+    {
+      "topic": "Team Meeting: Practice for Presentation (Report 4)",
+      "lo": "CLO10"
+    },
+    {
+      "topic": "Team Meeting: Practice for Presentation (Report 4)",
+      "lo": "CLO10"
+    },
+    {
+      "topic": "Team Meeting: Practice for Presentation (Report 4)",
+      "lo": "CLO10"
+    },
+    {
+      "topic": "Team Meeting: Practice for Presentation (Report 4)",
+      "lo": "CLO10"
+    },
+    {
+      "topic": "Team Meeting: Final System Testing & Debugging",
+      "lo": "CLO10"
+    },
+    {
+      "topic": "Team Meeting: Final System Testing & Debugging",
+      "lo": "CLO10"
+    },
+    {
+      "topic": "Course Review & Project Final Evaluation",
+      "lo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8, CLO9"
+    }
+  ],
+  "assessments": [
+    {
+      "category": "Progress Test",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6"
+    },
+    {
+      "category": "Report 1: Infrastructure & Pipeline Proposal",
+      "part": "1",
+      "weight": "5.0%",
+      "clo": "CLO1, CLO2, CLO3, CLO10"
+    },
+    {
+      "category": "Report 2: Data Engineering & AWS Integration",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": "CLO4, CLO6, CLO7, CLO10"
+    },
+    {
+      "category": "Report 3: Model Tracking & Deployment",
+      "part": "1",
+      "weight": "15.0%",
+      "clo": "CLO8, CLO9, CLO10"
+    },
+    {
+      "category": "Report 4: Final System Report & Group Presentation",
+      "part": "1",
+      "weight": "30.0%",
+      "clo": "CLO1, CLO4, CLO7, CLO9, CLO10"
+    },
+    {
+      "category": "Final Exam (Computer-based Multiple-choice Examination)",
+      "part": "1",
+      "weight": "30.0%",
+      "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8, CLO9"
+    }
+  ]
+}

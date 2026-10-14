@@ -1,0 +1,932 @@
+{
+  "schema_version": "stage1_v1",
+  "record_type": "normal_subject",
+  "subject": {
+    "code": "CPV301",
+    "name": {
+      "full": "Computer Vision_Thị giác máy tính",
+      "en": "Computer Vision",
+      "vi": "Thị giác máy tính"
+    },
+    "semester": 4,
+    "credits": 3,
+    "prerequisite": "PFP191, CSD203"
+  },
+  "syllabus": {
+    "id": "13292",
+    "name": "Computer Vision_Thị giác máy tính",
+    "is_active": true,
+    "is_approved": true,
+    "decision_no": "932/QĐ-ĐHFPT dated 08/22/2025"
+  },
+  "content": {
+    "metadata": {
+      "syllabus_id": "13292",
+      "syllabus_name": "Computer Vision_Thị giác máy tính",
+      "course_name_english": "",
+      "subject_code": "CPV301",
+      "learning_teaching_method": "Lecture,Project based learning",
+      "nocredit": "3",
+      "degree_level": "Bachelor",
+      "time_allocation": "45h (60 sessions) contact hours + 1h final exam + 104h self-study",
+      "pre_requisite": "PFP191, CSD203",
+      "description": "-This course provides the basics of computer vision.\n-Students will have access to knowledge from image representation, lighting, image acquisition through the camera, camera calibration techniques.\n-Learn line and edge detection techniques in images, filters as well as Canny, RANSAC methods\n-Students will learn advanced image processing knowledge such as Image segmentation, object detection, object recognition, and object tracking.\n-Implement a computer vision project in recognizing objects in photos or videos",
+      "studenttasks": "- Students must attend at least 80% of contact slots in order to be accepted to the final examination.\n- Student is responsible to do all exercises given by instructor in class or at home and submit on time.\n- Use laptop in class only for learning purpose\n- Promptly access to the FU CMS at http://cms.fpt.edu.vn for up-to-date course information",
+      "tools": "Text Book\n'Pycharm or Matlab\nInternet",
+      "scoring_scale": "10",
+      "decisionno_mm_dd_yyyy": "932/QĐ-ĐHFPT dated 08/22/2025",
+      "isapproved": "True",
+      "note": "",
+      "is_scored": "True",
+      "minavgmarktopass": "5",
+      "isactive": "True",
+      "approveddate": "8/22/2025"
+    },
+    "materials": [
+      {
+        "no": "1",
+        "material_description": "Computer Vision: A Modern Approach",
+        "author": "David Forsyth, Jean Ponce",
+        "publisher": "Pearson",
+        "published_date": "10/26/2011 12:00:00 AM",
+        "edition": "2nd",
+        "isbn": "978-0136085928",
+        "is_main_material": false,
+        "is_hard_copy": true,
+        "is_online": false,
+        "note": ""
+      },
+      {
+        "no": "2",
+        "material_description": "Computer Vision: Algorithms and Applications",
+        "author": "Richard Szeliski",
+        "publisher": "Springer",
+        "published_date": "10/19/2010 12:00:00 AM",
+        "edition": "1st",
+        "isbn": "978-1848829343",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://szeliski.org/Book/"
+      },
+      {
+        "no": "3",
+        "material_description": "Course slide",
+        "author": "",
+        "publisher": "",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": false,
+        "note": ""
+      },
+      {
+        "no": "4",
+        "material_description": "Labs & assignment",
+        "author": "",
+        "publisher": "",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": false,
+        "note": ""
+      },
+      {
+        "no": "5",
+        "material_description": "Multiple View Geometry in Computer Vision",
+        "author": "Richard Hartley",
+        "publisher": "Cambridge University Press",
+        "published_date": "4/19/2004 12:00:00 AM",
+        "edition": "2nd",
+        "isbn": "978-0521540513",
+        "is_main_material": false,
+        "is_hard_copy": true,
+        "is_online": false,
+        "note": ""
+      },
+      {
+        "no": "6",
+        "material_description": "OpenCV Computer Vision with Python",
+        "author": "Joseph Howse",
+        "publisher": "Packt",
+        "published_date": "4/1/2013 12:00:00 AM",
+        "edition": "1st",
+        "isbn": "978-1782163923",
+        "is_main_material": false,
+        "is_hard_copy": true,
+        "is_online": false,
+        "note": ""
+      }
+    ],
+    "clos": [
+      {
+        "no": "1",
+        "clo_name": "CLO1",
+        "clo_details": "Understand the basics of computer vision, its related fields, and its applications"
+      },
+      {
+        "no": "2",
+        "clo_name": "CLO2",
+        "clo_details": "Understand the concepts of image formation: image representation, lighting, image acquisition through the camera, camera calibration techniques."
+      },
+      {
+        "no": "3",
+        "clo_name": "CLO3",
+        "clo_details": "Basic knowledge of image processing on points, lines, image filtering techniques and corresponding algorithm implementation"
+      },
+      {
+        "no": "4",
+        "clo_name": "CLO4",
+        "clo_details": "Understand the techniques of feature extraction and matching, implement the techniques of edges, lines extraction"
+      },
+      {
+        "no": "5",
+        "clo_name": "CLO5",
+        "clo_details": "Understand the basics of segmentation, techniques such as active contours, split and merge, mean shift and mode finding"
+      },
+      {
+        "no": "6",
+        "clo_name": "CLO6",
+        "clo_details": "Discuss feature-based alignments like 2D and 3D feature-based alignment"
+      },
+      {
+        "no": "7",
+        "clo_name": "CLO7",
+        "clo_details": "Discuss the principles and the implementation of Image stitching"
+      },
+      {
+        "no": "8",
+        "clo_name": "CLO8",
+        "clo_details": "Understand and implement the object detection techniques"
+      },
+      {
+        "no": "9",
+        "clo_name": "CLO9",
+        "clo_details": "Explain the principles of face recognition, object tracking"
+      }
+    ],
+    "schedule": [
+      {
+        "session": "1",
+        "topic": "Introduction:\n1.1 Welcome to Computer Vision",
+        "learning_teaching_type": "Offline",
+        "lo": "LO1",
+        "itu": "I",
+        "student_materials": "Textbook, slides",
+        "s_download": "mat1",
+        "student_tasks": "Study materials, implement sample examples",
+        "urls": ""
+      },
+      {
+        "session": "2",
+        "topic": "Introduction:\n1.2 Computer vision overviews",
+        "learning_teaching_type": "Offline",
+        "lo": "LO1",
+        "itu": "I",
+        "student_materials": "Textbook, slides",
+        "s_download": "mat2",
+        "student_tasks": "Study materials, implement sample examples",
+        "urls": ""
+      },
+      {
+        "session": "3",
+        "topic": "Image formation\n2.1 Geometric primitives and transformations",
+        "learning_teaching_type": "Offline",
+        "lo": "LO2",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "mat3",
+        "student_tasks": "Study materials, implement sample examples",
+        "urls": ""
+      },
+      {
+        "session": "4",
+        "topic": "Image formation\n2.1 Geometric primitives and transformations",
+        "learning_teaching_type": "Offline",
+        "lo": "LO2",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Study materials, implement sample examples",
+        "urls": ""
+      },
+      {
+        "session": "5",
+        "topic": "Image formation\n2.2 Photometric image formation",
+        "learning_teaching_type": "Offline",
+        "lo": "LO2",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Study materials, implement sample examples",
+        "urls": ""
+      },
+      {
+        "session": "6",
+        "topic": "Image formation\n2.2 Photometric image formation",
+        "learning_teaching_type": "Offline",
+        "lo": "LO2",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Study materials, implement sample examples",
+        "urls": ""
+      },
+      {
+        "session": "7",
+        "topic": "Image formation\n2.3 The digital camera",
+        "learning_teaching_type": "Offline",
+        "lo": "LO2",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Study materials, implement sample examples",
+        "urls": ""
+      },
+      {
+        "session": "8",
+        "topic": "Image formation\n2.3 The digital camera",
+        "learning_teaching_type": "Offline",
+        "lo": "LO2",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Study materials, implement sample examples",
+        "urls": ""
+      },
+      {
+        "session": "9",
+        "topic": "Lab 1 assistant and interview",
+        "learning_teaching_type": "Offline",
+        "lo": "LO1, LO2",
+        "itu": "U",
+        "student_materials": "Textbook, slides,assignment's questions",
+        "s_download": "",
+        "student_tasks": "",
+        "urls": ""
+      },
+      {
+        "session": "10",
+        "topic": "Lab 1 assistant and interview",
+        "learning_teaching_type": "Offline",
+        "lo": "LO1, LO2",
+        "itu": "U",
+        "student_materials": "Textbook, slides,assignment's questions",
+        "s_download": "",
+        "student_tasks": "",
+        "urls": ""
+      },
+      {
+        "session": "11",
+        "topic": "Lab 1 assistant and interview",
+        "learning_teaching_type": "Offline",
+        "lo": "LO1, LO2",
+        "itu": "U",
+        "student_materials": "Textbook, slides,assignment's questions",
+        "s_download": "",
+        "student_tasks": "",
+        "urls": ""
+      },
+      {
+        "session": "12",
+        "topic": "Image processing\n3.1 Point operators",
+        "learning_teaching_type": "Offline",
+        "lo": "LO3",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides, lab's questions",
+        "s_download": "",
+        "student_tasks": "Study materials, implement sample examples",
+        "urls": ""
+      },
+      {
+        "session": "13",
+        "topic": "Image processing\n3.1 Point operators",
+        "learning_teaching_type": "Offline",
+        "lo": "LO3",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides, lab's questions",
+        "s_download": "",
+        "student_tasks": "Study materials, implement sample examples",
+        "urls": ""
+      },
+      {
+        "session": "14",
+        "topic": "Image processing\n3.2 Linear filtering",
+        "learning_teaching_type": "Offline",
+        "lo": "L03",
+        "itu": "I, T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Study materials, implement sample examples",
+        "urls": ""
+      },
+      {
+        "session": "15",
+        "topic": "Image processing\n3.2 Linear filtering",
+        "learning_teaching_type": "Offline",
+        "lo": "L03",
+        "itu": "I, T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Study materials, implement sample examples",
+        "urls": ""
+      },
+      {
+        "session": "16",
+        "topic": "Image processing\n3.3 Fourier transforms",
+        "learning_teaching_type": "Offline",
+        "lo": "LO3",
+        "itu": "I, T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Study materials, implement sample examples",
+        "urls": ""
+      },
+      {
+        "session": "17",
+        "topic": "Image processing\n3.3 Fourier transforms",
+        "learning_teaching_type": "Offline",
+        "lo": "LO3",
+        "itu": "I, T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Study materials, implement sample examples",
+        "urls": ""
+      },
+      {
+        "session": "18",
+        "topic": "Image processing\n3.4 Geometric transformations",
+        "learning_teaching_type": "Offline",
+        "lo": "LO3",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Study materials, implement sample examples",
+        "urls": ""
+      },
+      {
+        "session": "19",
+        "topic": "Image processing\n3.4 Geometric transformations",
+        "learning_teaching_type": "Offline",
+        "lo": "LO3",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Study materials, implement sample examples",
+        "urls": ""
+      },
+      {
+        "session": "20",
+        "topic": "Feature detection and matching\n4.1 Points and patches",
+        "learning_teaching_type": "Offline",
+        "lo": "LO3, LO4",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Study materials, implement sample examples",
+        "urls": ""
+      },
+      {
+        "session": "21",
+        "topic": "Feature detection and matching\n4.1 Points and patches",
+        "learning_teaching_type": "Offline",
+        "lo": "LO3, LO4",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Study materials, implement sample examples",
+        "urls": ""
+      },
+      {
+        "session": "22",
+        "topic": "Feature detection and matching\n4.2 Edges",
+        "learning_teaching_type": "Offline",
+        "lo": "LO4",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Study materials, implement sample examples",
+        "urls": ""
+      },
+      {
+        "session": "23",
+        "topic": "Feature detection and matching\n4.2 Edges",
+        "learning_teaching_type": "Offline",
+        "lo": "LO4",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Study materials, implement sample examples",
+        "urls": ""
+      },
+      {
+        "session": "24",
+        "topic": "Feature detection and matching\n4.3 Lines",
+        "learning_teaching_type": "Offline",
+        "lo": "LO4",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Study materials, implement sample examples",
+        "urls": ""
+      },
+      {
+        "session": "25",
+        "topic": "Feature detection and matching\n4.3 Lines",
+        "learning_teaching_type": "Offline",
+        "lo": "LO4",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Study materials, implement sample examples",
+        "urls": ""
+      },
+      {
+        "session": "26",
+        "topic": "Lab 2 assistant and interview",
+        "learning_teaching_type": "Offline",
+        "lo": "LO1, LO2, LO3, LO4",
+        "itu": "U",
+        "student_materials": "Textbook, slides,assignment's questions",
+        "s_download": "",
+        "student_tasks": "",
+        "urls": ""
+      },
+      {
+        "session": "27",
+        "topic": "Lab 2 assistant and interview",
+        "learning_teaching_type": "Offline",
+        "lo": "LO1, LO2, LO3, LO4",
+        "itu": "U",
+        "student_materials": "Textbook, slides,assignment's questions",
+        "s_download": "",
+        "student_tasks": "",
+        "urls": ""
+      },
+      {
+        "session": "28",
+        "topic": "Lab 2 assistant and interview",
+        "learning_teaching_type": "Offline",
+        "lo": "LO1, LO2, LO3, LO4",
+        "itu": "U",
+        "student_materials": "Textbook, slides,assignment's questions",
+        "s_download": "",
+        "student_tasks": "",
+        "urls": ""
+      },
+      {
+        "session": "29",
+        "topic": "Segmentation\n5.1 Active contours",
+        "learning_teaching_type": "Offline",
+        "lo": "LO4, LO5",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Study materials, implement sample examples",
+        "urls": ""
+      },
+      {
+        "session": "30",
+        "topic": "Segmentation\n5.1 Active contours",
+        "learning_teaching_type": "Offline",
+        "lo": "LO4, LO5",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Study materials, implement sample examples",
+        "urls": ""
+      },
+      {
+        "session": "31",
+        "topic": "Segmentation\n5.2 Split and merge",
+        "learning_teaching_type": "Offline",
+        "lo": "LO5",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Study materials, implement sample examples",
+        "urls": ""
+      },
+      {
+        "session": "32",
+        "topic": "Segmentation\n5.2 Split and merge",
+        "learning_teaching_type": "Offline",
+        "lo": "LO5",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Study materials, implement sample examples",
+        "urls": ""
+      },
+      {
+        "session": "33",
+        "topic": "Segmentation\n5.3 Mean shift and mode finding",
+        "learning_teaching_type": "Offline",
+        "lo": "LO5",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Study materials, implement sample examples",
+        "urls": ""
+      },
+      {
+        "session": "34",
+        "topic": "Segmentation\n5.3 Mean shift and mode finding",
+        "learning_teaching_type": "Offline",
+        "lo": "LO5",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Study materials, implement sample examples",
+        "urls": ""
+      },
+      {
+        "session": "35",
+        "topic": "Feature-based alignment\n6.1 2D and 3D feature-based alignment",
+        "learning_teaching_type": "Offline",
+        "lo": "LO6",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Study materials, implement sample examples",
+        "urls": ""
+      },
+      {
+        "session": "36",
+        "topic": "Feature-based alignment\n6.1 2D and 3D feature-based alignment",
+        "learning_teaching_type": "Offline",
+        "lo": "LO6",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Study materials, implement sample examples",
+        "urls": ""
+      },
+      {
+        "session": "37",
+        "topic": "Progress Test 1",
+        "learning_teaching_type": "Offline",
+        "lo": "LO1, LO2, LO3, LO4, LO5, LO6",
+        "itu": "U",
+        "student_materials": "Textbook, slides,assignment's questions",
+        "s_download": "",
+        "student_tasks": "",
+        "urls": ""
+      },
+      {
+        "session": "38",
+        "topic": "Lab 3 assistant and interview",
+        "learning_teaching_type": "Offline",
+        "lo": "L04, L05, LO6",
+        "itu": "U",
+        "student_materials": "Textbook, slides, lab's questions",
+        "s_download": "",
+        "student_tasks": "",
+        "urls": ""
+      },
+      {
+        "session": "39",
+        "topic": "Lab 3 assistant and interview",
+        "learning_teaching_type": "Offline",
+        "lo": "L04, L05, LO6",
+        "itu": "U",
+        "student_materials": "Textbook, slides, lab's questions",
+        "s_download": "",
+        "student_tasks": "",
+        "urls": ""
+      },
+      {
+        "session": "40",
+        "topic": "Lab 3 assistant and interview",
+        "learning_teaching_type": "Offline",
+        "lo": "L04, L05, LO6",
+        "itu": "U",
+        "student_materials": "Textbook, slides,assignment's questions",
+        "s_download": "",
+        "student_tasks": "",
+        "urls": ""
+      },
+      {
+        "session": "41",
+        "topic": "Image stitching\n7.1 Motion models",
+        "learning_teaching_type": "Offline",
+        "lo": "LO7",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Study materials, implement sample examples",
+        "urls": ""
+      },
+      {
+        "session": "42",
+        "topic": "Image stitching\n7.2 Global alignment",
+        "learning_teaching_type": "Offline",
+        "lo": "LO7",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Study materials, implement sample examples",
+        "urls": ""
+      },
+      {
+        "session": "43",
+        "topic": "Detection\n8.1 Object detection",
+        "learning_teaching_type": "Offline",
+        "lo": "LO8",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Study materials, implement sample examples",
+        "urls": ""
+      },
+      {
+        "session": "44",
+        "topic": "Detection\n8.1 Object detection",
+        "learning_teaching_type": "Offline",
+        "lo": "LO8",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Study materials, implement sample examples",
+        "urls": ""
+      },
+      {
+        "session": "45",
+        "topic": "Detection\n8.1 Object detection",
+        "learning_teaching_type": "Offline",
+        "lo": "LO8",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Study materials, implement sample examples",
+        "urls": ""
+      },
+      {
+        "session": "46",
+        "topic": "Recognition\n9.1 Face recognition",
+        "learning_teaching_type": "Offline",
+        "lo": "LO9",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Study materials, implement sample examples",
+        "urls": ""
+      },
+      {
+        "session": "47",
+        "topic": "Recognition\n9.1 Face recognition",
+        "learning_teaching_type": "Offline",
+        "lo": "LO9",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Study materials, implement sample examples",
+        "urls": ""
+      },
+      {
+        "session": "48",
+        "topic": "Recognition\n9.2 Object tracking",
+        "learning_teaching_type": "Offline",
+        "lo": "LO9",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Study materials, implement sample examples",
+        "urls": ""
+      },
+      {
+        "session": "49",
+        "topic": "Recognition\n9.2 Object tracking",
+        "learning_teaching_type": "Offline",
+        "lo": "LO9",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Study materials, implement sample examples",
+        "urls": ""
+      },
+      {
+        "session": "50",
+        "topic": "Recognition\n9.2 Object tracking",
+        "learning_teaching_type": "Offline",
+        "lo": "LO9",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "Study materials, implement sample examples",
+        "urls": ""
+      },
+      {
+        "session": "51",
+        "topic": "Lab 4 assistant and interview",
+        "learning_teaching_type": "Offline",
+        "lo": "LO5,LO7, LO8, LO9",
+        "itu": "U",
+        "student_materials": "Textbook, slides,assignment's questions",
+        "s_download": "",
+        "student_tasks": "",
+        "urls": ""
+      },
+      {
+        "session": "52",
+        "topic": "Lab 4 assistant and interview",
+        "learning_teaching_type": "Offline",
+        "lo": "LO5, LO7, LO8, LO9",
+        "itu": "U",
+        "student_materials": "Textbook, slides,assignment's questions",
+        "s_download": "",
+        "student_tasks": "",
+        "urls": ""
+      },
+      {
+        "session": "53",
+        "topic": "Lab 4 assistant and interview",
+        "learning_teaching_type": "Offline",
+        "lo": "LO5, LO7, LO8, LO9",
+        "itu": "U",
+        "student_materials": "Textbook, slides,assignment's questions",
+        "s_download": "",
+        "student_tasks": "",
+        "urls": ""
+      },
+      {
+        "session": "54",
+        "topic": "Review",
+        "learning_teaching_type": "Offline",
+        "lo": "LO1,LO2,LO3,LO4,LO5,LO6,\nLO7,LO8,LO9",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "",
+        "urls": ""
+      },
+      {
+        "session": "55",
+        "topic": "Review",
+        "learning_teaching_type": "Offline",
+        "lo": "LO1,LO2,LO3,LO4,LO5,LO6,\nLO7,LO8,LO9",
+        "itu": "I,T",
+        "student_materials": "Textbook, slides",
+        "s_download": "",
+        "student_tasks": "",
+        "urls": ""
+      },
+      {
+        "session": "56",
+        "topic": "Assignment Evaluation",
+        "learning_teaching_type": "Offline",
+        "lo": "",
+        "itu": "U",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "",
+        "urls": ""
+      },
+      {
+        "session": "57",
+        "topic": "Assignment Evaluation",
+        "learning_teaching_type": "Offline",
+        "lo": "",
+        "itu": "U",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "",
+        "urls": ""
+      },
+      {
+        "session": "58",
+        "topic": "Assignment Evaluation",
+        "learning_teaching_type": "Offline",
+        "lo": "",
+        "itu": "U",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "",
+        "urls": ""
+      },
+      {
+        "session": "59",
+        "topic": "Practical Exam",
+        "learning_teaching_type": "Offline",
+        "lo": "LO2,LO3,LO4,LO5,LO6,\nLO7,LO8,LO9",
+        "itu": "U",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "",
+        "urls": ""
+      },
+      {
+        "session": "60",
+        "topic": "Review course\nResults",
+        "learning_teaching_type": "Offline",
+        "lo": "LO01,LO2,LO3,LO4,LO5,LO6,\nLO7,LO8,LO9",
+        "itu": "U",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "",
+        "urls": ""
+      }
+    ],
+    "assessments": [
+      {
+        "no": "1",
+        "category": "Assignment",
+        "type": "on-going",
+        "part": "1",
+        "weight": "30.0%",
+        "completion_criteria": ">0",
+        "duration": "28 slots",
+        "clo": "LO1->LO9",
+        "question_type": "Option 1: N/A\nOption 2: Questions or Activities proposed by lecturer",
+        "no_question": "Option 1: N/A\nOption 2: Follow lecturer's proposal",
+        "knowledge_and_skill": "All subjects in syllabus",
+        "grading_guide": "in class, by teacher",
+        "note": ""
+      },
+      {
+        "no": "2",
+        "category": "Lab",
+        "type": "on-going",
+        "part": "4",
+        "weight": "10.0%",
+        "completion_criteria": ">0",
+        "duration": "90'/each",
+        "clo": "LO1->LO9",
+        "question_type": "Option 1: N/A\nOption 2: Questions or Activities proposed by lecturer",
+        "no_question": "Option 1: N/A\nOption 2: Follow lecturer's proposal",
+        "knowledge_and_skill": "",
+        "grading_guide": "in class, by teacher",
+        "note": "1. Correct Code Execution (50%)\nCode runs without errors and produces the expected results.\nExample:\nHomography matrix is computed correctly and image is warped properly.\nEdge detection code outputs clear edges (e.g., using Canny or Sobel).\nObject detection code detects the correct number of objects in a test image.\n2. Conceptual Understanding (20%)\nThe learner demonstrates understanding of the underlying theory.\nExamples:\nCan explain what a homography is (a transformation mapping points between two planes).\nUnderstands the principle of edge detection (detecting intensity changes in the image).\nExplains why normalization is needed before feeding images into a neural network.\nIf AI provides the code, the learner can rephrase and explain the method in their own words.\n3. AI-assisted Skill (20%)\nThe learner uses AI effectively as a tool rather than relying on it blindly.\nExamples:\nWrites a precise prompt such as “Generate Python code for computing homography using OpenCV with four pairs of matched points.”\nAfter AI provides code, the learner notices an error (e.g., wrong function arguments in cv2.findHomography).\nAdjusts AI code to run on their actual dataset (e.g., changing image paths, adapting for grayscale vs. color images, handling batch inputs).\nSimplifies redundant AI-generated code for better readability.\n4. Critical Thinking (10%)\nThe learner goes beyond execution and reflects on results.\nExamples:\nExplains why homography fails when points are nearly collinear.\nAnalyzes why edge detection produces too many false edges in noisy images.\nPoints out that AI-generated code works only for synthetic data but not for real-world images.\nSuggests simple improvements such as applying Gaussian smoothing before edge detection, or using RANSAC to improve homography robustness."
+      },
+      {
+        "no": "3",
+        "category": "Practical Exam",
+        "type": "on-going",
+        "part": "1",
+        "weight": "20.0%",
+        "completion_criteria": ">0",
+        "duration": "90'/each",
+        "clo": "LO2->LO9",
+        "question_type": "",
+        "no_question": "",
+        "knowledge_and_skill": "",
+        "grading_guide": "in class, by teacher",
+        "note": ""
+      },
+      {
+        "no": "4",
+        "category": "Progress Test",
+        "type": "on-going",
+        "part": "1",
+        "weight": "10.0%",
+        "completion_criteria": ">0",
+        "duration": "60'/each",
+        "clo": "Test: LO1, LO2, LO3, LO4, LO5, LO6",
+        "question_type": "Option 1: Multiple choices\nMarked by Computer or a suitable format\nOption 2: Questions or Activities proposed by lecturer",
+        "no_question": "Option 1: 50/each\nOption 2: Follow lecturer's proposal",
+        "knowledge_and_skill": "",
+        "grading_guide": "in class, by exam system",
+        "note": "Instruction and schedules for Progress Tests must be presented in the Course Implementation Plan approved by director of the campus.\nProgress test must be taken right after the last lectures of required material.\nInstructor has responsibility to review the test for students after graded."
+      },
+      {
+        "no": "5",
+        "category": "Final Exam",
+        "type": "Final exam",
+        "part": "1",
+        "weight": "30.0%",
+        "completion_criteria": "4",
+        "duration": "60'/each",
+        "clo": "LO1->LO9",
+        "question_type": "Multiple choicesMarked by Computer",
+        "no_question": "50",
+        "knowledge_and_skill": "All subjects in syllabus",
+        "grading_guide": "By Exam Board",
+        "note": "The exam questions must be updated or different at least 70% to the previous ones."
+      }
+    ]
+  },
+  "source": {
+    "raw_file": "flm_output/subjects/CPV301.json",
+    "curriculum_url": "https://flm.fpt.edu.vn/gui/role/student/CurriculumDetails?curid=3173",
+    "pre_syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/Syllabuses?subCode=CPV301&curriculumID=3173",
+    "syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=13292",
+    "details_source_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=13292"
+  },
+  "crawl": {
+    "error": null
+  },
+  "quality": {
+    "has_syllabus": true,
+    "counts": {
+      "materials": 6,
+      "clos": 9,
+      "schedule": 60,
+      "assessments": 5
+    },
+    "warnings": []
+  }
+}

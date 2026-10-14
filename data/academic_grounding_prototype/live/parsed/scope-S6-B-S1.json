@@ -1,0 +1,36 @@
+{
+  "segments": [
+    {
+      "kind": "academic_claim",
+      "text": "Trong phần học thuật đã trao đổi, mình đã tóm các nội dung statistics của MAS291 như sau: CLO5 là mô tả dữ liệu bằng numerical summaries và visual displays như descriptive statistics, stem-and-leaf, frequency distributions, histograms, box plots, quartiles, outlier identification và time sequence plots; điểm 9.15, achievement excellent. CLO6 là sampling distributions, point estimation và Central Limit Theorem cho sampling distributions of means; điểm 9.15, achievement excellent. CLO7 là confidence intervals cho tham số quần thể và chênh lệch giữa các tham số quần thể; điểm 9.43, achievement excellent. CLO8 là hypothesis testing cho các tham số quần thể và chênh lệch giữa các tham số quần thể, gồm hypotheses, critical values, test statistics, p-values và các kiểm định cho means/proportions; điểm 9.43, achievement excellent. CLO9 là simple linear regression để prediction và interpretation, gồm least-squares estimation, sums of squares, regression equations, correlation coefficients và kiểm định ý nghĩa; điểm 9.43, achievement excellent.",
+      "academic_sources": [
+        {
+          "course_code": "MAS291",
+          "clo": "CLO5",
+          "source_excerpt": "Describe data using numerical summaries and visual displays, including descriptive statistics, stem-and-leaf diagrams, frequency distributions, histograms, box plots, quartiles, outlier identification, and time sequence plots."
+        },
+        {
+          "course_code": "MAS291",
+          "clo": "CLO6",
+          "source_excerpt": "Discuss sampling distributions and point estimation, then use the Central Limit Theorem to analyze sampling distributions of means."
+        },
+        {
+          "course_code": "MAS291",
+          "clo": "CLO7",
+          "source_excerpt": "Construct and interpret confidence intervals for population parameters and differences between population parameters, including intervals for means of normal distributions with known or unknown variance, large-sample intervals for population proportions, inference on differences between two means, and inference on differences between two proportions."
+        },
+        {
+          "course_code": "MAS291",
+          "clo": "CLO8",
+          "source_excerpt": "Verify claims about population parameters and differences between population parameters using hypothesis testing, including formulating hypotheses, identifying critical values and test statistics, computing p-values, recognizing testing errors, and conducting tests for single means, single proportions, differences between two means, and differences between two proportions."
+        },
+        {
+          "course_code": "MAS291",
+          "clo": "CLO9",
+          "source_excerpt": "Construct a simple linear regression model and use it for prediction and interpretation, including empirical models, least-squares estimation, sums of squares, regression equations, correlation coefficients, properties of least-squares estimators, and hypothesis tests for significance in simple linear regression."
+        }
+      ],
+      "jd_excerpt": null
+    }
+  ]
+}

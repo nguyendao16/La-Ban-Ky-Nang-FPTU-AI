@@ -1,0 +1,22 @@
+[
+  {
+    "clo": "CLO1",
+    "description": "Explain how search engines work, including information retrieval and web search concepts, search engine architecture, crawling and document acquisition, text processing, inverted indexes and index construction, query processing, and ranking with Boolean, proximity, vector-space, probabilistic, BM25, language-model, and learning-to-rank retrieval models."
+  },
+  {
+    "clo": "CLO2",
+    "description": "Apply SEO best practices to improve search engine results page visibility, including content quality, site architecture, HTML factors, trust, links, user-related factors, spam and ranking updates, special collections, and the role of search engine providers."
+  },
+  {
+    "clo": "CLO3",
+    "description": "Conduct keyword research to identify the most relevant and profitable keywords by using popular retrieval models."
+  },
+  {
+    "clo": "CLO4",
+    "description": "Use analytics tools to track website traffic, user behavior, and campaign performance."
+  },
+  {
+    "clo": "CLO5",
+    "description": "Apply search engine techniques to real-life problems involving social search, user tags and manual indexing, community-based question answering, collaborative searching, filtering and recommending, peer-to-peer search, metasearch, feature-based retrieval, term-dependence models, XML and entity search, longer-question answering, and multimedia search."
+  }
+]

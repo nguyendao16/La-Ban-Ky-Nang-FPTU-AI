@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "session_id": "ffff953f4a7345ce84ace4e493c7bd50",
+  "sources": {
+    "profile": {
+      "path": "/data/FPT/Learning_Materials/Semester_5/DPL302m/skillbridge/data/student_academic_profile.json",
+      "sha256": "99f34048ed8c3d11ed972fa0a97476aa7fba6f071ad8aea454bb66b6b5c2eca1"
+    },
+    "jd": {
+      "path": "/data/FPT/Learning_Materials/Semester_5/DPL302m/skillbridge/data/academic_benchmark/jds/JD03.txt",
+      "sha256": "90ad39da32aae828ee2a195d03a05ca24c242aaa10fd17d3eaad300e2e5d633d"
+    },
+    "review": {
+      "path": "/data/FPT/Learning_Materials/Semester_5/DPL302m/skillbridge/data/academic_benchmark/initial_reviews/internship-20261013/JD03.json",
+      "sha256": "6c0564dc62584e3bc7d001850eec42a9381667b7c297f5daba7f21c9a941c137"
+    }
+  },
+  "messages": [
+    {
+      "role": "user",
+      "content": "Với JD này thì những kiến thức nào mình đã học ở trường có liên quan nhất?"
+    },
+    {
+      "role": "assistant",
+      "content": "Các kiến thức bạn đã học ở trường liên quan nhất đến JD Computer Vision Intern này bao gồm:\n\n1. Xử lý ảnh và thuật toán thị giác máy tính:\n- CPV301/CLO3: Áp dụng các kỹ thuật xử lý ảnh cơ bản và thuật toán như biến đổi hình học, lọc ảnh, phù hợp với tiền xử lý dữ liệu ảnh (resize, normalize).\n- CPV301/CLO4: Trích xuất và so khớp đặc trưng ảnh, là nền tảng cho các bài toán nhận diện và phân loại hình ảnh.\n- CPV301/CLO8: Hiểu và triển khai các kỹ thuật phát hiện đối tượng (object detection), phù hợp với yêu cầu phát triển mô hình phát hiện trong JD.\n\n2. Khoa học dữ liệu, làm sạch và xử lý dữ liệu:\n- DAP391m/CLO1, CLO2: Nhập, làm sạch, xử lý dữ liệu với Python, bao gồm cả dữ liệu hình ảnh trong bối cảnh phân tích dữ liệu.\n- DAP391m/CLO7: Thực hiện dự án khoa học dữ liệu, bao gồm các bước thu thập, tiền xử lý, phân tích, xây dựng và đánh giá mô hình, báo cáo kết quả.\n\n3. Học máy, học sâu và nền tảng toán học:\n- MAI391/CLO5, CLO6, CLO7: Nền tảng toán học cho học máy, gồm hồi quy tuyến tính, PCA, SVM – là các thuật toán nền tảng cho nhiều mô hình thị giác máy tính.\n- AIG202c/CLO2: Các khái niệm về Machine Learning, Deep Learning và Neural Networks.\n\n4. Lập trình Python và kỹ năng báo cáo:\n- PFP191/CLO7: Hiểu và áp dụng lập trình hướng đối tượng với Python trong các ứng dụng thực tế.\n- DAP391m/CLO7: Báo cáo, trình bày kết quả thực nghiệm, phù hợp với yêu cầu đọc tài liệu nghiên cứu và viết báo cáo trong JD.\n\nTóm lại, các học phần về xử lý ảnh, thị giác máy tính, học máy, Python và dự án khoa học dữ liệu là liên quan nhất đến các nhiệm vụ chính của vị trí thực tập này. Tuy nhiên, hồ sơ chưa xác nhận việc sử dụng trực tiếp các framework như PyTorch/TensorFlow hoặc C++.",
+      "evidence": [
+        {
+          "course_code": "CPV301",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "CPV301",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "CPV301",
+          "clo": "CLO8"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO2"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO6"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "AIG202c",
+          "clo": "CLO2"
+        },
+        {
+          "course_code": "PFP191",
+          "clo": "CLO7"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "So với JD thì những nội dung nào mình còn thiếu hoặc chưa được hồ sơ xác nhận?"
+    },
+    {
+      "role": "assistant",
+      "content": "Đối chiếu với JD Computer Vision Intern này, các nội dung chưa được hồ sơ học thuật xác nhận trực tiếp gồm:\n\n1. Sử dụng hoặc lập trình với các framework deep learning như PyTorch hoặc TensorFlow: Không có CLO nào xác nhận bạn đã học hoặc thực hành với PyTorch/TensorFlow trong chương trình chính quy. Đây là yêu cầu quan trọng của JD, đặc biệt với PyTorch được ưu tiên cho nghiên cứu.\n\n2. Kinh nghiệm với OpenCV: Hồ sơ chưa có CLO nào xác nhận bạn đã sử dụng thư viện OpenCV trong các học phần, dù các kỹ thuật xử lý ảnh đã được học ở mức thuật toán và lý thuyết.\n\n3. Lập trình với C++: Không có CLO nào xác nhận bạn đã học hoặc thực hành với C++.\n\n4. So sánh các kiến trúc mạng hoặc framework (OpenCV, PyTorch, TensorFlow): Các CLO chỉ cung cấp kiến thức tổng quan về thị giác máy tính và AI, chưa xác nhận kỹ năng so sánh hoặc đánh giá các framework cụ thể.\n\nNếu bạn đã tự học hoặc có kinh nghiệm thực tế với các công nghệ này ngoài trường, hồ sơ học thuật hiện tại chưa phản ánh được điều đó. Ngoài ra, các yêu cầu về tích hợp và kiểm thử ứng dụng chỉ được hỗ trợ ở mức liên quan qua các dự án học thuật, chưa xác nhận kinh nghiệm thực tế với quy trình kiểm thử phần mềm chuyên sâu hoặc tích hợp hệ thống lớn.",
+      "evidence": []
+    },
+    {
+      "role": "user",
+      "content": "Các CLO xử lý ảnh của mình có xác nhận OpenCV hay data augmentation không?"
+    },
+    {
+      "role": "assistant",
+      "content": "Các CLO xử lý ảnh trong hồ sơ của bạn (đặc biệt là CPV301/CLO3) xác nhận bạn đã học và áp dụng các kỹ thuật xử lý ảnh cơ bản như biến đổi hình học, lọc ảnh, thao tác trên điểm ảnh, nhưng không nêu rõ việc sử dụng thư viện OpenCV hoặc các công cụ cụ thể. Ngoài ra, các CLO này cũng không đề cập trực tiếp đến kỹ thuật data augmentation (tăng cường dữ liệu) như xoay, lật, thay đổi độ sáng, v.v. mà chỉ nói đến các thao tác biến đổi hình học và xử lý ảnh tổng quát.\n\nTóm lại, hồ sơ học thuật xác nhận nền tảng xử lý ảnh ở mức thuật toán và lý thuyết, nhưng chưa xác nhận bạn đã sử dụng OpenCV hoặc thực hiện data augmentation trong học phần.",
+      "evidence": [
+        {
+          "course_code": "CPV301",
+          "clo": "CLO3"
+        }
+      ]
+    }
+  ]
+}

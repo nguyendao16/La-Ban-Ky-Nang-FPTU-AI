@@ -1,0 +1,7 @@
+{
+  "syllabus_name": "Cloud for MLOps_Cloud cho hoạt động học máy",
+  "course_name_english": "Cloud for MLOps",
+  "subject_code": "CMO301m",
+  "description": "This course provides students with practical knowledge and skills to design, deploy, and operate end-to-end MLOps pipelines on cloud platforms (AWS, Azure, Google Cloud). Students will master cloud-native data engineering (S3/GCS, Kafka, Dataflow, Glue), data versioning with DVC, feature stores (Feast, Vertex Feature Store), and scalable model training using distributed GPU/TPU clusters. The curriculum covers CI/CD for ML (GitHub Actions, Jenkins, GitLab CI), containerization with Docker, Kubernetes-based deployment (GKE/EKS/AKS), and production monitoring with Prometheus, Grafana, and cloud-native logging. Through hands-on labs and a final cloud-deployed project, students will gain comprehensive experience in building production-ready ML systems with automated monitoring, drift detection, and retraining pipelines, while addressing cost optimization, security, and compliance (GDPR, HIPAA).",
+  "tools": "Python, AWS (SageMaker, Lambda, ECR, GKE/EKS/AKS), Google Cloud (Vertex AI, Cloud Composer, GCR), Azure (Azure ML, ACR), Docker, Kubernetes, DVC, MLflow, Feast, TFX, GitHub Actions, Jenkins, GitLab CI, Terraform, Prometheus, Grafana, Evidently AI, FastAPI, TensorFlow Serving."
+}

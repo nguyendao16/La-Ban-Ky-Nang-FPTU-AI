@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "session_id": "6cc9b64ea9094764870beb8fa899b7df",
+  "sources": {
+    "profile": {
+      "path": "/data/FPT/Learning_Materials/Semester_5/DPL302m/skillbridge/data/student_academic_profile.json",
+      "sha256": "99f34048ed8c3d11ed972fa0a97476aa7fba6f071ad8aea454bb66b6b5c2eca1"
+    },
+    "jd": {
+      "path": "/data/FPT/Learning_Materials/Semester_5/DPL302m/skillbridge/data/academic_benchmark/jds/JD01.txt",
+      "sha256": "0caa2a9237c9ba797c98ca6888118333aed23f4a06f32946ab392b9feded2a1d"
+    },
+    "review": {
+      "path": "/data/FPT/Learning_Materials/Semester_5/DPL302m/skillbridge/data/academic_benchmark/initial_reviews/internship-20261013/JD01.json",
+      "sha256": "db6a3bb3bac49b746921b74757bb9645e84214712c7b27be259dec6cd631dca5"
+    }
+  },
+  "messages": [
+    {
+      "role": "user",
+      "content": "Với JD này thì những kiến thức nào mình đã học ở trường có liên quan nhất?"
+    },
+    {
+      "role": "assistant",
+      "content": "Các kiến thức bạn đã học ở trường liên quan nhất đến JD AI Intern này gồm:\n\n1. Lập trình Python: Bạn đã học toàn diện về Python qua PFP191, bao gồm cả lập trình hướng đối tượng, thao tác với file, cấu trúc dữ liệu (list, dict, tuple), và các khái niệm OOP nâng cao. Đây là nền tảng quan trọng cho phát triển AI/ML.\n\n2. Học máy (Machine Learning), học sâu (Deep Learning): MAI391 cung cấp kiến thức về hồi quy tuyến tính, PCA, SVM, tối ưu hóa, xác suất, đại số tuyến tính, và các kỹ thuật nền tảng cho ML/DL. AIG202c cũng đề cập đến các khái niệm về ML, deep learning, neural networks.\n\n3. Thị giác máy tính (Computer Vision) & Xử lý ảnh: CPV301 bao quát các chủ đề về xử lý ảnh, trích xuất đặc trưng, phát hiện đối tượng, nhận diện khuôn mặt, theo dõi đối tượng, và các kỹ thuật thị giác máy tính. CLO về xử lý ảnh (CPV301/CLO3) đặc biệt phù hợp với yêu cầu ưu tiên của JD.\n\n4. Khoa học dữ liệu & Dự án AI: ADY201m và DAP391m giúp bạn thực hành các bước thu thập, xử lý, phân tích dữ liệu, xây dựng và đánh giá mô hình, thực hiện dự án nhỏ về khoa học dữ liệu và AI. Điều này liên quan đến các nhiệm vụ phát triển, kiểm thử sản phẩm AI/CV và thao tác dữ liệu trong JD.\n\n5. Kỹ năng làm việc nhóm: MAI391/CLO8 xác nhận bạn đã phát triển kỹ năng làm việc nhóm và tự kỷ luật trong bối cảnh dự án toán ứng dụng và ML, phù hợp với yêu cầu hợp tác phát triển tính năng sản phẩm.\n\n6. Xử lý dữ liệu, tiền xử lý, phân tích thống kê: MAS291, AIL303m, DAP391m cung cấp nền tảng về xác suất, thống kê, phân tích dữ liệu, tiền xử lý, trực quan hóa dữ liệu, phù hợp với các nhiệm vụ thu thập, phân tích, gán nhãn dữ liệu.\n\nTóm lại, các học phần và CLO liên quan nhất là PFP191 (Python), MAI391 (ML/DL), CPV301 (Computer Vision/Xử lý ảnh), ADY201m & DAP391m (khoa học dữ liệu, dự án AI), MAS291 (thống kê), AIL303m (ML thực hành). Những kiến thức này trực tiếp hỗ trợ các nhiệm vụ và yêu cầu trọng tâm của vị trí AI Intern trong JD.",
+      "evidence": [
+        {
+          "course_code": "PFP191",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "PFP191",
+          "clo": "CLO6"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO6"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "CPV301",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "CPV301",
+          "clo": "CLO8"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO8"
+        },
+        {
+          "course_code": "MAS291",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO2"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "So với JD thì những nội dung nào mình còn thiếu hoặc chưa được hồ sơ xác nhận?"
+    },
+    {
+      "role": "assistant",
+      "content": "Đối chiếu với JD AI Intern này, các nội dung chưa được hồ sơ học thuật xác nhận trực tiếp hoặc còn thiếu gồm:\n\n1. Kinh nghiệm với các framework ML hiện đại (scikit-learn, TensorFlow, Keras, PyTorch): Hồ sơ chỉ xác nhận bạn đã sử dụng ít nhất một công cụ ML hoặc môi trường lập trình (như Python, Jupyter, Watson Studio) trong các dự án học thuật, nhưng chưa có CLO nào nêu rõ bạn đã học hoặc thực hành trực tiếp với scikit-learn, TensorFlow, Keras hay PyTorch. Nếu bạn đã tự học hoặc thực hành các framework này ngoài trường, hồ sơ hiện tại chưa phản ánh được điều đó.\n\n2. Kinh nghiệm backend và triển khai dịch vụ với các tiêu chí hiệu năng, mở rộng, sẵn sàng, giám sát: Không có CLO nào xác nhận bạn đã học hoặc thực hành phát triển backend hoặc triển khai hệ thống/dịch vụ AI với các tiêu chí về performance, scalability, availability, monitoring như JD yêu cầu.\n\n3. Gán nhãn dữ liệu (data labeling): Các CLO về dự án khoa học dữ liệu xác nhận bạn đã thực hiện các bước thu thập, xử lý, phân tích dữ liệu, nhưng chưa có CLO nào nêu rõ về việc gán nhãn dữ liệu cho sản phẩm AI/CV.\n\n4. Đánh giá mô hình LLM/VLM hoặc sản phẩm IDP: Hồ sơ xác nhận bạn đã học về đánh giá mô hình ML/CV ở mức học thuật, nhưng chưa có CLO nào đề cập trực tiếp đến đánh giá các mô hình LLM (Large Language Model), VLM (Vision-Language Model) hoặc sản phẩm IDP (Intelligent Document Processing) ở mức sản phẩm thực tế.\n\n5. Kinh nghiệm phát triển sản phẩm thực tế: Các CLO xác nhận bạn đã làm dự án học thuật về AI/CV, nhưng chưa xác nhận phát triển hoặc kiểm thử sản phẩm thực tế ở quy mô doanh nghiệp.\n\nNếu bạn đã tự học, thực hành hoặc có kinh nghiệm thực tế ở các mảng trên ngoài chương trình học, hồ sơ học thuật hiện tại chưa phản ánh được điều đó. Đây là những chủ đề bạn có thể cân nhắc bổ sung hoặc làm nổi bật khi ứng tuyển vào vị trí AI Intern này.",
+      "evidence": [
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO6"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO10"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "Mình đã học Computer Vision rồi, sao các framework trong JD vẫn chưa được xác nhận?"
+    },
+    {
+      "role": "assistant",
+      "content": "Bạn đã học rất đầy đủ về Computer Vision qua CPV301, với các CLO như CLO8 xác nhận bạn đã hiểu và triển khai các kỹ thuật phát hiện đối tượng, nhận diện khuôn mặt, theo dõi đối tượng, v.v. Tuy nhiên, các CLO của CPV301 chỉ mô tả về kiến thức, kỹ thuật và thuật toán thị giác máy tính, mà không nêu rõ bạn đã sử dụng framework cụ thể nào như scikit-learn, TensorFlow, Keras hay PyTorch trong quá trình học hoặc làm bài tập.\n\nViệc một CLO xác nhận bạn 'hiểu và triển khai kỹ thuật phát hiện đối tượng' không đồng nghĩa với việc bạn đã thực hành trên một framework ML hiện đại cụ thể, trừ khi CLO đó ghi rõ tên công nghệ. Các CLO liên quan đến dự án AI hoặc khoa học dữ liệu (như DAP391m, ADY201m) cũng chỉ yêu cầu sử dụng 'ít nhất một công cụ' hoặc 'phát triển ứng dụng AI', nhưng không liệt kê cụ thể scikit-learn, TensorFlow, Keras hay PyTorch.\n\nVì vậy, dù bạn đã học và thực hành các thuật toán Computer Vision, hồ sơ học thuật hiện tại chưa xác nhận bạn đã sử dụng các framework ML hiện đại mà JD yêu cầu. Nếu bạn đã tự học hoặc thực hành các framework này ngoài trường, điều đó chưa được phản ánh trong hồ sơ học thuật.",
+      "evidence": [
+        {
+          "course_code": "CPV301",
+          "clo": "CLO8"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO6"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO3"
+        }
+      ]
+    }
+  ]
+}

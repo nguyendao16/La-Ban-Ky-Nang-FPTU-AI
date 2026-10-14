@@ -1,0 +1,38 @@
+[
+  {
+    "clo": "CLO1",
+    "description": "Understand the fundamentals of trading, including Introduction to Trading with Machine learning on Google Cloud, Machine Learning in Finance and your first model using Google Cloud, Why Google Cloud Platform?, Learn ML interactively with Jupyter Notebooks on Cloud AI Platform, Trading Fundamentals: Quant Theory, Arbitrage, and Back-testing, Example BigQuery ML DNN code."
+  },
+  {
+    "clo": "CLO2",
+    "description": "Define quantitative trading and major quantitative trading strategy types using supervised learning concepts, including BigQuery ML model types, regression modeling for AAPL stock data, and example BigQuery ML deep neural network code for financial modeling contexts."
+  },
+  {
+    "clo": "CLO3",
+    "description": "Basic steps in exchange arbitrage, statistical arbitrage, index arbitrage and the application of machine learning to financial use cases, including Building an ARIMA Model for a Financial Dataset, Introduction to Neural networks, Deep learning."
+  },
+  {
+    "clo": "CLO4",
+    "description": "Design basic quantitative trading strategies, including Introduction to Quantitative trading and TensorFlow, Introduction to TensorFlow, Trading, ML, Understand Quantitive Trading Strategies."
+  },
+  {
+    "clo": "CLO5",
+    "description": "Use Keras and Tensorflow to build machine learning models, including Traning neural networks with TensorFlow, Keras, Overview of Neural Networks, Introduction to Keras APIs, Introducing the Keras Sequential API, The Keras Functional API."
+  },
+  {
+    "clo": "CLO6",
+    "description": "Build pair-trading and momentum-based trading prediction models and back-test them, including momentum factor identification, momentum strategies, pair selection, pair-trading strategy design, backtesting, avoiding overfitting, cost-aware optimization, Kalman-filter parameter estimation, and pairs trading assignments."
+  },
+  {
+    "clo": "CLO7",
+    "description": "Understand the structure and techniques used in reinforcement learning (RL) strategies, including Introduction to Course, Reinforcement Learning, Early Reinforcement Learning."
+  },
+  {
+    "clo": "CLO8",
+    "description": "Understand the benefits of using RL vs. other learning methods, including Neural network based reinforcement learning, What is LSTM, How to apply it."
+  },
+  {
+    "clo": "CLO9",
+    "description": "Describe the steps required to develop, test, and optimize an RL trading strategy, including Portfolio optimization, Investment, Trading portfolio optimization, Auto ML, Reinforcement Learning DQN."
+  }
+]

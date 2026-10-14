@@ -1,0 +1,34 @@
+[
+  {
+    "clo_name": "CLO1",
+    "clo_details": "LO1. Describe the list data structure and its’ different way of implementations. Implement the singly linked list."
+  },
+  {
+    "clo_name": "CLO2",
+    "clo_details": "LO2. Define stack and queue. Describe basic operations and the use of these structures."
+  },
+  {
+    "clo_name": "CLO3",
+    "clo_details": "LO3. Describe about recursive definitions, algorithms, functions and their implementation and use."
+  },
+  {
+    "clo_name": "CLO4",
+    "clo_details": "LO4. Explain about general tree, Binary Tree and Binary Search Tree (BST). Implement BST with basic operations."
+  },
+  {
+    "clo_name": "CLO5",
+    "clo_details": "LO5. Díscuss about graphs and their application. Implement a graph with some basic operations."
+  },
+  {
+    "clo_name": "CLO6",
+    "clo_details": "LO6 Explain the operation and performance of some basic and advanced sorting alggorithms"
+  },
+  {
+    "clo_name": "CLO7",
+    "clo_details": "LO7 Explain about hashing and application."
+  },
+  {
+    "clo_name": "CLO8",
+    "clo_details": "LO8 Describe the Text Processing problem and its’ application. Explain the Huffman, LZW and Run-length encoding Algorithms."
+  }
+]

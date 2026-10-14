@@ -1,0 +1,284 @@
+{
+  "origin": "live",
+  "case_id": "JD05",
+  "session_id": "1c8a13ecc63d4ea8995baf80f182c9c9",
+  "profile_sha256": "99f34048ed8c3d11ed972fa0a97476aa7fba6f071ad8aea454bb66b6b5c2eca1",
+  "jd_sha256": "318609c7106c3e08ba47ed31a8304cdee358fcf38adbb69b58877fc942e556f8",
+  "review_sha256": "c7215d4f59b88446801309c8bcc60a25329172de915445c24d0baeb1302878cc",
+  "turns": [
+    {
+      "turn": 1,
+      "user": "Với JD này thì những kiến thức nào mình đã học ở trường có liên quan nhất?",
+      "response": {
+        "reply": "Với JD Data Analyst Intern này, các kiến thức bạn đã học ở trường liên quan nhất gồm:\n\n1. Thống kê, xác suất và phân tích dữ liệu: Bạn đã học toàn diện về xác suất, thống kê, kiểm định giả thuyết, hồi quy tuyến tính, phân phối xác suất, phân tích dữ liệu và trực quan hóa dữ liệu. Những nội dung này rất sát với yêu cầu nền tảng về thống kê và phân tích dữ liệu của JD. Các CLO thuộc MAS291 (CLO1–CLO9), MAI391 (CLO3, CLO5, CLO6, CLO7), ADY201m (CLO6, CLO7), DAP391m (CLO1–CLO7) đều hỗ trợ trực tiếp.\n\n2. Machine Learning (ML) và Deep Learning (DL): Bạn đã học các khái niệm cơ bản về ML/DL, supervised/unsupervised learning, SVM, PCA, clustering, object detection, cũng như thực hành mô hình hóa và đánh giá mô hình. Điều này đáp ứng yêu cầu về kiến thức ML/DL trong JD. Các CLO liên quan gồm MAI391 (CLO5, CLO6, CLO7), AIL303m (CLO4–CLO10), CPV301 (CLO3, CLO8).\n\n3. Lập trình Python cho phân tích dữ liệu: Bạn có nền tảng vững về Python, từ cơ bản đến OOP, xử lý file, cấu trúc dữ liệu, và áp dụng Python trong các bài toán phân tích dữ liệu, trực quan hóa, thực hiện dự án nhỏ. Điều này phù hợp với yêu cầu sử dụng Python cho phân tích dữ liệu. Các CLO thuộc PFP191 (CLO1–CLO7), ADY201m (CLO3, CLO5, CLO7), DAP391m (CLO1, CLO2, CLO7).\n\n4. Kỹ năng giải quyết vấn đề, làm việc nhóm và tự học: Một số CLO yêu cầu phát triển kỹ năng làm việc nhóm, tự học, giải quyết bài toán thực tế và báo cáo kết quả, rất phù hợp với JD nhấn mạnh tinh thần học hỏi và giải quyết vấn đề. Tiêu biểu là MAI391 (CLO8), DAP391m (CLO7), ADY201m (CLO7), AIL303m (CLO10).\n\n5. SQL và cơ sở dữ liệu: Bạn đã học về SQL (DDL, DML), T-SQL, stored procedures, triggers, transaction, tối ưu hóa truy vấn trên Microsoft SQL Server, và thực hành truy cập cơ sở dữ liệu bằng SQL trong dự án khoa học dữ liệu. Điều này đáp ứng tiêu chí ưu tiên về SQL trong JD. Các CLO liên quan gồm DBI202 (CLO5, CLO6, CLO7), ADY201m (CLO1, CLO7).\n\nTóm lại, hồ sơ học thuật của bạn đã bao phủ hầu hết các yêu cầu chính của JD này, đặc biệt là về nền tảng toán-thống kê, phân tích dữ liệu, ML/DL, Python và SQL.",
+        "evidence": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO1"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO3"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          },
+          {
+            "course_code": "MAI391",
+            "clo": "CLO3"
+          },
+          {
+            "course_code": "MAI391",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "MAI391",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "MAI391",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "DAP391m",
+            "clo": "CLO1"
+          },
+          {
+            "course_code": "DAP391m",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "AIL303m",
+            "clo": "CLO4"
+          },
+          {
+            "course_code": "AIL303m",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "AIL303m",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "AIL303m",
+            "clo": "CLO8"
+          },
+          {
+            "course_code": "CPV301",
+            "clo": "CLO3"
+          },
+          {
+            "course_code": "CPV301",
+            "clo": "CLO8"
+          },
+          {
+            "course_code": "PFP191",
+            "clo": "CLO1"
+          },
+          {
+            "course_code": "PFP191",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO3"
+          },
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "DAP391m",
+            "clo": "CLO2"
+          },
+          {
+            "course_code": "MAI391",
+            "clo": "CLO8"
+          },
+          {
+            "course_code": "AIL303m",
+            "clo": "CLO10"
+          },
+          {
+            "course_code": "DBI202",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "DBI202",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "DBI202",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO1"
+          }
+        ]
+      },
+      "request_artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD05-1.json"
+    },
+    {
+      "turn": 2,
+      "user": "So với JD thì những nội dung nào mình còn thiếu hoặc chưa được hồ sơ xác nhận?",
+      "response": {
+        "reply": "Đối chiếu với JD Data Analyst Intern này, các nội dung chưa được hồ sơ học thuật xác nhận trực tiếp gồm:\n\n1. Công cụ trực quan hóa dữ liệu phổ biến (Power BI, Tableau, Google Data Studio): Hồ sơ hiện tại chưa có CLO nào đề cập cụ thể đến việc sử dụng các công cụ này. Một số CLO như DAP391m/CLO4 và ADY201m/CLO7 có nói về trực quan hóa dữ liệu và dashboard, nhưng không nêu rõ tên công cụ. Nếu bạn đã tự học hoặc sử dụng các công cụ này ngoài trường, hồ sơ học thuật chưa phản ánh được điều đó.\n\n2. Ngôn ngữ R cho phân tích dữ liệu: Các CLO liên quan đến lập trình và phân tích dữ liệu đều tập trung vào Python, chưa có bằng chứng học thuật về R. Nếu JD yêu cầu hoặc ưu tiên R, bạn có thể cân nhắc bổ sung nếu chưa từng học/nghiên cứu ngoài trường.\n\nNgoài ra, các yêu cầu về kinh nghiệm thực tế triển khai sản phẩm, làm việc trong môi trường doanh nghiệp hoặc sử dụng các hệ thống Data/AI thực tế là tiêu chí về kinh nghiệm nghề nghiệp, không phải là mảng kiến thức học thuật nên hồ sơ không xác nhận được.\n\nTóm lại, nếu bạn chưa từng học hoặc thực hành Power BI, Tableau, Google Data Studio hoặc R ngoài trường, đây là những chủ đề đáng cân nhắc bổ sung để đáp ứng đầy đủ các ưu tiên của JD này.",
+        "evidence": [
+          {
+            "course_code": "DAP391m",
+            "clo": "CLO4"
+          },
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO7"
+          }
+        ]
+      },
+      "request_artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD05-2.json"
+    },
+    {
+      "turn": 3,
+      "user": "SQL của mình có phải chỉ ở mức basic không, và JD này có bắt buộc SQL với cả Python lẫn R không?",
+      "response": {
+        "reply": "Về SQL, không thể gán một mức tổng thể cho kỹ năng SQL của bạn chỉ dựa trên một nhãn \"basic\". Trong hồ sơ, các CLO về SQL ở DBI202 (CLO5, CLO6, CLO7) đều có thành tích \"basic\", nghĩa là bạn đã được đánh giá ở mức cơ bản về các chủ đề như DDL, DML, T-SQL, stored procedures, triggers, transaction và tối ưu hóa truy vấn trên Microsoft SQL Server. Tuy nhiên, ADY201m (CLO1, CLO7) lại có thành tích \"good\" và \"excellent\" về thực hành truy cập cơ sở dữ liệu bằng SQL trong bối cảnh dự án khoa học dữ liệu. Như vậy, các CLO này phản ánh thành tích riêng biệt ở từng nội dung, không xác nhận một mức tổng thể duy nhất cho kỹ năng SQL của bạn.\n\nVề yêu cầu của JD, JD chỉ yêu cầu sử dụng Python hoặc R cho phân tích dữ liệu (không bắt buộc cả hai). SQL là tiêu chí ưu tiên (preferred), không phải bắt buộc tuyệt đối. Bạn đã có bằng chứng học thuật về Python và SQL, nhưng chưa có về R.",
+        "evidence": [
+          {
+            "course_code": "DBI202",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "DBI202",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "DBI202",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO1"
+          },
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO7"
+          }
+        ]
+      },
+      "request_artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD05-3.json"
+    },
+    {
+      "turn": 4,
+      "user": "Có người nói DAP391m/CLO7 xác nhận dùng SQL và DBI202 basic nghĩa là chỉ học SQL cơ bản. Nhận xét đó có đúng không?",
+      "response": {
+        "reply": "Nhận xét đó chỉ đúng một phần và cần làm rõ hơn:\n\n- DAP391m/CLO7 xác nhận bạn đã thực hiện một dự án khoa học dữ liệu nhỏ, trong đó có các bước như thu thập dữ liệu, xử lý, phân tích, trực quan hóa, phát triển và đánh giá mô hình, báo cáo kết quả. Tuy nhiên, CLO này không đề cập trực tiếp đến việc sử dụng SQL hay truy cập cơ sở dữ liệu bằng SQL, nên không thể dùng làm bằng chứng xác nhận bạn đã sử dụng SQL trong dự án này.\n\n- DBI202 (CLO5, CLO6, CLO7) đều có thành tích \"basic\". Điều này nghĩa là bạn đã được đánh giá ở mức cơ bản về các chủ đề như SQL (DDL, DML), T-SQL, stored procedures, triggers, transaction và tối ưu hóa truy vấn trên Microsoft SQL Server. Tuy nhiên, nhãn \"basic\" chỉ phản ánh mức độ thành tích ở từng CLO, không có nghĩa là bạn chỉ học các chủ đề cơ bản. Nội dung CLO vẫn bao gồm cả các chủ đề nâng cao như tối ưu hóa truy vấn, stored procedures, triggers, transaction.\n\nTóm lại, DAP391m/CLO7 không xác nhận sử dụng SQL, còn DBI202 có dạy cả chủ đề cơ bản lẫn nâng cao về SQL nhưng thành tích của bạn ở mức basic. Không nên hiểu nhãn \"basic\" là chỉ học nội dung cơ bản.",
+        "evidence": [
+          {
+            "course_code": "DAP391m",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "DBI202",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "DBI202",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "DBI202",
+            "clo": "CLO7"
+          }
+        ]
+      },
+      "request_artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD05-4.json"
+    },
+    {
+      "turn": 5,
+      "user": "Bạn tóm tắt các bằng chứng SQL và phân tích dữ liệu của mình được không?",
+      "response": {
+        "reply": "Tóm tắt các bằng chứng về SQL và phân tích dữ liệu của bạn như sau:\n\n1. SQL:\n- DBI202 (CLO5, CLO6, CLO7): Bạn đã học và được đánh giá về SQL (DDL, DML), T-SQL, stored procedures, triggers, transaction, tối ưu hóa truy vấn và lập chỉ mục trên Microsoft SQL Server. Thành tích ở các CLO này là \"basic\".\n- ADY201m (CLO1, CLO7): Bạn có thực hành truy cập cơ sở dữ liệu bằng SQL trong bối cảnh khoa học dữ liệu, với thành tích \"good\" và \"excellent\".\n\n2. Phân tích dữ liệu:\n- MAS291 (CLO1–CLO9): Bạn có nền tảng vững chắc về xác suất, thống kê, kiểm định giả thuyết, hồi quy tuyến tính, mô hình hóa và phân tích dữ liệu.\n- MAI391 (CLO3, CLO5, CLO6, CLO7): Bạn học về xác suất, hồi quy, PCA, SVM, tối ưu hóa và các phương pháp phân tích dữ liệu nâng cao.\n- ADY201m (CLO6, CLO7): Bạn thực hành phân tích dữ liệu, thống kê, trực quan hóa, mô hình hóa và thực hiện dự án nhỏ về khoa học dữ liệu.\n- DAP391m (CLO1–CLO7): Bạn thực hiện các bước phân tích dữ liệu thực tế, từ thu thập, xử lý, EDA, trực quan hóa, phát triển và đánh giá mô hình, đến báo cáo kết quả.\n\nNhư vậy, bạn có bằng chứng học thuật rõ ràng về cả SQL và phân tích dữ liệu, với thành tích từ basic đến excellent tùy từng CLO.",
+        "evidence": [
+          {
+            "course_code": "DBI202",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "DBI202",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "DBI202",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO1"
+          },
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO1"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO3"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          },
+          {
+            "course_code": "MAI391",
+            "clo": "CLO3"
+          },
+          {
+            "course_code": "MAI391",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "MAI391",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "MAI391",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "DAP391m",
+            "clo": "CLO1"
+          },
+          {
+            "course_code": "DAP391m",
+            "clo": "CLO7"
+          }
+        ]
+      },
+      "request_artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD05-5.json"
+    }
+  ]
+}

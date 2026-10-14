@@ -1,0 +1,16 @@
+{
+  "record_type": "normal_subject",
+  "curriculum": {
+    "subject_code": "AI17_GRA_ELE",
+    "subject_name": "Học phần lựa chọn Đồ án tốt nghiệp chuyên ngành Trí Tuệ Nhân Tạo",
+    "semester": "9",
+    "credits": "10",
+    "prerequisite": "",
+    "pre_syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/Syllabuses?subCode=AI17_GRA_ELE&curriculumID=3173",
+    "curriculum_url": "https://flm.fpt.edu.vn/gui/role/student/CurriculumDetails?curid=3173"
+  },
+  "syllabus_versions": [],
+  "selected_syllabus": null,
+  "details": null,
+  "error": "No syllabus version found"
+}

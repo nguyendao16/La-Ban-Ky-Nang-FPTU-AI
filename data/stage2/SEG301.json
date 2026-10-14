@@ -1,0 +1,311 @@
+{
+  "metadata": {
+    "syllabus_name": "Search Engines_Công cụ tìm kiếm",
+    "course_name_english": "Search Engines",
+    "subject_code": "SEG301",
+    "description": "The theory, creation, and use of text-based search engines are covered in this lecture-based course. The main content includes experimental assessment, representation of information demands and documents, several significant retrieval models, and statistical features of the text. Besides, the course covers typical components of commercial search engines, such as federated search, vertical search, tailored search results, and diversified search results.",
+    "tools": "No"
+  },
+  "clos": [
+    {
+      "clo_name": "CLO1",
+      "clo_details": "Understanding how search engines work: Students should be able to explain the underlying technology behind search engines, including the algorithms used to crawl, index and rank web pages."
+    },
+    {
+      "clo_name": "CLO2",
+      "clo_details": "Search engine optimization: Students should be able to apply best practices for optimizing web pages to improve their visibility in search engine results pages (SERPs)."
+    },
+    {
+      "clo_name": "CLO3",
+      "clo_details": "Keyword research: Students should be able to conduct keyword research to identify the most relevant and profitable keywords by using popular retrieval models.."
+    },
+    {
+      "clo_name": "CLO4",
+      "clo_details": "Analytics and tracking: Students should be able to use analytics tools to track website traffic, user behavior, and campaign performance."
+    },
+    {
+      "clo_name": "CLO5",
+      "clo_details": "Solving problems: Students should be able to apply search engine techniques to solve the real-life problems"
+    }
+  ],
+  "schedule": [
+    {
+      "topic": "Course introduction:\n- Introduce the materials of the courses and how to asses these materials\n- Introduce the assignments and how to pass the course",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "1. Information retieval and search engines:\n1.1 Information retrieval\n1.2 Search engines\n1.3 Search engineers",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "1.4 Web Search\n1.5 Other Search Applications 3\n1.6 Other IR Applications",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "Chapter 1 exercises and review",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "2. Architecture of a seach engine\n2.1a Basic IR System Architecture\n2.1 Building blocks: Text acquisition, Text transformation, Index Creattion",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "2.1 Building blocks (cont.): User Interaction, Ranking, evaluation",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "Chapter 2 exercises and review",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "3 Crawls and Feeds\n3.1 What to search.\n3.2 Crawling the Web: Retrieving web pages, web crawler, freshness, Crawling, deep web, sitemaps, distributed crawling",
+      "lo": "CLO1, CLO3"
+    },
+    {
+      "topic": "3.2 Crawling the Web(cont.): Crawling, deep web, sitemaps, distributed crawling\n3.3 Crawling documents and email,",
+      "lo": "CLO1, CLO3"
+    },
+    {
+      "topic": "3.4 docmuneta feeds.\n3.5 Conversion problem: character encodings\n3.6 Storing the documents: using database system, random access, compression and large files, update, big table",
+      "lo": "CLO1, CLO3"
+    },
+    {
+      "topic": "3.7 Detecting duplicates\n3.8 Remove noise",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "Chapter 3 exercises - review",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "Assignment 1",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "Review Assignment 1",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "4 Processing text\n4.1 From Words to Terms\n4.2 Text statistics\n4.3 Document parsing: Tokenizing, stopping, stemming, phrases and N-grams",
+      "lo": "CLO1,CLO3"
+    },
+    {
+      "topic": "4.4 Document structure and markup.\n4.5 Link analysis: anchor text, pagerank, link quality",
+      "lo": "CLO1,CLO3"
+    },
+    {
+      "topic": "4.6 Information Extraction: Hidden Markov models for extraction",
+      "lo": "CLO1,CLO3"
+    },
+    {
+      "topic": "Chapter 4 exercises and review",
+      "lo": "CLO1,CLO3"
+    },
+    {
+      "topic": "5. Ranking with indexes.\n5.1 Abstract model of raking\n5.2 Inverted Indexes: documents, counts, positions, fields and extents, scores, ordering\n5.2b Implementing Inverted Indices",
+      "lo": "CLO1, CLO3, CLO4"
+    },
+    {
+      "topic": "5.3 Compression: entropy and ambiguity, data encoding, bit-aligned codes, byte-aligned codes,",
+      "lo": "CLO1, CLO3, CLO4"
+    },
+    {
+      "topic": "5.3 Compression (cont.): compression in practice, looking ahead, skipping and skip pointers\n5.4 Axuiliary structures",
+      "lo": "CLO1, CLO3, CLO4"
+    },
+    {
+      "topic": "5.5 Index construction: simple construction, merging, parallelism and distribution, update",
+      "lo": "CLO1, CLO3, CLO4"
+    },
+    {
+      "topic": "5.6 Query processing: Document-at-a-time evaluation, term-at-a-time evaluation, optimization techniques,",
+      "lo": "CLO1, CLO3, CLO4"
+    },
+    {
+      "topic": "5.6 Query processing (cont.): structured queries, distributed evaluation, caching, Impact Ordering, static index pruning",
+      "lo": "CLO1, CLO3, CLO4"
+    },
+    {
+      "topic": "Chapter 5 exercises and review",
+      "lo": "CLO1, CLO3, CLO4"
+    },
+    {
+      "topic": "6 Queries and interfaces\n6.1 Information needs and queries\n6.2 Query Transformation and refinement: stopping and stemming revisited, spell checking and sugguestions,",
+      "lo": "CLO1, CLO3"
+    },
+    {
+      "topic": "6.2 Query Transformation and refinement (cont.): query expansion, relevance feedback, context and personalization",
+      "lo": "CLO1, CLO3"
+    },
+    {
+      "topic": "6.3 Showing the results: result pages and snippets, advertising and search, clustering the results\n6.4 Cross-language search",
+      "lo": "CLO1, CLO3"
+    },
+    {
+      "topic": "Chapter 6 exercises and review",
+      "lo": "CLO1, CLO3"
+    },
+    {
+      "topic": "Progress Test 1 - Review the Test 1",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "7. Retrieval Models\n7.1 Boolen retrieval, Proximity Ranking and vector space model\n7.2 Probabilistic models: Information retrieval as classification, BM25 Ranking Algorithm",
+      "lo": "CLO1, CLO4"
+    },
+    {
+      "topic": "7.3 Ranking based on Language models: Query likelihood ranking, relevance models and pseudo- relevance feedback",
+      "lo": "CLO1, CLO4"
+    },
+    {
+      "topic": "7.4 Complex queries and combining evidence: The inference Network model, the Galago Query Language\n7.5 Web search",
+      "lo": "CLO1, CLO4"
+    },
+    {
+      "topic": "7.6 Machine learning and information retrieval: learning to rank. Topic models and vocabulary mismatch\n7.7 Application-based models",
+      "lo": "CLO1, CLO4"
+    },
+    {
+      "topic": "Chapter 7 exercises and review",
+      "lo": "CLO1, CLO4"
+    },
+    {
+      "topic": "8 Search Engine Optimization (SEO)\n8.1 The Importance of Search Engine Optimization\n8.2 Fundamentals of Search Engine Optimization: Content, Architecture, HTML, Trust, Links, User-Related Factors, Toxins, Vertical Search Engines",
+      "lo": "CLO1, CLO2"
+    },
+    {
+      "topic": "8.3 Search Engine Optimization and Spam\n8.4 The Role of Ranking Updates\n8.5 Search Engine Optimization for Special Collections\n8.6 The Position of Search Engine Providers",
+      "lo": "CLO1, CLO2"
+    },
+    {
+      "topic": "Chapter 8 exercises and review",
+      "lo": "CLO1, CLO2"
+    },
+    {
+      "topic": "9. Evaluating search engines\n9.1 Why \"Evaluate\"?\n9.2 Evaluation corpus\n9.3 Logging\n9.4 effectiveness metrices: recall and precision, average and terpolation, focusing on the top documents, using preferences",
+      "lo": "CLO1, CLO3, CLO4"
+    },
+    {
+      "topic": "9.5 Efficiency metrics\n9.6 Training, testing and statistics: significance tests, setting parameter values, Online testing",
+      "lo": "CLO1, CLO3, CLO4"
+    },
+    {
+      "topic": "Chapter 9 exercises and review",
+      "lo": "CLO1, CLO3, CLO4"
+    },
+    {
+      "topic": "Assignment 2",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "Review Assignment 2",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "10 Classification and clustering\n10.1 classification: Navie bayes, Support vector machines, Evaluation, Classfier and feature selection, spam, sentiment and online advertising",
+      "lo": "CLO1, CLO4"
+    },
+    {
+      "topic": "10 Classification and clustering\n10.1 classification: Navie bayes, Support vector machines, Evaluation, Classfier and feature selection, spam, sentiment and online advertising",
+      "lo": "CLO1, CLO4"
+    },
+    {
+      "topic": "10.2 Clustering: Hierachical and K-meas clustering, K-nearest neighbor clustering, evaluation, how to choose K, clustering and Seach",
+      "lo": "CLO1, CLO4"
+    },
+    {
+      "topic": "10.2 Clustering: Hierachical and K-meas clustering, K-nearest neighbor clustering, evaluation, how to choose K, clustering and Seach",
+      "lo": "CLO1, CLO4"
+    },
+    {
+      "topic": "Chapter 10 exercises and review",
+      "lo": "CLO1, CLO4"
+    },
+    {
+      "topic": "11. Social search\n11.1 What is Social search?\n11.2 User Tags and Manual Indexing: Searching Tags, Inferring Missing Tags,Browsing and Tag Clouds",
+      "lo": "CLO1, CLO5"
+    },
+    {
+      "topic": "11.3 Searching with Communities: What Is a Community?, Finding Communities, Community-Based Question Answering, Collaborative Searching",
+      "lo": "CLO1, CLO5"
+    },
+    {
+      "topic": "11.3 Searching with Communities: What Is a Community?, Finding Communities, Community-Based Question Answering, Collaborative Searching",
+      "lo": "CLO1, CLO5"
+    },
+    {
+      "topic": "11.4 Filtering and Recommending: Document Filtering, Collaborative Filtering\n11.5 Peer-to-Peer and Metasearch: Distributed Search, P2P Networks",
+      "lo": "CLO1, CLO5"
+    },
+    {
+      "topic": "Chapter 10 exercises and review",
+      "lo": "CLO1, CLO5"
+    },
+    {
+      "topic": "12 Beyond bag of words\n12.1 Feature-Based Retrieval Models\n12.2 Term Dependence Models",
+      "lo": "CLO1, CLO5"
+    },
+    {
+      "topic": "12.3 Structure Revisited: XML Retrieval, Entity Search\n12.4 Longer Questions, Better Answers\n12.5 Words, Pictures, and Music\n12.6 One Search Fits All?",
+      "lo": "CLO1, CLO5"
+    },
+    {
+      "topic": "Chapter 12 exercises and review",
+      "lo": "CLO1, CLO5"
+    },
+    {
+      "topic": "Progress Test 2 - Review Progress Test 2",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "Assignment 3",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "Review Assignment 3",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "Summary All Slides, Tests, and Assignments",
+      "lo": "CLO1"
+    }
+  ],
+  "assessments": [
+    {
+      "category": "Assignment 1",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": "CLO1,CLO3"
+    },
+    {
+      "category": "Assignment 2",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": "CLO1,CLO3,CLO5"
+    },
+    {
+      "category": "Assignment 3",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": "CLO1,CLO2,CLO4"
+    },
+    {
+      "category": "Progress test 1",
+      "part": "1",
+      "weight": "15.0%",
+      "clo": "CLO1,CLO3,CLO4"
+    },
+    {
+      "category": "Progress test 2",
+      "part": "1",
+      "weight": "15.0%",
+      "clo": "CLO1,CLO2,CLO4,CLO5"
+    },
+    {
+      "category": "Final exam",
+      "part": "1",
+      "weight": "40.0%",
+      "clo": "CLO 1,2,3,4,5"
+    }
+  ]
+}

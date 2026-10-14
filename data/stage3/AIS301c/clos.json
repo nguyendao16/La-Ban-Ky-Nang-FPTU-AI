@@ -1,0 +1,22 @@
+[
+  {
+    "clo_name": "CLO1",
+    "clo_details": "Learners should be able to explain AI-driven cybersecurity use cases, security threat detection workflows, and the machine learning development process for cybersecurity applications."
+  },
+  {
+    "clo_name": "CLO2",
+    "clo_details": "Learners should be able to develop and evaluate machine learning models for email security, spam/phishing detection, and AI-supported authentication security."
+  },
+  {
+    "clo_name": "CLO3",
+    "clo_details": "Learners should be able to analyze malware and network traffic features and apply supervised or unsupervised learning algorithms for malware and anomaly detection."
+  },
+  {
+    "clo_name": "CLO4",
+    "clo_details": "Learners should be able to implement network anomaly detection experiments using botnet or traffic data and interpret model evaluation results for cybersecurity decision-making."
+  },
+  {
+    "clo_name": "CLO5",
+    "clo_details": "Learners should be able to apply advanced AI security concepts, including fraud detection, GANs, adversarial machine learning, model resilience, and reinforcement learning for adaptive cybersecurity."
+  }
+]

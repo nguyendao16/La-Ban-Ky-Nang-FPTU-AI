@@ -1,0 +1,532 @@
+{
+  "findings": [
+    {
+      "finding_id": "primary-S1-B-S0-binding",
+      "operation": "primary-S1-B-S0",
+      "scenario_id": "S1",
+      "severity": "P1",
+      "taxonomy": "kind_misclassification",
+      "original_claim_verbatim": "Phân biệt ngắn gọn: confidence intervals là phần suy luận thống kê để ước lượng khoảng cho tham số tổng thể và chênh lệch giữa các tham số; còn simple linear regression là mô hình hóa mối quan hệ tuyến tính một biến giải thích để dự đoán và diễn giải. Hai nội dung này là hai CLO khác nhau, nên điểm và achievement được tính riêng cho từng CLO.",
+      "span": [
+        451,
+        795
+      ],
+      "canonical_sources": [
+        {
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          },
+          "value": {
+            "clo": "CLO7",
+            "description": "Construct and interpret confidence intervals for population parameters and differences between population parameters, including intervals for means of normal distributions with known or unknown variance, large-sample intervals for population proportions, inference on differences between two means, and inference on differences between two proportions.",
+            "score": 9.43,
+            "achievement": "excellent"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          },
+          "value": {
+            "clo": "CLO9",
+            "description": "Construct a simple linear regression model and use it for prediction and interpretation, including empirical models, least-squares estimation, sums of squares, regression equations, correlation coefficients, properties of least-squares estimators, and hypothesis tests for significance in simple linear regression.",
+            "score": 9.43,
+            "achievement": "excellent"
+          }
+        }
+      ],
+      "explanation": "Source-free general_explanation repeats specific academic/CLO facts (and repeat grades). They are true and aggregate evidence is correct; the promised segment-local binding is incomplete."
+    },
+    {
+      "finding_id": "primary-S2-B-S0-english",
+      "operation": "primary-S2-B-S0",
+      "scenario_id": "S2",
+      "severity": "P2",
+      "taxonomy": "excessive_english_quote",
+      "original_claim_verbatim": "Help build Python REST APIs/services with FastAPI and SQLAlchemy; maintain schemas/queries/caching; integrate AI and enterprise services; contribute to event-driven systems and pipelines.",
+      "span": [
+        705,
+        892
+      ],
+      "canonical_sources": [],
+      "explanation": "A standalone verbatim English responsibilities paragraph lacks a conversational Vietnamese transition; no JD fact or modality error."
+    },
+    {
+      "finding_id": "primary-S3-B-S0-binding",
+      "operation": "primary-S3-B-S0",
+      "scenario_id": "S3",
+      "severity": "P1",
+      "taxonomy": "kind_misclassification",
+      "original_claim_verbatim": "Vì vậy, động từ “implement” chỉ được xác nhận trực tiếp cho object detection. Còn face recognition và object tracking trong hồ sơ này mới được xác nhận ở mức explain principles/nhận biết lý thuyết kỹ thuật, chưa có CLO nào nói rõ triển khai hai phần đó.",
+      "span": [
+        436,
+        689
+      ],
+      "canonical_sources": [
+        {
+          "reference": {
+            "course_code": "CPV301",
+            "clo": "CLO8"
+          },
+          "value": {
+            "clo": "CLO8",
+            "description": "Understand and implement object detection techniques.",
+            "score": 8.81,
+            "achievement": "excellent"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "CPV301",
+            "clo": "CLO9"
+          },
+          "value": {
+            "clo": "CLO9",
+            "description": "Explain the principles of face recognition and object tracking techniques.",
+            "score": 8.81,
+            "achievement": "excellent"
+          }
+        }
+      ],
+      "explanation": "Correct verb/source distinction is repeated in a source-free general_explanation. Academic facts remain correct; B-local binding is incomplete."
+    },
+    {
+      "finding_id": "primary-S6-A-S0-scope",
+      "operation": "primary-S6-A-S0",
+      "scenario_id": "S6",
+      "severity": "P1",
+      "taxonomy": "out_of_scope_summary",
+      "original_claim_verbatim": "Data processing / analysis",
+      "span": [
+        708,
+        734
+      ],
+      "canonical_sources": [
+        {
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO5"
+          },
+          "value": {
+            "clo": "CLO5",
+            "description": "Describe data using numerical summaries and visual displays, including descriptive statistics, stem-and-leaf diagrams, frequency distributions, histograms, box plots, quartiles, outlier identification, and time sequence plots.",
+            "score": 9.15,
+            "achievement": "excellent"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO6"
+          },
+          "value": {
+            "clo": "CLO6",
+            "description": "Discuss sampling distributions and point estimation, then use the Central Limit Theorem to analyze sampling distributions of means.",
+            "score": 9.15,
+            "achievement": "excellent"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          },
+          "value": {
+            "clo": "CLO7",
+            "description": "Construct and interpret confidence intervals for population parameters and differences between population parameters, including intervals for means of normal distributions with known or unknown variance, large-sample intervals for population proportions, inference on differences between two means, and inference on differences between two proportions.",
+            "score": 9.43,
+            "achievement": "excellent"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO8"
+          },
+          "value": {
+            "clo": "CLO8",
+            "description": "Verify claims about population parameters and differences between population parameters using hypothesis testing, including formulating hypotheses, identifying critical values and test statistics, computing p-values, recognizing testing errors, and conducting tests for single means, single proportions, differences between two means, and differences between two proportions.",
+            "score": 9.43,
+            "achievement": "excellent"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          },
+          "value": {
+            "clo": "CLO9",
+            "description": "Construct a simple linear regression model and use it for prediction and interpretation, including empirical models, least-squares estimation, sums of squares, regression equations, correlation coefficients, properties of least-squares estimators, and hypothesis tests for significance in simple linear regression.",
+            "score": 9.43,
+            "achievement": "excellent"
+          }
+        }
+      ],
+      "explanation": "Actual preceding dialogue covers MAS291/CLO5–9 only. Added Python/SQL/data-analysis/ML topics come from Review/profile, not that dialogue. Academic source facts are correct, but expansion is unauthorized for the frozen conversation-summary scope."
+    },
+    {
+      "finding_id": "primary-S6-B-S0-CLT",
+      "operation": "primary-S6-B-S0",
+      "scenario_id": "S6",
+      "severity": "P1",
+      "taxonomy": "omission",
+      "original_claim_verbatim": "MAS291/CLO6 với \"Discuss sampling distributions and point estimation\"",
+      "span": [
+        284,
+        353
+      ],
+      "canonical_sources": [
+        {
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO6"
+          },
+          "value": {
+            "clo": "CLO6",
+            "description": "Discuss sampling distributions and point estimation, then use the Central Limit Theorem to analyze sampling distributions of means.",
+            "score": 9.15,
+            "achievement": "excellent"
+          }
+        }
+      ],
+      "explanation": "CLT is an essential frozen asked leaf and appeared in the actual prior MAS291/CLO6 history; this reply omits it while adding many unrelated topics."
+    },
+    {
+      "finding_id": "primary-S6-B-S0-scope",
+      "operation": "primary-S6-B-S0",
+      "scenario_id": "S6",
+      "severity": "P1",
+      "taxonomy": "out_of_scope_summary",
+      "original_claim_verbatim": "Về data processing/analysis",
+      "span": [
+        909,
+        936
+      ],
+      "canonical_sources": [
+        {
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO5"
+          },
+          "value": {
+            "clo": "CLO5",
+            "description": "Describe data using numerical summaries and visual displays, including descriptive statistics, stem-and-leaf diagrams, frequency distributions, histograms, box plots, quartiles, outlier identification, and time sequence plots.",
+            "score": 9.15,
+            "achievement": "excellent"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO6"
+          },
+          "value": {
+            "clo": "CLO6",
+            "description": "Discuss sampling distributions and point estimation, then use the Central Limit Theorem to analyze sampling distributions of means.",
+            "score": 9.15,
+            "achievement": "excellent"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          },
+          "value": {
+            "clo": "CLO7",
+            "description": "Construct and interpret confidence intervals for population parameters and differences between population parameters, including intervals for means of normal distributions with known or unknown variance, large-sample intervals for population proportions, inference on differences between two means, and inference on differences between two proportions.",
+            "score": 9.43,
+            "achievement": "excellent"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO8"
+          },
+          "value": {
+            "clo": "CLO8",
+            "description": "Verify claims about population parameters and differences between population parameters using hypothesis testing, including formulating hypotheses, identifying critical values and test statistics, computing p-values, recognizing testing errors, and conducting tests for single means, single proportions, differences between two means, and differences between two proportions.",
+            "score": 9.43,
+            "achievement": "excellent"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          },
+          "value": {
+            "clo": "CLO9",
+            "description": "Construct a simple linear regression model and use it for prediction and interpretation, including empirical models, least-squares estimation, sums of squares, regression equations, correlation coefficients, properties of least-squares estimators, and hypothesis tests for significance in simple linear regression.",
+            "score": 9.43,
+            "achievement": "excellent"
+          }
+        }
+      ],
+      "explanation": "Actual preceding dialogue covers MAS291/CLO5–9 only. Added Python/SQL/data-analysis/ML topics come from Review/profile, not that dialogue. Academic source facts are correct, but expansion is unauthorized for the frozen conversation-summary scope."
+    },
+    {
+      "finding_id": "primary-S6-B-S0-scores",
+      "operation": "primary-S6-B-S0",
+      "scenario_id": "S6",
+      "severity": "P1",
+      "taxonomy": "assessment_comparison_missing_score",
+      "original_claim_verbatim": "đều có achievement excellent",
+      "span": [
+        1949,
+        1977
+      ],
+      "canonical_sources": [
+        {
+          "reference": {
+            "course_code": "PFP191",
+            "clo": "CLO1"
+          },
+          "value": {
+            "clo": "CLO1",
+            "description": "Understand the Python programming environment and foundational programming concepts, including why programs are written, basic computer hardware architecture, interpreters and compilers, program structure, building blocks of programs, debugging, and the role of an IDE in writing Python code.",
+            "score": 8.72,
+            "achievement": "excellent"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "PFP191",
+            "clo": "CLO2"
+          },
+          "value": {
+            "clo": "CLO2",
+            "description": "Understand Python variables, expressions, and statements, including values and types, variable names and keywords, operators and operands, order of operations, the modulus operator, string operations, user input, comments, mnemonic variable naming, and debugging basic code.",
+            "score": 8.72,
+            "achievement": "excellent"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "PFP191",
+            "clo": "CLO3"
+          },
+          "value": {
+            "clo": "CLO3",
+            "description": "Understand conditional execution, functions, loops, and iteration in Python, including Boolean expressions, logical operators, alternative and nested conditionals, exception handling with try and except, short-circuit evaluation, while loops, for loops, loop patterns, function calls.",
+            "score": 8.98,
+            "achievement": "excellent"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "PFP191",
+            "clo": "CLO4"
+          },
+          "value": {
+            "clo": "CLO4",
+            "description": "Understand Python strings as sequences, including length calculation with len, traversal with loops, slicing, immutability, loop-based counting, membership with the in operator, string comparison, string methods, parsing strings, format operators, and debugging string-related code.",
+            "score": 9.0,
+            "achievement": "excellent"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "PFP191",
+            "clo": "CLO5"
+          },
+          "value": {
+            "clo": "CLO5",
+            "description": "Understand file handling in Python, including persistence, opening files, working with text files and lines, reading files, searching through file contents, allowing users to choose file names, using try, except, and open for safer file access, writing files, and debugging file-processing code.",
+            "score": 9.0,
+            "achievement": "excellent"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "PFP191",
+            "clo": "CLO6"
+          },
+          "value": {
+            "clo": "CLO6",
+            "description": "Understand Python lists, dictionaries, and tuples as core data structures, including lists as mutable sequences, list traversal, operations, slices, methods, deletion, list-function interactions, lists and strings, parsing lines, object values and aliasing, dictionaries as counters.",
+            "score": 9.15,
+            "achievement": "excellent"
+          }
+        }
+      ],
+      "explanation": "The six PFP191 bands are correct and their refs are present, but their individual scores are omitted during the grouped achievement comparison."
+    },
+    {
+      "finding_id": "primary-S4-A-S0-offer",
+      "operation": "primary-S4-A-S0",
+      "scenario_id": "S4",
+      "severity": "P2",
+      "taxonomy": "redundant_offer",
+      "original_claim_verbatim": "Nếu bạn muốn, mình có thể chỉ ra chính xác những CLO nào của MAD101 là relevant nhất để giải thích phần công cụ này như một ngữ cảnh học phần, không phải bằng chứng sử dụng cá nhân.",
+      "span": [
+        530,
+        711
+      ],
+      "canonical_sources": [],
+      "explanation": "Answer already resolves listing/use/assessment; a further generic source-selection offer is unnecessary."
+    },
+    {
+      "finding_id": "scope-S5-A-S1-offer",
+      "operation": "scope-S5-A-S1",
+      "scenario_id": "S5",
+      "severity": "P2",
+      "taxonomy": "redundant_offer",
+      "original_claim_verbatim": "Nếu cần, mình có thể tóm tắt tiếp theo kiểu 1 dòng/mỗi nội dung hoặc gom lại thành 2 nhóm: statistics và machine learning foundations.",
+      "span": [
+        1394,
+        1528
+      ],
+      "canonical_sources": [],
+      "explanation": "Offers another summary immediately after the requested summary; mild redundancy only."
+    },
+    {
+      "finding_id": "repeat-S1-B-S0-binding",
+      "operation": "repeat-S1-B-S0",
+      "scenario_id": "S1",
+      "severity": "P1",
+      "taxonomy": "kind_misclassification",
+      "original_claim_verbatim": "Tóm lại, MAS291 tách hai nội dung này thành hai CLO riêng: confidence intervals là CLO7, còn simple linear regression là CLO9. Hai CLO đều có cùng điểm 9.43 và cùng achievement excellent, nhưng chúng đo hai kết quả học tập khác nhau nên không nên gộp lại thành một nội dung duy nhất.",
+      "span": [
+        715,
+        998
+      ],
+      "canonical_sources": [
+        {
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          },
+          "value": {
+            "clo": "CLO7",
+            "description": "Construct and interpret confidence intervals for population parameters and differences between population parameters, including intervals for means of normal distributions with known or unknown variance, large-sample intervals for population proportions, inference on differences between two means, and inference on differences between two proportions.",
+            "score": 9.43,
+            "achievement": "excellent"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          },
+          "value": {
+            "clo": "CLO9",
+            "description": "Construct a simple linear regression model and use it for prediction and interpretation, including empirical models, least-squares estimation, sums of squares, regression equations, correlation coefficients, properties of least-squares estimators, and hypothesis tests for significance in simple linear regression.",
+            "score": 9.43,
+            "achievement": "excellent"
+          }
+        }
+      ],
+      "explanation": "Source-free general_explanation repeats specific academic/CLO facts (and repeat grades). They are true and aggregate evidence is correct; the promised segment-local binding is incomplete."
+    },
+    {
+      "finding_id": "repeat-S5-A-S0-offer",
+      "operation": "repeat-S5-A-S0",
+      "scenario_id": "S5",
+      "severity": "P2",
+      "taxonomy": "redundant_offer",
+      "original_claim_verbatim": "Nếu cần, mình có thể tóm tiếp thành 1–2 câu theo kiểu ngắn gọn để bạn dùng khi đối chiếu với JD.",
+      "span": [
+        901,
+        997
+      ],
+      "canonical_sources": [],
+      "explanation": "Offers another summary immediately after the requested summary; mild redundancy only."
+    },
+    {
+      "finding_id": "repeat-S6-A-S0-offer",
+      "operation": "repeat-S6-A-S0",
+      "scenario_id": "S6",
+      "severity": "P2",
+      "taxonomy": "redundant_offer",
+      "original_claim_verbatim": "Nếu bạn muốn, mình có thể tóm tiếp thành 3 nhóm ngắn hơn: **descriptive statistics**, **inference**, và **regression**.",
+      "span": [
+        1517,
+        1636
+      ],
+      "canonical_sources": [],
+      "explanation": "Another summary offer after fulfilling a summary is mildly repetitive."
+    },
+    {
+      "finding_id": "repeat-S6-B-S0-scope",
+      "operation": "repeat-S6-B-S0",
+      "scenario_id": "S6",
+      "severity": "P1",
+      "taxonomy": "out_of_scope_summary",
+      "original_claim_verbatim": "Về data processing và data analysis",
+      "span": [
+        600,
+        635
+      ],
+      "canonical_sources": [
+        {
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO5"
+          },
+          "value": {
+            "clo": "CLO5",
+            "description": "Describe data using numerical summaries and visual displays, including descriptive statistics, stem-and-leaf diagrams, frequency distributions, histograms, box plots, quartiles, outlier identification, and time sequence plots.",
+            "score": 9.15,
+            "achievement": "excellent"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO6"
+          },
+          "value": {
+            "clo": "CLO6",
+            "description": "Discuss sampling distributions and point estimation, then use the Central Limit Theorem to analyze sampling distributions of means.",
+            "score": 9.15,
+            "achievement": "excellent"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          },
+          "value": {
+            "clo": "CLO7",
+            "description": "Construct and interpret confidence intervals for population parameters and differences between population parameters, including intervals for means of normal distributions with known or unknown variance, large-sample intervals for population proportions, inference on differences between two means, and inference on differences between two proportions.",
+            "score": 9.43,
+            "achievement": "excellent"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO8"
+          },
+          "value": {
+            "clo": "CLO8",
+            "description": "Verify claims about population parameters and differences between population parameters using hypothesis testing, including formulating hypotheses, identifying critical values and test statistics, computing p-values, recognizing testing errors, and conducting tests for single means, single proportions, differences between two means, and differences between two proportions.",
+            "score": 9.43,
+            "achievement": "excellent"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          },
+          "value": {
+            "clo": "CLO9",
+            "description": "Construct a simple linear regression model and use it for prediction and interpretation, including empirical models, least-squares estimation, sums of squares, regression equations, correlation coefficients, properties of least-squares estimators, and hypothesis tests for significance in simple linear regression.",
+            "score": 9.43,
+            "achievement": "excellent"
+          }
+        }
+      ],
+      "explanation": "Actual preceding dialogue covers MAS291/CLO5–9 only. Added Python/SQL/data-analysis/ML topics come from Review/profile, not that dialogue. Academic source facts are correct, but expansion is unauthorized for the frozen conversation-summary scope."
+    }
+  ],
+  "p0_observed_in_public_text": 0,
+  "completion_failures_are_not_academic_p0": true
+}

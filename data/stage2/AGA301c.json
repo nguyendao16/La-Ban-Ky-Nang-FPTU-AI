@@ -1,0 +1,95 @@
+{
+  "metadata": {
+    "syllabus_name": "Advanced Generative AI_Trí tuệ Nhân tạo Tạo sinh Nâng cao",
+    "course_name_english": "Advanced Generative AI",
+    "subject_code": "AGA301c",
+    "description": "Advanced Generative AI (AGA) studies how modern large language models (LLMs) and the generative-AI stack are built, adapted, evaluated, and deployed. This technology is one of the most rapidly evolving areas of machine learning, and demand is growing for professionals able to construct, fine-tune, align, and ship production-quality LLM-based systems. The course covers transformer architectures and data preparation, foundational and transformer-based language modelling, parameter-efficient fine-tuning (LoRA, QLoRA), advanced alignment (RLHF, PPO, DPO), and the design of LLM-powered applications using Retrieval-Augmented Generation (RAG), LangChain, and AI agents. By the end of this specialization, students will be ready to design generative-AI applications that perform text generation, classification, translation, retrieval-augmented question answering, and build LLM-powered agents.",
+    "tools": ""
+  },
+  "clos": [
+    {
+      "clo_name": "CLO1",
+      "clo_details": "Distinguish the major generative-AI model families and implement tokenization and PyTorch data pipelines."
+    },
+    {
+      "clo_name": "CLO2",
+      "clo_details": "Build NLP systems using foundational language-modelling techniques"
+    },
+    {
+      "clo_name": "CLO3",
+      "clo_details": "Apply transformer LLMs to generation, classification, translation, and understanding tasks."
+    },
+    {
+      "clo_name": "CLO4",
+      "clo_details": "Adapt LLMs for domain tasks using PEFT, instruction tuning, and alignment"
+    },
+    {
+      "clo_name": "CLO5",
+      "clo_details": "Design, build, and deploy production LLM applications using RAG, vector stores, and agent patterns."
+    }
+  ],
+  "schedule": [
+    {
+      "topic": "Specialization Introduction Generative AI and LLMs: Architecture and Data Preparation - Generative AI architectures and models (RNNs, transformers, GANs, VAEs, diffusion) Offline 1: Introduction to the online course AGA301c",
+      "lo": "LO1"
+    },
+    {
+      "topic": "- Tokenization techniques with NLTK, spaCy, Hugging Face - PyTorch data loaders and pipelines for generative AI",
+      "lo": "LO1"
+    },
+    {
+      "topic": "Gen AI Foundational Models for NLP & Language Understanding: - N-gram language models - Word embeddings: Word2Vec, GloVe - Document classification",
+      "lo": "LO2"
+    },
+    {
+      "topic": "- Sequence-to-sequence models - Encoder-decoder RNNs - Introduction to attention mechanisms",
+      "lo": "LO2"
+    },
+    {
+      "topic": "Generative AI Language Modeling with Transformers: - Transformer architecture in depth - Positional encoding; multi-head self-attention - Encoder vs decoder; causal vs masked attention",
+      "lo": "LO3"
+    },
+    {
+      "topic": "- Applying transformers to translation, classification, and text generation - Decoding and sampling strategies",
+      "lo": "LO3"
+    },
+    {
+      "topic": "Generative AI Engineering and Fine-Tuning Transformers: - Pretraining objectives (MLM, CLM) - Transfer learning - Hugging Face fine-tuning pipelines",
+      "lo": "LO4"
+    },
+    {
+      "topic": "- Parameter-efficient fine-tuning: LoRA, QLoRA, adapters - Quantization for fine-tuning on consumer GPUs",
+      "lo": "LO4"
+    },
+    {
+      "topic": "Generative AI Advance Fine-Tuning for LLMs: - LLMs as policies - Instruction tuning; reward modelling; preference data",
+      "lo": "LO4"
+    },
+    {
+      "topic": "- Reinforcement Learning from Human Feedback (RLHF) and PPO - Direct Preference Optimization (DPO) - Evaluation of aligned models",
+      "lo": "LO4"
+    },
+    {
+      "topic": "Fundamentals of AI Agents Using RAG and LangChain: - In-context learning and advanced prompting - LangChain components, chains, agents - Embeddings, vector stores, and Retrieval-Augmented Generation",
+      "lo": "LO5"
+    },
+    {
+      "topic": "Project: Generative AI Applications with RAG and LangChain (Capstone RAG-based Q&A system) Offline 2: Review Generative AI Engineering with LLMs Specialization",
+      "lo": "LO5"
+    }
+  ],
+  "assessments": [
+    {
+      "category": "PE",
+      "part": "1",
+      "weight": "50.0%",
+      "clo": "CLO1,CLO3,CLO4,CLO5"
+    },
+    {
+      "category": "TE",
+      "part": "1",
+      "weight": "50.0%",
+      "clo": "CLO1,CLO2,CLO3,CLO4,CLO5"
+    }
+  ]
+}

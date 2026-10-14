@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "errors": [],
+  "checks": [
+    {
+      "path": "segments/0/academic_sources/0",
+      "reference": {
+        "course_code": "CSD203",
+        "clo": "CLO6"
+      },
+      "source_excerpt": "Explain the operation and performance of basic and advanced sorting algorithms, including selection sort, insertion sort, bubble sort, quicksort, merge sort, heap sort, bucket sort, radix sort, and comparison of sorting algorithm performance.",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/1/academic_sources/0",
+      "reference": {
+        "course_code": "CSD203",
+        "clo": "CLO7"
+      },
+      "source_excerpt": "Explain hashing and its applications, including hash tables, hash functions, collision handling, load factors, rehashing, efficiency considerations, and Python hash table implementation.",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    }
+  ],
+  "semantic_support": "requires_manual_assessment"
+}

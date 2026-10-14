@@ -1,0 +1,62 @@
+[
+  {
+    "category": "Assignment",
+    "part": "1",
+    "weight": "15.0%",
+    "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7"
+  },
+  {
+    "category": "Lab 1",
+    "part": "1",
+    "weight": "2.0%",
+    "clo": "CLO1, CLO2"
+  },
+  {
+    "category": "Lab 2",
+    "part": "1",
+    "weight": "2.0%",
+    "clo": "CLO3"
+  },
+  {
+    "category": "Lab 3",
+    "part": "1",
+    "weight": "2.0%",
+    "clo": "CLO5"
+  },
+  {
+    "category": "Lab 4",
+    "part": "1",
+    "weight": "2.0%",
+    "clo": "CLO6"
+  },
+  {
+    "category": "Lab 5",
+    "part": "1",
+    "weight": "2.0%",
+    "clo": "CLO7"
+  },
+  {
+    "category": "Practical Exam",
+    "part": "1",
+    "weight": "30.0%",
+    "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7"
+  },
+  {
+    "category": "Progress Test 1",
+    "part": "1",
+    "weight": "7.5%",
+    "clo": "CLO1, CLO2, CLO3"
+  },
+  {
+    "category": "Progress Test 2",
+    "part": "1",
+    "weight": "7.5%",
+    "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7"
+  },
+  {
+    "category": "Final Exam",
+    "part": "1",
+    "weight": "30.0%",
+    "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7"
+  }
+]

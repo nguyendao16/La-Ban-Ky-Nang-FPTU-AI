@@ -1,0 +1,94 @@
+{
+  "CLO0": [
+    "Chapter 3. Analytic Geometry\n3.1 Norm\n3.2 Inner Products",
+    "3.3 Lengths and Distances\n3.4 Angles and Orthogonality",
+    "3.5 Orthonormal Basis\n3.6 Orthonormal Complement",
+    "3.8 Orthogonal Projections",
+    "Review",
+    "Progress Test 1\nSubmission of Assigment 1"
+  ],
+  "CLO1": [
+    "Chapter 4. Matrix Decompositions\n4.1 Determinants and Traces",
+    "4.2 Eigenvalues and Eigenvectors",
+    "4.4 Eigendecomposition and Diagonalization",
+    "4.5 Singular value Decomposition",
+    "4.5 Singular value Decomposition (cont.)",
+    "4.6 Matrix Approximation",
+    "Review",
+    "Progress Test 1\nSubmission of Assigment 1"
+  ],
+  "CLO2": [
+    "Chapter 5. Vector Calculus\n5.1 Differentiation of Univariate Functions",
+    "5.2 Partial Differentiation and Gradients",
+    "5.2 Partial Differentiation and Gradients (cont.)",
+    "5.3 Gradients of Vector-Valued Functions",
+    "5.3 Gradients of Vector-Valued Functions (cont.)",
+    "5.6 Backpropagation and Automatic Differentiation",
+    "5.7 Higher-Order Derivatives",
+    "5.8 Linearization and Multivariate Taylor Series",
+    "Review",
+    "Progress Test 1\nSubmission of Assigment 1"
+  ],
+  "CLO3": [
+    "Chapter 6. Probability and Distributions\n6.1 Construction of a Probability Space",
+    "6.2 Discrete and Continuous Probabilities",
+    "6.3 Sum Rule, Product Rule, and Bayes’ Theorem",
+    "6.3 Sum Rule, Product Rule, and Bayes’ Theorem (cont.)",
+    "6.4 Summary Statistics and Independence",
+    "6.4 Summary Statistics and Independence (cont.)",
+    "6.5 Gaussian Distribution",
+    "6.5 Gaussian Distribution (cont.)",
+    "Review",
+    "Progress Test 2\nSubmission of Assignment 2"
+  ],
+  "CLO4": [
+    "Chapter 7. Continuous Optimization\n7.1 Optimization Using Gradient Descent",
+    "7.2 Constrained Optimization and Lagrange Multipliers",
+    "7.2 Constrained Optimization and Lagrange Multipliers (cont.)",
+    "7.3 Convex Optimization",
+    "7.3 Convex Optimization (cont.)",
+    "Review",
+    "Progress Test 2\nSubmission of Assignment 2"
+  ],
+  "CLO5": [
+    "Chapter 9. Linear Regression\n9.1 Problem Formulation",
+    "9.1 Problem Formulation (cont.)",
+    "9.2 Parameter Estimation",
+    "9.2 Parameter Estimation (cont.)",
+    "Optional:\n9.3 Bayesian Linear Regression",
+    "Optional:\n9.4 Maximum Likelihood as Orthogonal Projection",
+    "Optional:\n10.5 PCA in High Dimensions",
+    "Presentation of Computer Project",
+    "Presentation of Computer Project (cont.)"
+  ],
+  "CLO6": [
+    "Chapter 10. Dimensionality Reduction with Principal Component Analysis\n10.1 Problem Setting",
+    "10.2 Maximum Variance Perspective",
+    "10.2 Maximum Variance Perspective (cont.)",
+    "10.6 Key Steps of PCA in Practice",
+    "10.6 Key Steps of PCA in Practice (cont.)",
+    "Optional:\n10.3 Projection Perspective",
+    "Optional:\n10.4 Eigenvector Computation and Low-Rank Approximations",
+    "Optional:\n10.5 PCA in High Dimensions",
+    "Presentation of Computer Project",
+    "Presentation of Computer Project (cont.)"
+  ],
+  "CLO7": [
+    "Chapter 12. Classification with Support Vector Machines\n12.1 Separating Hyperplanes",
+    "12.2 Primal Support Vector Machine",
+    "12.2 Primal Support Vector Machine (cont.)",
+    "12.3 Dual Support Vector Machine",
+    "12.3 Dual Support Vector Machine (cont.)",
+    "Optional:\n12.4 Kernels",
+    "Optional:\n12.5 Numerical Solution",
+    "Presentation of Computer Project",
+    "Presentation of Computer Project (cont.)"
+  ],
+  "CLO8": [
+    "Review",
+    "Progress Test 1\nSubmission of Assigment 1",
+    "Progress Test 2\nSubmission of Assignment 2",
+    "Presentation of Computer Project",
+    "Presentation of Computer Project (cont.)"
+  ]
+}

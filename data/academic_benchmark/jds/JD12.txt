@@ -1,0 +1,6 @@
+Jua — Data Engineering Intern
+Responsibilities: Integrate weather/climate/geospatial datasets; build Dagster pipelines; validate data quality/completeness; document and automate ingestion; support foundational data operations.
+Required: Strong Python and Git familiarity; relevant ongoing/recent study or alternative evidence of exceptional work.
+Nice-to-have: Pipelines/ETL and orchestration such as Dagster, Airflow OR Prefect; GCP/AWS and structured/geospatial data familiarity; Docker/containerized development; SQL and basic data modeling.
+Learning outcomes: Production pipelines, new datasets, hands-on Dagster/cloud and collaborative workflows. These describe outcomes of the internship, not a blanket requirement for prior production experience.
+Source-grounded paraphrase from indexed employer content; direct ATS required JavaScript. Applications are not confirmed open.

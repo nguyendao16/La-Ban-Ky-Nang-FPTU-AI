@@ -1,0 +1,7 @@
+{
+  "syllabus_name": "Mathematics for Engineering_Toán cho ngành kỹ thuật",
+  "course_name_english": "",
+  "subject_code": "MAE101",
+  "description": "Upon finishing the course, students must acquire:\n1. the following knowledge: (ABET a1)\n• The basic concepts of single variable calculus: limit, derivative, integral.\n• Concepts of linear system of equations, matrix and their applications\n• The concepts of vector spaces, basis and dimension, linear transformations and their applications.\n• The range of application of calculus and algebra in science, technology, economics & finance...\n2. the following skills: (ABET a2)\n• Find limit, derivative and integral of functions of single variables;\n• Find solutions to linear systems by using row-reduced echelon form, Cramer's Rule, inverse matrix\n• Find determinants and inverse of a matrix\n• Find linear transformations in R^2 and R^3.\n• Find dimensions and bases of vector spaces .\n• Apply the concepts of calculus and algebra in solving problems in science, technology, economics & finance, ...",
+  "tools": ""
+}

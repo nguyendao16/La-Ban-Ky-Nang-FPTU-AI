@@ -1,0 +1,42 @@
+[
+  {
+    "clo": "CLO1",
+    "description": "Understand the core concepts of Python programming, advanced data structures, and their applications within MLOps workflows, including MLOps overview concepts, Python foundations for MLOps, functional and object-oriented programming for MLOps pipelines, and applied Python workflows."
+  },
+  {
+    "clo": "CLO2",
+    "description": "Apply clean coding practices, modern testing frameworks, and efficient data manipulation using Pandas and NumPy for machine learning data readiness, including Software Testing, Code Quality & Frameworks for MLOps, Data Engineering Foundations & Pipeline Processing with Pandas & NumPy."
+  },
+  {
+    "clo": "CLO3",
+    "description": "Understand the fundamental principles of MLOps, DevOps, and DataOps methodologies, including their importance in the software development lifecycle, including Introduction to MLOps Methodology, Essential Math & Data Science Foundations."
+  },
+  {
+    "clo": "CLO4",
+    "description": "Design and compose software solutions using microservices architectures and automated operations pipelines to support scalable machine learning applications, including Principles of Operations Pipelines, End-to-End MLOps & AIOps Architecture."
+  },
+  {
+    "clo": "CLO5",
+    "description": "Understand the principles of ethical AI and the application of high-performance languages like Rust for zero-shot classification and efficient processing, including Rust for MLOps Zero Shot Classification (HF), High-Performance Rust for MLOps."
+  },
+  {
+    "clo": "CLO6",
+    "description": "Understand cloud-based data engineering architectures, including data ingestion, repository creation, and secure data transformation solutions, including Exploratory Data Analysis with AWS Technology, AWS Lab: Data Ingestion with AWS Lambda, AWS Lab: Data Transformation with Step Functions."
+  },
+  {
+    "clo": "CLO7",
+    "description": "Apply cloud technologies (such as AWS Step Functions, AWS Lambda, and Amazon SageMaker) to build, monitor, and automate end-to-end data engineering and modeling pipelines, including Core Modeling with AWS Cloud Technology, Production MLOps with AWS Technology, AWS Lab: Data Ingestion with AWS Lambda, AWS Lab: Data Transformation with Step Functions."
+  },
+  {
+    "clo": "CLO8",
+    "description": "Understand the fundamentals of MLflow, including the Tracking UI, model registries, and artifact management via APIs, including Introduction to MLflow Module, Understanding the MLflow Tracking UI, Model Registry, Interaction via API, Reference Artifacts from MLflow API, Integration of MLflow, Hugging Face, Hands-on Lab: Tracking Runs, Model Registration, Hands-on Lab: Deploying Models to Production API."
+  },
+  {
+    "clo": "CLO9",
+    "description": "Apply MLflow and Hugging Face modules to package reproducible machine learning projects and deploy pre-trained models efficiently, including Introduction to MLflow Module, Understanding the MLflow Tracking UI, Working with MLflow Projects for Reproducibility, Reference Artifacts from MLflow API, Introduction to Hugging Face, Hugging Face, Hands-on Lab: Deploying Models to Production API."
+  },
+  {
+    "clo": "CLO10",
+    "description": "Implement an end-to-end Advanced MLOps project that includes infrastructure setup, automated data pipelines, model tracking, cloud deployment, and reporting, including project topic and infrastructure planning, pipeline proposal discussion, data pipeline setup, AWS integration, model tracking setup, integration and results, final system packaging, presentation practice."
+  }
+]

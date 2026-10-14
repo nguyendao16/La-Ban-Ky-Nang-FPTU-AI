@@ -1,0 +1,92 @@
+{
+  "CLO1": [
+    "0 Introduction.\n1.1 Review of Functions.\n1.2 Basic Classes of Functions",
+    "2.1 A Preview of Calculus.\n2.2 The Limit of a Functions",
+    "2.3 The Limit Laws\n2.4 Continuity",
+    "Review",
+    "Progress Test 1"
+  ],
+  "CLO2": [
+    "3.1 Defining the Derivative\n3.2 The Derivative as a Function",
+    "3.3 Differentiation Rule.\n3.4 Derivatives as Rates of Change\n3.5 Derivatives of Trigonometric Functions",
+    "3.6 The Chain Rule. 3.8 Implicit Differentiation",
+    "3.9 Derivatives of Exponential and Logarithmic Functions",
+    "Review",
+    "Progress Test 1"
+  ],
+  "CLO3": [
+    "4.1 Related Rates",
+    "4.2 Linear Approximations and Differentials",
+    "4.3 Maxima and Minima\n4.4 The Mean Value Theorem",
+    "4.5 Derivatives and the Shape of a Graph\n4.6 Limits at Infinity and Asymptotes",
+    "4.7 Applied Optimization Problems",
+    "4.9 Newton's Method",
+    "4.10 Antiderivatives",
+    "Review",
+    "Progress Test 1"
+  ],
+  "CLO4": [
+    "1.1 Approximating Areas",
+    "1.2 The Definite Integral\n1.3 The Fundamental Theorem of Calculus",
+    "1.4 Integration Formulas and the Net Change Theorem",
+    "1.5 Substitution",
+    "3.1 Integration by Parts 3.6 Numerical Integration",
+    "3.7 Improper integrals",
+    "Review",
+    "Progress Test 1"
+  ],
+  "CLO5": [
+    "1.1 Solutions of Systems of Linear Equations",
+    "1.1 Elementary Operations",
+    "1.2 Gaussian Elimination",
+    "1.3 Homogeneous Equations",
+    "Review",
+    "Progress Test 2"
+  ],
+  "CLO6": [
+    "2.1 Matrix Addition, Scalar Multiplication, and Transposition",
+    "2.2 Matrix-Vector Multiplication",
+    "2.2 Matrix Transformations",
+    "2.3 Matrix multiplication",
+    "2.4 Matrix Inverses",
+    "2.4 Properties of Inverses",
+    "2.6 Linear Transformations",
+    "Review",
+    "Progress Test 2"
+  ],
+  "CLO7": [
+    "3.1 The Cofactor Expansion",
+    "3.1 Properties of Determinants",
+    "3.2 Determinants and Matrix Inverses",
+    "3.2 Cramer's Rule",
+    "3.3 Eigenvalues and Eigenvectors",
+    "3.3 Diagonalization",
+    "Review",
+    "Progress Test 2"
+  ],
+  "CLO8": [
+    "4.1 Vectors",
+    "4.1 Lines in Space",
+    "4.2 Projections",
+    "4.2 Planes",
+    "4.2 Cross Product",
+    "4.3 More on the Cross Product",
+    "4.4 Linear Operations on R^3",
+    "4.4 Transformations of Areas and Volumes",
+    "4.5 An application in Computer Graphics",
+    "Review",
+    "Progress Test 3"
+  ],
+  "CLO9": [
+    "5.1 Subspaces of R^n",
+    "5.1 Spanning Sets",
+    "5.2 Linear Independence",
+    "5.2 Dimension",
+    "5.3 Dot Product, Length, and Distance",
+    "5.3 Orthogonal Sets and the Expansion Theorem",
+    "5.4 Rank of a Matrix",
+    "5.4 Rank, Nullity, and Linear Systems",
+    "Review",
+    "Progress Test 3"
+  ]
+}

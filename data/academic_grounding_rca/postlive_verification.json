@@ -1,0 +1,21 @@
+{
+  "checked_on": "2026-10-14",
+  "plan_sha256": "54ea1fe098579d731af9c244b823d68f45454187357d89a3675c49320d5fd2e3",
+  "pytest": {
+    "command": ".venv/bin/python -m pytest -q --tb=short",
+    "passed": 327,
+    "duration_seconds": 42.46
+  },
+  "pip_check": "No broken requirements found.",
+  "protected_files_unchanged": 976,
+  "frozen_sources_unchanged": 43,
+  "source_profile_courses": 15,
+  "source_profile_clos": 122,
+  "physical_generation_http": 32,
+  "physical_preflight_http": 32,
+  "sdk_retries": 0,
+  "raw_output_hashes_verified": 62,
+  "report_local_links": "passed",
+  "production_fix_implemented": false,
+  "manual_review_complete": true
+}

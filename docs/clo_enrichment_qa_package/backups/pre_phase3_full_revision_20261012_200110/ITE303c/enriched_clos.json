@@ -1,0 +1,52 @@
+{
+  "course_id": "ITE303c",
+  "clos": [
+    {
+      "clo_id": "CLO1",
+      "original_description": "Understand the rise of algorithms, from the most basic to the fully autonomous, and discuss the trajectory of artificial intelligence and the broader implications for society as well",
+      "enriched_description": "Understand the rise of algorithms, from the most basic to the fully autonomous, and discuss the trajectory of artificial intelligence and the broader implications for society as well. The scope includes Artificial Intelligence Algorithms Models and Limitations, Define Algorithms and Identify how learning algorithms are used in everyday life, Summarize moral quandaries with artificial general intelligence, Describe the economic benefits and consequences of artificial general intelligence, and Define general vs narrow intelligence.",
+      "source_topic_indices": [
+        0,
+        2
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO2",
+      "original_description": "Explore fundamental issues of fairness and bias in machine learning and many aspects of building more ethical models",
+      "enriched_description": "Explore fundamental issues of fairness and bias in machine learning and many aspects of building more ethical models. The scope includes Artificial Intelligence Data Fairness and Bias, Compare examples of algorithmic fairness, Identify the constraints of fairness and accuracy in ethical models, Analyze tradeoffs when choosing who to protect from algorithmic bias, Define fairness in the context of machine learning, Appraise a predictive model for fairness issues, Identify how to recognize fairness issues and deploy solutions in real-world scenarios, Define pareto curves and identify where they're used in machine learning, Explain how to use fairness as a modeling concept, Analyze methods to avoid predictive bias, Examine the ability of algorithms to influence and decide human behavior in biased ways, and Identify potential bias errors in creating model attributes.",
+      "source_topic_indices": [
+        0,
+        1,
+        2
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO3",
+      "original_description": "Explore fundamental concepts involved in security and privacy of machine learning projects and affects user privacy and transparency now and in the future while creating useful predictive models.",
+      "enriched_description": "Explore fundamental concepts involved in security and privacy of machine learning projects and affects user privacy and transparency now and in the future while creating useful predictive models. The scope includes Artificial Intelligence Privacy and Convenience, Define privacy in the context of machine learning, Identify issues of privacy in anonymous datasets, Analyze algorithmic privacy violations, Identify ways to maximize privacy and security of datasets, Define differential privacy, Summarize techniques used in differential privacy, Evaluate tradeoffs involved in ethical model production, and Formulate an ethical model using privacy and fairness considerations.",
+      "source_topic_indices": [
+        0,
+        1,
+        2
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO4",
+      "original_description": "Able to apply bias and fairness analysis and skills in a real world or a fictional scenario",
+      "enriched_description": "Able to apply bias and fairness analysis and skills in a real world or a fictional scenario. The scope includes Examining bias in a predictive text model, Apply bias and fairness analysis skills in a real world scenario, Understanding fairness issues with sensitive predictions, and Apply game theory fairness analysis and skills in a fictional scenario.",
+      "source_topic_indices": [
+        0,
+        1,
+        2
+      ],
+      "review_required": false,
+      "review_notes": []
+    }
+  ]
+}

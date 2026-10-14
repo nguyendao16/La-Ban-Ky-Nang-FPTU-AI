@@ -1,0 +1,1072 @@
+{
+  "schema_version": "stage1_v1",
+  "record_type": "combo_subject",
+  "subject": {
+    "code": "GAP301",
+    "name": {
+      "full": "GenAI Project_Dự án TTNT tạo sinh",
+      "en": "GenAI Project",
+      "vi": "Dự án TTNT tạo sinh"
+    },
+    "semester": 8,
+    "credits": 3,
+    "prerequisite": ""
+  },
+  "syllabus": {
+    "id": "14394",
+    "name": "GenAI Project_Dự án TTNT tạo sinh",
+    "is_active": true,
+    "is_approved": true,
+    "decision_no": "968/QĐ-ĐHFPT dated 08/07/2026"
+  },
+  "content": {
+    "metadata": {
+      "syllabus_id": "14394",
+      "syllabus_name": "GenAI Project_Dự án TTNT tạo sinh",
+      "course_name_english": "GenAI Project",
+      "subject_code": "GAP301",
+      "learning_teaching_method": "Offline",
+      "nocredit": "3",
+      "degree_level": "Bachelor",
+      "time_allocation": "45h (60 sessions) contact hours + 1h final exam + 104h self-study",
+      "pre_requisite": "Deep Learning (DPL302m); Advanced Generative AI (AGA301c)",
+      "description": "This capstone project course is designed to consolidate and apply students' knowledge in generative AI and large language models through a substantial team project. Students scope, design, build, evaluate, and present a non-trivial generative AI system or empirical study. Topics applied include:\n- The application of generative AI techniques (LLMs, diffusion, RAG, agents, fine-tuning) to solve practical problems.\n- The identification and adaptation of generative AI methodologies from current research for specific use cases.\n- The development of a comprehensive solution approach using prompt engineering, retrieval-augmented generation, fine-tuning (LoRA / QLoRA), or agent design.\n- The evaluation and analysis of generative outputs using appropriate metrics (perplexity, ROUGE, faithfulness, FID, human / LLM-as-judge protocols) and rigorous failure-mode analysis.\n- Recognition of appropriate scenarios for prompting vs RAG vs fine-tuning vs agent design.\n- Selection of suitable metrics and benchmarks for generative-system evaluation.\n- Understanding the ethical, safety, provenance, and legal implications of generative AI (hallucination, bias, deepfakes, copyright, content provenance / C2PA).\n- Implementation and reflection on generative pipelines including data preparation, model adaptation, inference / serving, and post-deployment monitoring.\n- Effective teamwork and project management across a multi-phase delivery.",
+      "studenttasks": "- Select a suitable generative AI project and form teams (2-3 members).\n- Allocate and schedule tasks among team members.\n- Develop a project output that meets the specified requirements and demonstrates individual contribution.\n- Submit four progressive reports (Proposal; Data & Baseline; Model & Results; Final Project Report) on time per the schedule.\n- Disclose any use of AI tools as required by each report, and be able to explain and defend all submitted work and code.\n- Present and defend the project in front of a review panel at the final oral examination.\n- Promptly access the FU FLM at https://flm.fpt.edu.vn/ for up-to-date course information.",
+      "tools": "- Programming Languages: Python 3.10+\n- Software Tools: Jupyter Notebook / Google Colab, PyTorch, Hugging Face Transformers, Diffusers, PEFT, TRL, LangChain, vLLM\n- Models: Hosted frontier APIs (Claude, GPT, Gemini) and open-weight families (Llama, Mistral, Qwen, DeepSeek)\n- Datasets: Hugging Face Datasets, Kaggle, publicly licensed corpora\n- Additional Resources: Papers with Code, arXiv, GitHub, Hugging Face Hub, Weights & Biases for experiment tracking",
+      "scoring_scale": "10",
+      "decisionno_mm_dd_yyyy": "968/QĐ-ĐHFPT dated 08/07/2026",
+      "isapproved": "True",
+      "note": "- The essential capstone project is mandatory, focusing on solving a real-world generative-AI problem. It consists of four progressive reports and a final oral presentation.\n- The final mark is determined by summing the weighted scores of: Report 1 - Project Proposal (10%), Report 2 - Data & Baseline (20%), Report 3 - Model & Results (30%), Report 4 - Final Project Report (10%), and Final Exam - Oral group presentation (30%).\n- The final exam (oral group presentation) takes place in class, individually evaluated by one professor / lecturer or a review panel.\n- Completion Criteria: every assessment component > 0 AND Final Exam Score >= 4 AND Final Result >= 5.",
+      "is_scored": "True",
+      "minavgmarktopass": "5",
+      "isactive": "True",
+      "approveddate": "8/7/2026"
+    },
+    "materials": [
+      {
+        "no": "1",
+        "material_description": "Attention Is All You Need",
+        "author": "A. Vaswani et al.",
+        "publisher": "NeurIPS / arXiv",
+        "published_date": "2017",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "arXiv:1706.03762"
+      },
+      {
+        "no": "2",
+        "material_description": "LoRA: Low-Rank Adaptation of Large Language Models",
+        "author": "E. J. Hu et al.",
+        "publisher": "arXiv",
+        "published_date": "2021",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "arXiv:2106.09685"
+      },
+      {
+        "no": "3",
+        "material_description": "QLoRA: Efficient Finetuning of Quantized LLMs",
+        "author": "T. Dettmers et al.",
+        "publisher": "NeurIPS / arXiv",
+        "published_date": "2023",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "arXiv:2305.14314"
+      },
+      {
+        "no": "4",
+        "material_description": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+        "author": "P. Lewis et al.",
+        "publisher": "NeurIPS / arXiv",
+        "published_date": "2020",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "arXiv:2005.11401"
+      },
+      {
+        "no": "5",
+        "material_description": "ReAct: Synergizing Reasoning and Acting in Language Models",
+        "author": "S. Yao et al.",
+        "publisher": "ICLR / arXiv",
+        "published_date": "2022",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "arXiv:2210.03629"
+      },
+      {
+        "no": "6",
+        "material_description": "Training language models to follow instructions with human feedback (InstructGPT)",
+        "author": "L. Ouyang et al.",
+        "publisher": "OpenAI / arXiv",
+        "published_date": "2022",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "arXiv:2203.02155"
+      },
+      {
+        "no": "7",
+        "material_description": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+        "author": "R. Rafailov et al.",
+        "publisher": "NeurIPS / arXiv",
+        "published_date": "2023",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "arXiv:2305.18290"
+      },
+      {
+        "no": "8",
+        "material_description": "Denoising Diffusion Probabilistic Models",
+        "author": "J. Ho, A. Jain, P. Abbeel",
+        "publisher": "NeurIPS / arXiv",
+        "published_date": "2020",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "arXiv:2006.11239"
+      },
+      {
+        "no": "9",
+        "material_description": "High-Resolution Image Synthesis with Latent Diffusion Models",
+        "author": "R. Rombach et al.",
+        "publisher": "CVPR / arXiv",
+        "published_date": "2022",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "arXiv:2112.10752"
+      },
+      {
+        "no": "10",
+        "material_description": "Holistic Evaluation of Language Models (HELM)",
+        "author": "P. Liang et al.",
+        "publisher": "Stanford CRFM / arXiv",
+        "published_date": "2022",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "arXiv:2211.09110"
+      },
+      {
+        "no": "11",
+        "material_description": "Why Language Models Hallucinate",
+        "author": "A. T. Kalai et al.",
+        "publisher": "OpenAI / arXiv",
+        "published_date": "2025",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "arXiv:2509.04664"
+      },
+      {
+        "no": "12",
+        "material_description": "Hugging Face Transformers Documentation",
+        "author": "Hugging Face",
+        "publisher": "Hugging Face",
+        "published_date": "2024",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "huggingface.co/docs/transformers"
+      },
+      {
+        "no": "13",
+        "material_description": "Hugging Face Datasets Hub",
+        "author": "Hugging Face Community",
+        "publisher": "Hugging Face",
+        "published_date": "2024",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "huggingface.co/datasets"
+      },
+      {
+        "no": "14",
+        "material_description": "Research Papers: Current arXiv papers in generative AI relevant to each team's project",
+        "author": "Various",
+        "publisher": "arXiv",
+        "published_date": "2024-2026",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "Selected per project topic"
+      },
+      {
+        "no": "15",
+        "material_description": "Datasets: Publicly available, properly licensed datasets from Hugging Face, Kaggle, or domain-specific sources",
+        "author": "Various",
+        "publisher": "Hugging Face / Kaggle",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "Selected per project topic"
+      }
+    ],
+    "clos": [
+      {
+        "no": "1",
+        "clo_name": "CLO1",
+        "clo_details": "Identify relevant generative-AI techniques (LLMs, diffusion, multimodal, RAG, agents, fine-tuning, alignment) for a capstone topic."
+      },
+      {
+        "no": "2",
+        "clo_name": "CLO2",
+        "clo_details": "Formulate problem statements, scope, objectives, and success criteria in a project proposal."
+      },
+      {
+        "no": "3",
+        "clo_name": "CLO3",
+        "clo_details": "Plan data preparation, model selection, and licensing/ethics review."
+      },
+      {
+        "no": "4",
+        "clo_name": "CLO4",
+        "clo_details": "Conduct baseline analysis using pre-trained models, prompting, and in-context learning."
+      },
+      {
+        "no": "5",
+        "clo_name": "CLO5",
+        "clo_details": "Develop and adapt generative-AI systems to project requirements."
+      },
+      {
+        "no": "6",
+        "clo_name": "CLO6",
+        "clo_details": "Evaluate and optimize systems using appropriate metrics and protocols, with attention to contamination and saturation."
+      },
+      {
+        "no": "7",
+        "clo_name": "CLO7",
+        "clo_details": "Interpret outputs and failure modes (hallucination, bias, jailbreak) and visualize results for stakeholders."
+      },
+      {
+        "no": "8",
+        "clo_name": "CLO8",
+        "clo_details": "Summarize conclusions and actionable recommendations, including deployment and cost/latency trade-offs."
+      },
+      {
+        "no": "9",
+        "clo_name": "CLO9",
+        "clo_details": "Compile a final report with an explicit ethics, safety, and provenance subsection."
+      },
+      {
+        "no": "10",
+        "clo_name": "CLO10",
+        "clo_details": "Deliver oral presentations with live demonstrations and Q&A defense."
+      }
+    ],
+    "schedule": [
+      {
+        "session": "1",
+        "topic": "[Chapter 1: Course Introduction and Group Formation] Introduction to the course",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "I",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session",
+        "urls": ""
+      },
+      {
+        "session": "2",
+        "topic": "Discussion on the Generative AI Capstone Project (GAP) topic, scope, feasibility, current frontier areas (LLMs, RAG, agents, fine-tuning, multimodal)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "I,T",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session",
+        "urls": ""
+      },
+      {
+        "session": "3",
+        "topic": "Formation of teams/groups (2-3 members); roles and responsibilities",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "T",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session",
+        "urls": ""
+      },
+      {
+        "session": "4",
+        "topic": "Discuss and choose a project topic; verify dataset/model licensing and compute feasibility on a single GPU",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO2, CLO3",
+        "itu": "T ,U",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session",
+        "urls": ""
+      },
+      {
+        "session": "5",
+        "topic": "[Chapter 2: Project Proposal] Guide Report No.1: Project Proposal, problem statement, related work, modalities/models, evaluation plan, compute budget",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2",
+        "itu": "I ,T",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session",
+        "urls": ""
+      },
+      {
+        "session": "6",
+        "topic": "Report No.1: Project Proposal (Discussion), scoping, novelty check, differentiation from off-the-shelf API use",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2",
+        "itu": "T ,U",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session",
+        "urls": ""
+      },
+      {
+        "session": "7",
+        "topic": "References related to Report 1, required readings on the proposed approach (seminal papers and recent results)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO2",
+        "itu": "T",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session",
+        "urls": ""
+      },
+      {
+        "session": "8",
+        "topic": "Project Proposal Writing",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2",
+        "itu": "U",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session. Team meeting.",
+        "urls": ""
+      },
+      {
+        "session": "9",
+        "topic": "Report No.1 Submission: Introduction & Problem Statement",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2",
+        "itu": "U",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session",
+        "urls": ""
+      },
+      {
+        "session": "10",
+        "topic": "Instructor's feedbacks for Project Proposal & Group Division",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2",
+        "itu": "U",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session. Team meeting.",
+        "urls": ""
+      },
+      {
+        "session": "11",
+        "topic": "Project Proposal Improvement",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2",
+        "itu": "U",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session. Team meeting.",
+        "urls": ""
+      },
+      {
+        "session": "12",
+        "topic": "Report No.1 Final Submission",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2",
+        "itu": "U",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session",
+        "urls": ""
+      },
+      {
+        "session": "13",
+        "topic": "[Chapter 3: Data Preparation and Model Selection] Guide Report No.2: Data & Baseline [Part 1: Data Preparation and Model Selection], dataset licensing, preprocessing, tokenization, base model selection (hosted vs open-weight)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "I ,T",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session",
+        "urls": ""
+      },
+      {
+        "session": "14",
+        "topic": "References related to Report No.2: Data Preparation and Model Selection",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "T",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session",
+        "urls": ""
+      },
+      {
+        "session": "15",
+        "topic": "Data Preparation (Present the issues discussed and agreed upon by the group)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "U",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session. Team meeting.",
+        "urls": ""
+      },
+      {
+        "session": "16",
+        "topic": "Instructor's feedbacks for Data Preparation",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "U",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session. Team meeting.",
+        "urls": ""
+      },
+      {
+        "session": "17",
+        "topic": "Data Preparation Improvement",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "U",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session. Team meeting.",
+        "urls": ""
+      },
+      {
+        "session": "18",
+        "topic": "Model Selection (Present the issues discussed and agreed upon by the group), hosted vs open-weight, size, licence, cost",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "U",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session. Team meeting.",
+        "urls": ""
+      },
+      {
+        "session": "19",
+        "topic": "Instructor's feedbacks for Model Selection",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "U",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session. Team meeting.",
+        "urls": ""
+      },
+      {
+        "session": "20",
+        "topic": "Model Selection Improvement",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "U",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session. Team meeting.",
+        "urls": ""
+      },
+      {
+        "session": "21",
+        "topic": "[Chapter 4: Baseline and Prompt Engineering] Guide Report No.2: Data & Baseline [Part 2: Baseline and Prompt Engineering], zero-shot/few-shot baselines, in-context learning, structured output, establishing the 'API ceiling' before any fine-tuning",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "I ,T",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session",
+        "urls": ""
+      },
+      {
+        "session": "22",
+        "topic": "References related to Report No.2: Baseline and Prompt Engineering",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "T",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session",
+        "urls": ""
+      },
+      {
+        "session": "23",
+        "topic": "Baseline & Prompt Engineering (Present the issues discussed and agreed upon by the group)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "U",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session. Team meeting.",
+        "urls": ""
+      },
+      {
+        "session": "24",
+        "topic": "Instructor's feedback for Baseline & Prompt Engineering",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "U",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session. Team meeting.",
+        "urls": ""
+      },
+      {
+        "session": "25",
+        "topic": "Baseline & Prompt Engineering Improvement",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "U",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session. Team meeting.",
+        "urls": ""
+      },
+      {
+        "session": "26",
+        "topic": "Report No.2 Submission: Data & Baseline",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3, CLO4",
+        "itu": "U",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session. Team meeting.",
+        "urls": ""
+      },
+      {
+        "session": "27",
+        "topic": "Instructor's feedbacks for Data & Baseline all phase",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3, CLO4",
+        "itu": "U",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session. Team meeting.",
+        "urls": ""
+      },
+      {
+        "session": "28",
+        "topic": "Data & Baseline Improvement",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3, CLO4",
+        "itu": "U",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session. Team meeting.",
+        "urls": ""
+      },
+      {
+        "session": "29",
+        "topic": "[Chapter 5: Model Adaptation] Guide Report No.3: Model & Result [Part 1: Model Adaptation], choose adaptation path: prompt-only, RAG, fine-tuning (LoRA/QLoRA), or agent / tool-use design",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO5",
+        "itu": "I ,T",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session",
+        "urls": ""
+      },
+      {
+        "session": "30",
+        "topic": "References related to Report No.3: Model Adaptation",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO5",
+        "itu": "T",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session. Team meeting.",
+        "urls": ""
+      },
+      {
+        "session": "31",
+        "topic": "Model Adaptation (Present the issues discussed and agreed upon by the group)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO5",
+        "itu": "U",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session. Team meeting.",
+        "urls": ""
+      },
+      {
+        "session": "32",
+        "topic": "Instructor's feedback for Model Adaptation",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO5",
+        "itu": "U",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session. Team meeting.",
+        "urls": ""
+      },
+      {
+        "session": "33",
+        "topic": "Model Adaptation Improvement",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO5",
+        "itu": "U",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session. Team meeting.",
+        "urls": ""
+      },
+      {
+        "session": "34",
+        "topic": "[Chapter 6: Evaluation and Iteration] Guide Report No.3: Model & Result [Part 2: Evaluation and Iteration], choose metrics (perplexity, ROUGE, faithfulness, FID, BLEU, human / LLM-as-judge); test-set construction; regression testing",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO6",
+        "itu": "I ,T",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session",
+        "urls": ""
+      },
+      {
+        "session": "35",
+        "topic": "References related to Report No.3: Evaluation and Iteration",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO6",
+        "itu": "T",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session. Team meeting.",
+        "urls": ""
+      },
+      {
+        "session": "36",
+        "topic": "Evaluation and Iteration (Present the issues discussed and agreed upon by the group)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO6",
+        "itu": "U",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session. Team meeting.",
+        "urls": ""
+      },
+      {
+        "session": "37",
+        "topic": "Instructor's feedbacks for Evaluation and Iteration",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO6",
+        "itu": "U",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session. Team meeting.",
+        "urls": ""
+      },
+      {
+        "session": "38",
+        "topic": "Evaluation and Iteration Improvement",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO6",
+        "itu": "U",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session. Team meeting.",
+        "urls": ""
+      },
+      {
+        "session": "39",
+        "topic": "[Chapter 7: Results, Demo, and Failure Mode Analysis] Guide Report No.3: Model & Result [Part 3: Results, Demo, and Failure Mode Analysis], system demo, hallucination/grounding diagnostics, bias and robustness, prompt-injection testing",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO7",
+        "itu": "I, T",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session",
+        "urls": ""
+      },
+      {
+        "session": "40",
+        "topic": "References related to Report No.3: Results, Demo, and Failure Mode Analysis",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO7",
+        "itu": "T",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session. Team meeting.",
+        "urls": ""
+      },
+      {
+        "session": "41",
+        "topic": "Results, Demo, and Failure Mode Analysis (Present the issues discussed and agreed upon by the group)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO7",
+        "itu": "U",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session. Team meeting.",
+        "urls": ""
+      },
+      {
+        "session": "42",
+        "topic": "Instructor's feedbacks for Results, Demo, and Failure Mode Analysis",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO7",
+        "itu": "U",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session. Team meeting.",
+        "urls": ""
+      },
+      {
+        "session": "43",
+        "topic": "Results, Demo, and Failure Mode Analysis Improvement",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO7",
+        "itu": "U",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session. Team meeting.",
+        "urls": ""
+      },
+      {
+        "session": "44",
+        "topic": "[Chapter 8: Conclusion, Ethics, and Recommendations] Guide Report No.3: Model & Result [Part 4: Conclusion, Ethics, and Recommendations], deployment trade-offs, ethics / provenance / privacy subsection, limitations and future work",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO8, CLO9",
+        "itu": "I ,T",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session",
+        "urls": ""
+      },
+      {
+        "session": "45",
+        "topic": "References related to Report No.3: Conclusion, Ethics, and Recommendations",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO8, CLO9",
+        "itu": "T",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session. Team meeting.",
+        "urls": ""
+      },
+      {
+        "session": "46",
+        "topic": "Conclusion, Ethics, and Recommendations (Present the issues discussed and agreed upon by the group)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO8, CLO9",
+        "itu": "U",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session. Team meeting.",
+        "urls": ""
+      },
+      {
+        "session": "47",
+        "topic": "Instructor's feedbacks for Conclusion, Ethics, and Recommendations",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO8, CLO9",
+        "itu": "U",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session. Team meeting.",
+        "urls": ""
+      },
+      {
+        "session": "48",
+        "topic": "Conclusion, Ethics, and Recommendations Improvement",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO8, CLO9",
+        "itu": "U",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session. Team meeting.",
+        "urls": ""
+      },
+      {
+        "session": "49",
+        "topic": "Report No.3 Submission: Model & Results",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO5, CLO6, CLO7, CLO8",
+        "itu": "U",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session. Team meeting.",
+        "urls": ""
+      },
+      {
+        "session": "50",
+        "topic": "Instructor's feedbacks for Model & Results all phase",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO5, CLO6, CLO7, CLO8",
+        "itu": "U",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session. Team meeting.",
+        "urls": ""
+      },
+      {
+        "session": "51",
+        "topic": "Model & Results Improvement",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO5, CLO6, CLO7, CLO8",
+        "itu": "U",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session. Team meeting.",
+        "urls": ""
+      },
+      {
+        "session": "52",
+        "topic": "[Chapter 9: Finalization and Presentations] Guide Final Report, Report 4 integration: combining Reports 1-3 into a 8-12 page conference-style write-up + reproducibility notes + code repository",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO9",
+        "itu": "I ,T",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session",
+        "urls": ""
+      },
+      {
+        "session": "53",
+        "topic": "References related to Final Report (template, examples, rubric)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO9",
+        "itu": "T",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session",
+        "urls": ""
+      },
+      {
+        "session": "54",
+        "topic": "Final Report (Present the issues discussed and agreed upon by the group)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO9",
+        "itu": "U",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session. Team meeting.",
+        "urls": ""
+      },
+      {
+        "session": "55",
+        "topic": "Instructor's discussion for Final Report",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO9",
+        "itu": "U",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session. Team meeting.",
+        "urls": ""
+      },
+      {
+        "session": "56",
+        "topic": "Final Report Improvement",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO9",
+        "itu": "U",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session. Team meeting.",
+        "urls": ""
+      },
+      {
+        "session": "57",
+        "topic": "Final Report Submission (Report 4)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO9",
+        "itu": "U",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session. Team meeting.",
+        "urls": ""
+      },
+      {
+        "session": "58",
+        "topic": "Practice for Presentation of Capstone Project, demo dry-run, Q&A defence, individual contribution statement",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO10",
+        "itu": "U",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session. Team meeting.",
+        "urls": ""
+      },
+      {
+        "session": "59",
+        "topic": "Practice for Presentation of Capstone Project, polish slides, rehearse failure-mode discussion, ethics subsection",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO10",
+        "itu": "U",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session. Team meeting.",
+        "urls": ""
+      },
+      {
+        "session": "60",
+        "topic": "Practice for Presentation of Capstone Project, final rehearsal before Final Exam (oral group presentation)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO10",
+        "itu": "U",
+        "student_materials": "Course Project Brief; team-provided materials",
+        "s_download": "",
+        "student_tasks": "Per the topic of this session. Team meeting.",
+        "urls": ""
+      }
+    ],
+    "assessments": [
+      {
+        "no": "1",
+        "category": "Report 1: Project Proposal",
+        "type": "on-going",
+        "part": "1",
+        "weight": "10.0%",
+        "completion_criteria": ">0",
+        "duration": "Weeks 1-3",
+        "clo": "CLO1, CLO2",
+        "question_type": "Written project proposal with related-work review",
+        "no_question": "1",
+        "knowledge_and_skill": "Problem statement, modalities / models, related work, evaluation plan, compute budget, ethics & licensing review",
+        "grading_guide": "Submitted via LMS; marked by instructor against the Project Proposal rubric",
+        "note": "AI-use disclosure mandatory; rubric in the Project Brief."
+      },
+      {
+        "no": "2",
+        "category": "Report 2: Data & Baseline (Data Preparation + Baseline & Prompt Engineering)",
+        "type": "on-going",
+        "part": "1",
+        "weight": "20.0%",
+        "completion_criteria": ">0",
+        "duration": "Weeks 4-7",
+        "clo": "CLO3, CLO4",
+        "question_type": "Written report + Jupyter notebook(s) demonstrating data pipeline and baseline runs",
+        "no_question": "1",
+        "knowledge_and_skill": "Dataset licensing & preparation; tokenization; base-model selection; zero/few-shot baseline measurements establishing the 'API ceiling'",
+        "grading_guide": "Submitted via LMS; instructor runs notebooks and marks per rubric",
+        "note": "AI-use disclosure mandatory; exposed secrets / API keys = -10. Rubric in the Project Brief."
+      },
+      {
+        "no": "3",
+        "category": "Report 3: Model & Results (Adaptation + Evaluation + Results & Failure Analysis + Conclusion / Ethics)",
+        "type": "on-going",
+        "part": "1",
+        "weight": "30.0%",
+        "completion_criteria": ">0",
+        "duration": "Weeks 8-13",
+        "clo": "CLO5, CLO6, CLO7, CLO8",
+        "question_type": "Written report + working system + Jupyter notebooks + evaluation logs",
+        "no_question": "1",
+        "knowledge_and_skill": "Model adaptation (fine-tuning / RAG / agents); metric choice and test-set construction; failure-mode and hallucination diagnostics; cost / latency analysis; ethics & provenance subsection",
+        "grading_guide": "Submitted via LMS; instructor reproduces results and marks per rubric",
+        "note": "AI-use disclosure mandatory. Rubric in the Project Brief."
+      },
+      {
+        "no": "4",
+        "category": "Report 4: Final Project Report",
+        "type": "on-going",
+        "part": "1",
+        "weight": "10.0%",
+        "completion_criteria": ">0",
+        "duration": "Week 14",
+        "clo": "CLO9",
+        "question_type": "8-12 page conference-style report + complete code repository + reproducibility notes",
+        "no_question": "1",
+        "knowledge_and_skill": "Integration of Reports 1-3 into a polished final write-up; explicit ethics, safety, and provenance subsection; limitations and future work",
+        "grading_guide": "Submitted via LMS; marked by instructor and a second reader against the Final Report rubric",
+        "note": "AI-use disclosure mandatory; contribution statement for each team member. Rubric in the Project Brief."
+      },
+      {
+        "no": "5",
+        "category": "Final Exam (Oral group presentation)",
+        "type": "Final exam",
+        "part": "1",
+        "weight": "30.0%",
+        "completion_criteria": "4",
+        "duration": "20-30' per team",
+        "clo": "CLO5, CLO6, CLO7, CLO8, CLO9, CLO10",
+        "question_type": "Live system demonstration + slide presentation + individual Q&A defence",
+        "no_question": "—",
+        "knowledge_and_skill": "Whole project: problem framing, approach, results, failure modes, ethics, individual contribution",
+        "grading_guide": "In class, by a review panel (typically one professor / lecturer or two examiners). Each team member individually evaluated.",
+        "note": "Closed-tool for the Q&A defence portion. Each student must answer at least one panel question individually."
+      }
+    ]
+  },
+  "combo": {
+    "family": "AI17_COM",
+    "code": "AI17_COM4",
+    "name": "Topic on Generative AI_Chủ đề TTNT tạo sinh",
+    "title": "AI17_COM4: Topic on Generative AI_Chủ đề TTNT tạo sinh",
+    "note": "",
+    "slot": {
+      "code": "AI17_COM*4",
+      "alias": "AI17_COM_4",
+      "number": 4,
+      "name": {
+        "full": "Subject 4 of Combo*_Học phần 4 của combo*",
+        "en": "Subject 4 of Combo*",
+        "vi": "Học phần 4 của combo*"
+      }
+    },
+    "row_note": ""
+  },
+  "source": {
+    "raw_file": "flm_output/subjects/AI17_COM_4.json",
+    "curriculum_url": "https://flm.fpt.edu.vn/gui/role/student/CurriculumDetails?curid=3173",
+    "pre_syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/Syllabuses?subCode=AI17_COM%2A4&curriculumID=3173",
+    "syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=14394",
+    "details_source_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=14394"
+  },
+  "crawl": {
+    "error": null
+  },
+  "quality": {
+    "has_syllabus": true,
+    "counts": {
+      "materials": 15,
+      "clos": 10,
+      "schedule": 60,
+      "assessments": 5
+    },
+    "warnings": []
+  }
+}

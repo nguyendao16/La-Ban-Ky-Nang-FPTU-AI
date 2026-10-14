@@ -1,0 +1,555 @@
+{
+  "metadata": {
+    "syllabus_name": "Deep Learning_Học sâu",
+    "course_name_english": "",
+    "subject_code": "DPL302m",
+    "description": "In this course, student will build and train neural network architectures such as Convolutional Neural Networks, Recurrent Neural Networks, LSTMs, Transformers, and learn how to make them better with strategies such as Dropout, BatchNorm, Xavier/He initialization, and more. Get ready to master theoretical concepts and their industry applications using Python and TensorFlow and tackle real-world cases such as speech recognition, music synthesis, chatbots, machine translation, natural language processing, and more.",
+    "tools": "- Jupyter notebook\n- Cloud server: 72 hours/project"
+  },
+  "clos": [
+    {
+      "clo_name": "CLO1",
+      "clo_details": "Should build, train and apply fully connected deep neural networks, implement efficient neural networks, identify key parameters in a neural network's architecture, and apply deep learning to students' own applications."
+    },
+    {
+      "clo_name": "CLO2",
+      "clo_details": "Could train and develop test sets, analyze bias/variance for building deep learning applications, apply optimization algorithms, and implement a neural network using TensorFlow."
+    },
+    {
+      "clo_name": "CLO3",
+      "clo_details": "Understand complex ML settings, diagnose errors in a machine learning system, prioritize strategies for reducing errors, and apply end-to-end learning, transfer learning, and multi-task learning."
+    },
+    {
+      "clo_name": "CLO4",
+      "clo_details": "Build CNN models for visual detection and recognition tasks and use neural style transfer to generate art from various types of data."
+    },
+    {
+      "clo_name": "CLO5",
+      "clo_details": "Could build and train recurrent neural networks (RNNs), work with NLP and word embeddings, use HuggingFace tokenizers, and transformer models to solve different NLP tasks."
+    },
+    {
+      "clo_name": "CLO6",
+      "clo_details": "Implement a DL project includes steps: data collection, data wrangling, exploratory data analysis, model development, model evaluation, and reporting"
+    },
+    {
+      "clo_name": "CLO7",
+      "clo_details": "Understand how to apply AI tools to complete a mini project"
+    }
+  ],
+  "schedule": [
+    {
+      "topic": "Course Introduction\n1.1. Introduction to deep learning",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "1.2 Neural Networks Basics",
+      "lo": "CLO1, CLO7"
+    },
+    {
+      "topic": "1.2 Neural Networks Basics",
+      "lo": "CLO1, CLO7"
+    },
+    {
+      "topic": "1.2 Neural Networks Basics",
+      "lo": "CLO1, CLO7"
+    },
+    {
+      "topic": "1.3 Shallow neural networks",
+      "lo": "CLO1, CLO7"
+    },
+    {
+      "topic": "1.3 Shallow neural networks",
+      "lo": "CLO1, CLO7"
+    },
+    {
+      "topic": "1.3 Shallow neural networks",
+      "lo": "CLO1, CLO7"
+    },
+    {
+      "topic": "Discussion on the Project (CP) topic",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "Formation of teams/groups",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "Discuss and choose a project topic",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "Report 1: Project Proposal (Discussion)",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "Report 1: Project Proposal (Discussion)",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "1.4 Deep Neural Networks",
+      "lo": "CLO1, CLO7"
+    },
+    {
+      "topic": "1.4 Deep Neural Networks",
+      "lo": "CLO1, CLO7"
+    },
+    {
+      "topic": "1.4 Deep Neural Networks",
+      "lo": "CLO1, CLO7"
+    },
+    {
+      "topic": "Team Meeting: Project Proposal Writing Report 1)",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "Team Meeting: Project Proposal Writing (Report 1)",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "Team Meeting: Project Proposal Writing (Report 1)",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "1.4 Deep Neural Networks",
+      "lo": "CLO1, CLO7"
+    },
+    {
+      "topic": "1.4 Deep Neural Networks",
+      "lo": "CLO1, CLO7"
+    },
+    {
+      "topic": "1.4 Deep Neural Networks",
+      "lo": "CLO1, CLO7"
+    },
+    {
+      "topic": "Team Meeting: Instructor's feedbacks for Project Proposal (Report 1)",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "Team Meeting: Instructor's feedbacks for Project Proposal (Report 1)",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "Team Meeting: Instructor's feedbacks for Project Proposal (Report 1)",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "2.1 Practical aspects of Deep Learning",
+      "lo": "CLO2, CLO7"
+    },
+    {
+      "topic": "2.1 Practical aspects of Deep Learning",
+      "lo": "CLO2, CLO7"
+    },
+    {
+      "topic": "2.1 Practical aspects of Deep Learning",
+      "lo": "CLO2, CLO7"
+    },
+    {
+      "topic": "Team Meeting: Data Collection (Present the issues discussed and agreed upon by the group) (Report 2)",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "Team Meeting: Data Collection (Present the issues discussed and agreed upon by the group) (Report 2)",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "Team Meeting: Data Collection (Present the issues discussed and agreed upon by the group) (Report 2)",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "Team Meeting: Data Collection (Present the issues discussed and agreed upon by the group) (Report 2)",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "Team Meeting: Data Collection (Present the issues discussed and agreed upon by the group) (Report 2)",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "Team Meeting: Data Collection (Present the issues discussed and agreed upon by the group) (Report 2)",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "2.2 Optimization algorithms",
+      "lo": "CLO2, CLO7"
+    },
+    {
+      "topic": "2.2 Optimization algorithms",
+      "lo": "CLO2, CLO7"
+    },
+    {
+      "topic": "2.2 Optimization algorithms",
+      "lo": "CLO2, CLO7"
+    },
+    {
+      "topic": "Team Meeting: Instructor's feedbacks for Data Tasks all phase (Report 2)",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "Team Meeting: Instructor's feedbacks for Data Tasks all phase (Report 2)",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "Team Meeting: Instructor's feedbacks for Data Tasks all phase (Report 2)",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "2.3 Hyperparameter tuning, Batch Normalization and Programming Frameworks",
+      "lo": "CLO2, CLO7"
+    },
+    {
+      "topic": "2.3 Hyperparameter tuning, Batch Normalization and Programming Frameworks",
+      "lo": "CLO2, CLO7"
+    },
+    {
+      "topic": "2.3 Hyperparameter tuning, Batch Normalization and Programming Frameworks",
+      "lo": "CLO2, CLO7"
+    },
+    {
+      "topic": "Team Meeting: Model & Results (Present the issues discussed and agreed upon by the group) (Report 3)",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "Team Meeting: Model & Results (Present the issues discussed and agreed upon by the group) (Report 3)",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "Team Meeting: Model & Results (Present the issues discussed and agreed upon by the group) (Report 3)",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "2.3 Hyperparameter tuning, Batch Normalization and Programming Frameworks",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "3.1 ML Strategy 1",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "3.1 ML Strategy 1",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "3.1 ML Strategy 2",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "3.2 ML Strategy 2",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "3.2 ML Strategy 2",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "4.1 Foundations of CNNs",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "4.1 Foundations of CNNs",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "4.1 Foundations of CNNs",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "Team Meeting: Model & Results (Present the issues discussed and agreed upon by the group) (Report 3)",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "Team Meeting: Model & Results (Present the issues discussed and agreed upon by the group) (Report 3)",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "Team Meeting: Model & Results (Present the issues discussed and agreed upon by the group) (Report 3)",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "Team Meeting: Instructor's feedbacks for Model & Results (Report 3)",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "Team Meeting: Instructor's feedbacks for Model & Results (Report 3)",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "Team Meeting: Instructor's feedbacks for Model & Results (Report 3)",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "4.2 Deep convolutional models: case studies",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "4.2 Deep convolutional models: case studies",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "4.2 Deep convolutional models: case studies",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "Team Meeting: Model & Results (Present the issues discussed and agreed upon by the group) (Report 3)",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "Team Meeting: Model & Results (Present the issues discussed and agreed upon by the group) (Report 3)",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "Team Meeting: Model & Results (Present the issues discussed and agreed upon by the group) (Report 3)",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "Team Meeting: Instructor's feedbacks for Model & Results (Report 3)",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "Team Meeting: Instructor's feedbacks for Model & Results (Report 3)",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "Team Meeting: Instructor's feedbacks for Model & Results (Report 3)",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "4.2 Deep convolutional models: case studies",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "4.2 Deep convolutional models: case studies",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "4.2 Deep convolutional models: case studies",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "4.3 Object detection",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "4.3 Object detection",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "4.3 Object detection",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "Team Meeting: Model & Results (Present the issues discussed and agreed upon by the group) (Report 3)",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "Team Meeting: Model & Results (Present the issues discussed and agreed upon by the group) (Report 3)",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "Team Meeting: Model & Results (Present the issues discussed and agreed upon by the group) (Report 3)",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "4.3 Object detection",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "4.3 Object detection",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "4.3 Object detection",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "4.3 Object detection",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "Team Meeting: Instructor's feedbacks for Model & Results (Report 3)",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "Team Meeting: Instructor's feedbacks for Model & Results (Report 3)",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "4.4 Special applications: Face recognition and Neural style transfer",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "4.4 Special applications: Face recognition and Neural style transfer",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "4.4 Special applications: Face recognition and Neural style transfer",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "4.4 Special applications: Face recognition and Neural style transfer",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "5.1 Recurrent Neural Networks",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "Team Meeting: Model & Results (Present the issues discussed and agreed upon by the group) (Report 3)",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "Team Meeting: Model & Results (Present the issues discussed and agreed upon by the group) (Report 3)",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "Team Meeting: Model & Results (Present the issues discussed and agreed upon by the group) (Report 3)",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "5.1 Recurrent Neural Networks",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "5.1 Recurrent Neural Networks",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "5.1 Recurrent Neural Networks",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "Team Meeting: Instructor's feedbacks for Model & Results (Report 3)",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "Team Meeting: Instructor's feedbacks for Model & Results (Report 3)",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "Team Meeting: Instructor's feedbacks for Model & Results (Report 3)",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "Progess test",
+      "lo": "CLO1, CLO2, CLO3, CLO4"
+    },
+    {
+      "topic": "5.2 Natural Language Processing and Word Embeddings",
+      "lo": "CLO5, CLO7"
+    },
+    {
+      "topic": "5.2 Natural Language Processing and Word Embeddings",
+      "lo": "CLO5, CLO7"
+    },
+    {
+      "topic": "5.3 Sequence models and Attention mechanism",
+      "lo": "CLO5, CLO7"
+    },
+    {
+      "topic": "Team Meeting: Final Report (Present the issues discussed and agreed upon by the group)",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "Team Meeting: Final Report (Present the issues discussed and agreed upon by the group)",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "Team Meeting: Final Report (Present the issues discussed and agreed upon by the group)",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "5.4 Transformer Network",
+      "lo": "CLO5, CLO7"
+    },
+    {
+      "topic": "5.4 Transformer Network",
+      "lo": "CLO5, CLO7"
+    },
+    {
+      "topic": "5.4 Transformer Network",
+      "lo": "CLO5, CLO7"
+    },
+    {
+      "topic": "5.4 Transformer Network",
+      "lo": "CLO5, CLO7"
+    },
+    {
+      "topic": "Team Meeting: Instructor's feedbacks for Final Report (Report 4)",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "Team Meeting: Instructor's feedbacks for Final Report (Report 4)",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "Team Meeting: Instructor's feedbacks for Final Report (Report 4)",
+      "lo": "CLO6, CLO7"
+    },
+    {
+      "topic": "Project defense",
+      "lo": "CLO6"
+    },
+    {
+      "topic": "Project defense",
+      "lo": "CLO6"
+    },
+    {
+      "topic": "Project defense",
+      "lo": "CLO6"
+    },
+    {
+      "topic": "Project defense",
+      "lo": "CLO6"
+    },
+    {
+      "topic": "Project defense",
+      "lo": "CLO6"
+    },
+    {
+      "topic": "Project defense",
+      "lo": "CLO6"
+    },
+    {
+      "topic": "Review",
+      "lo": "CLO1, CLO2, CLO3, CLO4, CLO5"
+    }
+  ],
+  "assessments": [
+    {
+      "category": "Progress test",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": "CLO1, CLO2, CLO3, CLO4"
+    },
+    {
+      "category": "Report 1: Project Proposal [ Oral group presentation]",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": "CLO6, CLO7"
+    },
+    {
+      "category": "Report 2: Data Tasks [ Oral group presentation]",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": "CLO6, CLO7"
+    },
+    {
+      "category": "Report 3: Model & Results [ Oral group presentation]",
+      "part": "1",
+      "weight": "30.0%",
+      "clo": "CLO6, CLO7"
+    },
+    {
+      "category": "Report 4: Final report & Group presentation",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": "CLO6, CLO7"
+    },
+    {
+      "category": "Final exam",
+      "part": "1",
+      "weight": "30.0%",
+      "clo": "CLO1, CLO2, CLO3, CLO4, CLO5"
+    }
+  ]
+}

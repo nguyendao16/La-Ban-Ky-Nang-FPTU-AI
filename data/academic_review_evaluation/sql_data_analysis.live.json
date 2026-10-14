@@ -1,0 +1,92 @@
+{
+  "review_type": "academic_knowledge_review",
+  "overview": "Hồ sơ học thuật của sinh viên thể hiện nền tảng vững chắc về cơ sở dữ liệu quan hệ, SQL, T-SQL trên Microsoft SQL Server, các kỹ năng làm sạch, phân tích và trực quan hóa dữ liệu với Python, cũng như kinh nghiệm học thuật trong việc xây dựng dự án phân tích dữ liệu nhỏ. Tuy nhiên, hồ sơ chưa cung cấp bằng chứng học thuật trực tiếp về các tính năng đặc thù của PostgreSQL, Snowflake hoặc kinh nghiệm tối ưu hóa SQL ở môi trường sản xuất chuyên nghiệp trong thời gian tối thiểu một năm.",
+  "requirement_reviews": [
+    {
+      "jd_requirement": "Understand relational databases and write SQL queries with joins, nested queries and aggregations.",
+      "coverage": "covered",
+      "comment": "CLO5 của DBI202 yêu cầu sinh viên thành thạo SQL, bao gồm truy vấn cơ bản, truy vấn nhiều bảng (joins), truy vấn lồng nhau (nested queries), truy vấn tổng hợp (aggregation queries) trên Microsoft SQL Server. Thành tích học thuật đạt mức basic phản ánh đã hoàn thành các yêu cầu học tập này ở mức cơ bản. CLO1 của ADY201m bổ sung kiến thức SQL trong bối cảnh khoa học dữ liệu, với thành tích good.",
+      "evidence": [
+        {
+          "course_code": "DBI202",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO1"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Use Microsoft SQL Server and understand T-SQL views, stored procedures and triggers.",
+      "coverage": "covered",
+      "comment": "CLO6 của DBI202 yêu cầu hiểu lập trình cơ sở dữ liệu T-SQL trên Microsoft SQL Server, bao gồm views, cursors, stored procedures, functions và triggers, cùng với khái niệm transaction. Thành tích học thuật đạt mức basic, xác nhận đã học các nội dung này.",
+      "evidence": [
+        {
+          "course_code": "DBI202",
+          "clo": "CLO6"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Clean and wrangle datasets; perform exploratory data analysis and visualization with Python.",
+      "coverage": "covered",
+      "comment": "CLO1 và CLO2 của DAP391m yêu cầu làm sạch, xử lý dữ liệu và thực hiện phân tích dữ liệu khám phá (EDA) với Python. CLO3 và CLO4 bổ sung kỹ năng trực quan hóa dữ liệu với nhiều loại biểu đồ. Thành tích học thuật ở các CLO này đạt mức good đến excellent. CLO7 của ADY201m cũng xác nhận thực hành các bước tiền xử lý, phân tích, trực quan hóa dữ liệu trong dự án nhỏ.",
+      "evidence": [
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO2"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO7"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Build and evaluate a small data analysis project in an academic context.",
+      "coverage": "covered",
+      "comment": "CLO7 của DAP391m yêu cầu sinh viên thực hiện dự án mini capstone về khoa học dữ liệu, bao gồm các bước: thu thập, xử lý, phân tích, trực quan hóa, phát triển mô hình, đánh giá và báo cáo. Thành tích excellent xác nhận đã hoàn thành yêu cầu học tập này trong môi trường học thuật. CLO10 của AIL303m cũng yêu cầu thực hiện dự án mini ML với các bước tương tự, dù thành tích ở mức basic.",
+      "evidence": [
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO10"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Use PostgreSQL-specific features and Snowflake cloud data warehousing.",
+      "coverage": "not_evidenced",
+      "comment": "Hồ sơ học thuật hiện có chưa cung cấp bằng chứng trực tiếp về việc học hoặc sử dụng các tính năng đặc thù của PostgreSQL hoặc Snowflake cloud data warehousing. Các CLO liên quan chỉ đề cập đến Microsoft SQL Server hoặc các khái niệm cơ sở dữ liệu chung.",
+      "evidence": []
+    },
+    {
+      "jd_requirement": "At least one year of professional SQL query optimization and production data analysis experience.",
+      "coverage": "related",
+      "comment": "CLO7 của DBI202 yêu cầu áp dụng index để tối ưu hóa truy vấn trong thiết kế cơ sở dữ liệu quan hệ, là kiến thức nền tảng về tối ưu hóa SQL ở mức học thuật (basic). Tuy nhiên, hồ sơ chưa xác nhận kinh nghiệm tối ưu hóa SQL hoặc phân tích dữ liệu ở môi trường sản xuất chuyên nghiệp trong thời gian tối thiểu một năm.",
+      "evidence": [
+        {
+          "course_code": "DBI202",
+          "clo": "CLO7"
+        }
+      ]
+    }
+  ],
+  "conclusion": "Sinh viên đã được đào tạo bài bản về cơ sở dữ liệu quan hệ, SQL (bao gồm joins, nested queries, aggregation), T-SQL trên Microsoft SQL Server, các kỹ năng làm sạch, phân tích và trực quan hóa dữ liệu với Python, cũng như thực hiện dự án phân tích dữ liệu nhỏ trong môi trường học thuật. Thành tích học thuật ở các nội dung này dao động từ basic đến excellent. Tuy nhiên, hồ sơ chưa cung cấp bằng chứng học thuật về các tính năng đặc thù của PostgreSQL, Snowflake hoặc kinh nghiệm tối ưu hóa SQL và phân tích dữ liệu ở môi trường sản xuất chuyên nghiệp. Các giới hạn này phản ánh phạm vi của chương trình đào tạo và hồ sơ học thuật hiện có."
+}

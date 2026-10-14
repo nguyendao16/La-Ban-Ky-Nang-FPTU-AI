@@ -1,0 +1,343 @@
+{
+  "metadata": {
+    "syllabus_name": "Machine Learning_Học máy",
+    "course_name_english": "Machine Learning",
+    "subject_code": "AIL303m",
+    "description": "The course provides an introduction to Exploratory Data Analysis for Machine Learning (common techniques to retrieve your data, clean it, apply feature engineering, and have it ready for preliminary analysis and hypothesis testing), Supervised Machine Learning (how to train models to predict outcomes and how to use error metrics to compare across different supervised models), , Unsupervised Machine Learning (how to find insights from data sets that do not have a target or labeled variable. Learners will learn several clustering and dimension reduction algorithms for unsupervised learning as well as how to select the algorithm that best suits your data).",
+    "tools": "- jupyterlite\n- JupyterLab"
+  },
+  "clos": [
+    {
+      "clo_name": "CLO1",
+      "clo_details": "Learners should be able to use common techniques to retrieve data from multiple data sources: SQL, NoSQL databases, APIs, Cloud"
+    },
+    {
+      "clo_name": "CLO2",
+      "clo_details": "Learners should be able to describe and use common feature selection and feature engineering techniques"
+    },
+    {
+      "clo_name": "CLO3",
+      "clo_details": "Learners should be able to use a variety of techniques for detecting and dealing with outliers"
+    },
+    {
+      "clo_name": "CLO4",
+      "clo_details": "Learners should be able to describe and use supervised models"
+    },
+    {
+      "clo_name": "CLO5",
+      "clo_details": "Learners should be able to use a variety of error metrics to compare and select a supervised model that best suits your data"
+    },
+    {
+      "clo_name": "CLO6",
+      "clo_details": "Learners should be able to use oversampling and undersampling as techniques to handle unbalanced classes in a data"
+    },
+    {
+      "clo_name": "CLO7",
+      "clo_details": "Learners should be able to explain the kinds of problems suitable for Unsupervised Learning approaches"
+    },
+    {
+      "clo_name": "CLO8",
+      "clo_details": "Explain the curse of dimensionality, and how it makes clustering difficult with many features"
+    },
+    {
+      "clo_name": "CLO9",
+      "clo_details": "Learners should be able to describe and use common clustering and dimensionality-reduction algorithms"
+    },
+    {
+      "clo_name": "CLO10",
+      "clo_details": "Implement a mini capstone ML project includes steps: data collection, data wrangling, exploratory data analysis, model development, model evaluation, and reporting"
+    }
+  ],
+  "schedule": [
+    {
+      "topic": "Course Introduction\n1.1. A brief history of modern AI and its Application\n1.1.1. Introduction to AI and Machine Learning",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "1.1. A brief history of modern AI and its Application\n1.1.2. Modern AI: Applications and Machine Learning Workflow",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "1.2. Retrieving and Cleaning data\n1.2.1. Retrieving data\n1.2.2. Cleaning data",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "1.3. Exploratory Data Analysis and Feature Engineering\n1.3.1 Exploratory Data Analysis",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "1.3. Exploratory Data Analysis and Feature Engineering\n1.3.1 Exploratory Data Analysis",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "1.3. Exploratory Data Analysis and Feature Engineering\n1.3.2 Feature Engineering and Variable\nTransformation",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "1.3. Exploratory Data Analysis and Feature Engineering\n1.3.2 Feature Engineering and Variable\nTransformation",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "1.4 Inferential Statistics and Hypothesis Testing\n1.4.1 Estimation and Inference",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "1.4 Inferential Statistics and Hypothesis Testing\n1.4.2 Hypothesis Testing (Homework)\n1.3.3 Demo Lab Feature Engineering",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "Progress test 1\nGuiding mini Capstone",
+      "lo": "CLO10"
+    },
+    {
+      "topic": "2.1 Introduction to Supervised Machine Learning and Linear Regression\n2.1.1 Introduction to Supervised Machine Learning\n2.2 Data Splits and Cross Validation\n2.2.1 Training and Test Splits",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "2.2 Data Splits and Cross Validation\n2.2.1 Training and Test Splits",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "2.2 Data Splits and Cross Validation\n2.2.2 Cross Validation",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "2.3 Linear Regression",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "2.4 Polynomial Regression\n2.5 Regression with Regularization Techniques\n2.5.1 Regularization Techniques\nElastic Net, Recursive Feature Elimination (Homework)",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "2.5 Regression with Regularization Techniques\n2.5.2 Polynomial Features and Regularization Demo",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "2.5 Regression with Regularization Techniques\n2.5.2 Polynomial Features and Regularization Demo",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "2.5 Regression with Regularization Techniques\n2.5.3. Details of Regularization",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "Progress Test 2\nReview Lab 1",
+      "lo": ""
+    },
+    {
+      "topic": "Review Lab 1",
+      "lo": ""
+    },
+    {
+      "topic": "Review the mini Capstone",
+      "lo": "CLO10"
+    },
+    {
+      "topic": "3.1 Logistic Regression\n3.1.1 Logistic Regression: Introduction to Classification and Error Metrics",
+      "lo": "CLO4, CLO5"
+    },
+    {
+      "topic": "3.1 Logistic Regression\n3.1.2 Error Metrics\n3.1.3 Logistic Regression Labs",
+      "lo": "CLO4, CLO5"
+    },
+    {
+      "topic": "3.1 Logistic Regression\n3.1.2 Logistic Regression Labs",
+      "lo": "CLO4, CLO5"
+    },
+    {
+      "topic": "3.2 K Nearest Neighbors\n3.2.1 K Nearest Neighbors",
+      "lo": "CLO4, CLO5"
+    },
+    {
+      "topic": "3.2 K Nearest Neighbors\n3.2.1 K Nearest Neighbors",
+      "lo": "CLO4, CLO5"
+    },
+    {
+      "topic": "3.2 K Nearest Neighbors\n3.2.2 K Nearest Neighbors Labs",
+      "lo": "CLO4, CLO5"
+    },
+    {
+      "topic": "3.2 K Nearest Neighbors\n3.2.2 K Nearest Neighbors Labs",
+      "lo": "CLO4, CLO5"
+    },
+    {
+      "topic": "Review lab 2",
+      "lo": ""
+    },
+    {
+      "topic": "Review the mini Capstone",
+      "lo": "CLO10"
+    },
+    {
+      "topic": "3.3 Support Vector Machines\n3.3.1 Support Vector Machines",
+      "lo": "CLO4, CLO5"
+    },
+    {
+      "topic": "3.3 Support Vector Machines\n3.3.2 Support Vector Machines Kernels",
+      "lo": "CLO4, CLO5"
+    },
+    {
+      "topic": "3.3 Support Vector Machines\n3.3.3 Support Vector Machines Labs",
+      "lo": "CLO4, CLO5"
+    },
+    {
+      "topic": "3.3 Support Vector Machines\n3.3.3 Support Vector Machines Labs",
+      "lo": "CLO4, CLO5"
+    },
+    {
+      "topic": "3.4 Decision Trees\n3.4.1 Decision Trees",
+      "lo": "CLO4, CLO5"
+    },
+    {
+      "topic": "3.4 Decision Trees\n3.4.2 Decision Trees Labs",
+      "lo": "CLO4, CLO5"
+    },
+    {
+      "topic": "3.5 Ensemble Models\n3.5.1 Ensemble Based Methods and Bagging",
+      "lo": "CLO4, CLO5"
+    },
+    {
+      "topic": "3.5 Ensemble Models\n3.5.1 Ensemble Based Methods and Bagging",
+      "lo": "CLO4, CLO5"
+    },
+    {
+      "topic": "3.5 Ensemble Models\n3.5.2 Bagging Labs",
+      "lo": "CLO4, CLO5"
+    },
+    {
+      "topic": "3.5 Ensemble Models\n3.5.2 Bagging Labs",
+      "lo": "CLO4, CLO5"
+    },
+    {
+      "topic": "3.5 Ensemble Models\n3.5.3 Boosting and Stacking (Homework for Stacking)",
+      "lo": "CLO4, CLO5"
+    },
+    {
+      "topic": "3.5 Ensemble Models\n3.5.4 Boosting and Stacking Labs",
+      "lo": "CLO4, CLO5"
+    },
+    {
+      "topic": "3.6 Modeling Unbalanced Classes\n3.6.1 Model Interpretability (Homework)\n3.6.2 Modeling Unbalanced Classes",
+      "lo": "CLO4, CLO5"
+    },
+    {
+      "topic": "3.6 Modeling Unbalanced Classes\n3.6.2 Modeling Unbalanced Classes\n3.6.3 Practice Lab: Modeling Imbalanced Classes",
+      "lo": "CLO6"
+    },
+    {
+      "topic": "Progress Test 3\nReview the mini capstone",
+      "lo": "CLO10"
+    },
+    {
+      "topic": "Review the mini capstone",
+      "lo": "CLO10"
+    },
+    {
+      "topic": "4.1 Introduction to Unsupervised Learning and K Means\n4.1.1 Introduction to Unsupervised Learning\n4.1.2 K Means Clustering",
+      "lo": "CLO7, CLO8"
+    },
+    {
+      "topic": "4.1 Introduction to Unsupervised Learning and K Means\n4.1.2 K Means Clustering\n4.1.3 K-Means Lab",
+      "lo": "CLO8"
+    },
+    {
+      "topic": "4.2 Selecting a clustering algorithm\n4.2.1 Distance Metrics of Clustering Algorithms\n4.2.2 Common clustering algorithms\n4.2.2.1 Hierarchical Agglomerative Clustering",
+      "lo": "CLO8, CLO9"
+    },
+    {
+      "topic": "4.2 Selecting a clustering algorithm\n4.2.2.2 DBSCAN (homework)\n4.2.2.3 Mean-shift (howework)\n4.2.2.4Hierarchical Agglomerative Clustering Lab",
+      "lo": "CLO8, CLO9"
+    },
+    {
+      "topic": "4.2 Selecting a clustering algorithm\n4.2.3 Compare clustering algorithms",
+      "lo": "CLO8, CLO9"
+    },
+    {
+      "topic": "4.2 Selecting a clustering algorithm\n4.2.3 Compare clustering algorithms\nClustering Demo",
+      "lo": "CLO8, CLO9"
+    },
+    {
+      "topic": "4.3 Dimensionality Reduction\n4.3.1 Dimensionality Reduction",
+      "lo": "CLO8, CLO9"
+    },
+    {
+      "topic": "4.3 Dimensionality Reduction\n4.3.2 Principal Component Analysis",
+      "lo": "CLO8, CLO9"
+    },
+    {
+      "topic": "4.3 Dimensionality Reduction\n4.3.2 Matrix Factorization (homework)\n4.3.3 Principal Component Analysis Lab",
+      "lo": "CLO8, CLO9"
+    },
+    {
+      "topic": "Progress test 4\nReview mini Capstone",
+      "lo": "CLO10"
+    },
+    {
+      "topic": "Review the mini Capstone",
+      "lo": "CLO10"
+    },
+    {
+      "topic": "Review the mini Capstone",
+      "lo": "CLO10"
+    },
+    {
+      "topic": "Review",
+      "lo": ""
+    },
+    {
+      "topic": "Review",
+      "lo": ""
+    }
+  ],
+  "assessments": [
+    {
+      "category": "Lab 1",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": "CLO1, CLO2, CLO3"
+    },
+    {
+      "category": "Lab 2",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": "CLO4, CLO5"
+    },
+    {
+      "category": "Mini capstone",
+      "part": "1",
+      "weight": "30.0%",
+      "clo": "CLO10"
+    },
+    {
+      "category": "Progress test 1",
+      "part": "1",
+      "weight": "5.0%",
+      "clo": "CLO1, CLO2, CLO3"
+    },
+    {
+      "category": "Progress test 2",
+      "part": "1",
+      "weight": "5.0%",
+      "clo": "CLO4, CLO5"
+    },
+    {
+      "category": "Progress test 3",
+      "part": "1",
+      "weight": "5.0%",
+      "clo": "CLO4, CLO5, CLO6"
+    },
+    {
+      "category": "Progress test 4",
+      "part": "1",
+      "weight": "5.0%",
+      "clo": "CLO8, CLO9, CLO10"
+    },
+    {
+      "category": "Final exam",
+      "part": "1",
+      "weight": "30.0%",
+      "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8, CLO9"
+    }
+  ]
+}

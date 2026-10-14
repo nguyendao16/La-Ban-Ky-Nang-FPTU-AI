@@ -1,0 +1,350 @@
+{
+  "origin": "live",
+  "case_id": "JD01",
+  "session_id": "8716c3859d2348a68422cb8de1555e90",
+  "profile_sha256": "b0bfa72fdc04f8d2cfc94e68fd7b4745387cd378a923f55eb94e2aef391bf531",
+  "jd_sha256": "0caa2a9237c9ba797c98ca6888118333aed23f4a06f32946ab392b9feded2a1d",
+  "review_sha256": "5fdc6ced97ae287c225ba0428295a0b3087ef1d067f695c786b69c7bb23a3253",
+  "turns": [
+    {
+      "turn": 1,
+      "user": "Với JD này, mình đã học những kiến thức nào liên quan nhất?",
+      "response": {
+        "reply": "Các mảng liên quan nhất trong hồ sơ của bạn với JD này là:\n\n- **Computer vision và image processing**: đây là phần khớp trực tiếp nhất với nhiệm vụ phát triển/test AI-CV products. Trong **CPV301** bạn có:\n  - **CLO3**: *“Apply basic image processing techniques and corresponding algorithms...”* — điểm **8.91, excellent**.\n  - **CLO4**: *“Understand feature extraction and matching techniques... and implement edge and line extraction techniques.”* — **8.88, excellent**.\n  - **CLO5**: *“Understand the basics of image segmentation...”* — **8.88, excellent**.\n  - **CLO8**: *“Understand and implement object detection techniques.”* — **8.81, excellent**.\n  - **CLO9**: *“Explain the principles of face recognition and object tracking techniques.”* — **8.81, excellent**.\n  Phần này là bằng chứng rất sát với yêu cầu image-processing / computer-vision của JD.\n\n- **Python và lập trình ứng dụng cho AI/data science**: \n  - **PFP191/CLO7**: *“Understand object-oriented programming in Python and apply it in application contexts...”* — **8.9, excellent**.\n  - **ADY201m/CLO5**: *“Discuss Python fundamentals, Python libraries, and API support for data science tasks...”* — **8.61, excellent**.\n  - **ADY201m/CLO7**: *“Implement a small data science project by applying Python fundamentals...”* — **8.61, excellent**.\n  - **DAP391m/CLO1**: *“Understand the basics of data analysis with Python for building and evaluating data models...”* — **8.45, good**.\n  - **DAP391m/CLO7**: *“Implement the small mini capstone data science project includes steps...”* — **9.1, excellent**.\n  Đây là cụm kiến thức gần với yêu cầu Python programming experience và làm việc với quy trình AI/data project.\n\n- **Machine Learning / Data Science workflow**:\n  - **AIL303m/CLO4**: *“Learners should be able to describe and use supervised models...”* — **8.39, good**.\n  - **AIL303m/CLO5**: *“...use a variety of error metrics to compare and select a supervised model...”* — **8.39, good**.\n  - **AIL303m/CLO6**: *“...use oversampling and undersampling as techniques to handle unbalanced classes...”* — **8.27, good**.\n  - **AIL303m/CLO10**: *“Implement a mini capstone ML project...”* — **5.42, basic**.\n  - **ADY201m/CLO4**: *“Understand why data science methodology is needed and how it guides data science work...”* — **8.83, excellent**.\n  - **ADY201m/CLO6**: *“Explain statistics for data science...”* — **8.61, excellent**.\n  - **DAP391m/CLO2**: *“...clean and wrangle data, perform exploratory data analysis (EDA), and create meaningful data visualizations...”* — **8.79, excellent**.\n  - **DAP391m/CLO7**: như trên, mini capstone data science project — **9.1, excellent**.\n  Đây là phần nền tảng tốt cho việc đánh giá mô hình AI/ML, làm data wrangling, EDA, model development và reporting.\n\n- **Toán và thống kê cho ML**:\n  - **MAI391/CLO3**: *“Apply probability and distribution concepts...”* — **9.43, excellent**.\n  - **MAI391/CLO4**: *“Solve continuous optimization problems using gradient descent...”* — **9.43, excellent**.\n  - **MAI391/CLO5**: *“Apply linear regression concepts...”* — **9.4, excellent**.\n  - **MAI391/CLO6**: *“Apply dimensionality reduction with PCA...”* — **9.4, excellent**.\n  - **MAI391/CLO7**: *“Apply support vector machine classification...”* — **9.4, excellent**.\n  - **MAS291/CLO2**: *“...conditional probability, multiplication and total probability rules, independence, and Bayes' theorem...”* — **9.34, excellent**.\n  - **MAS291/CLO7**: *“Construct and interpret confidence intervals...”* — **9.43, excellent**.\n  - **MAS291/CLO8**: *“Verify claims... using hypothesis testing...”* — **9.43, excellent**.\n  - **MAS291/CLO9**: *“Construct a simple linear regression model and use it for prediction and interpretation...”* — **9.43, excellent**.\n  Đây là nền tảng toán-thống kê rất liên quan cho việc hiểu mô hình, đánh giá mô hình và xử lý dữ liệu.\n\n- **Database / SQL / data access**:\n  - **DBI202/CLO5**: *“Be proficient in SQL... perform basic queries, multi-relation queries, nested queries, aggregation queries...”* — **5.96, basic**.\n  - **DBI202/CLO6**: *“Understand T-SQL database programming concepts in Microsoft SQL Server...”* — **5.96, basic**.\n  - **DBI202/CLO7**: *“Apply database indexes... to support query optimization and improve query performance...”* — **5.96, basic**.\n  - **ADY201m/CLO1**: *“Understand relational database concepts and foundational SQL language knowledge... including accessing databases with Python...”* — **8.3, good**.\n  - **ADY201m/CLO7**: như trên, project có **SQL/database access** — **8.61, excellent**.\n  Điểm cần đọc đúng là: các CLO về SQL ở **DBI202** được ghi nhận ở mức **basic**, còn phần SQL/database access trong **ADY201m** là một outcome khác, đạt **good** và **excellent** theo từng CLO riêng.\n\n- **Nền tảng AI khái niệm và trách nhiệm**:\n  - **AIG202c/CLO2**: *“Explain underlying concepts related to Machine Learning, Deep Learning and Neural Networks...”* — **8.0, good**.\n  - Nếu nhìn thêm về khía cạnh ethics/fairness thì **ITE303c/CLO2** và **CLO3** cũng có nội dung về fairness, bias, security, privacy với **8.6, excellent**.\n  Phần này hữu ích khi JD có yêu cầu đánh giá AI algorithms trong bối cảnh sản phẩm.\n\nNếu gói lại ngắn gọn, hồ sơ của bạn mạnh nhất ở **computer vision/image processing**, **Python + data science project work**, và **math/statistics for ML**; còn **SQL/database** cũng có nhưng nên đọc theo từng CLO riêng vì mức đạt của **DBI202** và **ADY201m** khác nhau.",
+        "evidence": [
+          {
+            "course_code": "CPV301",
+            "clo": "CLO3"
+          },
+          {
+            "course_code": "CPV301",
+            "clo": "CLO4"
+          },
+          {
+            "course_code": "CPV301",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "CPV301",
+            "clo": "CLO8"
+          },
+          {
+            "course_code": "CPV301",
+            "clo": "CLO9"
+          },
+          {
+            "course_code": "PFP191",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "DAP391m",
+            "clo": "CLO1"
+          },
+          {
+            "course_code": "DAP391m",
+            "clo": "CLO2"
+          },
+          {
+            "course_code": "DAP391m",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "AIL303m",
+            "clo": "CLO4"
+          },
+          {
+            "course_code": "AIL303m",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "AIL303m",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "AIL303m",
+            "clo": "CLO10"
+          },
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO4"
+          },
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "MAI391",
+            "clo": "CLO3"
+          },
+          {
+            "course_code": "MAI391",
+            "clo": "CLO4"
+          },
+          {
+            "course_code": "MAI391",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "MAI391",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "MAI391",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO2"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO8"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          },
+          {
+            "course_code": "DBI202",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "DBI202",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "DBI202",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO1"
+          },
+          {
+            "course_code": "AIG202c",
+            "clo": "CLO2"
+          },
+          {
+            "course_code": "ITE303c",
+            "clo": "CLO2"
+          },
+          {
+            "course_code": "ITE303c",
+            "clo": "CLO3"
+          }
+        ]
+      },
+      "request_artifact": "data/academic_benchmark/evaluations/reasoning-five-jds-20261013/requests/chat-JD01-1.json"
+    },
+    {
+      "turn": 2,
+      "user": "Những công nghệ hoặc kiến thức nào JD yêu cầu nhưng hồ sơ của mình chưa xác nhận?",
+      "response": {
+        "reply": "Có 3 nhóm mà JD này nêu ra nhưng hồ sơ của bạn **chưa xác nhận trực tiếp**:\n\n1. **Modern ML frameworks**: **scikit-learn, TensorFlow, Keras, PyTorch**. Hồ sơ của bạn có nền tảng ML/CV liên quan qua các CLO như **AIL303m/CLO4** (*“Learners should be able to describe and use supervised models, including Introduction to Supervised Machine Learning, Linear Regression.”*), **AIL303m/CLO10** (*“Implement a mini capstone ML project includes steps: data collection, data wrangling, exploratory data analysis, model development, model evaluation, and reporting...”*), **AIG202c/CLO2** (*“Explain underlying concepts related to Machine Learning, Deep Learning and Neural Networks...”*), **CPV301/CLO8** (*“Understand and implement object detection techniques.”*), **ADY201m/CLO7** (*“Implement a small data science project by applying Python fundamentals, Python data structures, SQL/database access...”*), và **DAP391m/CLO7** (*“Implement the small mini capstone data science project includes steps: involving data collection, data wrangling, exploratory data analysis, data visualization, model development, model evaluation, and reporting...”*). Tuy nhiên, các CLO này chỉ cho thấy nền tảng ML/CV và project workflow; **không nêu đích danh** scikit-learn, TensorFlow, Keras hay PyTorch.\n\n2. **Basic English communication**: hồ sơ hiện có **chưa có CLO hoặc metadata nào đánh giá giao tiếp tiếng Anh**.\n\n3. **Yêu cầu kinh nghiệm nghề nghiệp**: **backend experience** và **at least one internship year before graduation** là phần kinh nghiệm, nên **không thể xác nhận chỉ từ hồ sơ học thuật**. Đây là trạng thái chưa được chứng minh trong record hiện tại, không phải kết luận về năng lực thực tế của bạn.\n\nTóm lại, phần chưa được xác nhận trực tiếp nhất là **framework-specific ML experience** và **English communication**; còn **backend/internship duration** thuộc nhóm kinh nghiệm nghề nghiệp riêng.",
+        "evidence": [
+          {
+            "course_code": "AIL303m",
+            "clo": "CLO4"
+          },
+          {
+            "course_code": "AIL303m",
+            "clo": "CLO10"
+          },
+          {
+            "course_code": "AIG202c",
+            "clo": "CLO2"
+          },
+          {
+            "course_code": "CPV301",
+            "clo": "CLO8"
+          },
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "DAP391m",
+            "clo": "CLO7"
+          }
+        ]
+      },
+      "request_artifact": "data/academic_benchmark/evaluations/reasoning-five-jds-20261013/requests/chat-JD01-2.json"
+    },
+    {
+      "turn": 3,
+      "user": "Mình có học Object Detection, Face Recognition và Object Tracking không? Những nội dung đó nằm ở CLO nào?",
+      "response": {
+        "reply": "Có. Trong hồ sơ của bạn, các nội dung này nằm ở **CPV301**:\n\n- **Object Detection**: **CPV301/CLO8** — *“Understand and implement object detection techniques.”* — **8.81, excellent**.\n- **Face Recognition**: **CPV301/CLO9** — *“Explain the principles of face recognition and object tracking techniques.”* — **8.81, excellent**.\n- **Object Tracking**: **CPV301/CLO9** — *“Explain the principles of face recognition and object tracking techniques.”* — **8.81, excellent**.\n\nNói ngắn gọn: **Object Detection** được xác nhận trực tiếp ở **CLO8**, còn **Face Recognition** và **Object Tracking** được xác nhận trực tiếp ở **CLO9** của **CPV301**.",
+        "evidence": [
+          {
+            "course_code": "CPV301",
+            "clo": "CLO8"
+          },
+          {
+            "course_code": "CPV301",
+            "clo": "CLO9"
+          }
+        ]
+      },
+      "request_artifact": "data/academic_benchmark/evaluations/reasoning-five-jds-20261013/requests/chat-JD01-3.json"
+    },
+    {
+      "turn": 4,
+      "user": "Tóm lại, những phần nào mình đã có nền tảng và những phần nào vẫn chưa có bằng chứng?",
+      "response": {
+        "reply": "Tóm lại, hồ sơ của bạn đã có nền tảng khá rõ ở các mảng sau:\n\n- **Python và lập trình ứng dụng**: **PFP191/CLO7** *“Understand object-oriented programming in Python and apply it in application contexts...”* — **8.9, excellent**. Kèm thêm **ADY201m/CLO5** *“Discuss Python fundamentals, Python libraries, and API support for data science tasks...”* — **8.61, excellent**; **ADY201m/CLO7** *“Implement a small data science project by applying Python fundamentals...”* — **8.61, excellent**; **DAP391m/CLO1** *“Understand the basics of data analysis with Python...”* — **8.45, good**; và **DAP391m/CLO7** *“Implement the small mini capstone data science project...”* — **9.1, excellent**.\n\n- **Computer vision / image processing**: **CPV301/CLO3** *“Apply basic image processing techniques...”* — **8.91, excellent**; **CPV301/CLO4** *“Understand feature extraction and matching techniques... and implement edge and line extraction techniques.”* — **8.88, excellent**; **CPV301/CLO5** *“Understand the basics of image segmentation...”* — **8.88, excellent**; **CPV301/CLO8** *“Understand and implement object detection techniques.”* — **8.81, excellent**; **CPV301/CLO9** *“Explain the principles of face recognition and object tracking techniques.”* — **8.81, excellent**.\n\n- **Machine learning / data science workflow**: **AIL303m/CLO4** *“Learners should be able to describe and use supervised models...”* — **8.39, good**; **AIL303m/CLO5** *“...use a variety of error metrics to compare and select a supervised model...”* — **8.39, good**; **AIL303m/CLO6** *“...use oversampling and undersampling...”* — **8.27, good**; **AIL303m/CLO10** *“Implement a mini capstone ML project...”* — **5.42, basic**. Ngoài ra **ADY201m/CLO4** *“Understand why data science methodology is needed and how it guides data science work...”* — **8.83, excellent**; **ADY201m/CLO6** *“Explain statistics for data science...”* — **8.61, excellent**; **DAP391m/CLO2** *“...clean and wrangle data, perform exploratory data analysis (EDA), and create meaningful data visualizations...”* — **8.79, excellent**; **DAP391m/CLO6** *“Implementing different techniques to develop applications and AI powered solutions...”* — **9.1, excellent**; **DAP391m/CLO7** — **9.1, excellent**.\n\n- **Toán và thống kê cho ML**: **MAI391/CLO3** *“Apply probability and distribution concepts...”* — **9.43, excellent**; **MAI391/CLO4** *“Solve continuous optimization problems using gradient descent...”* — **9.43, excellent**; **MAI391/CLO5** *“Apply linear regression concepts...”* — **9.4, excellent**; **MAI391/CLO6** *“Apply dimensionality reduction with PCA...”* — **9.4, excellent**; **MAI391/CLO7** *“Apply support vector machine classification...”* — **9.4, excellent**. Bổ trợ thêm là **MAS291/CLO2** *“...conditional probability, multiplication and total probability rules, independence, and Bayes' theorem...”* — **9.34, excellent**; **MAS291/CLO7** *“Construct and interpret confidence intervals...”* — **9.43, excellent**; **MAS291/CLO8** *“Verify claims... using hypothesis testing...”* — **9.43, excellent**; **MAS291/CLO9** *“Construct a simple linear regression model and use it for prediction and interpretation...”* — **9.43, excellent**.\n\n- **Database / SQL**: có nền tảng nhưng cần đọc theo từng CLO riêng. **DBI202/CLO5** *“Be proficient in SQL...”* — **5.96, basic**; **DBI202/CLO6** *“Understand T-SQL database programming concepts in Microsoft SQL Server...”* — **5.96, basic**; **DBI202/CLO7** *“Apply database indexes...”* — **5.96, basic**. Đồng thời **ADY201m/CLO1** *“Understand relational database concepts and foundational SQL language knowledge... including accessing databases with Python...”* — **8.3, good**, và **ADY201m/CLO7** có cả **SQL/database access** trong dự án — **8.61, excellent**.\n\n- **Nền tảng AI khái niệm và đạo đức**: **AIG202c/CLO2** *“Explain underlying concepts related to Machine Learning, Deep Learning and Neural Networks...”* — **8.0, good**. Về fairness/privacy, **ITE303c/CLO2** *“Explore fairness and bias in machine learning and ethical model building...”* — **8.6, excellent** và **ITE303c/CLO3** *“Explore fundamental concepts involved in security and privacy of machine learning projects...”* — **8.6, excellent**.\n\nCòn những phần **chưa có bằng chứng trực tiếp** trong hồ sơ hiện tại là:\n\n- **Các framework ML được JD nêu đích danh**: **scikit-learn, TensorFlow, Keras, PyTorch**. Hồ sơ có nền tảng ML/CV và project workflow, nhưng không có CLO hay metadata nào gọi thẳng tên các framework này.\n- **Basic English communication**: chưa có CLO/metadata nào đánh giá trực tiếp năng lực giao tiếp tiếng Anh.\n- **Kinh nghiệm nghề nghiệp** như **backend experience** và **ít nhất một năm internship trước khi tốt nghiệp**: đây là yêu cầu kinh nghiệm, nên hồ sơ học thuật hiện tại không thể tự xác nhận.\n\nNếu muốn nói gọn nhất: bạn đã có nền tảng rõ ở **Python**, **computer vision/image processing**, **ML/data science workflow**, **toán-thống kê cho ML**, và **SQL/database ở mức CLO riêng lẻ**; còn **framework-specific ML**, **English communication**, và **experience/backend/internship duration** thì hiện vẫn chưa được hồ sơ xác nhận trực tiếp.",
+        "evidence": [
+          {
+            "course_code": "PFP191",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "DAP391m",
+            "clo": "CLO1"
+          },
+          {
+            "course_code": "DAP391m",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "CPV301",
+            "clo": "CLO3"
+          },
+          {
+            "course_code": "CPV301",
+            "clo": "CLO4"
+          },
+          {
+            "course_code": "CPV301",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "CPV301",
+            "clo": "CLO8"
+          },
+          {
+            "course_code": "CPV301",
+            "clo": "CLO9"
+          },
+          {
+            "course_code": "AIL303m",
+            "clo": "CLO4"
+          },
+          {
+            "course_code": "AIL303m",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "AIL303m",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "AIL303m",
+            "clo": "CLO10"
+          },
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO4"
+          },
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "DAP391m",
+            "clo": "CLO2"
+          },
+          {
+            "course_code": "DAP391m",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "MAI391",
+            "clo": "CLO3"
+          },
+          {
+            "course_code": "MAI391",
+            "clo": "CLO4"
+          },
+          {
+            "course_code": "MAI391",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "MAI391",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "MAI391",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO2"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO8"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          },
+          {
+            "course_code": "DBI202",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "DBI202",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "DBI202",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO1"
+          },
+          {
+            "course_code": "AIG202c",
+            "clo": "CLO2"
+          },
+          {
+            "course_code": "ITE303c",
+            "clo": "CLO2"
+          },
+          {
+            "course_code": "ITE303c",
+            "clo": "CLO3"
+          }
+        ]
+      },
+      "request_artifact": "data/academic_benchmark/evaluations/reasoning-five-jds-20261013/requests/chat-JD01-4.json"
+    }
+  ]
+}

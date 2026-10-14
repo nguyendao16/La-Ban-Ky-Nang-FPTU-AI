@@ -1,0 +1,18 @@
+[
+  {
+    "clo": "CLO1",
+    "description": "Understand what is data mining and what are key components of the data mining pipeline, including Introduction to Data mining Pipeline, Data understanding, Data understadining, Data Warehouse Architecture."
+  },
+  {
+    "clo": "CLO2",
+    "description": "Learn and apply one of the basic core of data mining: data visualization, including Data visualization, Introduction of data visualization, Visualization of Numerical Data, Visualization of Non-Numerical Data, The Visualization of Dashboard."
+  },
+  {
+    "clo": "CLO3",
+    "description": "Understand and apply pattern discovery as a data mining subfield, including frequent, closed, max, compressed, sequential, and vertical-format pattern mining, advanced pattern discovery issues such as data streams and privacy, and data visualization practice for data mining."
+  },
+  {
+    "clo": "CLO4",
+    "description": "Apply cluster analysis as a data mining subfield, including similarity and distance measures, partitioning-based clustering, agglomerative and divisive hierarchical clustering, DBSCAN, multidimensional categorization, and clustering quality evaluation."
+  }
+]

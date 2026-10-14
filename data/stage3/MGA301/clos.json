@@ -1,0 +1,34 @@
+[
+  {
+    "clo_name": "CLO1",
+    "clo_details": "Identify and characterize multimodal AI systems and the four core problems of multimodal machine learning - representation, alignment, fusion, and translation."
+  },
+  {
+    "clo_name": "CLO2",
+    "clo_details": "Build cross-modal representations using contrastive and self-supervised methods, and evaluate them via zero-shot transfer and cross-modal retrieval."
+  },
+  {
+    "clo_name": "CLO3",
+    "clo_details": "Design and implement fusion architectures (cross-attention, latent bottlenecks, connector modules) that combine heterogeneous modalities."
+  },
+  {
+    "clo_name": "CLO4",
+    "clo_details": "Apply vision-language and unified multimodal architectures (LLaVA, BLIP-2, Flamingo, and unified token/diffusion-transformer families) and instruction-tune them."
+  },
+  {
+    "clo_name": "CLO5",
+    "clo_details": "Apply multimodal techniques to non-image modalities - speech, audio, video, 3D, and embodied agents - and to cross-modal generation."
+  },
+  {
+    "clo_name": "CLO6",
+    "clo_details": "Engineer multimodal reasoning, agent, and retrieval systems, and address the input-size and latency challenges of deploying them."
+  },
+  {
+    "clo_name": "CLO7",
+    "clo_details": "Evaluate multimodal systems with appropriate benchmarks and protocols, recognizing saturation and the migrating frontier, and run hallucination and grounding diagnostics."
+  },
+  {
+    "clo_name": "CLO8",
+    "clo_details": "Analyze the safety, provenance, bias, and privacy issues specific to multimodal AI - deepfakes, watermarking, and biometric data."
+  }
+]

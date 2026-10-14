@@ -1,0 +1,1406 @@
+{
+  "run_id": "reasoning-five-jds-20261013",
+  "generated_at": "2026-10-13T22:05:35.014541+07:00",
+  "run_status": "completed",
+  "generations": 25,
+  "preflights": 25,
+  "http_operations": 50,
+  "sdk_retries_taken": 0,
+  "usage": {
+    "input_tokens": 513342,
+    "cached_input_tokens": 458752,
+    "output_tokens": 117237,
+    "reasoning_tokens": 86027,
+    "total_tokens": 630579
+  },
+  "known_cost_usd": "1.25735240",
+  "unknown_usage_operations": [],
+  "unknown_cost_reservation_usd": "0",
+  "known_plus_unknown_ceiling_usd": "1.25735240",
+  "cumulative_reserved_cost_usd": "3.72051650",
+  "budget_cap_usd": 6,
+  "cost_is_estimate_not_invoice": true,
+  "stages": {
+    "review": {
+      "attempted_operations": 5,
+      "api_completed": 5,
+      "validated": 5,
+      "timeouts": 0,
+      "incomplete": 0,
+      "timeout_rate": 0.0,
+      "incomplete_rate": 0.0,
+      "average_latency_seconds_all_attempts": 152.006,
+      "median_latency_seconds_all_attempts": 146.697,
+      "average_latency_seconds_validated": 152.006,
+      "median_latency_seconds_validated": 146.697
+    },
+    "chat": {
+      "attempted_operations": 20,
+      "api_completed": 20,
+      "validated": 20,
+      "timeouts": 0,
+      "incomplete": 0,
+      "timeout_rate": 0.0,
+      "incomplete_rate": 0.0,
+      "average_latency_seconds_all_attempts": 14.55185,
+      "median_latency_seconds_all_attempts": 14.5245,
+      "average_latency_seconds_validated": 14.55185,
+      "median_latency_seconds_validated": 14.5245
+    }
+  },
+  "cases": {
+    "JD01": {
+      "jd_sha256": "0caa2a9237c9ba797c98ca6888118333aed23f4a06f32946ab392b9feded2a1d",
+      "review_sha256": "5fdc6ced97ae287c225ba0428295a0b3087ef1d067f695c786b69c7bb23a3253",
+      "session_id": "8716c3859d2348a68422cb8de1555e90",
+      "successful_turns": 4,
+      "review_status": "completed",
+      "chat_turns": [
+        {
+          "turn": 1,
+          "status": "completed"
+        },
+        {
+          "turn": 2,
+          "status": "completed"
+        },
+        {
+          "turn": 3,
+          "status": "completed"
+        },
+        {
+          "turn": 4,
+          "status": "completed"
+        }
+      ]
+    },
+    "JD05": {
+      "jd_sha256": "318609c7106c3e08ba47ed31a8304cdee358fcf38adbb69b58877fc942e556f8",
+      "review_sha256": "25970c23c61907db3e82d65a72ef800926e04433c6aa0c58db5e2b4c1a3c2df8",
+      "session_id": "3a65732d674b42419633daae6e08dab0",
+      "successful_turns": 4,
+      "review_status": "completed",
+      "chat_turns": [
+        {
+          "turn": 1,
+          "status": "completed"
+        },
+        {
+          "turn": 2,
+          "status": "completed"
+        },
+        {
+          "turn": 3,
+          "status": "completed"
+        },
+        {
+          "turn": 4,
+          "status": "completed"
+        }
+      ]
+    },
+    "JD07": {
+      "jd_sha256": "65d180c4d3af0f9224504c185c1b86c52691f1371ecd3b726e7a6a2bd0cadd88",
+      "review_sha256": "83b4abd884f2f26401b363cee8896846ba7330ea74b3892a3f6aaac862df9d35",
+      "session_id": "4076e1c8aaa94ab6b0a1a3bd0a97a259",
+      "successful_turns": 4,
+      "review_status": "completed",
+      "chat_turns": [
+        {
+          "turn": 1,
+          "status": "completed"
+        },
+        {
+          "turn": 2,
+          "status": "completed"
+        },
+        {
+          "turn": 3,
+          "status": "completed"
+        },
+        {
+          "turn": 4,
+          "status": "completed"
+        }
+      ]
+    },
+    "JD10": {
+      "jd_sha256": "2d62971cc0222edd47e1f095089ba7a84a0752c44e53b331395ffca35734b564",
+      "review_sha256": "99e9dea821ddd7a63c8500f78e0fc9ab92f8553e1fe080c6d011c0b111fb2c8e",
+      "session_id": "ac5492ca91f64e5691d5f9f46decc117",
+      "successful_turns": 4,
+      "review_status": "completed",
+      "chat_turns": [
+        {
+          "turn": 1,
+          "status": "completed"
+        },
+        {
+          "turn": 2,
+          "status": "completed"
+        },
+        {
+          "turn": 3,
+          "status": "completed"
+        },
+        {
+          "turn": 4,
+          "status": "completed"
+        }
+      ]
+    },
+    "JD11": {
+      "jd_sha256": "126514f3dfe7101147c1aeca66e34a46f1dd5f4fdba758e43c5fa171e1d4a4f9",
+      "review_sha256": "5cc99d6825e3dc4818c0554ba037b0db2bb2f1923ffb204695ce6b6aec8bb862",
+      "session_id": "27443373ae42410c9de89edfe0c0d5da",
+      "successful_turns": 4,
+      "review_status": "completed",
+      "chat_turns": [
+        {
+          "turn": 1,
+          "status": "completed"
+        },
+        {
+          "turn": 2,
+          "status": "completed"
+        },
+        {
+          "turn": 3,
+          "status": "completed"
+        },
+        {
+          "turn": 4,
+          "status": "completed"
+        }
+      ]
+    }
+  },
+  "all_pairing_checks_passed": true,
+  "integrity": {
+    "checked_at": "2026-10-13T22:05:34.855997+07:00",
+    "protected_files": 885,
+    "mismatches": [],
+    "review_schema_unchanged": true,
+    "chat_schema_unchanged": true
+  },
+  "operations": {
+    "chat-JD01-2": {
+      "metrics": {
+        "requested_model": "gpt-5.4-mini",
+        "resolved_model": "gpt-5.4-mini-2026-03-17",
+        "stage": "chat",
+        "reasoning_effort": "medium",
+        "temperature_sent": false,
+        "temperature": null,
+        "max_output_tokens": 8192,
+        "preflight_input_tokens": 22183,
+        "input_tokens": 22183,
+        "cached_input_tokens": 19712,
+        "output_tokens": 3110,
+        "reasoning_tokens": 2544,
+        "total_tokens": 25293,
+        "estimated_cost_usd": "0.01732665",
+        "latency_seconds": 15.439,
+        "schema_validation": "passed",
+        "evidence_validation": "passed",
+        "semantic_grounding": "pending_manual_review",
+        "naturalness": null,
+        "completeness": null
+      },
+      "status": "completed",
+      "validation": "passed",
+      "failure_kind": null,
+      "manual_scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": 2,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "finding_counts": {
+        "P0": 0,
+        "P1": 0,
+        "P2": 1
+      }
+    },
+    "chat-JD10-4": {
+      "metrics": {
+        "requested_model": "gpt-5.4-mini",
+        "resolved_model": "gpt-5.4-mini-2026-03-17",
+        "stage": "chat",
+        "reasoning_effort": "medium",
+        "temperature_sent": false,
+        "temperature": null,
+        "max_output_tokens": 8192,
+        "preflight_input_tokens": 22104,
+        "input_tokens": 22104,
+        "cached_input_tokens": 21248,
+        "output_tokens": 3093,
+        "reasoning_tokens": 1552,
+        "total_tokens": 25197,
+        "estimated_cost_usd": "0.0161541",
+        "latency_seconds": 15.948,
+        "schema_validation": "passed",
+        "evidence_validation": "passed",
+        "semantic_grounding": "pending_manual_review",
+        "naturalness": null,
+        "completeness": null
+      },
+      "status": "completed",
+      "validation": "passed",
+      "failure_kind": null,
+      "manual_scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 0,
+        "academic_achievement": 2,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 1,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "finding_counts": {
+        "P0": 1,
+        "P1": 0,
+        "P2": 1
+      }
+    },
+    "chat-JD07-4": {
+      "metrics": {
+        "requested_model": "gpt-5.4-mini",
+        "resolved_model": "gpt-5.4-mini-2026-03-17",
+        "stage": "chat",
+        "reasoning_effort": "medium",
+        "temperature_sent": false,
+        "temperature": null,
+        "max_output_tokens": 8192,
+        "preflight_input_tokens": 23201,
+        "input_tokens": 23201,
+        "cached_input_tokens": 22272,
+        "output_tokens": 4497,
+        "reasoning_tokens": 2588,
+        "total_tokens": 27698,
+        "estimated_cost_usd": "0.02260365",
+        "latency_seconds": 23.203,
+        "schema_validation": "passed",
+        "evidence_validation": "passed",
+        "semantic_grounding": "pending_manual_review",
+        "naturalness": null,
+        "completeness": null
+      },
+      "status": "completed",
+      "validation": "passed",
+      "failure_kind": null,
+      "manual_scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": 2,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "finding_counts": {
+        "P0": 0,
+        "P1": 0,
+        "P2": 1
+      }
+    },
+    "chat-JD11-4": {
+      "metrics": {
+        "requested_model": "gpt-5.4-mini",
+        "resolved_model": "gpt-5.4-mini-2026-03-17",
+        "stage": "chat",
+        "reasoning_effort": "medium",
+        "temperature_sent": false,
+        "temperature": null,
+        "max_output_tokens": 8192,
+        "preflight_input_tokens": 22501,
+        "input_tokens": 22501,
+        "cached_input_tokens": 21760,
+        "output_tokens": 3012,
+        "reasoning_tokens": 2005,
+        "total_tokens": 25513,
+        "estimated_cost_usd": "0.01574175",
+        "latency_seconds": 15.987,
+        "schema_validation": "passed",
+        "evidence_validation": "passed",
+        "semantic_grounding": "pending_manual_review",
+        "naturalness": null,
+        "completeness": null
+      },
+      "status": "completed",
+      "validation": "passed",
+      "failure_kind": null,
+      "manual_scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": 2,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "finding_counts": {
+        "P0": 0,
+        "P1": 0,
+        "P2": 1
+      }
+    },
+    "chat-JD11-2": {
+      "metrics": {
+        "requested_model": "gpt-5.4-mini",
+        "resolved_model": "gpt-5.4-mini-2026-03-17",
+        "stage": "chat",
+        "reasoning_effort": "medium",
+        "temperature_sent": false,
+        "temperature": null,
+        "max_output_tokens": 8192,
+        "preflight_input_tokens": 21493,
+        "input_tokens": 21493,
+        "cached_input_tokens": 19712,
+        "output_tokens": 920,
+        "reasoning_tokens": 516,
+        "total_tokens": 22413,
+        "estimated_cost_usd": "0.00695415",
+        "latency_seconds": 6.352,
+        "schema_validation": "passed",
+        "evidence_validation": "passed",
+        "semantic_grounding": "pending_manual_review",
+        "naturalness": null,
+        "completeness": null
+      },
+      "status": "completed",
+      "validation": "passed",
+      "failure_kind": null,
+      "manual_scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": 2,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "finding_counts": {
+        "P0": 0,
+        "P1": 0,
+        "P2": 0
+      }
+    },
+    "review-JD11": {
+      "metrics": {
+        "requested_model": "gpt-5.4",
+        "resolved_model": "gpt-5.4-2026-03-05",
+        "stage": "review",
+        "reasoning_effort": "high",
+        "temperature_sent": false,
+        "temperature": null,
+        "max_output_tokens": 32768,
+        "preflight_input_tokens": 16079,
+        "input_tokens": 16079,
+        "cached_input_tokens": 15104,
+        "output_tokens": 11445,
+        "reasoning_tokens": 9440,
+        "total_tokens": 27524,
+        "estimated_cost_usd": "0.1778885",
+        "latency_seconds": 146.697,
+        "schema_validation": "passed",
+        "evidence_validation": "passed",
+        "semantic_grounding": "pending_manual_review",
+        "naturalness": null,
+        "completeness": null
+      },
+      "status": "completed",
+      "validation": "passed",
+      "failure_kind": null,
+      "manual_scores": {
+        "jd_coverage": 1,
+        "evidence_grounding": 2,
+        "academic_achievement": 2,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": null,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "finding_counts": {
+        "P0": 0,
+        "P1": 1,
+        "P2": 0
+      }
+    },
+    "chat-JD05-2": {
+      "metrics": {
+        "requested_model": "gpt-5.4-mini",
+        "resolved_model": "gpt-5.4-mini-2026-03-17",
+        "stage": "chat",
+        "reasoning_effort": "medium",
+        "temperature_sent": false,
+        "temperature": null,
+        "max_output_tokens": 8192,
+        "preflight_input_tokens": 21218,
+        "input_tokens": 21218,
+        "cached_input_tokens": 19712,
+        "output_tokens": 2591,
+        "reasoning_tokens": 1851,
+        "total_tokens": 23809,
+        "estimated_cost_usd": "0.0142674",
+        "latency_seconds": 13.61,
+        "schema_validation": "passed",
+        "evidence_validation": "passed",
+        "semantic_grounding": "pending_manual_review",
+        "naturalness": null,
+        "completeness": null
+      },
+      "status": "completed",
+      "validation": "passed",
+      "failure_kind": null,
+      "manual_scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 0,
+        "academic_achievement": 2,
+        "gap_calibration": 1,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 1
+      },
+      "finding_counts": {
+        "P0": 1,
+        "P1": 2,
+        "P2": 0
+      }
+    },
+    "chat-JD07-1": {
+      "metrics": {
+        "requested_model": "gpt-5.4-mini",
+        "resolved_model": "gpt-5.4-mini-2026-03-17",
+        "stage": "chat",
+        "reasoning_effort": "medium",
+        "temperature_sent": false,
+        "temperature": null,
+        "max_output_tokens": 8192,
+        "preflight_input_tokens": 20325,
+        "input_tokens": 20325,
+        "cached_input_tokens": 17152,
+        "output_tokens": 4274,
+        "reasoning_tokens": 2861,
+        "total_tokens": 24599,
+        "estimated_cost_usd": "0.02289915",
+        "latency_seconds": 21.88,
+        "schema_validation": "passed",
+        "evidence_validation": "passed",
+        "semantic_grounding": "pending_manual_review",
+        "naturalness": null,
+        "completeness": null
+      },
+      "status": "completed",
+      "validation": "passed",
+      "failure_kind": null,
+      "manual_scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": 2,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "finding_counts": {
+        "P0": 0,
+        "P1": 0,
+        "P2": 0
+      }
+    },
+    "chat-JD11-3": {
+      "metrics": {
+        "requested_model": "gpt-5.4-mini",
+        "resolved_model": "gpt-5.4-mini-2026-03-17",
+        "stage": "chat",
+        "reasoning_effort": "medium",
+        "temperature_sent": false,
+        "temperature": null,
+        "max_output_tokens": 8192,
+        "preflight_input_tokens": 21941,
+        "input_tokens": 21941,
+        "cached_input_tokens": 21248,
+        "output_tokens": 1036,
+        "reasoning_tokens": 516,
+        "total_tokens": 22977,
+        "estimated_cost_usd": "0.00677535",
+        "latency_seconds": 6.741,
+        "schema_validation": "passed",
+        "evidence_validation": "passed",
+        "semantic_grounding": "pending_manual_review",
+        "naturalness": null,
+        "completeness": null
+      },
+      "status": "completed",
+      "validation": "passed",
+      "failure_kind": null,
+      "manual_scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": 2,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "finding_counts": {
+        "P0": 0,
+        "P1": 0,
+        "P2": 0
+      }
+    },
+    "chat-JD01-4": {
+      "metrics": {
+        "requested_model": "gpt-5.4-mini",
+        "resolved_model": "gpt-5.4-mini-2026-03-17",
+        "stage": "chat",
+        "reasoning_effort": "medium",
+        "temperature_sent": false,
+        "temperature": null,
+        "max_output_tokens": 8192,
+        "preflight_input_tokens": 23060,
+        "input_tokens": 23060,
+        "cached_input_tokens": 22272,
+        "output_tokens": 3137,
+        "reasoning_tokens": 1193,
+        "total_tokens": 26197,
+        "estimated_cost_usd": "0.0163779",
+        "latency_seconds": 13.449,
+        "schema_validation": "passed",
+        "evidence_validation": "passed",
+        "semantic_grounding": "pending_manual_review",
+        "naturalness": null,
+        "completeness": null
+      },
+      "status": "completed",
+      "validation": "passed",
+      "failure_kind": null,
+      "manual_scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": 2,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "finding_counts": {
+        "P0": 0,
+        "P1": 0,
+        "P2": 1
+      }
+    },
+    "chat-JD05-3": {
+      "metrics": {
+        "requested_model": "gpt-5.4-mini",
+        "resolved_model": "gpt-5.4-mini-2026-03-17",
+        "stage": "chat",
+        "reasoning_effort": "medium",
+        "temperature_sent": false,
+        "temperature": null,
+        "max_output_tokens": 8192,
+        "preflight_input_tokens": 21978,
+        "input_tokens": 21978,
+        "cached_input_tokens": 20736,
+        "output_tokens": 1794,
+        "reasoning_tokens": 1034,
+        "total_tokens": 23772,
+        "estimated_cost_usd": "0.0105597",
+        "latency_seconds": 10.38,
+        "schema_validation": "passed",
+        "evidence_validation": "passed",
+        "semantic_grounding": "pending_manual_review",
+        "naturalness": null,
+        "completeness": null
+      },
+      "status": "completed",
+      "validation": "passed",
+      "failure_kind": null,
+      "manual_scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": 2,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "finding_counts": {
+        "P0": 0,
+        "P1": 0,
+        "P2": 0
+      }
+    },
+    "chat-JD05-4": {
+      "metrics": {
+        "requested_model": "gpt-5.4-mini",
+        "resolved_model": "gpt-5.4-mini-2026-03-17",
+        "stage": "chat",
+        "reasoning_effort": "medium",
+        "temperature_sent": false,
+        "temperature": null,
+        "max_output_tokens": 8192,
+        "preflight_input_tokens": 22788,
+        "input_tokens": 22788,
+        "cached_input_tokens": 21760,
+        "output_tokens": 4681,
+        "reasoning_tokens": 3106,
+        "total_tokens": 27469,
+        "estimated_cost_usd": "0.0234675",
+        "latency_seconds": 20.74,
+        "schema_validation": "passed",
+        "evidence_validation": "passed",
+        "semantic_grounding": "pending_manual_review",
+        "naturalness": null,
+        "completeness": null
+      },
+      "status": "completed",
+      "validation": "passed",
+      "failure_kind": null,
+      "manual_scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": 1,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 1,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "finding_counts": {
+        "P0": 0,
+        "P1": 1,
+        "P2": 0
+      }
+    },
+    "chat-JD10-2": {
+      "metrics": {
+        "requested_model": "gpt-5.4-mini",
+        "resolved_model": "gpt-5.4-mini-2026-03-17",
+        "stage": "chat",
+        "reasoning_effort": "medium",
+        "temperature_sent": false,
+        "temperature": null,
+        "max_output_tokens": 8192,
+        "preflight_input_tokens": 21327,
+        "input_tokens": 21327,
+        "cached_input_tokens": 20224,
+        "output_tokens": 879,
+        "reasoning_tokens": 516,
+        "total_tokens": 22206,
+        "estimated_cost_usd": "0.00629955",
+        "latency_seconds": 6.055,
+        "schema_validation": "passed",
+        "evidence_validation": "passed",
+        "semantic_grounding": "pending_manual_review",
+        "naturalness": null,
+        "completeness": null
+      },
+      "status": "completed",
+      "validation": "passed",
+      "failure_kind": null,
+      "manual_scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": 2,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "finding_counts": {
+        "P0": 0,
+        "P1": 0,
+        "P2": 0
+      }
+    },
+    "chat-JD01-3": {
+      "metrics": {
+        "requested_model": "gpt-5.4-mini",
+        "resolved_model": "gpt-5.4-mini-2026-03-17",
+        "stage": "chat",
+        "reasoning_effort": "medium",
+        "temperature_sent": false,
+        "temperature": null,
+        "max_output_tokens": 8192,
+        "preflight_input_tokens": 22796,
+        "input_tokens": 22796,
+        "cached_input_tokens": 21760,
+        "output_tokens": 337,
+        "reasoning_tokens": 104,
+        "total_tokens": 23133,
+        "estimated_cost_usd": "0.0039255",
+        "latency_seconds": 2.656,
+        "schema_validation": "passed",
+        "evidence_validation": "passed",
+        "semantic_grounding": "pending_manual_review",
+        "naturalness": null,
+        "completeness": null
+      },
+      "status": "completed",
+      "validation": "passed",
+      "failure_kind": null,
+      "manual_scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": 2,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "finding_counts": {
+        "P0": 0,
+        "P1": 0,
+        "P2": 0
+      }
+    },
+    "chat-JD05-1": {
+      "metrics": {
+        "requested_model": "gpt-5.4-mini",
+        "resolved_model": "gpt-5.4-mini-2026-03-17",
+        "stage": "chat",
+        "reasoning_effort": "medium",
+        "temperature_sent": false,
+        "temperature": null,
+        "max_output_tokens": 8192,
+        "preflight_input_tokens": 19942,
+        "input_tokens": 19942,
+        "cached_input_tokens": 17152,
+        "output_tokens": 3614,
+        "reasoning_tokens": 2420,
+        "total_tokens": 23556,
+        "estimated_cost_usd": "0.0196419",
+        "latency_seconds": 16.482,
+        "schema_validation": "passed",
+        "evidence_validation": "passed",
+        "semantic_grounding": "pending_manual_review",
+        "naturalness": null,
+        "completeness": null
+      },
+      "status": "completed",
+      "validation": "passed",
+      "failure_kind": null,
+      "manual_scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": 2,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "finding_counts": {
+        "P0": 0,
+        "P1": 0,
+        "P2": 1
+      }
+    },
+    "chat-JD07-3": {
+      "metrics": {
+        "requested_model": "gpt-5.4-mini",
+        "resolved_model": "gpt-5.4-mini-2026-03-17",
+        "stage": "chat",
+        "reasoning_effort": "medium",
+        "temperature_sent": false,
+        "temperature": null,
+        "max_output_tokens": 8192,
+        "preflight_input_tokens": 22392,
+        "input_tokens": 22392,
+        "cached_input_tokens": 21248,
+        "output_tokens": 1609,
+        "reasoning_tokens": 854,
+        "total_tokens": 24001,
+        "estimated_cost_usd": "0.0096921",
+        "latency_seconds": 8.716,
+        "schema_validation": "passed",
+        "evidence_validation": "passed",
+        "semantic_grounding": "pending_manual_review",
+        "naturalness": null,
+        "completeness": null
+      },
+      "status": "completed",
+      "validation": "passed",
+      "failure_kind": null,
+      "manual_scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": 2,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 1,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "finding_counts": {
+        "P0": 0,
+        "P1": 1,
+        "P2": 0
+      }
+    },
+    "review-JD05": {
+      "metrics": {
+        "requested_model": "gpt-5.4",
+        "resolved_model": "gpt-5.4-2026-03-05",
+        "stage": "review",
+        "reasoning_effort": "high",
+        "temperature_sent": false,
+        "temperature": null,
+        "max_output_tokens": 32768,
+        "preflight_input_tokens": 16080,
+        "input_tokens": 16080,
+        "cached_input_tokens": 15104,
+        "output_tokens": 10323,
+        "reasoning_tokens": 8286,
+        "total_tokens": 26403,
+        "estimated_cost_usd": "0.161061",
+        "latency_seconds": 119.863,
+        "schema_validation": "passed",
+        "evidence_validation": "passed",
+        "semantic_grounding": "pending_manual_review",
+        "naturalness": null,
+        "completeness": null
+      },
+      "status": "completed",
+      "validation": "passed",
+      "failure_kind": null,
+      "manual_scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": 2,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": null,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "finding_counts": {
+        "P0": 0,
+        "P1": 0,
+        "P2": 0
+      }
+    },
+    "review-JD01": {
+      "metrics": {
+        "requested_model": "gpt-5.4",
+        "resolved_model": "gpt-5.4-2026-03-05",
+        "stage": "review",
+        "reasoning_effort": "high",
+        "temperature_sent": false,
+        "temperature": null,
+        "max_output_tokens": 32768,
+        "preflight_input_tokens": 16049,
+        "input_tokens": 16049,
+        "cached_input_tokens": 15104,
+        "output_tokens": 10468,
+        "reasoning_tokens": 8383,
+        "total_tokens": 26517,
+        "estimated_cost_usd": "0.1631585",
+        "latency_seconds": 135.749,
+        "schema_validation": "passed",
+        "evidence_validation": "passed",
+        "semantic_grounding": "pending_manual_review",
+        "naturalness": null,
+        "completeness": null
+      },
+      "status": "completed",
+      "validation": "passed",
+      "failure_kind": null,
+      "manual_scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": 2,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": null,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "finding_counts": {
+        "P0": 0,
+        "P1": 0,
+        "P2": 0
+      }
+    },
+    "review-JD10": {
+      "metrics": {
+        "requested_model": "gpt-5.4",
+        "resolved_model": "gpt-5.4-2026-03-05",
+        "stage": "review",
+        "reasoning_effort": "high",
+        "temperature_sent": false,
+        "temperature": null,
+        "max_output_tokens": 32768,
+        "preflight_input_tokens": 16084,
+        "input_tokens": 16084,
+        "cached_input_tokens": 15104,
+        "output_tokens": 14311,
+        "reasoning_tokens": 11912,
+        "total_tokens": 30395,
+        "estimated_cost_usd": "0.220891",
+        "latency_seconds": 173.407,
+        "schema_validation": "passed",
+        "evidence_validation": "passed",
+        "semantic_grounding": "pending_manual_review",
+        "naturalness": null,
+        "completeness": null
+      },
+      "status": "completed",
+      "validation": "passed",
+      "failure_kind": null,
+      "manual_scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": 2,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": null,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "finding_counts": {
+        "P0": 0,
+        "P1": 0,
+        "P2": 0
+      }
+    },
+    "chat-JD11-1": {
+      "metrics": {
+        "requested_model": "gpt-5.4-mini",
+        "resolved_model": "gpt-5.4-mini-2026-03-17",
+        "stage": "chat",
+        "reasoning_effort": "medium",
+        "temperature_sent": false,
+        "temperature": null,
+        "max_output_tokens": 8192,
+        "preflight_input_tokens": 19904,
+        "input_tokens": 19904,
+        "cached_input_tokens": 17152,
+        "output_tokens": 6643,
+        "reasoning_tokens": 5178,
+        "total_tokens": 26547,
+        "estimated_cost_usd": "0.0332439",
+        "latency_seconds": 31.224,
+        "schema_validation": "passed",
+        "evidence_validation": "passed",
+        "semantic_grounding": "pending_manual_review",
+        "naturalness": null,
+        "completeness": null
+      },
+      "status": "completed",
+      "validation": "passed",
+      "failure_kind": null,
+      "manual_scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 0,
+        "academic_achievement": 2,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "finding_counts": {
+        "P0": 1,
+        "P1": 0,
+        "P2": 0
+      }
+    },
+    "chat-JD07-2": {
+      "metrics": {
+        "requested_model": "gpt-5.4-mini",
+        "resolved_model": "gpt-5.4-mini-2026-03-17",
+        "stage": "chat",
+        "reasoning_effort": "medium",
+        "temperature_sent": false,
+        "temperature": null,
+        "max_output_tokens": 8192,
+        "preflight_input_tokens": 21835,
+        "input_tokens": 21835,
+        "cached_input_tokens": 20224,
+        "output_tokens": 2816,
+        "reasoning_tokens": 2316,
+        "total_tokens": 24651,
+        "estimated_cost_usd": "0.01539705",
+        "latency_seconds": 16.132,
+        "schema_validation": "passed",
+        "evidence_validation": "passed",
+        "semantic_grounding": "pending_manual_review",
+        "naturalness": null,
+        "completeness": null
+      },
+      "status": "completed",
+      "validation": "passed",
+      "failure_kind": null,
+      "manual_scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": 2,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "finding_counts": {
+        "P0": 0,
+        "P1": 0,
+        "P2": 0
+      }
+    },
+    "chat-JD10-3": {
+      "metrics": {
+        "requested_model": "gpt-5.4-mini",
+        "resolved_model": "gpt-5.4-mini-2026-03-17",
+        "stage": "chat",
+        "reasoning_effort": "medium",
+        "temperature_sent": false,
+        "temperature": null,
+        "max_output_tokens": 8192,
+        "preflight_input_tokens": 21715,
+        "input_tokens": 21715,
+        "cached_input_tokens": 20736,
+        "output_tokens": 2300,
+        "reasoning_tokens": 1945,
+        "total_tokens": 24015,
+        "estimated_cost_usd": "0.01263945",
+        "latency_seconds": 12.743,
+        "schema_validation": "passed",
+        "evidence_validation": "passed",
+        "semantic_grounding": "pending_manual_review",
+        "naturalness": null,
+        "completeness": null
+      },
+      "status": "completed",
+      "validation": "passed",
+      "failure_kind": null,
+      "manual_scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": 2,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "finding_counts": {
+        "P0": 0,
+        "P1": 0,
+        "P2": 0
+      }
+    },
+    "chat-JD10-1": {
+      "metrics": {
+        "requested_model": "gpt-5.4-mini",
+        "resolved_model": "gpt-5.4-mini-2026-03-17",
+        "stage": "chat",
+        "reasoning_effort": "medium",
+        "temperature_sent": false,
+        "temperature": null,
+        "max_output_tokens": 8192,
+        "preflight_input_tokens": 20326,
+        "input_tokens": 20326,
+        "cached_input_tokens": 17152,
+        "output_tokens": 1448,
+        "reasoning_tokens": 516,
+        "total_tokens": 21774,
+        "estimated_cost_usd": "0.0101829",
+        "latency_seconds": 8.079,
+        "schema_validation": "passed",
+        "evidence_validation": "passed",
+        "semantic_grounding": "pending_manual_review",
+        "naturalness": null,
+        "completeness": null
+      },
+      "status": "completed",
+      "validation": "passed",
+      "failure_kind": null,
+      "manual_scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": 2,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 1,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "finding_counts": {
+        "P0": 0,
+        "P1": 1,
+        "P2": 0
+      }
+    },
+    "review-JD07": {
+      "metrics": {
+        "requested_model": "gpt-5.4",
+        "resolved_model": "gpt-5.4-2026-03-05",
+        "stage": "review",
+        "reasoning_effort": "high",
+        "temperature_sent": false,
+        "temperature": null,
+        "max_output_tokens": 32768,
+        "preflight_input_tokens": 16068,
+        "input_tokens": 16068,
+        "cached_input_tokens": 15104,
+        "output_tokens": 13715,
+        "reasoning_tokens": 11285,
+        "total_tokens": 29783,
+        "estimated_cost_usd": "0.211911",
+        "latency_seconds": 184.314,
+        "schema_validation": "passed",
+        "evidence_validation": "passed",
+        "semantic_grounding": "pending_manual_review",
+        "naturalness": null,
+        "completeness": null
+      },
+      "status": "completed",
+      "validation": "passed",
+      "failure_kind": null,
+      "manual_scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": 2,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": null,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "finding_counts": {
+        "P0": 0,
+        "P1": 0,
+        "P2": 0
+      }
+    },
+    "chat-JD01-1": {
+      "metrics": {
+        "requested_model": "gpt-5.4-mini",
+        "resolved_model": "gpt-5.4-mini-2026-03-17",
+        "stage": "chat",
+        "reasoning_effort": "medium",
+        "temperature_sent": false,
+        "temperature": null,
+        "max_output_tokens": 8192,
+        "preflight_input_tokens": 19953,
+        "input_tokens": 19953,
+        "cached_input_tokens": 0,
+        "output_tokens": 5184,
+        "reasoning_tokens": 3106,
+        "total_tokens": 25137,
+        "estimated_cost_usd": "0.03829275",
+        "latency_seconds": 25.221,
+        "schema_validation": "passed",
+        "evidence_validation": "passed",
+        "semantic_grounding": "pending_manual_review",
+        "naturalness": null,
+        "completeness": null
+      },
+      "status": "completed",
+      "validation": "passed",
+      "failure_kind": null,
+      "manual_scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": 2,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "finding_counts": {
+        "P0": 0,
+        "P1": 0,
+        "P2": 1
+      }
+    }
+  },
+  "manual_evaluation": {
+    "completed_outputs_annotated": 25,
+    "all_completed_outputs_read": true,
+    "checks": [
+      {
+        "operation": "chat-JD01-2",
+        "read_and_annotated": true,
+        "response_hash_matches": true
+      },
+      {
+        "operation": "chat-JD10-4",
+        "read_and_annotated": true,
+        "response_hash_matches": true
+      },
+      {
+        "operation": "chat-JD07-4",
+        "read_and_annotated": true,
+        "response_hash_matches": true
+      },
+      {
+        "operation": "chat-JD11-4",
+        "read_and_annotated": true,
+        "response_hash_matches": true
+      },
+      {
+        "operation": "chat-JD11-2",
+        "read_and_annotated": true,
+        "response_hash_matches": true
+      },
+      {
+        "operation": "review-JD11",
+        "read_and_annotated": true,
+        "response_hash_matches": true
+      },
+      {
+        "operation": "chat-JD05-2",
+        "read_and_annotated": true,
+        "response_hash_matches": true
+      },
+      {
+        "operation": "chat-JD07-1",
+        "read_and_annotated": true,
+        "response_hash_matches": true
+      },
+      {
+        "operation": "chat-JD11-3",
+        "read_and_annotated": true,
+        "response_hash_matches": true
+      },
+      {
+        "operation": "chat-JD01-4",
+        "read_and_annotated": true,
+        "response_hash_matches": true
+      },
+      {
+        "operation": "chat-JD05-3",
+        "read_and_annotated": true,
+        "response_hash_matches": true
+      },
+      {
+        "operation": "chat-JD05-4",
+        "read_and_annotated": true,
+        "response_hash_matches": true
+      },
+      {
+        "operation": "chat-JD10-2",
+        "read_and_annotated": true,
+        "response_hash_matches": true
+      },
+      {
+        "operation": "chat-JD01-3",
+        "read_and_annotated": true,
+        "response_hash_matches": true
+      },
+      {
+        "operation": "chat-JD05-1",
+        "read_and_annotated": true,
+        "response_hash_matches": true
+      },
+      {
+        "operation": "chat-JD07-3",
+        "read_and_annotated": true,
+        "response_hash_matches": true
+      },
+      {
+        "operation": "review-JD05",
+        "read_and_annotated": true,
+        "response_hash_matches": true
+      },
+      {
+        "operation": "review-JD01",
+        "read_and_annotated": true,
+        "response_hash_matches": true
+      },
+      {
+        "operation": "review-JD10",
+        "read_and_annotated": true,
+        "response_hash_matches": true
+      },
+      {
+        "operation": "chat-JD11-1",
+        "read_and_annotated": true,
+        "response_hash_matches": true
+      },
+      {
+        "operation": "chat-JD07-2",
+        "read_and_annotated": true,
+        "response_hash_matches": true
+      },
+      {
+        "operation": "chat-JD10-3",
+        "read_and_annotated": true,
+        "response_hash_matches": true
+      },
+      {
+        "operation": "chat-JD10-1",
+        "read_and_annotated": true,
+        "response_hash_matches": true
+      },
+      {
+        "operation": "review-JD07",
+        "read_and_annotated": true,
+        "response_hash_matches": true
+      },
+      {
+        "operation": "chat-JD01-1",
+        "read_and_annotated": true,
+        "response_hash_matches": true
+      }
+    ],
+    "output_counts_with_findings": {
+      "review": {
+        "P0": 0,
+        "P1": 1,
+        "P2": 0
+      },
+      "chat": {
+        "P0": 3,
+        "P1": 4,
+        "P2": 7
+      }
+    }
+  }
+}

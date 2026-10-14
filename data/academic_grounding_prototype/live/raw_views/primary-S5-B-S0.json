@@ -1,0 +1,22 @@
+{
+  "publication": "analysis_only",
+  "reply": "Tóm tắt ngắn: bạn có bằng chứng học thuật cho confidence intervals ở MAS291/CLO7 với score 9.43 và achievement excellent; CLO này yêu cầu xây dựng và diễn giải confidence intervals cho population parameters và differences between population parameters. Hypothesis testing cũng được xác nhận riêng ở MAS291/CLO8 với score 9.43, achievement excellent, vì CLO này yêu cầu verify claims about population parameters bằng hypothesis testing. Simple linear regression nằm ở MAS291/CLO9 với score 9.43, achievement excellent, trong đó CLO nêu xây dựng mô hình simple linear regression để prediction và interpretation. PCA nằm ở MAI391/CLO6 với score 9.4, achievement excellent, trong đó CLO nêu apply dimensionality reduction with PCA.",
+  "evidence": [
+    {
+      "course_code": "MAS291",
+      "clo": "CLO7"
+    },
+    {
+      "course_code": "MAS291",
+      "clo": "CLO8"
+    },
+    {
+      "course_code": "MAS291",
+      "clo": "CLO9"
+    },
+    {
+      "course_code": "MAI391",
+      "clo": "CLO6"
+    }
+  ]
+}

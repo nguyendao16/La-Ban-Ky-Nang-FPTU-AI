@@ -1,0 +1,151 @@
+{
+  "course_id": "GAP301",
+  "clos": [
+    {
+      "clo_id": "CLO1",
+      "original_description": "Identify relevant generative-AI techniques (LLMs, diffusion, multimodal, RAG, agents, fine-tuning, alignment) for a capstone topic.",
+      "enriched_description": "Identify relevant generative-AI techniques for a capstone topic, including LLMs, diffusion, multimodal systems, RAG, agents, fine-tuning, and alignment, while considering topic scope, feasibility, frontier areas, dataset or model licensing, compute feasibility, and required readings.",
+      "source_topic_indices": [
+        1,
+        3,
+        4
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO2",
+      "original_description": "Formulate problem statements, scope, objectives, and success criteria in a project proposal.",
+      "enriched_description": "Formulate generative-AI project problem statements, scope, objectives, and success criteria, including topic selection with dataset/model licensing and compute feasibility, proposal guidance covering problem statement, related work, modalities/models, evaluation plan and compute budget, scoping, novelty checks.",
+      "source_topic_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO3",
+      "original_description": "Plan data preparation, model selection, and licensing/ethics review.",
+      "enriched_description": "Plan data preparation, model selection, and licensing or ethics review for a generative-AI project, including dataset licensing, preprocessing, tokenization, data preparation discussion and improvement, hosted versus open-weight model selection, model size, license and cost considerations, data and baseline submission.",
+      "source_topic_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        8,
+        9,
+        11
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO4",
+      "original_description": "Conduct baseline analysis using pre-trained models, prompting, and in-context learning.",
+      "enriched_description": "Conduct baseline analysis using pre-trained models, prompting, and in-context learning, including zero-shot and few-shot baselines, structured prompt engineering, baseline and prompt discussion, prompt engineering improvement, data and baseline submission, and baseline improvement.",
+      "source_topic_indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        7
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO5",
+      "original_description": "Develop and adapt generative-AI systems to project requirements.",
+      "enriched_description": "Develop and adapt generative-AI systems to project requirements, including choosing adaptation paths such as prompt-only, RAG, LoRA/QLoRA fine-tuning, or agent/tool-use designs, model adaptation discussion, adaptation improvement, model-results submission, and model-results improvement.",
+      "source_topic_indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        7
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO6",
+      "original_description": "Evaluate and optimize systems using appropriate metrics and protocols, with attention to contamination and saturation.",
+      "enriched_description": "Evaluate and optimize generative-AI systems using appropriate metrics and iteration protocols, including metrics such as perplexity, ROUGE, faithfulness, FID, BLEU, human or LLM-based evaluation, evaluation and iteration discussion, iteration improvement, model-results submission, and model-results improvement.",
+      "source_topic_indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        7
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO7",
+      "original_description": "Interpret outputs and failure modes (hallucination, bias, jailbreak) and visualize results for stakeholders.",
+      "enriched_description": "Interpret outputs and failure modes, including hallucination, bias, jailbreak, grounding, and demo behavior, and visualize results for stakeholders, including results, demo, and failure-mode analysis, supporting references, failure-mode discussion, improvement cycles, model-results submission, model-results improvement.",
+      "source_topic_indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        7
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO8",
+      "original_description": "Summarize conclusions and actionable recommendations, including deployment and cost/latency trade-offs.",
+      "enriched_description": "Summarize conclusions and actionable recommendations for a generative-AI capstone, including deployment trade-offs, cost and latency considerations, ethics, provenance, privacy, limitations, and future work.",
+      "source_topic_indices": [
+        0,
+        2,
+        4
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO9",
+      "original_description": "Compile a final report with an explicit ethics, safety, and provenance subsection.",
+      "enriched_description": "Compile a final report with explicit ethics, safety, and provenance coverage, integrating prior project reports into a conference-style write-up with reproducibility notes and code repository evidence.",
+      "source_topic_indices": [
+        0,
+        2,
+        5,
+        7,
+        9,
+        10
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO10",
+      "original_description": "Deliver oral presentations with live demonstrations and Q&A defense.",
+      "enriched_description": "Deliver oral presentations with live demonstrations and Q&A defense, including demo rehearsal, failure-mode discussion, ethics coverage, slide polishing, and individual contribution explanation.",
+      "source_topic_indices": [
+        0,
+        1,
+        2
+      ],
+      "review_required": false,
+      "review_notes": []
+    }
+  ]
+}

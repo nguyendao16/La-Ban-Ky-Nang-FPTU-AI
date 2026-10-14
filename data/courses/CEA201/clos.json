@@ -1,0 +1,42 @@
+[
+  {
+    "clo": "CLO1",
+    "description": "Explain the general functions and structure of a digital computer, including Computer Evolution, Performance, A Brief History of Computers."
+  },
+  {
+    "clo": "CLO2",
+    "description": "Present an overview of the evolution of computer technology from early digital computers to the latest microprocessors, including Computer Evolution, Performance, A Brief History of Computers."
+  },
+  {
+    "clo": "CLO3",
+    "description": "Understand the key performance issues that relate to computer design, including Computer Evolution, Performance, Designing for Performance, Performance Assessment."
+  },
+  {
+    "clo": "CLO4",
+    "description": "Describe in detail the essential elements of computer organisation including internal bus, memory, Input/Output ( I/O) organisations and interfacing standards and discuss how these elements function;, including A Top-Level View of Computer Function, Interconnection, Computer Components, Computer Function, Bus Interconnection, Computer Memory System Overview, Elements of Cache Design, Internal Memory, External Memory."
+  },
+  {
+    "clo": "CLO5",
+    "description": "Summarize, at a top level, the key functions of an operating system (OS), including Operating System Support, Operating System Overview."
+  },
+  {
+    "clo": "CLO6",
+    "description": "Be able to apply Boolean algebra and digital logic to design and interpret complex digital circuits;, including Instruction Sets: Characteristics, Functions, Machine Instruction Characteristics."
+  },
+  {
+    "clo": "CLO7",
+    "description": "Present various types of addressing modes common in instruction sets, an essential characteristics of machine instructions, types of operands supported by typical machine instruction sets, including Instruction Sets: Characteristics, Functions, Types of Operands, Instruction Sets: Characteristics, Functions, Types of Operations."
+  },
+  {
+    "clo": "CLO8",
+    "description": "Explain processor structure and function in details, the operations of Reduced Instruction Set Computers, including Processor Structure, Function, Processor Organization."
+  },
+  {
+    "clo": "CLO9",
+    "description": "Investigate, evaluate and communicate general trends in computing technologies such as Instruction-Level Parallelism and Superscalar Processors, including Instruction-Level Parallelism, Superscalar Processors, Symmetric Multiprocessors, Multithreading, Chip Multiprocessors."
+  },
+  {
+    "clo": "CLO10",
+    "description": "Using AI tools and simulator tools to futher explore the main concepts, including Semiconductor Main Memory, Instruction-Level Parallelism, Superscalar Processors."
+  }
+]

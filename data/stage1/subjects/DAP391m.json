@@ -1,0 +1,922 @@
+{
+  "schema_version": "stage1_v1",
+  "record_type": "normal_subject",
+  "subject": {
+    "code": "DAP391m",
+    "name": {
+      "full": "AI-DS Project_Dự án TTNT-KHDL",
+      "en": "AI-DS Project",
+      "vi": "Dự án TTNT-KHDL"
+    },
+    "semester": 4,
+    "credits": 3,
+    "prerequisite": "PFP191, ADY201m"
+  },
+  "syllabus": {
+    "id": "14112",
+    "name": "AI-DS Project- Dự án TTNT- KHDL",
+    "is_active": true,
+    "is_approved": true,
+    "decision_no": "377/QĐ-ĐHFPT dated 04/09/2026"
+  },
+  "content": {
+    "metadata": {
+      "syllabus_id": "14112",
+      "syllabus_name": "AI-DS Project- Dự án TTNT- KHDL",
+      "course_name_english": "AI-DS Project",
+      "subject_code": "DAP391m",
+      "learning_teaching_method": "Project-based Learning",
+      "nocredit": "3",
+      "degree_level": "Bachelor",
+      "time_allocation": "150h = 45h (60 sessions) contact hours + 1h final exam + 104h self-study",
+      "pre_requisite": "PFP191, ADY201m",
+      "description": "This course will take student from the basics of data analysis with Python to building and evaluating data models. The students will learn to work with some Data Visualization tools and techniques and create interactive dashboards that allow even those without any Data Science experience to better understand data, and make more effective and informed decisions. A student will be able to write an application that leverages multiple Watson AI services. This course allows students to practice data scientists' work in real life when working with datasets.",
+      "studenttasks": "- Students must attend at least 80% of contact slots in order to be accepted to the final examination.\n- Student is responsible to do all exercises, assignments and labs given by instructor in class or at home and submit on time\n- Use laptop in class only for learning purpose\n- Promptly access to https://flm.fpt.edu.vn/ for up-to-date course information",
+      "tools": "Jupyter Notebooks\n- JupyterLab\n- RStudio IDE\n- Git, GitHub\n- Watson Studio.",
+      "scoring_scale": "10",
+      "decisionno_mm_dd_yyyy": "377/QĐ-ĐHFPT dated 04/09/2026",
+      "isapproved": "True",
+      "note": "Final Project plus 0.5 points for completed IBM certification",
+      "is_scored": "True",
+      "minavgmarktopass": "5",
+      "isactive": "True",
+      "approveddate": "4/9/2026"
+    },
+    "materials": [
+      {
+        "no": "1",
+        "material_description": "Data Analysis with Python",
+        "author": "IBM",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://www.coursera.org/learn/data-analysis-with-python"
+      },
+      {
+        "no": "2",
+        "material_description": "Data Visualization with Python",
+        "author": "IBM",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://www.coursera.org/learn/python-for-data-visualization"
+      },
+      {
+        "no": "3",
+        "material_description": "Building AI Applications with Watson APIs",
+        "author": "IBM",
+        "publisher": "",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-getting-started (Updated slides)"
+      },
+      {
+        "no": "4",
+        "material_description": "Applied Data Science Capstone",
+        "author": "IBM",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://www.coursera.org/learn/applied-data-science-capstone"
+      },
+      {
+        "no": "5",
+        "material_description": "GP 1: Simple Linear Regression for the Absolute Beginner",
+        "author": "Coursera",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://www.coursera.org/projects/simple-linear-regression-for-the-absolute-beginner"
+      },
+      {
+        "no": "6",
+        "material_description": "GP 2: Predict Ad Clicks Using Logistic Regression and XG-Boost",
+        "author": "Coursera",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://www.coursera.org/projects/predict-ad-clicks-using-logistic-regression-and-xg-boost"
+      }
+    ],
+    "clos": [
+      {
+        "no": "1",
+        "clo_name": "CLO1",
+        "clo_details": "Understand the basics of data analysis with Python to building and evaluating data models."
+      },
+      {
+        "no": "2",
+        "clo_name": "CLO2",
+        "clo_details": "Understand how to import data from multiple sources, clean and wrangle data, perform exploratory data analysis (EDA), and create meaningful data visualizations."
+      },
+      {
+        "no": "3",
+        "clo_name": "CLO3",
+        "clo_details": "Know difference ways to effectively visualize both small and large-scale data"
+      },
+      {
+        "no": "4",
+        "clo_name": "CLO4",
+        "clo_details": "Implement various types of basic and advanced graphs and charts like: Waffle Charts, Area Plots, Histograms, Bar Charts, Pie Charts, Scatter Plots, Word Clouds, Choropleth Maps, and many more"
+      },
+      {
+        "no": "5",
+        "clo_name": "CLO5",
+        "clo_details": "Implement an application that leverages multiple Watson AI services (Discovery, Speech to Text, Assistant, and Text to Speech)"
+      },
+      {
+        "no": "6",
+        "clo_name": "CLO6",
+        "clo_details": "Implementing different techniques to develop applications and AI powered solutions."
+      },
+      {
+        "no": "7",
+        "clo_name": "CLO7",
+        "clo_details": "Implement the small mini capstone data science projec includes steps: involving data collection, data wrangling, exploratory data analysis, data visualization, model development, model evaluation, and reporting"
+      }
+    ],
+    "schedule": [
+      {
+        "session": "1",
+        "topic": "- Course Introduction\n- Project Topic Introduction and discuss",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO2, CLO3, CLO4",
+        "itu": "IT",
+        "student_materials": "- Slides: Introduction",
+        "s_download": "mat1",
+        "student_tasks": "- Students choose groups of 3-4 members. - Students choose the topic of the group project",
+        "urls": ""
+      },
+      {
+        "session": "2",
+        "topic": "- Project Topic Introduction and discuss\n- Student create group\n- Student register the topic",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "I",
+        "student_materials": "- Slides: Introduction",
+        "s_download": "mat2",
+        "student_tasks": "- Students choose groups of 3-4 members. - Students choose the topic of the group project",
+        "urls": ""
+      },
+      {
+        "session": "3",
+        "topic": "- Student presents Project Planning",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "U",
+        "student_materials": "- Slides: Chapter 1.1",
+        "s_download": "mat3",
+        "student_tasks": "- Students present their project completion plans.",
+        "urls": ""
+      },
+      {
+        "session": "4",
+        "topic": "- Student presents Project Planning (cont)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "U",
+        "student_materials": "- Slides: Chapter 1.1",
+        "s_download": "mat4",
+        "student_tasks": "- Students present their project completion plans.",
+        "urls": ""
+      },
+      {
+        "session": "5",
+        "topic": "- Project report 1: P1\n+ Business Understanding",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 4",
+        "itu": "U",
+        "student_materials": "- Slides: Chapter 1.2",
+        "s_download": "mat5",
+        "student_tasks": "- Report understanding of the business being processed, where the data is collected from, understand the data available, and perform data preprocessing steps",
+        "urls": ""
+      },
+      {
+        "session": "6",
+        "topic": "- Project report 1: P2\n+ Data Understand: Collect data, understand data",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 4",
+        "itu": "U",
+        "student_materials": "- Slides: Chapter 1.2",
+        "s_download": "",
+        "student_tasks": "- Report understanding of the business being processed, where the data is collected from, understand the data available, and perform data preprocessing steps",
+        "urls": ""
+      },
+      {
+        "session": "7",
+        "topic": "- Project report 1: P3\n+ Perform data preprocessing",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 4",
+        "itu": "U",
+        "student_materials": "- Slides: Chapter 1.2",
+        "s_download": "",
+        "student_tasks": "- Report understanding of the business being processed, where the data is collected from, understand the data available, and perform data preprocessing steps",
+        "urls": ""
+      },
+      {
+        "session": "8",
+        "topic": "Project:\n1.1. Data Analysis with Python- importing Datasets 1\n1.2. Data Analysis with Python- importing Datasets 2",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "U",
+        "student_materials": "- slide chapter 1.3",
+        "s_download": "",
+        "student_tasks": "- Perform steps to import data and preprocess data",
+        "urls": ""
+      },
+      {
+        "session": "9",
+        "topic": "Project:\n1.3 Data Analysis with Python- Data Wrangling 1\n1.4 Data Analysis with Python- Data Wrangling 2",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "U",
+        "student_materials": "- slide chapter 1.3",
+        "s_download": "",
+        "student_tasks": "- Perform steps to import data and preprocess data",
+        "urls": ""
+      },
+      {
+        "session": "10",
+        "topic": "- Project report 2: P1\n+ Data Analysis",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2",
+        "itu": "U",
+        "student_materials": "- slide chapter 1.4",
+        "s_download": "",
+        "student_tasks": "- Reporting: summarize and report basic data analysis steps using python",
+        "urls": ""
+      },
+      {
+        "session": "11",
+        "topic": "- Project report 2: P2\n+ Data Analysis",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2",
+        "itu": "U",
+        "student_materials": "- slide chapter 1.4",
+        "s_download": "",
+        "student_tasks": "- Reporting: summarize and report basic data analysis steps using python",
+        "urls": ""
+      },
+      {
+        "session": "12",
+        "topic": "- Project report 2: P3\n+ Data Analysis",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2",
+        "itu": "U",
+        "student_materials": "- slide chapter 1.4",
+        "s_download": "",
+        "student_tasks": "- Reporting: summarize and report basic data analysis steps using python",
+        "urls": ""
+      },
+      {
+        "session": "13",
+        "topic": "- Project report 2: P4\n+ Data Analysis",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2",
+        "itu": "U",
+        "student_materials": "- slide chapter 1.4",
+        "s_download": "",
+        "student_tasks": "- Reporting: summarize and report basic data analysis steps using python",
+        "urls": ""
+      },
+      {
+        "session": "14",
+        "topic": "- Project:\n1.5 Data Analysis with Python- Exploratory Data Analysis 1",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2",
+        "itu": "U",
+        "student_materials": "- slide chapter 1.5",
+        "s_download": "",
+        "student_tasks": "- Perform basic data analysis",
+        "urls": ""
+      },
+      {
+        "session": "15",
+        "topic": "- Project:\n1.6 Data Analysis with Python- Exploratory Data Analysis 2",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2",
+        "itu": "U",
+        "student_materials": "- slide chapter 1.5",
+        "s_download": "",
+        "student_tasks": "- Perform basic data analysis",
+        "urls": ""
+      },
+      {
+        "session": "16",
+        "topic": "- Project report 3:\n+ Data Visualization in advanced: Waffle Charts",
+        "learning_teaching_type": "Offline",
+        "lo": "CL03",
+        "itu": "U",
+        "student_materials": "- slide chapter 2.1",
+        "s_download": "",
+        "student_tasks": "- Reporting: Visualize analysis results through chart formats: Waffle Charts, Area Plots, Histograms, Bar Charts, Pie Charts, Scatter Plots, Word Clouds, Choropleth Maps",
+        "urls": ""
+      },
+      {
+        "session": "17",
+        "topic": "- Project report 3:\n+ Data Visualization in advanced: Area Plots, Histograms",
+        "learning_teaching_type": "Offline",
+        "lo": "CL03",
+        "itu": "U",
+        "student_materials": "- slide chapter 2.1",
+        "s_download": "",
+        "student_tasks": "- Reporting: Visualize analysis results through chart formats: Waffle Charts, Area Plots, Histograms, Bar Charts, Pie Charts, Scatter Plots, Word Clouds, Choropleth Maps",
+        "urls": ""
+      },
+      {
+        "session": "18",
+        "topic": "- Project report 3:\n+ Data Visualization in advanced: Bar Charts, Pie Charts",
+        "learning_teaching_type": "Offline",
+        "lo": "CL03",
+        "itu": "U",
+        "student_materials": "- slide chapter 2.1",
+        "s_download": "",
+        "student_tasks": "- Reporting: Visualize analysis results through chart formats: Waffle Charts, Area Plots, Histograms, Bar Charts, Pie Charts, Scatter Plots, Word Clouds, Choropleth Maps",
+        "urls": ""
+      },
+      {
+        "session": "19",
+        "topic": "- Project report 3:\n+ Data Visualization in advanced: Scatter Plots, Word Clouds",
+        "learning_teaching_type": "Offline",
+        "lo": "CL03",
+        "itu": "U",
+        "student_materials": "- slide chapter 2.1",
+        "s_download": "",
+        "student_tasks": "- Reporting: Visualize analysis results through chart formats: Waffle Charts, Area Plots, Histograms, Bar Charts, Pie Charts, Scatter Plots, Word Clouds, Choropleth Maps",
+        "urls": ""
+      },
+      {
+        "session": "20",
+        "topic": "- Project report 3:\n+ Data Visualization in advanced: Choropleth Maps",
+        "learning_teaching_type": "Offline",
+        "lo": "CL03",
+        "itu": "U",
+        "student_materials": "- slide chapter 2.1",
+        "s_download": "",
+        "student_tasks": "- Reporting: Visualize analysis results through chart formats: Waffle Charts, Area Plots, Histograms, Bar Charts, Pie Charts, Scatter Plots, Word Clouds, Choropleth Maps",
+        "urls": ""
+      },
+      {
+        "session": "21",
+        "topic": "- Project:\n2.1 Data Visualization with Python- Introduction to Data Visualization Tools 1",
+        "learning_teaching_type": "Offline",
+        "lo": "CL03",
+        "itu": "U",
+        "student_materials": "- slide chapter 2.2",
+        "s_download": "",
+        "student_tasks": "- Perform results representation using advanced chart types",
+        "urls": ""
+      },
+      {
+        "session": "22",
+        "topic": "- Project:\n2.2 Data Visualization with Python- Introduction to Data Visualization Tools 2",
+        "learning_teaching_type": "Offline",
+        "lo": "CL03",
+        "itu": "U",
+        "student_materials": "- slide chapter 2.2",
+        "s_download": "",
+        "student_tasks": "- Perform results representation using advanced chart types",
+        "urls": ""
+      },
+      {
+        "session": "23",
+        "topic": "- Project:\n2.3 Data Visualization with Python- Basic and Specialized Visualization Tools 1",
+        "learning_teaching_type": "Offline",
+        "lo": "CL03",
+        "itu": "U",
+        "student_materials": "- slide chapter 2.2",
+        "s_download": "",
+        "student_tasks": "- Perform results representation using advanced chart types",
+        "urls": ""
+      },
+      {
+        "session": "24",
+        "topic": "- Project:\n2.4 Data Visualization with Python- Basic and Specialized Visualization Tools 2",
+        "learning_teaching_type": "Offline",
+        "lo": "CL03",
+        "itu": "U",
+        "student_materials": "- slide chapter 2.2",
+        "s_download": "",
+        "student_tasks": "- Perform results representation using advanced chart types",
+        "urls": ""
+      },
+      {
+        "session": "25",
+        "topic": "- Project:\n2.5 Advanced Visualizations and Geospatial Data 1",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "U",
+        "student_materials": "- slide chapter 2.3",
+        "s_download": "",
+        "student_tasks": "- Perform results representation using advanced chart types",
+        "urls": ""
+      },
+      {
+        "session": "26",
+        "topic": "- Project:\n2.6 Advanced Visualizations and Geospatial Data 2",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "U",
+        "student_materials": "- slide chapter 2.3",
+        "s_download": "",
+        "student_tasks": "- Perform results representation using advanced chart types",
+        "urls": ""
+      },
+      {
+        "session": "27",
+        "topic": "- Project:\n2.7 Data Visualization with Python- Creating Dashboards with Plotly and Dash 1",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "U",
+        "student_materials": "- slide chapter 2.3",
+        "s_download": "",
+        "student_tasks": "- Perform results representation using advanced chart types",
+        "urls": ""
+      },
+      {
+        "session": "28",
+        "topic": "- Project:\n2.8 Data Visualization with Python- Creating Dashboards with Plotly and Dash 2",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "U",
+        "student_materials": "- slide chapter 2.3",
+        "s_download": "",
+        "student_tasks": "- Perform results representation using advanced chart types",
+        "urls": ""
+      },
+      {
+        "session": "29",
+        "topic": "- Project review",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO2, CLO3, CLO4",
+        "itu": "T",
+        "student_materials": "- slide chapter 2.4",
+        "s_download": "",
+        "student_tasks": "- Synthesize the results of the report writing",
+        "urls": ""
+      },
+      {
+        "session": "30",
+        "topic": "- Project review (cont)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO2, CLO3, CLO4",
+        "itu": "T",
+        "student_materials": "- slide chapter 2.4",
+        "s_download": "",
+        "student_tasks": "- Synthesize the results of the report writing",
+        "urls": ""
+      },
+      {
+        "session": "31",
+        "topic": "- Project review (cont)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO2, CLO3, CLO4",
+        "itu": "T",
+        "student_materials": "- slide chapter 2.4",
+        "s_download": "",
+        "student_tasks": "- Synthesize the results of the report writing",
+        "urls": ""
+      },
+      {
+        "session": "32",
+        "topic": "- Project review (cont)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO2, CLO3, CLO4",
+        "itu": "T",
+        "student_materials": "- slide chapter 2.4",
+        "s_download": "",
+        "student_tasks": "- Synthesize the results of the report",
+        "urls": ""
+      },
+      {
+        "session": "33",
+        "topic": "- Project report 4: P1\n+ Chatbot: Create and integrate",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO5",
+        "itu": "U",
+        "student_materials": "- slide chapter 3.1",
+        "s_download": "",
+        "student_tasks": "- create chat bot and integrate using Waston IBM or other platform",
+        "urls": ""
+      },
+      {
+        "session": "34",
+        "topic": "- Project report 4: P2\n+ Chatbot: Create and integrate",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO5",
+        "itu": "U",
+        "student_materials": "- slide chapter 3.1",
+        "s_download": "",
+        "student_tasks": "- create chat bot and integrate using Waston IBM or other platform",
+        "urls": ""
+      },
+      {
+        "session": "35",
+        "topic": "- Project report 4: P3\n+ Chatbot: Create and integrate",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO5",
+        "itu": "U",
+        "student_materials": "- slide chapter 3.1",
+        "s_download": "",
+        "student_tasks": "- create chat bot and integrate using Watson IBM or other platform",
+        "urls": ""
+      },
+      {
+        "session": "36",
+        "topic": "- Project report 4: P4\n+ Chatbot: Create and integrate",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO5",
+        "itu": "U",
+        "student_materials": "- slide chapter 3.1",
+        "s_download": "",
+        "student_tasks": "- create chat bot and integrate using Watson IBM or other platform",
+        "urls": ""
+      },
+      {
+        "session": "37",
+        "topic": "- Project:\n3.1 Building AI Applications with Watson APIs- Introduction 1",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO6",
+        "itu": "U",
+        "student_materials": "- slide chapter 3.2",
+        "s_download": "",
+        "student_tasks": "- Create and integrate chatbot into Watson IBM or other platform",
+        "urls": ""
+      },
+      {
+        "session": "38",
+        "topic": "- Project:\n3.2 Building AI Applications with Watson APIs- Introduction 2",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO6",
+        "itu": "U",
+        "student_materials": "- slide chapter 3.2",
+        "s_download": "",
+        "student_tasks": "- Create and integrate chatbot into Watson IBM or other platform",
+        "urls": ""
+      },
+      {
+        "session": "39",
+        "topic": "- Project:\n3.3 Building AI Applications with Watson APIs- Giving it a Voice 1",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO6",
+        "itu": "U",
+        "student_materials": "- slide chapter 3.2",
+        "s_download": "",
+        "student_tasks": "- Create and integrate chatbot into Watson IBM or other platform",
+        "urls": ""
+      },
+      {
+        "session": "40",
+        "topic": "- Project:\n3.4 Building AI Applications with Watson APIs- Giving it a Voice 2",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO6",
+        "itu": "U",
+        "student_materials": "- slide chapter 3.2",
+        "s_download": "",
+        "student_tasks": "- Create and integrate chatbot into Watson IBM or other platform",
+        "urls": ""
+      },
+      {
+        "session": "41",
+        "topic": "- Project:\n3.5 Building AI Applications with Watson APIs- Deployment 1",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO6",
+        "itu": "U",
+        "student_materials": "- slide chapter 3.3",
+        "s_download": "",
+        "student_tasks": "- Create and integrate chatbot into Watson IBM or other platform",
+        "urls": ""
+      },
+      {
+        "session": "42",
+        "topic": "- Project:\n3.6 Building AI Applications with Watson APIs- Deployment 2",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO6",
+        "itu": "U",
+        "student_materials": "- slide chapter 3.3",
+        "s_download": "",
+        "student_tasks": "- Create and integrate chatbot into Watson IBM or other platform",
+        "urls": ""
+      },
+      {
+        "session": "43",
+        "topic": "- Project Report 5: P1\n+ Build model for prediction",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO6",
+        "itu": "U",
+        "student_materials": "- slide chapter 1.6",
+        "s_download": "",
+        "student_tasks": "- Report on model building for prediction",
+        "urls": ""
+      },
+      {
+        "session": "44",
+        "topic": "- Project Report 5: P2\n+ Build model for prediction",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO6",
+        "itu": "U",
+        "student_materials": "- slide chapter 1.6",
+        "s_download": "",
+        "student_tasks": "- Report on model building for prediction",
+        "urls": ""
+      },
+      {
+        "session": "45",
+        "topic": "- Project Report 5: P3\n+ Build model for prediction",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO6",
+        "itu": "U",
+        "student_materials": "- slide chapter 1.6",
+        "s_download": "",
+        "student_tasks": "- Report on model building for prediction",
+        "urls": ""
+      },
+      {
+        "session": "46",
+        "topic": "- Project Report 5: P4\n+ Build model for prediction",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO6",
+        "itu": "U",
+        "student_materials": "- slide chapter 1.6",
+        "s_download": "",
+        "student_tasks": "- Report on model building for prediction",
+        "urls": ""
+      },
+      {
+        "session": "47",
+        "topic": "- Project:\n1. 7 Data Analysis with Python- Model Development 1",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO6",
+        "itu": "U",
+        "student_materials": "- slide chapter 1.7",
+        "s_download": "",
+        "student_tasks": "- Conduct model building and model evaluation",
+        "urls": ""
+      },
+      {
+        "session": "48",
+        "topic": "- Project:\n1.8 Data Analysis with Python- Model Development 2",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO6",
+        "itu": "U",
+        "student_materials": "- slide chapter 1.7",
+        "s_download": "",
+        "student_tasks": "- Conduct model building and model evaluation",
+        "urls": ""
+      },
+      {
+        "session": "49",
+        "topic": "- Project:\n1.9 Data Analysis with Python- Model Evaluation 1",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO6",
+        "itu": "U",
+        "student_materials": "- slide chapter 1.7",
+        "s_download": "",
+        "student_tasks": "- Conduct model building and model evaluation",
+        "urls": ""
+      },
+      {
+        "session": "50",
+        "topic": "- Project:\n1.10 Data Analysis with Python- Model Evaluation 2",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO6",
+        "itu": "U",
+        "student_materials": "- slide chapter 1.7",
+        "s_download": "",
+        "student_tasks": "- Conduct model building and model evaluation",
+        "urls": ""
+      },
+      {
+        "session": "51",
+        "topic": "- Project report 5: P1\n+ Develop applications and AI powered solutions.",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO6",
+        "itu": "U",
+        "student_materials": "- Slides: Chapter 4",
+        "s_download": "",
+        "student_tasks": "- Build data analysis applications, integrate features in previous sections",
+        "urls": ""
+      },
+      {
+        "session": "52",
+        "topic": "- Project report 5: P2\n+ Develop applications and AI powered solutions.",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO6",
+        "itu": "U",
+        "student_materials": "- Slides: Chapter 4",
+        "s_download": "",
+        "student_tasks": "- Build data analysis applications, integrate features in previous sections",
+        "urls": ""
+      },
+      {
+        "session": "53",
+        "topic": "- Project report 5: P3\n+ Develop applications and AI powered solutions.",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO6",
+        "itu": "U",
+        "student_materials": "- Slides: Chapter 4",
+        "s_download": "",
+        "student_tasks": "- Build data analysis applications, integrate features in previous sections",
+        "urls": ""
+      },
+      {
+        "session": "54",
+        "topic": "- Project report 5: P4\n+ Develop applications and AI powered solutions.",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO6",
+        "itu": "U",
+        "student_materials": "- Slides: Chapter 4",
+        "s_download": "",
+        "student_tasks": "- Build data analysis applications, integrate features in previous sections",
+        "urls": ""
+      },
+      {
+        "session": "55",
+        "topic": "- Project:\n4.1 Applied Data Science Capstone: Introduction 1\n4.2 Applied Data Science Capstone: Introduction 2",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO7",
+        "itu": "U",
+        "student_materials": "- Slides: Chapter 4",
+        "s_download": "",
+        "student_tasks": "- Implement data analysis application development",
+        "urls": ""
+      },
+      {
+        "session": "56",
+        "topic": "- Project:\n4.3 Applied Data Science Capstone: Interactive Visual Analytics and Dashboard 1\n4.4 Applied Data Science Capstone: Interactive Visual Analytics and Dashboard 2\n4.5 Applied Data Science Capstone: Predictive Analysis (Classification) 1\n4.6 Applied Data Science Capstone: Predictive Analysis (Classification) 2",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO7",
+        "itu": "U",
+        "student_materials": "- Slides: Chapter 4",
+        "s_download": "",
+        "student_tasks": "- Implement data analysis application development",
+        "urls": ""
+      },
+      {
+        "session": "57",
+        "topic": "- Project:\n4.7 Applied Data Science Capstone: Present Your Data-Driven Insights 1\n4.8 Applied Data Science Capstone: Present Your Data-Driven Insights 2\n'- Progress test",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO7",
+        "itu": "U",
+        "student_materials": "- Slides: Chapter 4",
+        "s_download": "",
+        "student_tasks": "- Implement data analysis application development\n- Conduct Progress test",
+        "urls": ""
+      },
+      {
+        "session": "58",
+        "topic": "- Evaluate final project",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7",
+        "itu": "T",
+        "student_materials": "- Slides chapter 1, 2, 3,4",
+        "s_download": "",
+        "student_tasks": "- Final project report",
+        "urls": ""
+      },
+      {
+        "session": "59",
+        "topic": "- Evaluate final project (cont)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7",
+        "itu": "T",
+        "student_materials": "- Slides chapter 1, 2, 3,4",
+        "s_download": "",
+        "student_tasks": "- Final project report",
+        "urls": ""
+      },
+      {
+        "session": "60",
+        "topic": "- Evaluate final project (cont)\n- Review course",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7",
+        "itu": "I,T",
+        "student_materials": "Syllabus DAP391m",
+        "s_download": "",
+        "student_tasks": "Syllabus DAP391m",
+        "urls": ""
+      }
+    ],
+    "assessments": [
+      {
+        "no": "1",
+        "category": "Final Project Evaluation",
+        "type": "on-going",
+        "part": "1",
+        "weight": "20.0%",
+        "completion_criteria": "4",
+        "duration": "30'/groups",
+        "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7",
+        "question_type": "Oral",
+        "no_question": "lecturer's comments and questions",
+        "knowledge_and_skill": "All chapters; knowledge and skills",
+        "grading_guide": "in class, by instructor.\nEach team is allocated 30 minutes for the presentation of their project followed by a Q&A session.\nEvaluation of the final presentation is based on the final report, project demonstration, and Q&A interaction.",
+        "note": "Based on Rubrics"
+      },
+      {
+        "no": "2",
+        "category": "On going assessment",
+        "type": "on-going",
+        "part": "1",
+        "weight": "30.0%",
+        "completion_criteria": ">0",
+        "duration": "From start to finish in schedule.",
+        "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7",
+        "question_type": "Follow lecturer's proposal",
+        "no_question": "Follow lecturer's proposal",
+        "knowledge_and_skill": "knowledge and skills",
+        "grading_guide": "in class, by instructor",
+        "note": ""
+      },
+      {
+        "no": "3",
+        "category": "Progress test",
+        "type": "on-going",
+        "part": "1",
+        "weight": "10.0%",
+        "completion_criteria": ">0",
+        "duration": "45'",
+        "clo": "CLO1, CLO2, CLO3, CLO4, CLO5",
+        "question_type": "Multiple choices\nMarked by Computer or a suitable format",
+        "no_question": "30",
+        "knowledge_and_skill": "- cover chapter 1,2,3",
+        "grading_guide": "in class, by instructor",
+        "note": "Instruction and shedules for Progress tests must be presented in the Course Implementation Plan approved by director of the campus.\nProgress test must be taken right after the last lectures of required material.\nInstructor has resposibility to review the test for students after graded."
+      },
+      {
+        "no": "4",
+        "category": "Project Planning",
+        "type": "on-going",
+        "part": "1",
+        "weight": "10.0%",
+        "completion_criteria": ">0",
+        "duration": "30'",
+        "clo": "CLO1",
+        "question_type": "Home work,",
+        "no_question": "6",
+        "knowledge_and_skill": "- cover chapter 1,2,3,4",
+        "grading_guide": "in class, by instructor",
+        "note": ""
+      },
+      {
+        "no": "5",
+        "category": "Final exam",
+        "type": "Final exam",
+        "part": "1",
+        "weight": "30.0%",
+        "completion_criteria": "4",
+        "duration": "60'",
+        "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7",
+        "question_type": "Multiple choices\nMarked by Computer",
+        "no_question": "50",
+        "knowledge_and_skill": "- cover chapter 1,2,3,4",
+        "grading_guide": "by exam board,\nusing computer",
+        "note": "The exam questions must be updated or different at least 70% to the previous ones."
+      }
+    ]
+  },
+  "source": {
+    "raw_file": "flm_output/subjects/DAP391m.json",
+    "curriculum_url": "https://flm.fpt.edu.vn/gui/role/student/CurriculumDetails?curid=3173",
+    "pre_syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/Syllabuses?subCode=DAP391m&curriculumID=3173",
+    "syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=14112",
+    "details_source_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=14112"
+  },
+  "crawl": {
+    "error": null
+  },
+  "quality": {
+    "has_syllabus": true,
+    "counts": {
+      "materials": 6,
+      "clos": 7,
+      "schedule": 60,
+      "assessments": 5
+    },
+    "warnings": []
+  }
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "category": "Group presentation 1",
+    "part": "1",
+    "weight": "5.0%",
+    "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8, CLO9, CLO10"
+  },
+  {
+    "category": "Group presentation 2",
+    "part": "1",
+    "weight": "5.0%",
+    "clo": "CLO13"
+  },
+  {
+    "category": "Lab 1",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO2"
+  },
+  {
+    "category": "Lab 2",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO6, CLO7"
+  },
+  {
+    "category": "Progress Test 1",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO1, CLO2, CLO3, CLO4, CLO5"
+  },
+  {
+    "category": "Progress Test 2",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO6, CLO7, CLO8, CLO9"
+  },
+  {
+    "category": "Progress Test 3",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO10, CLO11, CLO12, CLO13"
+  },
+  {
+    "category": "Final exam",
+    "part": "1",
+    "weight": "40.0%",
+    "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8, CLO9, CLO10, CLO11, CLO12"
+  }
+]

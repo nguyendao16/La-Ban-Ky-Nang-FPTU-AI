@@ -1,0 +1,35 @@
+{
+  "pytest": {
+    "passed": 298,
+    "duration_seconds": 7.23
+  },
+  "pip_check": "No broken requirements found.",
+  "protected_files_before_live": 885,
+  "mismatches": [],
+  "offline_http_operations": 0,
+  "planning_ceiling_usd": "4.794880",
+  "prices_checked_at": "2026-10-13T21:34:30.293612+07:00",
+  "review_price_per_million": {
+    "input": 2.5,
+    "cached_input": 0.25,
+    "output": 15
+  },
+  "chat_price_per_million": {
+    "input": 0.75,
+    "cached_input": 0.075,
+    "output": 4.5
+  },
+  "implementation_files": {
+    "scripts/academic_review.py": "e6c5a1319e03b0a2394466d371442b9d172a53cb660e4b3fb26f095162e3b5a5",
+    "scripts/evaluate_academic_benchmark.py": "e621f451e07e967862392150572f34279e37086cc011b9537a25ef99854568a3",
+    "scripts/academic_model_comparison.py": "fcb129833513b9ab2d7dbeca8cf89bb8de850d1547475dd2bb06710fbc0e3871",
+    "tests/test_five_jd_benchmark.py": "bb849b13b26d73e3604d39f9c257033fdbd930226ed30860dc6d804c09f6a2ee",
+    "README.md": "baa542415a5f95c4929734088869f3f331ad1bfe12457eaa3d68ca836fbb2124"
+  },
+  "final_pytest": {
+    "passed": 300,
+    "duration_seconds": 9.32,
+    "additional_checks": "Input 80000 allowed outside comparison; flagship >272000 price multiplier."
+  },
+  "final_pip_check": "No broken requirements found."
+}

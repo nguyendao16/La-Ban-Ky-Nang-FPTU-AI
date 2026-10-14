@@ -1,0 +1,14 @@
+{
+  "origin": "offline_artifact_verification",
+  "conditions": 12,
+  "generation_http_attempts": 12,
+  "preflight_http_attempts": 12,
+  "final_prompts_schemas_match_live": true,
+  "one_generation_per_condition": true,
+  "no_source_changes": true,
+  "protected_files": 338,
+  "trace_and_export_hashes_match": true,
+  "max_input_tokens_observed": 22280,
+  "offline_tests_passed": 283,
+  "dependency_check": "passed"
+}

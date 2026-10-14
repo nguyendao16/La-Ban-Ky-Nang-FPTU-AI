@@ -1,0 +1,32 @@
+[
+  {
+    "category": "Report 1: Project Proposal",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO1, CLO2"
+  },
+  {
+    "category": "Report 2: Data Tasks [ Data Collection and Cleaning + Exploratory Data Analysis]",
+    "part": "1",
+    "weight": "20.0%",
+    "clo": "CLO3, CLO4"
+  },
+  {
+    "category": "Report 3: Model & Results[ Model Development + Model Evaluation and Fine-Tuning + Results Interpretation and Visualization + Conclusion and Recommendations]",
+    "part": "1",
+    "weight": "40.0%",
+    "clo": "CLO5, CLO6, CLO7, CLO8"
+  },
+  {
+    "category": "Report 4: Final Project Report",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO9"
+  },
+  {
+    "category": "Final exam[ Oral group presentatation]",
+    "part": "1",
+    "weight": "20.0%",
+    "clo": "CLO10"
+  }
+]

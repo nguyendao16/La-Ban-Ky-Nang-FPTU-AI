@@ -1,0 +1,2268 @@
+{
+  "origin": "human_authored_from_canonical_fields_not_llm_ground_truth",
+  "claims": [
+    {
+      "scenario_id": "S1",
+      "claim_id": "S1-CI",
+      "claim": "MAS291 có nội dung confidence intervals",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "MAS291",
+          "clo": "CLO7"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "acceptable_relations": [
+        "direct"
+      ],
+      "atomic_targets": [
+        "MAS291 có nội dung confidence intervals"
+      ],
+      "annotation_note": "",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO7",
+            "description": "Construct and interpret confidence intervals for population parameters and differences between population parameters, including intervals for means of normal distributions with known or unknown variance, large-sample intervals for population proportions, inference on differences between two means, and inference on differences between two proportions.",
+            "score": 9.43,
+            "achievement": "excellent"
+          }
+        }
+      ],
+      "available_acceptable_sources_by_condition": {
+        "AB-S1": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          }
+        ],
+        "C1": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          }
+        ],
+        "C2": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          }
+        ],
+        "C3": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          }
+        ],
+        "C4": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          }
+        ],
+        "D-S1-D1": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          }
+        ],
+        "D-S1-D2": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          }
+        ],
+        "E1-clean": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          }
+        ],
+        "E1-clean-D2": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          }
+        ],
+        "E2-contaminated": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          }
+        ],
+        "E2-contaminated-D2": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          }
+        ],
+        "E3-same-course": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          }
+        ],
+        "C2-reversed": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          }
+        ],
+        "C1-repeat": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          }
+        ],
+        "C4-repeat": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          }
+        ],
+        "E2-contaminated-repeat": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          }
+        ],
+        "D-S1-verified-mapping": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          }
+        ]
+      }
+    },
+    {
+      "scenario_id": "S1",
+      "claim_id": "S1-LR",
+      "claim": "MAS291 có nội dung simple linear regression",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "MAS291",
+          "clo": "CLO9"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "acceptable_relations": [
+        "direct"
+      ],
+      "atomic_targets": [
+        "MAS291 có nội dung simple linear regression"
+      ],
+      "annotation_note": "",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO9",
+            "description": "Construct a simple linear regression model and use it for prediction and interpretation, including empirical models, least-squares estimation, sums of squares, regression equations, correlation coefficients, properties of least-squares estimators, and hypothesis tests for significance in simple linear regression.",
+            "score": 9.43,
+            "achievement": "excellent"
+          }
+        }
+      ],
+      "available_acceptable_sources_by_condition": {
+        "AB-S1": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          }
+        ],
+        "D-S1-D1": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          }
+        ],
+        "D-S1-D2": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          }
+        ],
+        "E1-clean": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          }
+        ],
+        "E1-clean-D2": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          }
+        ],
+        "E2-contaminated": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          }
+        ],
+        "E2-contaminated-D2": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          }
+        ],
+        "E3-same-course": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          }
+        ],
+        "E2-contaminated-repeat": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          }
+        ],
+        "D-S1-verified-mapping": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          }
+        ]
+      }
+    },
+    {
+      "scenario_id": "S1",
+      "claim_id": "S1-BOTH",
+      "claim": "MAS291 có cả confidence intervals và simple linear regression",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "MAS291",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "MAS291",
+          "clo": "CLO9"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "acceptable_relations": [
+        "direct"
+      ],
+      "atomic_targets": [
+        "MAS291 confidence intervals",
+        "MAS291 simple linear regression"
+      ],
+      "annotation_note": "Compound requires support for both atoms; one reference does not cover both.",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO7",
+            "description": "Construct and interpret confidence intervals for population parameters and differences between population parameters, including intervals for means of normal distributions with known or unknown variance, large-sample intervals for population proportions, inference on differences between two means, and inference on differences between two proportions.",
+            "score": 9.43,
+            "achievement": "excellent"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO9",
+            "description": "Construct a simple linear regression model and use it for prediction and interpretation, including empirical models, least-squares estimation, sums of squares, regression equations, correlation coefficients, properties of least-squares estimators, and hypothesis tests for significance in simple linear regression.",
+            "score": 9.43,
+            "achievement": "excellent"
+          }
+        }
+      ],
+      "available_acceptable_sources_by_condition": {
+        "AB-S1": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          }
+        ],
+        "D-S1-D1": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          }
+        ],
+        "D-S1-D2": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          }
+        ],
+        "D-S1-verified-mapping": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          }
+        ]
+      }
+    },
+    {
+      "scenario_id": "S2",
+      "claim_id": "S2-DATA",
+      "claim": "CSI106 học data types and bit patterns",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "CSI106",
+          "clo": "CLO3"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "acceptable_relations": [
+        "direct"
+      ],
+      "atomic_targets": [
+        "CSI106 học data types and bit patterns"
+      ],
+      "annotation_note": "",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "CSI106",
+            "clo": "CLO3"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO3",
+            "description": "Describe how different data type is stored inside a computer as bit patterns and operations on data, including Data storage and Operations on Data, Logic operations, Shift, Arithmetic operations.",
+            "score": 8.1,
+            "achievement": "good"
+          }
+        }
+      ],
+      "available_acceptable_sources_by_condition": {
+        "AB-S2": [
+          {
+            "course_code": "CSI106",
+            "clo": "CLO3"
+          }
+        ]
+      }
+    },
+    {
+      "scenario_id": "S2",
+      "claim_id": "S2-NET",
+      "claim": "CSI106 học networking layers",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "CSI106",
+          "clo": "CLO4"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "acceptable_relations": [
+        "direct"
+      ],
+      "atomic_targets": [
+        "CSI106 học networking layers"
+      ],
+      "annotation_note": "",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "CSI106",
+            "clo": "CLO4"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO4",
+            "description": "Describe the layers in networking and their relationship, including Computer Networks, Internet, Overview, and layers in netwoking.",
+            "score": 8.1,
+            "achievement": "good"
+          }
+        }
+      ],
+      "available_acceptable_sources_by_condition": {
+        "AB-S2": [
+          {
+            "course_code": "CSI106",
+            "clo": "CLO4"
+          }
+        ]
+      }
+    },
+    {
+      "scenario_id": "S2",
+      "claim_id": "S2-BOTH",
+      "claim": "CSI106 có data representation và networking",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "CSI106",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "CSI106",
+          "clo": "CLO4"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "acceptable_relations": [
+        "direct"
+      ],
+      "atomic_targets": [
+        "CSI106 data representation",
+        "CSI106 networking layers"
+      ],
+      "annotation_note": "",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "CSI106",
+            "clo": "CLO3"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO3",
+            "description": "Describe how different data type is stored inside a computer as bit patterns and operations on data, including Data storage and Operations on Data, Logic operations, Shift, Arithmetic operations.",
+            "score": 8.1,
+            "achievement": "good"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "CSI106",
+            "clo": "CLO4"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO4",
+            "description": "Describe the layers in networking and their relationship, including Computer Networks, Internet, Overview, and layers in netwoking.",
+            "score": 8.1,
+            "achievement": "good"
+          }
+        }
+      ],
+      "available_acceptable_sources_by_condition": {
+        "AB-S2": [
+          {
+            "course_code": "CSI106",
+            "clo": "CLO3"
+          },
+          {
+            "course_code": "CSI106",
+            "clo": "CLO4"
+          }
+        ]
+      }
+    },
+    {
+      "scenario_id": "S3",
+      "claim_id": "S3-OD",
+      "claim": "CPV301 yêu cầu understand and implement object detection",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "CPV301",
+          "clo": "CLO8"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "acceptable_relations": [
+        "direct"
+      ],
+      "atomic_targets": [
+        "CPV301 yêu cầu understand and implement object detection"
+      ],
+      "annotation_note": "",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "CPV301",
+            "clo": "CLO8"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO8",
+            "description": "Understand and implement object detection techniques.",
+            "score": 8.81,
+            "achievement": "excellent"
+          }
+        }
+      ],
+      "available_acceptable_sources_by_condition": {
+        "AB-S3": [
+          {
+            "course_code": "CPV301",
+            "clo": "CLO8"
+          }
+        ]
+      }
+    },
+    {
+      "scenario_id": "S3",
+      "claim_id": "S3-FR",
+      "claim": "CPV301 yêu cầu explain face recognition and object tracking",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "CPV301",
+          "clo": "CLO9"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "acceptable_relations": [
+        "direct"
+      ],
+      "atomic_targets": [
+        "Explain face recognition",
+        "Explain object tracking"
+      ],
+      "annotation_note": "",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "CPV301",
+            "clo": "CLO9"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO9",
+            "description": "Explain the principles of face recognition and object tracking techniques.",
+            "score": 8.81,
+            "achievement": "excellent"
+          }
+        }
+      ],
+      "available_acceptable_sources_by_condition": {
+        "AB-S3": [
+          {
+            "course_code": "CPV301",
+            "clo": "CLO9"
+          }
+        ]
+      }
+    },
+    {
+      "scenario_id": "S3",
+      "claim_id": "S3-IMPLEMENT",
+      "claim": "CPV301 xác nhận implement face recognition và object tracking",
+      "acceptable_direct_sources": [],
+      "acceptable_related_sources": [
+        {
+          "course_code": "CPV301",
+          "clo": "CLO9"
+        }
+      ],
+      "acceptable_relations": [
+        "related",
+        "insufficient"
+      ],
+      "atomic_targets": [
+        "CPV301 xác nhận implement face recognition và object tracking"
+      ],
+      "annotation_note": "Explain is not Implement; contextual metadata also does not confirm personal implementation.",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "CPV301",
+            "clo": "CLO9"
+          },
+          "relation": "related",
+          "canonical_source": {
+            "clo": "CLO9",
+            "description": "Explain the principles of face recognition and object tracking techniques.",
+            "score": 8.81,
+            "achievement": "excellent"
+          }
+        }
+      ],
+      "available_acceptable_sources_by_condition": {
+        "AB-S3": [
+          {
+            "course_code": "CPV301",
+            "clo": "CLO9"
+          }
+        ]
+      }
+    },
+    {
+      "scenario_id": "S4",
+      "claim_id": "S4-SQL",
+      "claim": "DBI202 có SQL queries trên Microsoft SQL Server",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "DBI202",
+          "clo": "CLO5"
+        }
+      ],
+      "acceptable_related_sources": [
+        {
+          "course_code": "DBI202",
+          "metadata_field": "tools"
+        }
+      ],
+      "acceptable_relations": [
+        "direct"
+      ],
+      "atomic_targets": [
+        "DBI202 có SQL queries trên Microsoft SQL Server"
+      ],
+      "annotation_note": "",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "DBI202",
+            "clo": "CLO5"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO5",
+            "description": "Be proficient in SQL, including Data Definition Language (DDL) for defining database structures and implementing constraints such as primary and foreign keys, UNIQUE, and CHECK constraints using Microsoft SQL Server. Use Data Manipulation Language (DML) to perform basic queries, multi-relation queries, nested queries, aggregation queries, and database modifications using INSERT, UPDATE, and DELETE statements.",
+            "score": 5.96,
+            "achievement": "basic"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "DBI202",
+            "metadata_field": "tools"
+          },
+          "relation": "related",
+          "canonical_source": "Microsoft SQL Server"
+        }
+      ],
+      "available_acceptable_sources_by_condition": {
+        "AB-S4": [
+          {
+            "course_code": "DBI202",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "DBI202",
+            "metadata_field": "tools"
+          }
+        ],
+        "E4-multiple-sources": [
+          {
+            "course_code": "DBI202",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "DBI202",
+            "metadata_field": "tools"
+          }
+        ]
+      }
+    },
+    {
+      "scenario_id": "S4",
+      "claim_id": "S4-TSQL",
+      "claim": "DBI202 có T-SQL programming",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "DBI202",
+          "clo": "CLO6"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "acceptable_relations": [
+        "direct"
+      ],
+      "atomic_targets": [
+        "DBI202 có T-SQL programming"
+      ],
+      "annotation_note": "",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "DBI202",
+            "clo": "CLO6"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO6",
+            "description": "Understand T-SQL database programming concepts in Microsoft SQL Server and work with database views, cursors, stored procedures, functions, and triggers, including the use of triggers to enforce database constraints. Understand transaction concepts in database applications.",
+            "score": 5.96,
+            "achievement": "basic"
+          }
+        }
+      ],
+      "available_acceptable_sources_by_condition": {
+        "AB-S4": [
+          {
+            "course_code": "DBI202",
+            "clo": "CLO6"
+          }
+        ]
+      }
+    },
+    {
+      "scenario_id": "S4",
+      "claim_id": "S4-ADY",
+      "claim": "ADY201m có SQL/database access trong guided project",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO7"
+        }
+      ],
+      "acceptable_related_sources": [
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO1"
+        }
+      ],
+      "acceptable_relations": [
+        "direct"
+      ],
+      "atomic_targets": [
+        "ADY201m có SQL/database access trong guided project"
+      ],
+      "annotation_note": "",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "ADY201m",
+            "clo": "CLO7"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO7",
+            "description": "Implement a small data science project by applying Python fundamentals, Python data structures, SQL/database access, data understanding, preprocessing, modeling, evaluation, deployment, visualization, probability, regression analysis, and final reporting within a guided project workflow.",
+            "score": 8.61,
+            "achievement": "excellent"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "ADY201m",
+            "clo": "CLO1"
+          },
+          "relation": "related",
+          "canonical_source": {
+            "clo": "CLO1",
+            "description": "Understand relational database concepts and foundational SQL language knowledge in the context of data science work, including accessing databases with Python, getting started with SQL, basic through advanced SQL-based data analysis, database fundamentals, nested queries, and multi-table SELECT statements.",
+            "score": 8.3,
+            "achievement": "good"
+          }
+        }
+      ],
+      "available_acceptable_sources_by_condition": {
+        "AB-S4": [
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO1"
+          }
+        ]
+      }
+    },
+    {
+      "scenario_id": "S4",
+      "claim_id": "S4-DAP",
+      "claim": "DAP391m/CLO7 nêu SQL/database access",
+      "acceptable_direct_sources": [],
+      "acceptable_related_sources": [
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO7"
+        }
+      ],
+      "acceptable_relations": [
+        "related",
+        "insufficient"
+      ],
+      "atomic_targets": [
+        "DAP391m/CLO7 nêu SQL/database access"
+      ],
+      "annotation_note": "DAP7 is adjacent data-analysis workflow, not direct SQL evidence. ADY7 cannot establish what DAP7 says.",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "DAP391m",
+            "clo": "CLO7"
+          },
+          "relation": "related",
+          "canonical_source": {
+            "clo": "CLO7",
+            "description": "Implement the small mini capstone data science project includes steps: involving data collection, data wrangling, exploratory data analysis, data visualization, model development, model evaluation, and reporting, including Applied Data Science Capstone: Interactive Visual Analytics, Dashboard , Applied Data Science Capstone: Interactive Visual Analytics, Dashboard , Applied Data Science Capstone: Predictive Analysis (Classification) , Applied Data Science Capstone: Predictive Analysis (Classification), Evaluate final project.",
+            "score": 9.1,
+            "achievement": "excellent"
+          }
+        }
+      ],
+      "available_acceptable_sources_by_condition": {
+        "AB-S4": [
+          {
+            "course_code": "DAP391m",
+            "clo": "CLO7"
+          }
+        ]
+      }
+    },
+    {
+      "scenario_id": "S4",
+      "claim_id": "S4-BANDS",
+      "claim": "DBI202/CLO5 và CLO6 có achievement basic",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "DBI202",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "DBI202",
+          "clo": "CLO6"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "acceptable_relations": [
+        "direct"
+      ],
+      "atomic_targets": [
+        "DBI202/CLO5=5.96/basic",
+        "DBI202/CLO6=5.96/basic"
+      ],
+      "annotation_note": "Performance values are source fields, not quote substrings or a global SQL level.",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "DBI202",
+            "clo": "CLO5"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO5",
+            "description": "Be proficient in SQL, including Data Definition Language (DDL) for defining database structures and implementing constraints such as primary and foreign keys, UNIQUE, and CHECK constraints using Microsoft SQL Server. Use Data Manipulation Language (DML) to perform basic queries, multi-relation queries, nested queries, aggregation queries, and database modifications using INSERT, UPDATE, and DELETE statements.",
+            "score": 5.96,
+            "achievement": "basic"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "DBI202",
+            "clo": "CLO6"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO6",
+            "description": "Understand T-SQL database programming concepts in Microsoft SQL Server and work with database views, cursors, stored procedures, functions, and triggers, including the use of triggers to enforce database constraints. Understand transaction concepts in database applications.",
+            "score": 5.96,
+            "achievement": "basic"
+          }
+        }
+      ],
+      "available_acceptable_sources_by_condition": {
+        "AB-S4": [
+          {
+            "course_code": "DBI202",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "DBI202",
+            "clo": "CLO6"
+          }
+        ]
+      }
+    },
+    {
+      "scenario_id": "S5",
+      "claim_id": "S5-OPT",
+      "claim": "Continuous optimization bằng gradient descent",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "MAI391",
+          "clo": "CLO4"
+        }
+      ],
+      "acceptable_related_sources": [
+        {
+          "course_code": "MAE101",
+          "clo": "CLO3"
+        }
+      ],
+      "acceptable_relations": [
+        "direct"
+      ],
+      "atomic_targets": [
+        "Continuous optimization bằng gradient descent"
+      ],
+      "annotation_note": "",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "MAI391",
+            "clo": "CLO4"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO4",
+            "description": "Solve continuous optimization problems using gradient descent for local minima, Lagrange multipliers for constrained extrema, convex optimization concepts, and linear programming.",
+            "score": 9.43,
+            "achievement": "excellent"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "MAE101",
+            "clo": "CLO3"
+          },
+          "relation": "related",
+          "canonical_source": {
+            "clo": "CLO3",
+            "description": "Use derivatives to analyze functions and solve applications, including implicit differentiation, related rates, linear approximation, differentials and approximation error, Rolle's Theorem, the Mean Value Theorem, critical numbers, absolute and local extrema, monotonicity, optimization, acceleration as a second derivative, inflection points, concavity, and Newton's method.",
+            "score": 8.98,
+            "achievement": "excellent"
+          }
+        }
+      ],
+      "available_acceptable_sources_by_condition": {
+        "AB-S5": [
+          {
+            "course_code": "MAI391",
+            "clo": "CLO4"
+          },
+          {
+            "course_code": "MAE101",
+            "clo": "CLO3"
+          }
+        ],
+        "E4-multiple-sources": [
+          {
+            "course_code": "MAI391",
+            "clo": "CLO4"
+          },
+          {
+            "course_code": "MAE101",
+            "clo": "CLO3"
+          }
+        ]
+      }
+    },
+    {
+      "scenario_id": "S5",
+      "claim_id": "S5-LR",
+      "claim": "Linear regression",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "MAI391",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "MAS291",
+          "clo": "CLO9"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO6"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO7"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "acceptable_relations": [
+        "direct"
+      ],
+      "atomic_targets": [
+        "Linear regression"
+      ],
+      "annotation_note": "These are alternative/complementary direct sources, not all mandatory citations. Cognitive scope differs by source.",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "MAI391",
+            "clo": "CLO5"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO5",
+            "description": "Apply linear regression concepts, including problem formulation, parameter estimation, maximum likelihood estimation, maximum a posteriori estimation, generalization error, overfitting, and Bayesian linear regression.",
+            "score": 9.4,
+            "achievement": "excellent"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO9",
+            "description": "Construct a simple linear regression model and use it for prediction and interpretation, including empirical models, least-squares estimation, sums of squares, regression equations, correlation coefficients, properties of least-squares estimators, and hypothesis tests for significance in simple linear regression.",
+            "score": 9.43,
+            "achievement": "excellent"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "AIL303m",
+            "clo": "CLO4"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO4",
+            "description": "Learners should be able to describe and use supervised models, including Introduction to Supervised Machine Learning, Linear Regression.",
+            "score": 8.39,
+            "achievement": "good"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "ADY201m",
+            "clo": "CLO6"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO6",
+            "description": "Explain statistics for data science, including mean, median, mode, variance, standard deviation, data visualization, probability distributions, and regression analysis, including basic and advanced data statistics, visualization, probability distributions, regression analysis, Python-based statistics practice on housing data.",
+            "score": 8.61,
+            "achievement": "excellent"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "ADY201m",
+            "clo": "CLO7"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO7",
+            "description": "Implement a small data science project by applying Python fundamentals, Python data structures, SQL/database access, data understanding, preprocessing, modeling, evaluation, deployment, visualization, probability, regression analysis, and final reporting within a guided project workflow.",
+            "score": 8.61,
+            "achievement": "excellent"
+          }
+        }
+      ],
+      "available_acceptable_sources_by_condition": {
+        "AB-S5": [
+          {
+            "course_code": "MAI391",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          },
+          {
+            "course_code": "AIL303m",
+            "clo": "CLO4"
+          },
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO7"
+          }
+        ]
+      }
+    },
+    {
+      "scenario_id": "S5",
+      "claim_id": "S5-PCA",
+      "claim": "PCA",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "MAI391",
+          "clo": "CLO6"
+        },
+        {
+          "course_code": "MAI391",
+          "metadata_field": "description"
+        }
+      ],
+      "acceptable_related_sources": [
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO9"
+        }
+      ],
+      "acceptable_relations": [
+        "direct"
+      ],
+      "atomic_targets": [
+        "PCA"
+      ],
+      "annotation_note": "Metadata supports curriculum context; assessed Apply/score must use CLO6.",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "MAI391",
+            "clo": "CLO6"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO6",
+            "description": "Apply dimensionality reduction with PCA, including covariance matrices, maximum-variance subspaces, principal subspace bases, low-rank matrix approximation, PCA in high dimensions, projection perspectives, eigenvector computation, and key practical PCA steps.",
+            "score": 9.4,
+            "achievement": "excellent"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "MAI391",
+            "metadata_field": "description"
+          },
+          "relation": "direct",
+          "canonical_source": "This course introduces the mathematical concepts and foundations needed to talk about the three main components of a machine learning system: data, models, and learning. Upon this course, students will be able to understand: • Foundametal concepts about matrices and matrix decomposition.\n• Concepts of gradients.\n• The basics of probability and some distributions.\n• Optimization to find maxima/minima of functions. • Dimensionality reduction using principal component analysis.\n• Classification in the context of support vector machines.\nMethod of teaching and learning: Lecture and project based learning"
+        },
+        {
+          "reference": {
+            "course_code": "AIL303m",
+            "clo": "CLO9"
+          },
+          "relation": "related",
+          "canonical_source": {
+            "clo": "CLO9",
+            "description": "Learners should be able to describe and use common clustering and dimensionality-reduction algorithms, including Selecting a clustering algorithm, Distance Metrics of Clustering Algorithms, Common clustering algorithms, Hierarchical Agglomerative Clustering, Hierarchical Agglomerative Clustering Lab, Compare clustering algorithms, Clustering Demo.",
+            "score": 6.87,
+            "achievement": "basic"
+          }
+        }
+      ],
+      "available_acceptable_sources_by_condition": {
+        "AB-S5": [
+          {
+            "course_code": "MAI391",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "MAI391",
+            "metadata_field": "description"
+          },
+          {
+            "course_code": "AIL303m",
+            "clo": "CLO9"
+          }
+        ],
+        "E1-clean": [
+          {
+            "course_code": "MAI391",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "MAI391",
+            "metadata_field": "description"
+          },
+          {
+            "course_code": "AIL303m",
+            "clo": "CLO9"
+          }
+        ],
+        "E1-clean-D2": [
+          {
+            "course_code": "MAI391",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "MAI391",
+            "metadata_field": "description"
+          },
+          {
+            "course_code": "AIL303m",
+            "clo": "CLO9"
+          }
+        ],
+        "E2-contaminated": [
+          {
+            "course_code": "MAI391",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "MAI391",
+            "metadata_field": "description"
+          },
+          {
+            "course_code": "AIL303m",
+            "clo": "CLO9"
+          }
+        ],
+        "E2-contaminated-D2": [
+          {
+            "course_code": "MAI391",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "MAI391",
+            "metadata_field": "description"
+          },
+          {
+            "course_code": "AIL303m",
+            "clo": "CLO9"
+          }
+        ],
+        "E4-multiple-sources": [
+          {
+            "course_code": "MAI391",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "MAI391",
+            "metadata_field": "description"
+          },
+          {
+            "course_code": "AIL303m",
+            "clo": "CLO9"
+          }
+        ],
+        "E2-contaminated-repeat": [
+          {
+            "course_code": "MAI391",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "MAI391",
+            "metadata_field": "description"
+          },
+          {
+            "course_code": "AIL303m",
+            "clo": "CLO9"
+          }
+        ]
+      }
+    },
+    {
+      "scenario_id": "S5",
+      "claim_id": "S5-SVM",
+      "claim": "Support vector machine classification",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "MAI391",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "MAI391",
+          "metadata_field": "description"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "acceptable_relations": [
+        "direct"
+      ],
+      "atomic_targets": [
+        "Support vector machine classification"
+      ],
+      "annotation_note": "Metadata cannot establish assessed performance or the Apply verb.",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "MAI391",
+            "clo": "CLO7"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO7",
+            "description": "Apply support vector machine classification, including separating hyperplanes, primal and dual SVM formulations, kernel-based nonlinear classifiers, and numerical approaches for finding optimal SVM solutions.",
+            "score": 9.4,
+            "achievement": "excellent"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "MAI391",
+            "metadata_field": "description"
+          },
+          "relation": "direct",
+          "canonical_source": "This course introduces the mathematical concepts and foundations needed to talk about the three main components of a machine learning system: data, models, and learning. Upon this course, students will be able to understand: • Foundametal concepts about matrices and matrix decomposition.\n• Concepts of gradients.\n• The basics of probability and some distributions.\n• Optimization to find maxima/minima of functions. • Dimensionality reduction using principal component analysis.\n• Classification in the context of support vector machines.\nMethod of teaching and learning: Lecture and project based learning"
+        }
+      ],
+      "available_acceptable_sources_by_condition": {
+        "AB-S5": [
+          {
+            "course_code": "MAI391",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "MAI391",
+            "metadata_field": "description"
+          }
+        ],
+        "E4-multiple-sources": [
+          {
+            "course_code": "MAI391",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "MAI391",
+            "metadata_field": "description"
+          }
+        ]
+      }
+    },
+    {
+      "scenario_id": "S6",
+      "claim_id": "S6-CONTEXT",
+      "claim": "ADY201m và DAP391m liệt kê Git và JupyterLab trong tools",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "ADY201m",
+          "metadata_field": "tools"
+        },
+        {
+          "course_code": "DAP391m",
+          "metadata_field": "tools"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "acceptable_relations": [
+        "direct"
+      ],
+      "atomic_targets": [
+        "ADY201m tools names Git/JupyterLab",
+        "DAP391m tools names Git/JupyterLab"
+      ],
+      "annotation_note": "Direct for the listing fact only; Git/JupyterLab are not explicitly named by ADY CLO3.",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "ADY201m",
+            "metadata_field": "tools"
+          },
+          "relation": "direct",
+          "canonical_source": "Jupyter Notebooks\n- JupyterLab\n- RStudio IDE\n- Git, GitHub\n-Watson Studio."
+        },
+        {
+          "reference": {
+            "course_code": "DAP391m",
+            "metadata_field": "tools"
+          },
+          "relation": "direct",
+          "canonical_source": "Jupyter Notebooks\n- JupyterLab\n- RStudio IDE\n- Git, GitHub\n- Watson Studio."
+        }
+      ],
+      "available_acceptable_sources_by_condition": {
+        "AB-S6": [
+          {
+            "course_code": "ADY201m",
+            "metadata_field": "tools"
+          },
+          {
+            "course_code": "DAP391m",
+            "metadata_field": "tools"
+          }
+        ],
+        "D-S6-D1": [
+          {
+            "course_code": "ADY201m",
+            "metadata_field": "tools"
+          },
+          {
+            "course_code": "DAP391m",
+            "metadata_field": "tools"
+          }
+        ],
+        "D-S6-D2": [
+          {
+            "course_code": "ADY201m",
+            "metadata_field": "tools"
+          },
+          {
+            "course_code": "DAP391m",
+            "metadata_field": "tools"
+          }
+        ]
+      }
+    },
+    {
+      "scenario_id": "S6",
+      "claim_id": "S6-CHOICE",
+      "claim": "ADY201m yêu cầu dùng ít nhất một data-science tool",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO3"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "acceptable_relations": [
+        "direct"
+      ],
+      "atomic_targets": [
+        "ADY201m yêu cầu dùng ít nhất một data-science tool"
+      ],
+      "annotation_note": "",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "ADY201m",
+            "clo": "CLO3"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO3",
+            "description": "Know common tools used in data science and use at least one tool for basic data operations, including tool introduction and analysis workflows using Python, R, Scala, SQL, GitHub, Jupyter Notebooks, RStudio IDE, Watson Studio.",
+            "score": 8.43,
+            "achievement": "good"
+          }
+        }
+      ],
+      "available_acceptable_sources_by_condition": {
+        "AB-S6": [
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO3"
+          }
+        ],
+        "D-S6-D1": [
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO3"
+          }
+        ],
+        "D-S6-D2": [
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO3"
+          }
+        ]
+      }
+    },
+    {
+      "scenario_id": "S6",
+      "claim_id": "S6-USE",
+      "claim": "Profile xác nhận cá nhân đã dùng GitHub, JupyterLab và RStudio từng công cụ",
+      "acceptable_direct_sources": [],
+      "acceptable_related_sources": [
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "ADY201m",
+          "metadata_field": "tools"
+        },
+        {
+          "course_code": "DAP391m",
+          "metadata_field": "tools"
+        }
+      ],
+      "acceptable_relations": [
+        "related",
+        "insufficient"
+      ],
+      "atomic_targets": [
+        "Personal GitHub use",
+        "Personal JupyterLab use",
+        "Personal RStudio use"
+      ],
+      "annotation_note": "Tool list and choice do not identify the selected tool or artifacts.",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "ADY201m",
+            "clo": "CLO3"
+          },
+          "relation": "related",
+          "canonical_source": {
+            "clo": "CLO3",
+            "description": "Know common tools used in data science and use at least one tool for basic data operations, including tool introduction and analysis workflows using Python, R, Scala, SQL, GitHub, Jupyter Notebooks, RStudio IDE, Watson Studio.",
+            "score": 8.43,
+            "achievement": "good"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "ADY201m",
+            "metadata_field": "tools"
+          },
+          "relation": "related",
+          "canonical_source": "Jupyter Notebooks\n- JupyterLab\n- RStudio IDE\n- Git, GitHub\n-Watson Studio."
+        },
+        {
+          "reference": {
+            "course_code": "DAP391m",
+            "metadata_field": "tools"
+          },
+          "relation": "related",
+          "canonical_source": "Jupyter Notebooks\n- JupyterLab\n- RStudio IDE\n- Git, GitHub\n- Watson Studio."
+        }
+      ],
+      "available_acceptable_sources_by_condition": {
+        "AB-S6": [
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO3"
+          },
+          {
+            "course_code": "ADY201m",
+            "metadata_field": "tools"
+          },
+          {
+            "course_code": "DAP391m",
+            "metadata_field": "tools"
+          }
+        ],
+        "D-S6-D1": [
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO3"
+          },
+          {
+            "course_code": "ADY201m",
+            "metadata_field": "tools"
+          },
+          {
+            "course_code": "DAP391m",
+            "metadata_field": "tools"
+          }
+        ],
+        "D-S6-D2": [
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO3"
+          },
+          {
+            "course_code": "ADY201m",
+            "metadata_field": "tools"
+          },
+          {
+            "course_code": "DAP391m",
+            "metadata_field": "tools"
+          }
+        ]
+      }
+    },
+    {
+      "scenario_id": "S7",
+      "claim_id": "S7-STR",
+      "claim": "PFP191 học Python strings",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "PFP191",
+          "clo": "CLO4"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "acceptable_relations": [
+        "direct"
+      ],
+      "atomic_targets": [
+        "PFP191 học Python strings"
+      ],
+      "annotation_note": "",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "PFP191",
+            "clo": "CLO4"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO4",
+            "description": "Understand Python strings as sequences, including length calculation with len, traversal with loops, slicing, immutability, loop-based counting, membership with the in operator, string comparison, string methods, parsing strings, format operators, and debugging string-related code.",
+            "score": 9.0,
+            "achievement": "excellent"
+          }
+        }
+      ],
+      "available_acceptable_sources_by_condition": {
+        "AB-S7": [
+          {
+            "course_code": "PFP191",
+            "clo": "CLO4"
+          }
+        ],
+        "D-S7-D1": [
+          {
+            "course_code": "PFP191",
+            "clo": "CLO4"
+          }
+        ],
+        "D-S7-D2": [
+          {
+            "course_code": "PFP191",
+            "clo": "CLO4"
+          }
+        ]
+      }
+    },
+    {
+      "scenario_id": "S7",
+      "claim_id": "S7-FILE",
+      "claim": "PFP191 học Python file handling",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "PFP191",
+          "clo": "CLO5"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "acceptable_relations": [
+        "direct"
+      ],
+      "atomic_targets": [
+        "PFP191 học Python file handling"
+      ],
+      "annotation_note": "",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "PFP191",
+            "clo": "CLO5"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO5",
+            "description": "Understand file handling in Python, including persistence, opening files, working with text files and lines, reading files, searching through file contents, allowing users to choose file names, using try, except, and open for safer file access, writing files, and debugging file-processing code.",
+            "score": 9.0,
+            "achievement": "excellent"
+          }
+        }
+      ],
+      "available_acceptable_sources_by_condition": {
+        "AB-S7": [
+          {
+            "course_code": "PFP191",
+            "clo": "CLO5"
+          }
+        ],
+        "D-S7-D1": [
+          {
+            "course_code": "PFP191",
+            "clo": "CLO5"
+          }
+        ],
+        "D-S7-D2": [
+          {
+            "course_code": "PFP191",
+            "clo": "CLO5"
+          }
+        ]
+      }
+    },
+    {
+      "scenario_id": "S7",
+      "claim_id": "S7-FASTAPI",
+      "claim": "Profile xác nhận FastAPI",
+      "acceptable_direct_sources": [],
+      "acceptable_related_sources": [
+        {
+          "course_code": "PFP191",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO6"
+        }
+      ],
+      "acceptable_relations": [
+        "related",
+        "insufficient"
+      ],
+      "atomic_targets": [
+        "Profile xác nhận FastAPI"
+      ],
+      "annotation_note": "",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "PFP191",
+            "clo": "CLO7"
+          },
+          "relation": "related",
+          "canonical_source": {
+            "clo": "CLO7",
+            "description": "Understand object-oriented programming in Python and apply it in application contexts using classes and objects, encapsulation and data hiding, abstraction and modular design, inheritance, polymorphism, method overloading, object usage in OOP programs, object lifecycle, advanced OOP concepts, design patterns, and case studies.",
+            "score": 8.9,
+            "achievement": "excellent"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "ADY201m",
+            "clo": "CLO5"
+          },
+          "relation": "related",
+          "canonical_source": {
+            "clo": "CLO5",
+            "description": "Discuss Python fundamentals, Python libraries, and API support for data science tasks, including understanding Python APIs, collecting data with Python, understanding and preprocessing data in Python, and using Python for data science, AI, and development workflows.",
+            "score": 8.61,
+            "achievement": "excellent"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "DAP391m",
+            "clo": "CLO6"
+          },
+          "relation": "related",
+          "canonical_source": {
+            "clo": "CLO6",
+            "description": "Implementing different techniques to develop applications and AI powered solutions, including Building AI Applications with Watson APIs- Introduction , Building AI Applications with Watson APIs- Introduction , Building AI Applications with Watson APIs- Giving it, Develop applications, AI powered solutions.",
+            "score": 9.1,
+            "achievement": "excellent"
+          }
+        }
+      ],
+      "available_acceptable_sources_by_condition": {
+        "AB-S7": [
+          {
+            "course_code": "PFP191",
+            "clo": "CLO7"
+          }
+        ],
+        "D-S7-D1": [
+          {
+            "course_code": "PFP191",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "DAP391m",
+            "clo": "CLO6"
+          }
+        ],
+        "D-S7-D2": [
+          {
+            "course_code": "PFP191",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "DAP391m",
+            "clo": "CLO6"
+          }
+        ]
+      }
+    },
+    {
+      "scenario_id": "S7",
+      "claim_id": "S7-IDE",
+      "claim": "Visual Studio Code và Google Colab được liệt kê ở PFP191 tools",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "PFP191",
+          "metadata_field": "tools"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "acceptable_relations": [
+        "direct"
+      ],
+      "atomic_targets": [
+        "Visual Studio Code và Google Colab được liệt kê ở PFP191 tools"
+      ],
+      "annotation_note": "The listing is direct contextual evidence; personal use is not confirmed.",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "PFP191",
+            "metadata_field": "tools"
+          },
+          "relation": "direct",
+          "canonical_source": "Visual Studio Code, Google Colab"
+        }
+      ],
+      "available_acceptable_sources_by_condition": {
+        "AB-S7": [
+          {
+            "course_code": "PFP191",
+            "metadata_field": "tools"
+          }
+        ],
+        "D-S7-D1": [
+          {
+            "course_code": "PFP191",
+            "metadata_field": "tools"
+          }
+        ],
+        "D-S7-D2": [
+          {
+            "course_code": "PFP191",
+            "metadata_field": "tools"
+          }
+        ]
+      }
+    },
+    {
+      "scenario_id": "S8",
+      "claim_id": "S8-GRAPH",
+      "claim": "CSD203 graphs và graph algorithms",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "CSD203",
+          "clo": "CLO5"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "acceptable_relations": [
+        "direct"
+      ],
+      "atomic_targets": [
+        "CSD203 graphs và graph algorithms"
+      ],
+      "annotation_note": "",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "CSD203",
+            "clo": "CLO5"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO5",
+            "description": "Discuss graphs and their applications, and implement basic graph operations, including graph representations using edge lists, adjacency lists, and adjacency matrices, depth-first and breadth-first traversal, weighted graphs, shortest paths, Dijkstra's algorithm, minimum spanning trees with Prim-Jarnik and Kruskal algorithms.",
+            "score": 6.06,
+            "achievement": "basic"
+          }
+        }
+      ],
+      "available_acceptable_sources_by_condition": {
+        "AB-S8": [
+          {
+            "course_code": "CSD203",
+            "clo": "CLO5"
+          }
+        ],
+        "D-S8-D1": [
+          {
+            "course_code": "CSD203",
+            "clo": "CLO5"
+          }
+        ],
+        "D-S8-D2": [
+          {
+            "course_code": "CSD203",
+            "clo": "CLO5"
+          }
+        ]
+      }
+    },
+    {
+      "scenario_id": "S8",
+      "claim_id": "S8-SORT",
+      "claim": "CSD203 sorting algorithms",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "CSD203",
+          "clo": "CLO6"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "acceptable_relations": [
+        "direct"
+      ],
+      "atomic_targets": [
+        "CSD203 sorting algorithms"
+      ],
+      "annotation_note": "",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "CSD203",
+            "clo": "CLO6"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO6",
+            "description": "Explain the operation and performance of basic and advanced sorting algorithms, including selection sort, insertion sort, bubble sort, quicksort, merge sort, heap sort, bucket sort, radix sort, and comparison of sorting algorithm performance.",
+            "score": 6.06,
+            "achievement": "basic"
+          }
+        }
+      ],
+      "available_acceptable_sources_by_condition": {
+        "AB-S8": [
+          {
+            "course_code": "CSD203",
+            "clo": "CLO6"
+          }
+        ],
+        "D-S8-D1": [
+          {
+            "course_code": "CSD203",
+            "clo": "CLO6"
+          }
+        ],
+        "D-S8-D2": [
+          {
+            "course_code": "CSD203",
+            "clo": "CLO6"
+          }
+        ],
+        "E5-holdout": [
+          {
+            "course_code": "CSD203",
+            "clo": "CLO6"
+          }
+        ]
+      }
+    },
+    {
+      "scenario_id": "S8",
+      "claim_id": "S8-HASH",
+      "claim": "CSD203 hashing",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "CSD203",
+          "clo": "CLO7"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "acceptable_relations": [
+        "direct"
+      ],
+      "atomic_targets": [
+        "CSD203 hashing"
+      ],
+      "annotation_note": "",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "CSD203",
+            "clo": "CLO7"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO7",
+            "description": "Explain hashing and its applications, including hash tables, hash functions, collision handling, load factors, rehashing, efficiency considerations, and Python hash table implementation.",
+            "score": 6.06,
+            "achievement": "basic"
+          }
+        }
+      ],
+      "available_acceptable_sources_by_condition": {
+        "AB-S8": [
+          {
+            "course_code": "CSD203",
+            "clo": "CLO7"
+          }
+        ],
+        "D-S8-D1": [
+          {
+            "course_code": "CSD203",
+            "clo": "CLO7"
+          }
+        ],
+        "D-S8-D2": [
+          {
+            "course_code": "CSD203",
+            "clo": "CLO7"
+          }
+        ],
+        "E5-holdout": [
+          {
+            "course_code": "CSD203",
+            "clo": "CLO7"
+          }
+        ]
+      }
+    },
+    {
+      "scenario_id": "S8",
+      "claim_id": "S8-BANDS",
+      "claim": "CSD203/CLO5–7 có achievement basic",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "CSD203",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "CSD203",
+          "clo": "CLO6"
+        },
+        {
+          "course_code": "CSD203",
+          "clo": "CLO7"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "acceptable_relations": [
+        "direct"
+      ],
+      "atomic_targets": [
+        "CSD203/CLO5=6.06/basic",
+        "CSD203/CLO6=6.06/basic",
+        "CSD203/CLO7=6.06/basic"
+      ],
+      "annotation_note": "Do not aggregate into a course-level performance label.",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "CSD203",
+            "clo": "CLO5"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO5",
+            "description": "Discuss graphs and their applications, and implement basic graph operations, including graph representations using edge lists, adjacency lists, and adjacency matrices, depth-first and breadth-first traversal, weighted graphs, shortest paths, Dijkstra's algorithm, minimum spanning trees with Prim-Jarnik and Kruskal algorithms.",
+            "score": 6.06,
+            "achievement": "basic"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "CSD203",
+            "clo": "CLO6"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO6",
+            "description": "Explain the operation and performance of basic and advanced sorting algorithms, including selection sort, insertion sort, bubble sort, quicksort, merge sort, heap sort, bucket sort, radix sort, and comparison of sorting algorithm performance.",
+            "score": 6.06,
+            "achievement": "basic"
+          }
+        },
+        {
+          "reference": {
+            "course_code": "CSD203",
+            "clo": "CLO7"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO7",
+            "description": "Explain hashing and its applications, including hash tables, hash functions, collision handling, load factors, rehashing, efficiency considerations, and Python hash table implementation.",
+            "score": 6.06,
+            "achievement": "basic"
+          }
+        }
+      ],
+      "available_acceptable_sources_by_condition": {
+        "AB-S8": [
+          {
+            "course_code": "CSD203",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "CSD203",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "CSD203",
+            "clo": "CLO7"
+          }
+        ],
+        "D-S8-D1": [
+          {
+            "course_code": "CSD203",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "CSD203",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "CSD203",
+            "clo": "CLO7"
+          }
+        ],
+        "D-S8-D2": [
+          {
+            "course_code": "CSD203",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "CSD203",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "CSD203",
+            "clo": "CLO7"
+          }
+        ]
+      }
+    },
+    {
+      "scenario_id": "history-preservation",
+      "claim_id": "H-HYP",
+      "claim": "MAS291 có hypothesis testing",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "MAS291",
+          "clo": "CLO8"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "acceptable_relations": [
+        "direct"
+      ],
+      "atomic_targets": [
+        "MAS291 có hypothesis testing"
+      ],
+      "annotation_note": "",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO8"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO8",
+            "description": "Verify claims about population parameters and differences between population parameters using hypothesis testing, including formulating hypotheses, identifying critical values and test statistics, computing p-values, recognizing testing errors, and conducting tests for single means, single proportions, differences between two means, and differences between two proportions.",
+            "score": 9.43,
+            "achievement": "excellent"
+          }
+        }
+      ],
+      "available_acceptable_sources_by_condition": {
+        "E1-clean": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO8"
+          }
+        ],
+        "E1-clean-D2": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO8"
+          }
+        ],
+        "E2-contaminated": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO8"
+          }
+        ],
+        "E2-contaminated-D2": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO8"
+          }
+        ],
+        "E3-same-course": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO8"
+          }
+        ],
+        "E2-contaminated-repeat": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO8"
+          }
+        ]
+      }
+    },
+    {
+      "scenario_id": "history-preservation",
+      "claim_id": "H-DESCR",
+      "claim": "MAS291 có descriptive statistics",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "MAS291",
+          "clo": "CLO5"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "acceptable_relations": [
+        "direct"
+      ],
+      "atomic_targets": [
+        "MAS291 có descriptive statistics"
+      ],
+      "annotation_note": "",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO5"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO5",
+            "description": "Describe data using numerical summaries and visual displays, including descriptive statistics, stem-and-leaf diagrams, frequency distributions, histograms, box plots, quartiles, outlier identification, and time sequence plots.",
+            "score": 9.15,
+            "achievement": "excellent"
+          }
+        }
+      ],
+      "available_acceptable_sources_by_condition": {
+        "E3-same-course": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO5"
+          }
+        ]
+      }
+    },
+    {
+      "scenario_id": "history-preservation",
+      "claim_id": "H-SAMPLING",
+      "claim": "MAS291 có sampling distributions và central limit theorem",
+      "acceptable_direct_sources": [
+        {
+          "course_code": "MAS291",
+          "clo": "CLO6"
+        }
+      ],
+      "acceptable_related_sources": [],
+      "acceptable_relations": [
+        "direct"
+      ],
+      "atomic_targets": [
+        "MAS291 có sampling distributions và central limit theorem"
+      ],
+      "annotation_note": "",
+      "canonical_evidence": [
+        {
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO6"
+          },
+          "relation": "direct",
+          "canonical_source": {
+            "clo": "CLO6",
+            "description": "Discuss sampling distributions and point estimation, then use the Central Limit Theorem to analyze sampling distributions of means.",
+            "score": 9.15,
+            "achievement": "excellent"
+          }
+        }
+      ],
+      "available_acceptable_sources_by_condition": {
+        "E3-same-course": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO6"
+          }
+        ]
+      }
+    }
+  ],
+  "notes": [
+    "Alternative sources are not all mandatory references.",
+    "Compound claims require each independent atom.",
+    "Absence/related and metadata fact versus personal-use distinctions require manual semantic review.",
+    "Additional semantically valid sources may be independently adjudicated with exact canonical support; record additions rather than silently rewriting frozen expectations."
+  ]
+}

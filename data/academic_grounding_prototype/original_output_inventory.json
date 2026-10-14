@@ -1,0 +1,2551 @@
+{
+  "outputs": [
+    {
+      "operation": "primary-S1-A-S0",
+      "arm": "A",
+      "scope": "S0",
+      "phase": "primary",
+      "status": "completed",
+      "original_output": {
+        "reply": "Trong **MAS291**:\n- **CLO7** là nội dung về **confidence intervals**: *“Construct and interpret confidence intervals for population parameters and differences between population parameters …”* Điểm của CLO này là **9.43**, achievement **excellent**.\n- **CLO9** là nội dung về **simple linear regression**: *“Construct a simple linear regression model and use it for prediction and interpretation …”* Điểm của CLO này là **9.43**, achievement **excellent**.\n\nPhân biệt ngắn gọn: **CLO7** tập trung vào việc lập và diễn giải khoảng tin cậy cho tham số quần thể và chênh lệch giữa các tham số; còn **CLO9** tập trung vào việc xây dựng mô hình hồi quy tuyến tính đơn để dự đoán và diễn giải mối quan hệ giữa biến. Đây là hai kết quả học tập riêng, nên điểm và achievement cũng được xét riêng theo từng CLO.",
+        "evidence": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          }
+        ]
+      },
+      "public_analysis_view": {
+        "reply": "Trong **MAS291**:\n- **CLO7** là nội dung về **confidence intervals**: *“Construct and interpret confidence intervals for population parameters and differences between population parameters …”* Điểm của CLO này là **9.43**, achievement **excellent**.\n- **CLO9** là nội dung về **simple linear regression**: *“Construct a simple linear regression model and use it for prediction and interpretation …”* Điểm của CLO này là **9.43**, achievement **excellent**.\n\nPhân biệt ngắn gọn: **CLO7** tập trung vào việc lập và diễn giải khoảng tin cậy cho tham số quần thể và chênh lệch giữa các tham số; còn **CLO9** tập trung vào việc xây dựng mô hình hồi quy tuyến tính đơn để dự đoán và diễn giải mối quan hệ giữa biến. Đây là hai kết quả học tập riêng, nên điểm và achievement cũng được xét riêng theo từng CLO.",
+        "evidence": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          }
+        ]
+      },
+      "actual_input_sha256": "ff07f028ff49836af45de1a34a19856e0a570ffff3caa0c0219f0609d3f4a154",
+      "raw_equals_parsed": true,
+      "usage": {
+        "input_tokens": 19954,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 310,
+        "output_tokens_details": {
+          "reasoning_tokens": 60
+        },
+        "total_tokens": 20264
+      },
+      "incomplete_details": null
+    },
+    {
+      "operation": "primary-S1-B-S0",
+      "arm": "B",
+      "scope": "S0",
+      "phase": "primary",
+      "status": "completed",
+      "original_output": {
+        "segments": [
+          {
+            "kind": "academic_claim",
+            "text": "Trong MAS291, nội dung về confidence intervals nằm ở CLO7: CLO này yêu cầu “Construct and interpret confidence intervals for population parameters and differences between population parameters...” và có điểm 9.43 với achievement excellent. Còn nội dung về simple linear regression nằm ở CLO9: CLO này yêu cầu “Construct a simple linear regression model and use it for prediction and interpretation...” và cũng có điểm 9.43 với achievement excellent.",
+            "academic_sources": [
+              {
+                "course_code": "MAS291",
+                "clo": "CLO7",
+                "source_excerpt": "Construct and interpret confidence intervals for population parameters and differences between population parameters"
+              },
+              {
+                "course_code": "MAS291",
+                "clo": "CLO9",
+                "source_excerpt": "Construct a simple linear regression model and use it for prediction and interpretation"
+              }
+            ],
+            "jd_excerpt": null
+          },
+          {
+            "kind": "general_explanation",
+            "text": "Phân biệt ngắn gọn: confidence intervals là phần suy luận thống kê để ước lượng khoảng cho tham số tổng thể và chênh lệch giữa các tham số; còn simple linear regression là mô hình hóa mối quan hệ tuyến tính một biến giải thích để dự đoán và diễn giải. Hai nội dung này là hai CLO khác nhau, nên điểm và achievement được tính riêng cho từng CLO.",
+            "academic_sources": [],
+            "jd_excerpt": null
+          }
+        ]
+      },
+      "public_analysis_view": {
+        "reply": "Trong MAS291, nội dung về confidence intervals nằm ở CLO7: CLO này yêu cầu “Construct and interpret confidence intervals for population parameters and differences between population parameters...” và có điểm 9.43 với achievement excellent. Còn nội dung về simple linear regression nằm ở CLO9: CLO này yêu cầu “Construct a simple linear regression model and use it for prediction and interpretation...” và cũng có điểm 9.43 với achievement excellent.\n\nPhân biệt ngắn gọn: confidence intervals là phần suy luận thống kê để ước lượng khoảng cho tham số tổng thể và chênh lệch giữa các tham số; còn simple linear regression là mô hình hóa mối quan hệ tuyến tính một biến giải thích để dự đoán và diễn giải. Hai nội dung này là hai CLO khác nhau, nên điểm và achievement được tính riêng cho từng CLO.",
+        "evidence": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          }
+        ]
+      },
+      "actual_input_sha256": "ff07f028ff49836af45de1a34a19856e0a570ffff3caa0c0219f0609d3f4a154",
+      "raw_equals_parsed": true,
+      "usage": {
+        "input_tokens": 20317,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 353,
+        "output_tokens_details": {
+          "reasoning_tokens": 71
+        },
+        "total_tokens": 20670
+      },
+      "incomplete_details": null
+    },
+    {
+      "operation": "primary-S2-B-S0",
+      "arm": "B",
+      "scope": "S0",
+      "phase": "primary",
+      "status": "completed",
+      "original_output": {
+        "segments": [
+          {
+            "kind": "academic_claim",
+            "text": "CSI106 cho bạn ba nền tảng chính đúng với hai mảng bạn hỏi: (1) biểu diễn dữ liệu, qua phần mô tả môn nêu “Numbering system & data representation” và CLO2 về chuyển đổi cơ số 10/2/8/16; (2) cách dữ liệu được lưu trong máy tính, qua CLO3 nói về dữ liệu dưới dạng bit patterns và các phép toán trên dữ liệu; (3) mạng máy tính, qua CLO4 về các tầng mạng, Internet và mối quan hệ giữa chúng. Nếu nhìn theo hướng Backend Engineering, đây là nền tảng để hiểu cách dữ liệu đi vào/ra hệ thống, cách dịch vụ giao tiếp qua mạng và cách môi trường vận hành của backend hoạt động, nhưng bản thân CSI106 vẫn là kiến thức nền chứ chưa phải bằng chứng trực tiếp cho FastAPI, SQLAlchemy hay event-driven backend cụ thể.",
+            "academic_sources": [
+              {
+                "course_code": "CSI106",
+                "metadata_field": "description",
+                "source_excerpt": "Numbering system & data representation"
+              },
+              {
+                "course_code": "CSI106",
+                "clo": "CLO2",
+                "source_excerpt": "Know how to convert a number from one base to other base( decimal, binary, octal and hexadecimal), including Numbering systems, Positional Number Systems."
+              },
+              {
+                "course_code": "CSI106",
+                "clo": "CLO3",
+                "source_excerpt": "Describe how different data type is stored inside a computer as bit patterns and operations on data, including Data storage and Operations on Data, Logic operations, Shift, Arithmetic operations."
+              },
+              {
+                "course_code": "CSI106",
+                "clo": "CLO4",
+                "source_excerpt": "Describe the layers in networking and their relationship, including Computer Networks, Internet, Overview, and layers in netwoking."
+              },
+              {
+                "course_code": "CSI106",
+                "clo": "CLO5",
+                "source_excerpt": "Undestand the role of OS in a computer system, including Operating System, Components of OS: UI, memory manager, Components of OS: file manager, Components of OS: device manager."
+              }
+            ],
+            "jd_excerpt": null
+          },
+          {
+            "kind": "jd_requirement",
+            "text": "Help build Python REST APIs/services with FastAPI and SQLAlchemy; maintain schemas/queries/caching; integrate AI and enterprise services; contribute to event-driven systems and pipelines.",
+            "academic_sources": [],
+            "jd_excerpt": "Help build Python REST APIs/services with FastAPI and SQLAlchemy; maintain schemas/queries/caching; integrate AI and enterprise services; contribute to event-driven systems and pipelines."
+          }
+        ]
+      },
+      "public_analysis_view": {
+        "reply": "CSI106 cho bạn ba nền tảng chính đúng với hai mảng bạn hỏi: (1) biểu diễn dữ liệu, qua phần mô tả môn nêu “Numbering system & data representation” và CLO2 về chuyển đổi cơ số 10/2/8/16; (2) cách dữ liệu được lưu trong máy tính, qua CLO3 nói về dữ liệu dưới dạng bit patterns và các phép toán trên dữ liệu; (3) mạng máy tính, qua CLO4 về các tầng mạng, Internet và mối quan hệ giữa chúng. Nếu nhìn theo hướng Backend Engineering, đây là nền tảng để hiểu cách dữ liệu đi vào/ra hệ thống, cách dịch vụ giao tiếp qua mạng và cách môi trường vận hành của backend hoạt động, nhưng bản thân CSI106 vẫn là kiến thức nền chứ chưa phải bằng chứng trực tiếp cho FastAPI, SQLAlchemy hay event-driven backend cụ thể.\n\nHelp build Python REST APIs/services with FastAPI and SQLAlchemy; maintain schemas/queries/caching; integrate AI and enterprise services; contribute to event-driven systems and pipelines.",
+        "evidence": [
+          {
+            "course_code": "CSI106",
+            "metadata_field": "description"
+          },
+          {
+            "course_code": "CSI106",
+            "clo": "CLO2"
+          },
+          {
+            "course_code": "CSI106",
+            "clo": "CLO3"
+          },
+          {
+            "course_code": "CSI106",
+            "clo": "CLO4"
+          },
+          {
+            "course_code": "CSI106",
+            "clo": "CLO5"
+          }
+        ]
+      },
+      "actual_input_sha256": "8cd1853caca699c9e6e5ef22acc20adbab46fcc291b34f7cf5a59069828f44a1",
+      "raw_equals_parsed": true,
+      "usage": {
+        "input_tokens": 20283,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 17152
+        },
+        "output_tokens": 5081,
+        "output_tokens_details": {
+          "reasoning_tokens": 4562
+        },
+        "total_tokens": 25364
+      },
+      "incomplete_details": null
+    },
+    {
+      "operation": "primary-S2-A-S0",
+      "arm": "A",
+      "scope": "S0",
+      "phase": "primary",
+      "status": "completed",
+      "original_output": {
+        "reply": "CSI106 cho bạn 2 nền tảng học thuật khá rõ ở đúng hai mảng này:\n\n1. **Biểu diễn dữ liệu**  \n- Ở **CSI106/CLO2**, môn này yêu cầu bạn **“know how to convert a number from one base to other base”** với decimal, binary, octal, hexadecimal. Đây là nền tảng trực tiếp về **number representation / base conversion**.  \n- Ở **CSI106/CLO3**, CLO yêu cầu bạn **“describe how different data type is stored inside a computer as bit patterns and operations on data”**. Nghĩa là môn này còn cho bạn nền tảng về **cách dữ liệu được mã hoá ở mức bit pattern** và các phép toán trên dữ liệu.  \n- Trong mô tả môn học, CSI106 cũng nêu rõ phạm vi có **“Numbering system & data representation”**, nên phần này là nội dung curriculum được xác nhận, không chỉ là suy đoán từ tên môn.\n\n2. **Mạng máy tính**  \n- Ở **CSI106/CLO4**, bạn học **“describe the layers in networking and their relationship”**, tức là nắm được **mô hình lớp mạng** và cách các lớp liên hệ với nhau.  \n- Mô tả môn học cũng xác nhận môn bao gồm **“the concepts of computer networking and internet”**. Vậy đây là nền tảng học thuật về networking ở mức tổng quan, không phải một môn chuyên sâu về backend hay hạ tầng mạng.\n\n**Liên quan thế nào tới Backend Engineering trong JD này?**  \n- Phần **biểu diễn dữ liệu** giúp bạn hiểu dữ liệu đi qua hệ thống backend ở mức nền tảng: số liệu, kiểu dữ liệu, cách máy tính lưu trữ dữ liệu dưới dạng bit pattern. Điều này hỗ trợ tư duy khi làm việc với request/response payload, lưu trữ dữ liệu, và xử lý dữ liệu trong hệ thống.  \n- Phần **mạng máy tính** liên quan trực tiếp hơn tới backend vì backend services vận hành qua các lớp mạng và giao tiếp qua internet. Hiểu **network layers** và quan hệ giữa chúng giúp bạn đọc và suy luận tốt hơn về luồng giao tiếp giữa client, API service, và các thành phần hệ thống.\n\n**Điểm cần phân biệt trong hồ sơ này**  \n- CSI106 cho thấy **nền tảng học thuật về data representation và networking**.  \n- Nhưng riêng môn này **chưa xác nhận trực tiếp** các yêu cầu backend cụ thể trong JD như **FastAPI, SQLAlchemy, REST API design, event-driven systems, queues/caching, hay cloud deployment**. Những phần đó cần bằng chứng CLO riêng nếu muốn khẳng định ở mức học thuật đã học trực tiếp.",
+        "evidence": [
+          {
+            "course_code": "CSI106",
+            "clo": "CLO2"
+          },
+          {
+            "course_code": "CSI106",
+            "clo": "CLO3"
+          },
+          {
+            "course_code": "CSI106",
+            "clo": "CLO4"
+          },
+          {
+            "course_code": "CSI106",
+            "metadata_field": "description"
+          }
+        ]
+      },
+      "public_analysis_view": {
+        "reply": "CSI106 cho bạn 2 nền tảng học thuật khá rõ ở đúng hai mảng này:\n\n1. **Biểu diễn dữ liệu**  \n- Ở **CSI106/CLO2**, môn này yêu cầu bạn **“know how to convert a number from one base to other base”** với decimal, binary, octal, hexadecimal. Đây là nền tảng trực tiếp về **number representation / base conversion**.  \n- Ở **CSI106/CLO3**, CLO yêu cầu bạn **“describe how different data type is stored inside a computer as bit patterns and operations on data”**. Nghĩa là môn này còn cho bạn nền tảng về **cách dữ liệu được mã hoá ở mức bit pattern** và các phép toán trên dữ liệu.  \n- Trong mô tả môn học, CSI106 cũng nêu rõ phạm vi có **“Numbering system & data representation”**, nên phần này là nội dung curriculum được xác nhận, không chỉ là suy đoán từ tên môn.\n\n2. **Mạng máy tính**  \n- Ở **CSI106/CLO4**, bạn học **“describe the layers in networking and their relationship”**, tức là nắm được **mô hình lớp mạng** và cách các lớp liên hệ với nhau.  \n- Mô tả môn học cũng xác nhận môn bao gồm **“the concepts of computer networking and internet”**. Vậy đây là nền tảng học thuật về networking ở mức tổng quan, không phải một môn chuyên sâu về backend hay hạ tầng mạng.\n\n**Liên quan thế nào tới Backend Engineering trong JD này?**  \n- Phần **biểu diễn dữ liệu** giúp bạn hiểu dữ liệu đi qua hệ thống backend ở mức nền tảng: số liệu, kiểu dữ liệu, cách máy tính lưu trữ dữ liệu dưới dạng bit pattern. Điều này hỗ trợ tư duy khi làm việc với request/response payload, lưu trữ dữ liệu, và xử lý dữ liệu trong hệ thống.  \n- Phần **mạng máy tính** liên quan trực tiếp hơn tới backend vì backend services vận hành qua các lớp mạng và giao tiếp qua internet. Hiểu **network layers** và quan hệ giữa chúng giúp bạn đọc và suy luận tốt hơn về luồng giao tiếp giữa client, API service, và các thành phần hệ thống.\n\n**Điểm cần phân biệt trong hồ sơ này**  \n- CSI106 cho thấy **nền tảng học thuật về data representation và networking**.  \n- Nhưng riêng môn này **chưa xác nhận trực tiếp** các yêu cầu backend cụ thể trong JD như **FastAPI, SQLAlchemy, REST API design, event-driven systems, queues/caching, hay cloud deployment**. Những phần đó cần bằng chứng CLO riêng nếu muốn khẳng định ở mức học thuật đã học trực tiếp.",
+        "evidence": [
+          {
+            "course_code": "CSI106",
+            "clo": "CLO2"
+          },
+          {
+            "course_code": "CSI106",
+            "clo": "CLO3"
+          },
+          {
+            "course_code": "CSI106",
+            "clo": "CLO4"
+          },
+          {
+            "course_code": "CSI106",
+            "metadata_field": "description"
+          }
+        ]
+      },
+      "actual_input_sha256": "8cd1853caca699c9e6e5ef22acc20adbab46fcc291b34f7cf5a59069828f44a1",
+      "raw_equals_parsed": true,
+      "usage": {
+        "input_tokens": 19920,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 17152
+        },
+        "output_tokens": 1189,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 21109
+      },
+      "incomplete_details": null
+    },
+    {
+      "operation": "primary-S3-A-S0",
+      "arm": "A",
+      "scope": "S0",
+      "phase": "primary",
+      "status": "completed",
+      "original_output": {
+        "reply": "Trong CPV301, ba chủ đề này nằm ở hai chỗ khác nhau:\n\n- **Mô tả môn học (course description)** nêu rõ phạm vi học phần có “**object detection, object recognition, and object tracking**”. Đây là bằng chứng về **phạm vi chương trình học**.\n- **CPV301/CLO8** ghi: “**Understand and implement object detection techniques**” — đây là chỗ có động từ **implement** cho **object detection**.\n- **CPV301/CLO9** ghi: “**Explain the principles of face recognition and object tracking techniques**” — ở đây động từ học tập là **explain**, không phải implement.\n\nVì vậy, nếu hỏi “động từ học tập có xác nhận triển khai cả ba không?” thì câu trả lời là **không**. Hồ sơ chỉ xác nhận **implement object detection** ở CLO8; còn **face recognition** và **object tracking** ở CLO9 chỉ được xác nhận ở mức **explain the principles**. Nói ngắn gọn: **triển khai trực tiếp được xác nhận cho object detection, còn face recognition và object tracking thì chưa có CLO nào ghi implement**.",
+        "evidence": [
+          {
+            "course_code": "CPV301",
+            "metadata_field": "description"
+          },
+          {
+            "course_code": "CPV301",
+            "clo": "CLO8"
+          },
+          {
+            "course_code": "CPV301",
+            "clo": "CLO9"
+          }
+        ]
+      },
+      "public_analysis_view": {
+        "reply": "Trong CPV301, ba chủ đề này nằm ở hai chỗ khác nhau:\n\n- **Mô tả môn học (course description)** nêu rõ phạm vi học phần có “**object detection, object recognition, and object tracking**”. Đây là bằng chứng về **phạm vi chương trình học**.\n- **CPV301/CLO8** ghi: “**Understand and implement object detection techniques**” — đây là chỗ có động từ **implement** cho **object detection**.\n- **CPV301/CLO9** ghi: “**Explain the principles of face recognition and object tracking techniques**” — ở đây động từ học tập là **explain**, không phải implement.\n\nVì vậy, nếu hỏi “động từ học tập có xác nhận triển khai cả ba không?” thì câu trả lời là **không**. Hồ sơ chỉ xác nhận **implement object detection** ở CLO8; còn **face recognition** và **object tracking** ở CLO9 chỉ được xác nhận ở mức **explain the principles**. Nói ngắn gọn: **triển khai trực tiếp được xác nhận cho object detection, còn face recognition và object tracking thì chưa có CLO nào ghi implement**.",
+        "evidence": [
+          {
+            "course_code": "CPV301",
+            "metadata_field": "description"
+          },
+          {
+            "course_code": "CPV301",
+            "clo": "CLO8"
+          },
+          {
+            "course_code": "CPV301",
+            "clo": "CLO9"
+          }
+        ]
+      },
+      "actual_input_sha256": "8a65d8f985eb9c9a3ea8b69d8efeb13bf943c945a00e18327adccdd4275ad7e7",
+      "raw_equals_parsed": true,
+      "usage": {
+        "input_tokens": 19967,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 17152
+        },
+        "output_tokens": 665,
+        "output_tokens_details": {
+          "reasoning_tokens": 351
+        },
+        "total_tokens": 20632
+      },
+      "incomplete_details": null
+    },
+    {
+      "operation": "primary-S3-B-S0",
+      "arm": "B",
+      "scope": "S0",
+      "phase": "primary",
+      "status": "completed",
+      "original_output": {
+        "segments": [
+          {
+            "kind": "academic_claim",
+            "text": "Trong CPV301, object detection nằm rõ ở CLO8: “Understand and implement object detection techniques.” Face recognition và object tracking nằm ở CLO9: “Explain the principles of face recognition and object tracking techniques.” Ở phần mô tả học phần, môn cũng nêu các nội dung “object detection, object recognition, and object tracking”, nhưng đó là phạm vi nội dung được học chứ chưa tự động đồng nghĩa với thực hành triển khai cả ba.",
+            "academic_sources": [
+              {
+                "course_code": "CPV301",
+                "metadata_field": "description",
+                "source_excerpt": "advanced image processing knowledge such as Image segmentation, object detection, object recognition, and object tracking"
+              },
+              {
+                "course_code": "CPV301",
+                "clo": "CLO8",
+                "source_excerpt": "Understand and implement object detection techniques."
+              },
+              {
+                "course_code": "CPV301",
+                "clo": "CLO9",
+                "source_excerpt": "Explain the principles of face recognition and object tracking techniques."
+              }
+            ],
+            "jd_excerpt": null
+          },
+          {
+            "kind": "general_explanation",
+            "text": "Vì vậy, động từ “implement” chỉ được xác nhận trực tiếp cho object detection. Còn face recognition và object tracking trong hồ sơ này mới được xác nhận ở mức explain principles/nhận biết lý thuyết kỹ thuật, chưa có CLO nào nói rõ triển khai hai phần đó.",
+            "academic_sources": [],
+            "jd_excerpt": null
+          }
+        ]
+      },
+      "public_analysis_view": {
+        "reply": "Trong CPV301, object detection nằm rõ ở CLO8: “Understand and implement object detection techniques.” Face recognition và object tracking nằm ở CLO9: “Explain the principles of face recognition and object tracking techniques.” Ở phần mô tả học phần, môn cũng nêu các nội dung “object detection, object recognition, and object tracking”, nhưng đó là phạm vi nội dung được học chứ chưa tự động đồng nghĩa với thực hành triển khai cả ba.\n\nVì vậy, động từ “implement” chỉ được xác nhận trực tiếp cho object detection. Còn face recognition và object tracking trong hồ sơ này mới được xác nhận ở mức explain principles/nhận biết lý thuyết kỹ thuật, chưa có CLO nào nói rõ triển khai hai phần đó.",
+        "evidence": [
+          {
+            "course_code": "CPV301",
+            "metadata_field": "description"
+          },
+          {
+            "course_code": "CPV301",
+            "clo": "CLO8"
+          },
+          {
+            "course_code": "CPV301",
+            "clo": "CLO9"
+          }
+        ]
+      },
+      "actual_input_sha256": "8a65d8f985eb9c9a3ea8b69d8efeb13bf943c945a00e18327adccdd4275ad7e7",
+      "raw_equals_parsed": true,
+      "usage": {
+        "input_tokens": 20330,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 17152
+        },
+        "output_tokens": 809,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 21139
+      },
+      "incomplete_details": null
+    },
+    {
+      "operation": "primary-S5-B-S0",
+      "arm": "B",
+      "scope": "S0",
+      "phase": "primary",
+      "status": "completed",
+      "original_output": {
+        "segments": [
+          {
+            "kind": "academic_claim",
+            "text": "Tóm tắt ngắn: bạn có bằng chứng học thuật cho confidence intervals ở MAS291/CLO7 với score 9.43 và achievement excellent; CLO này yêu cầu xây dựng và diễn giải confidence intervals cho population parameters và differences between population parameters. Hypothesis testing cũng được xác nhận riêng ở MAS291/CLO8 với score 9.43, achievement excellent, vì CLO này yêu cầu verify claims about population parameters bằng hypothesis testing. Simple linear regression nằm ở MAS291/CLO9 với score 9.43, achievement excellent, trong đó CLO nêu xây dựng mô hình simple linear regression để prediction và interpretation. PCA nằm ở MAI391/CLO6 với score 9.4, achievement excellent, trong đó CLO nêu apply dimensionality reduction with PCA.",
+            "academic_sources": [
+              {
+                "course_code": "MAS291",
+                "clo": "CLO7",
+                "source_excerpt": "Construct and interpret confidence intervals for population parameters and differences between population parameters, including intervals for means of normal distributions with known or unknown variance, large-sample intervals for population proportions, inference on differences between two means, and inference on differences between two proportions."
+              },
+              {
+                "course_code": "MAS291",
+                "clo": "CLO8",
+                "source_excerpt": "Verify claims about population parameters and differences between population parameters using hypothesis testing, including formulating hypotheses, identifying critical values and test statistics, computing p-values, recognizing testing errors, and conducting tests for single means, single proportions, differences between two means, and differences between two proportions."
+              },
+              {
+                "course_code": "MAS291",
+                "clo": "CLO9",
+                "source_excerpt": "Construct a simple linear regression model and use it for prediction and interpretation, including empirical models, least-squares estimation, sums of squares, regression equations, correlation coefficients, properties of least-squares estimators, and hypothesis tests for significance in simple linear regression."
+              },
+              {
+                "course_code": "MAI391",
+                "clo": "CLO6",
+                "source_excerpt": "Apply dimensionality reduction with PCA, including covariance matrices, maximum-variance subspaces, principal subspace bases, low-rank matrix approximation, PCA in high dimensions, projection perspectives, eigenvector computation, and key practical PCA steps."
+              }
+            ],
+            "jd_excerpt": null
+          }
+        ]
+      },
+      "public_analysis_view": {
+        "reply": "Tóm tắt ngắn: bạn có bằng chứng học thuật cho confidence intervals ở MAS291/CLO7 với score 9.43 và achievement excellent; CLO này yêu cầu xây dựng và diễn giải confidence intervals cho population parameters và differences between population parameters. Hypothesis testing cũng được xác nhận riêng ở MAS291/CLO8 với score 9.43, achievement excellent, vì CLO này yêu cầu verify claims about population parameters bằng hypothesis testing. Simple linear regression nằm ở MAS291/CLO9 với score 9.43, achievement excellent, trong đó CLO nêu xây dựng mô hình simple linear regression để prediction và interpretation. PCA nằm ở MAI391/CLO6 với score 9.4, achievement excellent, trong đó CLO nêu apply dimensionality reduction with PCA.",
+        "evidence": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO8"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          },
+          {
+            "course_code": "MAI391",
+            "clo": "CLO6"
+          }
+        ]
+      },
+      "actual_input_sha256": "82ba511bec4442992b3f593386db12d8e295cf5338ede618d82a2bd1f2325d3a",
+      "raw_equals_parsed": true,
+      "usage": {
+        "input_tokens": 20731,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 19712
+        },
+        "output_tokens": 1837,
+        "output_tokens_details": {
+          "reasoning_tokens": 1375
+        },
+        "total_tokens": 22568
+      },
+      "incomplete_details": null
+    },
+    {
+      "operation": "primary-S5-A-S0",
+      "arm": "A",
+      "scope": "S0",
+      "phase": "primary",
+      "status": "completed",
+      "original_output": {
+        "reply": "Tóm lại, hồ sơ của bạn đã xác nhận trực tiếp bốn nội dung mình vừa trao đổi, nhưng mỗi nội dung nằm ở CLO riêng:\n\n- **MAS291/CLO7**: *Construct and interpret confidence intervals for population parameters and differences between population parameters...* — **9.43, excellent**.\n- **MAS291/CLO8**: *Verify claims about population parameters and differences between population parameters using hypothesis testing...* — **9.43, excellent**.\n- **MAS291/CLO9**: *Construct a simple linear regression model and use it for prediction and interpretation...* — **9.43, excellent**.\n- **MAI391/CLO6**: *Apply dimensionality reduction with PCA...* — **9.4, excellent**.\n\nNếu gộp theo chủ đề thì hồ sơ có bằng chứng học thuật cho **confidence intervals**, **hypothesis testing**, **simple linear regression** và **PCA**; tuy nhiên, các nhãn/điểm này thuộc **từng CLO riêng**, không phải một mức tổng thể cho cả mảng thống kê hay machine learning.",
+        "evidence": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO8"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          },
+          {
+            "course_code": "MAI391",
+            "clo": "CLO6"
+          }
+        ]
+      },
+      "public_analysis_view": {
+        "reply": "Tóm lại, hồ sơ của bạn đã xác nhận trực tiếp bốn nội dung mình vừa trao đổi, nhưng mỗi nội dung nằm ở CLO riêng:\n\n- **MAS291/CLO7**: *Construct and interpret confidence intervals for population parameters and differences between population parameters...* — **9.43, excellent**.\n- **MAS291/CLO8**: *Verify claims about population parameters and differences between population parameters using hypothesis testing...* — **9.43, excellent**.\n- **MAS291/CLO9**: *Construct a simple linear regression model and use it for prediction and interpretation...* — **9.43, excellent**.\n- **MAI391/CLO6**: *Apply dimensionality reduction with PCA...* — **9.4, excellent**.\n\nNếu gộp theo chủ đề thì hồ sơ có bằng chứng học thuật cho **confidence intervals**, **hypothesis testing**, **simple linear regression** và **PCA**; tuy nhiên, các nhãn/điểm này thuộc **từng CLO riêng**, không phải một mức tổng thể cho cả mảng thống kê hay machine learning.",
+        "evidence": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO8"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          },
+          {
+            "course_code": "MAI391",
+            "clo": "CLO6"
+          }
+        ]
+      },
+      "actual_input_sha256": "82ba511bec4442992b3f593386db12d8e295cf5338ede618d82a2bd1f2325d3a",
+      "raw_equals_parsed": true,
+      "usage": {
+        "input_tokens": 20368,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 19712
+        },
+        "output_tokens": 1344,
+        "output_tokens_details": {
+          "reasoning_tokens": 1034
+        },
+        "total_tokens": 21712
+      },
+      "incomplete_details": null
+    },
+    {
+      "operation": "primary-S6-A-S0",
+      "arm": "A",
+      "scope": "S0",
+      "phase": "primary",
+      "status": "completed",
+      "original_output": {
+        "reply": "Tóm lại, các nội dung học thuật đã trao đổi xoay quanh 4 cụm chính:\n\n- **Statistics**: MAS291/CLO5 nói về mô tả dữ liệu bằng numerical summaries và visual displays như descriptive statistics, histograms, box plots, quartiles, outliers; **9.15, excellent**. MAS291/CLO6 nói về sampling distributions, point estimation và Central Limit Theorem; **9.15, excellent**. MAS291/CLO7 nói về confidence intervals cho tham số tổng thể và chênh lệch giữa các tham số; **9.43, excellent**. MAS291/CLO8 nói về hypothesis testing, p-values, critical values và các kiểm định cho means/proportions; **9.43, excellent**. MAS291/CLO9 nói về simple linear regression cho prediction và interpretation; **9.43, excellent**.\n\n- **Data processing / analysis**: DAP391m/CLO2 bao gồm import dữ liệu từ nhiều nguồn, clean/wrangle data, exploratory data analysis và tạo visualizations; **8.79, excellent**. DAP391m/CLO7 bao gồm mini capstone với data collection, data wrangling, EDA, model development, model evaluation và reporting; **9.1, excellent**. ADY201m/CLO7 bao gồm guided project với Python fundamentals, data structures, SQL/database access, preprocessing, modeling, evaluation, deployment, visualization và reporting; **8.61, excellent**. AIL303m/CLO1 bổ sung retrieving và cleaning data từ SQL, NoSQL, APIs, Cloud; **7.56, good**.\n\n- **ML/DL foundations**: AIG202c/CLO2 giải thích các khái niệm nền tảng về Machine Learning, Deep Learning và Neural Networks; **8.0, good**. AIL303m/CLO4 bao gồm supervised models như Linear Regression; **8.39, good**. AIL303m/CLO8 và CLO9 bao gồm clustering, dimensionality reduction và các kỹ thuật liên quan; cả hai đều **6.87, basic**. MAI391/CLO5 bao gồm linear regression; **9.4, excellent**. MAI391/CLO6 bao gồm PCA; **9.4, excellent**. MAI391/CLO7 bao gồm SVM classification; **9.4, excellent**.\n\n- **SQL và visualization**: DBI202/CLO5 bao gồm SQL DDL/DML, basic queries, multi-relation queries, nested queries và database modifications trên Microsoft SQL Server; **5.96, basic**. DBI202/CLO6 bao gồm T-SQL, views, cursors, stored procedures, functions, triggers và transaction concepts; **5.96, basic**. ADY201m/CLO1 bao gồm foundational SQL knowledge trong data science, với database fundamentals, nested queries và multi-table SELECT; **8.3, good**. ADY201m/CLO7 tiếp tục gắn SQL/database access vào workflow của một guided project; **8.61, excellent**. Riêng phần visualization, DAP391m mô tả học phần có data visualization tools and techniques và interactive dashboards; DAP391m/CLO2, CLO4 và CLO7 đều củng cố nội dung này ở bối cảnh học thuật, nhưng hồ sơ chưa nêu một visualization tool cụ thể như Power BI/Tableau/Google Data Studio.\n\nNếu nhìn ngắn gọn hơn, phần được xác nhận rõ nhất là **statistics**, **data processing/analysis**, **Python cho data analysis**, và **ML foundations**; còn **SQL** có nhiều CLO riêng với các mức achievement khác nhau, nên không nên gom thành một mức tổng thể.",
+        "evidence": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO8"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          },
+          {
+            "course_code": "DAP391m",
+            "clo": "CLO2"
+          },
+          {
+            "course_code": "DAP391m",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "AIL303m",
+            "clo": "CLO1"
+          },
+          {
+            "course_code": "AIG202c",
+            "clo": "CLO2"
+          },
+          {
+            "course_code": "AIL303m",
+            "clo": "CLO4"
+          },
+          {
+            "course_code": "AIL303m",
+            "clo": "CLO8"
+          },
+          {
+            "course_code": "AIL303m",
+            "clo": "CLO9"
+          },
+          {
+            "course_code": "MAI391",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "MAI391",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "MAI391",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "DBI202",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "DBI202",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO1"
+          },
+          {
+            "course_code": "DAP391m",
+            "metadata_field": "description"
+          },
+          {
+            "course_code": "DAP391m",
+            "clo": "CLO4"
+          }
+        ]
+      },
+      "public_analysis_view": {
+        "reply": "Tóm lại, các nội dung học thuật đã trao đổi xoay quanh 4 cụm chính:\n\n- **Statistics**: MAS291/CLO5 nói về mô tả dữ liệu bằng numerical summaries và visual displays như descriptive statistics, histograms, box plots, quartiles, outliers; **9.15, excellent**. MAS291/CLO6 nói về sampling distributions, point estimation và Central Limit Theorem; **9.15, excellent**. MAS291/CLO7 nói về confidence intervals cho tham số tổng thể và chênh lệch giữa các tham số; **9.43, excellent**. MAS291/CLO8 nói về hypothesis testing, p-values, critical values và các kiểm định cho means/proportions; **9.43, excellent**. MAS291/CLO9 nói về simple linear regression cho prediction và interpretation; **9.43, excellent**.\n\n- **Data processing / analysis**: DAP391m/CLO2 bao gồm import dữ liệu từ nhiều nguồn, clean/wrangle data, exploratory data analysis và tạo visualizations; **8.79, excellent**. DAP391m/CLO7 bao gồm mini capstone với data collection, data wrangling, EDA, model development, model evaluation và reporting; **9.1, excellent**. ADY201m/CLO7 bao gồm guided project với Python fundamentals, data structures, SQL/database access, preprocessing, modeling, evaluation, deployment, visualization và reporting; **8.61, excellent**. AIL303m/CLO1 bổ sung retrieving và cleaning data từ SQL, NoSQL, APIs, Cloud; **7.56, good**.\n\n- **ML/DL foundations**: AIG202c/CLO2 giải thích các khái niệm nền tảng về Machine Learning, Deep Learning và Neural Networks; **8.0, good**. AIL303m/CLO4 bao gồm supervised models như Linear Regression; **8.39, good**. AIL303m/CLO8 và CLO9 bao gồm clustering, dimensionality reduction và các kỹ thuật liên quan; cả hai đều **6.87, basic**. MAI391/CLO5 bao gồm linear regression; **9.4, excellent**. MAI391/CLO6 bao gồm PCA; **9.4, excellent**. MAI391/CLO7 bao gồm SVM classification; **9.4, excellent**.\n\n- **SQL và visualization**: DBI202/CLO5 bao gồm SQL DDL/DML, basic queries, multi-relation queries, nested queries và database modifications trên Microsoft SQL Server; **5.96, basic**. DBI202/CLO6 bao gồm T-SQL, views, cursors, stored procedures, functions, triggers và transaction concepts; **5.96, basic**. ADY201m/CLO1 bao gồm foundational SQL knowledge trong data science, với database fundamentals, nested queries và multi-table SELECT; **8.3, good**. ADY201m/CLO7 tiếp tục gắn SQL/database access vào workflow của một guided project; **8.61, excellent**. Riêng phần visualization, DAP391m mô tả học phần có data visualization tools and techniques và interactive dashboards; DAP391m/CLO2, CLO4 và CLO7 đều củng cố nội dung này ở bối cảnh học thuật, nhưng hồ sơ chưa nêu một visualization tool cụ thể như Power BI/Tableau/Google Data Studio.\n\nNếu nhìn ngắn gọn hơn, phần được xác nhận rõ nhất là **statistics**, **data processing/analysis**, **Python cho data analysis**, và **ML foundations**; còn **SQL** có nhiều CLO riêng với các mức achievement khác nhau, nên không nên gom thành một mức tổng thể.",
+        "evidence": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO8"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          },
+          {
+            "course_code": "DAP391m",
+            "clo": "CLO2"
+          },
+          {
+            "course_code": "DAP391m",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "AIL303m",
+            "clo": "CLO1"
+          },
+          {
+            "course_code": "AIG202c",
+            "clo": "CLO2"
+          },
+          {
+            "course_code": "AIL303m",
+            "clo": "CLO4"
+          },
+          {
+            "course_code": "AIL303m",
+            "clo": "CLO8"
+          },
+          {
+            "course_code": "AIL303m",
+            "clo": "CLO9"
+          },
+          {
+            "course_code": "MAI391",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "MAI391",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "MAI391",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "DBI202",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "DBI202",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO1"
+          },
+          {
+            "course_code": "DAP391m",
+            "metadata_field": "description"
+          },
+          {
+            "course_code": "DAP391m",
+            "clo": "CLO4"
+          }
+        ]
+      },
+      "actual_input_sha256": "1125364a02d8ae149e83549ef0d2f63a92d2fd2d2fa77b9f87494d91fe5ef1e5",
+      "raw_equals_parsed": true,
+      "usage": {
+        "input_tokens": 20391,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 19200
+        },
+        "output_tokens": 2650,
+        "output_tokens_details": {
+          "reasoning_tokens": 1552
+        },
+        "total_tokens": 23041
+      },
+      "incomplete_details": null
+    },
+    {
+      "operation": "primary-S6-B-S0",
+      "arm": "B",
+      "scope": "S0",
+      "phase": "primary",
+      "status": "completed",
+      "original_output": {
+        "segments": [
+          {
+            "kind": "general_explanation",
+            "text": "Mình tóm gọn theo từng nhóm nội dung học thuật đã nhắc trong cuộc trao đổi, và giữ nguyên điểm/achievement khi nêu lại từng CLO.",
+            "academic_sources": [],
+            "jd_excerpt": null
+          },
+          {
+            "kind": "academic_claim",
+            "text": "Về statistics, hồ sơ của bạn có MAS291/CLO5 với nội dung \"Describe data using numerical summaries and visual displays\", điểm 9.15, achievement excellent; MAS291/CLO6 với \"Discuss sampling distributions and point estimation\", điểm 9.15, achievement excellent; MAS291/CLO7 với \"Construct and interpret confidence intervals\", điểm 9.43, achievement excellent; MAS291/CLO8 với \"Verify claims about population parameters\", điểm 9.43, achievement excellent; và MAS291/CLO9 với \"Construct a simple linear regression model\", điểm 9.43, achievement excellent. Ngoài ra, ADY201m/CLO6 cũng bổ sung mảng statistics for data science với mean, median, mode, variance, standard deviation, data visualization, probability distributions và regression analysis, điểm 8.61, achievement excellent.",
+            "academic_sources": [
+              {
+                "course_code": "MAS291",
+                "clo": "CLO5",
+                "source_excerpt": "Describe data using numerical summaries and visual displays"
+              },
+              {
+                "course_code": "MAS291",
+                "clo": "CLO6",
+                "source_excerpt": "Discuss sampling distributions and point estimation"
+              },
+              {
+                "course_code": "MAS291",
+                "clo": "CLO7",
+                "source_excerpt": "Construct and interpret confidence intervals"
+              },
+              {
+                "course_code": "MAS291",
+                "clo": "CLO8",
+                "source_excerpt": "Verify claims about population parameters"
+              },
+              {
+                "course_code": "MAS291",
+                "clo": "CLO9",
+                "source_excerpt": "Construct a simple linear regression model"
+              },
+              {
+                "course_code": "ADY201m",
+                "clo": "CLO6",
+                "source_excerpt": "Explain statistics for data science, including mean, median, mode, variance, standard deviation, data visualization, probability distributions, and regression analysis"
+              }
+            ],
+            "jd_excerpt": null
+          },
+          {
+            "kind": "academic_claim",
+            "text": "Về data processing/analysis và visualization, DAP391m/CLO2 nêu \"import data from multiple sources, clean and wrangle data, perform exploratory data analysis (EDA), and create meaningful data visualizations\", điểm 8.79, achievement excellent; DAP391m/CLO7 nêu mini capstone với data collection, data wrangling, EDA, data visualization, model development, model evaluation và reporting, điểm 9.1, achievement excellent. ADY201m/CLO7 cũng cho thấy một guided project trong đó bạn áp dụng Python fundamentals, Python data structures, SQL/database access, data understanding, preprocessing, modeling, evaluation, deployment, visualization, probability, regression analysis và final reporting, điểm 8.61, achievement excellent.",
+            "academic_sources": [
+              {
+                "course_code": "DAP391m",
+                "clo": "CLO2",
+                "source_excerpt": "import data from multiple sources, clean and wrangle data, perform exploratory data analysis (EDA), and create meaningful data visualizations"
+              },
+              {
+                "course_code": "DAP391m",
+                "clo": "CLO7",
+                "source_excerpt": "Implement the small mini capstone data science project includes steps: involving data collection, data wrangling, exploratory data analysis, data visualization, model development, model evaluation, and reporting"
+              },
+              {
+                "course_code": "ADY201m",
+                "clo": "CLO7",
+                "source_excerpt": "Implement a small data science project by applying Python fundamentals, Python data structures, SQL/database access, data understanding, preprocessing, modeling, evaluation, deployment, visualization, probability, regression analysis, and final reporting"
+              }
+            ],
+            "jd_excerpt": null
+          },
+          {
+            "kind": "academic_claim",
+            "text": "Về Python, PFP191/CLO7 có nội dung \"Understand object-oriented programming in Python and apply it in application contexts\", điểm 8.9, achievement excellent; PFP191/CLO1–CLO6 lần lượt bao phủ Python environment, variables/statements, conditionals/functions/loops, strings, file handling, và lists/dictionaries/tuples, đều có achievement excellent. ADY201m/CLO5 cũng nêu Python fundamentals, Python libraries, API support và Python for data science, AI, and development workflows, điểm 8.61, achievement excellent.",
+            "academic_sources": [
+              {
+                "course_code": "PFP191",
+                "clo": "CLO7",
+                "source_excerpt": "Understand object-oriented programming in Python and apply it in application contexts"
+              },
+              {
+                "course_code": "PFP191",
+                "clo": "CLO1",
+                "source_excerpt": "Understand the Python programming environment and foundational programming concepts"
+              },
+              {
+                "course_code": "PFP191",
+                "clo": "CLO2",
+                "source_excerpt": "Understand Python variables, expressions, and statements"
+              },
+              {
+                "course_code": "PFP191",
+                "clo": "CLO3",
+                "source_excerpt": "Understand conditional execution, functions, loops, and iteration in Python"
+              },
+              {
+                "course_code": "PFP191",
+                "clo": "CLO4",
+                "source_excerpt": "Understand Python strings as sequences"
+              },
+              {
+                "course_code": "PFP191",
+                "clo": "CLO5",
+                "source_excerpt": "Understand file handling in Python"
+              },
+              {
+                "course_code": "PFP191",
+                "clo": "CLO6",
+                "source_excerpt": "Understand Python lists, dictionaries, and tuples as core data structures"
+              },
+              {
+                "course_code": "ADY201m",
+                "clo": "CLO5",
+                "source_excerpt": "Discuss Python fundamentals, Python libraries, and API support for data science tasks"
+              }
+            ],
+            "jd_excerpt": null
+          },
+          {
+            "kind": "academic_claim",
+            "text": "Về SQL và database, DBI202/CLO5 có \"Be proficient in SQL\" với DDL/DML, basic queries, multi-relation queries, nested queries và database modifications, điểm 5.96, achievement basic; DBI202/CLO6 có T-SQL database programming concepts in Microsoft SQL Server với views, cursors, stored procedures, functions, triggers và transaction concepts, điểm 5.96, achievement basic. ADY201m/CLO1 bổ sung foundational SQL language knowledge trong bối cảnh data science, gồm accessing databases with Python, basic through advanced SQL-based data analysis, database fundamentals, nested queries và multi-table SELECT statements, điểm 8.3, achievement good.",
+            "academic_sources": [
+              {
+                "course_code": "DBI202",
+                "clo": "CLO5",
+                "source_excerpt": "Be proficient in SQL"
+              },
+              {
+                "course_code": "DBI202",
+                "clo": "CLO6",
+                "source_excerpt": "Understand T-SQL database programming concepts in Microsoft SQL Server"
+              },
+              {
+                "course_code": "ADY201m",
+                "clo": "CLO1",
+                "source_excerpt": "Understand relational database concepts and foundational SQL language knowledge in the context of data science work"
+              }
+            ],
+            "jd_excerpt": null
+          },
+          {
+            "kind": "academic_claim",
+            "text": "Về ML/DL và các nền tảng liên quan, AIG202c/CLO2 giải thích underlying concepts related to Machine Learning, Deep Learning and Neural Networks, điểm 8.0, achievement good. AIL303m/CLO4 nêu supervised models, including Linear Regression, điểm 8.39, achievement good; AIL303m/CLO9 nêu common clustering and dimensionality-reduction algorithms, điểm 6.87, achievement basic; và MAI391/CLO6, CLO7 lần lượt bao gồm PCA và SVM classification, đều đạt 9.4, achievement excellent. Nếu nhìn riêng phần statistics/machine learning foundations đã trao đổi, đây là các mảnh bằng chứng học thuật trực tiếp.",
+            "academic_sources": [
+              {
+                "course_code": "AIG202c",
+                "clo": "CLO2",
+                "source_excerpt": "Explain underlying concepts related to Machine Learning, Deep Learning and Neural Networks"
+              },
+              {
+                "course_code": "AIL303m",
+                "clo": "CLO4",
+                "source_excerpt": "describe and use supervised models, including Introduction to Supervised Machine Learning, Linear Regression"
+              },
+              {
+                "course_code": "AIL303m",
+                "clo": "CLO9",
+                "source_excerpt": "describe and use common clustering and dimensionality-reduction algorithms"
+              },
+              {
+                "course_code": "MAI391",
+                "clo": "CLO6",
+                "source_excerpt": "Apply dimensionality reduction with PCA"
+              },
+              {
+                "course_code": "MAI391",
+                "clo": "CLO7",
+                "source_excerpt": "Apply support vector machine classification"
+              }
+            ],
+            "jd_excerpt": null
+          }
+        ]
+      },
+      "public_analysis_view": {
+        "reply": "Mình tóm gọn theo từng nhóm nội dung học thuật đã nhắc trong cuộc trao đổi, và giữ nguyên điểm/achievement khi nêu lại từng CLO.\n\nVề statistics, hồ sơ của bạn có MAS291/CLO5 với nội dung \"Describe data using numerical summaries and visual displays\", điểm 9.15, achievement excellent; MAS291/CLO6 với \"Discuss sampling distributions and point estimation\", điểm 9.15, achievement excellent; MAS291/CLO7 với \"Construct and interpret confidence intervals\", điểm 9.43, achievement excellent; MAS291/CLO8 với \"Verify claims about population parameters\", điểm 9.43, achievement excellent; và MAS291/CLO9 với \"Construct a simple linear regression model\", điểm 9.43, achievement excellent. Ngoài ra, ADY201m/CLO6 cũng bổ sung mảng statistics for data science với mean, median, mode, variance, standard deviation, data visualization, probability distributions và regression analysis, điểm 8.61, achievement excellent.\n\nVề data processing/analysis và visualization, DAP391m/CLO2 nêu \"import data from multiple sources, clean and wrangle data, perform exploratory data analysis (EDA), and create meaningful data visualizations\", điểm 8.79, achievement excellent; DAP391m/CLO7 nêu mini capstone với data collection, data wrangling, EDA, data visualization, model development, model evaluation và reporting, điểm 9.1, achievement excellent. ADY201m/CLO7 cũng cho thấy một guided project trong đó bạn áp dụng Python fundamentals, Python data structures, SQL/database access, data understanding, preprocessing, modeling, evaluation, deployment, visualization, probability, regression analysis và final reporting, điểm 8.61, achievement excellent.\n\nVề Python, PFP191/CLO7 có nội dung \"Understand object-oriented programming in Python and apply it in application contexts\", điểm 8.9, achievement excellent; PFP191/CLO1–CLO6 lần lượt bao phủ Python environment, variables/statements, conditionals/functions/loops, strings, file handling, và lists/dictionaries/tuples, đều có achievement excellent. ADY201m/CLO5 cũng nêu Python fundamentals, Python libraries, API support và Python for data science, AI, and development workflows, điểm 8.61, achievement excellent.\n\nVề SQL và database, DBI202/CLO5 có \"Be proficient in SQL\" với DDL/DML, basic queries, multi-relation queries, nested queries và database modifications, điểm 5.96, achievement basic; DBI202/CLO6 có T-SQL database programming concepts in Microsoft SQL Server với views, cursors, stored procedures, functions, triggers và transaction concepts, điểm 5.96, achievement basic. ADY201m/CLO1 bổ sung foundational SQL language knowledge trong bối cảnh data science, gồm accessing databases with Python, basic through advanced SQL-based data analysis, database fundamentals, nested queries và multi-table SELECT statements, điểm 8.3, achievement good.\n\nVề ML/DL và các nền tảng liên quan, AIG202c/CLO2 giải thích underlying concepts related to Machine Learning, Deep Learning and Neural Networks, điểm 8.0, achievement good. AIL303m/CLO4 nêu supervised models, including Linear Regression, điểm 8.39, achievement good; AIL303m/CLO9 nêu common clustering and dimensionality-reduction algorithms, điểm 6.87, achievement basic; và MAI391/CLO6, CLO7 lần lượt bao gồm PCA và SVM classification, đều đạt 9.4, achievement excellent. Nếu nhìn riêng phần statistics/machine learning foundations đã trao đổi, đây là các mảnh bằng chứng học thuật trực tiếp.",
+        "evidence": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO8"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          },
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "DAP391m",
+            "clo": "CLO2"
+          },
+          {
+            "course_code": "DAP391m",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "PFP191",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "PFP191",
+            "clo": "CLO1"
+          },
+          {
+            "course_code": "PFP191",
+            "clo": "CLO2"
+          },
+          {
+            "course_code": "PFP191",
+            "clo": "CLO3"
+          },
+          {
+            "course_code": "PFP191",
+            "clo": "CLO4"
+          },
+          {
+            "course_code": "PFP191",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "PFP191",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "DBI202",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "DBI202",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO1"
+          },
+          {
+            "course_code": "AIG202c",
+            "clo": "CLO2"
+          },
+          {
+            "course_code": "AIL303m",
+            "clo": "CLO4"
+          },
+          {
+            "course_code": "AIL303m",
+            "clo": "CLO9"
+          },
+          {
+            "course_code": "MAI391",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "MAI391",
+            "clo": "CLO7"
+          }
+        ]
+      },
+      "actual_input_sha256": "1125364a02d8ae149e83549ef0d2f63a92d2fd2d2fa77b9f87494d91fe5ef1e5",
+      "raw_equals_parsed": true,
+      "usage": {
+        "input_tokens": 20754,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 19712
+        },
+        "output_tokens": 3220,
+        "output_tokens_details": {
+          "reasoning_tokens": 1552
+        },
+        "total_tokens": 23974
+      },
+      "incomplete_details": null
+    },
+    {
+      "operation": "primary-S7-B-S0",
+      "arm": "B",
+      "scope": "S0",
+      "phase": "primary",
+      "status": "completed",
+      "original_output": {
+        "segments": [
+          {
+            "kind": "academic_claim",
+            "text": "Trong CSD203, sorting nằm ở CLO6: “Explain the operation and performance of basic and advanced sorting algorithms…”, với score 6.06 và achievement basic. Hashing nằm ở CLO7: “Explain hashing and its applications…”, với score 6.06 và achievement basic.",
+            "academic_sources": [
+              {
+                "course_code": "CSD203",
+                "clo": "CLO6",
+                "source_excerpt": "Explain the operation and performance of basic and advanced sorting algorithms"
+              },
+              {
+                "course_code": "CSD203",
+                "clo": "CLO7",
+                "source_excerpt": "Explain hashing and its applications"
+              }
+            ],
+            "jd_excerpt": null
+          }
+        ]
+      },
+      "public_analysis_view": {
+        "reply": "Trong CSD203, sorting nằm ở CLO6: “Explain the operation and performance of basic and advanced sorting algorithms…”, với score 6.06 và achievement basic. Hashing nằm ở CLO7: “Explain hashing and its applications…”, với score 6.06 và achievement basic.",
+        "evidence": [
+          {
+            "course_code": "CSD203",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "CSD203",
+            "clo": "CLO7"
+          }
+        ]
+      },
+      "actual_input_sha256": "43711608e52b9e4e265050c3fc88eee3d1881feb15c7198385a323f6dde07c7b",
+      "raw_equals_parsed": true,
+      "usage": {
+        "input_tokens": 20456,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 19712
+        },
+        "output_tokens": 398,
+        "output_tokens_details": {
+          "reasoning_tokens": 253
+        },
+        "total_tokens": 20854
+      },
+      "incomplete_details": null
+    },
+    {
+      "operation": "primary-S7-A-S0",
+      "arm": "A",
+      "scope": "S0",
+      "phase": "primary",
+      "status": "completed",
+      "original_output": {
+        "reply": "Sorting nằm ở CSD203/CLO6: CLO này ghi rõ “Explain the operation and performance of basic and advanced sorting algorithms”, bao gồm selection sort, insertion sort, bubble sort, quicksort, merge sort, heap sort, bucket sort, radix sort; điểm là 6.06 và achievement là basic.\n\nHashing nằm ở CSD203/CLO7: CLO này ghi rõ “Explain hashing and its applications”, bao gồm hash tables, hash functions, collision handling, load factors, rehashing, efficiency considerations và Python hash table implementation; điểm là 6.06 và achievement là basic.",
+        "evidence": [
+          {
+            "course_code": "CSD203",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "CSD203",
+            "clo": "CLO7"
+          }
+        ]
+      },
+      "public_analysis_view": {
+        "reply": "Sorting nằm ở CSD203/CLO6: CLO này ghi rõ “Explain the operation and performance of basic and advanced sorting algorithms”, bao gồm selection sort, insertion sort, bubble sort, quicksort, merge sort, heap sort, bucket sort, radix sort; điểm là 6.06 và achievement là basic.\n\nHashing nằm ở CSD203/CLO7: CLO này ghi rõ “Explain hashing and its applications”, bao gồm hash tables, hash functions, collision handling, load factors, rehashing, efficiency considerations và Python hash table implementation; điểm là 6.06 và achievement là basic.",
+        "evidence": [
+          {
+            "course_code": "CSD203",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "CSD203",
+            "clo": "CLO7"
+          }
+        ]
+      },
+      "actual_input_sha256": "43711608e52b9e4e265050c3fc88eee3d1881feb15c7198385a323f6dde07c7b",
+      "raw_equals_parsed": true,
+      "usage": {
+        "input_tokens": 20093,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 19712
+        },
+        "output_tokens": 270,
+        "output_tokens_details": {
+          "reasoning_tokens": 98
+        },
+        "total_tokens": 20363
+      },
+      "incomplete_details": null
+    },
+    {
+      "operation": "primary-S4-A-S0",
+      "arm": "A",
+      "scope": "S0",
+      "phase": "primary",
+      "status": "completed",
+      "original_output": {
+        "reply": "Cụm đó nằm ngay trong `metadata.tools` của môn **MAD101**: `Computerized tools (for example C programming tools, Maxima)`.\n\nNó cho thấy đây là **bối cảnh công cụ của môn học**, chứ **không** xác nhận rằng bạn đã sử dụng riêng từng công cụ đó. Trong hồ sơ bạn gửi, mình cũng **không thấy CLO nào tách riêng để chấm điểm cho C programming tools hay Maxima**; các CLO của MAD101 đang đánh giá nội dung toán rời rạc như logic mệnh đề/vị từ, tập hợp-hàm-dãy, độ phức tạp thuật toán, số học mô-đun, quy nạp-đệ quy, đếm, đồ thị và cây.\n\nNếu bạn muốn, mình có thể chỉ ra chính xác những CLO nào của MAD101 là relevant nhất để giải thích phần công cụ này như một ngữ cảnh học phần, không phải bằng chứng sử dụng cá nhân.",
+        "evidence": [
+          {
+            "course_code": "MAD101",
+            "metadata_field": "tools"
+          },
+          {
+            "course_code": "MAD101",
+            "clo": "CLO1"
+          },
+          {
+            "course_code": "MAD101",
+            "clo": "CLO2"
+          },
+          {
+            "course_code": "MAD101",
+            "clo": "CLO3"
+          },
+          {
+            "course_code": "MAD101",
+            "clo": "CLO4"
+          },
+          {
+            "course_code": "MAD101",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "MAD101",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "MAD101",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "MAD101",
+            "clo": "CLO8"
+          }
+        ]
+      },
+      "public_analysis_view": {
+        "reply": "Cụm đó nằm ngay trong `metadata.tools` của môn **MAD101**: `Computerized tools (for example C programming tools, Maxima)`.\n\nNó cho thấy đây là **bối cảnh công cụ của môn học**, chứ **không** xác nhận rằng bạn đã sử dụng riêng từng công cụ đó. Trong hồ sơ bạn gửi, mình cũng **không thấy CLO nào tách riêng để chấm điểm cho C programming tools hay Maxima**; các CLO của MAD101 đang đánh giá nội dung toán rời rạc như logic mệnh đề/vị từ, tập hợp-hàm-dãy, độ phức tạp thuật toán, số học mô-đun, quy nạp-đệ quy, đếm, đồ thị và cây.\n\nNếu bạn muốn, mình có thể chỉ ra chính xác những CLO nào của MAD101 là relevant nhất để giải thích phần công cụ này như một ngữ cảnh học phần, không phải bằng chứng sử dụng cá nhân.",
+        "evidence": [
+          {
+            "course_code": "MAD101",
+            "metadata_field": "tools"
+          },
+          {
+            "course_code": "MAD101",
+            "clo": "CLO1"
+          },
+          {
+            "course_code": "MAD101",
+            "clo": "CLO2"
+          },
+          {
+            "course_code": "MAD101",
+            "clo": "CLO3"
+          },
+          {
+            "course_code": "MAD101",
+            "clo": "CLO4"
+          },
+          {
+            "course_code": "MAD101",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "MAD101",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "MAD101",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "MAD101",
+            "clo": "CLO8"
+          }
+        ]
+      },
+      "actual_input_sha256": "467b4d6509b37530bc6d2c28f75985a63ac938b4d852b2db45f8fa92fef8c281",
+      "raw_equals_parsed": true,
+      "usage": {
+        "input_tokens": 19925,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 19712
+        },
+        "output_tokens": 1376,
+        "output_tokens_details": {
+          "reasoning_tokens": 1034
+        },
+        "total_tokens": 21301
+      },
+      "incomplete_details": null
+    },
+    {
+      "operation": "primary-S4-B-S0",
+      "arm": "B",
+      "scope": "S0",
+      "phase": "primary",
+      "status": "completed",
+      "original_output": {
+        "segments": [
+          {
+            "kind": "academic_claim",
+            "text": "Trong MAD101, hai công cụ đó nằm ở phần metadata.tools của môn, với đúng dòng: “Computerized tools (for example C programming tools, Maxima http://maxima.sourceforge.net/) (CT)”.",
+            "academic_sources": [
+              {
+                "course_code": "MAD101",
+                "metadata_field": "tools",
+                "source_excerpt": "- Computerized tools (for example C programming tools, Maxima http://maxima.sourceforge.net/) (CT)"
+              }
+            ],
+            "jd_excerpt": null
+          },
+          {
+            "kind": "not_evidenced",
+            "text": "Hồ sơ hiện chỉ xác nhận chúng được nêu như công cụ liên quan đến môn học; nó chưa xác nhận bạn đã dùng riêng từng công cụ, cũng chưa cho thấy có đánh giá tách biệt trên C programming tools và Maxima. Nói ngắn gọn: đây là bối cảnh học thuật của môn MAD101, không phải bằng chứng về mức độ sử dụng cá nhân hay chấm điểm riêng cho từng tool.",
+            "academic_sources": [
+              {
+                "course_code": "MAD101",
+                "metadata_field": "tools",
+                "source_excerpt": "- Computerized tools (for example C programming tools, Maxima http://maxima.sourceforge.net/) (CT)"
+              }
+            ],
+            "jd_excerpt": null
+          }
+        ]
+      },
+      "public_analysis_view": {
+        "reply": "Trong MAD101, hai công cụ đó nằm ở phần metadata.tools của môn, với đúng dòng: “Computerized tools (for example C programming tools, Maxima http://maxima.sourceforge.net/) (CT)”.\n\nHồ sơ hiện chỉ xác nhận chúng được nêu như công cụ liên quan đến môn học; nó chưa xác nhận bạn đã dùng riêng từng công cụ, cũng chưa cho thấy có đánh giá tách biệt trên C programming tools và Maxima. Nói ngắn gọn: đây là bối cảnh học thuật của môn MAD101, không phải bằng chứng về mức độ sử dụng cá nhân hay chấm điểm riêng cho từng tool.",
+        "evidence": [
+          {
+            "course_code": "MAD101",
+            "metadata_field": "tools"
+          }
+        ]
+      },
+      "actual_input_sha256": "467b4d6509b37530bc6d2c28f75985a63ac938b4d852b2db45f8fa92fef8c281",
+      "raw_equals_parsed": true,
+      "usage": {
+        "input_tokens": 20288,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 19712
+        },
+        "output_tokens": 778,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 21066
+      },
+      "incomplete_details": null
+    },
+    {
+      "operation": "primary-S8-B-S0",
+      "arm": "B",
+      "scope": "S0",
+      "phase": "primary",
+      "status": "incomplete",
+      "original_output": null,
+      "public_analysis_view": null,
+      "actual_input_sha256": "6ea541632fbff864d2d90fc7cb32040624573d2508949b1c811d6fcd20d23438",
+      "raw_equals_parsed": true,
+      "usage": {
+        "input_tokens": 20833,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 17152
+        },
+        "output_tokens": 8192,
+        "output_tokens_details": {
+          "reasoning_tokens": 8192
+        },
+        "total_tokens": 29025
+      },
+      "incomplete_details": {
+        "reason": "max_output_tokens"
+      }
+    },
+    {
+      "operation": "primary-S8-A-S0",
+      "arm": "A",
+      "scope": "S0",
+      "phase": "primary",
+      "status": "incomplete",
+      "original_output": null,
+      "public_analysis_view": null,
+      "actual_input_sha256": "6ea541632fbff864d2d90fc7cb32040624573d2508949b1c811d6fcd20d23438",
+      "raw_equals_parsed": true,
+      "usage": {
+        "input_tokens": 20470,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 17152
+        },
+        "output_tokens": 8192,
+        "output_tokens_details": {
+          "reasoning_tokens": 8192
+        },
+        "total_tokens": 28662
+      },
+      "incomplete_details": {
+        "reason": "max_output_tokens"
+      }
+    },
+    {
+      "operation": "scope-S5-A-S1",
+      "arm": "A",
+      "scope": "S1",
+      "phase": "scope",
+      "status": "completed",
+      "original_output": {
+        "reply": "Tóm tắt ngắn các nội dung mình đã trao đổi:\n\n- **Confidence intervals**: Có bằng chứng trực tiếp ở **MAS291/CLO7**. CLO này ghi **Construct and interpret confidence intervals for population parameters and differences between population parameters**, gồm intervals cho means, proportions, và differences between two means/proportions. **Score: 9.43, achievement: excellent**.\n- **Hypothesis testing**: Có bằng chứng trực tiếp ở **MAS291/CLO8**. CLO này ghi **Verify claims about population parameters and differences between population parameters using hypothesis testing**, gồm formulating hypotheses, critical values, test statistics, p-values, testing errors, và các kiểm định cho means/proportions. **Score: 9.43, achievement: excellent**.\n- **Simple linear regression**: Có bằng chứng trực tiếp ở **MAS291/CLO9**. CLO này ghi **Construct a simple linear regression model and use it for prediction and interpretation**, gồm least-squares estimation, sums of squares, regression equations, correlation coefficients và significance tests. **Score: 9.43, achievement: excellent**.\n- **PCA**: Có bằng chứng trực tiếp ở **MAI391/CLO6**. CLO này ghi **Apply dimensionality reduction with PCA**, gồm covariance matrices, maximum-variance subspaces, low-rank matrix approximation, projection perspectives, eigenvector computation và key practical PCA steps. **Score: 9.4, achievement: excellent**.\n\nNếu cần, mình có thể tóm tắt tiếp theo kiểu 1 dòng/mỗi nội dung hoặc gom lại thành 2 nhóm: statistics và machine learning foundations.",
+        "evidence": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO8"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          },
+          {
+            "course_code": "MAI391",
+            "clo": "CLO6"
+          }
+        ]
+      },
+      "public_analysis_view": {
+        "reply": "Tóm tắt ngắn các nội dung mình đã trao đổi:\n\n- **Confidence intervals**: Có bằng chứng trực tiếp ở **MAS291/CLO7**. CLO này ghi **Construct and interpret confidence intervals for population parameters and differences between population parameters**, gồm intervals cho means, proportions, và differences between two means/proportions. **Score: 9.43, achievement: excellent**.\n- **Hypothesis testing**: Có bằng chứng trực tiếp ở **MAS291/CLO8**. CLO này ghi **Verify claims about population parameters and differences between population parameters using hypothesis testing**, gồm formulating hypotheses, critical values, test statistics, p-values, testing errors, và các kiểm định cho means/proportions. **Score: 9.43, achievement: excellent**.\n- **Simple linear regression**: Có bằng chứng trực tiếp ở **MAS291/CLO9**. CLO này ghi **Construct a simple linear regression model and use it for prediction and interpretation**, gồm least-squares estimation, sums of squares, regression equations, correlation coefficients và significance tests. **Score: 9.43, achievement: excellent**.\n- **PCA**: Có bằng chứng trực tiếp ở **MAI391/CLO6**. CLO này ghi **Apply dimensionality reduction with PCA**, gồm covariance matrices, maximum-variance subspaces, low-rank matrix approximation, projection perspectives, eigenvector computation và key practical PCA steps. **Score: 9.4, achievement: excellent**.\n\nNếu cần, mình có thể tóm tắt tiếp theo kiểu 1 dòng/mỗi nội dung hoặc gom lại thành 2 nhóm: statistics và machine learning foundations.",
+        "evidence": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO8"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          },
+          {
+            "course_code": "MAI391",
+            "clo": "CLO6"
+          }
+        ]
+      },
+      "actual_input_sha256": "82ba511bec4442992b3f593386db12d8e295cf5338ede618d82a2bd1f2325d3a",
+      "raw_equals_parsed": true,
+      "usage": {
+        "input_tokens": 20529,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 3840
+        },
+        "output_tokens": 773,
+        "output_tokens_details": {
+          "reasoning_tokens": 356
+        },
+        "total_tokens": 21302
+      },
+      "incomplete_details": null
+    },
+    {
+      "operation": "scope-S5-B-S1",
+      "arm": "B",
+      "scope": "S1",
+      "phase": "scope",
+      "status": "completed",
+      "original_output": {
+        "segments": [
+          {
+            "kind": "academic_claim",
+            "text": "Trong phần đã trao đổi, bạn đã có bằng chứng học thuật trực tiếp về confidence intervals và hypothesis testing ở MAS291: MAS291/CLO7 ghi rõ cách xây dựng và diễn giải confidence intervals cho population parameters và các chênh lệch giữa chúng, với điểm 9.43 và achievement excellent; MAS291/CLO8 ghi rõ kiểm định các giả thuyết về population parameters bằng hypothesis testing, cũng với điểm 9.43 và achievement excellent.",
+            "academic_sources": [
+              {
+                "course_code": "MAS291",
+                "clo": "CLO7",
+                "source_excerpt": "Construct and interpret confidence intervals for population parameters and differences between population parameters"
+              },
+              {
+                "course_code": "MAS291",
+                "clo": "CLO8",
+                "source_excerpt": "Verify claims about population parameters and differences between population parameters using hypothesis testing"
+              }
+            ],
+            "jd_excerpt": null
+          },
+          {
+            "kind": "academic_claim",
+            "text": "Bạn cũng đã nhắc tới simple linear regression và PCA: MAS291/CLO9 ghi rõ xây dựng simple linear regression model để prediction và interpretation, với điểm 9.43 và achievement excellent; MAI391/CLO6 ghi rõ Apply dimensionality reduction with PCA, với điểm 9.4 và achievement excellent.",
+            "academic_sources": [
+              {
+                "course_code": "MAS291",
+                "clo": "CLO9",
+                "source_excerpt": "Construct a simple linear regression model and use it for prediction and interpretation"
+              },
+              {
+                "course_code": "MAI391",
+                "clo": "CLO6",
+                "source_excerpt": "Apply dimensionality reduction with PCA"
+              }
+            ],
+            "jd_excerpt": null
+          }
+        ]
+      },
+      "public_analysis_view": {
+        "reply": "Trong phần đã trao đổi, bạn đã có bằng chứng học thuật trực tiếp về confidence intervals và hypothesis testing ở MAS291: MAS291/CLO7 ghi rõ cách xây dựng và diễn giải confidence intervals cho population parameters và các chênh lệch giữa chúng, với điểm 9.43 và achievement excellent; MAS291/CLO8 ghi rõ kiểm định các giả thuyết về population parameters bằng hypothesis testing, cũng với điểm 9.43 và achievement excellent.\n\nBạn cũng đã nhắc tới simple linear regression và PCA: MAS291/CLO9 ghi rõ xây dựng simple linear regression model để prediction và interpretation, với điểm 9.43 và achievement excellent; MAI391/CLO6 ghi rõ Apply dimensionality reduction with PCA, với điểm 9.4 và achievement excellent.",
+        "evidence": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO8"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          },
+          {
+            "course_code": "MAI391",
+            "clo": "CLO6"
+          }
+        ]
+      },
+      "actual_input_sha256": "82ba511bec4442992b3f593386db12d8e295cf5338ede618d82a2bd1f2325d3a",
+      "raw_equals_parsed": true,
+      "usage": {
+        "input_tokens": 20892,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0
+        },
+        "output_tokens": 840,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 21732
+      },
+      "incomplete_details": null
+    },
+    {
+      "operation": "scope-S6-B-S1",
+      "arm": "B",
+      "scope": "S1",
+      "phase": "scope",
+      "status": "completed",
+      "original_output": {
+        "segments": [
+          {
+            "kind": "academic_claim",
+            "text": "Trong phần học thuật đã trao đổi, mình đã tóm các nội dung statistics của MAS291 như sau: CLO5 là mô tả dữ liệu bằng numerical summaries và visual displays như descriptive statistics, stem-and-leaf, frequency distributions, histograms, box plots, quartiles, outlier identification và time sequence plots; điểm 9.15, achievement excellent. CLO6 là sampling distributions, point estimation và Central Limit Theorem cho sampling distributions of means; điểm 9.15, achievement excellent. CLO7 là confidence intervals cho tham số quần thể và chênh lệch giữa các tham số quần thể; điểm 9.43, achievement excellent. CLO8 là hypothesis testing cho các tham số quần thể và chênh lệch giữa các tham số quần thể, gồm hypotheses, critical values, test statistics, p-values và các kiểm định cho means/proportions; điểm 9.43, achievement excellent. CLO9 là simple linear regression để prediction và interpretation, gồm least-squares estimation, sums of squares, regression equations, correlation coefficients và kiểm định ý nghĩa; điểm 9.43, achievement excellent.",
+            "academic_sources": [
+              {
+                "course_code": "MAS291",
+                "clo": "CLO5",
+                "source_excerpt": "Describe data using numerical summaries and visual displays, including descriptive statistics, stem-and-leaf diagrams, frequency distributions, histograms, box plots, quartiles, outlier identification, and time sequence plots."
+              },
+              {
+                "course_code": "MAS291",
+                "clo": "CLO6",
+                "source_excerpt": "Discuss sampling distributions and point estimation, then use the Central Limit Theorem to analyze sampling distributions of means."
+              },
+              {
+                "course_code": "MAS291",
+                "clo": "CLO7",
+                "source_excerpt": "Construct and interpret confidence intervals for population parameters and differences between population parameters, including intervals for means of normal distributions with known or unknown variance, large-sample intervals for population proportions, inference on differences between two means, and inference on differences between two proportions."
+              },
+              {
+                "course_code": "MAS291",
+                "clo": "CLO8",
+                "source_excerpt": "Verify claims about population parameters and differences between population parameters using hypothesis testing, including formulating hypotheses, identifying critical values and test statistics, computing p-values, recognizing testing errors, and conducting tests for single means, single proportions, differences between two means, and differences between two proportions."
+              },
+              {
+                "course_code": "MAS291",
+                "clo": "CLO9",
+                "source_excerpt": "Construct a simple linear regression model and use it for prediction and interpretation, including empirical models, least-squares estimation, sums of squares, regression equations, correlation coefficients, properties of least-squares estimators, and hypothesis tests for significance in simple linear regression."
+              }
+            ],
+            "jd_excerpt": null
+          }
+        ]
+      },
+      "public_analysis_view": {
+        "reply": "Trong phần học thuật đã trao đổi, mình đã tóm các nội dung statistics của MAS291 như sau: CLO5 là mô tả dữ liệu bằng numerical summaries và visual displays như descriptive statistics, stem-and-leaf, frequency distributions, histograms, box plots, quartiles, outlier identification và time sequence plots; điểm 9.15, achievement excellent. CLO6 là sampling distributions, point estimation và Central Limit Theorem cho sampling distributions of means; điểm 9.15, achievement excellent. CLO7 là confidence intervals cho tham số quần thể và chênh lệch giữa các tham số quần thể; điểm 9.43, achievement excellent. CLO8 là hypothesis testing cho các tham số quần thể và chênh lệch giữa các tham số quần thể, gồm hypotheses, critical values, test statistics, p-values và các kiểm định cho means/proportions; điểm 9.43, achievement excellent. CLO9 là simple linear regression để prediction và interpretation, gồm least-squares estimation, sums of squares, regression equations, correlation coefficients và kiểm định ý nghĩa; điểm 9.43, achievement excellent.",
+        "evidence": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO8"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          }
+        ]
+      },
+      "actual_input_sha256": "1125364a02d8ae149e83549ef0d2f63a92d2fd2d2fa77b9f87494d91fe5ef1e5",
+      "raw_equals_parsed": true,
+      "usage": {
+        "input_tokens": 20915,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 20224
+        },
+        "output_tokens": 813,
+        "output_tokens_details": {
+          "reasoning_tokens": 245
+        },
+        "total_tokens": 21728
+      },
+      "incomplete_details": null
+    },
+    {
+      "operation": "scope-S6-A-S1",
+      "arm": "A",
+      "scope": "S1",
+      "phase": "scope",
+      "status": "completed",
+      "original_output": {
+        "reply": "Các nội dung học thuật mình đã trao đổi trong đoạn này đều xoay quanh **statistics trong MAS291**. Cụ thể:\n\n- **MAS291/CLO5**: nội dung mô tả dữ liệu bằng **numerical summaries** và **visual displays** như descriptive statistics, stem-and-leaf, frequency distributions, histograms, box plots, quartiles, outlier identification, time sequence plots. Điểm **9.15**, achievement **excellent**.\n- **MAS291/CLO6**: nội dung về **sampling distributions** và **point estimation**, đồng thời dùng **Central Limit Theorem** để phân tích sampling distribution của means. Điểm **9.15**, achievement **excellent**.\n- **MAS291/CLO7**: nội dung về **confidence intervals** cho tham số quần thể và chênh lệch giữa các tham số, gồm khoảng tin cậy cho means, proportions và so sánh hai nhóm. Điểm **9.43**, achievement **excellent**.\n- **MAS291/CLO8**: nội dung về **hypothesis testing**, gồm lập giả thuyết, critical values, test statistics, p-values, errors trong kiểm định, và kiểm định cho means/proportions và chênh lệch giữa hai nhóm. Điểm **9.43**, achievement **excellent**.\n- **MAS291/CLO9**: nội dung về **simple linear regression**, gồm mô hình hồi quy, least-squares estimation, sums of squares, regression equations, correlation coefficients và kiểm định ý nghĩa của hồi quy. Điểm **9.43**, achievement **excellent**.\n\nTóm ngắn lại, phần đã trao đổi là chuỗi nội dung từ **mô tả dữ liệu → lấy mẫu và ước lượng → khoảng tin cậy → kiểm định giả thuyết → hồi quy tuyến tính đơn**; tất cả các CLO được nhắc đều có achievement **excellent** trong hồ sơ.",
+        "evidence": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO8"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          }
+        ]
+      },
+      "public_analysis_view": {
+        "reply": "Các nội dung học thuật mình đã trao đổi trong đoạn này đều xoay quanh **statistics trong MAS291**. Cụ thể:\n\n- **MAS291/CLO5**: nội dung mô tả dữ liệu bằng **numerical summaries** và **visual displays** như descriptive statistics, stem-and-leaf, frequency distributions, histograms, box plots, quartiles, outlier identification, time sequence plots. Điểm **9.15**, achievement **excellent**.\n- **MAS291/CLO6**: nội dung về **sampling distributions** và **point estimation**, đồng thời dùng **Central Limit Theorem** để phân tích sampling distribution của means. Điểm **9.15**, achievement **excellent**.\n- **MAS291/CLO7**: nội dung về **confidence intervals** cho tham số quần thể và chênh lệch giữa các tham số, gồm khoảng tin cậy cho means, proportions và so sánh hai nhóm. Điểm **9.43**, achievement **excellent**.\n- **MAS291/CLO8**: nội dung về **hypothesis testing**, gồm lập giả thuyết, critical values, test statistics, p-values, errors trong kiểm định, và kiểm định cho means/proportions và chênh lệch giữa hai nhóm. Điểm **9.43**, achievement **excellent**.\n- **MAS291/CLO9**: nội dung về **simple linear regression**, gồm mô hình hồi quy, least-squares estimation, sums of squares, regression equations, correlation coefficients và kiểm định ý nghĩa của hồi quy. Điểm **9.43**, achievement **excellent**.\n\nTóm ngắn lại, phần đã trao đổi là chuỗi nội dung từ **mô tả dữ liệu → lấy mẫu và ước lượng → khoảng tin cậy → kiểm định giả thuyết → hồi quy tuyến tính đơn**; tất cả các CLO được nhắc đều có achievement **excellent** trong hồ sơ.",
+        "evidence": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO8"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          }
+        ]
+      },
+      "actual_input_sha256": "1125364a02d8ae149e83549ef0d2f63a92d2fd2d2fa77b9f87494d91fe5ef1e5",
+      "raw_equals_parsed": true,
+      "usage": {
+        "input_tokens": 20552,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 19200
+        },
+        "output_tokens": 726,
+        "output_tokens_details": {
+          "reasoning_tokens": 235
+        },
+        "total_tokens": 21278
+      },
+      "incomplete_details": null
+    },
+    {
+      "operation": "scope-S7-A-S1",
+      "arm": "A",
+      "scope": "S1",
+      "phase": "scope",
+      "status": "completed",
+      "original_output": {
+        "reply": "- Sorting nằm ở CSD203/CLO6: CLO này nêu rõ các thuật toán sắp xếp cơ bản và nâng cao như selection sort, insertion sort, bubble sort, quicksort, merge sort, heap sort, bucket sort, radix sort, cùng việc so sánh hiệu năng sắp xếp. Điểm của CLO này là 6.06, achievement basic.\n- Hashing nằm ở CSD203/CLO7: CLO này nêu rõ hashing và ứng dụng của nó, gồm hash tables, hash functions, collision handling, load factors, rehashing, efficiency considerations và Python hash table implementation. Điểm của CLO này là 6.06, achievement basic.",
+        "evidence": [
+          {
+            "course_code": "CSD203",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "CSD203",
+            "clo": "CLO7"
+          }
+        ]
+      },
+      "public_analysis_view": {
+        "reply": "- Sorting nằm ở CSD203/CLO6: CLO này nêu rõ các thuật toán sắp xếp cơ bản và nâng cao như selection sort, insertion sort, bubble sort, quicksort, merge sort, heap sort, bucket sort, radix sort, cùng việc so sánh hiệu năng sắp xếp. Điểm của CLO này là 6.06, achievement basic.\n- Hashing nằm ở CSD203/CLO7: CLO này nêu rõ hashing và ứng dụng của nó, gồm hash tables, hash functions, collision handling, load factors, rehashing, efficiency considerations và Python hash table implementation. Điểm của CLO này là 6.06, achievement basic.",
+        "evidence": [
+          {
+            "course_code": "CSD203",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "CSD203",
+            "clo": "CLO7"
+          }
+        ]
+      },
+      "actual_input_sha256": "43711608e52b9e4e265050c3fc88eee3d1881feb15c7198385a323f6dde07c7b",
+      "raw_equals_parsed": true,
+      "usage": {
+        "input_tokens": 20254,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 17152
+        },
+        "output_tokens": 307,
+        "output_tokens_details": {
+          "reasoning_tokens": 117
+        },
+        "total_tokens": 20561
+      },
+      "incomplete_details": null
+    },
+    {
+      "operation": "scope-S7-B-S1",
+      "arm": "B",
+      "scope": "S1",
+      "phase": "scope",
+      "status": "completed",
+      "original_output": {
+        "segments": [
+          {
+            "kind": "academic_claim",
+            "text": "Sorting nằm ở CSD203/CLO6: CLO này ghi rõ explain the operation and performance of basic and advanced sorting algorithms, gồm selection sort, insertion sort, bubble sort, quicksort, merge sort, heap sort, bucket sort và radix sort; điểm của CLO6 là 6.06, achievement basic.",
+            "academic_sources": [
+              {
+                "course_code": "CSD203",
+                "clo": "CLO6",
+                "source_excerpt": "Explain the operation and performance of basic and advanced sorting algorithms, including selection sort, insertion sort, bubble sort, quicksort, merge sort, heap sort, bucket sort, radix sort, and comparison of sorting algorithm performance."
+              }
+            ],
+            "jd_excerpt": null
+          },
+          {
+            "kind": "academic_claim",
+            "text": "Hashing nằm ở CSD203/CLO7: CLO này ghi rõ explain hashing and its applications, gồm hash tables, hash functions, collision handling, load factors, rehashing, efficiency considerations và Python hash table implementation; điểm của CLO7 là 6.06, achievement basic.",
+            "academic_sources": [
+              {
+                "course_code": "CSD203",
+                "clo": "CLO7",
+                "source_excerpt": "Explain hashing and its applications, including hash tables, hash functions, collision handling, load factors, rehashing, efficiency considerations, and Python hash table implementation."
+              }
+            ],
+            "jd_excerpt": null
+          }
+        ]
+      },
+      "public_analysis_view": {
+        "reply": "Sorting nằm ở CSD203/CLO6: CLO này ghi rõ explain the operation and performance of basic and advanced sorting algorithms, gồm selection sort, insertion sort, bubble sort, quicksort, merge sort, heap sort, bucket sort và radix sort; điểm của CLO6 là 6.06, achievement basic.\n\nHashing nằm ở CSD203/CLO7: CLO này ghi rõ explain hashing and its applications, gồm hash tables, hash functions, collision handling, load factors, rehashing, efficiency considerations và Python hash table implementation; điểm của CLO7 là 6.06, achievement basic.",
+        "evidence": [
+          {
+            "course_code": "CSD203",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "CSD203",
+            "clo": "CLO7"
+          }
+        ]
+      },
+      "actual_input_sha256": "43711608e52b9e4e265050c3fc88eee3d1881feb15c7198385a323f6dde07c7b",
+      "raw_equals_parsed": true,
+      "usage": {
+        "input_tokens": 20617,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 17152
+        },
+        "output_tokens": 424,
+        "output_tokens_details": {
+          "reasoning_tokens": 139
+        },
+        "total_tokens": 21041
+      },
+      "incomplete_details": null
+    },
+    {
+      "operation": "scope-S8-B-S1",
+      "arm": "B",
+      "scope": "S1",
+      "phase": "scope",
+      "status": "incomplete",
+      "original_output": null,
+      "public_analysis_view": null,
+      "actual_input_sha256": "6ea541632fbff864d2d90fc7cb32040624573d2508949b1c811d6fcd20d23438",
+      "raw_equals_parsed": true,
+      "usage": {
+        "input_tokens": 20994,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 17152
+        },
+        "output_tokens": 8192,
+        "output_tokens_details": {
+          "reasoning_tokens": 8192
+        },
+        "total_tokens": 29186
+      },
+      "incomplete_details": {
+        "reason": "max_output_tokens"
+      }
+    },
+    {
+      "operation": "scope-S8-A-S1",
+      "arm": "A",
+      "scope": "S1",
+      "phase": "scope",
+      "status": "incomplete",
+      "original_output": null,
+      "public_analysis_view": null,
+      "actual_input_sha256": "6ea541632fbff864d2d90fc7cb32040624573d2508949b1c811d6fcd20d23438",
+      "raw_equals_parsed": true,
+      "usage": {
+        "input_tokens": 20631,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 17152
+        },
+        "output_tokens": 8192,
+        "output_tokens_details": {
+          "reasoning_tokens": 8192
+        },
+        "total_tokens": 28823
+      },
+      "incomplete_details": {
+        "reason": "max_output_tokens"
+      }
+    },
+    {
+      "operation": "repeat-S1-A-S0",
+      "arm": "A",
+      "scope": "S0",
+      "phase": "repeat",
+      "status": "completed",
+      "original_output": {
+        "reply": "Trong **MAS291**:\n\n- **Confidence intervals** nằm ở **CLO7**: *“Construct and interpret confidence intervals for population parameters and differences between population parameters …”*  \n  - **Score:** 9.43  \n  - **Achievement:** excellent\n\n- **Simple linear regression** nằm ở **CLO9**: *“Construct a simple linear regression model and use it for prediction and interpretation …”*  \n  - **Score:** 9.43  \n  - **Achievement:** excellent\n\nHai nội dung này là hai CLO khác nhau: **CLO7** tập trung vào việc **xây dựng và diễn giải khoảng tin cậy** cho tham số tổng thể và chênh lệch giữa các tham số; còn **CLO9** tập trung vào việc **xây dựng mô hình hồi quy tuyến tính đơn** để dự đoán và diễn giải mối quan hệ giữa biến. Điểm và nhãn achievement của từng CLO đều riêng biệt, dù ở đây cả hai đều là **9.43, excellent**.",
+        "evidence": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          }
+        ]
+      },
+      "public_analysis_view": {
+        "reply": "Trong **MAS291**:\n\n- **Confidence intervals** nằm ở **CLO7**: *“Construct and interpret confidence intervals for population parameters and differences between population parameters …”*  \n  - **Score:** 9.43  \n  - **Achievement:** excellent\n\n- **Simple linear regression** nằm ở **CLO9**: *“Construct a simple linear regression model and use it for prediction and interpretation …”*  \n  - **Score:** 9.43  \n  - **Achievement:** excellent\n\nHai nội dung này là hai CLO khác nhau: **CLO7** tập trung vào việc **xây dựng và diễn giải khoảng tin cậy** cho tham số tổng thể và chênh lệch giữa các tham số; còn **CLO9** tập trung vào việc **xây dựng mô hình hồi quy tuyến tính đơn** để dự đoán và diễn giải mối quan hệ giữa biến. Điểm và nhãn achievement của từng CLO đều riêng biệt, dù ở đây cả hai đều là **9.43, excellent**.",
+        "evidence": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          }
+        ]
+      },
+      "actual_input_sha256": "ff07f028ff49836af45de1a34a19856e0a570ffff3caa0c0219f0609d3f4a154",
+      "raw_equals_parsed": true,
+      "usage": {
+        "input_tokens": 19954,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 19200
+        },
+        "output_tokens": 322,
+        "output_tokens_details": {
+          "reasoning_tokens": 49
+        },
+        "total_tokens": 20276
+      },
+      "incomplete_details": null
+    },
+    {
+      "operation": "repeat-S1-B-S0",
+      "arm": "B",
+      "scope": "S0",
+      "phase": "repeat",
+      "status": "completed",
+      "original_output": {
+        "segments": [
+          {
+            "kind": "academic_claim",
+            "text": "Trong MAS291, nội dung về confidence intervals nằm ở CLO7: “Construct and interpret confidence intervals for population parameters and differences between population parameters...”. CLO này có điểm 9.43 và achievement excellent. Nó tập trung vào việc lập và diễn giải khoảng tin cậy cho tham số tổng thể hoặc chênh lệch giữa các tham số, nên khác với phần kiểm định giả thuyết.",
+            "academic_sources": [
+              {
+                "course_code": "MAS291",
+                "clo": "CLO7",
+                "source_excerpt": "Construct and interpret confidence intervals for population parameters and differences between population parameters"
+              }
+            ],
+            "jd_excerpt": null
+          },
+          {
+            "kind": "academic_claim",
+            "text": "Nội dung về simple linear regression nằm ở CLO9: “Construct a simple linear regression model and use it for prediction and interpretation...”. CLO này có điểm 9.43 và achievement excellent. Nó tập trung vào xây dựng mô hình hồi quy tuyến tính đơn, dùng để dự đoán và diễn giải mối quan hệ giữa các biến, chứ không phải khoảng tin cậy.",
+            "academic_sources": [
+              {
+                "course_code": "MAS291",
+                "clo": "CLO9",
+                "source_excerpt": "Construct a simple linear regression model and use it for prediction and interpretation"
+              }
+            ],
+            "jd_excerpt": null
+          },
+          {
+            "kind": "general_explanation",
+            "text": "Tóm lại, MAS291 tách hai nội dung này thành hai CLO riêng: confidence intervals là CLO7, còn simple linear regression là CLO9. Hai CLO đều có cùng điểm 9.43 và cùng achievement excellent, nhưng chúng đo hai kết quả học tập khác nhau nên không nên gộp lại thành một nội dung duy nhất.",
+            "academic_sources": [],
+            "jd_excerpt": null
+          }
+        ]
+      },
+      "public_analysis_view": {
+        "reply": "Trong MAS291, nội dung về confidence intervals nằm ở CLO7: “Construct and interpret confidence intervals for population parameters and differences between population parameters...”. CLO này có điểm 9.43 và achievement excellent. Nó tập trung vào việc lập và diễn giải khoảng tin cậy cho tham số tổng thể hoặc chênh lệch giữa các tham số, nên khác với phần kiểm định giả thuyết.\n\nNội dung về simple linear regression nằm ở CLO9: “Construct a simple linear regression model and use it for prediction and interpretation...”. CLO này có điểm 9.43 và achievement excellent. Nó tập trung vào xây dựng mô hình hồi quy tuyến tính đơn, dùng để dự đoán và diễn giải mối quan hệ giữa các biến, chứ không phải khoảng tin cậy.\n\nTóm lại, MAS291 tách hai nội dung này thành hai CLO riêng: confidence intervals là CLO7, còn simple linear regression là CLO9. Hai CLO đều có cùng điểm 9.43 và cùng achievement excellent, nhưng chúng đo hai kết quả học tập khác nhau nên không nên gộp lại thành một nội dung duy nhất.",
+        "evidence": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          }
+        ]
+      },
+      "actual_input_sha256": "ff07f028ff49836af45de1a34a19856e0a570ffff3caa0c0219f0609d3f4a154",
+      "raw_equals_parsed": true,
+      "usage": {
+        "input_tokens": 20317,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 19712
+        },
+        "output_tokens": 547,
+        "output_tokens_details": {
+          "reasoning_tokens": 189
+        },
+        "total_tokens": 20864
+      },
+      "incomplete_details": null
+    },
+    {
+      "operation": "repeat-S5-B-S0",
+      "arm": "B",
+      "scope": "S0",
+      "phase": "repeat",
+      "status": "completed",
+      "original_output": {
+        "segments": [
+          {
+            "kind": "academic_claim",
+            "text": "Tóm lại theo hồ sơ, các nội dung đã trao đổi là: confidence intervals thuộc MAS291/CLO7, với mô tả “Construct and interpret confidence intervals for population parameters and differences between population parameters…”; điểm 9.43, achievement excellent. Hypothesis testing thuộc MAS291/CLO8, với mô tả “Verify claims about population parameters and differences between population parameters using hypothesis testing…”; điểm 9.43, achievement excellent. Simple linear regression thuộc MAS291/CLO9, với mô tả “Construct a simple linear regression model and use it for prediction and interpretation…”; điểm 9.43, achievement excellent. PCA thuộc MAI391/CLO6, với mô tả “Apply dimensionality reduction with PCA…”; điểm 9.4, achievement excellent. Bốn nội dung này là bốn CLO riêng, nên điểm và achievement được giữ riêng theo từng CLO, không gộp thành một mức chung.",
+            "academic_sources": [
+              {
+                "course_code": "MAS291",
+                "clo": "CLO7",
+                "source_excerpt": "Construct and interpret confidence intervals for population parameters and differences between population parameters, including intervals for means of normal distributions with known or unknown variance, large-sample intervals for population proportions, inference on differences between two means, and inference on differences between two proportions."
+              },
+              {
+                "course_code": "MAS291",
+                "clo": "CLO8",
+                "source_excerpt": "Verify claims about population parameters and differences between population parameters using hypothesis testing, including formulating hypotheses, identifying critical values and test statistics, computing p-values, recognizing testing errors, and conducting tests for single means, single proportions, differences between two means, and differences between two proportions."
+              },
+              {
+                "course_code": "MAS291",
+                "clo": "CLO9",
+                "source_excerpt": "Construct a simple linear regression model and use it for prediction and interpretation, including empirical models, least-squares estimation, sums of squares, regression equations, correlation coefficients, properties of least-squares estimators, and hypothesis tests for significance in simple linear regression."
+              },
+              {
+                "course_code": "MAI391",
+                "clo": "CLO6",
+                "source_excerpt": "Apply dimensionality reduction with PCA, including covariance matrices, maximum-variance subspaces, principal subspace bases, low-rank matrix approximation, PCA in high dimensions, projection perspectives, eigenvector computation, and key practical PCA steps."
+              }
+            ],
+            "jd_excerpt": null
+          }
+        ]
+      },
+      "public_analysis_view": {
+        "reply": "Tóm lại theo hồ sơ, các nội dung đã trao đổi là: confidence intervals thuộc MAS291/CLO7, với mô tả “Construct and interpret confidence intervals for population parameters and differences between population parameters…”; điểm 9.43, achievement excellent. Hypothesis testing thuộc MAS291/CLO8, với mô tả “Verify claims about population parameters and differences between population parameters using hypothesis testing…”; điểm 9.43, achievement excellent. Simple linear regression thuộc MAS291/CLO9, với mô tả “Construct a simple linear regression model and use it for prediction and interpretation…”; điểm 9.43, achievement excellent. PCA thuộc MAI391/CLO6, với mô tả “Apply dimensionality reduction with PCA…”; điểm 9.4, achievement excellent. Bốn nội dung này là bốn CLO riêng, nên điểm và achievement được giữ riêng theo từng CLO, không gộp thành một mức chung.",
+        "evidence": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO8"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          },
+          {
+            "course_code": "MAI391",
+            "clo": "CLO6"
+          }
+        ]
+      },
+      "actual_input_sha256": "82ba511bec4442992b3f593386db12d8e295cf5338ede618d82a2bd1f2325d3a",
+      "raw_equals_parsed": true,
+      "usage": {
+        "input_tokens": 20731,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 20224
+        },
+        "output_tokens": 1531,
+        "output_tokens_details": {
+          "reasoning_tokens": 1034
+        },
+        "total_tokens": 22262
+      },
+      "incomplete_details": null
+    },
+    {
+      "operation": "repeat-S5-A-S0",
+      "arm": "A",
+      "scope": "S0",
+      "phase": "repeat",
+      "status": "completed",
+      "original_output": {
+        "reply": "Tóm tắt ngắn các nội dung học thuật đã trao đổi:\n\n- **Confidence intervals**: bạn có bằng chứng học ở **MAS291/CLO7**, với CLO ghi **“Construct and interpret confidence intervals for population parameters and differences between population parameters”**; **score 9.43, achievement excellent**.\n- **Hypothesis testing**: bạn có bằng chứng học ở **MAS291/CLO8**, với CLO ghi **“Verify claims about population parameters and differences between population parameters using hypothesis testing”**; **score 9.43, achievement excellent**.\n- **Simple linear regression**: bạn có bằng chứng học ở **MAS291/CLO9**, với CLO ghi **“Construct a simple linear regression model and use it for prediction and interpretation”**; **score 9.43, achievement excellent**.\n- **PCA**: bạn có bằng chứng học ở **MAI391/CLO6**, với CLO ghi **“Apply dimensionality reduction with PCA”**; **score 9.4, achievement excellent**.\n\nNếu cần, mình có thể tóm tiếp thành 1–2 câu theo kiểu ngắn gọn để bạn dùng khi đối chiếu với JD.",
+        "evidence": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO8"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          },
+          {
+            "course_code": "MAI391",
+            "clo": "CLO6"
+          }
+        ]
+      },
+      "public_analysis_view": {
+        "reply": "Tóm tắt ngắn các nội dung học thuật đã trao đổi:\n\n- **Confidence intervals**: bạn có bằng chứng học ở **MAS291/CLO7**, với CLO ghi **“Construct and interpret confidence intervals for population parameters and differences between population parameters”**; **score 9.43, achievement excellent**.\n- **Hypothesis testing**: bạn có bằng chứng học ở **MAS291/CLO8**, với CLO ghi **“Verify claims about population parameters and differences between population parameters using hypothesis testing”**; **score 9.43, achievement excellent**.\n- **Simple linear regression**: bạn có bằng chứng học ở **MAS291/CLO9**, với CLO ghi **“Construct a simple linear regression model and use it for prediction and interpretation”**; **score 9.43, achievement excellent**.\n- **PCA**: bạn có bằng chứng học ở **MAI391/CLO6**, với CLO ghi **“Apply dimensionality reduction with PCA”**; **score 9.4, achievement excellent**.\n\nNếu cần, mình có thể tóm tiếp thành 1–2 câu theo kiểu ngắn gọn để bạn dùng khi đối chiếu với JD.",
+        "evidence": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO8"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          },
+          {
+            "course_code": "MAI391",
+            "clo": "CLO6"
+          }
+        ]
+      },
+      "actual_input_sha256": "82ba511bec4442992b3f593386db12d8e295cf5338ede618d82a2bd1f2325d3a",
+      "raw_equals_parsed": true,
+      "usage": {
+        "input_tokens": 20368,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 20224
+        },
+        "output_tokens": 763,
+        "output_tokens_details": {
+          "reasoning_tokens": 438
+        },
+        "total_tokens": 21131
+      },
+      "incomplete_details": null
+    },
+    {
+      "operation": "repeat-S6-A-S0",
+      "arm": "A",
+      "scope": "S0",
+      "phase": "repeat",
+      "status": "completed",
+      "original_output": {
+        "reply": "Trong phần mình vừa trao đổi, nội dung học thuật về statistics đều nằm ở **MAS291 – Statistics & Probability** và có thể tóm lại như sau:\n\n- **MAS291/CLO5**: *Describe data using numerical summaries and visual displays* — tức mô tả dữ liệu bằng các tóm tắt số và biểu diễn trực quan, gồm descriptive statistics, stem-and-leaf, frequency distributions, histograms, box plots, quartiles, outlier identification và time sequence plots. **Score 9.15, achievement excellent**.\n- **MAS291/CLO6**: *Discuss sampling distributions and point estimation, then use the Central Limit Theorem to analyze sampling distributions of means*. **Score 9.15, achievement excellent**.\n- **MAS291/CLO7**: *Construct and interpret confidence intervals for population parameters and differences between population parameters*. **Score 9.43, achievement excellent**.\n- **MAS291/CLO8**: *Verify claims about population parameters and differences between population parameters using hypothesis testing*. CLO này bao gồm formulating hypotheses, identifying critical values and test statistics, computing p-values, recognizing testing errors và conducting tests cho means/proportions. **Score 9.43, achievement excellent**.\n- **MAS291/CLO9**: *Construct a simple linear regression model and use it for prediction and interpretation*. CLO này bao gồm least-squares estimation, sums of squares, regression equations, correlation coefficients và hypothesis tests for significance in simple linear regression. **Score 9.43, achievement excellent**.\n\nNếu bạn muốn, mình có thể tóm tiếp thành 3 nhóm ngắn hơn: **descriptive statistics**, **inference**, và **regression**.",
+        "evidence": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO8"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          }
+        ]
+      },
+      "public_analysis_view": {
+        "reply": "Trong phần mình vừa trao đổi, nội dung học thuật về statistics đều nằm ở **MAS291 – Statistics & Probability** và có thể tóm lại như sau:\n\n- **MAS291/CLO5**: *Describe data using numerical summaries and visual displays* — tức mô tả dữ liệu bằng các tóm tắt số và biểu diễn trực quan, gồm descriptive statistics, stem-and-leaf, frequency distributions, histograms, box plots, quartiles, outlier identification và time sequence plots. **Score 9.15, achievement excellent**.\n- **MAS291/CLO6**: *Discuss sampling distributions and point estimation, then use the Central Limit Theorem to analyze sampling distributions of means*. **Score 9.15, achievement excellent**.\n- **MAS291/CLO7**: *Construct and interpret confidence intervals for population parameters and differences between population parameters*. **Score 9.43, achievement excellent**.\n- **MAS291/CLO8**: *Verify claims about population parameters and differences between population parameters using hypothesis testing*. CLO này bao gồm formulating hypotheses, identifying critical values and test statistics, computing p-values, recognizing testing errors và conducting tests cho means/proportions. **Score 9.43, achievement excellent**.\n- **MAS291/CLO9**: *Construct a simple linear regression model and use it for prediction and interpretation*. CLO này bao gồm least-squares estimation, sums of squares, regression equations, correlation coefficients và hypothesis tests for significance in simple linear regression. **Score 9.43, achievement excellent**.\n\nNếu bạn muốn, mình có thể tóm tiếp thành 3 nhóm ngắn hơn: **descriptive statistics**, **inference**, và **regression**.",
+        "evidence": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO8"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          }
+        ]
+      },
+      "actual_input_sha256": "1125364a02d8ae149e83549ef0d2f63a92d2fd2d2fa77b9f87494d91fe5ef1e5",
+      "raw_equals_parsed": true,
+      "usage": {
+        "input_tokens": 20391,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 20224
+        },
+        "output_tokens": 894,
+        "output_tokens_details": {
+          "reasoning_tokens": 451
+        },
+        "total_tokens": 21285
+      },
+      "incomplete_details": null
+    },
+    {
+      "operation": "repeat-S6-B-S0",
+      "arm": "B",
+      "scope": "S0",
+      "phase": "repeat",
+      "status": "completed",
+      "original_output": {
+        "segments": [
+          {
+            "kind": "general_explanation",
+            "text": "Mình gom lại theo các nhóm nội dung học thuật chính đã trao đổi, và giữ nguyên điểm/achievement khi nhắc đến từng CLO.",
+            "academic_sources": [],
+            "jd_excerpt": null
+          },
+          {
+            "kind": "academic_claim",
+            "text": "Nhóm statistics rõ nhất nằm ở MAS291: CLO5 (điểm 9.15, achievement excellent) về mô tả dữ liệu bằng numerical summaries và visual displays; CLO6 (9.15, excellent) về sampling distributions, point estimation và Central Limit Theorem; CLO7 (9.43, excellent) về confidence intervals; CLO8 (9.43, excellent) về hypothesis testing; và CLO9 (9.43, excellent) về simple linear regression để prediction và interpretation. Đây là phần nền tảng statistics học thuật trực tiếp và khá mạnh.",
+            "academic_sources": [
+              {
+                "course_code": "MAS291",
+                "clo": "CLO5",
+                "source_excerpt": "Describe data using numerical summaries and visual displays, including descriptive statistics, stem-and-leaf diagrams, frequency distributions, histograms, box plots, quartiles, outlier identification, and time sequence plots."
+              },
+              {
+                "course_code": "MAS291",
+                "clo": "CLO6",
+                "source_excerpt": "Discuss sampling distributions and point estimation, then use the Central Limit Theorem to analyze sampling distributions of means."
+              },
+              {
+                "course_code": "MAS291",
+                "clo": "CLO7",
+                "source_excerpt": "Construct and interpret confidence intervals for population parameters and differences between population parameters, including intervals for means of normal distributions with known or unknown variance, large-sample intervals for population proportions, inference on differences between two means, and inference on differences between two proportions."
+              },
+              {
+                "course_code": "MAS291",
+                "clo": "CLO8",
+                "source_excerpt": "Verify claims about population parameters and differences between population parameters using hypothesis testing, including formulating hypotheses, identifying critical values and test statistics, computing p-values, recognizing testing errors, and conducting tests for single means, single proportions, differences between two means, and differences between two proportions."
+              },
+              {
+                "course_code": "MAS291",
+                "clo": "CLO9",
+                "source_excerpt": "Construct a simple linear regression model and use it for prediction and interpretation, including empirical models, least-squares estimation, sums of squares, regression equations, correlation coefficients, properties of least-squares estimators, and hypothesis tests for significance in simple linear regression."
+              }
+            ],
+            "jd_excerpt": null
+          },
+          {
+            "kind": "academic_claim",
+            "text": "Về data processing và data analysis, DAP391m/CLO1 (8.45, good) cho importing datasets và data wrangling; DAP391m/CLO2 (8.79, excellent) cho import từ nhiều nguồn, clean/wrangle data, exploratory data analysis (EDA) và tạo meaningful data visualizations; DAP391m/CLO7 (9.1, excellent) cho mini capstone gồm data collection, wrangling, EDA, data visualization, model development, evaluation và reporting. ADY201m/CLO7 (8.61, excellent) cũng xác nhận workflow dự án với Python fundamentals, SQL/database access, preprocessing, modeling, evaluation, deployment, visualization và reporting. AIL303m/CLO1 (7.56, good) bổ sung việc retrieving dữ liệu từ SQL, NoSQL, APIs và Cloud cùng cleaning.",
+            "academic_sources": [
+              {
+                "course_code": "DAP391m",
+                "clo": "CLO1",
+                "source_excerpt": "Understand the basics of data analysis with Python for building and evaluating data models, including importing datasets and data wrangling."
+              },
+              {
+                "course_code": "DAP391m",
+                "clo": "CLO2",
+                "source_excerpt": "Understand how to import data from multiple sources, clean and wrangle data, perform exploratory data analysis (EDA), and create meaningful data visualizations, including Data Analysis, Data Analysis with Python- Exploratory Data Analysis, Data Analysis with Python- Exploratory Data Analysis."
+              },
+              {
+                "course_code": "DAP391m",
+                "clo": "CLO7",
+                "source_excerpt": "Implement the small mini capstone data science project includes steps: involving data collection, data wrangling, exploratory data analysis, data visualization, model development, model evaluation, and reporting, including Applied Data Science Capstone: Interactive Visual Analytics, Dashboard , Applied Data Science Capstone: Interactive Visual Analytics, Dashboard , Applied Data Science Capstone: Predictive Analysis (Classification) , Applied Data Science Capstone: Predictive Analysis (Classification), Evaluate final project."
+              },
+              {
+                "course_code": "ADY201m",
+                "clo": "CLO7",
+                "source_excerpt": "Implement a small data science project by applying Python fundamentals, Python data structures, SQL/database access, data understanding, preprocessing, modeling, evaluation, deployment, visualization, probability, regression analysis, and final reporting within a guided project workflow."
+              },
+              {
+                "course_code": "AIL303m",
+                "clo": "CLO1",
+                "source_excerpt": "Learners should be able to use common techniques to retrieve data from multiple data sources: SQL, NoSQL databases, APIs, Cloud, including Retrieving, Cleaning data."
+              }
+            ],
+            "jd_excerpt": null
+          },
+          {
+            "kind": "academic_claim",
+            "text": "Nền tảng ML/DL được xác nhận ở AIG202c/CLO2 (8.0, good) với Machine Learning, Deep Learning và Neural Networks. MAI391 bổ sung các phương pháp/mô hình cụ thể: CLO5 (9.4, excellent) về linear regression, CLO6 (9.4, excellent) về PCA, và CLO7 (9.4, excellent) về SVM classification. AIL303m/CLO4 (8.39, good) là supervised models với linear regression; CLO8 (6.87, basic) và CLO9 (6.87, basic) là clustering và dimensionality-reduction algorithms; CLO10 (5.42, basic) là mini capstone ML project.",
+            "academic_sources": [
+              {
+                "course_code": "AIG202c",
+                "clo": "CLO2",
+                "source_excerpt": "Explain underlying concepts related to Machine Learning, Deep Learning and Neural Networks, including AI Concepts, Terminology, Application Areas, AI: Issues, Concerns, Ethical Considerations."
+              },
+              {
+                "course_code": "MAI391",
+                "clo": "CLO5",
+                "source_excerpt": "Apply linear regression concepts, including problem formulation, parameter estimation, maximum likelihood estimation, maximum a posteriori estimation, generalization error, overfitting, and Bayesian linear regression."
+              },
+              {
+                "course_code": "MAI391",
+                "clo": "CLO6",
+                "source_excerpt": "Apply dimensionality reduction with PCA, including covariance matrices, maximum-variance subspaces, principal subspace bases, low-rank matrix approximation, PCA in high dimensions, projection perspectives, eigenvector computation, and key practical PCA steps."
+              },
+              {
+                "course_code": "MAI391",
+                "clo": "CLO7",
+                "source_excerpt": "Apply support vector machine classification, including separating hyperplanes, primal and dual SVM formulations, kernel-based nonlinear classifiers, and numerical approaches for finding optimal SVM solutions."
+              },
+              {
+                "course_code": "AIL303m",
+                "clo": "CLO4",
+                "source_excerpt": "Learners should be able to describe and use supervised models, including Introduction to Supervised Machine Learning, Linear Regression."
+              },
+              {
+                "course_code": "AIL303m",
+                "clo": "CLO8",
+                "source_excerpt": "Explain the curse of dimensionality, and how it makes clustering difficult with many features, including K Means Clustering, Selecting a clustering algorithm, Distance Metrics of Clustering Algorithms, Common clustering algorithms, Hierarchical Agglomerative Clustering, Hierarchical Agglomerative Clustering Lab, Compare clustering, Dimensionality Reduction."
+              },
+              {
+                "course_code": "AIL303m",
+                "clo": "CLO9",
+                "source_excerpt": "Learners should be able to describe and use common clustering and dimensionality-reduction algorithms, including Selecting a clustering algorithm, Distance Metrics of Clustering Algorithms, Common clustering algorithms, Hierarchical Agglomerative Clustering, Hierarchical Agglomerative Clustering Lab, Compare clustering algorithms, Clustering Demo."
+              },
+              {
+                "course_code": "AIL303m",
+                "clo": "CLO10",
+                "source_excerpt": "Implement a mini capstone ML project includes steps: data collection, data wrangling, exploratory data analysis, model development, model evaluation, and reporting, including Guiding mini Capstone, Review the mini Capstone, Review mini Capstone."
+              }
+            ],
+            "jd_excerpt": null
+          },
+          {
+            "kind": "academic_claim",
+            "text": "Về Python và SQL, PFP191/CLO7 (8.9, excellent) cho OOP trong Python; ADY201m/CLO5 (8.61, excellent) cho Python fundamentals, libraries và API support trong data science; DAP391m/CLO1 cũng gắn Python với data analysis, importing datasets và data wrangling. Về SQL, DBI202/CLO5 (5.96, basic) bao gồm SQL DDL/DML, multi-relation queries, nested queries và modifications trên Microsoft SQL Server; DBI202/CLO6 (5.96, basic) là T-SQL, views, cursors, stored procedures, functions, triggers; DBI202/CLO7 (5.96, basic) là indexes và query optimization. ADY201m/CLO1 (8.3, good) và CLO7 (8.61, excellent) bổ sung SQL/database access trong bối cảnh data science.",
+            "academic_sources": [
+              {
+                "course_code": "PFP191",
+                "clo": "CLO7",
+                "source_excerpt": "Understand object-oriented programming in Python and apply it in application contexts using classes and objects, encapsulation and data hiding, abstraction and modular design, inheritance, polymorphism, method overloading, object usage in OOP programs, object lifecycle, advanced OOP concepts, design patterns, and case studies."
+              },
+              {
+                "course_code": "ADY201m",
+                "clo": "CLO5",
+                "source_excerpt": "Discuss Python fundamentals, Python libraries, and API support for data science tasks, including understanding Python APIs, collecting data with Python, understanding and preprocessing data in Python, and using Python for data science, AI, and development workflows."
+              },
+              {
+                "course_code": "DAP391m",
+                "clo": "CLO1",
+                "source_excerpt": "Understand the basics of data analysis with Python for building and evaluating data models, including importing datasets and data wrangling."
+              },
+              {
+                "course_code": "DBI202",
+                "clo": "CLO5",
+                "source_excerpt": "Be proficient in SQL, including Data Definition Language (DDL) for defining database structures and implementing constraints such as primary and foreign keys, UNIQUE, and CHECK constraints using Microsoft SQL Server. Use Data Manipulation Language (DML) to perform basic queries, multi-relation queries, nested queries, aggregation queries, and database modifications using INSERT, UPDATE, and DELETE statements."
+              },
+              {
+                "course_code": "DBI202",
+                "clo": "CLO6",
+                "source_excerpt": "Understand T-SQL database programming concepts in Microsoft SQL Server and work with database views, cursors, stored procedures, functions, and triggers, including the use of triggers to enforce database constraints. Understand transaction concepts in database applications."
+              },
+              {
+                "course_code": "DBI202",
+                "clo": "CLO7",
+                "source_excerpt": "Apply database indexes in relational database design to support query optimization and improve query performance in practical database applications."
+              },
+              {
+                "course_code": "ADY201m",
+                "clo": "CLO1",
+                "source_excerpt": "Understand relational database concepts and foundational SQL language knowledge in the context of data science work, including accessing databases with Python, getting started with SQL, basic through advanced SQL-based data analysis, database fundamentals, nested queries, and multi-table SELECT statements."
+              },
+              {
+                "course_code": "ADY201m",
+                "clo": "CLO7",
+                "source_excerpt": "Implement a small data science project by applying Python fundamentals, Python data structures, SQL/database access, data understanding, preprocessing, modeling, evaluation, deployment, visualization, probability, regression analysis, and final reporting within a guided project workflow."
+              }
+            ],
+            "jd_excerpt": null
+          },
+          {
+            "kind": "academic_claim",
+            "text": "Phần visualization và dashboard cũng xuất hiện khá rõ: DAP391m/CLO2 (8.79, excellent) nói về data visualizations; DAP391m/CLO3 (8.79, excellent) nói về việc biểu diễn dữ liệu hiệu quả cho quy mô nhỏ và lớn; DAP391m/CLO4 (8.79, excellent) bao gồm nhiều loại biểu đồ như waffle charts, histograms, bar charts, pie charts, scatter plots, word clouds và choropleth maps; còn DAP391m/CLO7 (9.1, excellent) nhắc trực tiếp đến interactive visual analytics và dashboard.",
+            "academic_sources": [
+              {
+                "course_code": "DAP391m",
+                "clo": "CLO2",
+                "source_excerpt": "Understand how to import data from multiple sources, clean and wrangle data, perform exploratory data analysis (EDA), and create meaningful data visualizations, including Data Analysis, Data Analysis with Python- Exploratory Data Analysis, Data Analysis with Python- Exploratory Data Analysis."
+              },
+              {
+                "course_code": "DAP391m",
+                "clo": "CLO3",
+                "source_excerpt": "Know difference ways to effectively visualize both small and large-scale data, including Project Topic Introduction and discuss, Evaluate final project."
+              },
+              {
+                "course_code": "DAP391m",
+                "clo": "CLO4",
+                "source_excerpt": "Implement various types of basic and advanced graphs and charts like: Waffle Charts, Area Plots, Histograms, Bar Charts, Pie Charts, Scatter Plots, Word Clouds, Choropleth Maps, and many more, including Advanced Visualizations, Geospatial Data."
+              },
+              {
+                "course_code": "DAP391m",
+                "clo": "CLO7",
+                "source_excerpt": "Implement the small mini capstone data science project includes steps: involving data collection, data wrangling, exploratory data analysis, data visualization, model development, model evaluation, and reporting, including Applied Data Science Capstone: Interactive Visual Analytics, Dashboard , Applied Data Science Capstone: Interactive Visual Analytics, Dashboard , Applied Data Science Capstone: Predictive Analysis (Classification) , Applied Data Science Capstone: Predictive Analysis (Classification), Evaluate final project."
+              }
+            ],
+            "jd_excerpt": null
+          },
+          {
+            "kind": "academic_claim",
+            "text": "Ngoài các mảng trên, hồ sơ còn có nền tảng phân tích/toán học hỗ trợ problem solving: MAE101/CLO3 (8.98, excellent) dùng đạo hàm để phân tích hàm và giải bài toán ứng dụng; MAD101/CLO3 (8.47, good) phân tích thuật toán và độ phức tạp; và MAI391/CLO4 (9.43, excellent) giải continuous optimization bằng gradient descent, Lagrange multipliers, convex optimization và linear programming.",
+            "academic_sources": [
+              {
+                "course_code": "MAE101",
+                "clo": "CLO3",
+                "source_excerpt": "Use derivatives to analyze functions and solve applications, including implicit differentiation, related rates, linear approximation, differentials and approximation error, Rolle's Theorem, the Mean Value Theorem, critical numbers, absolute and local extrema, monotonicity, optimization, acceleration as a second derivative, inflection points, concavity, and Newton's method."
+              },
+              {
+                "course_code": "MAD101",
+                "clo": "CLO3",
+                "source_excerpt": "Analyze basic algorithms written in pseudocode and determine their complexities, including searching, sorting, greedy algorithms, growth of functions, and Big-O, Big-Omega, and Big-Theta estimates."
+              },
+              {
+                "course_code": "MAI391",
+                "clo": "CLO4",
+                "source_excerpt": "Solve continuous optimization problems using gradient descent for local minima, Lagrange multipliers for constrained extrema, convex optimization concepts, and linear programming."
+              }
+            ],
+            "jd_excerpt": null
+          }
+        ]
+      },
+      "public_analysis_view": {
+        "reply": "Mình gom lại theo các nhóm nội dung học thuật chính đã trao đổi, và giữ nguyên điểm/achievement khi nhắc đến từng CLO.\n\nNhóm statistics rõ nhất nằm ở MAS291: CLO5 (điểm 9.15, achievement excellent) về mô tả dữ liệu bằng numerical summaries và visual displays; CLO6 (9.15, excellent) về sampling distributions, point estimation và Central Limit Theorem; CLO7 (9.43, excellent) về confidence intervals; CLO8 (9.43, excellent) về hypothesis testing; và CLO9 (9.43, excellent) về simple linear regression để prediction và interpretation. Đây là phần nền tảng statistics học thuật trực tiếp và khá mạnh.\n\nVề data processing và data analysis, DAP391m/CLO1 (8.45, good) cho importing datasets và data wrangling; DAP391m/CLO2 (8.79, excellent) cho import từ nhiều nguồn, clean/wrangle data, exploratory data analysis (EDA) và tạo meaningful data visualizations; DAP391m/CLO7 (9.1, excellent) cho mini capstone gồm data collection, wrangling, EDA, data visualization, model development, evaluation và reporting. ADY201m/CLO7 (8.61, excellent) cũng xác nhận workflow dự án với Python fundamentals, SQL/database access, preprocessing, modeling, evaluation, deployment, visualization và reporting. AIL303m/CLO1 (7.56, good) bổ sung việc retrieving dữ liệu từ SQL, NoSQL, APIs và Cloud cùng cleaning.\n\nNền tảng ML/DL được xác nhận ở AIG202c/CLO2 (8.0, good) với Machine Learning, Deep Learning và Neural Networks. MAI391 bổ sung các phương pháp/mô hình cụ thể: CLO5 (9.4, excellent) về linear regression, CLO6 (9.4, excellent) về PCA, và CLO7 (9.4, excellent) về SVM classification. AIL303m/CLO4 (8.39, good) là supervised models với linear regression; CLO8 (6.87, basic) và CLO9 (6.87, basic) là clustering và dimensionality-reduction algorithms; CLO10 (5.42, basic) là mini capstone ML project.\n\nVề Python và SQL, PFP191/CLO7 (8.9, excellent) cho OOP trong Python; ADY201m/CLO5 (8.61, excellent) cho Python fundamentals, libraries và API support trong data science; DAP391m/CLO1 cũng gắn Python với data analysis, importing datasets và data wrangling. Về SQL, DBI202/CLO5 (5.96, basic) bao gồm SQL DDL/DML, multi-relation queries, nested queries và modifications trên Microsoft SQL Server; DBI202/CLO6 (5.96, basic) là T-SQL, views, cursors, stored procedures, functions, triggers; DBI202/CLO7 (5.96, basic) là indexes và query optimization. ADY201m/CLO1 (8.3, good) và CLO7 (8.61, excellent) bổ sung SQL/database access trong bối cảnh data science.\n\nPhần visualization và dashboard cũng xuất hiện khá rõ: DAP391m/CLO2 (8.79, excellent) nói về data visualizations; DAP391m/CLO3 (8.79, excellent) nói về việc biểu diễn dữ liệu hiệu quả cho quy mô nhỏ và lớn; DAP391m/CLO4 (8.79, excellent) bao gồm nhiều loại biểu đồ như waffle charts, histograms, bar charts, pie charts, scatter plots, word clouds và choropleth maps; còn DAP391m/CLO7 (9.1, excellent) nhắc trực tiếp đến interactive visual analytics và dashboard.\n\nNgoài các mảng trên, hồ sơ còn có nền tảng phân tích/toán học hỗ trợ problem solving: MAE101/CLO3 (8.98, excellent) dùng đạo hàm để phân tích hàm và giải bài toán ứng dụng; MAD101/CLO3 (8.47, good) phân tích thuật toán và độ phức tạp; và MAI391/CLO4 (9.43, excellent) giải continuous optimization bằng gradient descent, Lagrange multipliers, convex optimization và linear programming.",
+        "evidence": [
+          {
+            "course_code": "MAS291",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO8"
+          },
+          {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          },
+          {
+            "course_code": "DAP391m",
+            "clo": "CLO1"
+          },
+          {
+            "course_code": "DAP391m",
+            "clo": "CLO2"
+          },
+          {
+            "course_code": "DAP391m",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "AIL303m",
+            "clo": "CLO1"
+          },
+          {
+            "course_code": "AIG202c",
+            "clo": "CLO2"
+          },
+          {
+            "course_code": "MAI391",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "MAI391",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "MAI391",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "AIL303m",
+            "clo": "CLO4"
+          },
+          {
+            "course_code": "AIL303m",
+            "clo": "CLO8"
+          },
+          {
+            "course_code": "AIL303m",
+            "clo": "CLO9"
+          },
+          {
+            "course_code": "AIL303m",
+            "clo": "CLO10"
+          },
+          {
+            "course_code": "PFP191",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "DBI202",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "DBI202",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "DBI202",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO1"
+          },
+          {
+            "course_code": "DAP391m",
+            "clo": "CLO3"
+          },
+          {
+            "course_code": "DAP391m",
+            "clo": "CLO4"
+          },
+          {
+            "course_code": "MAE101",
+            "clo": "CLO3"
+          },
+          {
+            "course_code": "MAD101",
+            "clo": "CLO3"
+          },
+          {
+            "course_code": "MAI391",
+            "clo": "CLO4"
+          }
+        ]
+      },
+      "actual_input_sha256": "1125364a02d8ae149e83549ef0d2f63a92d2fd2d2fa77b9f87494d91fe5ef1e5",
+      "raw_equals_parsed": true,
+      "usage": {
+        "input_tokens": 20754,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 20224
+        },
+        "output_tokens": 7834,
+        "output_tokens_details": {
+          "reasoning_tokens": 4660
+        },
+        "total_tokens": 28588
+      },
+      "incomplete_details": null
+    },
+    {
+      "operation": "repeat-S8-B-S0",
+      "arm": "B",
+      "scope": "S0",
+      "phase": "repeat",
+      "status": "incomplete",
+      "original_output": null,
+      "public_analysis_view": null,
+      "actual_input_sha256": "6ea541632fbff864d2d90fc7cb32040624573d2508949b1c811d6fcd20d23438",
+      "raw_equals_parsed": true,
+      "usage": {
+        "input_tokens": 20833,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 20736
+        },
+        "output_tokens": 8192,
+        "output_tokens_details": {
+          "reasoning_tokens": 8192
+        },
+        "total_tokens": 29025
+      },
+      "incomplete_details": {
+        "reason": "max_output_tokens"
+      }
+    },
+    {
+      "operation": "repeat-S8-A-S0",
+      "arm": "A",
+      "scope": "S0",
+      "phase": "repeat",
+      "status": "incomplete",
+      "original_output": null,
+      "public_analysis_view": null,
+      "actual_input_sha256": "6ea541632fbff864d2d90fc7cb32040624573d2508949b1c811d6fcd20d23438",
+      "raw_equals_parsed": true,
+      "usage": {
+        "input_tokens": 20470,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 20224
+        },
+        "output_tokens": 8192,
+        "output_tokens_details": {
+          "reasoning_tokens": 8192
+        },
+        "total_tokens": 28662
+      },
+      "incomplete_details": {
+        "reason": "max_output_tokens"
+      }
+    }
+  ],
+  "no_inference_or_repairs": true
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "clo_name": "CLO0",
+    "clo_details": "Analytic Geometry\nLO 0.1 Define a norm and an inner product on a vector space\nLO 0.2 Determine bilinear mapping and check if a square matrix is positive definite.\nLO 0.3 Find the length of a vector as well as the distance between two vectors in a vector space by using inner product.\nLO 0.4 Find the angle between two vectors and check if they are orthogonal. Check if a square matrix is orthogonal.\nLO 0.5 Check if a set of vectors is an orthogonal or an orthonormal basis of a given vector space. Determine an orthogonal complement of a subspace.\nLO 0.6 Construct the projection onto a subspace."
+  },
+  {
+    "clo_name": "CLO1",
+    "clo_details": "Matrix Decomposition\nLO 1.1\nCompute the determinant of a square matrix, decide when a square matrix is invertible by equivalent conditions.\nFind the characteristic polynomial, eigenvalues and eigenvectors of a matrix.\nUnderstand some theorems concerning eigenvalues.\nLO1.2\nDiagonalize a matrix by eigendecomposition.\nDecompose a matrix by singular value decomposition.\nLO1.3\nCompute matrix approximation."
+  },
+  {
+    "clo_name": "CLO2",
+    "clo_details": "Vector Calculus\nLO 2.1\nRevisit differentiation of a univariate function.\nFind Taylor expansion of a smooth function at a given point.\nLO 2.2 Find partial derivatives using basic formulas and the chain rule, gradients of multivariate functions.\nLO 2.3 Find gradients, Jacobian matrices of Vector-Valued Functions.\nLO 2.4 Take gradients of matrices with respect to vectors.\nLO 2.5 Understand the idea of backpropagation in deep learning.\nLO 2.6 Find the higher-order partial derivatives, linearization and multivariate Taylor series of multivariate functions."
+  },
+  {
+    "clo_name": "CLO3",
+    "clo_details": "Probability and Distributions\nLO 3.1 Catch the notions of discrete variable continuous variable; find the probability mass function, the probability density function, the cumulative distribution function and their properties.\nLO 3.2 Calculate conditional probabilities; use multiplication rule, total probability rule and Bayes theorem to find probabilities.\nLO 3.3 Compute the mean and variance of a random variable, compute the covariance and the correlation between two variables.\nLO 3.4 Consider whether two variables are independent.\nLO 3.5 Describe a Gauss distribution, marginals, conditionals, sums and products of Gauss distributions."
+  },
+  {
+    "clo_name": "CLO4",
+    "clo_details": "Continuous Optimization\nLO 4.1 Find a local minimum of a function using gradient descent.\nLO 4.2 Use Lagrange multipliers to find the maximum/minimum value of a multivariate function with constraints.\nLO 4.3 Understand convex optimization problems and solve linear programings."
+  },
+  {
+    "clo_name": "CLO5",
+    "clo_details": "Linear Regression\nLO 5.1 Use maximum likelihood and maximum a posteriori (MAP) estimation to find optimal model parameters.\nLO 5.2 Using these parameter estimates to have a brief look at generalization errors and overfitting.\nLO 5.3 Discuss Bayesian linear regression."
+  },
+  {
+    "clo_name": "CLO6",
+    "clo_details": "Dimensionality Reduction with PCA\nLO 6.1 Compute the data covariance matrix of a data set, construct m-dimensional subspace with maximum variance.\nLO 6.2 Find the basis of theprincipal subspace.\nLO 6.3 Using Low-Rank Matrix to approximate PCA.\nLO 6.4 Discuss PCA in high dimension and key steps of PCA."
+  },
+  {
+    "clo_name": "CLO7",
+    "clo_details": "Classification with SVM\nLO 7.1 Understand binary classification by seperating hyperplane.\nLO 7.2 Catch mathematical ideas of support vector machine.\nLO 7.3 Understand the advantage of dual support vector machine.\nLO 7.4 Introduce non-linear classifiers by kernels.\nLO 7.5 Consider two different approaches for finding the optimal solution for the SVM."
+  },
+  {
+    "clo_name": "CLO8",
+    "clo_details": "Attitude and soft skills\nLO 8 Develop working in group skills and self-discipline"
+  }
+]

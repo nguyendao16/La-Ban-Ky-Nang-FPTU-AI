@@ -1,0 +1,167 @@
+{
+  "review_type": "academic_knowledge_review",
+  "overview": "Hồ sơ học thuật của sinh viên thể hiện nền tảng vững chắc về toán học, lập trình Python, xử lý ảnh, thuật toán thị giác máy tính, học sâu (deep learning) và các kỹ thuật liên quan đến khoa học dữ liệu. Các CLO trong các học phần như CPV301 (Computer Vision), MAI391 (Applied Mathematics for AI), DAP391m (Applied Data Science Project), ADY201m (Applied Data Science), cùng với các học phần về lập trình Python (PFP191) và xử lý dữ liệu (AIL303m, DBI202) cung cấp bằng chứng học thuật rõ ràng về các kiến thức nền tảng và ứng dụng trong lĩnh vực thị giác máy tính, xử lý ảnh, học máy và học sâu. Tuy nhiên, các CLO không nêu rõ việc sử dụng trực tiếp các framework như PyTorch hoặc TensorFlow, cũng như không xác nhận kinh nghiệm thực tế với các thư viện này.",
+  "requirement_reviews": [
+    {
+      "jd_requirement": "Collect, clean, annotate and preprocess image/video data",
+      "coverage": "covered",
+      "comment": "CPV301/CLO3 yêu cầu sinh viên áp dụng các kỹ thuật xử lý ảnh cơ bản và thuật toán liên quan, bao gồm các thao tác trên điểm ảnh, lọc ảnh, biến đổi hình học, phù hợp với yêu cầu tiền xử lý dữ liệu ảnh. DAP391m/CLO1 và CLO2 cũng đề cập đến việc nhập, làm sạch và xử lý dữ liệu, bao gồm cả dữ liệu hình ảnh trong bối cảnh phân tích dữ liệu với Python. Thành tích học thuật ở các CLO này đạt mức excellent và good.",
+      "evidence": [
+        {
+          "course_code": "CPV301",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO2"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Contribute to training/evaluation of detection, classification and image-feature models",
+      "coverage": "covered",
+      "comment": "CPV301/CLO8 yêu cầu sinh viên hiểu và triển khai các kỹ thuật phát hiện đối tượng (object detection), phù hợp với yêu cầu về mô hình phát hiện. CPV301/CLO4 đề cập đến trích xuất đặc trưng và so khớp đặc trưng ảnh. DAP391m/CLO7 và AIL303m/CLO10 đều yêu cầu sinh viên thực hiện dự án nhỏ về khoa học dữ liệu hoặc học máy, bao gồm các bước phát triển, đánh giá mô hình phân loại và báo cáo kết quả. Thành tích học thuật ở các CLO này đạt mức excellent và good.",
+      "evidence": [
+        {
+          "course_code": "CPV301",
+          "clo": "CLO8"
+        },
+        {
+          "course_code": "CPV301",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO10"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Resize/augment/normalize images",
+      "coverage": "covered",
+      "comment": "CPV301/CLO3 yêu cầu sinh viên áp dụng các kỹ thuật xử lý ảnh, bao gồm biến đổi hình học (geometric transformations), phù hợp với thao tác resize và normalize ảnh. Việc augment ảnh không được nêu rõ, nhưng các kỹ thuật biến đổi và xử lý ảnh cơ bản đã được đề cập. Thành tích học thuật excellent.",
+      "evidence": [
+        {
+          "course_code": "CPV301",
+          "clo": "CLO3"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Compare architectures, OpenCV and PyTorch/TensorFlow",
+      "coverage": "related",
+      "comment": "CPV301/CLO1 cung cấp kiến thức tổng quan về các lĩnh vực liên quan đến thị giác máy tính và các ứng dụng, nhưng không nêu rõ so sánh các kiến trúc mạng hoặc framework cụ thể như OpenCV, PyTorch, TensorFlow. Các CLO khác như DAP391m/CLO6 đề cập đến phát triển ứng dụng AI với Watson APIs, nhưng không xác nhận sử dụng các framework deep learning phổ biến. Hồ sơ học thuật hiện có chưa cung cấp bằng chứng trực tiếp về việc so sánh hoặc sử dụng OpenCV, PyTorch hoặc TensorFlow.",
+      "evidence": [
+        {
+          "course_code": "CPV301",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO6"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Assist application integration and testing",
+      "coverage": "related",
+      "comment": "DAP391m/CLO6 và CLO7 yêu cầu sinh viên phát triển ứng dụng AI và thực hiện dự án khoa học dữ liệu, bao gồm các bước triển khai, đánh giá và báo cáo, phù hợp với các khía cạnh tích hợp và kiểm thử ứng dụng ở mức học thuật. Tuy nhiên, chưa có CLO nào xác nhận kinh nghiệm thực tế với quy trình kiểm thử phần mềm chuyên sâu hoặc tích hợp hệ thống lớn.",
+      "evidence": [
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO6"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO7"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Document experiments and read CV research",
+      "coverage": "covered",
+      "comment": "DAP391m/CLO7 yêu cầu sinh viên thực hiện báo cáo dự án khoa học dữ liệu, bao gồm tổng hợp, trình bày và đánh giá kết quả thực nghiệm. CPV301/CLO1 yêu cầu sinh viên hiểu tổng quan về thị giác máy tính và các lĩnh vực liên quan, phù hợp với việc đọc tài liệu nghiên cứu. Thành tích học thuật excellent.",
+      "evidence": [
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "CPV301",
+          "clo": "CLO1"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Ability to program with deep-learning frameworks such as TensorFlow/PyTorch, with PyTorch preferred for research",
+      "coverage": "not_evidenced",
+      "comment": "Hồ sơ học thuật hiện có chưa cung cấp bằng chứng trực tiếp về việc sử dụng hoặc lập trình với các framework deep learning như TensorFlow hoặc PyTorch. Không có CLO nào xác nhận sử dụng các framework này trong học phần.",
+      "evidence": []
+    },
+    {
+      "jd_requirement": "Foundations in deep learning, image processing and CV algorithms",
+      "coverage": "covered",
+      "comment": "CPV301/CLO3, CLO4, CLO8 cung cấp kiến thức về xử lý ảnh, trích xuất đặc trưng, phát hiện đối tượng và các thuật toán thị giác máy tính. MAI391/CLO5, CLO6, CLO7 cung cấp nền tảng toán học cho học máy, bao gồm hồi quy tuyến tính, PCA, SVM. AIG202c/CLO2 đề cập đến các khái niệm về Machine Learning, Deep Learning và Neural Networks. Thành tích học thuật ở các CLO này đạt mức excellent và good.",
+      "evidence": [
+        {
+          "course_code": "CPV301",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "CPV301",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "CPV301",
+          "clo": "CLO8"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO6"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "AIG202c",
+          "clo": "CLO2"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Python/C++ and research-document reading",
+      "coverage": "covered",
+      "comment": "PFP191/CLO7 yêu cầu sinh viên hiểu và áp dụng lập trình hướng đối tượng với Python trong các ứng dụng thực tế. DAP391m/CLO7 yêu cầu thực hiện dự án, báo cáo và trình bày kết quả, phù hợp với kỹ năng đọc tài liệu nghiên cứu. Không có CLO nào xác nhận sử dụng C++.",
+      "evidence": [
+        {
+          "course_code": "PFP191",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO7"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Preferred: Prior TensorFlow/PyTorch experience, separately stated in the source",
+      "coverage": "not_evidenced",
+      "comment": "Không có CLO nào xác nhận sinh viên đã từng sử dụng hoặc có kinh nghiệm với TensorFlow hoặc PyTorch. Hồ sơ học thuật hiện có chưa cung cấp bằng chứng trực tiếp về nội dung này.",
+      "evidence": []
+    }
+  ],
+  "conclusion": "Hồ sơ học thuật thể hiện nền tảng vững chắc về toán học ứng dụng, lập trình Python, xử lý ảnh, thuật toán thị giác máy tính, học máy và học sâu, với thành tích học tập chủ yếu ở mức excellent và good. Các yêu cầu về tiền xử lý dữ liệu ảnh, phát triển và đánh giá mô hình phát hiện/nhận diện, xử lý đặc trưng ảnh, đọc tài liệu nghiên cứu, lập trình Python và báo cáo thực nghiệm đều được chứng minh qua các CLO liên quan. Tuy nhiên, hồ sơ chưa cung cấp bằng chứng học thuật về việc sử dụng hoặc lập trình với các framework deep learning như TensorFlow hoặc PyTorch, cũng như chưa xác nhận kinh nghiệm với C++. Các yêu cầu về so sánh kiến trúc, sử dụng OpenCV, PyTorch/TensorFlow và kinh nghiệm thực tế với các framework này chỉ được hỗ trợ ở mức liên quan hoặc chưa có bằng chứng trực tiếp. Kết quả này phản ánh giới hạn của bằng chứng học thuật hiện có, không đánh giá kinh nghiệm cá nhân ngoài phạm vi hồ sơ."
+}

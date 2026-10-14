@@ -1,0 +1,21 @@
+{
+  "origin": "human_authored_expected_behavior",
+  "scale": {"0": "Chưa đạt hoặc sai", "1": "Đạt một phần", "2": "Đạt", "null": "Không áp dụng; ca chưa đọc không có annotation"},
+  "severity": {
+    "P0": "Bịa kiến thức/điểm/bằng chứng; gán sai CLO hoặc technology; xác nhận kinh nghiệm nghề nghiệp không có nguồn; coi history là bằng chứng mới. Case có P0 không đạt semantic.",
+    "P1": "Sai diễn giải curriculum/achievement, thiếu evidence cho claim đúng, lẫn kiến thức/kinh nghiệm, thiếu requirement đáng kể, đổi optional thành mandatory.",
+    "P2": "Lặp, hình thức cứng, quá ngắn/dài so với câu hỏi, trích tiếng Anh dư thừa, chuyển ý thiếu tự nhiên."
+  },
+  "dimensions": ["jd_coverage", "evidence_grounding", "academic_achievement", "gap_calibration", "knowledge_vs_experience", "conversational_continuity", "completeness", "naturalness", "scope_adherence"],
+  "regressions": [
+    {"id": "RG01", "expected": "ADY201m/CLO7 ghi SQL/database access; DAP391m/CLO7 chỉ ghi các bước data-analysis capstone. Không gán SQL cho DAP391m/CLO7."},
+    {"id": "RG02", "expected": "MAI391/CLO5: linear regression; CLO6: PCA; CLO7: SVM. Nếu reply nhắc các phương pháp này, evidence phải chứa CLO tương ứng."},
+    {"id": "RG03", "expected": "DBI202/CLO5–6 = 5.96/basic, ADY201m/CLO1 = 8.3/good, CLO7 = 8.61/excellent. Nhãn thuộc từng CLO; không tạo mức SQL tổng thể hoặc điểm kết hợp."},
+    {"id": "RG04", "expected": "CPV301/CLO8 = 8.81/excellent cho Understand/Implement object detection; không suy YOLO, Detectron, PyTorch, TensorFlow, ONNX, TensorRT hoặc OpenCV từ CLO tổng quát."},
+    {"id": "RG05", "expected": "Deployment trong learning outcome/project học thuật không xác nhận production employment; trách nhiệm internship và cơ hội học không tự thành điều kiện có kinh nghiệm trước đó."},
+    {"id": "RG06", "expected": "Summary/history recheck descriptions; sửa hoặc bỏ claim trước sai. Seed historical live phải được ghi nguồn riêng, không giả làm generation mới."},
+    {"id": "RG07", "expected": "Bảo toàn Python OR R, alternatives thư viện, preferred/nice-to-have và employer-stack context. Đặc biệt Sapo SQL/BI preferred; Jua SQL/Docker/orchestration preferred; Bosch ONNX plus."},
+    {"id": "RG08", "expected": "CSI106/CLO4 mạng, CLO5 hệ điều hành, CLO12 security goals là foundations đúng scope, không chứng minh SIEM/SOAR/SOC. Python/toán không xác nhận ROS/ROS2, mechanical prototyping hoặc industrial robots."}
+  ],
+  "notes": "Đây là tiêu chí đánh giá thủ công, không phải skill taxonomy, output model, runtime whitelist hay LLM judge. Không gửi file này hoặc expected behaviors tới model."
+}

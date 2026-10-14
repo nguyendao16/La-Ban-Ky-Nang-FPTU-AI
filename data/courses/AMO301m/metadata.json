@@ -1,0 +1,7 @@
+{
+  "syllabus_name": "Advanced MLOps_Hoạt động học máy nâng cao",
+  "course_name_english": "Advanced MLOps",
+  "subject_code": "AMO301m",
+  "description": "This course provides students with practical knowledge and skills to bridge the gap between machine learning model development and production deployment. Students will master essential Python programming for MLOps, explore the integration of DevOps practices, and build efficient microservices, including the application of high-performance languages like Rust for zero-shot classification. The curriculum covers cloud-based data engineering pipelines using AWS technologies (such as AWS Step Functions, Lambda, and SageMaker) alongside industry-standard tools like MLflow and Hugging Face for model tracking, reproducibility, and deployment. Through hands-on projects, students will gain comprehensive experience in designing, building, and managing end-to-end operational pipelines for real-world AI and ML solutions.",
+  "tools": "Python, AWS (SageMaker, Lambda, Step Functions), MLflow, Hugging Face, Rust, GitHub."
+}

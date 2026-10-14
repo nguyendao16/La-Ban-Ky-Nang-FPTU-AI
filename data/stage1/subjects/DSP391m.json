@@ -1,0 +1,955 @@
+{
+  "schema_version": "stage1_v1",
+  "record_type": "combo_subject",
+  "subject": {
+    "code": "DSP391m",
+    "name": {
+      "full": "Data Science - Capstone Project_Dự án KHDL",
+      "en": "Data Science - Capstone Project",
+      "vi": "Dự án KHDL"
+    },
+    "semester": 8,
+    "credits": 3,
+    "prerequisite": ""
+  },
+  "syllabus": {
+    "id": "11717",
+    "name": "Data Science - Capstone Project_Dự án KHDL",
+    "is_active": true,
+    "is_approved": true,
+    "decision_no": "765/QĐ-ĐHFPT dated 07/29/2024"
+  },
+  "content": {
+    "metadata": {
+      "syllabus_id": "11717",
+      "syllabus_name": "Data Science - Capstone Project_Dự án KHDL",
+      "course_name_english": "Data Science - Capstone Project",
+      "subject_code": "DSP391m",
+      "learning_teaching_method": "Blended,Project based learning,Active learning,Presentation,Offline",
+      "nocredit": "3",
+      "degree_level": "Bachelor",
+      "time_allocation": "45h (60 sessions) contact hours + 1h final exam + 104h self-study;",
+      "pre_requisite": "DSR301m, DBM302m, BDI302c",
+      "description": "This capstone project course is designed to consolidate and apply students' knowledge in data science to tackle real-world challenges. The course emphasizes:\n- The application of data science techniques to solve practical problems.\n- The identification and adaptation of data science methodologies from current research for specific problems.\n- The development of a comprehensive solution approach using data science.\n- The evaluation and analysis of results from data science projects.\n- Recognition of appropriate scenarios for data science applications.\n- Selection of suitable metrics for project evaluation.\n- Understanding the ethical and legal implications of data handling.\n- Implementation and reflection on various data science algorithms including preprocessing, machine learning models, and advanced analytical techniques.\n- Effective teamwork and project management.",
+      "studenttasks": "- Select a suitable project and form teams.\n- Allocate and schedule tasks among team members.\n- Develop a project output that meets the specified requirements and demonstrates individual contributions.\n- Present and defend the project in front of a review",
+      "tools": "- Programming Languages: Python, R\n- Software Tools: Jupyter Notebook, TensorFlow, Scikit-Learn, Pandas\n- Databases and Datasets: Kaggle, UCI Machine Learning Repository, Government databases\n- Additional Resources: Google Scholar for research papers, GitHub for code repositories",
+      "scoring_scale": "10",
+      "decisionno_mm_dd_yyyy": "765/QĐ-ĐHFPT dated 07/29/2024",
+      "isapproved": "True",
+      "note": "\"- The essential capstone project is mandatory, focusing on solving a real-world data challenge. It comprises 100% of assessments, culminating in a final exam by oral presentation.\n- The final mark is determined by summing the weighted scores of Report 1 (10%), Report 2 (20%), Report 3 (40%), Final Report (10%), and Final Exam[Oral presentation] (20%).\n- The final exam [oral group presentation] takes place in class, individually evaluated by one professor. Retakes are permissible, involving the submission of a revised final report and presentation, also evaluated by one professor.\"",
+      "is_scored": "True",
+      "minavgmarktopass": "5",
+      "isactive": "True",
+      "approveddate": "7/29/2024"
+    },
+    "materials": [
+      {
+        "no": "1",
+        "material_description": "Data Mining Pipeline",
+        "author": "University of Colorado Boulder",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://www.coursera.org/learn/data-mining-pipeline?specialization=data-mining-foundations-practice"
+      },
+      {
+        "no": "2",
+        "material_description": "Data Visualization",
+        "author": "University of Illinois at Urbana-Champaign",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://www.coursera.org/learn/datavisualization?specialization=data-mining"
+      },
+      {
+        "no": "3",
+        "material_description": "Pattern Discovery in Data Mining",
+        "author": "University of Illinois at Urbana-Champaign",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://www.coursera.org/learn/data-patterns?specialization=data-mining"
+      },
+      {
+        "no": "4",
+        "material_description": "Cluster Analysis in Data Mining",
+        "author": "University of Illinois at Urbana-Champaign",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://www.coursera.org/learn/cluster-analysis?specialization=data-mining"
+      },
+      {
+        "no": "5",
+        "material_description": "Research Paper: Various research papers on machine learning algorithms",
+        "author": "",
+        "publisher": "",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://scholar.google.com/"
+      },
+      {
+        "no": "6",
+        "material_description": "Dataset: Publicly available datasets from Kaggle",
+        "author": "",
+        "publisher": "",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://www.kaggle.com/"
+      }
+    ],
+    "clos": [
+      {
+        "no": "1",
+        "clo_name": "CLO1",
+        "clo_details": "Identify relevant data science techniques for addressing Capstone Project topics."
+      },
+      {
+        "no": "2",
+        "clo_name": "CLO2",
+        "clo_details": "Formulate clear problem statements and objectives in project proposals."
+      },
+      {
+        "no": "3",
+        "clo_name": "CLO3",
+        "clo_details": "Plan and execute data collection and cleaning procedures effectively."
+      },
+      {
+        "no": "4",
+        "clo_name": "CLO4",
+        "clo_details": "Conduct exploratory data analysis (EDA) to uncover patterns and insights in data."
+      },
+      {
+        "no": "5",
+        "clo_name": "CLO5",
+        "clo_details": "Develop and deploy machine learning models tailored to project requirements."
+      },
+      {
+        "no": "6",
+        "clo_name": "CLO6",
+        "clo_details": "Evaluate, refine, and optimize machine learning models for improved performance."
+      },
+      {
+        "no": "7",
+        "clo_name": "CLO7",
+        "clo_details": "Interpret and visualize results effectively to communicate findings to stakeholders."
+      },
+      {
+        "no": "8",
+        "clo_name": "CLO8",
+        "clo_details": "Summarize conclusions drawn from data analysis and provide actionable recommendations."
+      },
+      {
+        "no": "9",
+        "clo_name": "CLO9",
+        "clo_details": "Compile comprehensive final project reports integrating insights and methodologies learned throughout the course."
+      },
+      {
+        "no": "10",
+        "clo_name": "CLO10",
+        "clo_details": "Enhance oral presentation skills through participation in Team Meetings and Final Presentations."
+      }
+    ],
+    "schedule": [
+      {
+        "session": "1",
+        "topic": "[Chapter 1: Course Introduction and Group Formation] Introduction to the course",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "TU",
+        "student_materials": "Syllabus DSP391m, Instructional Slide Chapter 1",
+        "s_download": "mat1",
+        "student_tasks": "Attend lecture, participate in discussions on course intro & Capstone Project importance.",
+        "urls": ""
+      },
+      {
+        "session": "2",
+        "topic": "Discussion on the Capstone Project (CP) topic",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "TU",
+        "student_materials": "Syllabus DSP391m, Instructional Slide Chapter 1",
+        "s_download": "",
+        "student_tasks": "Attend lecture, engage in course objectives & structure intro.",
+        "urls": ""
+      },
+      {
+        "session": "3",
+        "topic": "Formation of teams/groups",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "TU",
+        "student_materials": "Syllabus DSP391m, Instructional Slide Chapter 1",
+        "s_download": "",
+        "student_tasks": "Collaborate to form project teams or groups.",
+        "urls": ""
+      },
+      {
+        "session": "4",
+        "topic": "Discuss and choose a project topic",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "TU",
+        "student_materials": "Syllabus DSP391m, Instructional Slide Chapter 1",
+        "s_download": "",
+        "student_tasks": "Discuss and help select suitable project topics.",
+        "urls": ""
+      },
+      {
+        "session": "5",
+        "topic": "[Chapter 2: Project Proposal ] Guide Report No.1: Project Proposal",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2",
+        "itu": "TU",
+        "student_materials": "Instructional Slide Chapter 2",
+        "s_download": "",
+        "student_tasks": "Attend lecture and participate in discussions on proposal preparation",
+        "urls": ""
+      },
+      {
+        "session": "6",
+        "topic": "Report No.1: Project Proposal (Discussion)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2",
+        "itu": "TU",
+        "student_materials": "Project Template",
+        "s_download": "",
+        "student_tasks": "Actively participate, provide feedback on proposal",
+        "urls": ""
+      },
+      {
+        "session": "7",
+        "topic": "References related to Report 1",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2",
+        "itu": "TU",
+        "student_materials": "Instructional Slide Chapter 2",
+        "s_download": "",
+        "student_tasks": "Search, review relevant references for proposal",
+        "urls": ""
+      },
+      {
+        "session": "8",
+        "topic": "Team Meeting: Project Proposal Writing",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2",
+        "itu": "TU",
+        "student_materials": "Instructional Slide Chapter 2",
+        "s_download": "",
+        "student_tasks": "Draft introduction, problem statement of proposal",
+        "urls": ""
+      },
+      {
+        "session": "9",
+        "topic": "Report No.1 Submission: Introduction & Problem Statement",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2",
+        "itu": "TU",
+        "student_materials": "Instructional Slide Chapter 2",
+        "s_download": "",
+        "student_tasks": "Draft introduction, problem statement of proposal",
+        "urls": ""
+      },
+      {
+        "session": "10",
+        "topic": "Team Meeting: Instructor's feedbacks for Project Proposal & Group Division",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2",
+        "itu": "TU",
+        "student_materials": "Instructional Slide Chapter 2",
+        "s_download": "",
+        "student_tasks": "Present discussed and agreed-upon issues from team meeting.",
+        "urls": ""
+      },
+      {
+        "session": "11",
+        "topic": "Team Meeting: Project Proposal Improvement",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2",
+        "itu": "TU",
+        "student_materials": "Instructional Slide Chapter 2",
+        "s_download": "",
+        "student_tasks": "Engage in discussions, finalize proposal, allocate tasks",
+        "urls": ""
+      },
+      {
+        "session": "12",
+        "topic": "Report No.1 Final Submission",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2",
+        "itu": "TU",
+        "student_materials": "Instructional Slide Chapter 2",
+        "s_download": "",
+        "student_tasks": "Engage in discussions, finalize proposal, allocate tasks",
+        "urls": ""
+      },
+      {
+        "session": "13",
+        "topic": "[Chapter 3: Data Collection and Cleaning] Guide Report No.2: Data Tasks [Part 1: Data Collection and Cleaning]",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "TU",
+        "student_materials": "Instructional Slide Chapter 3",
+        "s_download": "",
+        "student_tasks": "Attend lecture and participate in discussions on data collection and cleaning plan.",
+        "urls": ""
+      },
+      {
+        "session": "14",
+        "topic": "References related to Report No.2: Data Collection and Cleaning Plan",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "TU",
+        "student_materials": "Instructional Slide Chapter 3",
+        "s_download": "",
+        "student_tasks": "Review references related to data collection and cleaning plan.",
+        "urls": ""
+      },
+      {
+        "session": "15",
+        "topic": "Team Meeting: Data Collection(Present the issues discussed and agreed upon by the group)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "TU",
+        "student_materials": "Instructional Slide Chapter 3",
+        "s_download": "",
+        "student_tasks": "Participate in team meeting to discuss data collection and cleaning.",
+        "urls": ""
+      },
+      {
+        "session": "16",
+        "topic": "Team Meeting: Instructor's feedbacks for Data Collection",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "TU",
+        "student_materials": "Instructional Slide Chapter 3",
+        "s_download": "",
+        "student_tasks": "Present discussed and agreed-upon issues from team meeting.",
+        "urls": ""
+      },
+      {
+        "session": "17",
+        "topic": "Team Meeting: Data Collection Improvement",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "TU",
+        "student_materials": "Instructional Slide Chapter 3",
+        "s_download": "",
+        "student_tasks": "Participate in team meeting to discuss data collection and cleaning.",
+        "urls": ""
+      },
+      {
+        "session": "18",
+        "topic": "Team Meeting: Data Cleaning (Present the issues discussed and agreed upon by the group)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "TU",
+        "student_materials": "Instructional Slide Chapter 3",
+        "s_download": "",
+        "student_tasks": "Participate in team meeting to discuss data collection and cleaning.",
+        "urls": ""
+      },
+      {
+        "session": "19",
+        "topic": "Team Meeting: Instructor's feedbacks for Data Cleaning",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "TU",
+        "student_materials": "Instructional Slide Chapter 3",
+        "s_download": "",
+        "student_tasks": "Present discussed and agreed-upon issues from team meeting.",
+        "urls": ""
+      },
+      {
+        "session": "20",
+        "topic": "Team Meeting: Data Cleaning Improvement",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "TU",
+        "student_materials": "Instructional Slide Chapter 3",
+        "s_download": "",
+        "student_tasks": "Participate in team meeting to discuss data collection and cleaning.",
+        "urls": ""
+      },
+      {
+        "session": "21",
+        "topic": "[Chapter 4: Exploratory Data Analysis ] Guide Report No.2: Data Tasks [Part 2: Exploratory Data Analysis]",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "TU",
+        "student_materials": "Instructional Slide Chapter 4",
+        "s_download": "",
+        "student_tasks": "Attend lecture and participate in discussions on exploratory data analysis.",
+        "urls": ""
+      },
+      {
+        "session": "22",
+        "topic": "References related to Report No.2: Exploratory Data Analysis",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "TU",
+        "student_materials": "Instructional Slide Chapter 4",
+        "s_download": "",
+        "student_tasks": "Review references related to exploratory data analysis.",
+        "urls": ""
+      },
+      {
+        "session": "23",
+        "topic": "Team Meeting: Exploratory Data Analysis (Present the issues discussed and agreed upon by the group)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "TU",
+        "student_materials": "Instructional Slide Chapter 4",
+        "s_download": "",
+        "student_tasks": "Participate in team meeting to discuss exploratory data analysis.",
+        "urls": ""
+      },
+      {
+        "session": "24",
+        "topic": "Team Meeting: Instructor's feedback for Exploratory Data Analysis",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "TU",
+        "student_materials": "Instructional Slide Chapter 4",
+        "s_download": "",
+        "student_tasks": "Present discussed and agreed-upon issues from team meeting.",
+        "urls": ""
+      },
+      {
+        "session": "25",
+        "topic": "Team Meeting: Exploratory Data Analysis Improvement",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "TU",
+        "student_materials": "Instructional Slide Chapter 4",
+        "s_download": "",
+        "student_tasks": "Participate in team meeting to EDA",
+        "urls": ""
+      },
+      {
+        "session": "26",
+        "topic": "Report No.2 Submission: Data Tasks",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "TU",
+        "student_materials": "Project Template",
+        "s_download": "",
+        "student_tasks": "Submit report 2 of exploratory data analysis report.",
+        "urls": ""
+      },
+      {
+        "session": "27",
+        "topic": "Team Meeting: Instructor's feedbacks for Data Tasks all phase",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "TU",
+        "student_materials": "Instructional Slide Chapter 4",
+        "s_download": "",
+        "student_tasks": "Present discussed and agreed-upon issues from team meeting.",
+        "urls": ""
+      },
+      {
+        "session": "28",
+        "topic": "Team Meeting: Data Tasks Improvement",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "TU",
+        "student_materials": "Instructional Slide Chapter 4",
+        "s_download": "",
+        "student_tasks": "Participate in team meeting to discuss all data tasks phase.",
+        "urls": ""
+      },
+      {
+        "session": "29",
+        "topic": "[Chapter 5: Model Development] Guide Report No.3: Model & Result [ Part 1: Model Development]",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO5",
+        "itu": "TU",
+        "student_materials": "Instructional Slide Chapter 5",
+        "s_download": "",
+        "student_tasks": "Attend lecture and participate in discussions on model development.",
+        "urls": ""
+      },
+      {
+        "session": "30",
+        "topic": "References related to Report No.3: Model Development",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO5",
+        "itu": "TU",
+        "student_materials": "Instructional Slide Chapter 5",
+        "s_download": "",
+        "student_tasks": "Review references related to model development.",
+        "urls": ""
+      },
+      {
+        "session": "31",
+        "topic": "Team Meeting: Model Development (Present the issues discussed and agreed upon by the group)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO5",
+        "itu": "TU",
+        "student_materials": "Instructional Slide Chapter 5",
+        "s_download": "",
+        "student_tasks": "Participate in team meeting to discuss model development.",
+        "urls": ""
+      },
+      {
+        "session": "32",
+        "topic": "Team Meeting: Instructor's feedback for Model Development",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO5",
+        "itu": "TU",
+        "student_materials": "Instructional Slide Chapter 5",
+        "s_download": "",
+        "student_tasks": "Present discussed and agreed-upon issues from team meeting.",
+        "urls": ""
+      },
+      {
+        "session": "33",
+        "topic": "Team Meeting: Model Development Improvement",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO5",
+        "itu": "TU",
+        "student_materials": "Instructional Slide Chapter 5",
+        "s_download": "",
+        "student_tasks": "Participate in team meeting to discuss model development.",
+        "urls": ""
+      },
+      {
+        "session": "34",
+        "topic": "[Chapter 6:Model Evaluation and Fine-Tuning] Guide Report No.3: Model & Result [ Part 2: Model Evaluation and Fine-Tuning]",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO6",
+        "itu": "TU",
+        "student_materials": "Instructional Slide Chapter 6",
+        "s_download": "",
+        "student_tasks": "Attend lecture and participate in discussions on model evaluation and fine-tuning.",
+        "urls": ""
+      },
+      {
+        "session": "35",
+        "topic": "References related to Report No.3: Model Evaluation and Fine-Tuning",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO6",
+        "itu": "TU",
+        "student_materials": "Instructional Slide Chapter 6",
+        "s_download": "",
+        "student_tasks": "Review references related to model evaluation and fine-tuning.",
+        "urls": ""
+      },
+      {
+        "session": "36",
+        "topic": "Team Meeting: Model Evaluation and Fine-Tuning (Present the issues discussed and agreed upon by the group)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO6",
+        "itu": "TU",
+        "student_materials": "Instructional Slide Chapter 6",
+        "s_download": "",
+        "student_tasks": "Participate in team meeting to discuss model evaluation and fine-tuning.",
+        "urls": ""
+      },
+      {
+        "session": "37",
+        "topic": "Team Meeting: Instructor's feedbacks for Model Evaluation and Fine-Tuning",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO6",
+        "itu": "TU",
+        "student_materials": "Instructional Slide Chapter 6",
+        "s_download": "",
+        "student_tasks": "Present discussed and agreed-upon issues from team meeting.",
+        "urls": ""
+      },
+      {
+        "session": "38",
+        "topic": "Team Meeting: Model Evaluation and Fine-Tuning Improvement",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO6",
+        "itu": "TU",
+        "student_materials": "Instructional Slide Chapter 6",
+        "s_download": "",
+        "student_tasks": "Participate in team meeting to discuss model evaluation and fine-tuning.",
+        "urls": ""
+      },
+      {
+        "session": "39",
+        "topic": "[Chapter 7: Results Interpretation and Visualization\n]Guide Report No.3: Model & Result [ Part 3: Results Interpretation and Visualization]",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO7",
+        "itu": "TU",
+        "student_materials": "Instructional Slide Chapter 7",
+        "s_download": "",
+        "student_tasks": "Attend lecture and participate in discussions on results interpretation and visualization.",
+        "urls": ""
+      },
+      {
+        "session": "40",
+        "topic": "References related to Report No.3: Results Interpretation and Visualization",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO7",
+        "itu": "TU",
+        "student_materials": "Instructional Slide Chapter 7",
+        "s_download": "",
+        "student_tasks": "Review references related to results interpretation and visualization.",
+        "urls": ""
+      },
+      {
+        "session": "41",
+        "topic": "Team Meeting: Results Interpretation and Visualization (Present the issues discussed and agreed upon by the group)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO7",
+        "itu": "TU",
+        "student_materials": "Instructional Slide Chapter 7",
+        "s_download": "",
+        "student_tasks": "Participate in team meeting to discuss results interpretation and visualization.",
+        "urls": ""
+      },
+      {
+        "session": "42",
+        "topic": "Team Meeting: Instructor's feedbacks for Results Interpretation and Visualization",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO7",
+        "itu": "TU",
+        "student_materials": "Instructional Slide Chapter 7",
+        "s_download": "",
+        "student_tasks": "Present discussed and agreed-upon issues from team meeting.",
+        "urls": ""
+      },
+      {
+        "session": "43",
+        "topic": "Team Meeting: Results Interpretation and Visualization Improvement",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO7",
+        "itu": "TU",
+        "student_materials": "Instructional Slide Chapter 7",
+        "s_download": "",
+        "student_tasks": "Participate in team meeting to discuss results interpretation and visualization.",
+        "urls": ""
+      },
+      {
+        "session": "44",
+        "topic": "[Chapter 8: Conclusion and Recommendations\n]Guide Report No.3: Model & Result [ Part 4: Conclusion and Recommendations]",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO8",
+        "itu": "TU",
+        "student_materials": "Instructional Slide Chapter 8",
+        "s_download": "",
+        "student_tasks": "Attend lecture and participate in discussions on conclusions and recommendations.",
+        "urls": ""
+      },
+      {
+        "session": "45",
+        "topic": "References related to Report No.3: Conclusion and Recommendations",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO8",
+        "itu": "TU",
+        "student_materials": "Instructional Slide Chapter 8",
+        "s_download": "",
+        "student_tasks": "Review references related to conclusions and recommendations.",
+        "urls": ""
+      },
+      {
+        "session": "46",
+        "topic": "Team Meeting: Conclusion and Recommendations (Present the issues discussed and agreed upon by the group)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO8",
+        "itu": "TU",
+        "student_materials": "Instructional Slide Chapter 8",
+        "s_download": "",
+        "student_tasks": "Participate in team meeting to discuss conclusions and recommendations.",
+        "urls": ""
+      },
+      {
+        "session": "47",
+        "topic": "Team Meeting: Instructor's feedbacks for Conclusion and Recommendations",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO8",
+        "itu": "TU",
+        "student_materials": "Instructional Slide Chapter 8",
+        "s_download": "",
+        "student_tasks": "Present discussed and agreed-upon issues from team meeting.",
+        "urls": ""
+      },
+      {
+        "session": "48",
+        "topic": "Team Meeting: Conclusion and Recommendations Improvement",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO8",
+        "itu": "TU",
+        "student_materials": "Instructional Slide Chapter 8",
+        "s_download": "",
+        "student_tasks": "Participate in team meeting to discuss conclusions and recommendations.",
+        "urls": ""
+      },
+      {
+        "session": "49",
+        "topic": "Report No.3 Submission: Model & Results",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO8",
+        "itu": "TU",
+        "student_materials": "Project Template",
+        "s_download": "",
+        "student_tasks": "Submit report 3 of Model & Results",
+        "urls": ""
+      },
+      {
+        "session": "50",
+        "topic": "Team Meeting: Instructor's feedbacks for Model & Results all phase",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO8",
+        "itu": "TU",
+        "student_materials": "Instructional Slide Chapter 8",
+        "s_download": "",
+        "student_tasks": "Present discussed and agreed-upon issues from team meeting.",
+        "urls": ""
+      },
+      {
+        "session": "51",
+        "topic": "Team Meeting: Model & Results Improvement",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO9",
+        "itu": "TU",
+        "student_materials": "Instructional Slide Chapter 9",
+        "s_download": "",
+        "student_tasks": "Participate in team meeting to Model & Results",
+        "urls": ""
+      },
+      {
+        "session": "52",
+        "topic": "[Chapter 9: Finalization and Presentations] Guide Final Report",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO9",
+        "itu": "TU",
+        "student_materials": "Instructional Slide Chapter 9",
+        "s_download": "",
+        "student_tasks": "Participate in discussions related to the final report.",
+        "urls": ""
+      },
+      {
+        "session": "53",
+        "topic": "References related to Final Report",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO9",
+        "itu": "TU",
+        "student_materials": "Instructional Slide Chapter 9",
+        "s_download": "",
+        "student_tasks": "Participate in team meeting for practicing the final report",
+        "urls": ""
+      },
+      {
+        "session": "54",
+        "topic": "Team Meeting: Final Report (Present the issues discussed and agreed upon by the group)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO9",
+        "itu": "TU",
+        "student_materials": "Instructional Slide Chapter 9",
+        "s_download": "",
+        "student_tasks": "Participate in team meeting for practicing the final report",
+        "urls": ""
+      },
+      {
+        "session": "55",
+        "topic": "Team Meeting: Instructor's discussion for Final Report",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO10",
+        "itu": "TU",
+        "student_materials": "Instructional Slide Chapter 9",
+        "s_download": "",
+        "student_tasks": "Present discussed and agreed-upon issues from team meeting.",
+        "urls": ""
+      },
+      {
+        "session": "56",
+        "topic": "Team Meeting: Final Report Improvement",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO10",
+        "itu": "TU",
+        "student_materials": "Instructional Slide Chapter 9",
+        "s_download": "",
+        "student_tasks": "Participate in team meeting for practicing the final report",
+        "urls": ""
+      },
+      {
+        "session": "57",
+        "topic": "Final Report Submission",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO10",
+        "itu": "TU",
+        "student_materials": "Project Template",
+        "s_download": "",
+        "student_tasks": "Submit the final report according to the submission guidelines.",
+        "urls": ""
+      },
+      {
+        "session": "58",
+        "topic": "Team Meeting: Practice for Presentation of Capstone Project",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO10",
+        "itu": "TU",
+        "student_materials": "Instructional Slide Chapter 9",
+        "s_download": "",
+        "student_tasks": "Participate in team meeting for practicing the project presentation.",
+        "urls": ""
+      },
+      {
+        "session": "59",
+        "topic": "Team Meeting: Practice for Presentation of Capstone Project",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO10",
+        "itu": "TU",
+        "student_materials": "Instructional Slide Chapter 9",
+        "s_download": "",
+        "student_tasks": "Participate in team meeting for practicing the project presentation.",
+        "urls": ""
+      },
+      {
+        "session": "60",
+        "topic": "Team Meeting: Practice for Presentation of Capstone Project",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO10",
+        "itu": "TU",
+        "student_materials": "Instructional Slide Chapter 9",
+        "s_download": "",
+        "student_tasks": "Participate in team meeting for practicing the project presentation.",
+        "urls": ""
+      }
+    ],
+    "assessments": [
+      {
+        "no": "1",
+        "category": "Report 1: Project Proposal",
+        "type": "on-going",
+        "part": "1",
+        "weight": "10.0%",
+        "completion_criteria": ">0",
+        "duration": "225'",
+        "clo": "CLO1, CLO2",
+        "question_type": "Home work, class",
+        "no_question": "1",
+        "knowledge_and_skill": "- cover chapter 1,2",
+        "grading_guide": "homework, class, by instructor",
+        "note": ""
+      },
+      {
+        "no": "2",
+        "category": "Report 2: Data Tasks [ Data Collection and Cleaning + Exploratory Data Analysis]",
+        "type": "on-going",
+        "part": "1",
+        "weight": "20.0%",
+        "completion_criteria": ">0",
+        "duration": "225'",
+        "clo": "CLO3, CLO4",
+        "question_type": "Home work, class",
+        "no_question": "1",
+        "knowledge_and_skill": "- cover chapter 3,4",
+        "grading_guide": "homework, class, by instructor",
+        "note": ""
+      },
+      {
+        "no": "3",
+        "category": "Report 3: Model & Results[ Model Development + Model Evaluation and Fine-Tuning + Results Interpretation and Visualization + Conclusion and Recommendations]",
+        "type": "on-going",
+        "part": "1",
+        "weight": "40.0%",
+        "completion_criteria": ">0",
+        "duration": "225'",
+        "clo": "CLO5, CLO6, CLO7, CLO8",
+        "question_type": "Home work, class",
+        "no_question": "1",
+        "knowledge_and_skill": "- cover chapter 5,6,7,8",
+        "grading_guide": "homework, class, by instructor",
+        "note": ""
+      },
+      {
+        "no": "4",
+        "category": "Report 4: Final Project Report",
+        "type": "on-going",
+        "part": "1",
+        "weight": "10.0%",
+        "completion_criteria": ">0",
+        "duration": "225'",
+        "clo": "CLO9",
+        "question_type": "Home work, class",
+        "no_question": "1",
+        "knowledge_and_skill": "- cover chapter 9",
+        "grading_guide": "homework, class, by instructor",
+        "note": ""
+      },
+      {
+        "no": "5",
+        "category": "Final exam[ Oral group presentatation]",
+        "type": "Final exam",
+        "part": "1",
+        "weight": "20.0%",
+        "completion_criteria": "4",
+        "duration": "30'",
+        "clo": "CLO10",
+        "question_type": "Oral Group Presentation",
+        "no_question": "10",
+        "knowledge_and_skill": "- cover chapter 1, 2, 3,4,5,6,7,8,9,10",
+        "grading_guide": "class, by instructor",
+        "note": "- The final exam [oral group presentation] takes place in class, individually evaluated by one professor. Retakes are permissible, involving the submission of a revised final report and presentation, also evaluated by one professor.\n- The operation is operated by the Testing Department."
+      }
+    ]
+  },
+  "combo": {
+    "family": "AI17_COM",
+    "code": "AI17_COM1",
+    "name": "Topic on Applied Data Science_Chủ đề Khoa học dữ liệu ứng dụng BIT_AI_K17C(FNO)",
+    "title": "AI17_COM1: Topic on Applied Data Science_Chủ đề Khoa học dữ liệu ứng dụng BIT_AI_K17C(FNO)",
+    "note": "",
+    "slot": {
+      "code": "AI17_COM*4",
+      "alias": "AI17_COM_4",
+      "number": 4,
+      "name": {
+        "full": "Subject 4 of Combo*_Học phần 4 của combo*",
+        "en": "Subject 4 of Combo*",
+        "vi": "Học phần 4 của combo*"
+      }
+    },
+    "row_note": ""
+  },
+  "source": {
+    "raw_file": "flm_output/subjects/AI17_COM_4.json",
+    "curriculum_url": "https://flm.fpt.edu.vn/gui/role/student/CurriculumDetails?curid=3173",
+    "pre_syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/Syllabuses?subCode=AI17_COM%2A4&curriculumID=3173",
+    "syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=11717",
+    "details_source_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=11717"
+  },
+  "crawl": {
+    "error": null
+  },
+  "quality": {
+    "has_syllabus": true,
+    "counts": {
+      "materials": 6,
+      "clos": 10,
+      "schedule": 60,
+      "assessments": 5
+    },
+    "warnings": []
+  }
+}

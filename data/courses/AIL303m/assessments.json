@@ -1,0 +1,50 @@
+[
+  {
+    "category": "Lab 1",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO1, CLO2, CLO3"
+  },
+  {
+    "category": "Lab 2",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO4, CLO5"
+  },
+  {
+    "category": "Mini capstone",
+    "part": "1",
+    "weight": "30.0%",
+    "clo": "CLO10"
+  },
+  {
+    "category": "Progress Test 1",
+    "part": "1",
+    "weight": "5.0%",
+    "clo": "CLO1, CLO2, CLO3"
+  },
+  {
+    "category": "Progress Test 2",
+    "part": "1",
+    "weight": "5.0%",
+    "clo": "CLO4, CLO5"
+  },
+  {
+    "category": "Progress Test 3",
+    "part": "1",
+    "weight": "5.0%",
+    "clo": "CLO4, CLO5, CLO6"
+  },
+  {
+    "category": "Progress Test 4",
+    "part": "1",
+    "weight": "5.0%",
+    "clo": "CLO8, CLO9, CLO10"
+  },
+  {
+    "category": "Final exam",
+    "part": "1",
+    "weight": "30.0%",
+    "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8, CLO9"
+  }
+]

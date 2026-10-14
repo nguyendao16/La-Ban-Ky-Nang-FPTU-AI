@@ -1,0 +1,30 @@
+[
+  {
+    "clo_name": "CLO1",
+    "clo_details": "Explain the end-to-end NLP pipeline, text preprocessing, corpus preparation, tokenization, and core linguistic concepts used in natural language processing."
+  },
+  {
+    "clo_name": "CLO2",
+    "clo_details": "Apply classical NLP methods including vectorization, Naive Bayes, edit-distance reasoning, HMM/POS tagging, n-gram language modeling, and word embeddings to baseline NLP tasks."
+  },
+  {
+    "clo_name": "CLO3",
+    "clo_details": "Build and analyze neural sequence models for NLP, including feed-forward networks for text, RNN/LSTM/GRU models, and attention-based sequence learning ideas."
+  },
+  {
+    "clo_name": "CLO4",
+    "clo_details": "Use transformer-based pretrained language models for classification, sequence labeling, retrieval, question answering, and generation-oriented workflows."
+  },
+  {
+    "clo_name": "CLO5",
+    "clo_details": "Evaluate NLP systems with suitable metrics, perform error analysis, discuss bias and limitations, and justify research conclusions with evidence and reproducible experiments."
+  },
+  {
+    "clo_name": "CLO6",
+    "clo_details": "Implement an end-to-end NLP research project including problem formulation, data collection or selection, baseline development, improved modeling, evaluation, report writing, short paper writing, and presentation."
+  },
+  {
+    "clo_name": "CLO7",
+    "clo_details": "Use AI-assisted development tools responsibly to accelerate experimentation, documentation, teamwork, and reflective learning in NLP projects."
+  }
+]

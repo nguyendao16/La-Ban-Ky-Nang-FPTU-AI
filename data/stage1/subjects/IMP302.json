@@ -1,0 +1,917 @@
+{
+  "schema_version": "stage1_v1",
+  "record_type": "combo_subject",
+  "subject": {
+    "code": "IMP302",
+    "name": {
+      "full": "Image and Video processing_Xử lý ảnh và video",
+      "en": "Image and Video processing",
+      "vi": "Xử lý ảnh và video"
+    },
+    "semester": 8,
+    "credits": 3,
+    "prerequisite": ""
+  },
+  "syllabus": {
+    "id": "13699",
+    "name": "Image and Video processing_Xử lý ảnh và video",
+    "is_active": true,
+    "is_approved": true,
+    "decision_no": "1318/QĐ-ĐHFPT dated 11/27/2025"
+  },
+  "content": {
+    "metadata": {
+      "syllabus_id": "13699",
+      "syllabus_name": "Image and Video processing_Xử lý ảnh và video",
+      "course_name_english": "Image and Video processing",
+      "subject_code": "IMP302",
+      "learning_teaching_method": "In-class lecture, Social Constructivism, Active Learning",
+      "nocredit": "3",
+      "degree_level": "Bachelor",
+      "time_allocation": "45h (60 sessions) contact hours + 1h final exam + 104h self-study",
+      "pre_requisite": "CSD203, CPV301",
+      "description": "Image & Video Processing is an advanced course that covers the fundamental principles, techniques, and applications of image and video processing. The course explores manipulating digital images and videos to extract useful information, enhance visual quality, and perform analysis. It covers various topics, including image acquisition and digitization, image enhancement and restoration, image compression and coding, image segmentation and feature extraction, and object recognition and tracking. The course also covers fundamental concepts in video processing, including video coding and compression, motion estimation, and video analysis. Students will learn to process images and videos using various tools and software platforms, including MATLAB and Python.",
+      "studenttasks": "- Students must attend at least 80% of contact slots in order to be accepted to the final examination.\n- Student is responsible to do all exercises, assignments and labs given by instructor in class or at home and submit on time\n- Use laptop in class only for learning purpose\n- Promptly access to the FU LMS at http://flm.fpt.edu.vn for up-to-date course information",
+      "tools": "No",
+      "scoring_scale": "10",
+      "decisionno_mm_dd_yyyy": "1318/QĐ-ĐHFPT dated 11/27/2025",
+      "isapproved": "True",
+      "note": "1) On-going Assessment\n- 2 Assignments: 40%\n- 2 progress tests: 20%\n2) 1 Final Exam: 40%\n3) Final Result 100% (The Final result - including bonus score - is not greater than 10)\nCompletion Criteria:\n1) Every on-going assessment component > 0\n2) Final Exam Score >= 4 & Final Result >= 5\nBonus score for accepted paper (email accepted/ published).\nISI/Scopus Q1, Q2: 5\nISI/Scopus Q3, Q4: 3\nScopus Q1, Q2: 3\nScopus Q3, Q4: 2\nThe accepted paper must be related to topics in AI17_COM2 and be assessed by the in-class Lecturer.\nSource to check Scopus ranking: https://www.scimagojr.com/\nSource to check ISI: https://mjl.clarivate.com",
+      "is_scored": "True",
+      "minavgmarktopass": "5",
+      "isactive": "True",
+      "approveddate": "11/27/2025"
+    },
+    "materials": [
+      {
+        "no": "1",
+        "material_description": "Handbook of Image and Video Processing",
+        "author": "Alan C. Bovik",
+        "publisher": "Academic Press",
+        "published_date": "2005",
+        "edition": "",
+        "isbn": "978-0121197902 (ISBN-13)",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "24x7 Library"
+      },
+      {
+        "no": "2",
+        "material_description": "Computer Vision: Algorithms and Applications (Texts in Computer Science)",
+        "author": "Richard Szeliski",
+        "publisher": "Springer",
+        "published_date": "2022",
+        "edition": "",
+        "isbn": "978-3030343712 (ISBN-13)",
+        "is_main_material": false,
+        "is_hard_copy": true,
+        "is_online": false,
+        "note": "Textbook of CPV301"
+      },
+      {
+        "no": "3",
+        "material_description": "Computer Vision: Principles, Algorithms, Applications, Learning (5th Edition)",
+        "author": "E. R. Davies",
+        "publisher": "Academic Press",
+        "published_date": "2017",
+        "edition": "",
+        "isbn": "978-0128092842 (ISBN-13)",
+        "is_main_material": false,
+        "is_hard_copy": true,
+        "is_online": false,
+        "note": ""
+      },
+      {
+        "no": "4",
+        "material_description": "Digital Image Processing: An Algorithmic Introduction (Texts in Computer Science)",
+        "author": "Wilhelm Burger, Mark J. Burge",
+        "publisher": "Springer",
+        "published_date": "2022",
+        "edition": "",
+        "isbn": "978-3031057434 (ISBN-13)",
+        "is_main_material": false,
+        "is_hard_copy": true,
+        "is_online": false,
+        "note": ""
+      },
+      {
+        "no": "5",
+        "material_description": "Digital Image Processing",
+        "author": "Rafael C. Gonzalez, Richard E. Woods",
+        "publisher": "Pearson",
+        "published_date": "2017",
+        "edition": "",
+        "isbn": "978-1-292-22304-9 (ISBN-13)",
+        "is_main_material": false,
+        "is_hard_copy": true,
+        "is_online": false,
+        "note": "FPTU Library (hardcopy)"
+      }
+    ],
+    "clos": [
+      {
+        "no": "1",
+        "clo_name": "CLO1",
+        "clo_details": "Gain a comprehensive understanding of fundamental principles in image and video processing, digital signal processing in time domain and frequency domain"
+      },
+      {
+        "no": "2",
+        "clo_name": "CLO2",
+        "clo_details": "Develop expertise in applying the tradditional and machine learning-based techniques for image and video acquisition, digitization, enhancement, restoration."
+      },
+      {
+        "no": "3",
+        "clo_name": "CLO3",
+        "clo_details": "Develop expertise in applying traditional and machine learning based methods to compress images and video"
+      },
+      {
+        "no": "4",
+        "clo_name": "CLO4",
+        "clo_details": "Acquire practical skills by using and implementing traditional and machine learning based tools to segment and extract features of an image"
+      },
+      {
+        "no": "5",
+        "clo_name": "CLO5",
+        "clo_details": "Develop expertise in applying traditional and machine learning based methods in object detection, motion estimation and video analysis."
+      }
+    ],
+    "schedule": [
+      {
+        "session": "1",
+        "topic": "Course introduction:\nIntroduce the materials of the courses and how to asses these materials\nIntroduce the assignments and how to pass the course",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "IT",
+        "student_materials": "Course Implementation\n- Syllabus IMP302m\n- Slides",
+        "s_download": "mat1",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "2",
+        "topic": "1. Basic Gray-Level Image Processing\n1.1 Basic gray-level image processing\n1.2 Basic binary image processing\nAssignment 1 introduction",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO2",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus IMP302m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "3",
+        "topic": "2. Image and Video Processing (Enhancement)\n2.1 Basic Linear Filtering with Application to Image Enhancement\n2.2 Nonlinear Filtering for Image Analysis and Enhancement",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO2",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus IMP302m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "4",
+        "topic": "2.3 Morphological Filtering for Image Enhancement and Feature Detection",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO2",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus IMP302m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "5",
+        "topic": "2.4 Spatial Filtering\n2.5 Filtering in frequency domain",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO2",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus IMP302m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "6",
+        "topic": "3. Image Degradation, Restoration and Resconstruction\n3.1 A model of image restoration procees\n3.2 Noise models",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO2",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus IMP302m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "7",
+        "topic": "3.3 Spatial filtering and frequency domain filtering in noise reduction\n3.4 Degradation and its function",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO2",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus IMP302m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "8",
+        "topic": "3.5 Wavelet Denoising for Image Enhancement\n3.6 Minimum mean square error filtering\n3.7 Constrained least square filtering",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO2",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus IMP302m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "9",
+        "topic": "3.8 Basic Methods for Image Restoration and Identification\n3.9 Image reconstruction from projections",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO2",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus IMP302m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "10",
+        "topic": "3.10 Multichannel Image Recovery",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO2",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus IMP302m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "11",
+        "topic": "Assignment 1 review",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO2, CLO3",
+        "itu": "T",
+        "student_materials": "Assignment 1 review",
+        "s_download": "",
+        "student_tasks": "Assignment 1 review",
+        "urls": ""
+      },
+      {
+        "session": "12",
+        "topic": "3.11 Motion Detection and Estimation\n3.12 Video Enhancement and Restoration",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO2",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus IMP302m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "13",
+        "topic": "4. Image and video analysis\n4.1 Wavelet transform and other image transforms\n4.2 Discrete Hartley transform",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus IMP302m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slides and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "14",
+        "topic": "4.3 Discrete Cosine transform",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus IMP302m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Assignment 1",
+        "urls": ""
+      },
+      {
+        "session": "15",
+        "topic": "4.4 Walsh-Hadamard Transforms",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus IMP302m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Review Assignment 1",
+        "urls": ""
+      },
+      {
+        "session": "16",
+        "topic": "4.5 Wavelet Transforms",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus IMP302m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "17",
+        "topic": "4.6 Multiscale Image Decompositions and Wavelets",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus IMP302m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "18",
+        "topic": "4.7 Image Noise Models (machine learning based Video analysis)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus IMP302m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "19",
+        "topic": "5. Image compression\n5.1 Lossless coding\n5.2 Block Truncation Coding (BTC)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO3",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus IMP302m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "20",
+        "topic": "Assignment 1 review",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO2, CLO3",
+        "itu": "T",
+        "student_materials": "Assignment 1 review",
+        "s_download": "",
+        "student_tasks": "Assignment 1 review",
+        "urls": ""
+      },
+      {
+        "session": "21",
+        "topic": "5.3 Fundamentals of Vector Quantlzation\n5.4 Huffman coding",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO3",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus IMP302m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "22",
+        "topic": "5.5 Wavelet Image Compression",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO3",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus IMP302m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "23",
+        "topic": "5.6 Arithmetic coding",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO3",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus IMP302m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "24",
+        "topic": "5.7 Lossy Image Compression: JPEG and JPEG2000 Standards",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO3",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus IMP302m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "25",
+        "topic": "5.8 Multispectral Image Coding",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO3",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus IMP302m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "26",
+        "topic": "5.8 Recovery Methods for Postprocessing of Compressed Images",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO3",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus IMP302m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "27",
+        "topic": "5.9 Image compression based on machine learning/deep learning",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO3",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus IMP302m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "28",
+        "topic": "6. Video compression\n6.1 Basic Concepts and Techniques of Video Coding and the H.261 Standard",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO3",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus IMP302m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "29",
+        "topic": "6.2 Interframe Subband/Wavelet Scalable Video Coding",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO3",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus IMP302m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "30",
+        "topic": "Assignment 1 Evaluation",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO2, CLO3",
+        "itu": "T",
+        "student_materials": "Assignment 1 Evaluation",
+        "s_download": "",
+        "student_tasks": "Assignment 1 Evaluation",
+        "urls": ""
+      },
+      {
+        "session": "31",
+        "topic": "Progress Test 1\nAssignment 2 Introduction",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO2, CLO3",
+        "itu": "T",
+        "student_materials": "Progress Test 1\nAssignment 2 Introduction",
+        "s_download": "",
+        "student_tasks": "Progress Test 1\nAssignment 2 Introduction",
+        "urls": ""
+      },
+      {
+        "session": "32",
+        "topic": "6.3 Digital Video Transcoding",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO3",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus IMP302m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "33",
+        "topic": "6.4 MPEG-1 and MPEG-2 Video Standards",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO3",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus IMP302m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "34",
+        "topic": "7. Image and Video Acquisition\n7.1 Image Scanning, Sampling, and Interpolation",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus IMP302m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "35",
+        "topic": "7.2 Video Sampling and Interpolation",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus IMP302m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "36",
+        "topic": "Assignment 2 Review",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO2, CLO3, CLO4, CLO5",
+        "itu": "T",
+        "student_materials": "Assignment 2 Review",
+        "s_download": "",
+        "student_tasks": "Assignment 2 Review",
+        "urls": ""
+      },
+      {
+        "session": "37",
+        "topic": "8. Image and Video Rendering and Assessment\n8.1 Image Quantization, Halftoning, and Printing",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus IMP302m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "38",
+        "topic": "8.2 Perceptual Criteria for Image Quality Evaluation",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus IMP302m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "39",
+        "topic": "8.3 Structural Approaches to Image Quality Assessment",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus IMP302m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "40",
+        "topic": "9. Image and Video segmentation\n9.1 Clustering and superpixels based segmentation",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus IMP302m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "41",
+        "topic": "9.2 Segmentation using graph cuts\n9.3 The use of motion in segmentation",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus IMP302m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "42",
+        "topic": "9.4 Statistical Methods for Image Segmentation",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus IMP302m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "43",
+        "topic": "9.5 Video Segmentation",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus IMP302m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Review Assignment 2",
+        "urls": ""
+      },
+      {
+        "session": "44",
+        "topic": "9.6 2D and 3D Motion Tracking in Digital Video\n9.7 Adaptive and Neural Methods for Image Segmentation",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus IMP302m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "45",
+        "topic": "9.8 Machine learning/deep learning based segmentation",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus IMP302m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "46",
+        "topic": "Assignment 2 Review",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO2, CLO3, CLO4, CLO5",
+        "itu": "T",
+        "student_materials": "Assignment 2 Review",
+        "s_download": "",
+        "student_tasks": "Assignment 2 Review",
+        "urls": ""
+      },
+      {
+        "session": "47",
+        "topic": "10. Feature extraction\n10.1 Boundary feature descriptors",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO5",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus IMP302m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "48",
+        "topic": "10.2 Region feature descriptors",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO5",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus IMP302m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "49",
+        "topic": "10.3 Principal Components as features",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO5",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus IMP302m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "50",
+        "topic": "10.4 Whole-image feature",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO5",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus IMP302m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "51",
+        "topic": "10.5 Machine learning based features",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO5",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus IMP302m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "52",
+        "topic": "11. Object detection\n11.1 Traditional methods",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO5",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus IMP302m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "53",
+        "topic": "11.2 Machine learning based methods",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO5",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus IMP302m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "54",
+        "topic": "Assignment 2 Evaluation",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO2, CLO3, CLO4, CLO5",
+        "itu": "T",
+        "student_materials": "Assignment 2 Evaluation",
+        "s_download": "",
+        "student_tasks": "Assignment 2 Evaluation",
+        "urls": ""
+      },
+      {
+        "session": "55",
+        "topic": "12. Image pattern classification\n12.1 Patterns and pattern classes",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO5",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus IMP302m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "56",
+        "topic": "12.2 Optimum statistical classifier",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO5",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus IMP302m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slides and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "57",
+        "topic": "12.3 Neural network and Deep learning based classifiers",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO5",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus IMP302m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slides and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "58",
+        "topic": "12.4 Deep convoluntional neural network based classifiers",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO5",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus IMP302m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slides and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "59",
+        "topic": "Progress Test 2",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO2, CLO3, CLO4, CLO5",
+        "itu": "T",
+        "student_materials": "Progress Test 2",
+        "s_download": "",
+        "student_tasks": "Progress Test 2",
+        "urls": ""
+      },
+      {
+        "session": "60",
+        "topic": "Summary All Slides, Tests, and Assignments",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO2, CLO3, CLO4, CLO5",
+        "itu": "T",
+        "student_materials": "All Contents",
+        "s_download": "",
+        "student_tasks": "Review and Group Discussion",
+        "urls": ""
+      }
+    ],
+    "assessments": [
+      {
+        "no": "1",
+        "category": "Assignment 1",
+        "type": "on-going",
+        "part": "1",
+        "weight": "20.0%",
+        "completion_criteria": ">0",
+        "duration": "135'",
+        "clo": "CLO1, CLO2, CLO3",
+        "question_type": "Group presentation for the selected article",
+        "no_question": "1",
+        "knowledge_and_skill": "cover part of all contents",
+        "grading_guide": "in class, by group presentation",
+        "note": "Instructor has resposibility to review the presentation for students after graded."
+      },
+      {
+        "no": "2",
+        "category": "Assignment 2",
+        "type": "on-going",
+        "part": "1",
+        "weight": "20.0%",
+        "completion_criteria": ">0",
+        "duration": "135'",
+        "clo": "CLO1, CLO2, CLO3, CLO4, CLO5",
+        "question_type": "Group presentation for the selected article",
+        "no_question": "1",
+        "knowledge_and_skill": "cover part of all contents",
+        "grading_guide": "in class, by group presentation",
+        "note": "Instructor has resposibility to review the presentation for students after graded."
+      },
+      {
+        "no": "3",
+        "category": "Progress test 1",
+        "type": "on-going",
+        "part": "1",
+        "weight": "10.0%",
+        "completion_criteria": ">0",
+        "duration": "20'-30'",
+        "clo": "CLO1, CLO2, CLO3",
+        "question_type": "Multiple choicesMarked by Computer or a suitable format",
+        "no_question": "30",
+        "knowledge_and_skill": "cover content Chapter 1 - Chapter 5",
+        "grading_guide": "in class, by instructor",
+        "note": "Progress test must be taken right after the last lectures of required material.\nInstructor has resposibility to review the test for students after graded."
+      },
+      {
+        "no": "4",
+        "category": "Progress test 2",
+        "type": "on-going",
+        "part": "1",
+        "weight": "10.0%",
+        "completion_criteria": ">0",
+        "duration": "20'-30'",
+        "clo": "CLO4, CLO5",
+        "question_type": "Multiple choicesMarked by Computer or a suitable format",
+        "no_question": "30",
+        "knowledge_and_skill": "cover content Chapter 6 - Chapter 12",
+        "grading_guide": "in class, by instructor",
+        "note": "Progress test must be taken right after the last lectures of required material.\nInstructor has resposibility to review the test for students after graded."
+      },
+      {
+        "no": "5",
+        "category": "Final exam",
+        "type": "Final exam",
+        "part": "1",
+        "weight": "40.0%",
+        "completion_criteria": "4",
+        "duration": "60'",
+        "clo": "CLO1, CLO2, CLO3, CLO4, CLO5",
+        "question_type": "Multiple choices\nMarked by Computer",
+        "no_question": "50",
+        "knowledge_and_skill": "concepts, algorithms;\nall studied slides",
+        "grading_guide": "by exam board,\nusing computer",
+        "note": "The exam questions must be updated or different at least 70% to the previous ones."
+      }
+    ]
+  },
+  "combo": {
+    "family": "AI17_COM",
+    "code": "AI17_COM2.1",
+    "name": "Topic on AI Applied research_Chủ đề Định hướng nghiên cứu ứng dụng TTNT",
+    "title": "AI17_COM2.1: Topic on AI Applied research_Chủ đề Định hướng nghiên cứu ứng dụng TTNT",
+    "note": "Adjust the subject code in the combo (remove ending m)",
+    "slot": {
+      "code": "AI17_COM*4",
+      "alias": "AI17_COM_4",
+      "number": 4,
+      "name": {
+        "full": "Subject 4 of Combo*_Học phần 4 của combo*",
+        "en": "Subject 4 of Combo*",
+        "vi": "Học phần 4 của combo*"
+      }
+    },
+    "row_note": ""
+  },
+  "source": {
+    "raw_file": "flm_output/subjects/AI17_COM_4.json",
+    "curriculum_url": "https://flm.fpt.edu.vn/gui/role/student/CurriculumDetails?curid=3173",
+    "pre_syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/Syllabuses?subCode=AI17_COM%2A4&curriculumID=3173",
+    "syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=13699",
+    "details_source_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=13699"
+  },
+  "crawl": {
+    "error": null
+  },
+  "quality": {
+    "has_syllabus": true,
+    "counts": {
+      "materials": 5,
+      "clos": 5,
+      "schedule": 60,
+      "assessments": 5
+    },
+    "warnings": []
+  }
+}

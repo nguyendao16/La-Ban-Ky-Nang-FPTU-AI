@@ -1,0 +1,54 @@
+[
+  {
+    "clo": "CLO1",
+    "description": "Understand the subsystems of a computer and describe the role of these components, including Computer Organization, Computer generations."
+  },
+  {
+    "clo": "CLO2",
+    "description": "Know how to convert a number from one base to other base( decimal, binary, octal and hexadecimal), including Numbering systems, Positional Number Systems."
+  },
+  {
+    "clo": "CLO3",
+    "description": "Describe how different data type is stored inside a computer as bit patterns and operations on data, including Data storage and Operations on Data, Logic operations, Shift, Arithmetic operations."
+  },
+  {
+    "clo": "CLO4",
+    "description": "Describe the layers in networking and their relationship, including Computer Networks, Internet, Overview, and layers in netwoking."
+  },
+  {
+    "clo": "CLO5",
+    "description": "Undestand the role of OS in a computer system, including Operating System, Components of OS: UI, memory manager, Components of OS: file manager, Components of OS: device manager."
+  },
+  {
+    "clo": "CLO6",
+    "description": "Define a algorithm and describe tools used to develop algorithms, including Algorithms, Algorithm representation, Search Algorithms: linear, binary."
+  },
+  {
+    "clo": "CLO7",
+    "description": "Explain how a program in a high-level language is translated into machine language, including Programming and programming paradigms."
+  },
+  {
+    "clo": "CLO8",
+    "description": "Describe the software lifecycle, including Software engineering, The software lifecycle."
+  },
+  {
+    "clo": "CLO9",
+    "description": "Discuss some data structures: Array, Records, Linked list, including Data structures, Arrays, Records, Linked List."
+  },
+  {
+    "clo": "CLO10",
+    "description": "Distinguish between text file and binary file and access methods, including File structure, Text versus Binary, Access methods."
+  },
+  {
+    "clo": "CLO11",
+    "description": "Describe and explain operations within a relational database, including Database, Database architecture, Database model, The relational database model, and Database design."
+  },
+  {
+    "clo": "CLO12",
+    "description": "Descibe security goals and discuss ethical issues, including Security, Ethical Issues, Ethical Principles."
+  },
+  {
+    "clo": "CLO13",
+    "description": "Describe artificial intelligence and its basic concepts, including Introduction to Additional Learning: \"AI For Everyone\" course in Coursera, (Students have to complete Additional Learning and achieve the certificate before Presentation ), Review Additional Learning (AI For Everyone course)."
+  }
+]

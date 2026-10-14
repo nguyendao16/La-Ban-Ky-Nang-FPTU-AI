@@ -1,0 +1,92 @@
+{
+  "course_id": "DAP391m",
+  "clos": [
+    {
+      "clo_id": "CLO1",
+      "original_description": "Understand the basics of data analysis with Python to building and evaluating data models.",
+      "enriched_description": "Understand the basics of data analysis with Python to building and evaluating data models, including Data Analysis with Python- importing Datasets , Data Analysis with Python- importing Datasets , Data Analysis with Python- Data Wrangling, Data Analysis with Python- Data Wrangling.",
+      "source_topic_indices": [
+        4,
+        5
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO2",
+      "original_description": "Understand how to import data from multiple sources, clean and wrangle data, perform exploratory data analysis (EDA), and create meaningful data visualizations.",
+      "enriched_description": "Understand how to import data from multiple sources, clean and wrangle data, perform exploratory data analysis (EDA), and create meaningful data visualizations, including Data Analysis, Data Analysis with Python- Exploratory Data Analysis, Data Analysis with Python- Exploratory Data Analysis.",
+      "source_topic_indices": [
+        1,
+        5,
+        6
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO3",
+      "original_description": "Know difference ways to effectively visualize both small and large-scale data",
+      "enriched_description": "Know difference ways to effectively visualize both small and large-scale data, including Project Topic Introduction and discuss, Evaluate final project.",
+      "source_topic_indices": [
+        3
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO4",
+      "original_description": "Implement various types of basic and advanced graphs and charts like: Waffle Charts, Area Plots, Histograms, Bar Charts, Pie Charts, Scatter Plots, Word Clouds, Choropleth Maps, and many more",
+      "enriched_description": "Implement various types of basic and advanced graphs and charts like: Waffle Charts, Area Plots, Histograms, Bar Charts, Pie Charts, Scatter Plots, Word Clouds, Choropleth Maps, and many more, including Advanced Visualizations, Geospatial Data.",
+      "source_topic_indices": [
+        4,
+        5
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO5",
+      "original_description": "Implement an application that leverages multiple Watson AI services (Discovery, Speech to Text, Assistant, and Text to Speech)",
+      "enriched_description": "Implement an application that leverages multiple Watson AI services, including Discovery, Speech to Text, Watson Assistant, and Text to Speech, with chatbot creation and integration in a final project context.",
+      "source_topic_indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO6",
+      "original_description": "Implementing different techniques to develop applications and AI powered solutions.",
+      "enriched_description": "Implementing different techniques to develop applications and AI powered solutions, including Building AI Applications with Watson APIs- Introduction , Building AI Applications with Watson APIs- Introduction , Building AI Applications with Watson APIs- Giving it, Develop applications, AI powered solutions.",
+      "source_topic_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        10,
+        11,
+        14
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO7",
+      "original_description": "Implement the small mini capstone data science projec includes steps: involving data collection, data wrangling, exploratory data analysis, data visualization, model development, model evaluation, and reporting",
+      "enriched_description": "Implement the small mini capstone data science project includes steps: involving data collection, data wrangling, exploratory data analysis, data visualization, model development, model evaluation, and reporting, including Applied Data Science Capstone: Interactive Visual Analytics, Dashboard , Applied Data Science Capstone: Interactive Visual Analytics, Dashboard , Applied Data Science Capstone: Predictive Analysis (Classification) , Applied Data Science Capstone: Predictive Analysis (Classification), Evaluate final project.",
+      "source_topic_indices": [
+        1,
+        3
+      ],
+      "review_required": false,
+      "review_notes": []
+    }
+  ]
+}

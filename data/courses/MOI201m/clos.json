@@ -1,0 +1,38 @@
+[
+  {
+    "clo": "CLO1",
+    "description": "Explain the core concepts of the MLOps lifecycle, maturity models, and the fundamental architectural differences between DevOps, DataOps, and MLOps, including MLOps vs DevOps vs DataOps: Differences and relationships, MLOps maturity models and hierarchy of needs, ML Lifecycle Overview & Deployment Patterns, ML project lifecycle components."
+  },
+  {
+    "clo": "CLO2",
+    "description": "Execute machine learning project scoping, define business key performance indicators (KPIs), select appropriate deployment patterns, and establish reliable performance baselines, including ML Project Scoping & Design, Steps of an ML project: from problem definition to deployment, Defining project milestones and resourcing, Deployment patterns: batch vs online, static vs dynamic inference, Establishing performance baselines and human-level performance (HLP), Scoping a real ML project."
+  },
+  {
+    "clo": "CLO3",
+    "description": "Implement systematic error analysis, data-centric AI techniques, and experiment tracking to address issues like skewed datasets and class imbalance, including Why low average error isn't good enough: prioritizing important examples, Error analysis and performance auditing, Experiment tracking fundamentals, Error analysis on a dataset, Experiment, MLflow for experiment tracking and model registry."
+  },
+  {
+    "clo": "CLO4",
+    "description": "Build automated data pipelines utilizing version control tools (DVC) and centralized feature stores (TFX) to guarantee data lineage and experiment reproducibility, including Data & Model Pipelines, versioning, Enterprise data schemas and data evolution tracking, Data Versioning & Reproducibility, Data Version Control (DVC): implementation and best practices, Git for code versioning + DVC for data versioning."
+  },
+  {
+    "clo": "CLO5",
+    "description": "Design and coordinate end-to-end machine learning orchestration pipelines utilizing components like TensorFlow Extended (TFX) for training, evaluation, and validation, including Model Pipeline & TFX, evaluation, TensorFlow Extended (TFX) pipeline components, Building a TFX pipeline, Evaluation metrics for production."
+  },
+  {
+    "clo": "CLO6",
+    "description": "Apply containerization (Docker) and Continuous Integration/Continuous Deployment (CI/CD) workflows to automate model testing and infrastructure provisioning, including Deployment, Monitoring & Operations, CI/CD fundamentals: Continuous Integration vs Continuous Delivery, Automating ML model deployments with CI/CD, Testing and validation in CI/CD pipelines, Containerization & Docker for ML, Docker essentials for ML projects."
+  },
+  {
+    "clo": "CLO7",
+    "description": "Deploy production-grade model serving microservices using architectures like FastAPI, TensorFlow Serving, and Kubernetes supporting progressive delivery patterns, including Model Deployment & Serving, Deployment strategies: batch vs real-time deployment, Model serving patterns, TensorFlow Serving, FastAPI, Progressive delivery techniques, Deploying to different infrastructures, Kubernetes, Kubernetes for scalable model deployment."
+  },
+  {
+    "clo": "CLO8",
+    "description": "Construct automated production monitoring infrastructures with Prometheus, Grafana, and Evidently AI to detect data drift, concept drift, and performance degradation, including Model Monitoring & Drift Detection, Why continuous monitoring is essential, Model monitoring techniques, performance, Model drift vs concept drift: detection and response, Monitoring tools: Prometheus, Grafana."
+  },
+  {
+    "clo": "CLO9",
+    "description": "Architect, document, and present a complete, end-to-end operational MLOps system that solves a real-world enterprise problem, including MLOps Operations & Final Project, Operational excellence of ML systems, Cloud MLOps tools overview."
+  }
+]

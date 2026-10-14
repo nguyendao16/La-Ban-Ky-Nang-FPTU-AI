@@ -1,0 +1,32 @@
+[
+  {
+    "category": "Assignment",
+    "part": "1",
+    "weight": "30.0%",
+    "clo": "LO1->LO9"
+  },
+  {
+    "category": "Lab",
+    "part": "4",
+    "weight": "10.0%",
+    "clo": "LO1->LO9"
+  },
+  {
+    "category": "Practical Exam",
+    "part": "1",
+    "weight": "20.0%",
+    "clo": "LO2->LO9"
+  },
+  {
+    "category": "Progress Test",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "Test: LO1, LO2, LO3, LO4, LO5, LO6"
+  },
+  {
+    "category": "Final Exam",
+    "part": "1",
+    "weight": "30.0%",
+    "clo": "LO1->LO9"
+  }
+]

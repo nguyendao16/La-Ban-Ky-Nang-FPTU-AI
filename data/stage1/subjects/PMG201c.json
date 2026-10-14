@@ -1,0 +1,373 @@
+{
+  "schema_version": "stage1_v1",
+  "record_type": "normal_subject",
+  "subject": {
+    "code": "PMG201c",
+    "name": {
+      "full": "Project Management",
+      "en": "Project Management",
+      "vi": null
+    },
+    "semester": 7,
+    "credits": 3,
+    "prerequisite": "None"
+  },
+  "syllabus": {
+    "id": "12548",
+    "name": "Project management_Quản trị dự án",
+    "is_active": true,
+    "is_approved": true,
+    "decision_no": "359/QĐ-ĐHFPT dated 04/09/2025"
+  },
+  "content": {
+    "metadata": {
+      "syllabus_id": "12548",
+      "syllabus_name": "Project management_Quản trị dự án",
+      "course_name_english": "Project management",
+      "subject_code": "PMG201c",
+      "learning_teaching_method": "Online,Lecture,Project based learning",
+      "nocredit": "3",
+      "degree_level": "Bachelor",
+      "time_allocation": "Study hour (150h) = 60h online + 3h offline + 1h TE + 2h PE + 84h self-study",
+      "pre_requisite": "None",
+      "description": "This intensive and hands-on series of courses gives you the skills to ensure your projects are completed on time and on budget while giving the user the product they expect. You will gain a strong working knowledge of the basics of project management and be able to immediately use that knowledge to effectively manage work projects. At the end of the series you will be able to identify and manage the product scope, build a work breakdown structure, create a project plan, create the project budget, define and allocate resources and identify and manage risks, and then you will be able to manage the project development.",
+      "studenttasks": "- Student must get the certification of Introduction to Project Management Principles and Practices specialization from Coursera to be accepted to the final examination\"",
+      "tools": "",
+      "scoring_scale": "10",
+      "decisionno_mm_dd_yyyy": "359/QĐ-ĐHFPT dated 04/09/2025",
+      "isapproved": "True",
+      "note": "1. Complete the online course to be allowed to take Final Exam\n2. Final Exam is included of Final Theory Exam (TE) & Final Practical Exam (PE): 100%\n3. Students who complete all MOOCs before the course deadline will receive 1 bonus point; otherwise, no bonus point will be awarded.\n4. Completion Criteria: Final TE Score >=4 & Final PE Score >=4 & FR >= 5\n(FR = min(10, (Final TE Score + Final PE Score)/2 + bonus)",
+      "is_scored": "True",
+      "minavgmarktopass": "5",
+      "isactive": "True",
+      "approveddate": "4/9/2025"
+    },
+    "materials": [
+      {
+        "no": "1",
+        "material_description": "https://learner.coursera.help/hc/en-us/articles/208280036-Coursera-Code-of-Conduct",
+        "author": "",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": ""
+      },
+      {
+        "no": "2",
+        "material_description": "ITPM: Information Technology Project Management",
+        "author": "Kathy Schwalbe",
+        "publisher": "Cengage Learning",
+        "published_date": "",
+        "edition": "8th",
+        "isbn": "9781285452340",
+        "is_main_material": false,
+        "is_hard_copy": true,
+        "is_online": false,
+        "note": ""
+      },
+      {
+        "no": "3",
+        "material_description": "The Project Management Body of Knowledge (PMBOK Guide)",
+        "author": "",
+        "publisher": "",
+        "published_date": "",
+        "edition": "5th",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": true,
+        "is_online": false,
+        "note": ""
+      },
+      {
+        "no": "4",
+        "material_description": "SE8: Software Engineering",
+        "author": "Ian Sommerville",
+        "publisher": "Addison-Wesley",
+        "published_date": "",
+        "edition": "8th",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": true,
+        "is_online": false,
+        "note": ""
+      },
+      {
+        "no": "5",
+        "material_description": "https://www.coursera.org/learn/project-planning",
+        "author": "",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "MOOC 1: Initiating and Planning Projects"
+      },
+      {
+        "no": "6",
+        "material_description": "https://www.coursera.org/learn/schedule-projects",
+        "author": "",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "MOOC 2: Budgeting and Scheduling Projects"
+      },
+      {
+        "no": "7",
+        "material_description": "https://www.coursera.org/learn/project-risk-management",
+        "author": "",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "MOOC 3: Managing Project Risks and Changes"
+      },
+      {
+        "no": "8",
+        "material_description": "https://www.coursera.org/learn/project-management-capstone",
+        "author": "",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "MOOC 4: Project Management Project"
+      },
+      {
+        "no": "9",
+        "material_description": "https://www.coursera.org/specializations/project-management",
+        "author": "",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "SPEC: Project Management Principles and Practices"
+      }
+    ],
+    "clos": [
+      {
+        "no": "1",
+        "clo_name": "CLO1",
+        "clo_details": "Define project plan"
+      },
+      {
+        "no": "2",
+        "clo_name": "CLO2",
+        "clo_details": "- Define a project’s scope - Build a work breakdown schedule - Allocate project resources- Create a project budget"
+      },
+      {
+        "no": "3",
+        "clo_name": "CLO3",
+        "clo_details": "- Define key elements of communications management plan - Identify and manage risks"
+      },
+      {
+        "no": "4",
+        "clo_name": "CLO4",
+        "clo_details": "Practise to: - Define project plan - Define a project’s scope - Build a work breakdown schedule - Allocate project resources - Create a project budget - Define key elements of communications management plan - Identify and manage risks"
+      }
+    ],
+    "schedule": [
+      {
+        "session": "1",
+        "topic": "Specialization Introduction\nInitiating and Planning Projects\n- Get Started!\n- What is a project?\n- Get to Know your Stakeholders\nOffline 1: Introduction to the online course PMG201c",
+        "learning_teaching_type": "Offline,Online",
+        "lo": "LO1",
+        "itu": "",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "- Watch all videos, read all materials in the MOOC\n- Finish quizzes, self-assessment, assignments and take part in discussion boards (if needed)\nAll students should participate in offline slot (if any question)",
+        "urls": ""
+      },
+      {
+        "session": "2",
+        "topic": "Initiating and Planning Projects\n- Scope Matters\n- Authority vs. Influence",
+        "learning_teaching_type": "Online",
+        "lo": "LO1",
+        "itu": "",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "- Watch all videos, read all materials in the MOOC\n- Finish quizzes, self-assessment, assignments and take part in discussion boards (if needed)",
+        "urls": ""
+      },
+      {
+        "session": "3",
+        "topic": "Initiating and Planning Projects\n- Wrap Up",
+        "learning_teaching_type": "Online",
+        "lo": "LO2",
+        "itu": "",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "- Watch all videos, read all materials in the MOOC\n- Finish quizzes, self-assessment, assignments and take part in discussion boards (if needed)",
+        "urls": ""
+      },
+      {
+        "session": "4",
+        "topic": "Budgeting and Scheduling Projects\n- Ressource Needs & Quality Management\n- Estimating",
+        "learning_teaching_type": "Online",
+        "lo": "LO2",
+        "itu": "",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "- Watch all videos, read all materials in the MOOC\n- Finish quizzes, self-assessment, assignments and take part in discussion boards (if needed)",
+        "urls": ""
+      },
+      {
+        "session": "5",
+        "topic": "Budgeting and Scheduling Projects\n- Scheduling\n- Wrap Up",
+        "learning_teaching_type": "Online",
+        "lo": "LO3",
+        "itu": "",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "- Watch all videos, read all materials in the MOOC\n- Finish quizzes, self-assessment, assignments and take part in discussion boards (if needed)",
+        "urls": ""
+      },
+      {
+        "session": "6",
+        "topic": "Managing Project Risks and Changes\n- Managing Project Risks\n- Change Happens",
+        "learning_teaching_type": "Online",
+        "lo": "LO3",
+        "itu": "",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "- Watch all videos, read all materials in the MOOC\n- Finish quizzes, self-assessment, assignments and take part in discussion boards (if needed)",
+        "urls": ""
+      },
+      {
+        "session": "7",
+        "topic": "Managing Project Risks and Changes\n- Wrap Up",
+        "learning_teaching_type": "Online",
+        "lo": "All LOs",
+        "itu": "",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "- Watch all videos, read all materials in the MOOC\n- Finish quizzes, self-assessment, assignments and take part in discussion boards (if needed)",
+        "urls": ""
+      },
+      {
+        "session": "8",
+        "topic": "Project Management Capstone\n- Get Started!\n- Project Components & Instructions",
+        "learning_teaching_type": "Online",
+        "lo": "All LOs",
+        "itu": "",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "- Watch all videos, read all materials in the MOOC\n- Finish quizzes, self-assessment, assignments and take part in discussion boards (if needed)",
+        "urls": ""
+      },
+      {
+        "session": "9",
+        "topic": "Project Management Capstone\n- Project Components & Instructions\n- Content Review",
+        "learning_teaching_type": "Online",
+        "lo": "All LOs",
+        "itu": "",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "- Watch all videos, read all materials in the MOOC\n- Finish quizzes, self-assessment, assignments and take part in discussion boards (if needed)",
+        "urls": ""
+      },
+      {
+        "session": "10",
+        "topic": "Project Management Capstone\n- Feedback Peer Review\n- Final Project Assignment Submission\n- Final Project Peer Review Evaluation",
+        "learning_teaching_type": "Online",
+        "lo": "All LOs",
+        "itu": "",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "- Watch all videos, read all materials in the MOOC\n- Finish quizzes, self-assessment, assignments and take part in discussion boards (if needed)",
+        "urls": ""
+      },
+      {
+        "session": "11",
+        "topic": "Capstone Project Review & FE Introduction\nProject Management Capstone\n- Final Project Peer Review Evaluation",
+        "learning_teaching_type": "Online",
+        "lo": "All LOs",
+        "itu": "",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "- Watch all videos, read all materials in the MOOC\n- Finish quizzes, self-assessment, assignments and take part in discussion boards (if needed)",
+        "urls": ""
+      },
+      {
+        "session": "12",
+        "topic": "- Specialization Wrap-Up\nOffline 2: Review Project Management Principles and Practices Specialization (Spec)",
+        "learning_teaching_type": "Offline,Online",
+        "lo": "All LOs",
+        "itu": "",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "- Watch all videos, read all materials in the MOOC\n- Finish quizzes, self-assessment, assignments and take part in discussion boards (if needed) All students should participate in review slot (if any question)\nDeadline of Coursera completion: End of Friday of the week.\nAll students should participate in offline slot (if any question)",
+        "urls": ""
+      }
+    ],
+    "assessments": [
+      {
+        "no": "1",
+        "category": "PE",
+        "type": "Final exam",
+        "part": "1",
+        "weight": "50.0%",
+        "completion_criteria": "4",
+        "duration": "120 phút",
+        "clo": "All LOs",
+        "question_type": "",
+        "no_question": "no info",
+        "knowledge_and_skill": "All studied courses.",
+        "grading_guide": "by Exam Board",
+        "note": "Customized from the Assignment & Project Capstone of this specialization"
+      },
+      {
+        "no": "2",
+        "category": "TE",
+        "type": "Final exam",
+        "part": "1",
+        "weight": "50.0%",
+        "completion_criteria": "4",
+        "duration": "60 phút",
+        "clo": "All LOs",
+        "question_type": "Multiple choices. Marked by Computer or a suitable format",
+        "no_question": "50",
+        "knowledge_and_skill": "All studied courses. Each module of course contributes 3-5 questions.",
+        "grading_guide": "by Exam Board",
+        "note": "Customized from the quizzes of this specialization"
+      }
+    ]
+  },
+  "source": {
+    "raw_file": "flm_output/subjects/PMG201c.json",
+    "curriculum_url": "https://flm.fpt.edu.vn/gui/role/student/CurriculumDetails?curid=3173",
+    "pre_syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/Syllabuses?subCode=PMG201c&curriculumID=3173",
+    "syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=12548",
+    "details_source_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=12548"
+  },
+  "crawl": {
+    "error": null
+  },
+  "quality": {
+    "has_syllabus": true,
+    "counts": {
+      "materials": 9,
+      "clos": 4,
+      "schedule": 12,
+      "assessments": 2
+    },
+    "warnings": []
+  }
+}

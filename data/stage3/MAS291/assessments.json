@@ -1,0 +1,26 @@
+[
+  {
+    "category": "Assignment",
+    "part": "2",
+    "weight": "20.0%",
+    "clo": "LO1, LO2, LO3, LO4, LO5, LO6"
+  },
+  {
+    "category": "Computer Project",
+    "part": "1",
+    "weight": "15.0%",
+    "clo": "LO7, LO8, LO9"
+  },
+  {
+    "category": "Progress Test",
+    "part": "3",
+    "weight": "30.0%",
+    "clo": "All LOs"
+  },
+  {
+    "category": "Final exam",
+    "part": "1",
+    "weight": "35.0%",
+    "clo": ""
+  }
+]

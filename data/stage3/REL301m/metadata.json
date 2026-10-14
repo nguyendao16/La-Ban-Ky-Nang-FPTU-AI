@@ -1,0 +1,7 @@
+{
+  "syllabus_name": "Reinforcement Learning_Học tăng cường",
+  "course_name_english": "Reinforcement Learning",
+  "subject_code": "REL301m",
+  "description": "This course helps students understand the concepts of Reinforcement Learning including the space of RL algorithms (Temporal- Difference learning, Monte Carlo, Sarsa, Q-learning, Policy Gradients, Dyna, and more). Students will understand how to formalize these tasks as a Reinforcement Learning problem. Students will learn how RL fits under the broader umbrella of machine learning, and how it complements deep learning, supervised and unsupervised learning. Students can implement a complete RL solution and understand how to apply AI tools to solve real-world problems.",
+  "tools": "Jupyter Notebooks, google Colab,"
+}

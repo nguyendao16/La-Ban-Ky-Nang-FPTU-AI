@@ -1,0 +1,32 @@
+{
+  "segments": [
+    {
+      "kind": "academic_claim",
+      "text": "Trong CPV301, object detection nằm rõ ở CLO8: “Understand and implement object detection techniques.” Face recognition và object tracking nằm ở CLO9: “Explain the principles of face recognition and object tracking techniques.” Ở phần mô tả học phần, môn cũng nêu các nội dung “object detection, object recognition, and object tracking”, nhưng đó là phạm vi nội dung được học chứ chưa tự động đồng nghĩa với thực hành triển khai cả ba.",
+      "academic_sources": [
+        {
+          "course_code": "CPV301",
+          "metadata_field": "description",
+          "source_excerpt": "advanced image processing knowledge such as Image segmentation, object detection, object recognition, and object tracking"
+        },
+        {
+          "course_code": "CPV301",
+          "clo": "CLO8",
+          "source_excerpt": "Understand and implement object detection techniques."
+        },
+        {
+          "course_code": "CPV301",
+          "clo": "CLO9",
+          "source_excerpt": "Explain the principles of face recognition and object tracking techniques."
+        }
+      ],
+      "jd_excerpt": null
+    },
+    {
+      "kind": "general_explanation",
+      "text": "Vì vậy, động từ “implement” chỉ được xác nhận trực tiếp cho object detection. Còn face recognition và object tracking trong hồ sơ này mới được xác nhận ở mức explain principles/nhận biết lý thuyết kỹ thuật, chưa có CLO nào nói rõ triển khai hai phần đó.",
+      "academic_sources": [],
+      "jd_excerpt": null
+    }
+  ]
+}

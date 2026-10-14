@@ -1,0 +1,30 @@
+[
+  {
+    "clo_name": "CLO1",
+    "clo_details": "Understand relational database concepts, and foundational knowledge of the SQL language."
+  },
+  {
+    "clo_name": "CLO2",
+    "clo_details": "Define an overview of what data science is today."
+  },
+  {
+    "clo_name": "CLO3",
+    "clo_details": "Know tools for Data Science, know how to use at least one tool for Data Science"
+  },
+  {
+    "clo_name": "CLO4",
+    "clo_details": "Understand why we are interested in data science, what a methodology is, and why data scientists need a methodology."
+  },
+  {
+    "clo_name": "CLO5",
+    "clo_details": "Discusses Python fundamentals, python libraries, API suport for data science"
+  },
+  {
+    "clo_name": "CLO6",
+    "clo_details": "Explain the statistics for Data Science: mean, median, mode, variance, and standard deviation, data visualization, regression analysis"
+  },
+  {
+    "clo_name": "CLO7",
+    "clo_details": "Implement the small data science project by applying Python fundamentals, and Python data structures, and working with data in Python."
+  }
+]

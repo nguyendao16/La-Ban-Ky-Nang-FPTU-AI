@@ -1,0 +1,22 @@
+{
+  "CLO1": [
+    "Specialization Introduction\nSoftware Development Processes and Methodologies:\n- Software development processes: Part 1\nOffline 1: Introduction to the online course SWE201c",
+    "- Software Development Processes : Part 2",
+    "- Software Development Models: Traditional Models",
+    "- Software Development Models: Agile and Lean"
+  ],
+  "CLO2": [
+    "Agile Software Development:\n- Agile Fundamentals\n- Requirements and Planning",
+    "- Scrum\n- XP and Course Wrap-up"
+  ],
+  "CLO3": [
+    "- Lean Startup\n- Design Thinking"
+  ],
+  "CLO4": [
+    "Lean Software Development:\n- Lean Fundamentals\n- Kanban, Value Steam Mapping and Kaizen",
+    "Engineering Practices for Building Quality Software:\n- Introduction to Quality Software\n- Quality in Design",
+    "- Quality in Architecture",
+    "- Quality in Implementation",
+    "- Quality in Testing and Deployment\nOffline 2: Review Software Development Lifecycle Specialization"
+  ]
+}

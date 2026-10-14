@@ -1,0 +1,44 @@
+[
+  {
+    "category": "Individual Progress Test",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8, CLO9, CLO10"
+  },
+  {
+    "category": "Participation",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8, CLO9, CLO10"
+  },
+  {
+    "category": "Project Part",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO1, CLO2, CLO3, CLO4, CLO5"
+  },
+  {
+    "category": "Project Part 2",
+    "part": "1",
+    "weight": "20.0%",
+    "clo": "CLO5, CLO6, CLO7, CLO8"
+  },
+  {
+    "category": "Project Part 3",
+    "part": "1",
+    "weight": "20.0%",
+    "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8, CLO9, CLO10"
+  },
+  {
+    "category": "Quiz",
+    "part": "1",
+    "weight": "5.0%",
+    "clo": "CLO2, CLO4, CLO8"
+  },
+  {
+    "category": "Final Exam",
+    "part": "1",
+    "weight": "25.0%",
+    "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8, CLO9, CLO10"
+  }
+]

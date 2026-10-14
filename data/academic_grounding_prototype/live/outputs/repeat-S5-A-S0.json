@@ -1,0 +1,21 @@
+{
+  "reply": "Tóm tắt ngắn các nội dung học thuật đã trao đổi:\n\n- **Confidence intervals**: bạn có bằng chứng học ở **MAS291/CLO7**, với CLO ghi **“Construct and interpret confidence intervals for population parameters and differences between population parameters”**; **score 9.43, achievement excellent**.\n- **Hypothesis testing**: bạn có bằng chứng học ở **MAS291/CLO8**, với CLO ghi **“Verify claims about population parameters and differences between population parameters using hypothesis testing”**; **score 9.43, achievement excellent**.\n- **Simple linear regression**: bạn có bằng chứng học ở **MAS291/CLO9**, với CLO ghi **“Construct a simple linear regression model and use it for prediction and interpretation”**; **score 9.43, achievement excellent**.\n- **PCA**: bạn có bằng chứng học ở **MAI391/CLO6**, với CLO ghi **“Apply dimensionality reduction with PCA”**; **score 9.4, achievement excellent**.\n\nNếu cần, mình có thể tóm tiếp thành 1–2 câu theo kiểu ngắn gọn để bạn dùng khi đối chiếu với JD.",
+  "evidence": [
+    {
+      "course_code": "MAS291",
+      "clo": "CLO7"
+    },
+    {
+      "course_code": "MAS291",
+      "clo": "CLO8"
+    },
+    {
+      "course_code": "MAS291",
+      "clo": "CLO9"
+    },
+    {
+      "course_code": "MAI391",
+      "clo": "CLO6"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "CLO1": [
+    "Specialization Introduction\nArtificial Intelligence Algorithms Models and Limitations\n- Define Algorithms and Identify how learning algorithms are used in everyday life\n- Identify the basic mechanics of machine learning\n- Observe how machine learning is used by companies\n- Define Predictive Modeling\n- Identify the goals in model accuracy\n- Analyze limitations in predictive models\n- Identify how models in production can hurt more than help\n- Analyze how companies use predictive models",
+    "- Identify the differences between classic and optimized training datasets\n- Demonstrate the concept of training data as a mirror\n- Identify potential sacrifices in obtaining accurate models\n- Summarize the methodology for building accurate predictive models\n- Explain machine learning training and accuracy guidelines",
+    "- Summarize moral quandaries with artificial general intelligence\n- Describe the economic benefits and consequences of artificial general intelligence\n- Contrast current vs future machine learning practices\n- Define general vs narrow intelligence\n- Analyze the trajectory of machine learning and AI research"
+  ],
+  "CLO2": [
+    "Artificial Intelligence Data Fairness and Bias\n- Compare examples of algorithmic fairness\n- Identify the constraints of fairness and accuracy in ethical models\n- Analyze tradeoffs when choosing who to protect from algorithmic bias\n- Compare different measures of parity\n- Define fairness in the context of machine learning",
+    "Artificial Intelligence Data Fairness and Bias\n- Discover auditing model attributes\n- Appraise a predictive model for fairness issues\n- Identify how to recognize fairness issues and deploy solutions in real-world scenarios\n- Define pareto curves and identify where they're used in machine learning\n- Explain how to use fairness as a modeling concept",
+    "- Identify the effects of game theory on algorithmic behavior\n- Analyze methods to avoid predictive bias\n- Examine the ability of algorithms to influence and decide human behavior in biased ways\n- Identify potential bias errors in creating model attributes\n- Define common sources of bias in data collection"
+  ],
+  "CLO3": [
+    "Artificial Intelligence Privacy and Convenience\n- Define privacy in the context of machine learning\n- Define k-anonymity\n- Identify issues of privacy in anonymous datasets\n- Analyze algorithmic privacy violations\nIdentify vulnerabilities in public datasets",
+    "Artificial Intelligence Privacy and Convenience\n- Define data minimization\n- Identify ways to maximize privacy and security of datasets\n- Define differential privacy\n- Summarize techniques used in differential privacy",
+    "- Analyze the concepts involved in creating transparent, explainable AI\n- Evaluate tradeoffs involved in ethical model production\n- Compare explainable models with black box models for trust and accountability\n- Formulate an ethical model using privacy and fairness considerations\n- Explore how explainable models can improve group outcomes using game theory"
+  ],
+  "CLO4": [
+    "Artificial Intelligence Ethics in Action\n- Examining bias in a predictive text model\n- Apply bias and fairness analysis skills in a real world scenario",
+    "Artificial Intelligence Ethics in Action\n- Understanding fairness issues with sensitive predictions\n- Apply bias and fairness analysis skills in a real world scenario",
+    "Artificial Intelligence Ethics in Action\n- Predicting ethical issues before they arise in model theory\n- Apply game theory fairness analysis and skills in a fictional scenario\nCourse 4 Review"
+  ]
+}

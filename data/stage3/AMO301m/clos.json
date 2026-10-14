@@ -1,0 +1,42 @@
+[
+  {
+    "clo_name": "CLO1",
+    "clo_details": "Understand the core concepts of Python programming, advanced data structures, and their specific applications within MLOps workflows."
+  },
+  {
+    "clo_name": "CLO2",
+    "clo_details": "Apply clean coding practices, modern testing frameworks, and efficient data manipulation using Pandas and NumPy for machine learning data readiness."
+  },
+  {
+    "clo_name": "CLO3",
+    "clo_details": "Understand the fundamental principles of MLOps, DevOps, and DataOps methodologies, including their importance in the software development lifecycle."
+  },
+  {
+    "clo_name": "CLO4",
+    "clo_details": "Design and compose software solutions using microservices architectures and automated operations pipelines to support scalable machine learning applications."
+  },
+  {
+    "clo_name": "CLO5",
+    "clo_details": "Understand the principles of ethical AI and the application of high-performance languages like Rust for zero-shot classification and efficient processing."
+  },
+  {
+    "clo_name": "CLO6",
+    "clo_details": "Understand cloud-based data engineering architectures, including data ingestion, repository creation, and secure data transformation solutions."
+  },
+  {
+    "clo_name": "CLO7",
+    "clo_details": "Apply cloud technologies (such as AWS Step Functions, AWS Lambda, and Amazon SageMaker) to build, monitor, and automate end-to-end data engineering and modeling pipelines."
+  },
+  {
+    "clo_name": "CLO8",
+    "clo_details": "Understand the fundamentals of MLflow, including the Tracking UI, model registries, and artifact management via APIs."
+  },
+  {
+    "clo_name": "CLO9",
+    "clo_details": "Apply MLflow and Hugging Face modules to package reproducible machine learning projects and deploy pre-trained models efficiently."
+  },
+  {
+    "clo_name": "CLO10",
+    "clo_details": "Implement an end-to-end Advanced MLOps project that includes infrastructure setup, automated data pipelines, model tracking, cloud deployment, and reporting."
+  }
+]

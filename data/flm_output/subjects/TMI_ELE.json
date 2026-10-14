@@ -1,0 +1,16 @@
+{
+  "record_type": "normal_subject",
+  "curriculum": {
+    "subject_code": "TMI_ELE",
+    "subject_name": "Traditional musical instrument_Nhạc cụ truyền thống",
+    "semester": "0",
+    "credits": "3",
+    "prerequisite": "",
+    "pre_syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/Syllabuses?subCode=TMI_ELE&curriculumID=3173",
+    "curriculum_url": "https://flm.fpt.edu.vn/gui/role/student/CurriculumDetails?curid=3173"
+  },
+  "syllabus_versions": [],
+  "selected_syllabus": null,
+  "details": null,
+  "error": "No syllabus version found"
+}

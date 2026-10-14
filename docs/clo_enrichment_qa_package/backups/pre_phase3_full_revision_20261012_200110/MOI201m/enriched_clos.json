@@ -1,0 +1,126 @@
+{
+  "course_id": "MOI201m",
+  "clos": [
+    {
+      "clo_id": "CLO1",
+      "original_description": "Explain the core concepts of the MLOps lifecycle, maturity models, and the fundamental architectural differences between DevOps, DataOps, and MLOps.",
+      "enriched_description": "Explain the core concepts of the MLOps lifecycle, maturity models, and the fundamental architectural differences between DevOps, DataOps, and MLOps. The scope includes MLOps vs DevOps vs DataOps: Differences and relationships, MLOps maturity models and hierarchy of needs, ML Lifecycle Overview & Deployment Patterns, and ML project lifecycle components.",
+      "source_topic_indices": [
+        2,
+        4,
+        6,
+        7
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO2",
+      "original_description": "Execute machine learning project scoping, define business key performance indicators (KPIs), select appropriate deployment patterns, and establish reliable performance baselines.",
+      "enriched_description": "Execute machine learning project scoping, define business key performance indicators (KPIs), select appropriate deployment patterns, and establish reliable performance baselines. The scope includes ML Project Scoping & Design; Steps of an ML project: from problem definition to deployment; Defining project milestones and resourcing; Deployment patterns: batch vs online, static vs dynamic inference; Establishing performance baselines and human-level performance (HLP); and Scoping a real ML project.",
+      "source_topic_indices": [
+        0,
+        2,
+        3,
+        4,
+        5
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO3",
+      "original_description": "Implement systematic error analysis, data-centric AI techniques, and experiment tracking to address issues like skewed datasets and class imbalance.",
+      "enriched_description": "Implement systematic error analysis, data-centric AI techniques, and experiment tracking to address issues like skewed datasets and class imbalance. The scope includes Why low average error isn't good enough: prioritizing important examples, Error analysis and performance auditing, Experiment tracking fundamentals, Error analysis on a dataset, Experiment Tracking & Model Training, Experiment tracking, and MLflow for experiment tracking and model registry.",
+      "source_topic_indices": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        7
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO4",
+      "original_description": "Build automated data pipelines utilizing version control tools (DVC) and centralized feature stores (TFX) to guarantee data lineage and experiment reproducibility.",
+      "enriched_description": "Build automated data pipelines utilizing version control tools (DVC) and centralized feature stores (TFX) to guarantee data lineage and experiment reproducibility. The scope includes Data & Model Pipelines; versioning; Enterprise data schemas and data evolution tracking; Data Versioning & Reproducibility; Data Version Control (DVC): implementation and best practices; Git for code versioning + DVC for data versioning; Structuring experiments for reproducibility; Feature Engineering & Feature Stores; Feature engineering, transformation, and selection; What is a Feature Store? Concepts and benefits; Implementing feature stores with TensorFlow Extended (TFX); and Feature management for offline/online inference.",
+      "source_topic_indices": [
+        0,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO5",
+      "original_description": "Design and coordinate end-to-end machine learning orchestration pipelines utilizing components like TensorFlow Extended (TFX) for training, evaluation, and validation.",
+      "enriched_description": "Design and coordinate end-to-end machine learning orchestration pipelines utilizing components like TensorFlow Extended (TFX) for training, evaluation, and validation. The scope includes Model Pipeline & TFX, evaluation, TensorFlow Extended (TFX) pipeline components, Building a TFX pipeline, and Evaluation metrics for production.",
+      "source_topic_indices": [
+        0,
+        1,
+        4,
+        6
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO6",
+      "original_description": "Apply containerization (Docker) and Continuous Integration/Continuous Deployment (CI/CD) workflows to automate model testing and infrastructure provisioning.",
+      "enriched_description": "Apply containerization (Docker) and Continuous Integration/Continuous Deployment (CI/CD) workflows to automate model testing and infrastructure provisioning. The scope includes Deployment, Monitoring & Operations; CI/CD fundamentals: Continuous Integration vs Continuous Delivery; Automating ML model deployments with CI/CD; Testing and validation in CI/CD pipelines; Containerization & Docker for ML; Docker essentials for ML projects; Containerizing ML models: Dockerfiles best practices; Environment reproducibility using Docker; Docker + cloud service deployment; and Containerizing a ML model.",
+      "source_topic_indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO7",
+      "original_description": "Deploy production-grade model serving microservices using architectures like FastAPI, TensorFlow Serving, and Kubernetes supporting progressive delivery patterns.",
+      "enriched_description": "Deploy production-grade model serving microservices using architectures like FastAPI, TensorFlow Serving, and Kubernetes supporting progressive delivery patterns. The scope includes Model Deployment & Serving, Deployment strategies: batch vs real-time deployment, Model serving patterns, TensorFlow Serving, FastAPI, Progressive delivery techniques, Deploying to different infrastructures, Kubernetes, and Kubernetes for scalable model deployment.",
+      "source_topic_indices": [
+        0,
+        1
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO8",
+      "original_description": "Construct automated production monitoring infrastructures with Prometheus, Grafana, and Evidently AI to detect data drift, concept drift, and performance degradation.",
+      "enriched_description": "Construct automated production monitoring infrastructures with Prometheus, Grafana, and Evidently AI to detect data drift, concept drift, and performance degradation. The scope includes Model Monitoring & Drift Detection; Why continuous monitoring is essential; Model monitoring techniques; performance; Model drift vs concept drift: detection and response; Monitoring tools: Prometheus, Grafana; Automated Monitoring & Retraining; Automating model monitoring with tools; Building dashboards for ML model monitoring; Setting up monitoring dashboard; and Data governance and compliance (GDPR, HIPAA).",
+      "source_topic_indices": [
+        0,
+        1,
+        2
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO9",
+      "original_description": "Architect, document, and present a complete, end-to-end operational MLOps system that solves a real-world enterprise problem.",
+      "enriched_description": "Architect, document, and present a complete, end-to-end operational MLOps system that solves a real-world enterprise problem. The scope includes MLOps Operations & Final Project, Operational excellence of ML systems, and Cloud MLOps tools overview.",
+      "source_topic_indices": [
+        3
+      ],
+      "review_required": false,
+      "review_notes": []
+    }
+  ]
+}

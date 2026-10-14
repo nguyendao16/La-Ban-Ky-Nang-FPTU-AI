@@ -1,0 +1,22 @@
+[
+  {
+    "clo_name": "CLO1",
+    "clo_details": "Gain a comprehensive understanding of fundamental principles in image and video processing, digital signal processing in time domain and frequency domain"
+  },
+  {
+    "clo_name": "CLO2",
+    "clo_details": "Develop expertise in applying the tradditional and machine learning-based techniques for image and video acquisition, digitization, enhancement, restoration."
+  },
+  {
+    "clo_name": "CLO3",
+    "clo_details": "Develop expertise in applying traditional and machine learning based methods to compress images and video"
+  },
+  {
+    "clo_name": "CLO4",
+    "clo_details": "Acquire practical skills by using and implementing traditional and machine learning based tools to segment and extract features of an image"
+  },
+  {
+    "clo_name": "CLO5",
+    "clo_details": "Develop expertise in applying traditional and machine learning based methods in object detection, motion estimation and video analysis."
+  }
+]

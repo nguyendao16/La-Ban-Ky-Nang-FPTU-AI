@@ -1,0 +1,20 @@
+[
+  {
+    "category": "Assignment",
+    "part": "2",
+    "weight": "20.0%",
+    "clo": "All CLOs"
+  },
+  {
+    "category": "Exercices",
+    "part": "4",
+    "weight": "40.0%",
+    "clo": "All CLOs"
+  },
+  {
+    "category": "Final exam",
+    "part": "1",
+    "weight": "40.0%",
+    "clo": ""
+  }
+]

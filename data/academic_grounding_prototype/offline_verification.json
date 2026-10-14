@@ -1,0 +1,54 @@
+{
+  "status": "offline_pass_awaiting_new_paid_approval",
+  "checked_at": "2026-10-14",
+  "plan_sha256": "c1290e852fec45aa8aa22b1fff46e7baf4d7f44cbcf8e21e6c0ea4b9341fd5b3",
+  "tests": {
+    "command": ".venv/bin/python -m pytest -q",
+    "passed": 376,
+    "baseline": 327,
+    "added": 49,
+    "duration_seconds": 146.44
+  },
+  "pip_check": {
+    "command": ".venv/bin/python -m pip check",
+    "passed": true,
+    "output": "No broken requirements found."
+  },
+  "profile": {
+    "courses": 15,
+    "clos": 122,
+    "metadata_present": 15,
+    "empty_tools": 4
+  },
+  "planned_generations": 32,
+  "budgets": {
+    "max_generations": 32,
+    "max_preflights": 32,
+    "max_http_operations": 64,
+    "max_cost_usd": "3.00"
+  },
+  "phase_counts": {
+    "primary": 16,
+    "scope": 8,
+    "repeat": 8
+  },
+  "holdouts": [
+    "S4",
+    "S8"
+  ],
+  "integrity": {
+    "protected_files": 1451,
+    "changed": [],
+    "passed": true
+  },
+  "production_imports_prototype": false,
+  "live_generation_requests": 0,
+  "live_preflight_requests": 0,
+  "known_cost_usd": "0",
+  "unknown_reservation_usd": "0",
+  "offline_prepare_passed": true,
+  "offline_verify_passed": true,
+  "api_client_constructed": false,
+  "semantic_acceptance": "not_assessed_no_live_outputs",
+  "live_directory_exists": false
+}

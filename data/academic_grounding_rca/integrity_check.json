@@ -1,0 +1,15 @@
+{
+  "checked_on": "2026-10-14",
+  "phase": "post_live",
+  "protected_file_count": 976,
+  "changed_files": [],
+  "production_schemas_unchanged": {
+    "chat": true,
+    "review": true
+  },
+  "frozen_source_count": 43,
+  "frozen_plan_and_input_artifacts": "unchanged",
+  "raw_trace_and_output_fingerprints_verified": 62,
+  "result": "passed",
+  "snapshot": "integrity_before.json"
+}

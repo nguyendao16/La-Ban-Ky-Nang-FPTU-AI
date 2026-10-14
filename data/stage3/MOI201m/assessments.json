@@ -1,0 +1,44 @@
+[
+  {
+    "category": "Progress Test 1",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO1, CLO2, CLO3"
+  },
+  {
+    "category": "Progress Test 2",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO4, CLO5"
+  },
+  {
+    "category": "Report 1: Project Scoping & Lifecycle Design",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO1, CLO2, CLO9"
+  },
+  {
+    "category": "Report 2: Data Pipeline & Reproducibility Setup",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO3, CLO4, CLO9"
+  },
+  {
+    "category": "Report 3: Automated Pipeline & Model Testing",
+    "part": "1",
+    "weight": "20.0%",
+    "clo": "CLO5, CLO6, CLO9"
+  },
+  {
+    "category": "Report 4: Model Serving & Active Monitoring",
+    "part": "1",
+    "weight": "20.0%",
+    "clo": "CLO6, CLO7, CLO8, CLO9"
+  },
+  {
+    "category": "Final Examination",
+    "part": "1",
+    "weight": "20.0%",
+    "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8"
+  }
+]

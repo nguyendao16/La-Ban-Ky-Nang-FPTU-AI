@@ -1,0 +1,34 @@
+{
+  "CLO1": [
+    "Course Introduction & Cloud MLOps Overview",
+    "1.1. What is MLOps?\n- Definition\n- key concepts\n- cloud impact",
+    "1.2. MLOps vs DevOps vs DataOps, differences & cloud relationships",
+    "1.3. Key challenges in ML production on cloud: drift & cost spikes",
+    "1.4. MLOps maturity models & cloud maturity hierarchy",
+    "1.5. Case study: Speech recognition system deployed on cloud",
+    "2.1. Steps of an ML project on cloud:\n- problem\n- data\n- model\n- deploy\n- monitor",
+    "2.2. Scoping diligence:\n- feasibility\n- value\n- cloud resource sizing\n- cost estimation",
+    "2.3. Defining project milestones, resourcing & cloud budgeting (tags, budgets)",
+    "2.4. Deployment patterns on cloud:\n- batch vs online\n- static vs dynamic\n- serverless vs k8s",
+    "2.5. Establishing performance baselines\n- SLO/SLI\n- human-level performance (HLP)",
+    "3.1. The 4 stages of ML product lifecycle on cloud:\n- Scoping\n- Data\n- Modeling\n- Deployment",
+    "3.2. ML project lifecycle components on cloud (data lake, warehouse, clusters, serving)"
+  ],
+  "CLO2": [
+    "3.2. ML project lifecycle components on cloud (data lake, warehouse, clusters, serving)",
+    "3.3.1. Static vs dynamic training"
+  ],
+  "CLO3": [],
+  "CLO4": [],
+  "CLO5": [],
+  "CLO6": [
+    "2.4. Deployment patterns on cloud:\n- batch vs online\n- static vs dynamic\n- serverless vs k8s"
+  ],
+  "CLO7": [],
+  "CLO8": [],
+  "CLO9": [
+    "Course Introduction & Cloud MLOps Overview",
+    "Discussion on Project Topics & Cloud Infrastructure Setup",
+    "Formation of Teams and Group Agreement"
+  ]
+}

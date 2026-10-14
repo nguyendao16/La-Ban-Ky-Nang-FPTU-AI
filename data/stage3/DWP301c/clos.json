@@ -1,0 +1,46 @@
+[
+  {
+    "clo_name": "CLO1",
+    "clo_details": "Understanding cloud computing from a business perspective as also for becoming a cloud practitioner"
+  },
+  {
+    "clo_name": "CLO2",
+    "clo_details": "Understanding of HTML, CSS, JS and learn how a combination of both technologies can help developers create the structure and style of their websites"
+  },
+  {
+    "clo_name": "CLO3",
+    "clo_details": "Hands-on experience using Git and GitHub"
+  },
+  {
+    "clo_name": "CLO4",
+    "clo_details": "Able to build rich Front-End applications with React and ES6 - connect React components using data and state - write rich React components with advanced features like Hooks and Redux"
+  },
+  {
+    "clo_name": "CLO5",
+    "clo_details": "Able to develop applications using asynchronous callbacks and promises - create REST APIs and perform CRUD operations - implement authentication and session management"
+  },
+  {
+    "clo_name": "CLO6",
+    "clo_details": "Understand Python basics and the different data types and creating basic programs, working with data, and automating real-world tasks using Python"
+  },
+  {
+    "clo_name": "CLO7",
+    "clo_details": "Able to develop web applications and AI powered solutions"
+  },
+  {
+    "clo_name": "CLO8",
+    "clo_details": "Understand fundamental database concepts and hands-on experience deploying your Django web app on the cloud"
+  },
+  {
+    "clo_name": "CLO9",
+    "clo_details": "Able to build cloud native applications using current containerization tools and technologies such as containers, Docker, container registries, Kubernetes, OpenShift, and Istio"
+  },
+  {
+    "clo_name": "CLO10",
+    "clo_details": "Understanding of how serverless benefits developers, learn when to use serverless programming, serverless deployment models, and discover its top use cases and design patterns"
+  },
+  {
+    "clo_name": "CLO11",
+    "clo_details": "Able to apply new knowledge to a real-life challenge and use your expertise to develop a successful full stack solution."
+  }
+]

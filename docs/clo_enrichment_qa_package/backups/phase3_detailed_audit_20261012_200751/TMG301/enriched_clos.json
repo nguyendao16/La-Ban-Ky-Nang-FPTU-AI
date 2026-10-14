@@ -1,0 +1,85 @@
+{
+  "course_id": "TMG301",
+  "clos": [
+    {
+      "clo_id": "CLO1",
+      "original_description": "Students will develop a solid understanding of the fundamental concepts and principles of text mining, including techniques for extracting, transforming, and analyzing textual data.",
+      "enriched_description": "Develop a solid understanding of fundamental text mining principles for extracting, transforming, and analyzing textual data, including regular expressions, text normalization, minimum edit distance, n-gram language models, smoothing, perplexity, entropy, vector semantics, TF-IDF, Word2Vec, and embedding evaluation.",
+      "source_topic_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO2",
+      "original_description": "Students can use machine learning/deep learning (neural networks, neural language models, recurrent neural networks, LSMT) for specific text-mining applications.",
+      "enriched_description": "Use machine learning and deep learning methods for text-mining applications, including Naive Bayes text classification and sentiment analysis, logistic and multinomial logistic regression, model evaluation, cross-validation, RNNs, LSTMs, attention, transformers, pretrained language models, masked language models, and fine-tuning.",
+      "source_topic_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO3",
+      "original_description": "Students will explore the methods and algorithms used for text classification and clustering tasks. They will learn to apply techniques like Naive Bayes, Support Vector Machines, and k-means clustering.",
+      "enriched_description": "Explore methods and algorithms for text classification and clustering tasks, including Naive Bayes, Support Vector Machines, k-means clustering, unsupervised text clustering, document similarity, and topic modeling.",
+      "source_topic_indices": [
+        0,
+        1
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO4",
+      "original_description": "Students will learn about different methods for representing text data, such as bag-of-words, term frequency-inverse document frequency (TF-IDF), and word embeddings. They will understand the strengths and limitations of each approach.",
+      "enriched_description": "Represent text data using bag-of-words, TF-IDF, and word embeddings, and evaluate their strengths and limitations through vector semantics, cosine similarity, pointwise mutual information, Word2Vec, embedding visualization, semantic properties, bias, and vector model evaluation.",
+      "source_topic_indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO5",
+      "original_description": "Students will be aware of the popular applications in text mining, such as machine translation, question answering, and chatbots to design text mining-related applications in real-world",
+      "enriched_description": "Recognize and design real-world text-mining applications such as machine translation, question answering, and chatbots, including encoder-decoder translation, low-resource translation, translation evaluation, dialogue-state architecture, chatbot design, and dialogue-system evaluation.",
+      "source_topic_indices": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "review_required": false,
+      "review_notes": []
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+Stage 4 manual corrections
+
+CMO301m / CLO9
+- Replaced empty skills list with two evidence-backed capstone skills.
+
+DSR301m / CLO1
+- Replaced empty skills list with R Programming Fundamentals and Data Import in R.
+
+AIM301m / CLO2
+- Replaced truncated skill name with Diagnostic Model Evaluation; level and description retained semantically.
+
+AIM301m / CLO8-CLO9
+- Stage 3 topics were clearly swapped: CLO8 is model interpretation while CLO9 is NLP labeling.
+- Swapped topic mappings in the fixed Stage 3 source copy and corrected Stage 4 skills for both CLOs.

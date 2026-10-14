@@ -1,0 +1,255 @@
+{
+  "version": 1,
+  "semantic_assessment": "manual_only_no_llm_judge",
+  "rubric": {
+    "origin": "human_authored_expected_behavior",
+    "scale": {
+      "0": "Chưa đạt hoặc sai",
+      "1": "Đạt một phần",
+      "2": "Đạt",
+      "null": "Không áp dụng; ca chưa đọc không có annotation"
+    },
+    "severity": {
+      "P0": "Bịa kiến thức/điểm/bằng chứng; gán sai CLO hoặc technology; xác nhận kinh nghiệm nghề nghiệp không có nguồn; coi history là bằng chứng mới. Case có P0 không đạt semantic.",
+      "P1": "Sai diễn giải curriculum/achievement, thiếu evidence cho claim đúng, lẫn kiến thức/kinh nghiệm, thiếu requirement đáng kể, đổi optional thành mandatory.",
+      "P2": "Lặp, hình thức cứng, quá ngắn/dài so với câu hỏi, trích tiếng Anh dư thừa, chuyển ý thiếu tự nhiên."
+    },
+    "dimensions": [
+      "jd_coverage",
+      "evidence_grounding",
+      "academic_achievement",
+      "gap_calibration",
+      "knowledge_vs_experience",
+      "conversational_continuity",
+      "completeness",
+      "naturalness",
+      "scope_adherence"
+    ],
+    "regressions": [
+      {
+        "id": "RG01",
+        "expected": "ADY201m/CLO7 ghi SQL/database access; DAP391m/CLO7 chỉ ghi các bước data-analysis capstone. Không gán SQL cho DAP391m/CLO7."
+      },
+      {
+        "id": "RG02",
+        "expected": "MAI391/CLO5: linear regression; CLO6: PCA; CLO7: SVM. Nếu reply nhắc các phương pháp này, evidence phải chứa CLO tương ứng."
+      },
+      {
+        "id": "RG03",
+        "expected": "DBI202/CLO5–6 = 5.96/basic, ADY201m/CLO1 = 8.3/good, CLO7 = 8.61/excellent. Nhãn thuộc từng CLO; không tạo mức SQL tổng thể hoặc điểm kết hợp."
+      },
+      {
+        "id": "RG04",
+        "expected": "CPV301/CLO8 = 8.81/excellent cho Understand/Implement object detection; không suy YOLO, Detectron, PyTorch, TensorFlow, ONNX, TensorRT hoặc OpenCV từ CLO tổng quát."
+      },
+      {
+        "id": "RG05",
+        "expected": "Deployment trong learning outcome/project học thuật không xác nhận production employment; trách nhiệm internship và cơ hội học không tự thành điều kiện có kinh nghiệm trước đó."
+      },
+      {
+        "id": "RG06",
+        "expected": "Summary/history recheck descriptions; sửa hoặc bỏ claim trước sai. Seed historical live phải được ghi nguồn riêng, không giả làm generation mới."
+      },
+      {
+        "id": "RG07",
+        "expected": "Bảo toàn Python OR R, alternatives thư viện, preferred/nice-to-have và employer-stack context. Đặc biệt Sapo SQL/BI preferred; Jua SQL/Docker/orchestration preferred; Bosch ONNX plus."
+      },
+      {
+        "id": "RG08",
+        "expected": "CSI106/CLO4 mạng, CLO5 hệ điều hành, CLO12 security goals là foundations đúng scope, không chứng minh SIEM/SOAR/SOC. Python/toán không xác nhận ROS/ROS2, mechanical prototyping hoặc industrial robots."
+      }
+    ],
+    "notes": "Đây là tiêu chí đánh giá thủ công, không phải skill taxonomy, output model, runtime whitelist hay LLM judge. Không gửi file này hoặc expected behaviors tới model."
+  },
+  "atomicity": "Split independent topic assertions and independently attributed CLO/score/band tuples. Split combined named technologies and sampling/CLT. A segment need not be atomic. Do not double-count a parent plus its leaves.",
+  "denominators": {
+    "asked": "Before live, expand coarse frozen targets into listed atomic leaves once. Record asked IDs separately from optional volunteered grades.",
+    "answered": "Every independently assessable academic/JD assertion in the final text, including added topics and each assessment tuple.",
+    "added": "Answered assertions not required by asked atoms; errors and counts reported separately.",
+    "omission": "Missing essential asked content; not missing one acceptable alternative, optional grade detail or a source absent from input."
+  },
+  "fields": [
+    "operation",
+    "claim_id",
+    "original_claim_verbatim",
+    "span",
+    "segment_index",
+    "kind",
+    "asked_atom_id",
+    "origin_asked_or_added",
+    "model_sources",
+    "acceptable_sources",
+    "provided_sources",
+    "provenance",
+    "semantic_support",
+    "reference_completeness",
+    "history_or_review_origin",
+    "summary_scope",
+    "taxonomy",
+    "severity",
+    "explanation"
+  ],
+  "taxonomy": [
+    "wrong_attribution",
+    "missing_reference",
+    "unsupported_specificity",
+    "wrong_score_band",
+    "verb_upgrade",
+    "personal_tool_use",
+    "history_propagation",
+    "summary_invention",
+    "out_of_scope_summary",
+    "source_compression",
+    "kind_misclassification",
+    "omission"
+  ],
+  "gate_metrics": "Two separate truth tables: literal source provenance versus manual semantic correctness. Gate pass does not imply entailment. Always report accepted P0 with withheld denominator and valid responses rejected.",
+  "presentation": {
+    "naturalness": [
+      "natural Vietnamese",
+      "paragraph coherence",
+      "segmentation",
+      "CLO identifier intrusion",
+      "repetition",
+      "unnecessary offers"
+    ],
+    "completeness": "Essential asked content retained; no reward for fewer claims/shorter answers",
+    "rating": [
+      "no_issue",
+      "mild_degradation",
+      "severe_degradation"
+    ]
+  },
+  "recommendation_rule": "Meaningful observed grounding/detection or summary preservation benefit with no severe availability/completeness/naturalness loss; separate S1 effects. If little/no raw error or inconsistent repetitions, report inconclusive, no reliability guarantee.",
+  "failures": "Timeout/incomplete/refusal/parser failure is a completion failure, not automatically academic P0; inspect any available text manually.",
+  "asked_atomic_leaves": {
+    "S1-CI": [
+      "S1-CI"
+    ],
+    "S1-LR": [
+      "S1-LR"
+    ],
+    "S1-CI-GRADE": [
+      "S1-CI-GRADE"
+    ],
+    "S1-LR-GRADE": [
+      "S1-LR-GRADE"
+    ],
+    "S2-DATA": [
+      "S2-DATA"
+    ],
+    "S2-NET": [
+      "S2-NET"
+    ],
+    "S2-LINK": [
+      "S2-LINK"
+    ],
+    "S3-OD": [
+      "S3-OD"
+    ],
+    "S3-FACE": [
+      "S3-FACE"
+    ],
+    "S3-TRACK": [
+      "S3-TRACK"
+    ],
+    "S3-LIMIT": [
+      "S3-LIMIT"
+    ],
+    "S4-C": [
+      "S4-C"
+    ],
+    "S4-MAXIMA": [
+      "S4-MAXIMA"
+    ],
+    "S4-USE-C": [
+      "S4-USE-C"
+    ],
+    "S4-USE-MAXIMA": [
+      "S4-USE-MAXIMA"
+    ],
+    "S4-GRADE": [
+      "S4-GRADE"
+    ],
+    "S5-CI": [
+      "S5-CI"
+    ],
+    "S5-HYP": [
+      "S5-HYP"
+    ],
+    "S5-LR": [
+      "S5-LR"
+    ],
+    "S5-PCA": [
+      "S5-PCA"
+    ],
+    "S6-DESCR": [
+      "S6-DESCR"
+    ],
+    "S6-SAMPLING": [
+      "S6-SAMPLING"
+    ],
+    "S6-CLT": [
+      "S6-CLT"
+    ],
+    "S6-CI": [
+      "S6-CI"
+    ],
+    "S6-HYP": [
+      "S6-HYP"
+    ],
+    "S6-LR": [
+      "S6-LR"
+    ],
+    "S7-SORT": [
+      "S7-SORT"
+    ],
+    "S7-HASH": [
+      "S7-HASH"
+    ],
+    "S8-WORKFLOW": [
+      "S8-METHODOLOGY",
+      "S8-BUSINESS-QUESTIONS",
+      "S8-DATA-ANALYSIS"
+    ],
+    "S8-COLLECTION": [
+      "S8-COLLECTION"
+    ],
+    "S8-CLEAN": [
+      "S8-CLEANING",
+      "S8-WRANGLING-TRANSFORM"
+    ],
+    "S8-VIS": [
+      "S8-VISUALIZATION",
+      "S8-REPORTING",
+      "S8-DASHBOARD"
+    ],
+    "S8-QUALITY": [
+      "S8-QUALITY"
+    ],
+    "S8-SQL": [
+      "S8-SQL"
+    ],
+    "S8-PYTHON": [
+      "S8-PYTHON"
+    ],
+    "S8-R": [
+      "S8-R"
+    ],
+    "S8-TOOLS": [
+      "S8-TOOLS-EXCEL",
+      "S8-TOOLS-POWERBI",
+      "S8-TOOLS-TABLEAU"
+    ],
+    "S8-GPA": [
+      "S8-GPA"
+    ],
+    "S8-ENGLISH": [
+      "S8-ENGLISH"
+    ],
+    "S8-STUDENT": [
+      "S8-ELIGIBILITY",
+      "S8-PROJECT-LIMIT"
+    ]
+  }
+}

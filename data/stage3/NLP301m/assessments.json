@@ -1,0 +1,44 @@
+[
+  {
+    "category": "Labs: Đánh giá tính chuyên cần trong các bài lab, thảo luận",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO1, CLO2, CLO3, CLO4, CLO6, CLO7"
+  },
+  {
+    "category": "Progress test",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO1, CLO5, CLO6, CLO7"
+  },
+  {
+    "category": "Report 1: Project proposal and literature review",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO1, CLO5, CLO6, CLO7"
+  },
+  {
+    "category": "Report 2: Baseline method and experimental design",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO2, CLO5, CLO6, CLO7"
+  },
+  {
+    "category": "Report 3: Advanced-model progress and discussion",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO3, CLO5, CLO6, CLO7"
+  },
+  {
+    "category": "Report 4: Final paper and oral presentation",
+    "part": "1",
+    "weight": "20.0%",
+    "clo": "CLO4, CLO5, CLO6, CLO7"
+  },
+  {
+    "category": "Final exam",
+    "part": "1",
+    "weight": "30.0%",
+    "clo": "CLO1, CLO2, CLO3, CLO4, CLO5"
+  }
+]

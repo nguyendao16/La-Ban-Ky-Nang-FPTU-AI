@@ -1,0 +1,7 @@
+{
+  "syllabus_name": "Database Systems_Các hệ cơ sở dữ liệu",
+  "course_name_english": "Database Systems",
+  "subject_code": "DBI202",
+  "description": "- Knowledge about database systems has become an essential part of an education in computer science because database management has evolved from a specialized computer application to a central component of a modern computing environment.\n- The content of this course includes aspects of database management basic concepts, database design, database languages, and database-system implementation. Basing on these contents, the course emphasizes on how to organize, maintain and retrieve efficiently data and information from a DBMS.",
+  "tools": "Microsoft SQL Server"
+}

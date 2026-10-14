@@ -1,0 +1,124 @@
+{
+  "course_id": "DWP301c",
+  "clos": [
+    {
+      "clo_id": "CLO1",
+      "original_description": "Understanding cloud computing from a business perspective as also for becoming a cloud practitioner",
+      "enriched_description": "Understanding cloud computing from a business perspective as also for becoming a cloud practitioner. The scope includes Introduction to Cloud Computing; Core concepts of cloud computing; Foundational knowledge required for understanding cloud computing from a business perspective as also for; Definition and essential characteristics of cloud computing, its history, the business case for cloud; Introduce to some of the prominent service providers of our times (e.g. AWS, Google, IBM, Microsoft, etc.); Learn about the various cloud service models (IaaS, PaaS, SaaS) and deployment models (Public, Private; Cover emergent cloud trends and practices including; Hybrid Multicloud, Microservices, Serverless, DevOps, Cloud Native and Application Modernization; The basics of cloud security, monitoring, and different job roles in the cloud industry; Created your own account on IBM Cloud and gained some hands-on experience by provisioning a cloud service and; Core concepts in cloud computing; and Microservices and serverless computing.",
+      "source_topic_indices": [
+        0,
+        1
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO2",
+      "original_description": "Understanding of HTML, CSS, JS and learn how a combination of both technologies can help developers create the structure and style of their websites",
+      "enriched_description": "Understanding of HTML, CSS, JS and learn how a combination of both technologies can help developers create the structure and style of their websites. The scope includes Discover the languages, frameworks, and tools that you will need to create interactive and engaging websites; Learning about the roles of front-end, back-end, and full-stack developers and how they work together on; Understanding of HTML and CSS and learn how a combination of both technologies can help developers create the; Learn how JavaScript can make your webpages dynamic with features that include interactive forms, dynamic; and Database concepts and related technologies such as SQL and Django.",
+      "source_topic_indices": [
+        0,
+        1
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO3",
+      "original_description": "Hands-on experience using Git and GitHub",
+      "enriched_description": "Hands-on experience using Git and GitHub. The scope includes Introduced to collaborative version control and popular Git platforms; Practice various Git concepts such as forking, cloning and merging workflows; and Use GitHub to work effectively as a team, and perform common Git operations, such as Pull Requests, from both.",
+      "source_topic_indices": [
+        0
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO4",
+      "original_description": "Able to build rich Front-End applications with React and ES6 - connect React components using data and state - write rich React components with advanced features like Hooks and Redux",
+      "enriched_description": "Able to build rich Front-End applications with React and ES6 - connect React components using data and state - write rich React components with advanced features like Hooks and Redux. The scope includes Write rich React components with advanced features like Hooks and Redux, Explore how to access the React web framework user interface (UI) library and run rich React applications, Find ways to use React components and change their properties and states in a dynamic user interface, Connect to an external server from a React page, and Demonstrate your React skills with a final project to add to your portfolio.",
+      "source_topic_indices": [
+        0
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO5",
+      "original_description": "Able to develop applications using asynchronous callbacks and promises - create REST APIs and perform CRUD operations - implement authentication and session management",
+      "enriched_description": "Able to develop applications using asynchronous callbacks and promises - create REST APIs and perform CRUD operations - implement authentication and session management. The scope includes Create REST APIs and perform CRUD operations and Full Stack Software Developer Assessment.",
+      "source_topic_indices": [
+        0,
+        1
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO6",
+      "original_description": "Understand Python basics and the different data types and creating basic programs, working with data, and automating real-world tasks using Python",
+      "enriched_description": "Understand Python basics and the different data types and creating basic programs, working with data, and automating real-world tasks using Python. The scope includes Python for Data Science, AI & Development; Learn about Python basics and the different data types; Familiarize yourself with Python Data structures like List and Tuples, as well as logic concepts like; Use Python libraries such as Pandas, Numpy & Beautiful Soup; Use Python to perform tasks such as data collection and web scraping with APIs; Comfortable creating basic programs, working with data, and automating real-world tasks using Python; and Python.",
+      "source_topic_indices": [
+        0,
+        1
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO7",
+      "original_description": "Able to develop web applications and AI powered solutions",
+      "enriched_description": "Able to develop web applications and AI powered solutions. The scope includes Python Project for AI & Application Development, Apply basic Python skills for developing Artificial Intelligence (AI) enabled applications, Demonstrate your foundational Python skills by employing different techniques to develop web applications and, and Full Stack Software Developer Assessment.",
+      "source_topic_indices": [
+        0,
+        1
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO8",
+      "original_description": "Understand fundamental database concepts and hands-on experience deploying your Django web app on the cloud",
+      "enriched_description": "Understand fundamental database concepts and hands-on experience deploying your Django web app on the cloud. The scope includes Developing Applications with SQL, Databases, and Django; Describe what is a database and how to model data; Compose SQL queries to insert, select, update, delete data in a database; Understand Object Relational Model (ORM); Employ Django to develop database-powered applications; Deploy your Django app on the cloud Prerequisites; Core concepts in cloud computing; and Database concepts and related technologies such as SQL and Django.",
+      "source_topic_indices": [
+        0,
+        1
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO9",
+      "original_description": "Able to build cloud native applications using current containerization tools and technologies such as containers, Docker, container registries, Kubernetes, OpenShift, and Istio",
+      "enriched_description": "Able to build cloud native applications using current containerization tools and technologies such as containers, Docker, container registries, Kubernetes, OpenShift, and Istio. The scope includes Introduction to Containers w/ Docker, Kubernetes & OpenShift; Learn how to build cloud native applications using current containerization tools and technologies such as; Learn how to deploy and scale your applications in any public, private, or hybrid cloud; Be able to build a container image, then deploy and scale your container on the cloud using OpenShift; Core concepts in cloud computing; Containers; Python; and Database concepts and related technologies such as SQL and Django.",
+      "source_topic_indices": [
+        0,
+        1
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO10",
+      "original_description": "Understanding of how serverless benefits developers, learn when to use serverless programming, serverless deployment models, and discover its top use cases and design patterns",
+      "enriched_description": "Understanding of how serverless benefits developers, learn when to use serverless programming, serverless deployment models, and discover its top use cases and design patterns. The scope includes Application Development using Microservices and Serverless; Understanding of how serverless benefits developers; Learn when to use serverless programming, serverless deployment models, and discover its top use cases and; Discover how serverless supports continuous integration and continuous delivery (CI/CD) and microservices; Hands-on labs reinforce serverless programming concepts for creation, deployment, and invocation of; and Microservices and serverless computing.",
+      "source_topic_indices": [
+        0,
+        1
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO11",
+      "original_description": "Able to apply new knowledge to a real-life challenge and use your expertise to develop a successful full stack solution.",
+      "enriched_description": "Able to apply new knowledge to a real-life challenge and use your expertise to develop a successful full stack solution. The scope includes Full Stack Cloud Development Capstone Project; Demonstrate the skills that you have mastered in cloud native application development; Apply your new knowledge to a real-life challenge and use your expertise to develop a successful solution; As you design a dynamic user experience, you will work with GitHub actions to build, test, and deploy your; Develop frontend pages, add user administration, build actions for database operations, create backend; Boost your capabilities with cloud native services, JavaScript, Django, JSON, IBM Cloud Foundry, Python, and; Devise a solution for managing the containerized deployment of your application; and Full Stack Software Developer Assessment.",
+      "source_topic_indices": [
+        0,
+        1
+      ],
+      "review_required": false,
+      "review_notes": []
+    }
+  ]
+}

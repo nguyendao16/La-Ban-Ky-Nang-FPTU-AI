@@ -1,0 +1,49 @@
+{
+  "origin": "aggregation_of_manual_annotations",
+  "generated_at": "2026-10-13T15:26:29.155054+07:00",
+  "run_id": "internship-20261013",
+  "requested_model": "gpt-4.1",
+  "resolved_models": [
+    "gpt-4.1-2025-04-14"
+  ],
+  "counts": {
+    "pilot": {
+      "outputs": 4,
+      "P0_outputs": 0,
+      "P1_outputs": 2,
+      "P2_outputs": 2,
+      "without_findings": 1
+    },
+    "review": {
+      "outputs": 15,
+      "P0_outputs": 11,
+      "P1_outputs": 15,
+      "P2_outputs": 3,
+      "without_findings": 0
+    },
+    "chat": {
+      "outputs": 53,
+      "P0_outputs": 19,
+      "P1_outputs": 40,
+      "P2_outputs": 18,
+      "without_findings": 7
+    },
+    "temperature": {
+      "outputs": 6,
+      "P0_outputs": 0,
+      "P1_outputs": 3,
+      "P2_outputs": 1,
+      "without_findings": 3
+    }
+  },
+  "generation_http_attempts": 78,
+  "preflight_http_attempts": 78,
+  "usage": {
+    "input_tokens": 1234811,
+    "output_tokens": 59896,
+    "cached_input_tokens": 1125376
+  },
+  "acceptance": "requires_grounding_fixes",
+  "recommended_temperature": 0.0,
+  "notes": "Counts derive from explicit manual annotations, not a model judge or runtime semantic validator. P0/P1/P2 output counts overlap."
+}

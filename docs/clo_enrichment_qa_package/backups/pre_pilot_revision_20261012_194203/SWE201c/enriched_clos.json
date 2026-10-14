@@ -1,0 +1,50 @@
+{
+  "course_id": "SWE201c",
+  "clos": [
+    {
+      "clo_id": "CLO1",
+      "original_description": "Compare and contrast software development methodologies with respect to environmental, organizational, and product constraints.",
+      "enriched_description": "Compare and contrast software development methodologies with respect to environmental, organizational, and product constraints. The scope includes Software Development Processes and Methodologies, Software development processes: Part 1, Software Development Processes : Part 2, Software Development Models: Traditional Models, and Software Development Models: Agile and Lean.",
+      "source_topic_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO2",
+      "original_description": "Demonstrate the ability to participate effectively in agile practices/process for software development.",
+      "enriched_description": "Demonstrate the ability to participate effectively in agile practices/process for software development. The scope includes Agile Software Development and Agile Fundamentals.",
+      "source_topic_indices": [
+        0
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO3",
+      "original_description": "Apply lean techniques / methods to software development",
+      "enriched_description": "Apply lean techniques / methods to software development. The scope includes Lean Startup and Design Thinking.",
+      "source_topic_indices": [
+        0
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO4",
+      "original_description": "Comfortably and effectively participate in various techniques and processes for building secure and high quality software.",
+      "enriched_description": "Comfortably and effectively participate in various techniques and processes for building secure and high quality software. The scope includes Engineering Practices for Building Quality Software, Quality in Design, Quality in Architecture, and Quality in Testing and Deployment.",
+      "source_topic_indices": [
+        1,
+        2,
+        4
+      ],
+      "review_required": false,
+      "review_notes": []
+    }
+  ]
+}

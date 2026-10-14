@@ -1,0 +1,58 @@
+{
+  "course_id": "AID301c",
+  "clos": [
+    {
+      "clo_id": "CLO1",
+      "original_description": "Learners should be able to describe the business use case and the process of ingesting data.",
+      "enriched_description": "Learners should be able to describe the business use case and the process of ingesting data. The scope includes Specialization Introduction, Introduction to AI Workflow: Business Priorities and Data Ingestion, IBM AI Enterprise Workflow Introduction, Data Collection, and Data Ingestion.",
+      "source_topic_indices": [
+        0,
+        1
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO2",
+      "original_description": "Learners should be able to use common techniques such as: EDA, visualization, hypothesis testing and statistical tools.",
+      "enriched_description": "Learners should be able to use common techniques such as: EDA, visualization, hypothesis testing and statistical tools. The scope includes AI Workflow: Data Analysis and Hypothesis Testing and Data Analysis.",
+      "source_topic_indices": [
+        0
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO3",
+      "original_description": "Learners should be able to describe and use common feature selection and feature engineering techniques",
+      "enriched_description": "Learners should be able to describe and use common feature selection and feature engineering techniques. The scope includes AI Workflow: Feature Engineering and Bias Detection and Data transforms and feature engineering.",
+      "source_topic_indices": [
+        0
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO4",
+      "original_description": "Learners should be able to implement the model: machine learning and deep learning algorithms, evaluation and performance metrics.",
+      "enriched_description": "Learners should be able to implement the model: machine learning and deep learning algorithms, evaluation and performance metrics. The scope includes Model Evaluation and Performance Metrics and Building Machine Learning and Deep Learning Models.",
+      "source_topic_indices": [
+        0,
+        1
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO5",
+      "original_description": "Learners should be able to deploy the model by interacting with Apache Spark then progressing to a tutorial with Docker.",
+      "enriched_description": "Learners should be able to deploy the model by interacting with Apache Spark then progressing to a tutorial with Docker. The scope includes AI Workflow: Enterprise Model Deployment and Deploying Models using Spark.",
+      "source_topic_indices": [
+        0,
+        1
+      ],
+      "review_required": false,
+      "review_notes": []
+    }
+  ]
+}

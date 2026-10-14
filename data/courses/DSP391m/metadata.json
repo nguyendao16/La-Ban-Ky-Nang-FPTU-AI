@@ -1,0 +1,7 @@
+{
+  "syllabus_name": "Data Science - Capstone Project_Dự án KHDL",
+  "course_name_english": "Data Science - Capstone Project",
+  "subject_code": "DSP391m",
+  "description": "This capstone project course is designed to consolidate and apply students' knowledge in data science to tackle real-world challenges. The course emphasizes:\n- The application of data science techniques to solve practical problems.\n- The identification and adaptation of data science methodologies from current research for specific problems.\n- The development of a comprehensive solution approach using data science.\n- The evaluation and analysis of results from data science projects.\n- Recognition of appropriate scenarios for data science applications.\n- Selection of suitable metrics for project evaluation.\n- Understanding the ethical and legal implications of data handling.\n- Implementation and reflection on various data science algorithms including preprocessing, machine learning models, and advanced analytical techniques.\n- Effective teamwork and project management.",
+  "tools": "- Programming Languages: Python, R\n- Software Tools: Jupyter Notebook, TensorFlow, Scikit-Learn, Pandas\n- Databases and Datasets: Kaggle, UCI Machine Learning Repository, Government databases\n- Additional Resources: Google Scholar for research papers, GitHub for code repositories"
+}

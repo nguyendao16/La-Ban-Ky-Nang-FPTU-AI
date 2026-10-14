@@ -1,0 +1,323 @@
+{
+  "metadata": {
+    "syllabus_name": "Data Structures and Algorithm with Python_Cấu trúc dữ liệu và giải thuật với Python",
+    "course_name_english": "Data Structures and Algorithm with Python",
+    "subject_code": "CSD203",
+    "description": "This course introduces the basic concepts of data structures and algorithms in data structures with the use of Python. Topics introduced in the course include the basics of algorithm analysis, basic data structures (including stack, queue, linked list, hashtable, tree), recursion and some important applications of these data structures and algorithms.",
+    "tools": "- Thonny\n- PyCharm\n- Visual Studio Code"
+  },
+  "clos": [
+    {
+      "clo_name": "CLO1",
+      "clo_details": "LO1. Describe the list data structure and its’ different way of implementations. Implement the singly linked list."
+    },
+    {
+      "clo_name": "CLO2",
+      "clo_details": "LO2. Define stack and queue. Describe basic operations and the use of these structures."
+    },
+    {
+      "clo_name": "CLO3",
+      "clo_details": "LO3. Describe about recursive definitions, algorithms, functions and their implementation and use."
+    },
+    {
+      "clo_name": "CLO4",
+      "clo_details": "LO4. Explain about general tree, Binary Tree and Binary Search Tree (BST). Implement BST with basic operations."
+    },
+    {
+      "clo_name": "CLO5",
+      "clo_details": "LO5. Díscuss about graphs and their application. Implement a graph with some basic operations."
+    },
+    {
+      "clo_name": "CLO6",
+      "clo_details": "LO6 Explain the operation and performance of some basic and advanced sorting alggorithms"
+    },
+    {
+      "clo_name": "CLO7",
+      "clo_details": "LO7 Explain about hashing and application."
+    },
+    {
+      "clo_name": "CLO8",
+      "clo_details": "LO8 Describe the Text Processing problem and its’ application. Explain the Huffman, LZW and Run-length encoding Algorithms."
+    }
+  ],
+  "schedule": [
+    {
+      "topic": "Course Introduction\n1.1. Using Arrays\n1.2. Singly Linked Lists",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "1.3. Circularly Linked Lists\n1.4. Doubly Linked Lists",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignment",
+      "lo": "CLO 1"
+    },
+    {
+      "topic": "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignment (cont.)",
+      "lo": "CLO 1"
+    },
+    {
+      "topic": "2.1 Stacks\nGuiding Exercises/Assignment",
+      "lo": "CLO 2"
+    },
+    {
+      "topic": "2.1 Stacks\nGuiding Exercises/Assignment (cont.)",
+      "lo": "CLO 2"
+    },
+    {
+      "topic": "2.2 Queues\n2.3 Double-Ended Queues (Deque)",
+      "lo": "CLO 2"
+    },
+    {
+      "topic": "2.4 The Priority Queue",
+      "lo": "CLO 2"
+    },
+    {
+      "topic": "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignment",
+      "lo": "CLO 2"
+    },
+    {
+      "topic": "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignment (cont.)",
+      "lo": "CLO 2"
+    },
+    {
+      "topic": "3.1 Illustrative Examples\n3.1.1 The Factorial Function\n3.1.2 Binary Search\n3.1.3 File Systems\n3.2 Analyzing Recursive Algorithms",
+      "lo": "CLO 3"
+    },
+    {
+      "topic": "3.3 Further Examples of Recursion\n3.3.1 Linear Recursion\n3.3.2 Binary Recursion\n3.3.3 Multiple Recursion\n3.4 Designing Recursive Algorithms\n3.5 Eliminating Tail Recursion",
+      "lo": "CLO 3"
+    },
+    {
+      "topic": "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignment",
+      "lo": "CLO 3"
+    },
+    {
+      "topic": "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignment (cont.)",
+      "lo": "CLO 3"
+    },
+    {
+      "topic": "4.1 General Trees\n4.1.1 Tree Definitions and Properties\n4.1.2 The Tree Abstract Data Type\n4.2 Binary Trees - . 317\n4.2.1 The Binary Tree Abstract Data Type\n4.2.2 Properties of Binary Trees",
+      "lo": "CLO 4"
+    },
+    {
+      "topic": "4.3 Implementing Trees\n4.4 Tree Traversal Algorithms",
+      "lo": "CLO 4"
+    },
+    {
+      "topic": "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignment",
+      "lo": "CLO 4"
+    },
+    {
+      "topic": "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignment (cont.)",
+      "lo": "CLO 4"
+    },
+    {
+      "topic": "4.5 Binary Search Trees\n4.5.1 Searching Within a Binary Search Tree",
+      "lo": "CLO 4"
+    },
+    {
+      "topic": "4.5.2 Insertions and Deletions",
+      "lo": "CLO 4"
+    },
+    {
+      "topic": "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignment",
+      "lo": "CLO 4"
+    },
+    {
+      "topic": "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignment (cont.)",
+      "lo": "CLO 4"
+    },
+    {
+      "topic": "4.6 Balanced Search Trees\n4.7 AVL Trees",
+      "lo": "CLO 4"
+    },
+    {
+      "topic": "4.8 Heaps",
+      "lo": "CLO 4"
+    },
+    {
+      "topic": "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignment",
+      "lo": "CLO 4"
+    },
+    {
+      "topic": "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignment (cont.)",
+      "lo": "CLO 4"
+    },
+    {
+      "topic": "Progress test 1 and review",
+      "lo": ""
+    },
+    {
+      "topic": "Progress test 1 and review (cont.)",
+      "lo": ""
+    },
+    {
+      "topic": "5.1 Graphs\n5.2 Data Structures for Graphs\n5.2.1 Edge List Structure\n5.2.2 Adjacency List Structure\n5.2.3 Adjacency Matrix Structure",
+      "lo": "CLO 5"
+    },
+    {
+      "topic": "5.3 Graph Traversals\n5.3.1 Depth-First Search\n5.3.3 Breadth-First Search",
+      "lo": "CLO 5"
+    },
+    {
+      "topic": "Progress test and/or Assignmen\nReview Exercises\nGuiding Exercises/Assignmen",
+      "lo": "CLO 5"
+    },
+    {
+      "topic": "Progress test and/or Assignmen\nReview Exercises\nGuiding Exercises/Assignmen (cont.)",
+      "lo": "CLO 5"
+    },
+    {
+      "topic": "5.4 Shortest Paths\n5.4.1 Weighted Graphs",
+      "lo": "CLO 5"
+    },
+    {
+      "topic": "5.4.2 Dijkstra’s Algorithm",
+      "lo": "CLO 5"
+    },
+    {
+      "topic": "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignmen",
+      "lo": "CLO 5"
+    },
+    {
+      "topic": "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignmen (cont.)",
+      "lo": "CLO 5"
+    },
+    {
+      "topic": "5.5 Minimum Spanning Trees\n5.5.1 Prim-Jarn ́ık Algorithm\n5.5.2 Kruskal’s Algorithm",
+      "lo": "CLO 5"
+    },
+    {
+      "topic": "5.6. Euler's tour and Euler's cycle",
+      "lo": "CLO 5"
+    },
+    {
+      "topic": "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignmen",
+      "lo": "CLO 5"
+    },
+    {
+      "topic": "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignmen (cont.)",
+      "lo": "CLO 5"
+    },
+    {
+      "topic": "6.1 Selection-Sort\n6.2 Insertion-Sort",
+      "lo": "CLO 6"
+    },
+    {
+      "topic": "6.3 Bubble-sort\n6.4 Quick-Sort",
+      "lo": "CLO 6"
+    },
+    {
+      "topic": "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignmen",
+      "lo": "CLO 6"
+    },
+    {
+      "topic": "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignmen (cont.)",
+      "lo": "CLO 6"
+    },
+    {
+      "topic": "6.5 Merge-Sort\n6.6 Heap-Sort",
+      "lo": "CLO 6"
+    },
+    {
+      "topic": "6.7 Linear-Time Sorting: Bucket-Sort and Radix-Sort\n6.8 Comparing Sorting Algorithms",
+      "lo": "CLO 6"
+    },
+    {
+      "topic": "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignmen",
+      "lo": "CLO 6"
+    },
+    {
+      "topic": "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignmen (cont.)",
+      "lo": "CLO 6"
+    },
+    {
+      "topic": "7.1 Hash Tables\n7.2 Hash Functions\n7.3 Collision-Handling",
+      "lo": "CLO 7"
+    },
+    {
+      "topic": "7.4 Load Factors, Rehashing, and Efficiency\n7.5 Python Hash Table Implementation",
+      "lo": "CLO 7"
+    },
+    {
+      "topic": "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignmen",
+      "lo": "CLO 7"
+    },
+    {
+      "topic": "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignmen (cont.)",
+      "lo": "CLO 7"
+    },
+    {
+      "topic": "8.1 Abundance of Digitized Text\n8.2 Pattern-Matching Algorithms\n8.2.1 Brute Force\n8.2.2 The Knuth-Morris-Pratt Algorithm",
+      "lo": "CLO 8"
+    },
+    {
+      "topic": "8.3 Text Compression\n8.3.1 The Huffman Coding Algorithm\n8.3.2 The LZW Algorithm\n8.3.3 The Run-length Encoding Algorithm",
+      "lo": "CLO 8"
+    },
+    {
+      "topic": "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignmen",
+      "lo": "CLO 8"
+    },
+    {
+      "topic": "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignmen (cont.)",
+      "lo": "CLO 8"
+    },
+    {
+      "topic": "Course review\nPractical Exam",
+      "lo": ""
+    },
+    {
+      "topic": "Course review\nPractical Exam (cont.)",
+      "lo": ""
+    },
+    {
+      "topic": "Progress test 2 and review",
+      "lo": ""
+    },
+    {
+      "topic": "Progress test 2 and review (cont.)",
+      "lo": ""
+    }
+  ],
+  "assessments": [
+    {
+      "category": "Assignment 1",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": ""
+    },
+    {
+      "category": "Assignment 2",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": ""
+    },
+    {
+      "category": "Practical exam",
+      "part": "1",
+      "weight": "30.0%",
+      "clo": ""
+    },
+    {
+      "category": "Progress test 1",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": ""
+    },
+    {
+      "category": "Progress test 2",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": ""
+    },
+    {
+      "category": "Final exam",
+      "part": "1",
+      "weight": "30.0%",
+      "clo": ""
+    }
+  ]
+}

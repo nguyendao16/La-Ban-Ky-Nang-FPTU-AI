@@ -1,0 +1,7 @@
+{
+  "syllabus_name": "AI, Data Science with Python & SQL - TTNT, KHDL với Python và SQL",
+  "course_name_english": "AI, Data Science with Python & SQL",
+  "subject_code": "ADY201m",
+  "description": "The course covers relational database concepts, foundational knowledge of the SQL language. The students will learn some popular tools for data science, understand a methodology that can be used within data science, meet some data science practitioner, understand data gathering, summarize data using descriptive statistics, display and visualize data.",
+  "tools": "Jupyter Notebooks\n- JupyterLab\n- RStudio IDE\n- Git, GitHub\n-Watson Studio."
+}

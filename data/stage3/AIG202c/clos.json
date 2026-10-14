@@ -1,0 +1,22 @@
+[
+  {
+    "clo_name": "CLO1",
+    "clo_details": "Understand what is AI, its applications and use cases, its ethical considerrations and how it is transforming our lives."
+  },
+  {
+    "clo_name": "CLO3",
+    "clo_details": "Explore common generative AI models and tools for text, code, image, audio, and video generation."
+  },
+  {
+    "clo_name": "CLO4",
+    "clo_details": "Explore commonly used tools for prompt engineering to aid with prompt engineering"
+  },
+  {
+    "clo_name": "CLO5",
+    "clo_details": "Visually create chatbots with Watson Assistant (formerly Watson Conversation) and how to deploy them on your own website through a handy WordPress plugin."
+  },
+  {
+    "clo_name": "CLO2",
+    "clo_details": "Explain underlying concepts related to Machine Learning, Deep Learning and Neural Networks."
+  }
+]

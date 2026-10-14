@@ -1,0 +1,13 @@
+{
+  "reply": "Trong MAS291, nội dung về confidence intervals nằm ở CLO7: CLO này yêu cầu “Construct and interpret confidence intervals for population parameters and differences between population parameters...” và có điểm 9.43 với achievement excellent. Còn nội dung về simple linear regression nằm ở CLO9: CLO này yêu cầu “Construct a simple linear regression model and use it for prediction and interpretation...” và cũng có điểm 9.43 với achievement excellent.\n\nPhân biệt ngắn gọn: confidence intervals là phần suy luận thống kê để ước lượng khoảng cho tham số tổng thể và chênh lệch giữa các tham số; còn simple linear regression là mô hình hóa mối quan hệ tuyến tính một biến giải thích để dự đoán và diễn giải. Hai nội dung này là hai CLO khác nhau, nên điểm và achievement được tính riêng cho từng CLO.",
+  "evidence": [
+    {
+      "course_code": "MAS291",
+      "clo": "CLO7"
+    },
+    {
+      "course_code": "MAS291",
+      "clo": "CLO9"
+    }
+  ]
+}

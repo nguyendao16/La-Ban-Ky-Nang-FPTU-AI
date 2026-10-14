@@ -1,0 +1,1062 @@
+{
+  "checks": [
+    {
+      "operation": "AB-S1",
+      "schema": "identification",
+      "source_checks": [
+        {
+          "path": "selections/0/source_matches/0",
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Construct and interpret confidence intervals for population parameters and differences between population parameters, including intervals for means of normal distributions with known or unknown variance, large-sample intervals for population proportions, inference on differences between two means, and inference on differences between two proportions.",
+          "actual_source_value": null
+        },
+        {
+          "path": "selections/1/source_matches/0",
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Construct a simple linear regression model and use it for prediction and interpretation, including empirical models, least-squares estimation, sums of squares, regression equations, correlation coefficients, properties of least-squares estimators, and hypothesis tests for significance in simple linear regression.",
+          "actual_source_value": null
+        },
+        {
+          "path": "selections/2/source_matches/0",
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Construct and interpret confidence intervals for population parameters and differences between population parameters, including intervals for means of normal distributions with known or unknown variance, large-sample intervals for population proportions, inference on differences between two means, and inference on differences between two proportions.",
+          "actual_source_value": null
+        },
+        {
+          "path": "selections/2/source_matches/1",
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Construct a simple linear regression model and use it for prediction and interpretation, including empirical models, least-squares estimation, sums of squares, regression equations, correlation coefficients, properties of least-squares estimators, and hypothesis tests for significance in simple linear regression.",
+          "actual_source_value": null
+        }
+      ],
+      "duplicate_quoted_references": [],
+      "source_membership": "passed",
+      "literal_quote_provenance": "passed",
+      "aggregate_reference_validation": "not_applicable",
+      "semantic_support": "requires_manual_assessment"
+    },
+    {
+      "operation": "AB-S2",
+      "schema": "identification",
+      "source_checks": [
+        {
+          "path": "selections/0/source_matches/0",
+          "reference": {
+            "course_code": "CSI106",
+            "clo": "CLO3"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Describe how different data type is stored inside a computer as bit patterns and operations on data, including Data storage and Operations on Data, Logic operations, Shift, Arithmetic operations.",
+          "actual_source_value": null
+        },
+        {
+          "path": "selections/1/source_matches/0",
+          "reference": {
+            "course_code": "CSI106",
+            "clo": "CLO4"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Describe the layers in networking and their relationship, including Computer Networks, Internet, Overview, and layers in netwoking.",
+          "actual_source_value": null
+        },
+        {
+          "path": "selections/2/source_matches/0",
+          "reference": {
+            "course_code": "CSI106",
+            "metadata_field": "description"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Numbering system & data representation",
+          "actual_source_value": null
+        },
+        {
+          "path": "selections/2/source_matches/1",
+          "reference": {
+            "course_code": "CSI106",
+            "metadata_field": "description"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "The concepts of computer networking and internet",
+          "actual_source_value": null
+        }
+      ],
+      "duplicate_quoted_references": [
+        {
+          "path": "selections/2/source_matches/1",
+          "reference": {
+            "course_code": "CSI106",
+            "metadata_field": "description"
+          }
+        }
+      ],
+      "source_membership": "passed",
+      "literal_quote_provenance": "passed",
+      "aggregate_reference_validation": "not_applicable",
+      "semantic_support": "requires_manual_assessment"
+    },
+    {
+      "operation": "AB-S3",
+      "schema": "identification",
+      "source_checks": [
+        {
+          "path": "selections/0/source_matches/0",
+          "reference": {
+            "course_code": "CPV301",
+            "clo": "CLO8"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Understand and implement object detection techniques.",
+          "actual_source_value": null
+        },
+        {
+          "path": "selections/1/source_matches/0",
+          "reference": {
+            "course_code": "CPV301",
+            "clo": "CLO9"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Explain the principles of face recognition and object tracking techniques.",
+          "actual_source_value": null
+        },
+        {
+          "path": "selections/2/source_matches/0",
+          "reference": {
+            "course_code": "CPV301",
+            "clo": "CLO9"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Explain the principles of face recognition and object tracking techniques.",
+          "actual_source_value": null
+        }
+      ],
+      "duplicate_quoted_references": [],
+      "source_membership": "passed",
+      "literal_quote_provenance": "passed",
+      "aggregate_reference_validation": "not_applicable",
+      "semantic_support": "requires_manual_assessment"
+    },
+    {
+      "operation": "AB-S4",
+      "schema": "identification",
+      "source_checks": [
+        {
+          "path": "selections/0/source_matches/0",
+          "reference": {
+            "course_code": "DBI202",
+            "clo": "CLO5"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Be proficient in SQL, including Data Definition Language (DDL) for defining database structures and implementing constraints such as primary and foreign keys, UNIQUE, and CHECK constraints using Microsoft SQL Server. Use Data Manipulation Language (DML) to perform basic queries, multi-relation queries, nested queries, aggregation queries, and database modifications using INSERT, UPDATE, and DELETE statements.",
+          "actual_source_value": null
+        },
+        {
+          "path": "selections/1/source_matches/0",
+          "reference": {
+            "course_code": "DBI202",
+            "clo": "CLO6"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Understand T-SQL database programming concepts in Microsoft SQL Server and work with database views, cursors, stored procedures, functions, and triggers, including the use of triggers to enforce database constraints. Understand transaction concepts in database applications.",
+          "actual_source_value": null
+        },
+        {
+          "path": "selections/2/source_matches/0",
+          "reference": {
+            "course_code": "ADY201m",
+            "clo": "CLO7"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Implement a small data science project by applying Python fundamentals, Python data structures, SQL/database access, data understanding, preprocessing, modeling, evaluation, deployment, visualization, probability, regression analysis, and final reporting within a guided project workflow.",
+          "actual_source_value": null
+        },
+        {
+          "path": "selections/3/source_matches/0",
+          "reference": {
+            "course_code": "DAP391m",
+            "clo": "CLO7"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Implement the small mini capstone data science project includes steps: involving data collection, data wrangling, exploratory data analysis, data visualization, model development, model evaluation, and reporting, including Applied Data Science Capstone: Interactive Visual Analytics, Dashboard , Applied Data Science Capstone: Interactive Visual Analytics, Dashboard , Applied Data Science Capstone: Predictive Analysis (Classification) , Applied Data Science Capstone: Predictive Analysis (Classification), Evaluate final project.",
+          "actual_source_value": null
+        },
+        {
+          "path": "selections/4/source_matches/0",
+          "reference": {
+            "course_code": "DBI202",
+            "clo": "CLO5"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Be proficient in SQL, including Data Definition Language (DDL) for defining database structures and implementing constraints such as primary and foreign keys, UNIQUE, and CHECK constraints using Microsoft SQL Server. Use Data Manipulation Language (DML) to perform basic queries, multi-relation queries, nested queries, aggregation queries, and database modifications using INSERT, UPDATE, and DELETE statements.",
+          "actual_source_value": null
+        },
+        {
+          "path": "selections/4/source_matches/1",
+          "reference": {
+            "course_code": "DBI202",
+            "clo": "CLO6"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Understand T-SQL database programming concepts in Microsoft SQL Server and work with database views, cursors, stored procedures, functions, and triggers, including the use of triggers to enforce database constraints. Understand transaction concepts in database applications.",
+          "actual_source_value": null
+        }
+      ],
+      "duplicate_quoted_references": [],
+      "source_membership": "passed",
+      "literal_quote_provenance": "passed",
+      "aggregate_reference_validation": "not_applicable",
+      "semantic_support": "requires_manual_assessment"
+    },
+    {
+      "operation": "AB-S5",
+      "schema": "identification",
+      "source_checks": [
+        {
+          "path": "selections/0/source_matches/0",
+          "reference": {
+            "course_code": "MAI391",
+            "clo": "CLO4"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Solve continuous optimization problems using gradient descent for local minima",
+          "actual_source_value": null
+        },
+        {
+          "path": "selections/1/source_matches/0",
+          "reference": {
+            "course_code": "MAI391",
+            "clo": "CLO5"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Apply linear regression concepts",
+          "actual_source_value": null
+        },
+        {
+          "path": "selections/2/source_matches/0",
+          "reference": {
+            "course_code": "MAI391",
+            "clo": "CLO6"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Apply dimensionality reduction with PCA",
+          "actual_source_value": null
+        },
+        {
+          "path": "selections/3/source_matches/0",
+          "reference": {
+            "course_code": "MAI391",
+            "clo": "CLO7"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Apply support vector machine classification",
+          "actual_source_value": null
+        }
+      ],
+      "duplicate_quoted_references": [],
+      "source_membership": "passed",
+      "literal_quote_provenance": "passed",
+      "aggregate_reference_validation": "not_applicable",
+      "semantic_support": "requires_manual_assessment"
+    },
+    {
+      "operation": "AB-S6",
+      "schema": "identification",
+      "source_checks": [
+        {
+          "path": "selections/0/source_matches/0",
+          "reference": {
+            "course_code": "ADY201m",
+            "metadata_field": "tools"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Jupyter Notebooks\n- JupyterLab\n- RStudio IDE\n- Git, GitHub\n-Watson Studio.",
+          "actual_source_value": null
+        },
+        {
+          "path": "selections/0/source_matches/1",
+          "reference": {
+            "course_code": "DAP391m",
+            "metadata_field": "tools"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Jupyter Notebooks\n- JupyterLab\n- RStudio IDE\n- Git, GitHub\n- Watson Studio.",
+          "actual_source_value": null
+        },
+        {
+          "path": "selections/1/source_matches/0",
+          "reference": {
+            "course_code": "ADY201m",
+            "clo": "CLO3"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Know common tools used in data science and use at least one tool for basic data operations, including tool introduction and analysis workflows using Python, R, Scala, SQL, GitHub, Jupyter Notebooks, RStudio IDE, Watson Studio.",
+          "actual_source_value": null
+        },
+        {
+          "path": "selections/2/source_matches/0",
+          "reference": {
+            "course_code": "ADY201m",
+            "metadata_field": "tools"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Jupyter Notebooks\n- JupyterLab\n- RStudio IDE\n- Git, GitHub\n-Watson Studio.",
+          "actual_source_value": null
+        },
+        {
+          "path": "selections/2/source_matches/1",
+          "reference": {
+            "course_code": "DAP391m",
+            "metadata_field": "tools"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Jupyter Notebooks\n- JupyterLab\n- RStudio IDE\n- Git, GitHub\n- Watson Studio.",
+          "actual_source_value": null
+        },
+        {
+          "path": "selections/2/source_matches/2",
+          "reference": {
+            "course_code": "ADY201m",
+            "clo": "CLO3"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Know common tools used in data science and use at least one tool for basic data operations, including tool introduction and analysis workflows using Python, R, Scala, SQL, GitHub, Jupyter Notebooks, RStudio IDE, Watson Studio.",
+          "actual_source_value": null
+        }
+      ],
+      "duplicate_quoted_references": [],
+      "source_membership": "passed",
+      "literal_quote_provenance": "passed",
+      "aggregate_reference_validation": "not_applicable",
+      "semantic_support": "requires_manual_assessment"
+    },
+    {
+      "operation": "C1",
+      "schema": "chat",
+      "source_checks": [],
+      "duplicate_quoted_references": [],
+      "source_membership": "passed",
+      "literal_quote_provenance": "not_applicable",
+      "aggregate_reference_validation": "passed",
+      "semantic_support": "requires_manual_assessment"
+    },
+    {
+      "operation": "C2",
+      "schema": "chat",
+      "source_checks": [],
+      "duplicate_quoted_references": [],
+      "source_membership": "passed",
+      "literal_quote_provenance": "not_applicable",
+      "aggregate_reference_validation": "passed",
+      "semantic_support": "requires_manual_assessment"
+    },
+    {
+      "operation": "C3",
+      "schema": "chat",
+      "source_checks": [],
+      "duplicate_quoted_references": [],
+      "source_membership": "passed",
+      "literal_quote_provenance": "not_applicable",
+      "aggregate_reference_validation": "passed",
+      "semantic_support": "requires_manual_assessment"
+    },
+    {
+      "operation": "C4",
+      "schema": "chat",
+      "source_checks": [],
+      "duplicate_quoted_references": [],
+      "source_membership": "passed",
+      "literal_quote_provenance": "not_applicable",
+      "aggregate_reference_validation": "passed",
+      "semantic_support": "requires_manual_assessment"
+    },
+    {
+      "operation": "D-S1-D1",
+      "schema": "chat",
+      "source_checks": [],
+      "duplicate_quoted_references": [],
+      "source_membership": "passed",
+      "literal_quote_provenance": "not_applicable",
+      "aggregate_reference_validation": "passed",
+      "semantic_support": "requires_manual_assessment"
+    },
+    {
+      "operation": "D-S1-D2",
+      "schema": "claim_level",
+      "source_checks": [
+        {
+          "path": "claims/0/sources/0",
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Construct and interpret confidence intervals for population parameters and differences between population parameters",
+          "actual_source_value": null
+        },
+        {
+          "path": "claims/1/sources/0",
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Construct a simple linear regression model and use it for prediction and interpretation",
+          "actual_source_value": null
+        },
+        {
+          "path": "claims/2/sources/0",
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Construct and interpret confidence intervals for population parameters and differences between population parameters",
+          "actual_source_value": null
+        },
+        {
+          "path": "claims/2/sources/1",
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Construct a simple linear regression model and use it for prediction and interpretation",
+          "actual_source_value": null
+        }
+      ],
+      "duplicate_quoted_references": [],
+      "source_membership": "passed",
+      "literal_quote_provenance": "passed",
+      "aggregate_reference_validation": "passed",
+      "semantic_support": "requires_manual_assessment"
+    },
+    {
+      "operation": "D-S6-D1",
+      "schema": "chat",
+      "source_checks": [],
+      "duplicate_quoted_references": [],
+      "source_membership": "passed",
+      "literal_quote_provenance": "not_applicable",
+      "aggregate_reference_validation": "passed",
+      "semantic_support": "requires_manual_assessment"
+    },
+    {
+      "operation": "D-S6-D2",
+      "schema": "claim_level",
+      "source_checks": [
+        {
+          "path": "claims/0/sources/0",
+          "reference": {
+            "course_code": "ADY201m",
+            "metadata_field": "tools"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Jupyter Notebooks\n- JupyterLab\n- RStudio IDE\n- Git, GitHub\n-Watson Studio.",
+          "actual_source_value": null
+        },
+        {
+          "path": "claims/1/sources/0",
+          "reference": {
+            "course_code": "DAP391m",
+            "metadata_field": "tools"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Jupyter Notebooks\n- JupyterLab\n- RStudio IDE\n- Git, GitHub\n- Watson Studio.",
+          "actual_source_value": null
+        },
+        {
+          "path": "claims/2/sources/0",
+          "reference": {
+            "course_code": "ADY201m",
+            "clo": "CLO3"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Know common tools used in data science and use at least one tool for basic data operations, including tool introduction and analysis workflows using Python, R, Scala, SQL, GitHub, Jupyter Notebooks, RStudio IDE, Watson Studio.",
+          "actual_source_value": null
+        }
+      ],
+      "duplicate_quoted_references": [],
+      "source_membership": "passed",
+      "literal_quote_provenance": "passed",
+      "aggregate_reference_validation": "passed",
+      "semantic_support": "requires_manual_assessment"
+    },
+    {
+      "operation": "E1-clean",
+      "schema": "chat",
+      "source_checks": [],
+      "duplicate_quoted_references": [],
+      "source_membership": "passed",
+      "literal_quote_provenance": "not_applicable",
+      "aggregate_reference_validation": "passed",
+      "semantic_support": "requires_manual_assessment"
+    },
+    {
+      "operation": "E1-clean-D2",
+      "schema": "claim_level",
+      "source_checks": [
+        {
+          "path": "claims/0/sources/0",
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO7"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Construct and interpret confidence intervals for population parameters and differences between population parameters",
+          "actual_source_value": null
+        },
+        {
+          "path": "claims/1/sources/0",
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO8"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Verify claims about population parameters and differences between population parameters using hypothesis testing",
+          "actual_source_value": null
+        },
+        {
+          "path": "claims/2/sources/0",
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Construct a simple linear regression model and use it for prediction and interpretation",
+          "actual_source_value": null
+        },
+        {
+          "path": "claims/3/sources/0",
+          "reference": {
+            "course_code": "MAI391",
+            "clo": "CLO6"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Apply dimensionality reduction with PCA",
+          "actual_source_value": null
+        }
+      ],
+      "duplicate_quoted_references": [],
+      "source_membership": "passed",
+      "literal_quote_provenance": "passed",
+      "aggregate_reference_validation": "passed",
+      "semantic_support": "requires_manual_assessment"
+    },
+    {
+      "operation": "E2-contaminated",
+      "schema": "chat",
+      "source_checks": [],
+      "duplicate_quoted_references": [],
+      "source_membership": "passed",
+      "literal_quote_provenance": "not_applicable",
+      "aggregate_reference_validation": "passed",
+      "semantic_support": "requires_manual_assessment"
+    },
+    {
+      "operation": "E2-contaminated-D2",
+      "schema": "claim_level",
+      "source_checks": [
+        {
+          "path": "claims/0/sources/0",
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": false,
+          "returned_excerpt": "Construct and interpret confidence intervals for population parameters and differences between population parameters",
+          "actual_source_value": "Construct a simple linear regression model and use it for prediction and interpretation, including empirical models, least-squares estimation, sums of squares, regression equations, correlation coefficients, properties of least-squares estimators, and hypothesis tests for significance in simple linear regression."
+        },
+        {
+          "path": "claims/1/sources/0",
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO8"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Verify claims about population parameters and differences between population parameters using hypothesis testing",
+          "actual_source_value": null
+        },
+        {
+          "path": "claims/2/sources/0",
+          "reference": {
+            "course_code": "MAS291",
+            "clo": "CLO9"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Construct a simple linear regression model and use it for prediction and interpretation",
+          "actual_source_value": null
+        },
+        {
+          "path": "claims/3/sources/0",
+          "reference": {
+            "course_code": "MAI391",
+            "clo": "CLO6"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Apply dimensionality reduction with PCA",
+          "actual_source_value": null
+        }
+      ],
+      "duplicate_quoted_references": [],
+      "source_membership": "passed",
+      "literal_quote_provenance": "failed",
+      "aggregate_reference_validation": "passed",
+      "semantic_support": "requires_manual_assessment"
+    },
+    {
+      "operation": "E3-same-course",
+      "schema": "chat",
+      "source_checks": [],
+      "duplicate_quoted_references": [],
+      "source_membership": "passed",
+      "literal_quote_provenance": "not_applicable",
+      "aggregate_reference_validation": "passed",
+      "semantic_support": "requires_manual_assessment"
+    },
+    {
+      "operation": "E4-multiple-sources",
+      "schema": "chat",
+      "source_checks": [],
+      "duplicate_quoted_references": [],
+      "source_membership": "passed",
+      "literal_quote_provenance": "not_applicable",
+      "aggregate_reference_validation": "passed",
+      "semantic_support": "requires_manual_assessment"
+    },
+    {
+      "operation": "C2-reversed",
+      "schema": "chat",
+      "source_checks": [],
+      "duplicate_quoted_references": [],
+      "source_membership": "passed",
+      "literal_quote_provenance": "not_applicable",
+      "aggregate_reference_validation": "passed",
+      "semantic_support": "requires_manual_assessment"
+    },
+    {
+      "operation": "C1-repeat",
+      "schema": "chat",
+      "source_checks": [],
+      "duplicate_quoted_references": [],
+      "source_membership": "passed",
+      "literal_quote_provenance": "not_applicable",
+      "aggregate_reference_validation": "passed",
+      "semantic_support": "requires_manual_assessment"
+    },
+    {
+      "operation": "C4-repeat",
+      "schema": "chat",
+      "source_checks": [],
+      "duplicate_quoted_references": [],
+      "source_membership": "passed",
+      "literal_quote_provenance": "not_applicable",
+      "aggregate_reference_validation": "passed",
+      "semantic_support": "requires_manual_assessment"
+    },
+    {
+      "operation": "E2-contaminated-repeat",
+      "schema": "chat",
+      "source_checks": [],
+      "duplicate_quoted_references": [],
+      "source_membership": "passed",
+      "literal_quote_provenance": "not_applicable",
+      "aggregate_reference_validation": "passed",
+      "semantic_support": "requires_manual_assessment"
+    },
+    {
+      "operation": "D-S1-verified-mapping",
+      "schema": "chat",
+      "source_checks": [],
+      "duplicate_quoted_references": [],
+      "source_membership": "passed",
+      "literal_quote_provenance": "not_applicable",
+      "aggregate_reference_validation": "passed",
+      "semantic_support": "requires_manual_assessment"
+    },
+    {
+      "operation": "AB-S7",
+      "schema": "identification",
+      "source_checks": [
+        {
+          "path": "selections/0/source_matches/0",
+          "reference": {
+            "course_code": "PFP191",
+            "clo": "CLO4"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Understand Python strings as sequences, including length calculation with len, traversal with loops, slicing, immutability, loop-based counting, membership with the in operator, string comparison, string methods, parsing strings, format operators, and debugging string-related code.",
+          "actual_source_value": null
+        },
+        {
+          "path": "selections/1/source_matches/0",
+          "reference": {
+            "course_code": "PFP191",
+            "clo": "CLO5"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Understand file handling in Python, including persistence, opening files, working with text files and lines, reading files, searching through file contents, allowing users to choose file names, using try, except, and open for safer file access, writing files, and debugging file-processing code.",
+          "actual_source_value": null
+        },
+        {
+          "path": "selections/3/source_matches/0",
+          "reference": {
+            "course_code": "PFP191",
+            "metadata_field": "tools"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Visual Studio Code, Google Colab",
+          "actual_source_value": null
+        }
+      ],
+      "duplicate_quoted_references": [],
+      "source_membership": "passed",
+      "literal_quote_provenance": "passed",
+      "aggregate_reference_validation": "not_applicable",
+      "semantic_support": "requires_manual_assessment"
+    },
+    {
+      "operation": "AB-S8",
+      "schema": "identification",
+      "source_checks": [
+        {
+          "path": "selections/0/source_matches/0",
+          "reference": {
+            "course_code": "CSD203",
+            "clo": "CLO5"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Discuss graphs and their applications, and implement basic graph operations, including graph representations using edge lists, adjacency lists, and adjacency matrices, depth-first and breadth-first traversal, weighted graphs, shortest paths, Dijkstra's algorithm, minimum spanning trees with Prim-Jarnik and Kruskal algorithms.",
+          "actual_source_value": null
+        },
+        {
+          "path": "selections/1/source_matches/0",
+          "reference": {
+            "course_code": "CSD203",
+            "clo": "CLO6"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Explain the operation and performance of basic and advanced sorting algorithms, including selection sort, insertion sort, bubble sort, quicksort, merge sort, heap sort, bucket sort, radix sort, and comparison of sorting algorithm performance.",
+          "actual_source_value": null
+        },
+        {
+          "path": "selections/2/source_matches/0",
+          "reference": {
+            "course_code": "CSD203",
+            "clo": "CLO7"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Explain hashing and its applications, including hash tables, hash functions, collision handling, load factors, rehashing, efficiency considerations, and Python hash table implementation.",
+          "actual_source_value": null
+        },
+        {
+          "path": "selections/3/source_matches/0",
+          "reference": {
+            "course_code": "CSD203",
+            "clo": "CLO5"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Discuss graphs and their applications, and implement basic graph operations, including graph representations using edge lists, adjacency lists, and adjacency matrices, depth-first and breadth-first traversal, weighted graphs, shortest paths, Dijkstra's algorithm, minimum spanning trees with Prim-Jarnik and Kruskal algorithms.",
+          "actual_source_value": null
+        },
+        {
+          "path": "selections/3/source_matches/1",
+          "reference": {
+            "course_code": "CSD203",
+            "clo": "CLO6"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Explain the operation and performance of basic and advanced sorting algorithms, including selection sort, insertion sort, bubble sort, quicksort, merge sort, heap sort, bucket sort, radix sort, and comparison of sorting algorithm performance.",
+          "actual_source_value": null
+        },
+        {
+          "path": "selections/3/source_matches/2",
+          "reference": {
+            "course_code": "CSD203",
+            "clo": "CLO7"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Explain hashing and its applications, including hash tables, hash functions, collision handling, load factors, rehashing, efficiency considerations, and Python hash table implementation.",
+          "actual_source_value": null
+        }
+      ],
+      "duplicate_quoted_references": [],
+      "source_membership": "passed",
+      "literal_quote_provenance": "passed",
+      "aggregate_reference_validation": "not_applicable",
+      "semantic_support": "requires_manual_assessment"
+    },
+    {
+      "operation": "D-S7-D1",
+      "schema": "chat",
+      "source_checks": [],
+      "duplicate_quoted_references": [],
+      "source_membership": "passed",
+      "literal_quote_provenance": "not_applicable",
+      "aggregate_reference_validation": "passed",
+      "semantic_support": "requires_manual_assessment"
+    },
+    {
+      "operation": "D-S7-D2",
+      "schema": "claim_level",
+      "source_checks": [
+        {
+          "path": "claims/0/sources/0",
+          "reference": {
+            "course_code": "PFP191",
+            "clo": "CLO4"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Understand Python strings as sequences, including length calculation with len, traversal with loops, slicing, immutability, loop-based counting, membership with the in operator, string comparison, string methods, parsing strings, format operators, and debugging string-related code.",
+          "actual_source_value": null
+        },
+        {
+          "path": "claims/0/sources/1",
+          "reference": {
+            "course_code": "PFP191",
+            "clo": "CLO5"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Understand file handling in Python, including persistence, opening files, working with text files and lines, reading files, searching through file contents, allowing users to choose file names, using try, except, and open for safer file access, writing files, and debugging file-processing code.",
+          "actual_source_value": null
+        },
+        {
+          "path": "claims/1/sources/0",
+          "reference": {
+            "course_code": "PFP191",
+            "metadata_field": "tools"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Visual Studio Code, Google Colab",
+          "actual_source_value": null
+        }
+      ],
+      "duplicate_quoted_references": [],
+      "source_membership": "passed",
+      "literal_quote_provenance": "passed",
+      "aggregate_reference_validation": "passed",
+      "semantic_support": "requires_manual_assessment"
+    },
+    {
+      "operation": "D-S8-D1",
+      "schema": "chat",
+      "source_checks": [],
+      "duplicate_quoted_references": [],
+      "source_membership": "passed",
+      "literal_quote_provenance": "not_applicable",
+      "aggregate_reference_validation": "passed",
+      "semantic_support": "requires_manual_assessment"
+    },
+    {
+      "operation": "D-S8-D2",
+      "schema": "claim_level",
+      "source_checks": [
+        {
+          "path": "claims/0/sources/0",
+          "reference": {
+            "course_code": "CSD203",
+            "clo": "CLO5"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Discuss graphs and their applications, and implement basic graph operations, including graph representations using edge lists, adjacency lists, and adjacency matrices, depth-first and breadth-first traversal, weighted graphs, shortest paths, Dijkstra's algorithm, minimum spanning trees with Prim-Jarnik and Kruskal algorithms.",
+          "actual_source_value": null
+        },
+        {
+          "path": "claims/1/sources/0",
+          "reference": {
+            "course_code": "CSD203",
+            "clo": "CLO6"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Explain the operation and performance of basic and advanced sorting algorithms, including selection sort, insertion sort, bubble sort, quicksort, merge sort, heap sort, bucket sort, radix sort, and comparison of sorting algorithm performance.",
+          "actual_source_value": null
+        },
+        {
+          "path": "claims/2/sources/0",
+          "reference": {
+            "course_code": "CSD203",
+            "clo": "CLO7"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Explain hashing and its applications, including hash tables, hash functions, collision handling, load factors, rehashing, efficiency considerations, and Python hash table implementation.",
+          "actual_source_value": null
+        },
+        {
+          "path": "claims/3/sources/0",
+          "reference": {
+            "course_code": "CSD203",
+            "clo": "CLO1"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Describe list data structures and their implementation approaches, including arrays, singly linked lists, circularly linked lists, and doubly linked lists. Implement singly linked lists while understanding how list representation choices affect data structure operations.",
+          "actual_source_value": null
+        },
+        {
+          "path": "claims/3/sources/1",
+          "reference": {
+            "course_code": "CSD203",
+            "clo": "CLO2"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Define stacks and queues and describe their basic operations and uses, including stack operations, queues, double-ended queues (deques), and priority queues as fundamental linear data structures.",
+          "actual_source_value": null
+        },
+        {
+          "path": "claims/3/sources/2",
+          "reference": {
+            "course_code": "CSD203",
+            "clo": "CLO3"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Describe recursive definitions, recursive algorithms, recursive functions, and their implementation and use, including factorial, binary search, file-system examples, recursive algorithm analysis, linear recursion, binary recursion, multiple recursion, recursive algorithm design, and tail-recursion elimination.",
+          "actual_source_value": null
+        },
+        {
+          "path": "claims/3/sources/3",
+          "reference": {
+            "course_code": "CSD203",
+            "clo": "CLO4"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Explain general trees, binary trees, and binary search trees, and implement BST operations, including tree definitions and properties, tree abstract data types, binary tree properties, tree implementation, traversal algorithms, BST search, insertions and deletions, balanced search trees, AVL.",
+          "actual_source_value": null
+        },
+        {
+          "path": "claims/3/sources/4",
+          "reference": {
+            "course_code": "CSD203",
+            "clo": "CLO5"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Discuss graphs and their applications, and implement basic graph operations, including graph representations using edge lists, adjacency lists, and adjacency matrices, depth-first and breadth-first traversal, weighted graphs, shortest paths, Dijkstra's algorithm, minimum spanning trees with Prim-Jarnik and Kruskal algorithms.",
+          "actual_source_value": null
+        },
+        {
+          "path": "claims/3/sources/5",
+          "reference": {
+            "course_code": "CSD203",
+            "clo": "CLO6"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Explain the operation and performance of basic and advanced sorting algorithms, including selection sort, insertion sort, bubble sort, quicksort, merge sort, heap sort, bucket sort, radix sort, and comparison of sorting algorithm performance.",
+          "actual_source_value": null
+        },
+        {
+          "path": "claims/3/sources/6",
+          "reference": {
+            "course_code": "CSD203",
+            "clo": "CLO7"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Explain hashing and its applications, including hash tables, hash functions, collision handling, load factors, rehashing, efficiency considerations, and Python hash table implementation.",
+          "actual_source_value": null
+        },
+        {
+          "path": "claims/3/sources/7",
+          "reference": {
+            "course_code": "CSD203",
+            "clo": "CLO8"
+          },
+          "source_present": true,
+          "literal_excerpt_passed": true,
+          "returned_excerpt": "Describe text processing problems and their applications, including digitized text, pattern-matching algorithms, brute-force matching, the Knuth-Morris-Pratt algorithm, text compression, Huffman coding, LZW, and run-length encoding.",
+          "actual_source_value": null
+        }
+      ],
+      "duplicate_quoted_references": [],
+      "source_membership": "passed",
+      "literal_quote_provenance": "passed",
+      "aggregate_reference_validation": "passed",
+      "semantic_support": "requires_manual_assessment"
+    },
+    {
+      "operation": "E5-holdout",
+      "schema": "chat",
+      "source_checks": [],
+      "duplicate_quoted_references": [],
+      "source_membership": "passed",
+      "literal_quote_provenance": "not_applicable",
+      "aggregate_reference_validation": "passed",
+      "semantic_support": "requires_manual_assessment"
+    }
+  ],
+  "note": "Literal quote checks are independent of duplicate-reference rejection. No semantic support is inferred from a passed quote."
+}

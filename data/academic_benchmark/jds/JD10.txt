@@ -1,0 +1,5 @@
+VNGGames — AI Engineer Intern
+Responsibilities: Build data/API integration tools and guided AI workflows for product/marketing; design/test prompts, evaluation cases and a versioned prompt library; create tool-calling/MCP agents and integrations with communication/business services.
+Qualifications: Final-year computing/data-science study; Python with pandas/numpy, APIs, JSON/CSV and AI SDKs; analytical SQL and data-warehouse concepts; LLM concepts including tokens, context, temperature and function calling; applied prompting/structured JSON/XML outputs; a prior LLM-API prototype; basic Git operations.
+Preferred: RAG/vector search, agent frameworks or MCP; BigQuery/Snowflake and report automation; gaming interest. MCP appears in responsibilities and also in the preferred-experience section, not universally mandatory prior experience.
+Source-grounded paraphrase of indexed VNG employer content; direct fetch failed and vacancy availability is not established.

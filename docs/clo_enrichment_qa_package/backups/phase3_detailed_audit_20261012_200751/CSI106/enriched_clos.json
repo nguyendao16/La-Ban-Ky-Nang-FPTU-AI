@@ -1,0 +1,152 @@
+{
+  "course_id": "CSI106",
+  "clos": [
+    {
+      "clo_id": "CLO1",
+      "original_description": "Understand the subsystems of a computer and describe the role of these components",
+      "enriched_description": "Understand the subsystems of a computer and describe the role of these components, including Computer Organization, Computer generations.",
+      "source_topic_indices": [
+        0,
+        1
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO2",
+      "original_description": "Know how to convert a number from one base to other base( decimal, binary, octal and hexadecimal)",
+      "enriched_description": "Know how to convert a number from one base to other base( decimal, binary, octal and hexadecimal), including Numbering systems, Positional Number Systems.",
+      "source_topic_indices": [
+        0
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO3",
+      "original_description": "Describe how different data type is stored inside a computer as bit patterns and operations on data",
+      "enriched_description": "Describe how different data type is stored inside a computer as bit patterns and operations on data, including Data storage and Operations on Data, Logic operations, Shift, Arithmetic operations.",
+      "source_topic_indices": [
+        1,
+        3,
+        4
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO4",
+      "original_description": "Describe the layers in netwoking and their relationship",
+      "enriched_description": "Describe the layers in networking and their relationship, including Computer Networks, Internet, Overview, and layers in netwoking.",
+      "source_topic_indices": [
+        1,
+        2
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO5",
+      "original_description": "Undestand the role of OS in a computer system",
+      "enriched_description": "Undestand the role of OS in a computer system, including Operating System, Components of OS: UI, memory manager, Components of OS: file manager, Components of OS: device manager.",
+      "source_topic_indices": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO6",
+      "original_description": "Define a algorithm and describe tools used to develop algorithms",
+      "enriched_description": "Define a algorithm and describe tools used to develop algorithms, including Algorithms, Algorithm representation, Search Algorithms: linear, binary.",
+      "source_topic_indices": [
+        1,
+        2
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO7",
+      "original_description": "Explain how a program in a high-level language is translated into machine language",
+      "enriched_description": "Explain how a program in a high-level language is translated into machine language, including Programming and programming paradigms.",
+      "source_topic_indices": [
+        2,
+        3
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO8",
+      "original_description": "Describe the software lifecycle",
+      "enriched_description": "Describe the software lifecycle, including Software engineering, The software lifecycle.",
+      "source_topic_indices": [
+        2
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO9",
+      "original_description": "Discuss some data structures: Array, Records, Linked list",
+      "enriched_description": "Discuss some data structures: Array, Records, Linked list, including Data structures, Arrays, Records, Linked List.",
+      "source_topic_indices": [
+        2,
+        3
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO10",
+      "original_description": "Distinguish between text file and binary file and access methods",
+      "enriched_description": "Distinguish between text file and binary file and access methods, including File structure, Text versus Binary, Access methods.",
+      "source_topic_indices": [
+        2,
+        3
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO11",
+      "original_description": "Describe and explain operations within a relational database",
+      "enriched_description": "Describe and explain operations within a relational database, including Database, Database architecture, Database model, The relationship database model, Database design, Guide do practice set (database).",
+      "source_topic_indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO12",
+      "original_description": "Descibe security goals and discuss ethical issues",
+      "enriched_description": "Descibe security goals and discuss ethical issues, including Security, Ethical Issues, Ethical Principles.",
+      "source_topic_indices": [
+        0,
+        1
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO13",
+      "original_description": "Describe artificial intelligence and its basic concepts",
+      "enriched_description": "Describe artificial intelligence and its basic concepts, including Introduction to Additional Learning: \"AI For Everyone\" course in Coursera, (Students have to complete Additional Learning and achieve the certificate before Presentation ), Review Additional Learning (AI For Everyone course).",
+      "source_topic_indices": [
+        0,
+        2
+      ],
+      "review_required": false,
+      "review_notes": []
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "clo_name": "CLO1",
+    "clo_details": "Explain the general functions and structure of a digital computer"
+  },
+  {
+    "clo_name": "CLO2",
+    "clo_details": "Present an overview of the evolution of computer technology from early digital computers to the latest microprocessors."
+  },
+  {
+    "clo_name": "CLO3",
+    "clo_details": "Understand the key performance issues that relate to computer design"
+  },
+  {
+    "clo_name": "CLO4",
+    "clo_details": "Describe in detail the essential elements of computer organisation including internal bus, memory, Input/Output ( I/O) organisations and interfacing standards and discuss how these elements function;"
+  },
+  {
+    "clo_name": "CLO5",
+    "clo_details": "Summarize, at a top level, the key functions of an operating system (OS)."
+  },
+  {
+    "clo_name": "CLO6",
+    "clo_details": "Be able to apply Boolean algebra and digital logic to design and interpret complex digital circuits;"
+  },
+  {
+    "clo_name": "CLO7",
+    "clo_details": "Present various types of addressing modes common in instruction sets, an essential characteristics of machine instructions, types of operands supported by typical machine instruction sets"
+  },
+  {
+    "clo_name": "CLO8",
+    "clo_details": "Explain processor structure and function in details, the operations of Reduced Instruction Set Computers"
+  },
+  {
+    "clo_name": "CLO9",
+    "clo_details": "Investigate, evaluate and communicate general trends in computing technologies such as Instruction-Level Parallelism and Superscalar Processors"
+  },
+  {
+    "clo_name": "CLO10",
+    "clo_details": "Using AI tools and simulator tools to futher explore the main concepts"
+  }
+]

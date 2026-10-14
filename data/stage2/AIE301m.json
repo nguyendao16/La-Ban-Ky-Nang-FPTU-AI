@@ -1,0 +1,339 @@
+{
+  "metadata": {
+    "syllabus_name": "AI for Trading_Ứng dụng TTNT cho giao dịch",
+    "course_name_english": "AI for Trading",
+    "subject_code": "AIE301m",
+    "description": "Artificial intelligence (AI) has transformed industries around the world. The aim of this unit is to introduce the current and future applications of AI in trading strategy. Students will be guided to discover the structure used in machine learning (ML), deep learning (DL), and reinforcement learning (RL) techniques, the required steps, and the optimized methods in the AI-driven trading field. Students also learn how to build some ML models on Keras and Tensorflow.",
+    "tools": "No"
+  },
+  "clos": [
+    {
+      "clo_name": "CLO1",
+      "clo_details": "Understand the fundamentals of trading."
+    },
+    {
+      "clo_name": "CLO2",
+      "clo_details": "Define quantitative trading and the main types of quantitative trading strategies."
+    },
+    {
+      "clo_name": "CLO3",
+      "clo_details": "Basic steps in exchange arbitrage, statistical arbitrage, index arbitrage and the application of machine learning to financial use cases."
+    },
+    {
+      "clo_name": "CLO4",
+      "clo_details": "Design basic quantitative trading strategies."
+    },
+    {
+      "clo_name": "CLO5",
+      "clo_details": "Use Keras and Tensorflow to build machine learning models."
+    },
+    {
+      "clo_name": "CLO6",
+      "clo_details": "Build a pair trading strategy prediction model, a momentum-based trading model, and back test them."
+    },
+    {
+      "clo_name": "CLO7",
+      "clo_details": "Understand the structure and techniques used in reinforcement learning (RL) strategies."
+    },
+    {
+      "clo_name": "CLO8",
+      "clo_details": "Understand the benefits of using RL vs. other learning methods."
+    },
+    {
+      "clo_name": "CLO9",
+      "clo_details": "Describe the steps required to develop, test, and optimize an RL trading strategy."
+    }
+  ],
+  "schedule": [
+    {
+      "topic": "Course introduction:\n- Introduce the materials of the courses and how to asses these materials\n- Introduce the assignments and how to pass\n- Introduce CMS and the way to log on to submit the assignments http://cms.btec.fpt.edu.vn and class forum with enroll key.",
+      "lo": "CLO1 - 9"
+    },
+    {
+      "topic": "1.1 Introduction to Trading with Machine learning on Google Cloud\n1.1.1 Machine Learning in Finance and your first model using Google Cloud",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "1.1.2 Why Google Cloud Platform?",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "1.1.3 Learn ML interactively with Jupyter Notebooks on Cloud AI Platform",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "1.1.4 Trading Fundamentals: Quant Theory, Arbitrage, and Back-testing",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "1.1.4 (Cont.) Trading Fundamentals: Quant Theory, Arbitrage, and Back-testing",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "1.2 Supervised Learning with BigQuery ML\n1.2.1 Introduction to Supervised Learning",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "Lab 1: BigWuery Machine Learning model types: Reading \"Staying current with BigQuery ML model types\"",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "Lab 2: Building a Regression Model in BigQuery for AAPL Stock Data",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "1.3 Time Series and ARIMA Modeling\n1.3.1 Time Series",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "1.3.2 Comparing Regression to ARIMA",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "Lab 3: Building an ARIMA Model for a Financial Dataset",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "1.4 Introduction to Neural networks and Deep learning\n1.4.1 Deep Learning",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "1.4.2 Model Generalization",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "Assignment 1: Example BigQuery ML DNN code",
+      "lo": "CLO1 - 3"
+    },
+    {
+      "topic": "Review Assignment 1",
+      "lo": "CLO1 - 3"
+    },
+    {
+      "topic": "Progress Test 1",
+      "lo": "CLO1 - 3"
+    },
+    {
+      "topic": "Review Progress Test 1",
+      "lo": "CLO1 - 3"
+    },
+    {
+      "topic": "2.1 Introduction to Quantitative trading and TensorFlow\n2.1.1 Introduction to TensorFlow, Trading, ML",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "2.1.2 Understand Quantitive Trading Strategies",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "2.1.3 Introduction to TensorFlow",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "2.1.3 (Cont.) Introduction to TensorFlow",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "Lab 4: Writing low-level TensorFlow Programs",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "Lab 5: Manipulating data with TensorFlow Dataset API",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "2.2 Traning neural networks with TensorFlow 2 and Keras\n2.2.1 Overview of Neural Networks and Introduction to Keras APIs",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "2.2.1 (Cont.) Overview of Neural Networks and Introduction to Keras APIs",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "Lab 6: Introducing the Keras Sequential API",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "Assignment 2: The Keras Functional API",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "Review Assignment 2",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "2.3 Build a Momentum-based Trading System\n2.3.1 Identfy momentum-based factors",
+      "lo": "CLO6"
+    },
+    {
+      "topic": "2.3.2 Build a trading model that uses momentum factors",
+      "lo": "CLO6"
+    },
+    {
+      "topic": "2.3.2 (Cont.) Build a trading model that uses momentum factors",
+      "lo": "CLO6"
+    },
+    {
+      "topic": "Lab 7: Reading \"Hurst Exponent and Trading Signals Derived from Market Time Series\"",
+      "lo": "CLO6"
+    },
+    {
+      "topic": "Lab 8: Momentum Strategies",
+      "lo": "CLO6"
+    },
+    {
+      "topic": "2.4 Build a Pair Strategy Prediction Model\n2.4.1 Picking Pairs",
+      "lo": "CLO6"
+    },
+    {
+      "topic": "2.4.2 Trading Strategy",
+      "lo": "CLO6"
+    },
+    {
+      "topic": "2.4.3 Backtesting and Avoiding Overfitting",
+      "lo": "CLO6"
+    },
+    {
+      "topic": "2.4.4 Optimize momentum trading model to minimize costs",
+      "lo": "CLO6"
+    },
+    {
+      "topic": "Lab 9: Estimate parameters using Kalman Filters",
+      "lo": "CLO6"
+    },
+    {
+      "topic": "Assignment 3: Pairs Trading Strategy",
+      "lo": "CLO5 - 6"
+    },
+    {
+      "topic": "Review Assignment 3",
+      "lo": "CLO5 - 6"
+    },
+    {
+      "topic": "Progress Test 2",
+      "lo": "CLO4 - 6"
+    },
+    {
+      "topic": "Review Progress Test 2",
+      "lo": "CLO4 - 6"
+    },
+    {
+      "topic": "3.1 Introduction to Course and Reinforcement Learning\n3.1.1. Introduction to Course",
+      "lo": "CLO7"
+    },
+    {
+      "topic": "3.1.2 Working with MDPs",
+      "lo": "CLO7"
+    },
+    {
+      "topic": "3.1.3 Online Learning",
+      "lo": "CLO7"
+    },
+    {
+      "topic": "Lab 10: Reading \"Idiosyncrasies and challenges of data driven learning in electronic trading\"",
+      "lo": "CLO7"
+    },
+    {
+      "topic": "Lab 11: Early Reinforcement Learning",
+      "lo": "CLO7"
+    },
+    {
+      "topic": "3.2 Neural network based reinforcement learning\n3.2.1 Q-Networks",
+      "lo": "CLO8"
+    },
+    {
+      "topic": "3.2.2 Policy gradients",
+      "lo": "CLO8"
+    },
+    {
+      "topic": "3.2.3 What is LSTM and How to apply it",
+      "lo": "CLO8"
+    },
+    {
+      "topic": "Lab 12: Policy Gradients and Actor-to-Critic",
+      "lo": "CLO8"
+    },
+    {
+      "topic": "3.3 Portfolio optimization\n3.3.1 Investment and Trading portfolio optimization",
+      "lo": "CLO9"
+    },
+    {
+      "topic": "3.3.2 Auto ML",
+      "lo": "CLO9"
+    },
+    {
+      "topic": "Assignment 4: Reinforcement Learning DQN",
+      "lo": "CLO9"
+    },
+    {
+      "topic": "Review Assignment 4",
+      "lo": "CLO9"
+    },
+    {
+      "topic": "Progress Test 3",
+      "lo": "CLO7 - 9"
+    },
+    {
+      "topic": "Review Progress Test 3",
+      "lo": "CLO7 - 9"
+    },
+    {
+      "topic": "Summarize All Slides and Labs",
+      "lo": "CLO1 - 9"
+    },
+    {
+      "topic": "Summarize All Assignments and Tests",
+      "lo": "CLO1 - 9"
+    }
+  ],
+  "assessments": [
+    {
+      "category": "Assignment 1",
+      "part": "1",
+      "weight": "5.0%",
+      "clo": "CLO1 - 3"
+    },
+    {
+      "category": "Assignment 2",
+      "part": "1",
+      "weight": "5.0%",
+      "clo": "CLO5"
+    },
+    {
+      "category": "Assignment 3",
+      "part": "1",
+      "weight": "5.0%",
+      "clo": "CLO5 - 6"
+    },
+    {
+      "category": "Assignment 4",
+      "part": "1",
+      "weight": "5.0%",
+      "clo": "CLO9"
+    },
+    {
+      "category": "Progress test 1",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": "CLO1, CLO2, CLO3"
+    },
+    {
+      "category": "Progress test 2",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": "CLO4, CLO5, CLO6"
+    },
+    {
+      "category": "Progress test 3",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": "CLO7, CLO8, CLO9"
+    },
+    {
+      "category": "Final exam",
+      "part": "1",
+      "weight": "50.0%",
+      "clo": "CLO1 - 9"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "clo_name": "CLO1",
+    "clo_details": "Understanding how search engines work: Students should be able to explain the underlying technology behind search engines, including the algorithms used to crawl, index and rank web pages."
+  },
+  {
+    "clo_name": "CLO2",
+    "clo_details": "Search engine optimization: Students should be able to apply best practices for optimizing web pages to improve their visibility in search engine results pages (SERPs)."
+  },
+  {
+    "clo_name": "CLO3",
+    "clo_details": "Keyword research: Students should be able to conduct keyword research to identify the most relevant and profitable keywords by using popular retrieval models.."
+  },
+  {
+    "clo_name": "CLO4",
+    "clo_details": "Analytics and tracking: Students should be able to use analytics tools to track website traffic, user behavior, and campaign performance."
+  },
+  {
+    "clo_name": "CLO5",
+    "clo_details": "Solving problems: Students should be able to apply search engine techniques to solve the real-life problems"
+  }
+]

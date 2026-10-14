@@ -1,0 +1,25 @@
+{
+  "reply": "Trong **PFP191**, phần **strings** nằm ở **CLO4**: “Understand Python strings as sequences…”; còn **đọc/ghi files** nằm ở **CLO5**: “Understand file handling in Python… opening files… reading files… writing files…”.\n\nVề **FastAPI**, hồ sơ hiện tại **chưa có CLO nào nêu đích danh FastAPI**. Bằng chứng gần nhất chỉ cho thấy **Python fundamentals** và **API support** ở **PFP191/CLO7** và **ADY201m/CLO5**; những CLO này xác nhận nền tảng Python và việc hỗ trợ API, nhưng **không tự động xác nhận FastAPI**.\n\nCòn **VS Code** và **Google Colab** trong **PFP191** là **metadata.tools của môn** — tức công cụ/curriculum context của học phần — **không phải bằng chứng cá nhân rằng bạn đã dùng các công cụ đó**. Muốn nói về việc bạn đã dùng công cụ nào, cần CLO hoặc evidence cá nhân riêng; riêng metadata của môn thì chỉ cho biết môn có liệt kê chúng.",
+  "evidence": [
+    {
+      "course_code": "PFP191",
+      "clo": "CLO4"
+    },
+    {
+      "course_code": "PFP191",
+      "clo": "CLO5"
+    },
+    {
+      "course_code": "PFP191",
+      "clo": "CLO7"
+    },
+    {
+      "course_code": "ADY201m",
+      "clo": "CLO5"
+    },
+    {
+      "course_code": "PFP191",
+      "metadata_field": "tools"
+    }
+  ]
+}

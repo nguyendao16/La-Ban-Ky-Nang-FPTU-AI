@@ -1,0 +1,6 @@
+Phần mềm Hoàn Cầu — Computer Vision Intern
+Responsibilities: Collect, clean, annotate and preprocess image/video data; contribute to training/evaluation of detection, classification and image-feature models; resize/augment/normalize images; compare architectures, OpenCV and PyTorch/TensorFlow; assist application integration and testing; document experiments and read CV research.
+Qualifications: Final-year student or recent graduate in relevant computing/AI/CV fields; ability to program with deep-learning frameworks such as TensorFlow/PyTorch, with PyTorch preferred for research; foundations in deep learning, image processing and CV algorithms; Python/C++ and research-document reading.
+Preferred: Prior TensorFlow/PyTorch experience, separately stated in the source.
+Learning opportunities: Technical training and internship-report support.
+Source-grounded paraphrase. The source displayed an application deadline of 31 July 2026; this fixture does not claim applications are open.

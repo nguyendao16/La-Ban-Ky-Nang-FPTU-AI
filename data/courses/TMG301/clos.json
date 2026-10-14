@@ -1,0 +1,22 @@
+[
+  {
+    "clo": "CLO1",
+    "description": "Develop a solid understanding of fundamental text mining principles for extracting, transforming, and analyzing textual data, including regular expressions, text normalization, minimum edit distance, n-gram language models, smoothing, perplexity, entropy, vector semantics, TF-IDF, Word2Vec, and embedding evaluation."
+  },
+  {
+    "clo": "CLO2",
+    "description": "Use machine learning and deep learning methods for text-mining applications, including Naive Bayes text classification and sentiment analysis, logistic and multinomial logistic regression, model evaluation, cross-validation, RNNs, LSTMs, attention, transformers, pretrained language models, masked language models, and fine-tuning."
+  },
+  {
+    "clo": "CLO3",
+    "description": "Explore methods and algorithms for text classification and clustering tasks, including Naive Bayes, Support Vector Machines, k-means clustering, unsupervised text clustering, document similarity, and topic modeling."
+  },
+  {
+    "clo": "CLO4",
+    "description": "Represent text data using bag-of-words, TF-IDF, and word embeddings, and evaluate their strengths and limitations through vector semantics, cosine similarity, pointwise mutual information, Word2Vec, embedding visualization, semantic properties, bias, and vector model evaluation."
+  },
+  {
+    "clo": "CLO5",
+    "description": "Recognize and design real-world text-mining applications such as machine translation, question answering, and chatbots, including encoder-decoder translation, low-resource translation, translation evaluation, dialogue-state architecture, chatbot design, and dialogue-system evaluation."
+  }
+]

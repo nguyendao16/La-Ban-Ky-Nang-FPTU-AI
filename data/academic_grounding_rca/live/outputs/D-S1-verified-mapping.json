@@ -1,0 +1,13 @@
+{
+  "reply": "Trong **MAS291**:\n\n- **Confidence intervals** nằm ở **CLO7**: *“Construct and interpret confidence intervals for population parameters and differences between population parameters...”* Đây là nội dung về **ước lượng khoảng**: xây dựng và diễn giải khoảng tin cậy cho tham số quần thể và chênh lệch giữa các tham số quần thể. **Điểm:** 9.43, **achievement:** excellent.\n- **Simple linear regression** nằm ở **CLO9**: *“Construct a simple linear regression model and use it for prediction and interpretation...”* Đây là nội dung về **mô hình hồi quy tuyến tính đơn**: xây dựng mô hình, dùng để dự đoán và diễn giải. **Điểm:** 9.43, **achievement:** excellent.\n\nPhân biệt ngắn gọn: **CLO7** nói về cách **ước lượng và đánh giá tham số bằng khoảng tin cậy**, còn **CLO9** nói về cách **xây dựng mô hình hồi quy tuyến tính đơn để dự đoán và diễn giải mối quan hệ**. Hai nội dung này là hai CLO khác nhau, dù cùng có điểm 9.43 và achievement excellent.",
+  "evidence": [
+    {
+      "course_code": "MAS291",
+      "clo": "CLO7"
+    },
+    {
+      "course_code": "MAS291",
+      "clo": "CLO9"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "clo": "CLO1",
+    "description": "Employ artificial intelligence techniques to test hypothesis in Python, and apply a machine learning model combining Numpy, Pandas, and Scikit-Learn, including Introduction to Data Science and scikit-learn in Python, Introduction to Python Programming for Hypothesis Testing, Creating a Hypothesis: Numpy, Pandas, and Scikit-Learn, Scikit-Learn Revisited: ML for Hypothesis Testing."
+  },
+  {
+    "clo": "CLO2",
+    "description": "Implement and evaluate machine learning models (neural networks, random forests, etc.) on scientific data in Python, including Machine Learning Models in Science, Before the AI: Preparing, Preprocessing Data, Advanced AI: Neural Networks, Decision Trees."
+  },
+  {
+    "clo": "CLO3",
+    "description": "Implement simple neural network models and describe the differences between Neural Networks and Random Forests, including Neural Networks, Random Forests, Exploring Random Forests, Final Project: Comparing Models to predict pedal width."
+  },
+  {
+    "clo": "CLO4",
+    "description": "Analyzing genome sequences to find similarities and identify target subsequences using predictive models, including Comparing genome sequences, PCA on genome sequence, Predicting Bit Score to find sequences matches."
+  }
+]

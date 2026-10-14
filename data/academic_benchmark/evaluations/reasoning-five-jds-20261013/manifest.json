@@ -1,0 +1,188 @@
+{
+  "version": 1,
+  "profile_path": "data/student_academic_profile.enriched.json",
+  "profile_sha256": "b0bfa72fdc04f8d2cfc94e68fd7b4745387cd378a923f55eb94e2aef391bf531",
+  "source_policy": "Research fixtures; required/preferred/responsibilities/learning opportunities/stack context retained. Indexed excerpts are disclosed. No authentication or anti-bot bypass; no open-vacancy claims.",
+  "cases": [
+    {
+      "case_id": "JD01",
+      "company": "VNG GreenNode",
+      "role": "AI Intern",
+      "category": "computer_vision",
+      "requested_source_url": "https://career.vng.com.vn/en/job-search/detail/6901-ai-intern-greennode",
+      "actual_source_url": "https://career.vng.com.vn/en/job-search/detail/6901-ai-intern-greennode",
+      "source_type": "employer_site",
+      "retrieval_method": "direct_html",
+      "checked_at": "2026-10-13",
+      "snapshot_type": "sourced_paraphrase",
+      "source_limitations": "Content checked; fixture paraphrased, no claim that applications remain open.",
+      "substitution": null,
+      "jd_path": "data/academic_benchmark/jds/JD01.txt",
+      "jd_sha256": "0caa2a9237c9ba797c98ca6888118333aed23f4a06f32946ab392b9feded2a1d",
+      "messages": [
+        {
+          "user": "Với JD này, mình đã học những kiến thức nào liên quan nhất?",
+          "expected": "Manual evaluation against canonical enriched profile and original JD."
+        },
+        {
+          "user": "Những công nghệ hoặc kiến thức nào JD yêu cầu nhưng hồ sơ của mình chưa xác nhận?",
+          "expected": "Manual evaluation against canonical enriched profile and original JD."
+        },
+        {
+          "user": "Mình có học Object Detection, Face Recognition và Object Tracking không? Những nội dung đó nằm ở CLO nào?",
+          "expected": "Manual evaluation against canonical enriched profile and original JD."
+        },
+        {
+          "user": "Tóm lại, những phần nào mình đã có nền tảng và những phần nào vẫn chưa có bằng chứng?",
+          "expected": "Manual evaluation against canonical enriched profile and original JD."
+        }
+      ],
+      "deep_messages": [],
+      "temperature_pair": false
+    },
+    {
+      "case_id": "JD05",
+      "company": "Sapo",
+      "role": "Data Analyst Intern (Fulltime)",
+      "category": "data_analytics",
+      "requested_source_url": "https://tuyendung.sapo.vn/co-hoi-viec-lam/sapo-internship-2026-thuc-tap-sinh-data-analyst-fulltime-a3824.html",
+      "actual_source_url": "https://tuyendung.sapo.vn/co-hoi-viec-lam/sapo-internship-2026-thuc-tap-sinh-data-analyst-fulltime-a3824.html",
+      "source_type": "employer_site",
+      "retrieval_method": "direct_html",
+      "checked_at": "2026-10-13",
+      "snapshot_type": "sourced_paraphrase",
+      "source_limitations": "Content checked; fixture paraphrased, no claim that applications remain open.",
+      "substitution": null,
+      "jd_path": "data/academic_benchmark/jds/JD05.txt",
+      "jd_sha256": "318609c7106c3e08ba47ed31a8304cdee358fcf38adbb69b58877fc942e556f8",
+      "messages": [
+        {
+          "user": "Những kiến thức phân tích dữ liệu và thống kê nào mình đã học có liên quan tới JD?",
+          "expected": "Manual evaluation against canonical enriched profile and original JD."
+        },
+        {
+          "user": "Mình cần xem xét bổ sung những kiến thức hoặc công cụ nào?",
+          "expected": "Manual evaluation against canonical enriched profile and original JD."
+        },
+        {
+          "user": "Mình có học SQL và R không? Tại sao một số CLO SQL chỉ đạt basic?",
+          "expected": "Manual evaluation against canonical enriched profile and original JD."
+        },
+        {
+          "user": "Bạn có thể tổng hợp lại bằng chứng từ các môn học, kèm điểm và mức achievement phù hợp không?",
+          "expected": "Manual evaluation against canonical enriched profile and original JD."
+        }
+      ],
+      "deep_messages": [],
+      "temperature_pair": false
+    },
+    {
+      "case_id": "JD07",
+      "company": "Kyanon Digital",
+      "role": "Data Analyst Intern — K-Fresh Trainee",
+      "category": "data_analytics",
+      "requested_source_url": "https://kyanon.digital/wp-content/uploads/2026/02/202602-Intern-Data-Analyst-K-Fresh-Trainee.pdf",
+      "actual_source_url": "https://kyanon.digital/wp-content/uploads/2026/02/202602-Intern-Data-Analyst-K-Fresh-Trainee.pdf",
+      "source_type": "employer_pdf",
+      "retrieval_method": "direct_pdf_text",
+      "checked_at": "2026-10-13",
+      "snapshot_type": "sourced_paraphrase",
+      "source_limitations": "Content checked; fixture paraphrased, no claim that applications remain open.",
+      "substitution": null,
+      "jd_path": "data/academic_benchmark/jds/JD07.txt",
+      "jd_sha256": "65d180c4d3af0f9224504c185c1b86c52691f1371ecd3b726e7a6a2bd0cadd88",
+      "messages": [
+        {
+          "user": "Đối với JD này, những môn nào giúp mình có nền tảng phù hợp?",
+          "expected": "Manual evaluation against canonical enriched profile and original JD."
+        },
+        {
+          "user": "Hồ sơ học thuật chưa xác nhận những yêu cầu nào?",
+          "expected": "Manual evaluation against canonical enriched profile and original JD."
+        },
+        {
+          "user": "Điểm và mức achievement của các CLO liên quan đến Data Cleaning và Data Analysis là bao nhiêu?",
+          "expected": "Manual evaluation against canonical enriched profile and original JD."
+        },
+        {
+          "user": "Tóm tắt các điểm mạnh học thuật và những giới hạn bằng chứng của mình.",
+          "expected": "Manual evaluation against canonical enriched profile and original JD."
+        }
+      ],
+      "deep_messages": [],
+      "temperature_pair": false
+    },
+    {
+      "case_id": "JD10",
+      "company": "VNGGames",
+      "role": "AI Engineer Intern",
+      "category": "generative_ai",
+      "requested_source_url": "https://career.vng.com.vn/job-search/detail/6783-ai-engineer-intern-vnggames",
+      "actual_source_url": "https://career.vng.com.vn/tim-kiem-viec-lam/chi-tiet/6783-ai-engineer-intern-vnggames-vi",
+      "source_type": "employer_site",
+      "retrieval_method": "search_index",
+      "checked_at": "2026-10-13",
+      "snapshot_type": "sourced_paraphrase",
+      "source_limitations": "Verified indexed text of the same posting; current page unavailable/unrendered; not an employer-exact snapshot or vacancy confirmation.",
+      "substitution": null,
+      "jd_path": "data/academic_benchmark/jds/JD10.txt",
+      "jd_sha256": "2d62971cc0222edd47e1f095089ba7a84a0752c44e53b331395ffca35734b564",
+      "messages": [
+        {
+          "user": "Mình đã học những gì về AI và Generative AI liên quan tới JD?",
+          "expected": "Manual evaluation against canonical enriched profile and original JD."
+        },
+        {
+          "user": "Những công nghệ như RAG, MCP, pandas và numpy có bằng chứng trong hồ sơ không?",
+          "expected": "Manual evaluation against canonical enriched profile and original JD."
+        },
+        {
+          "user": "Mình đã học Prompt Engineering rồi, vậy tại sao chưa thể kết luận đã có kinh nghiệm với RAG hoặc MCP?",
+          "expected": "Manual evaluation against canonical enriched profile and original JD."
+        },
+        {
+          "user": "Tóm tắt những kiến thức đã có và những công nghệ chuyên biệt chưa được hồ sơ xác nhận.",
+          "expected": "Manual evaluation against canonical enriched profile and original JD."
+        }
+      ],
+      "deep_messages": [],
+      "temperature_pair": false
+    },
+    {
+      "case_id": "JD11",
+      "company": "Tessera Labs",
+      "role": "Software Engineering Intern, Backend",
+      "category": "backend",
+      "requested_source_url": "https://jobs.ashbyhq.com/tessera-labs/dce8d8e5-f169-4bdb-b1c2-f4754fca31e7",
+      "actual_source_url": "https://jobs.ashbyhq.com/tessera-labs/dce8d8e5-f169-4bdb-b1c2-f4754fca31e7?src=LinkedIn",
+      "source_type": "employer_ats",
+      "retrieval_method": "search_index",
+      "checked_at": "2026-10-13",
+      "snapshot_type": "sourced_paraphrase",
+      "source_limitations": "Verified indexed text of the same posting; current page unavailable/unrendered; not an employer-exact snapshot or vacancy confirmation.",
+      "substitution": null,
+      "jd_path": "data/academic_benchmark/jds/JD11.txt",
+      "jd_sha256": "126514f3dfe7101147c1aeca66e34a46f1dd5f4fdba758e43c5fa171e1d4a4f9",
+      "messages": [
+        {
+          "user": "Mình có những nền tảng học thuật nào liên quan tới Backend Engineering?",
+          "expected": "Manual evaluation against canonical enriched profile and original JD."
+        },
+        {
+          "user": "Mình đã học Python và SQL rồi, vậy FastAPI, SQLAlchemy và PostgreSQL có được xác nhận không?",
+          "expected": "Manual evaluation against canonical enriched profile and original JD."
+        },
+        {
+          "user": "Những CLO nào thực sự có nội dung về API? Mình có học API trong các môn Data Science không?",
+          "expected": "Manual evaluation against canonical enriched profile and original JD."
+        },
+        {
+          "user": "Tóm tắt lại cuộc trao đổi và phân biệt những gì mình đã học với những framework chưa có bằng chứng.",
+          "expected": "Manual evaluation against canonical enriched profile and original JD."
+        }
+      ],
+      "deep_messages": [],
+      "temperature_pair": false
+    }
+  ]
+}

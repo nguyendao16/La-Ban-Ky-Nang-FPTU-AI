@@ -1,0 +1,91 @@
+{
+  "origin": "live",
+  "case_id": "JD04",
+  "session_id": "2620d61c42024a698fda2bba4b6c3858",
+  "profile_sha256": "99f34048ed8c3d11ed972fa0a97476aa7fba6f071ad8aea454bb66b6b5c2eca1",
+  "jd_sha256": "381d6932046f99d99c1f2abce03d3ffb3a6ef163f6081c90f40fd9235abb81a5",
+  "review_sha256": "35ea3bfc5c19fe01422814aff552272052cddbe0c6c1813ff8d2095ae9d2731e",
+  "turns": [
+    {
+      "turn": 1,
+      "user": "Với JD này thì những kiến thức nào mình đã học ở trường có liên quan nhất?",
+      "response": {
+        "reply": "Các kiến thức bạn đã học ở trường liên quan nhất đến JD Industrial AI Engineer Intern tại Bosch HcP bao gồm:\n\n1. Lập trình Python: Bạn đã học và thực hành lập trình Python từ cơ bản đến nâng cao, bao gồm cả lập trình hướng đối tượng, xử lý file, cấu trúc dữ liệu (list, dict, tuple) qua các CLO của PFP191. Đây là yêu cầu bắt buộc của JD và bạn đạt thành tích xuất sắc ở các CLO này.\n\n2. Thị giác máy tính và xử lý ảnh: CPV301 cung cấp nền tảng vững chắc về thị giác máy tính, xử lý ảnh, các kỹ thuật phát hiện đối tượng (object detection), trích xuất đặc trưng, phân đoạn ảnh, nhận diện khuôn mặt và theo dõi đối tượng. Những nội dung này rất sát với các nhiệm vụ phát triển giải pháp vision trong JD.\n\n3. Học máy và học sâu: Bạn đã học các mô hình học máy có giám sát (supervised learning), không giám sát (unsupervised learning), hồi quy tuyến tính, SVM, PCA, clustering, các kỹ thuật đánh giá mô hình qua các CLO của AIL303m và MAI391. Đây là nền tảng quan trọng cho việc huấn luyện, đánh giá mô hình phân loại, phát hiện bất thường, v.v. trong JD.\n\n4. SQL và cơ sở dữ liệu: Bạn đã học và thực hành SQL, T-SQL, các thao tác với cơ sở dữ liệu Microsoft SQL Server, cũng như truy cập cơ sở dữ liệu trong bối cảnh khoa học dữ liệu (ADY201m). Những kiến thức này liên quan trực tiếp đến yêu cầu về SQL/database trong JD.\n\n5. Tích hợp API và triển khai ứng dụng AI: Bạn đã thực hiện các dự án học thuật về phát triển ứng dụng AI sử dụng API (DAP391m), triển khai các bước từ thu thập dữ liệu, tiền xử lý, xây dựng, đánh giá mô hình đến báo cáo kết quả. Điều này liên quan đến các nhiệm vụ tích hợp hệ thống, xây dựng API và triển khai mô hình trong JD.\n\n6. Các khái niệm về Generative AI, LLM, agent: Bạn đã học tổng quan về các mô hình Generative AI, prompt engineering, các công cụ hỗ trợ xây dựng agent (AIG202c), phù hợp với các khái niệm LLM, agent được JD đề cập ở mức tổng quan.\n\nTóm lại, các mảng nền tảng về Python, thị giác máy tính, học máy/học sâu, SQL, tích hợp API và các khái niệm AI hiện đại là những phần liên quan nhất giữa chương trình học của bạn và JD này.",
+        "evidence": [
+          {
+            "course_code": "PFP191",
+            "clo": "CLO1"
+          },
+          {
+            "course_code": "PFP191",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "CPV301",
+            "clo": "CLO3"
+          },
+          {
+            "course_code": "CPV301",
+            "clo": "CLO8"
+          },
+          {
+            "course_code": "AIL303m",
+            "clo": "CLO4"
+          },
+          {
+            "course_code": "MAI391",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "DBI202",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "DBI202",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO1"
+          },
+          {
+            "course_code": "DAP391m",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "AIG202c",
+            "clo": "CLO3"
+          }
+        ]
+      },
+      "request_artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD04-1.json"
+    },
+    {
+      "turn": 2,
+      "user": "So với JD thì những nội dung nào mình còn thiếu hoặc chưa được hồ sơ xác nhận?",
+      "response": {
+        "reply": "Đối chiếu với JD Industrial AI Engineer Intern, các nội dung sau chưa được hồ sơ học thuật xác nhận trực tiếp:\n\n1. Các công nghệ/thư viện cụ thể:\n- OpenCV, YOLO, PyTorch, TensorFlow: Hồ sơ chỉ xác nhận bạn đã học các kỹ thuật xử lý ảnh, object detection và học máy/học sâu ở mức tổng quát, nhưng không có CLO nào nêu rõ việc sử dụng các thư viện này.\n- FastAPI, Flask: Chưa có CLO xác nhận bạn đã học hoặc thực hành phát triển REST API với các framework này.\n- Docker, Git: Không có bằng chứng học thuật về việc sử dụng hoặc quản lý dự án với Docker hoặc Git.\n- ONNX: Không có CLO nào xác nhận về triển khai mô hình với ONNX.\n\n2. Một số chủ đề chuyên sâu:\n- OCR (Optical Character Recognition) và anomaly detection: Hồ sơ xác nhận object detection, classification, nhưng chưa có CLO nào đề cập trực tiếp đến OCR hoặc anomaly detection.\n- RAG (Retrieval-Augmented Generation): Các CLO về Generative AI, LLM, agent chỉ ở mức tổng quan, chưa xác nhận về RAG hoặc workflow cụ thể cho LLM/agent.\n- MLOps/AgentOps: Chưa có CLO nào xác nhận về quy trình MLOps hoặc AgentOps, cũng như các kỹ thuật đảm bảo reliability cho hệ thống AI.\n- Triển khai thực tế lên edge/server/cloud: Bạn đã thực hiện các bước triển khai trong dự án học thuật, nhưng chưa có CLO xác nhận triển khai thực tế lên edge, server hoặc cloud với các công nghệ cụ thể.\n\nNếu bạn đã tự học hoặc có kinh nghiệm thực tế với các công nghệ này ngoài trường, hồ sơ học thuật hiện tại chưa phản ánh được điều đó. Đây là những chủ đề bạn có thể cân nhắc bổ sung hoặc kiểm tra lại nếu JD yêu cầu rõ ràng.",
+        "evidence": []
+      },
+      "request_artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD04-2.json"
+    },
+    {
+      "turn": 3,
+      "user": "Điểm CLO tốt có đủ để kết luận mình đã dùng YOLO, Docker hoặc triển khai production chưa?",
+      "response": {
+        "reply": "Điểm CLO cao hoặc thành tích xuất sắc chỉ xác nhận bạn đã đạt được các mục tiêu học tập cụ thể mà CLO đó mô tả, chứ không đủ để kết luận bạn đã sử dụng YOLO, Docker hoặc từng triển khai hệ thống ở môi trường production.\n\nVí dụ:\n- Các CLO về thị giác máy tính (CPV301/CLO8) xác nhận bạn đã học và triển khai kỹ thuật phát hiện đối tượng (object detection), nhưng không nêu rõ framework hoặc thư viện nào được sử dụng, nên không thể kết luận bạn đã dùng YOLO.\n- Không có CLO nào trong hồ sơ đề cập đến Docker hoặc các công nghệ container hóa, nên dù điểm các CLO khác cao cũng không xác nhận bạn đã học hoặc sử dụng Docker.\n- Việc triển khai production (triển khai thực tế lên edge, server hoặc cloud) cũng không được CLO nào xác nhận cụ thể; các CLO về dự án (như DAP391m/CLO7) chỉ mô tả triển khai trong môi trường học thuật.\n\nTóm lại, điểm CLO tốt thể hiện mức độ tiếp thu kiến thức và kỹ năng theo phạm vi CLO, nhưng không thể dùng để khẳng định bạn đã sử dụng các công nghệ cụ thể như YOLO, Docker hoặc từng triển khai production nếu CLO không nêu rõ nội dung đó.",
+        "evidence": [
+          {
+            "course_code": "CPV301",
+            "clo": "CLO8"
+          },
+          {
+            "course_code": "DAP391m",
+            "clo": "CLO7"
+          }
+        ]
+      },
+      "request_artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD04-3.json"
+    }
+  ]
+}

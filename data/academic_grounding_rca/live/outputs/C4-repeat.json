@@ -1,0 +1,9 @@
+{
+  "reply": "CLO xác nhận trực tiếp nội dung **confidence intervals** trong hồ sơ này là **MAS291/CLO7**: *\"Construct and interpret confidence intervals for population parameters and differences between population parameters...\"*.\n\nNếu chỉ hỏi đúng phần này, thì đây là CLO có nhắc rõ confidence intervals; các CLO khác trong hồ sơ có thể hỗ trợ nền thống kê chung, nhưng không nêu confidence intervals một cách trực tiếp.",
+  "evidence": [
+    {
+      "course_code": "MAS291",
+      "clo": "CLO7"
+    }
+  ]
+}

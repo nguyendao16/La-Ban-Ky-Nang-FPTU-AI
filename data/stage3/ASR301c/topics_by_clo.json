@@ -1,0 +1,22 @@
+{
+  "CLO1": [
+    "Specialization Introduction\nIntroduction to Data Science and scikit-learn in Python\n- Introduction to Python Programming for Hypothesis Testing\n- Creating a Hypothesis: Numpy, Pandas, and Scikit-Learn\nOffline 1: Guide learning and review of the specialization",
+    "Introduction to Data Science and scikit-learn in Python (cont.)\n- Scikit-Learn Revisited: ML for Hypothesis Testing\n- Using Classification to Predict the Presence of Heart Disease"
+  ],
+  "CLO2": [
+    "Machine Learning Models in Science\n- Before the AI: Preparing and Preprocessing Data",
+    "Machine Learning Models in Science (cont.)\n- Foundational AI Algorithms: K-Means and SVM",
+    "Machine Learning Models in Science (cont.)\n- Advanced AI: Neural Networks and Decision Trees",
+    "Machine Learning Models in Science (cont.)\n- Course Project"
+  ],
+  "CLO3": [
+    "Neural Networks and Random Forests\n- I2NN and Deep dive into NN",
+    "Neural Networks and Random Forests (cont.)\n- Exploring Random Forests",
+    "Neural Networks and Random Forests (cont.)\n- Final Project: Comparing Models to predict pedal width"
+  ],
+  "CLO4": [
+    "Capstone Project: Advanced AI for Drug Discovery\n- Comparing genome sequences and PCA on genome sequence",
+    "Capstone Project: Advanced AI for Drug Discovery (cont.)\n- Feature Analysis using K-means Clustering",
+    "Capstone Project: Advanced AI for Drug Discovery (cont.)\n- Predicting Bit Score to find sequences matches\nCourse 4 Review"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "syllabus_name": "Data Structures and Algorithm with Python_Cấu trúc dữ liệu và giải thuật với Python",
+  "course_name_english": "Data Structures and Algorithm with Python",
+  "subject_code": "CSD203",
+  "description": "This course introduces the basic concepts of data structures and algorithms in data structures with the use of Python. Topics introduced in the course include the basics of algorithm analysis, basic data structures (including stack, queue, linked list, hashtable, tree), recursion and some important applications of these data structures and algorithms.",
+  "tools": "- Thonny\n- PyCharm\n- Visual Studio Code"
+}

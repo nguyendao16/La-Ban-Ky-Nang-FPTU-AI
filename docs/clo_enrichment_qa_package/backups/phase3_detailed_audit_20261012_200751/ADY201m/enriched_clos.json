@@ -1,0 +1,137 @@
+{
+  "course_id": "ADY201m",
+  "clos": [
+    {
+      "clo_id": "CLO1",
+      "original_description": "Understand relational database concepts, and foundational knowledge of the SQL language.",
+      "enriched_description": "Understand relational database concepts and foundational SQL language knowledge in the context of data science work, including accessing databases with Python, getting started with SQL, basic through advanced SQL-based data analysis, database fundamentals, nested queries, and multi-table SELECT statements.",
+      "source_topic_indices": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        8
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO2",
+      "original_description": "Define an overview of what data science is today.",
+      "enriched_description": "Define what data science is today by explaining introductory data science concepts, major topic areas, and examples of data science in everyday contexts.",
+      "source_topic_indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO3",
+      "original_description": "Know tools for Data Science, know how to use at least one tool for Data Science",
+      "enriched_description": "Know common tools used in data science and use at least one tool for basic data operations, including tool introduction and analysis workflows using Python, R, Scala, SQL, GitHub, Jupyter Notebooks, RStudio IDE, Watson Studio.",
+      "source_topic_indices": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO4",
+      "original_description": "Understand why we are interested in data science, what a methodology is, and why data scientists need a methodology.",
+      "enriched_description": "Understand why data science methodology is needed and how it guides data science work, including problem understanding, business understanding, analytic approach, data requirements, data collection, data understanding, preprocessing, modeling, evaluation, deployment, feedback, and data science process steps.",
+      "source_topic_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO5",
+      "original_description": "Discusses Python fundamentals, python libraries, API suport for data science",
+      "enriched_description": "Discuss Python fundamentals, Python libraries, and API support for data science tasks, including understanding Python APIs, collecting data with Python, understanding and preprocessing data in Python, and using Python for data science, AI, and development workflows.",
+      "source_topic_indices": [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO6",
+      "original_description": "Explain the statistics for Data Science: mean, median, mode, variance, and standard deviation, data visualization, regression analysis",
+      "enriched_description": "Explain statistics for data science, including mean, median, mode, variance, standard deviation, data visualization, probability distributions, and regression analysis, including basic and advanced data statistics, visualization, probability distributions, regression analysis, Python-based statistics practice on housing data.",
+      "source_topic_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO7",
+      "original_description": "Implement the small data science project by applying Python fundamentals, and Python data structures, and working with data in Python.",
+      "enriched_description": "Implement a small data science project by applying Python fundamentals, Python data structures, SQL/database access, data understanding, preprocessing, modeling, evaluation, deployment, visualization, probability, regression analysis, and final reporting within a guided project workflow.",
+      "source_topic_indices": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        16,
+        19,
+        21,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        33,
+        35,
+        37,
+        38
+      ],
+      "review_required": false,
+      "review_notes": []
+    }
+  ]
+}

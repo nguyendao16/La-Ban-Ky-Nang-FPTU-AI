@@ -1,0 +1,64 @@
+{
+  "CLO1": [
+    "Course Introduction\n1.1. Using Arrays\n1.2. Singly Linked Lists",
+    "1.3. Circularly Linked Lists\n1.4. Doubly Linked Lists",
+    "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignment",
+    "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignment (cont.)"
+  ],
+  "CLO2": [
+    "2.1 Stacks\nGuiding Exercises/Assignment",
+    "2.1 Stacks\nGuiding Exercises/Assignment (cont.)",
+    "2.2 Queues\n2.3 Double-Ended Queues (Deque)",
+    "2.4 The Priority Queue",
+    "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignment",
+    "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignment (cont.)"
+  ],
+  "CLO3": [
+    "3.1 Illustrative Examples\n3.1.1 The Factorial Function\n3.1.2 Binary Search\n3.1.3 File Systems\n3.2 Analyzing Recursive Algorithms",
+    "3.3 Further Examples of Recursion\n3.3.1 Linear Recursion\n3.3.2 Binary Recursion\n3.3.3 Multiple Recursion\n3.4 Designing Recursive Algorithms\n3.5 Eliminating Tail Recursion",
+    "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignment",
+    "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignment (cont.)"
+  ],
+  "CLO4": [
+    "4.1 General Trees\n4.1.1 Tree Definitions and Properties\n4.1.2 The Tree Abstract Data Type\n4.2 Binary Trees - . 317\n4.2.1 The Binary Tree Abstract Data Type\n4.2.2 Properties of Binary Trees",
+    "4.3 Implementing Trees\n4.4 Tree Traversal Algorithms",
+    "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignment",
+    "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignment (cont.)",
+    "4.5 Binary Search Trees\n4.5.1 Searching Within a Binary Search Tree",
+    "4.5.2 Insertions and Deletions",
+    "4.6 Balanced Search Trees\n4.7 AVL Trees",
+    "4.8 Heaps"
+  ],
+  "CLO5": [
+    "5.1 Graphs\n5.2 Data Structures for Graphs\n5.2.1 Edge List Structure\n5.2.2 Adjacency List Structure\n5.2.3 Adjacency Matrix Structure",
+    "5.3 Graph Traversals\n5.3.1 Depth-First Search\n5.3.3 Breadth-First Search",
+    "Progress test and/or Assignmen\nReview Exercises\nGuiding Exercises/Assignmen",
+    "Progress test and/or Assignmen\nReview Exercises\nGuiding Exercises/Assignmen (cont.)",
+    "5.4 Shortest Paths\n5.4.1 Weighted Graphs",
+    "5.4.2 Dijkstra’s Algorithm",
+    "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignmen",
+    "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignmen (cont.)",
+    "5.5 Minimum Spanning Trees\n5.5.1 Prim-Jarn ́ık Algorithm\n5.5.2 Kruskal’s Algorithm",
+    "5.6. Euler's tour and Euler's cycle"
+  ],
+  "CLO6": [
+    "6.1 Selection-Sort\n6.2 Insertion-Sort",
+    "6.3 Bubble-sort\n6.4 Quick-Sort",
+    "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignmen",
+    "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignmen (cont.)",
+    "6.5 Merge-Sort\n6.6 Heap-Sort",
+    "6.7 Linear-Time Sorting: Bucket-Sort and Radix-Sort\n6.8 Comparing Sorting Algorithms"
+  ],
+  "CLO7": [
+    "7.1 Hash Tables\n7.2 Hash Functions\n7.3 Collision-Handling",
+    "7.4 Load Factors, Rehashing, and Efficiency\n7.5 Python Hash Table Implementation",
+    "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignmen",
+    "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignmen (cont.)"
+  ],
+  "CLO8": [
+    "8.1 Abundance of Digitized Text\n8.2 Pattern-Matching Algorithms\n8.2.1 Brute Force\n8.2.2 The Knuth-Morris-Pratt Algorithm",
+    "8.3 Text Compression\n8.3.1 The Huffman Coding Algorithm\n8.3.2 The LZW Algorithm\n8.3.3 The Run-length Encoding Algorithm",
+    "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignmen",
+    "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignmen (cont.)"
+  ]
+}

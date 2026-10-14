@@ -1,0 +1,166 @@
+{
+  "review_type": "academic_knowledge_review",
+  "overview": "Hồ sơ học thuật cho thấy mức phù hợp rõ nhất với các phần Python, cơ sở dữ liệu quan hệ/SQL và tích hợp AI services trong môi trường môn học. Python được hỗ trợ trực tiếp bởi PFP191 và ADY201m với nhiều CLO ở mức achievement excellent; phần AI-service integration được hỗ trợ khá rõ bởi DAP391m và AIG202c. Với database, hồ sơ có bằng chứng trực tiếp về schema design, SQL, T-SQL và indexes trong DBI202 trên Microsoft SQL Server nhưng các CLO liên quan của DBI202 có achievement chủ yếu ở mức basic; phần này được bổ sung bởi ADY201m với SQL/database access ở mức good và excellent. Ở phía backend chuyên biệt, hồ sơ có bối cảnh liên quan đến APIs, cloud, networking và operating systems, nhưng chưa có bằng chứng trực tiếp về FastAPI/Flask/Django, SQLAlchemy, hay queue/caching/event-driven backend systems.",
+  "requirement_reviews": [
+    {
+      "jd_requirement": "Required: Python programming for backend-oriented development",
+      "coverage": "covered",
+      "comment": "PFP191/CLO3 bao gồm điều khiển luồng, functions, loops và iteration trong Python; PFP191/CLO6 bao gồm các cấu trúc dữ liệu cốt lõi của Python như lists, dictionaries, tuples; PFP191/CLO7 nêu object-oriented programming trong Python và apply classes/objects trong ngữ cảnh ứng dụng. ADY201m/CLO5 bổ sung Python fundamentals, libraries và API support cho data science/development workflows. Các CLO này hỗ trợ trực tiếp phần 'Python' của JD; achievement của các CLO được dẫn đều ở mức excellent.",
+      "evidence": [
+        {
+          "course_code": "PFP191",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "PFP191",
+          "clo": "CLO6"
+        },
+        {
+          "course_code": "PFP191",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO5"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Required/responsibility: build Python REST APIs/services with FastAPI and SQLAlchemy; qualifications mention backend frameworks such as FastAPI, Flask OR Django",
+      "coverage": "related",
+      "comment": "ADY201m/CLO5 có nội dung về Python APIs và API support; DAP391m/CLO5 và DAP391m/CLO6 bao gồm yêu cầu học tập về implement ứng dụng tận dụng Watson AI services/APIs và phát triển AI-powered solutions. Đây là bối cảnh học thuật gần với công việc làm việc với services/APIs. Tuy nhiên hồ sơ học thuật hiện có chưa cung cấp bằng chứng trực tiếp về FastAPI, Flask, Django, SQLAlchemy, hay việc xây dựng REST backend services bằng các framework này. Achievement của các CLO được dẫn là excellent.",
+      "evidence": [
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO6"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Required: databases such as PostgreSQL, MySQL OR similar and SQL queries; maintain schemas/queries",
+      "coverage": "covered",
+      "comment": "DBI202/CLO4 bao gồm mô hình hóa dữ liệu bằng ER model và chuyển sang relational schemas; DBI202/CLO5 bao gồm DDL, constraints, DML, multi-relation queries, nested queries, aggregation queries trên Microsoft SQL Server; DBI202/CLO6 nêu T-SQL, views, stored procedures, functions, triggers và transactions; DBI202/CLO7 áp dụng indexes cho query optimization. ADY201m/CLO1 bổ sung foundational SQL, nested queries, multi-table SELECT và accessing databases with Python; ADY201m/CLO7 tiếp tục bao gồm SQL/database access trong guided project workflow. Vì JD nêu PostgreSQL, MySQL OR similar, Microsoft SQL Server được nêu trực tiếp trong DBI202 là một relational DBMS tương tự về mặt học thuật. Cần lưu ý achievement ở các CLO liên quan của DBI202 là basic, trong khi ADY201m/CLO1 là good và ADY201m/CLO7 là excellent.",
+      "evidence": [
+        {
+          "course_code": "DBI202",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "DBI202",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "DBI202",
+          "clo": "CLO6"
+        },
+        {
+          "course_code": "DBI202",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO7"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Responsibility/preferred: integrate AI and enterprise services",
+      "coverage": "covered",
+      "comment": "DAP391m/CLO5 trực tiếp bao gồm implement application tận dụng nhiều Watson AI services như Discovery, Speech to Text, Watson Assistant và Text to Speech trong ngữ cảnh chatbot integration; DAP391m/CLO6 tiếp tục bao gồm phát triển applications và AI-powered solutions với Watson APIs. AIG202c/CLO5 bổ sung việc visually create and deploy chatbots with Watson Assistant. Đây là bằng chứng học thuật trực tiếp cho phần tích hợp AI services; achievement ở DAP391m là excellent và AIG202c/CLO5 là good. Các minh chứng này là kết quả học tập trong môn học, không tự động xác nhận bối cảnh triển khai ngoài học thuật.",
+      "evidence": [
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO6"
+        },
+        {
+          "course_code": "AIG202c",
+          "clo": "CLO5"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Required: interest in distributed/cloud/backend systems",
+      "coverage": "related",
+      "comment": "AIL303m/CLO1 bao gồm retrieve data from multiple data sources như SQL, NoSQL databases, APIs và Cloud; CSI106/CLO4-CLO5 cung cấp nền tảng về networking layers và operating system; CEA201/CLO9 đề cập multithreading, chip multiprocessors và các xu hướng computing technologies. Những nội dung này có liên hệ học thuật với cloud/backend/distributed systems. Tuy nhiên hồ sơ hiện có chưa cung cấp bằng chứng trực tiếp về một CLO chuyên biệt cho distributed systems/backend architecture, và cũng không thể xác nhận yếu tố 'interest' như một thuộc tính cá nhân chỉ từ hồ sơ học thuật. Achievement của các CLO được dẫn là good.",
+      "evidence": [
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "CSI106",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "CSI106",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "CEA201",
+          "clo": "CLO9"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Preferred: queues/caching/event-driven work; contribute to event-driven systems and pipelines",
+      "coverage": "not_evidenced",
+      "comment": "Hồ sơ học thuật hiện có chưa cung cấp bằng chứng trực tiếp về message queues, caching layers, event-driven architecture hay backend pipelines theo ngữ cảnh của JD.",
+      "evidence": []
+    },
+    {
+      "jd_requirement": "Preferred: cloud-platform familiarity",
+      "coverage": "related",
+      "comment": "AIL303m/CLO1 nêu Cloud như một nguồn dữ liệu cần truy xuất; DAP391m/CLO5-CLO6 bao gồm làm việc với Watson AI services/APIs trong ngữ cảnh phát triển ứng dụng. Điều này tạo ra bối cảnh học thuật liên quan đến cloud-based services. Tuy vậy AWS, GCP hoặc cloud platform operations/deployment cụ thể chưa được nêu trực tiếp trong các CLO được dẫn. Achievement của AIL303m/CLO1 là good, còn DAP391m/CLO5-CLO6 là excellent.",
+      "evidence": [
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO6"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Preferred: REST/API design principles",
+      "coverage": "related",
+      "comment": "ADY201m/CLO5 bao gồm Python APIs và API support; DAP391m/CLO6 nói về Building AI Applications with Watson APIs; DAP391m/CLO5 còn gắn với integration của nhiều services trong ứng dụng. Các nội dung này liên quan đến công việc API-oriented ở mức học thuật. Tuy nhiên các nguyên tắc thiết kế REST/API như resource design, HTTP methods/status codes, versioning hay contract design chưa được nêu trực tiếp trong hồ sơ. Achievement của các CLO được dẫn là excellent.",
+      "evidence": [
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO6"
+        }
+      ]
+    }
+  ],
+  "conclusion": "Tóm lại, xét trên bằng chứng học thuật hiện có, sinh viên đã học khá rõ về Python, SQL/relational database và tích hợp AI services trong môi trường môn học. Nhiều CLO liên quan đến Python và AI-service integration đạt achievement good/excellent, trong khi phần database có dải minh chứng cân bằng hơn: DBI202 cung cấp nội dung trực tiếp về schema, SQL, T-SQL và indexes nhưng achievement chủ yếu ở mức basic, còn ADY201m bổ sung SQL/database access ở mức good và excellent. Hồ sơ cũng có liên hệ học thuật với cloud/backend/distributed topics qua APIs, Cloud, networking, operating systems và computing systems. Tuy nhiên hồ sơ hiện chưa xác nhận trực tiếp các framework/backend stack được nêu đích danh như FastAPI, Flask/Django, SQLAlchemy, cũng như queue/caching/event-driven architecture và REST design principles ở mức tường minh."
+}

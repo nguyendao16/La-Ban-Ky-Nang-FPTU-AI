@@ -1,0 +1,22 @@
+[
+  {
+    "clo": "CLO1",
+    "description": "Understand what is AI, its applications and use cases, its ethical considerrations and how it is transforming our lives, including What is AI? Applications, Examples of AI, AI: Issues, Concerns, Ethical Considerations."
+  },
+  {
+    "clo": "CLO3",
+    "description": "Explore common generative AI models and tools for text, code, image, audio, and video generation, including Generative AI: Introduction, Applications, Introduction and capacities of Generative AI, Application and tools of Generative AI."
+  },
+  {
+    "clo": "CLO4",
+    "description": "Explore commonly used tools for prompt engineering to aid with prompt engineering, including Generative AI: Prompt Engineering Basics, Prompt Engineering for Generative AI, Prompt Engineering: Techniques, Approaches."
+  },
+  {
+    "clo": "CLO5",
+    "description": "Visually create and deploy chatbots with Watson Assistant, including intents, entities, dialog design, deployment, context variables, slots, digressions, and optional Watson Actions concepts."
+  },
+  {
+    "clo": "CLO2",
+    "description": "Explain underlying concepts related to Machine Learning, Deep Learning and Neural Networks, including AI Concepts, Terminology, Application Areas, AI: Issues, Concerns, Ethical Considerations."
+  }
+]

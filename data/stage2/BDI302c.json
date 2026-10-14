@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "syllabus_name": "Big Data_Dữ liệu lớn",
+    "course_name_english": "Big Data",
+    "subject_code": "BDI302c",
+    "description": "This course covers 5 of 6 courses of Big Data Specialization (UC San Diego) on the Coursera platform. This course will prepare students to ask the right questions about data, communicate effectively with data scientists, and do basic exploration of large, complex datasets. By following along with provided code, students will experience how one can perform predictive modeling and leverage graph analytics to model problems. They will be guided through the basics of using Hadoop with MapReduce, Spark, Pig and Hive.",
+    "tools": "Hadoop, Cloudera VM, KNIME, Spark"
+  },
+  "clos": [
+    {
+      "clo_name": "CLO1",
+      "clo_details": "Explain basis concepts in big data, architectural components and programming models used for scalable big data analysis."
+    },
+    {
+      "clo_name": "CLO2",
+      "clo_details": "Collect, store and organize data using big data solutions"
+    },
+    {
+      "clo_name": "CLO3",
+      "clo_details": "Design a big data information system for small company"
+    },
+    {
+      "clo_name": "CLO4",
+      "clo_details": "Execute simple big data integration and processing on Hadoop and Spark platforms"
+    },
+    {
+      "clo_name": "CLO5",
+      "clo_details": "Use tools and algorithms to create machine learning models that learn from data, and to scale those models up to big data problems"
+    },
+    {
+      "clo_name": "CLO6",
+      "clo_details": "Model a problem into a graph database and perform analytical tasks over the graph in a scalable manner."
+    }
+  ],
+  "schedule": [
+    {
+      "topic": "Introduction to Big Data\n- Welcome\n- Big Data: Why and Where\n-Characteristics of Big Data and Dimensions of Scalability\nOffline 1: Introduction to the online course BDI302c",
+      "lo": "LO1"
+    },
+    {
+      "topic": "- Data Science: Getting Value out of Big Data\n'- Foundations for Big Data Systems and Programming\n- Systems: Getting Started with Hadoop",
+      "lo": "LO1"
+    },
+    {
+      "topic": "Big Data Modeling and Management Systems\n- Introduction to Big Data Modeling and Management\n- Big Data Modeling\n- Big Data Modeling (Part 2)",
+      "lo": "LO2"
+    },
+    {
+      "topic": "- Working With Data Models\n- Big Data Management: The \"M\" in DBMS\n- Designing a Big Data Management System for an Online Game",
+      "lo": "LO2"
+    },
+    {
+      "topic": "Big Data Integration and Processing\n- Welcome to Big Data Integration and Processing\n- Retrieving Big Data (Part 1)\n- Retrieving Big Data (Part 2)",
+      "lo": "LO3"
+    },
+    {
+      "topic": "'- Big Data Integration\n- Processing Big Data",
+      "lo": "LO3, LO4"
+    },
+    {
+      "topic": "- Big Data Analytics using Spark\n- Learn By Doing: Putting MongoDB and Spark to Work",
+      "lo": "LO3, LO4"
+    },
+    {
+      "topic": "Machine Learning With Big Data\n- Welcome\n- Introduction to Machine Learning with Big Data\n- Data Exploration\n- Data Preparation",
+      "lo": "LO5"
+    },
+    {
+      "topic": "- Classification\n- Evaluation of Machine Learning Models",
+      "lo": "LO5"
+    },
+    {
+      "topic": "- Regression, Cluster Analysis, and Association Analysis",
+      "lo": "LO5"
+    },
+    {
+      "topic": "Graph Analytics for Big Data\n- Welcome to Graph Analytics\n- Introduction to Graphs\n- Graph Analytics",
+      "lo": "LO6"
+    },
+    {
+      "topic": "- Graph Analytics Techniques\n- Computing Platforms for Graph Analytics\nOffline 2: Review Big Data Specialization (Spec)",
+      "lo": "LO6"
+    }
+  ],
+  "assessments": [
+    {
+      "category": "Final exam",
+      "part": "1",
+      "weight": "100.0%",
+      "clo": "All Los"
+    }
+  ]
+}

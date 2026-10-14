@@ -1,0 +1,344 @@
+{
+  "record_type": "normal_subject",
+  "curriculum": {
+    "subject_code": "AID301c",
+    "subject_name": "AI in Production_Thiết kế sản phẩm TTNT",
+    "semester": "8",
+    "credits": "3",
+    "prerequisite": "SWE201c, AIL303m",
+    "pre_syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/Syllabuses?subCode=AID301c&curriculumID=3173",
+    "curriculum_url": "https://flm.fpt.edu.vn/gui/role/student/CurriculumDetails?curid=3173"
+  },
+  "syllabus_versions": [
+    {
+      "subject_code": "AID301c",
+      "syllabus_name": "AI in Production_Thiết kế sản phẩm TTNT",
+      "is_active": true,
+      "is_approved": true,
+      "decision_no": "359/QĐ-ĐHFPT dated 04/09/2025",
+      "syllabus_id": "12630",
+      "syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=12630",
+      "pre_syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/Syllabuses?subCode=AID301c&curriculumID=3173"
+    }
+  ],
+  "selected_syllabus": {
+    "subject_code": "AID301c",
+    "syllabus_name": "AI in Production_Thiết kế sản phẩm TTNT",
+    "is_active": true,
+    "is_approved": true,
+    "decision_no": "359/QĐ-ĐHFPT dated 04/09/2025",
+    "syllabus_id": "12630",
+    "syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=12630",
+    "pre_syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/Syllabuses?subCode=AID301c&curriculumID=3173"
+  },
+  "details": {
+    "source_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=12630",
+    "metadata": {
+      "Syllabus ID": "12630",
+      "Syllabus Name": "AI in Production_Thiết kế sản phẩm TTNT",
+      "Course Name English": "AI in Production",
+      "Subject Code": "AID301c",
+      "Learning-Teaching Method": "In-class lecture, Social Constructivism, Active Learning",
+      "NoCredit": "3",
+      "Degree Level": "Bachelor",
+      "Time Allocation": "Study hour (150h) = 50h online + 3h offline + 1h final exam + 96h self-study",
+      "Pre-Requisite": "SWE201c, AIL303m",
+      "Description": "This six course specialization is designed to prepare you to take the certification examination for IBM AI Enterprise Workflow V1 Data Science Specialist. IBM AI Enterprise Workflow is a comprehensive, end-to-end process that enables data scientists to build AI solutions, starting with business priorities and working through to taking AI into production. The learning aims to elevate the skills of practicing data scientists by explicitly connecting business priorities to technical implementations, connecting machine learning to specialized AI use cases such as visual recognition and NLP, and connecting Python to IBM Cloud technologies. The videos, readings, and case studies in these courses are designed to guide you through your work as a data scientist at a hypothetical streaming media company. Throughout this specialization, the focus will be on the practice of data science in large, modern enterprises. You will be guided through the use of enterprise-class tools on the IBM Cloud, tools that you will use to create, deploy and test machine learning models. Your favorite open source tools, such as Jupyter notebooks and Python libraries will be used extensively for data preparation and building models. Models will be deployed on the IBM Cloud using IBM Watson tooling that works seamlessly with open source tools.",
+      "StudentTasks": "'Student must get the certification of IBM AI Enterprise Workflow Specialization from Coursera to be accepted to the final examination",
+      "Tools": "",
+      "Scoring Scale": "10",
+      "DecisionNo MM/dd/yyyy": "359/QĐ-ĐHFPT dated 04/09/2025",
+      "IsApproved": "True",
+      "Note": "1. Final Exam included Final Theory Exam (TE): 100%\n2. Students who complete all MOOCs before the course deadline will receive 1 bonus point; otherwise, no bonus point will be awarded.\n3.Completion Criteria: Final TE Score >=4 & (Final TE Score + bonus) >= 5\n4. Complete the online courses and get all specialization certifications to be allowed to take the Final Exam",
+      "Is Scored": "True",
+      "MinAvgMarkToPass": "5",
+      "IsActive": "True",
+      "ApprovedDate": "4/9/2025"
+    },
+    "materials": [
+      {
+        "No.": "1",
+        "Material Description": "IBM AI Enterprise Workflow Specialization",
+        "Author": "IBM",
+        "Publisher": "Coursera",
+        "Published Date": "",
+        "Edition": "",
+        "ISBN": "",
+        "Is Main Material": "True",
+        "Is Hard Copy": "False",
+        "Is Online": "True",
+        "Note": "https://www.coursera.org/specializations/ibm-ai-workflow"
+      },
+      {
+        "No.": "2",
+        "Material Description": "Course 1. AI Workflow: Business Priorities and Data Ingestion",
+        "Author": "IBM",
+        "Publisher": "Coursera",
+        "Published Date": "",
+        "Edition": "",
+        "ISBN": "",
+        "Is Main Material": "True",
+        "Is Hard Copy": "False",
+        "Is Online": "True",
+        "Note": "https://www.coursera.org/learn/ibm-ai-workflow-business-priorities-data-ingestion"
+      },
+      {
+        "No.": "3",
+        "Material Description": "Course 2. AI Workflow: Data Analysis and Hypothesis Testing",
+        "Author": "IBM",
+        "Publisher": "Coursera",
+        "Published Date": "",
+        "Edition": "",
+        "ISBN": "",
+        "Is Main Material": "True",
+        "Is Hard Copy": "False",
+        "Is Online": "True",
+        "Note": "https://www.coursera.org/learn/ibm-ai-workflow-data-analysis-hypothesis-testing"
+      },
+      {
+        "No.": "4",
+        "Material Description": "Course 3. AI Workflow: Feature Engineering and Bias Detection",
+        "Author": "IBM",
+        "Publisher": "Coursera",
+        "Published Date": "",
+        "Edition": "",
+        "ISBN": "",
+        "Is Main Material": "True",
+        "Is Hard Copy": "False",
+        "Is Online": "True",
+        "Note": "https://www.coursera.org/learn/ibm-ai-workflow-feature-engineering-bias-detection"
+      },
+      {
+        "No.": "5",
+        "Material Description": "Course 4. AI Workflow: Machine Learning, Visual Recognition and NLP",
+        "Author": "IBM",
+        "Publisher": "Coursera",
+        "Published Date": "",
+        "Edition": "",
+        "ISBN": "",
+        "Is Main Material": "True",
+        "Is Hard Copy": "False",
+        "Is Online": "True",
+        "Note": "https://www.coursera.org/learn/ibm-ai-workflow-machine-learning-vr-nlp?specialization=ibm-ai-workflow"
+      },
+      {
+        "No.": "6",
+        "Material Description": "Course 5. AI Workflow: Enterprise Model Deployment",
+        "Author": "IBM",
+        "Publisher": "Coursera",
+        "Published Date": "",
+        "Edition": "",
+        "ISBN": "",
+        "Is Main Material": "True",
+        "Is Hard Copy": "False",
+        "Is Online": "True",
+        "Note": "https://www.coursera.org/learn/ibm-ai-workflow-machine-learning-model-deployment?specialization=ibm-ai-workflow"
+      },
+      {
+        "No.": "7",
+        "Material Description": "Course 6. AI Workflow: AI in Production",
+        "Author": "IBM",
+        "Publisher": "Coursera",
+        "Published Date": "",
+        "Edition": "",
+        "ISBN": "",
+        "Is Main Material": "True",
+        "Is Hard Copy": "False",
+        "Is Online": "True",
+        "Note": "https://www.coursera.org/learn/ibm-ai-workflow-ai-production?specialization=ibm-ai-workflow"
+      },
+      {
+        "No.": "8",
+        "Material Description": "Help Articles",
+        "Author": "",
+        "Publisher": "Coursera",
+        "Published Date": "",
+        "Edition": "",
+        "ISBN": "",
+        "Is Main Material": "False",
+        "Is Hard Copy": "False",
+        "Is Online": "True",
+        "Note": "https://www.coursera.support/s/article/208280036-Coursera-Code-of-Conduct?language=en_US"
+      }
+    ],
+    "clos": [
+      {
+        "No.": "1",
+        "CLO Name": "CLO1",
+        "CLO Details": "Learners should be able to describe the business use case and the process of ingesting data."
+      },
+      {
+        "No.": "2",
+        "CLO Name": "CLO2",
+        "CLO Details": "Learners should be able to use common techniques such as: EDA, visualization, hypothesis testing and statistical tools."
+      },
+      {
+        "No.": "3",
+        "CLO Name": "CLO3",
+        "CLO Details": "Learners should be able to describe and use common feature selection and feature engineering techniques"
+      },
+      {
+        "No.": "4",
+        "CLO Name": "CLO4",
+        "CLO Details": "Learners should be able to implement the model: machine learning and deep learning algorithms, evaluation and performance metrics."
+      },
+      {
+        "No.": "5",
+        "CLO Name": "CLO5",
+        "CLO Details": "Learners should be able to deploy the model by interacting with Apache Spark then progressing to a tutorial with Docker."
+      }
+    ],
+    "schedule": [
+      {
+        "Session": "1",
+        "Topic": "Specialization Introduction\nIntroduction to AI Workflow: Business Priorities and Data Ingestion\n- IBM AI Enterprise Workflow Introduction\nOffline 1: Guide learning and review of the specialization",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO1",
+        "ITU": "I",
+        "Student Materials": "Associated Coursera links",
+        "S-Download": "",
+        "Student's Tasks": "Complete Week 1 of the course\nAI Workflow: Business Priorities and Data Ingestion",
+        "URLs": ""
+      },
+      {
+        "Session": "2",
+        "Topic": "Introduction to AI Workflow: Business Priorities and Data Ingestion (cont.)\n- Data Collection\n- Data Ingestion",
+        "Learning-Teaching Type": "Online",
+        "LO": "CLO1",
+        "ITU": "",
+        "Student Materials": "Associated Coursera links",
+        "S-Download": "",
+        "Student's Tasks": "Complete Week 2 of the course AI Workflow: Business Priorities and Data Ingestion",
+        "URLs": ""
+      },
+      {
+        "Session": "3",
+        "Topic": "AI Workflow: Data Analysis and Hypothesis Testing\n- Data Analysis",
+        "Learning-Teaching Type": "Online",
+        "LO": "CLO2",
+        "ITU": "IT",
+        "Student Materials": "Associated Coursera links",
+        "S-Download": "",
+        "Student's Tasks": "- Complete Week 1 of the course AI Workflow: Data Analysis and Hypothesis Testing",
+        "URLs": ""
+      },
+      {
+        "Session": "4",
+        "Topic": "AI Workflow: Data Analysis and Hypothesis Testing (cont.)\n- Data Investigation",
+        "Learning-Teaching Type": "Online",
+        "LO": "CLO2",
+        "ITU": "",
+        "Student Materials": "Associated Coursera links",
+        "S-Download": "",
+        "Student's Tasks": "Complete Week 2 of the course AI Workflow: Data Analysis and Hypothesis Testing",
+        "URLs": ""
+      },
+      {
+        "Session": "5",
+        "Topic": "AI Workflow: Feature Engineering and Bias Detection\n- Data transforms and feature engineering",
+        "Learning-Teaching Type": "Online",
+        "LO": "CLO3",
+        "ITU": "",
+        "Student Materials": "Associated Coursera links",
+        "S-Download": "",
+        "Student's Tasks": "Complete Week 1 of the course AI Workflow: Feature Engineering and Bias Detection",
+        "URLs": ""
+      },
+      {
+        "Session": "6",
+        "Topic": "AI Workflow: Feature Engineering and Bias Detection (cont.)\n- Pattern recognition and data mining best practices",
+        "Learning-Teaching Type": "Online",
+        "LO": "CLO3",
+        "ITU": "",
+        "Student Materials": "Associated Coursera links",
+        "S-Download": "",
+        "Student's Tasks": "Complete Week 2 of the course AI Workflow: Feature Engineering and Bias Detection",
+        "URLs": ""
+      },
+      {
+        "Session": "7",
+        "Topic": "AI Workflow: Machine Learning, Visual Recognition and NLP\n- Model Evaluation and Performance Metrics",
+        "Learning-Teaching Type": "Online",
+        "LO": "CLO4",
+        "ITU": "IT",
+        "Student Materials": "Associated Coursera links",
+        "S-Download": "",
+        "Student's Tasks": "- Complete Week 1 of the course AI Workflow: Machine Learning, Visual Recognition and NLP",
+        "URLs": ""
+      },
+      {
+        "Session": "8",
+        "Topic": "AI Workflow: Machine Learning, Visual Recognition and NLP (cont.)\n- Building Machine Learning and Deep Learning Models",
+        "Learning-Teaching Type": "Online",
+        "LO": "CLO4",
+        "ITU": "",
+        "Student Materials": "Associated Coursera links",
+        "S-Download": "",
+        "Student's Tasks": "Complete Week 2 of the course AI Workflow: Machine Learning, Visual Recognition and NLP",
+        "URLs": ""
+      },
+      {
+        "Session": "9",
+        "Topic": "AI Workflow: Enterprise Model Deployment\n- Deploying Models",
+        "Learning-Teaching Type": "Online",
+        "LO": "CLO5",
+        "ITU": "",
+        "Student Materials": "Associated Coursera links",
+        "S-Download": "",
+        "Student's Tasks": "Complete Week 1 of the course AI Workflow: Enterprise Model Deployment",
+        "URLs": ""
+      },
+      {
+        "Session": "10",
+        "Topic": "AI Workflow: Enterprise Model Deployment (cont.)\n- Deploying Models using Spark",
+        "Learning-Teaching Type": "Online",
+        "LO": "CLO5",
+        "ITU": "IT",
+        "Student Materials": "Associated Coursera links",
+        "S-Download": "",
+        "Student's Tasks": "- Complete Week 2 of the course AI Workflow: Enterprise Model Deployment",
+        "URLs": ""
+      },
+      {
+        "Session": "11",
+        "Topic": "Capstone Project: AI Workflow: AI in Production\n- Feedback loops and Monitoring\n- Hands on with Openscale and Kubernetes\n)",
+        "Learning-Teaching Type": "Online",
+        "LO": "CLO5",
+        "ITU": "",
+        "Student Materials": "Associated Coursera links",
+        "S-Download": "",
+        "Student's Tasks": "Complete Week 1,2 of the course Capstone Project: AI Workflow: AI in Production",
+        "URLs": ""
+      },
+      {
+        "Session": "12",
+        "Topic": "Capstone Project: AI Workflow: AI in Production\n- Capstone: Pulling it all together (Part 1\n- Capstone: Pulling it all together (Part 2)",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO5",
+        "ITU": "IT",
+        "Student Materials": "Associated Coursera links",
+        "S-Download": "",
+        "Student's Tasks": "- Complete Week 3,4 of the course Capstone Project: AI Workflow: AI in Production\nDeadline of Coursera Completion: End of Friday of the week.\nAll Students should participate in review slot (if any question)",
+        "URLs": ""
+      }
+    ],
+    "assessments": [
+      {
+        "No.": "1",
+        "Category": "Final exam",
+        "Type": "Final exam",
+        "Part": "1",
+        "Weight": "100.0%",
+        "Completion Criteria": "4",
+        "Duration": "60'",
+        "CLO": "CLO1, CLO2, CLO3, CLO4,CLO5",
+        "Question Type": "Multiple choicesMarked by Computer",
+        "No Question": "50",
+        "Knowledge and Skill": "All studied courses. Each module of course contributes 4-5 questions.",
+        "Grading Guide": "by exam board,\nusing computer",
+        "Note": "Customized from the quizzes of this specialization.\n1st Evaluation: For students who completed & got Coursera's specialization certificates (Option at week 7);\n2nd Evaluation: For students who completed & got Coursera's specialization certificates) at week 13;\n3rd Evaluation: For students who completed & got Coursera's specialization certificates) at week 14."
+      }
+    ]
+  },
+  "error": null
+}

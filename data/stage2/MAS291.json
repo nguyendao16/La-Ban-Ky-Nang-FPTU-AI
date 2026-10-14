@@ -1,0 +1,315 @@
+{
+  "metadata": {
+    "syllabus_name": "Statistics & Probability_Xác suất thống kê",
+    "course_name_english": "",
+    "subject_code": "MAS291",
+    "description": "Upon finishing the course, students must acquire:\n1. the following knowledge:(ABET a1)\n• The fundamental principles of probability and their applications\n• The frequently used probability distributions.\n• The basics of descriptive statistics\n• The inferences of statistics: parameter estimations, hypothesis testing, regressions & correlations.\n2. the following skills: (ABET a2)\n• Recognize simple statistical models and applied them to solve engineering problems.\n• Use at least one statistical software (Excel, Maxima) for problem solving.\n• Self-study skill. (ABET i)",
+    "tools": "- Internet\n- Computerized tools (for example Excel and DDXL add-ons) (CT)"
+  },
+  "clos": [
+    {
+      "clo_name": "CLO1",
+      "clo_details": "Discuss the roles of statistics in engineering\nLO1.1 Explain the types of reasoning of statistical inference; distinguish mechanistic models and empirical models, statistic and parameter, sample and population.\nLO1.2 Describe the different methods that engineers use to collect data."
+    },
+    {
+      "clo_name": "CLO2",
+      "clo_details": "Identify sample spaces and events, and use basic rules to calculate the probability of an event\nLO2.1 Describe the sample space and events of an experiment; distinguish continuous and discrete sample spaces; perform operations on events.\nLO2.2 Calculate the probability of an event in a discrete sample space; use addition and complementary rules to find probabilities.\nLO2.3 Calculate conditional probabilities; use multiplication rule, total probability rule and Bayes theorem to find probabilities.\nLO2.4 Determine if two events are independent; use independence to find probabilities.\nLO2.5 Recognize a random variable; distinguish continuous and discrete random variables."
+    },
+    {
+      "clo_name": "CLO3",
+      "clo_details": "Describe the probability distribution and calculate the mean and variance of a discrete random variable\nLO3.1 Describe a discrete random variable; check if a function is a probability mass function and use it to calculate probability; find the cumulative distribution function of a discrete random variable.\nLO3.2 Compute the mean and variance of a discrete random variable.\nLO3.3 Determine the probability, mean and variance of uniform, binomial, geometric and negative binomial, hypergeometric and Poisson distributions."
+    },
+    {
+      "clo_name": "CLO4",
+      "clo_details": "Describe the probability distribution and calculate the mean and variance of a continuous random variable\nLO4.1 Describe a continuous random variable; check if a function is a probability density function and use it to calculate probability; find the cumulative distribution function of a continuous random variable.\nLO4.2 Compute the mean and variance of a continuous random variables\nLO4.3 Apply the formulas of continuous uniform distribution and exponential distribution to solve problems.\nLO4.4 Manipulate probabilities of a standard normal distribution using Excel or table of data; standardize a normal distribution.\nLO4.5 Use normal distribution to approximate binomial and Poisson distributions."
+    },
+    {
+      "clo_name": "CLO5",
+      "clo_details": "Describe data using numerical summaries and visual displays\nLO5.1 Find numeric summaries of data; describe data using stem-and-leaf diagrams, frequency distributions, histograms, time series plots.\nLO5.2 Determine quartiles and construct the box plot for a data; identify outliers."
+    },
+    {
+      "clo_name": "CLO6",
+      "clo_details": "Discuss sampling distributions and use the Central Limit Theorem to analyze sampling distribution of the means\nLO6.1 Discuss sampling distributions; find the point estimation of a parameter.\nLO6.2 Apply Central Limit Theorem to calculate probabilities regarding the sampling distribution of the means."
+    },
+    {
+      "clo_name": "CLO7",
+      "clo_details": "Construct confidence intervals for a population parameter/difference of population parameters\nLO7.1 Construct a confidence interval for the population mean/difference of two population means and interpret its meaning; determine the size of the sample to improve the estimation.\nLO7.2 Construct a confidence interval for the population proportion/difference of two population pproportions and interpret its meaning; determine the size of the sample to improve the estimation."
+    },
+    {
+      "clo_name": "CLO8",
+      "clo_details": "Verify a claim about a population parameter/difference of population parameters using hypothesis testing\nLO8.1 Formulate the two hypotheses; identify critical values, test statistic and compute P-value for a test of hypotheses on population mean/difference of two population means\nLO8.2 Formulate the two hypotheses; identify critical values, test statistic and compute P-value for a test of hypotheses on population proportion/difference of two population proportions\nLO8.3 Identify type of errors in testing hypotheses."
+    },
+    {
+      "clo_name": "CLO9",
+      "clo_details": "Construct a simple linear regression model\nLO9.1 Compute various sums of squares for a set of data pairs.\nLO9.2 Determine the equation of linear regression and the correlation coefficient; use linear regression to predict future values.\nLO9.3 Perform a hypothesis test in simple linear regression; test the significance of regression using t-test."
+    }
+  ],
+  "schedule": [
+    {
+      "topic": "The Roles of Statistics in Engineering\n1.1 The Engineering Method and Statistical Thinking\n1.2 Collecting Engineering Data",
+      "lo": "LO1"
+    },
+    {
+      "topic": "The Roles of Statistics in Engineering\n1.3 Mechanistic and Empirical Models\n1.4 Probability and Probability Models",
+      "lo": "LO1"
+    },
+    {
+      "topic": "Probability\n2.1 Sample Spaces and Events",
+      "lo": "LO2"
+    },
+    {
+      "topic": "Probability\n2.2 Interpretations of Probability\n2.3 Addition Rules",
+      "lo": "LO2"
+    },
+    {
+      "topic": "Probability\n2.4 Conditional Probability",
+      "lo": "LO2"
+    },
+    {
+      "topic": "Probability\n2.5 Multiplication and Total Probability Rules\n2.6 Independence",
+      "lo": "LO2"
+    },
+    {
+      "topic": "Probability\n2.7 Bayes' Theorem",
+      "lo": "LO2"
+    },
+    {
+      "topic": "Probability\n2.8 Random Variables",
+      "lo": "LO2"
+    },
+    {
+      "topic": "Discrete Random Variables and Probability Distribution\n3.1 Discrete Random Variables",
+      "lo": "LO3"
+    },
+    {
+      "topic": "Discrete Random Variables and Probability Distribution\n3.2 Probability Distributions and Probability Mass Functions",
+      "lo": "LO3"
+    },
+    {
+      "topic": "Discrete Random Variables and Probability Distribution\n3.3 Cumulative Distribution Functions",
+      "lo": "LO3"
+    },
+    {
+      "topic": "Discrete Random Variables and Probability Distribution\n3.4 Mean and Variance of a Discrete Random Varibale",
+      "lo": "LO3"
+    },
+    {
+      "topic": "Discrete Random Variables and Probability Distribution\n3.5 Discrete Uniform Distribution\n3.6 Binomial Distribution",
+      "lo": "LO3"
+    },
+    {
+      "topic": "Discrete Random Variables and Probability Distribution\n3.7 Geometric and Negative Binomial Distributions",
+      "lo": "LO3"
+    },
+    {
+      "topic": "Discrete Random Variables and Probability Distribution\n3.8 Hypergeometric Distribution",
+      "lo": "LO3"
+    },
+    {
+      "topic": "Discrete Random Variables and Probability Distribution\n3.9 Poisson Distribution",
+      "lo": "LO3"
+    },
+    {
+      "topic": "Solve questions and problems for Chapters 1 - 3",
+      "lo": "LO1, LO2, LO3"
+    },
+    {
+      "topic": "Progress Test 1",
+      "lo": "LO1, LO2, LO3"
+    },
+    {
+      "topic": "Continuous Random Variables and Probability Distribution\n4.1 Continuous Random Variables\n4.2 Probability Distributions and Probability Density Functions",
+      "lo": "LO4"
+    },
+    {
+      "topic": "Continuous Random Variables and Probability Distribution\n4.3 Cumulative Distribution Functions",
+      "lo": "LO4"
+    },
+    {
+      "topic": "Continuous Random Variables and Probability Distribution\n4.4 Mean and Variance of a Continuous Random Variable",
+      "lo": "LO4"
+    },
+    {
+      "topic": "Continuous Random Variables and Probability Distribution\n4.5 Continuous Uniform Distribution",
+      "lo": "LO4"
+    },
+    {
+      "topic": "Continuous Random Variables and Probability Distribution\n4.6 Normal Distribution",
+      "lo": "LO4"
+    },
+    {
+      "topic": "Continuous Random Variables and Probability Distribution\n4.6 Normal Distribution (Cont.)",
+      "lo": "LO4"
+    },
+    {
+      "topic": "Continuous Random Variables and Probability Distribution\n4.7 Normal Approximation to the Binomial and Poisson Distributions",
+      "lo": "LO4"
+    },
+    {
+      "topic": "Continuous Random Variables and Probability Distribution\n4.8 Exponential Distribution",
+      "lo": "LO4"
+    },
+    {
+      "topic": "Descriptive Statistics\n6.1 Numerical Summaries",
+      "lo": "LO5"
+    },
+    {
+      "topic": "Descriptive Statistics\n6.2 Stem-and-Leaf Diagrams\n6.3 Frequency Distributions and Histograms",
+      "lo": "LO5"
+    },
+    {
+      "topic": "Descriptive Statistics\n6.4 Box Plots",
+      "lo": "LO5"
+    },
+    {
+      "topic": "Descriptive Statistics\n6.5 Time Sequence Plots",
+      "lo": "LO5"
+    },
+    {
+      "topic": "Sampling Distributions and Point Estimation of Paramaters\n7.1 Point Estimation",
+      "lo": "LO6"
+    },
+    {
+      "topic": "Sampling Distributions and Point Estimation of Paramaters\n7.2 Sampling Distributions and the Central Limit Theorem",
+      "lo": "LO6"
+    },
+    {
+      "topic": "Solve questions and problems for Chapters 4, 6, and 7",
+      "lo": "LO4, LO5, LO6"
+    },
+    {
+      "topic": "Progress Test 2",
+      "lo": "LO4, LO5, LO6"
+    },
+    {
+      "topic": "Statistical Intervals for a Single Sample\n8.1 Confidence Interval on the Mean of a Normal Distribution, Variance Known",
+      "lo": "LO7"
+    },
+    {
+      "topic": "Statistical Intervals for a Single Sample\n8.1 Confidence Interval on the Mean of a Normal Distribution, Variance Known (Cont.)",
+      "lo": "LO7"
+    },
+    {
+      "topic": "Statistical Intervals for a Single Sample\n8.2 Confidence Interval on the Mean of a Normal Distribution, Variance Unknown",
+      "lo": "LO7"
+    },
+    {
+      "topic": "Statistical Intervals for a Single Sample\n8.2 Confidence Interval on the Mean of a Normal Distribution, Variance Unknown (Cont.)",
+      "lo": "LO7"
+    },
+    {
+      "topic": "Statistical Intervals for a Single Sample\n8.4 Large-Sample Confidence Interval for a Population Proportion",
+      "lo": "LO7"
+    },
+    {
+      "topic": "Statistical Intervals for a Single Sample\n8.4 Large-Sample Confidence Interval for a Population Proportion (Cont.)",
+      "lo": "LO7"
+    },
+    {
+      "topic": "Test of Hypotheses for a Single Sample\n9.1 Hypothesis Testing",
+      "lo": "LO8"
+    },
+    {
+      "topic": "Test of Hypotheses for a Single Sample\n9.1 Hypothesis Testing (Cont.)",
+      "lo": "LO8"
+    },
+    {
+      "topic": "Test of Hypotheses for a Single Sample\n9.2 Tests on the Mean of a Normal Distribution, Variance Known",
+      "lo": "LO8"
+    },
+    {
+      "topic": "Test of Hypotheses for a Single Sample\n9.2 Tests on the Mean of a Normal Distribution, Variance Known (Cont.)",
+      "lo": "LO8"
+    },
+    {
+      "topic": "Test of Hypotheses for a Single Sample\n9.3 Tests on the Mean of a Normal Distribution, Variance Unknown",
+      "lo": "LO8"
+    },
+    {
+      "topic": "Test of Hypotheses for a Single Sample\n9.5 Tests on a Population Proportion",
+      "lo": "LO8"
+    },
+    {
+      "topic": "Statistical Inference for Two Samples\n10.1 Inference on the Difference in Means of Two Normal Distributions, Variance Known",
+      "lo": "LO7,LO8"
+    },
+    {
+      "topic": "Statistical Inference for Two Samples\n10.2 Inference on the Difference in Means of Two Normal Distributions, Variance Unknown",
+      "lo": "LO7,LO8"
+    },
+    {
+      "topic": "Statistical Inference for Two Samples\n10.6 Inference on the Two Proportions",
+      "lo": "LO7,LO8"
+    },
+    {
+      "topic": "Statistical Inference for Two Samples\n10.6 Inference on the Two Proportions (Cont.)",
+      "lo": "LO7,LO8"
+    },
+    {
+      "topic": "Simple Linear Regression and Correlation\n11.1 Empirical Models",
+      "lo": "LO9"
+    },
+    {
+      "topic": "Simple Linear Regression and Correlation\n11.2 Simple Linear Regression",
+      "lo": "LO9"
+    },
+    {
+      "topic": "Simple Linear Regression and Correlation\n11.3 Properties of the Least Squares Estimators",
+      "lo": "LO9"
+    },
+    {
+      "topic": "Simple Linear Regression and Correlation\n11.4 Hypothesis Tests in Simple Linear Regression",
+      "lo": "LO9"
+    },
+    {
+      "topic": "Simple Linear Regression and Correlation\n11.8 Correlation",
+      "lo": "LO9"
+    },
+    {
+      "topic": "Simple Linear Regression and Correlation\n11.8 Correlation (Cont.)",
+      "lo": "LO9"
+    },
+    {
+      "topic": "Project presentation",
+      "lo": "LO7, LO8, LO9"
+    },
+    {
+      "topic": "Project presentation (Cont.)",
+      "lo": "LO7, LO8, LO9"
+    },
+    {
+      "topic": "Project presentation (Cont.)",
+      "lo": "LO7, LO8, LO9"
+    },
+    {
+      "topic": "Progress Test 3",
+      "lo": "LO7, LO8, LO9"
+    }
+  ],
+  "assessments": [
+    {
+      "category": "Assignment",
+      "part": "2",
+      "weight": "20.0%",
+      "clo": "LO1, LO2, LO3, LO4, LO5, LO6"
+    },
+    {
+      "category": "Computer Project",
+      "part": "1",
+      "weight": "15.0%",
+      "clo": "LO7, LO8, LO9"
+    },
+    {
+      "category": "Progress Test",
+      "part": "3",
+      "weight": "30.0%",
+      "clo": "All LOs"
+    },
+    {
+      "category": "Final exam",
+      "part": "1",
+      "weight": "35.0%",
+      "clo": ""
+    }
+  ]
+}

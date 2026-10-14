@@ -1,0 +1,38 @@
+[
+  {
+    "category": "Progress Test",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6"
+  },
+  {
+    "category": "Report 1",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO9, CLO10"
+  },
+  {
+    "category": "Report 2",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO9, CLO10"
+  },
+  {
+    "category": "Report 3",
+    "part": "1",
+    "weight": "30.0%",
+    "clo": "CLO9, CLO10"
+  },
+  {
+    "category": "Report 4",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO9, CLO10"
+  },
+  {
+    "category": "Final exam",
+    "part": "1",
+    "weight": "30.0%",
+    "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8"
+  }
+]

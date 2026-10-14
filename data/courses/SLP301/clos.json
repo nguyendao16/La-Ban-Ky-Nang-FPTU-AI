@@ -1,0 +1,22 @@
+[
+  {
+    "clo": "CLO1",
+    "description": "Gain a comprehensive understanding of fundamental principles in processing speech signals, covering digital signal processing (DSP) methods, feature extraction, and speech signal analysis, including Introduction to Digital Speech Processing, The Speech Signal, The Speech Stack, Discrete-Time Signals and Systems, Transform Representation of Signals and Systems, Fundamentals of Digital Filters."
+  },
+  {
+    "clo": "CLO2",
+    "description": "Develop expertise in speech recognition and synthesis, exploring and applying various algorithms for automatic speech recognition (ASR) and speech synthesis, including rule-based and statistical approaches, including Time-Domain Methods for Speech Processing, Short-Time Analysis of Speech, Automatic Speech Recognition, NLU, Overall Speech Recognition Process."
+  },
+  {
+    "clo": "CLO3",
+    "description": "Apply relevant machine learning algorithms and models to address speech-processing challenges, including feature extraction, classification, and other tasks within the speech context, including Linear Predictive Analysis of Speech Signals, Algorithms for Estimating Speech Parameters, Median Smoothing, Speech Processing, Speech-Background/Slience Discrimination."
+  },
+  {
+    "clo": "CLO4",
+    "description": "Acquire practical skills by using and implementing widely-used speech-processing tools, software, libraries, and frameworks, such as Praat, HTK, or other relevant platforms, including Text-to-Speech Synthesis Methods, Text Analysis, Evolution of Speech Synthesis Methods, Early Speech Synthesis Approaches."
+  },
+  {
+    "clo": "CLO5",
+    "description": "Demonstrate the ability to assess speech-processing system performance, applying appropriate metrics to evaluate accuracy and efficiency in speech recognition and synthesis models. Critically analyze the strengths and limitations of various approaches, including Automatic Speech Recognition, NLU, Overall Speech Recognition Process."
+  }
+]

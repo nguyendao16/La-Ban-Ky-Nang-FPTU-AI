@@ -1,0 +1,16 @@
+{
+  "record_type": "normal_subject",
+  "curriculum": {
+    "subject_code": "PHE_COM*1",
+    "subject_name": "Physical Education 1_Giáo dục thể chất 1",
+    "semester": "0",
+    "credits": "2",
+    "prerequisite": "",
+    "pre_syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/Syllabuses?subCode=PHE_COM%2A1&curriculumID=3173",
+    "curriculum_url": "https://flm.fpt.edu.vn/gui/role/student/CurriculumDetails?curid=3173"
+  },
+  "syllabus_versions": [],
+  "selected_syllabus": null,
+  "details": null,
+  "error": "No syllabus version found"
+}

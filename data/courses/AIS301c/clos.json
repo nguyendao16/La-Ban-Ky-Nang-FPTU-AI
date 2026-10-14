@@ -1,0 +1,22 @@
+[
+  {
+    "clo": "CLO1",
+    "description": "Learners should be able to explain AI-driven cybersecurity use cases, security threat detection workflows, and the machine learning development process for cybersecurity applications, including Introduction to AI for Cybersecurity, AI for Cybersecurity Specialization overview, AI for cybersecurity professionals, AI role in cyber threat detection, Spam filtering and email threat detection."
+  },
+  {
+    "clo": "CLO2",
+    "description": "Learners should be able to develop and evaluate machine learning models for email security, spam/phishing detection, and AI-supported authentication security, including Email Threat Detection, Spam and phishing email classification, Decision trees, Naïve Bayes for email security, Authentication Security with AI, Facial recognition and fake login detection, Model evaluation for authentication tasks."
+  },
+  {
+    "clo": "CLO3",
+    "description": "Learners should be able to analyze malware and network traffic features and apply supervised or unsupervised learning algorithms for malware and anomaly detection, including Advanced Malware, Network Anomaly Detection, Malware types and malware analysis fundamentals, Feature extraction for malware detection, Supervised learning for malware classification, Malware Threats Detection Part , Malware model evaluation."
+  },
+  {
+    "clo": "CLO4",
+    "description": "Learners should be able to implement network anomaly detection experiments using botnet or traffic data and interpret model evaluation results for cybersecurity decision-making, including Network Anomaly Detection with AI, Network threats and anomaly detection background, Network Traffic Analysis, Research Presentation, Anomaly detection algorithms, Model interpretation and performance analysis, Present current trends in network anomaly detection."
+  },
+  {
+    "clo": "CLO5",
+    "description": "Apply advanced AI security concepts for cybersecurity, including fraud detection with cloud AI, GANs and synthetic data, adversarial machine learning attacks, model resilience and robustness evaluation, reinforcement learning for adaptive defenses, model optimization, and defensive or responsible AI use."
+  }
+]

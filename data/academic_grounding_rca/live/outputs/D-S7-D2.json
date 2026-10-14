@@ -1,0 +1,44 @@
+{
+  "claims": [
+    {
+      "statement": "Trong PFP191, nội dung xử lý strings nằm ở CLO4, còn đọc/ghi files nằm ở CLO5.",
+      "sources": [
+        {
+          "course_code": "PFP191",
+          "clo": "CLO4",
+          "source_excerpt": "Understand Python strings as sequences, including length calculation with len, traversal with loops, slicing, immutability, loop-based counting, membership with the in operator, string comparison, string methods, parsing strings, format operators, and debugging string-related code."
+        },
+        {
+          "course_code": "PFP191",
+          "clo": "CLO5",
+          "source_excerpt": "Understand file handling in Python, including persistence, opening files, working with text files and lines, reading files, searching through file contents, allowing users to choose file names, using try, except, and open for safer file access, writing files, and debugging file-processing code."
+        }
+      ]
+    },
+    {
+      "statement": "PFP191 metadata.tools liệt kê Visual Studio Code và Google Colab như công cụ của môn học.",
+      "sources": [
+        {
+          "course_code": "PFP191",
+          "metadata_field": "tools",
+          "source_excerpt": "Visual Studio Code, Google Colab"
+        }
+      ]
+    }
+  ],
+  "reply": "Trong PFP191, xử lý strings nằm ở **CLO4** và đọc/ghi files nằm ở **CLO5**. \n\n- **CLO4**: `Understand Python strings as sequences... string methods, parsing strings...`\n- **CLO5**: `Understand file handling in Python... reading files... writing files...`\n\nCòn **FastAPI** thì **không được xác nhận trực tiếp từ PFP191**. CLO của môn này đang chứng minh Python nền tảng, strings, file handling, data structures và OOP, nhưng không có chỗ nào nêu FastAPI.\n\nVề **VS Code** và **Google Colab**: đây là mục **metadata.tools** của PFP191, tức công cụ/ngữ cảnh của môn học. Nó **không tự động là bằng chứng cá nhân** rằng bạn đã dùng chúng trong thực hành riêng.",
+  "evidence": [
+    {
+      "course_code": "PFP191",
+      "clo": "CLO4"
+    },
+    {
+      "course_code": "PFP191",
+      "clo": "CLO5"
+    },
+    {
+      "course_code": "PFP191",
+      "metadata_field": "tools"
+    }
+  ]
+}

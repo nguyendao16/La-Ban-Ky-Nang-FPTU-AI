@@ -1,0 +1,22 @@
+[
+  {
+    "clo": "CLO1",
+    "description": "Demonstrate basic understanding of startup concepts and entrepreneurial spirit."
+  },
+  {
+    "clo": "CLO2",
+    "description": "Demonstrate the ability to build an appropriate team and express effective teamwork."
+  },
+  {
+    "clo": "CLO3",
+    "description": "Conduct customer surveys and market research to understand customers, evaluate startup ideas, and find market fit."
+  },
+  {
+    "clo": "CLO4",
+    "description": "Build the right product and a reasonable business model by developing and evaluating startup ideas, understanding customers and market fit, building products, and shaping business models."
+  },
+  {
+    "clo": "CLO5",
+    "description": "Create and present a convincing preliminary pitch deck that introduces a startup, communicates fundraising and management considerations, and supports early-stage startup communication."
+  }
+]

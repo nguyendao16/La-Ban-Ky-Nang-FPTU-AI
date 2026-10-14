@@ -1,0 +1,216 @@
+{
+  "version": 1,
+  "session_id": "ac5492ca91f64e5691d5f9f46decc117",
+  "sources": {
+    "profile": {
+      "path": "/data/FPT/Learning_Materials/Semester_5/DPL302m/skillbridge/data/student_academic_profile.enriched.json",
+      "sha256": "b0bfa72fdc04f8d2cfc94e68fd7b4745387cd378a923f55eb94e2aef391bf531"
+    },
+    "jd": {
+      "path": "/data/FPT/Learning_Materials/Semester_5/DPL302m/skillbridge/data/academic_benchmark/jds/JD10.txt",
+      "sha256": "2d62971cc0222edd47e1f095089ba7a84a0752c44e53b331395ffca35734b564"
+    },
+    "review": {
+      "path": "/data/FPT/Learning_Materials/Semester_5/DPL302m/skillbridge/data/academic_benchmark/initial_reviews/reasoning-five-jds-20261013/JD10.json",
+      "sha256": "99e9dea821ddd7a63c8500f78e0fc9ab92f8553e1fe080c6d011c0b111fb2c8e"
+    }
+  },
+  "messages": [
+    {
+      "role": "user",
+      "content": "Mình đã học những gì về AI và Generative AI liên quan tới JD?"
+    },
+    {
+      "role": "assistant",
+      "content": "Bạn đã có các mảng học thuật về AI và Generative AI như sau, và đây là những phần có thể liên hệ trực tiếp tới JD:\n\n- **Nền tảng AI:** trong **AIG202c/CLO1** bạn học **“Understand what is AI, its applications and use cases, its ethical considerrations and how it is transforming our lives”**; **AIG202c/CLO2** là **“Explain underlying concepts related to Machine Learning, Deep Learning and Neural Networks”**. Ngoài ra **CSI106/CLO13** cũng có **“Describe artificial intelligence and its basic concepts”**. Những CLO này cho thấy bạn đã học khái niệm AI ở mức nhập môn và các khái niệm nền tảng liên quan.\n- **Generative AI:** **AIG202c/CLO3** là **“Explore common generative AI models and tools for text, code, image, audio, and video generation”**. Đây là phần gần nhất với yêu cầu GenAI trong JD.\n- **Prompt engineering:** **AIG202c/CLO4** là **“Explore commonly used tools for prompt engineering to aid with prompt engineering”**. Vì vậy hồ sơ xác nhận bạn đã học về prompt engineering ở mức khám phá/công cụ và kỹ thuật.\n- **Chatbot/AI assistant ứng dụng:** **AIG202c/CLO5** là **“Visually create and deploy chatbots with Watson Assistant”**; phần này còn nêu rõ **intents, entities, dialog design, deployment, context variables, slots, digressions**. Đây là bằng chứng trực tiếp nhất về AI ứng dụng kiểu assistant/chatbot.\n- **AI-powered solutions và Watson APIs:** **DAP391m/CLO5** là **“Implement an application that leverages multiple Watson AI services”** và **DAP391m/CLO6** là **“Implementing different techniques to develop applications and AI powered solutions”**. Hai CLO này cho thấy bạn đã có trải nghiệm học thuật trong việc xây dựng ứng dụng dùng AI services.\n- **AI workflow trong dự án:** **DAP391m/CLO7** là **“Implement the small mini capstone data science project includes steps: involving data collection, data wrangling, exploratory data analysis, data visualization, model development, model evaluation, and reporting”**. CLO này không phải GenAI trực tiếp, nhưng cho thấy bạn đã làm workflow dự án dữ liệu/AI theo hướng end-to-end.\n- **Khía cạnh đạo đức AI:** **ITE303c/CLO1** là **“Understand the rise of algorithms ... and the broader implications for society”**, **ITE303c/CLO2** là **“Explore fairness and bias in machine learning and ethical model building”**, và **ITE303c/CLO3** là **“Explore fundamental concepts involved in security and privacy of machine learning projects”**. Đây là nền tảng bổ trợ quan trọng nếu JD có yêu cầu về AI có trách nhiệm.\n\nTóm lại, phần AI/GenAI mà hồ sơ của bạn xác nhận rõ nhất là: **AI cơ bản**, **Generative AI models/tools**, **prompt engineering**, **chatbot/Watson Assistant**, và **AI application development với Watson services**. Những phần này khớp với hướng JD về **guided AI workflows** và **design/test prompts**. Tuy nhiên, các chi tiết rất cụ thể như **tokens, context, temperature, function calling** thì hồ sơ hiện tại chưa nêu trực tiếp trong CLO đã cung cấp.",
+      "evidence": [
+        {
+          "course_code": "AIG202c",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "AIG202c",
+          "clo": "CLO2"
+        },
+        {
+          "course_code": "AIG202c",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "AIG202c",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "AIG202c",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "CSI106",
+          "clo": "CLO13"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO6"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "ITE303c",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "ITE303c",
+          "clo": "CLO2"
+        },
+        {
+          "course_code": "ITE303c",
+          "clo": "CLO3"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "Những công nghệ như RAG, MCP, pandas và numpy có bằng chứng trong hồ sơ không?"
+    },
+    {
+      "role": "assistant",
+      "content": "Chưa có bằng chứng trực tiếp cho **RAG**, **MCP**, **pandas** hoặc **numpy** trong hồ sơ.\n\n- **RAG**: chưa thấy CLO hay metadata nào nêu trực tiếp retrieval-augmented generation, vector search, hay pipeline truy hồi kiến thức.\n- **MCP**: chưa có CLO hay metadata nào nêu trực tiếp MCP, tool-calling theo MCP, hay agent framework cụ thể.\n- **pandas / numpy**: hồ sơ có ngữ cảnh **Python**, **Python libraries**, và công cụ phục vụ data science, nhưng không nêu đích danh pandas hay numpy. Vì vậy chỉ có thể nói đây là bối cảnh liên quan, chưa phải bằng chứng đã học riêng hai thư viện này.\n\nNói ngắn gọn: **RAG và MCP hiện là chưa được xác nhận; pandas và numpy cũng chưa được nêu trực tiếp**. Hồ sơ chỉ cho thấy nền tảng gần đó về Python, data science, API và AI workflows, ví dụ **ADY201m/CLO5** về “Python fundamentals, Python libraries, and API support for data science tasks” và **ADY201m/CLO3** về công cụ data science; nhưng các CLO này không tự động chứng minh pandas/numpy.",
+      "evidence": [
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO6"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "Mình đã học Prompt Engineering rồi, vậy tại sao chưa thể kết luận đã có kinh nghiệm với RAG hoặc MCP?"
+    },
+    {
+      "role": "assistant",
+      "content": "Vì **Prompt Engineering** trong hồ sơ của bạn chỉ chứng minh đúng phạm vi prompt engineering, chưa tự động mở rộng sang **RAG** hay **MCP**. Cụ thể, **AIG202c/CLO4** ghi rõ: **“Explore commonly used tools for prompt engineering to aid with prompt engineering”** — đây là học về công cụ/kỹ thuật prompt. **AIG202c/CLO5** ghi: **“Visually create and deploy chatbots with Watson Assistant, including intents, entities, dialog design, deployment, context variables, slots, digressions, and optional Watson Actions concepts”** — nội dung này là chatbot/assistant, nhưng không nêu retrieval, vector search, tool-calling hay MCP. **DAP391m/CLO6** ghi: **“Implementing different techniques to develop applications and AI powered solutions”** — cũng là năng lực phát triển ứng dụng AI, nhưng vẫn chưa phải bằng chứng trực tiếp cho RAG hoặc MCP.\n\nNói ngắn gọn: từ hồ sơ hiện tại, bạn có **nền gần đó về prompt engineering và AI applications**, nhưng **chưa có CLO/metadata nào nêu trực tiếp RAG, vector search, agent frameworks, MCP hoặc tool-calling**. Vì vậy mình chỉ có thể kết luận mức **liên quan**, chưa thể kết luận đã có kinh nghiệm học thuật với RAG/MCP.",
+      "evidence": [
+        {
+          "course_code": "AIG202c",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "AIG202c",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO6"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "Tóm tắt những kiến thức đã có và những công nghệ chuyên biệt chưa được hồ sơ xác nhận."
+    },
+    {
+      "role": "assistant",
+      "content": "Tóm tắt ngắn gọn: hồ sơ của bạn đã xác nhận khá rõ 5 cụm kiến thức chính, còn một số công nghệ chuyên biệt trong JD thì **chưa được nêu trực tiếp**.\n\n**1) Python và workflow dữ liệu/AI**  \n- **ADY201m/CLO5**: *“Discuss Python fundamentals, Python libraries, and API support for data science tasks...”* — score **8.61**, **excellent**.  \n- **ADY201m/CLO7**: *“Implement a small data science project...”* với các bước Python fundamentals, Python data structures, SQL/database access, preprocessing, modeling, evaluation, deployment, visualization, probability, regression analysis, reporting — score **8.61**, **excellent**.  \n- **AIL303m/CLO1**: *“use common techniques to retrieve data from multiple data sources: SQL, NoSQL databases, APIs, Cloud...”* — score **7.56**, **good**.  \n=> Phần này cho thấy bạn có nền về Python, API, truy xuất dữ liệu và quy trình dự án dữ liệu/AI có hướng dẫn.\n\n**2) SQL và cơ sở dữ liệu**  \n- **DBI202/CLO5**: *“Be proficient in SQL...”* gồm DDL, DML, truy vấn đơn/nhiều bảng, nested queries, aggregation, INSERT/UPDATE/DELETE — score **5.96**, **basic**.  \n- **DBI202/CLO6**: *“Understand T-SQL database programming concepts...”* với views, cursors, stored procedures, functions, triggers, transactions — score **5.96**, **basic**.  \n- **DBI202/CLO7**: *“Apply database indexes... to support query optimization...”* — score **5.96**, **basic**.  \n- **ADY201m/CLO1** cũng có *“basic through advanced SQL-based data analysis, database fundamentals, nested queries, and multi-table SELECT statements”* — score **8.3**, **good**.  \n=> Nghĩa là hồ sơ có cả SQL học thuật và SQL phục vụ phân tích dữ liệu, nhưng nhãn của từng CLO vẫn được giữ riêng theo chính CLO đó.\n\n**3) AI / Generative AI / Prompt engineering**  \n- **AIG202c/CLO3**: *“Explore common generative AI models and tools for text, code, image, audio, and video generation...”* — score **8.0**, **good**.  \n- **AIG202c/CLO4**: *“Explore commonly used tools for prompt engineering...”* — score **8.0**, **good**.  \n- **AIG202c/CLO5**: *“Visually create and deploy chatbots with Watson Assistant...”* gồm intents, entities, dialog design, deployment, context variables, slots, digressions — score **8.0**, **good**.  \n- **DAP391m/CLO5**: *“Implement an application that leverages multiple Watson AI services...”* — score **8.79**, **excellent**.  \n- **DAP391m/CLO6**: *“Implementing different techniques to develop applications and AI powered solutions...”* — score **9.1**, **excellent**.  \n=> Đây là phần gần nhất với JD về guided AI workflows, prompt design và AI application development.\n\n**4) Toán, thống kê và machine learning nền tảng**  \n- **MAI391/CLO5**: *“Apply linear regression concepts...”* — score **9.4**, **excellent**.  \n- **MAI391/CLO6**: *“Apply dimensionality reduction with PCA...”* — score **9.4**, **excellent**.  \n- **MAI391/CLO7**: *“Apply support vector machine classification...”* — score **9.4**, **excellent**.  \n- **MAS291/CLO8**: *“Verify claims... using hypothesis testing...”* — score **9.43**, **excellent**.  \n- **MAS291/CLO9**: *“Construct and interpret confidence intervals... and simple linear regression...”* — score **9.43**, **excellent**.  \n=> Phần này là nền tảng toán-thống kê/ML rất rõ trong hồ sơ.\n\n**5) Computer vision, ethics và chatbot/app AI bổ trợ**  \n- **CPV301/CLO8**: *“Understand and implement object detection techniques”* — score **8.81**, **excellent**.  \n- **ITE303c/CLO2**: *“Explore fairness and bias in machine learning and ethical model building”* — score **8.6**, **excellent**.  \n- **ITE303c/CLO3**: *“Explore fundamental concepts involved in security and privacy of machine learning projects...”* — score **8.6**, **excellent**.\n\n**Công nghệ chuyên biệt chưa được hồ sơ xác nhận trực tiếp**  \nHồ sơ hiện có **chưa nêu trực tiếp** các mục sau trong CLO/metadata đã cung cấp: **pandas, numpy, JSON, CSV, tokens, context, temperature, function calling, structured JSON/XML outputs, RAG, vector search, MCP, agent frameworks, BigQuery, Snowflake, direct Git operations, hay một prior LLM-API prototype cụ thể**.  \nNói cách khác, hồ sơ cho thấy nền gần đó về **Python/APIs, file handling, SQL, prompt engineering, chatbot và AI workflows**, nhưng các công nghệ đích danh trên vẫn chưa được xác nhận bằng CLO riêng.",
+      "evidence": [
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "DBI202",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "DBI202",
+          "clo": "CLO6"
+        },
+        {
+          "course_code": "DBI202",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "AIG202c",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "AIG202c",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "AIG202c",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO6"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO6"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "MAS291",
+          "clo": "CLO8"
+        },
+        {
+          "course_code": "MAS291",
+          "clo": "CLO9"
+        },
+        {
+          "course_code": "CPV301",
+          "clo": "CLO8"
+        },
+        {
+          "course_code": "ITE303c",
+          "clo": "CLO2"
+        },
+        {
+          "course_code": "ITE303c",
+          "clo": "CLO3"
+        }
+      ]
+    }
+  ]
+}

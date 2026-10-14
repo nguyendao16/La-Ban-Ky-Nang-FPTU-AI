@@ -1,0 +1,445 @@
+{
+  "schema_version": "stage1_v1",
+  "record_type": "normal_subject",
+  "subject": {
+    "code": "DWP301c",
+    "name": {
+      "full": "Web Development with Python_Phát triển Web với Python",
+      "en": "Web Development with Python",
+      "vi": "Phát triển Web với Python"
+    },
+    "semester": 5,
+    "credits": 3,
+    "prerequisite": "PFP191"
+  },
+  "syllabus": {
+    "id": "12631",
+    "name": "Web Development with Python_Phát triển web với Python",
+    "is_active": true,
+    "is_approved": true,
+    "decision_no": "359/QĐ-ĐHFPT dated 04/09/2025"
+  },
+  "content": {
+    "metadata": {
+      "syllabus_id": "12631",
+      "syllabus_name": "Web Development with Python_Phát triển web với Python",
+      "course_name_english": "Web Development with Python",
+      "subject_code": "DWP301c",
+      "learning_teaching_method": "Online, Blended, Active learning, In-class lecture",
+      "nocredit": "3",
+      "degree_level": "Bachelor",
+      "time_allocation": "Study hour (150h)\n= 107h online + 3h offline + 1h final exam + 39h self-study",
+      "pre_requisite": "PFP191",
+      "description": "In this course, you will learn to build your own cloud-based applications and work with the technologies behind them. This program consists of 10 courses with ample instructional content as well as hands-on exercises and projects designed to hone your skills and help you build your portfolio.\nYou'll skill up with the tools and technologies that successful software developers use to build, deploy, test, run, and manage Full Stack Cloud Native applications, giving you the practical skills to begin a new career in an in-demand area.\nThe courses in this program will help you develop skill sets in many technologies including: Cloud foundations, HTML, CSS, JavaScript, GitHub, Node.js, React, Cloud Native practices, DevOps, CI/CD, Containers, Docker, Kubernetes, OpenShift, Istio, Python, Databases, SQL, NoSQL, Django ORM, Bootstrap, Application Security, Microservices, Serverless computing, and more.\nAfter completing all the courses in the program, including the capstone project, you will have developed several applications using front-end and back-end technologies and deployed them on a cloud platform using Cloud Native methodologies.",
+      "studenttasks": "Student must get the certification of IBM Full Stack Software Developer Specialization from Coursera to be accepted to the final examination",
+      "tools": "",
+      "scoring_scale": "10",
+      "decisionno_mm_dd_yyyy": "359/QĐ-ĐHFPT dated 04/09/2025",
+      "isapproved": "True",
+      "note": "1. Final Exam included Final Theory Exam (TE): 100%\n2. Students who complete all MOOCs before the course deadline will receive 1 bonus point; otherwise, no bonus point will be awarded.\n3.Completion Criteria: Final TE Score >=4 & (Final TE Score + bonus) >= 5\n4. Complete the online courses and get all specialization certifications to be allowed to take Final Exam",
+      "is_scored": "True",
+      "minavgmarktopass": "5",
+      "isactive": "True",
+      "approveddate": "4/9/2025"
+    },
+    "materials": [
+      {
+        "no": "1",
+        "material_description": "https://www.coursera.org/learn/introduction-to-cloud",
+        "author": "",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": ""
+      },
+      {
+        "no": "2",
+        "material_description": "https://www.coursera.org/learn/introduction-to-web-development-with-html-css-javacript/",
+        "author": "",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": ""
+      },
+      {
+        "no": "3",
+        "material_description": "https://www.coursera.org/learn/getting-started-with-git-and-github",
+        "author": "",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": ""
+      },
+      {
+        "no": "4",
+        "material_description": "https://www.coursera.org/learn/developing-frontend-apps-with-react/",
+        "author": "",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": ""
+      },
+      {
+        "no": "5",
+        "material_description": "https://www.coursera.org/learn/developing-backend-apps-with-nodejs-and-express/",
+        "author": "",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": ""
+      },
+      {
+        "no": "6",
+        "material_description": "https://www.coursera.org/learn/python-for-applied-data-science-ai",
+        "author": "",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": ""
+      },
+      {
+        "no": "7",
+        "material_description": "https://www.coursera.org/learn/python-project-for-ai-application-development/",
+        "author": "",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": ""
+      },
+      {
+        "no": "8",
+        "material_description": "https://www.coursera.org/learn/developing-applications-with-sql-databases-and-django",
+        "author": "",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": ""
+      },
+      {
+        "no": "9",
+        "material_description": "https://www.coursera.org/learn/ibm-containers-docker-kubernetes-openshift",
+        "author": "",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": ""
+      },
+      {
+        "no": "10",
+        "material_description": "https://www.coursera.org/learn/applications-development-microservices-serverless-openshift",
+        "author": "",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": ""
+      },
+      {
+        "no": "11",
+        "material_description": "https://www.coursera.org/learn/ibm-cloud-native-full-stack-development-capstone/",
+        "author": "",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": ""
+      },
+      {
+        "no": "12",
+        "material_description": "https://www.coursera.org/learn/full-stack-software-developer-assessment",
+        "author": "",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": ""
+      },
+      {
+        "no": "13",
+        "material_description": "https://www.coursera.support/s/article/208280036-Coursera-Code-of-Conduct?language=en_US",
+        "author": "",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": ""
+      }
+    ],
+    "clos": [
+      {
+        "no": "1",
+        "clo_name": "CLO1",
+        "clo_details": "Understanding cloud computing from a business perspective as also for becoming a cloud practitioner"
+      },
+      {
+        "no": "2",
+        "clo_name": "CLO2",
+        "clo_details": "Understanding of HTML, CSS, JS and learn how a combination of both technologies can help developers create the structure and style of their websites"
+      },
+      {
+        "no": "3",
+        "clo_name": "CLO3",
+        "clo_details": "Hands-on experience using Git and GitHub"
+      },
+      {
+        "no": "4",
+        "clo_name": "CLO4",
+        "clo_details": "Able to build rich Front-End applications with React and ES6 - connect React components using data and state - write rich React components with advanced features like Hooks and Redux"
+      },
+      {
+        "no": "5",
+        "clo_name": "CLO5",
+        "clo_details": "Able to develop applications using asynchronous callbacks and promises - create REST APIs and perform CRUD operations - implement authentication and session management"
+      },
+      {
+        "no": "6",
+        "clo_name": "CLO6",
+        "clo_details": "Understand Python basics and the different data types and creating basic programs, working with data, and automating real-world tasks using Python"
+      },
+      {
+        "no": "7",
+        "clo_name": "CLO7",
+        "clo_details": "Able to develop web applications and AI powered solutions"
+      },
+      {
+        "no": "8",
+        "clo_name": "CLO8",
+        "clo_details": "Understand fundamental database concepts and hands-on experience deploying your Django web app on the cloud"
+      },
+      {
+        "no": "9",
+        "clo_name": "CLO9",
+        "clo_details": "Able to build cloud native applications using current containerization tools and technologies such as containers, Docker, container registries, Kubernetes, OpenShift, and Istio"
+      },
+      {
+        "no": "10",
+        "clo_name": "CLO10",
+        "clo_details": "Understanding of how serverless benefits developers, learn when to use serverless programming, serverless deployment models, and discover its top use cases and design patterns"
+      },
+      {
+        "no": "11",
+        "clo_name": "CLO11",
+        "clo_details": "Able to apply new knowledge to a real-life challenge and use your expertise to develop a successful full stack solution."
+      }
+    ],
+    "schedule": [
+      {
+        "session": "1",
+        "topic": "Introduction to Cloud Computing\n- Core concepts of cloud computing.\n- Foundational knowledge required for understanding cloud computing from a business perspective as also for becoming a cloud practitioner.\n- Definition and essential characteristics of cloud computing, its history, the business case for cloud computing, and emerging technology usecases enabled by cloud.\n- Introduce to some of the prominent service providers of our times (e.g. AWS, Google, IBM, Microsoft, etc.) the services they offer, and look at some case studies of cloud computing across industry verticals.\n- Learn about the various cloud service models (IaaS, PaaS, SaaS) and deployment models (Public, Private, Hybrid) and the key components of a cloud infrastructure (VMs, Networking, Storage - File, Block, Object, CDN).\n- Cover emergent cloud trends and practices including - Hybrid Multicloud, Microservices, Serverless, DevOps, Cloud Native and Application Modernization.\n- The basics of cloud security, monitoring, and different job roles in the cloud industry.\n- Created your own account on IBM Cloud and gained some hands-on experience by provisioning a cloud service and working with it.",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "I",
+        "student_materials": "Associated Coursera links",
+        "s_download": "",
+        "student_tasks": "Complete the course\nIntroduction to Cloud Computing",
+        "urls": ""
+      },
+      {
+        "session": "2",
+        "topic": "Introduction to Web Development with HTML, CSS, JavaScript\n- Discover the languages, frameworks, and tools that you will need to create interactive and engaging websites right from the beginning.\n- Learning about the roles of front-end, back-end, and full-stack developers and how they work together on development projects.\n- Become familiar with the terminology and skills needed in your career as a web developer.\n- Explore the languages needed for developing websites or applications.\n- Understanding of HTML and CSS and learn how a combination of both technologies can help developers create the structure and style of their websites.\n- Learn how JavaScript can make your webpages dynamic with features that include interactive forms, dynamic content modification, and sophisticated menu systems",
+        "learning_teaching_type": "Online",
+        "lo": "CLO2",
+        "itu": "I",
+        "student_materials": "Associated Coursera links",
+        "s_download": "",
+        "student_tasks": "Complete course 2 of this specialization",
+        "urls": ""
+      },
+      {
+        "session": "3",
+        "topic": "Getting Started with Git and GitHub\n- Introduced to collaborative version control and popular Git platforms.\n- Explore key Git concepts such as branching and repositories, as well as the use of Git commands.\n- Practice various Git concepts such as forking, cloning and merging workflows.\n- Use GitHub to work effectively as a team, and perform common Git operations, such as Pull Requests, from both the Web UI and command line.",
+        "learning_teaching_type": "Online",
+        "lo": "CLO3",
+        "itu": "I",
+        "student_materials": "Associated Coursera links",
+        "s_download": "",
+        "student_tasks": "- Complete course 3 of this specialization",
+        "urls": ""
+      },
+      {
+        "session": "4",
+        "topic": "Developing Front-End Apps with React\n- Build rich Front-End applications with React and ES6\n- Connect React components using data and state\n- Write rich React components with advanced features like Hooks and Redux\n- Explore how to access the React web framework user interface (UI) library and run rich React applications.\n- Find ways to use React components and change their properties and states in a dynamic user interface.\n- Connect to an external server from a React page.\n- Introduces different testing tools that you can use to test the component without manual verification.\n- Demonstrate your React skills with a final project to add to your portfolio.",
+        "learning_teaching_type": "Online",
+        "lo": "CLO4",
+        "itu": "I",
+        "student_materials": "Associated Coursera links",
+        "s_download": "",
+        "student_tasks": "Complete course 4 of this spec",
+        "urls": ""
+      },
+      {
+        "session": "5",
+        "topic": "Developing Back-End Apps with Node.js and Express\n- Focus on Node.js and Express.\n- Develop applications using asynchronous callbacks and promises\n- Create REST APIs and perform CRUD operations\n- Implement authentication and session management\n- Complete numerous hands-on labs to gain practical experience.\n- Demonstrate your Node skills with a final project to build your portfolio.",
+        "learning_teaching_type": "Online",
+        "lo": "CLO5",
+        "itu": "I",
+        "student_materials": "Associated Coursera links",
+        "s_download": "",
+        "student_tasks": "- Complete course 5 of this spec",
+        "urls": ""
+      },
+      {
+        "session": "6",
+        "topic": "Python for Data Science, AI & Development\n- Learn about Python basics and the different data types.\n- Familiarize yourself with Python Data structures like List and Tuples, as well as logic concepts like conditions and branching.\n- Use Python libraries such as Pandas, Numpy & Beautiful Soup.\n- Use Python to perform tasks such as data collection and web scraping with APIs.\n- Practice and apply what you learn through hands-on labs using Jupyter Notebooks.\n- Comfortable creating basic programs, working with data, and automating real-world tasks using Python.\n- 1st Evaluation (For students completed & got Coursera's specialization certificates)",
+        "learning_teaching_type": "Online",
+        "lo": "CLO6",
+        "itu": "I",
+        "student_materials": "Associated Coursera links",
+        "s_download": "",
+        "student_tasks": "- Complete course 6 of this spec",
+        "urls": ""
+      },
+      {
+        "session": "7",
+        "topic": "Python Project for AI & Application Development\n- Apply basic Python skills for developing Artificial Intelligence (AI) enabled applications.\n- Develop functions and application logic\n- Exchange data using Watson APIs\n- Write unit tests,\n- Package the application for distribution.\n- Demonstrate your foundational Python skills by employing different techniques to develop web applications and AI powered solutions.",
+        "learning_teaching_type": "Online",
+        "lo": "CLO7",
+        "itu": "IT",
+        "student_materials": "Associated Coursera links",
+        "s_download": "",
+        "student_tasks": "- Complete course 7 of this spec",
+        "urls": ""
+      },
+      {
+        "session": "8",
+        "topic": "Developing Applications with SQL, Databases, and Django\n- Describe what is a database and how to model data\n- Compose SQL queries to insert, select, update, delete data in a database\n- Understand Object Relational Model (ORM)\n- Employ Django to develop database-powered applications\n- Deploy your Django app on the cloud Prerequisites:\n- GitHub - HTML & CSS - Python",
+        "learning_teaching_type": "Online",
+        "lo": "CLO8",
+        "itu": "I",
+        "student_materials": "Associated Coursera links",
+        "s_download": "",
+        "student_tasks": "- Complete course 8 of this spec",
+        "urls": ""
+      },
+      {
+        "session": "9",
+        "topic": "Introduction to Containers w/ Docker, Kubernetes & OpenShift\n- Learn how to build cloud native applications using current containerization tools and technologies such as containers, Docker, container registries, Kubernetes, OpenShift, and Istio.\n- Learn how to deploy and scale your applications in any public, private, or hybrid cloud.\n- Apply what you learn in hands-on, browser-based labs.\n- Be able to build a container image, then deploy and scale your container on the cloud using OpenShift.",
+        "learning_teaching_type": "Online",
+        "lo": "CLO9",
+        "itu": "I",
+        "student_materials": "Associated Coursera links",
+        "s_download": "",
+        "student_tasks": "- Complete course 9 of this spec",
+        "urls": ""
+      },
+      {
+        "session": "10",
+        "topic": "Application Development using Microservices and Serverless\n- Understanding of how serverless benefits developers,\n- Learn when to use serverless programming, serverless deployment models, and discover its top use cases and design patterns.\n- Discover how serverless supports continuous integration and continuous delivery (CI/CD) and microservices integration.\n- Hands-on labs reinforce serverless programming concepts for creation, deployment, and invocation of cloud-based functions—including the deployment of microservices using OpenShift and Istio.\n- The confidence to build a multi-tier web app that uses IBM Cloud Functions, OpenShift, Istio, and more.",
+        "learning_teaching_type": "Online",
+        "lo": "CLO10",
+        "itu": "I",
+        "student_materials": "Associated Coursera links",
+        "s_download": "",
+        "student_tasks": "- Complete course 10 of this spec",
+        "urls": ""
+      },
+      {
+        "session": "11",
+        "topic": "Full Stack Cloud Development Capstone Project\n- Demonstrate the skills that you have mastered in cloud native application development.\n- Apply your new knowledge to a real-life challenge and use your expertise to develop a successful solution.\n- Provides you with an opportunity to solidify your full stack proficiency.\n- As you design a dynamic user experience, you will work with GitHub actions to build, test, and deploy your application.\n- Develop frontend pages, add user administration, build actions for database operations, create backend services, make connections with cloud native APIs, and launch CI/CD pipelines.\n- Boost your capabilities with cloud native services, JavaScript, Django, JSON, IBM Cloud Foundry, Python, and Kubernetes.\n- Devise a solution for managing the containerized deployment of your application.",
+        "learning_teaching_type": "Online",
+        "lo": "CLO11",
+        "itu": "I",
+        "student_materials": "Associated Coursera links",
+        "s_download": "",
+        "student_tasks": "- Complete course 11 of this spec",
+        "urls": ""
+      },
+      {
+        "session": "12",
+        "topic": "Full Stack Software Developer Assessment\nCore concepts in cloud computing\nWeb development languages including HTML, CSS, and JavaScript\nGit and GitHub\nNode.js and React\nContainers\nPython\nDatabase concepts and related technologies such as SQL and Django\nMicroservices and serverless computing",
+        "learning_teaching_type": "Offline",
+        "lo": "All LOs",
+        "itu": "ITU",
+        "student_materials": "Associated Coursera links",
+        "s_download": "",
+        "student_tasks": "- Complete course 12 of this spec\n- Deadline of Coursera Completion: End of Friday of the week.",
+        "urls": ""
+      }
+    ],
+    "assessments": [
+      {
+        "no": "1",
+        "category": "Final exam",
+        "type": "Final exam",
+        "part": "1",
+        "weight": "100.0%",
+        "completion_criteria": "4",
+        "duration": "60'",
+        "clo": "All LOs",
+        "question_type": "Multiple choicesMarked by Computer",
+        "no_question": "50",
+        "knowledge_and_skill": "All studied courses. Each module of course contributes 4-5 questions.",
+        "grading_guide": "by exam board,\nusing computer",
+        "note": "Customized from the quizzes of this specialization.\n1st Evaluation: For students who completed & got Coursera's specialization certificates (Option at week 9);\n2nd Evaluation: For students who completed & got Coursera's specialization certificates) at week 13;\n3rd Evaluation: For students who completed & got Coursera's specialization certificates) at week 14."
+      }
+    ]
+  },
+  "source": {
+    "raw_file": "flm_output/subjects/DWP301c.json",
+    "curriculum_url": "https://flm.fpt.edu.vn/gui/role/student/CurriculumDetails?curid=3173",
+    "pre_syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/Syllabuses?subCode=DWP301c&curriculumID=3173",
+    "syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=12631",
+    "details_source_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=12631"
+  },
+  "crawl": {
+    "error": null
+  },
+  "quality": {
+    "has_syllabus": true,
+    "counts": {
+      "materials": 13,
+      "clos": 11,
+      "schedule": 12,
+      "assessments": 1
+    },
+    "warnings": []
+  }
+}

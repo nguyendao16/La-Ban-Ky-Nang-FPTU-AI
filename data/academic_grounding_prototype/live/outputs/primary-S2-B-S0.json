@@ -1,0 +1,25 @@
+{
+  "reply": "CSI106 cho bạn ba nền tảng chính đúng với hai mảng bạn hỏi: (1) biểu diễn dữ liệu, qua phần mô tả môn nêu “Numbering system & data representation” và CLO2 về chuyển đổi cơ số 10/2/8/16; (2) cách dữ liệu được lưu trong máy tính, qua CLO3 nói về dữ liệu dưới dạng bit patterns và các phép toán trên dữ liệu; (3) mạng máy tính, qua CLO4 về các tầng mạng, Internet và mối quan hệ giữa chúng. Nếu nhìn theo hướng Backend Engineering, đây là nền tảng để hiểu cách dữ liệu đi vào/ra hệ thống, cách dịch vụ giao tiếp qua mạng và cách môi trường vận hành của backend hoạt động, nhưng bản thân CSI106 vẫn là kiến thức nền chứ chưa phải bằng chứng trực tiếp cho FastAPI, SQLAlchemy hay event-driven backend cụ thể.\n\nHelp build Python REST APIs/services with FastAPI and SQLAlchemy; maintain schemas/queries/caching; integrate AI and enterprise services; contribute to event-driven systems and pipelines.",
+  "evidence": [
+    {
+      "course_code": "CSI106",
+      "metadata_field": "description"
+    },
+    {
+      "course_code": "CSI106",
+      "clo": "CLO2"
+    },
+    {
+      "course_code": "CSI106",
+      "clo": "CLO3"
+    },
+    {
+      "course_code": "CSI106",
+      "clo": "CLO4"
+    },
+    {
+      "course_code": "CSI106",
+      "clo": "CLO5"
+    }
+  ]
+}

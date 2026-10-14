@@ -1,0 +1,92 @@
+{
+  "CLO1": [
+    "- Course Introduction\n- Project Topic Introduction and discuss",
+    "- Project Topic Introduction and discuss\n- Student create group\n- Student register the topic",
+    "- Student presents Project Planning",
+    "- Student presents Project Planning (cont)",
+    "Project:\n1.1. Data Analysis with Python- importing Datasets 1\n1.2. Data Analysis with Python- importing Datasets 2",
+    "Project:\n1.3 Data Analysis with Python- Data Wrangling 1\n1.4 Data Analysis with Python- Data Wrangling 2",
+    "- Project review",
+    "- Project review (cont)",
+    "- Evaluate final project",
+    "- Evaluate final project (cont)",
+    "- Evaluate final project (cont)\n- Review course"
+  ],
+  "CLO2": [
+    "- Course Introduction\n- Project Topic Introduction and discuss",
+    "- Project report 2: P1\n+ Data Analysis",
+    "- Project report 2: P2\n+ Data Analysis",
+    "- Project report 2: P3\n+ Data Analysis",
+    "- Project report 2: P4\n+ Data Analysis",
+    "- Project:\n1.5 Data Analysis with Python- Exploratory Data Analysis 1",
+    "- Project:\n1.6 Data Analysis with Python- Exploratory Data Analysis 2",
+    "- Project review",
+    "- Project review (cont)",
+    "- Evaluate final project",
+    "- Evaluate final project (cont)",
+    "- Evaluate final project (cont)\n- Review course"
+  ],
+  "CLO3": [
+    "- Course Introduction\n- Project Topic Introduction and discuss",
+    "- Project review",
+    "- Project review (cont)",
+    "- Evaluate final project",
+    "- Evaluate final project (cont)",
+    "- Evaluate final project (cont)\n- Review course"
+  ],
+  "CLO4": [
+    "- Course Introduction\n- Project Topic Introduction and discuss",
+    "- Project report 1: P1\n+ Business Understanding",
+    "- Project report 1: P2\n+ Data Understand: Collect data, understand data",
+    "- Project report 1: P3\n+ Perform data preprocessing",
+    "- Project:\n2.5 Advanced Visualizations and Geospatial Data 1",
+    "- Project:\n2.6 Advanced Visualizations and Geospatial Data 2",
+    "- Project:\n2.7 Data Visualization with Python- Creating Dashboards with Plotly and Dash 1",
+    "- Project:\n2.8 Data Visualization with Python- Creating Dashboards with Plotly and Dash 2",
+    "- Project review",
+    "- Project review (cont)",
+    "- Evaluate final project",
+    "- Evaluate final project (cont)",
+    "- Evaluate final project (cont)\n- Review course"
+  ],
+  "CLO5": [
+    "- Project report 4: P1\n+ Chatbot: Create and integrate",
+    "- Project report 4: P2\n+ Chatbot: Create and integrate",
+    "- Project report 4: P3\n+ Chatbot: Create and integrate",
+    "- Project report 4: P4\n+ Chatbot: Create and integrate",
+    "- Evaluate final project",
+    "- Evaluate final project (cont)",
+    "- Evaluate final project (cont)\n- Review course"
+  ],
+  "CLO6": [
+    "- Project:\n3.1 Building AI Applications with Watson APIs- Introduction 1",
+    "- Project:\n3.2 Building AI Applications with Watson APIs- Introduction 2",
+    "- Project:\n3.3 Building AI Applications with Watson APIs- Giving it a Voice 1",
+    "- Project:\n3.4 Building AI Applications with Watson APIs- Giving it a Voice 2",
+    "- Project:\n3.5 Building AI Applications with Watson APIs- Deployment 1",
+    "- Project:\n3.6 Building AI Applications with Watson APIs- Deployment 2",
+    "- Project Report 5: P1\n+ Build model for prediction",
+    "- Project Report 5: P2\n+ Build model for prediction",
+    "- Project Report 5: P3\n+ Build model for prediction",
+    "- Project Report 5: P4\n+ Build model for prediction",
+    "- Project:\n1. 7 Data Analysis with Python- Model Development 1",
+    "- Project:\n1.8 Data Analysis with Python- Model Development 2",
+    "- Project:\n1.9 Data Analysis with Python- Model Evaluation 1",
+    "- Project:\n1.10 Data Analysis with Python- Model Evaluation 2",
+    "- Project report 5: P1\n+ Develop applications and AI powered solutions.",
+    "- Project report 5: P2\n+ Develop applications and AI powered solutions.",
+    "- Project report 5: P3\n+ Develop applications and AI powered solutions.",
+    "- Project report 5: P4\n+ Develop applications and AI powered solutions.",
+    "- Evaluate final project",
+    "- Evaluate final project (cont)",
+    "- Evaluate final project (cont)\n- Review course"
+  ],
+  "CLO7": [
+    "- Project:\n4.1 Applied Data Science Capstone: Introduction 1\n4.2 Applied Data Science Capstone: Introduction 2",
+    "- Project:\n4.3 Applied Data Science Capstone: Interactive Visual Analytics and Dashboard 1\n4.4 Applied Data Science Capstone: Interactive Visual Analytics and Dashboard 2\n4.5 Applied Data Science Capstone: Predictive Analysis (Classification) 1\n4.6 Applied Data Science Capstone: Predictive Analysis (Classification) 2",
+    "- Project:\n4.7 Applied Data Science Capstone: Present Your Data-Driven Insights 1\n4.8 Applied Data Science Capstone: Present Your Data-Driven Insights 2\n'- Progress test",
+    "- Evaluate final project",
+    "- Evaluate final project (cont)",
+    "- Evaluate final project (cont)\n- Review course"
+  ]
+}

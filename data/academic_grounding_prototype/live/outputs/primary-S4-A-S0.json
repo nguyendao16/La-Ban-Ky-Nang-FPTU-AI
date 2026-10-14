@@ -1,0 +1,41 @@
+{
+  "reply": "Cụm đó nằm ngay trong `metadata.tools` của môn **MAD101**: `Computerized tools (for example C programming tools, Maxima)`.\n\nNó cho thấy đây là **bối cảnh công cụ của môn học**, chứ **không** xác nhận rằng bạn đã sử dụng riêng từng công cụ đó. Trong hồ sơ bạn gửi, mình cũng **không thấy CLO nào tách riêng để chấm điểm cho C programming tools hay Maxima**; các CLO của MAD101 đang đánh giá nội dung toán rời rạc như logic mệnh đề/vị từ, tập hợp-hàm-dãy, độ phức tạp thuật toán, số học mô-đun, quy nạp-đệ quy, đếm, đồ thị và cây.\n\nNếu bạn muốn, mình có thể chỉ ra chính xác những CLO nào của MAD101 là relevant nhất để giải thích phần công cụ này như một ngữ cảnh học phần, không phải bằng chứng sử dụng cá nhân.",
+  "evidence": [
+    {
+      "course_code": "MAD101",
+      "metadata_field": "tools"
+    },
+    {
+      "course_code": "MAD101",
+      "clo": "CLO1"
+    },
+    {
+      "course_code": "MAD101",
+      "clo": "CLO2"
+    },
+    {
+      "course_code": "MAD101",
+      "clo": "CLO3"
+    },
+    {
+      "course_code": "MAD101",
+      "clo": "CLO4"
+    },
+    {
+      "course_code": "MAD101",
+      "clo": "CLO5"
+    },
+    {
+      "course_code": "MAD101",
+      "clo": "CLO6"
+    },
+    {
+      "course_code": "MAD101",
+      "clo": "CLO7"
+    },
+    {
+      "course_code": "MAD101",
+      "clo": "CLO8"
+    }
+  ]
+}

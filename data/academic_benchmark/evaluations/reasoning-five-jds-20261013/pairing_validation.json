@@ -1,0 +1,485 @@
+{
+  "passed": true,
+  "operations": [
+    {
+      "operation": "chat-JD01-2",
+      "checks": {
+        "full_profile": true,
+        "correct_jd": true,
+        "correct_model": true,
+        "correct_effort": true,
+        "correct_timeout": true,
+        "correct_output_ceiling": true,
+        "temperature_omitted": true,
+        "no_storage_or_truncation": true,
+        "preflight_context_matches": true,
+        "preflight_schema_matches": true,
+        "correct_review": true,
+        "correct_question": true,
+        "full_history": true,
+        "history_contents_match_prior_outputs": true
+      },
+      "passed": true
+    },
+    {
+      "operation": "chat-JD01-4",
+      "checks": {
+        "full_profile": true,
+        "correct_jd": true,
+        "correct_model": true,
+        "correct_effort": true,
+        "correct_timeout": true,
+        "correct_output_ceiling": true,
+        "temperature_omitted": true,
+        "no_storage_or_truncation": true,
+        "preflight_context_matches": true,
+        "preflight_schema_matches": true,
+        "correct_review": true,
+        "correct_question": true,
+        "full_history": true,
+        "history_contents_match_prior_outputs": true
+      },
+      "passed": true
+    },
+    {
+      "operation": "chat-JD01-3",
+      "checks": {
+        "full_profile": true,
+        "correct_jd": true,
+        "correct_model": true,
+        "correct_effort": true,
+        "correct_timeout": true,
+        "correct_output_ceiling": true,
+        "temperature_omitted": true,
+        "no_storage_or_truncation": true,
+        "preflight_context_matches": true,
+        "preflight_schema_matches": true,
+        "correct_review": true,
+        "correct_question": true,
+        "full_history": true,
+        "history_contents_match_prior_outputs": true
+      },
+      "passed": true
+    },
+    {
+      "operation": "review-JD01",
+      "checks": {
+        "full_profile": true,
+        "correct_jd": true,
+        "correct_model": true,
+        "correct_effort": true,
+        "correct_timeout": true,
+        "correct_output_ceiling": true,
+        "temperature_omitted": true,
+        "no_storage_or_truncation": true,
+        "preflight_context_matches": true,
+        "preflight_schema_matches": true
+      },
+      "passed": true
+    },
+    {
+      "operation": "chat-JD01-1",
+      "checks": {
+        "full_profile": true,
+        "correct_jd": true,
+        "correct_model": true,
+        "correct_effort": true,
+        "correct_timeout": true,
+        "correct_output_ceiling": true,
+        "temperature_omitted": true,
+        "no_storage_or_truncation": true,
+        "preflight_context_matches": true,
+        "preflight_schema_matches": true,
+        "correct_review": true,
+        "correct_question": true,
+        "full_history": true,
+        "history_contents_match_prior_outputs": true
+      },
+      "passed": true
+    },
+    {
+      "operation": "chat-JD05-2",
+      "checks": {
+        "full_profile": true,
+        "correct_jd": true,
+        "correct_model": true,
+        "correct_effort": true,
+        "correct_timeout": true,
+        "correct_output_ceiling": true,
+        "temperature_omitted": true,
+        "no_storage_or_truncation": true,
+        "preflight_context_matches": true,
+        "preflight_schema_matches": true,
+        "correct_review": true,
+        "correct_question": true,
+        "full_history": true,
+        "history_contents_match_prior_outputs": true
+      },
+      "passed": true
+    },
+    {
+      "operation": "chat-JD05-3",
+      "checks": {
+        "full_profile": true,
+        "correct_jd": true,
+        "correct_model": true,
+        "correct_effort": true,
+        "correct_timeout": true,
+        "correct_output_ceiling": true,
+        "temperature_omitted": true,
+        "no_storage_or_truncation": true,
+        "preflight_context_matches": true,
+        "preflight_schema_matches": true,
+        "correct_review": true,
+        "correct_question": true,
+        "full_history": true,
+        "history_contents_match_prior_outputs": true
+      },
+      "passed": true
+    },
+    {
+      "operation": "chat-JD05-4",
+      "checks": {
+        "full_profile": true,
+        "correct_jd": true,
+        "correct_model": true,
+        "correct_effort": true,
+        "correct_timeout": true,
+        "correct_output_ceiling": true,
+        "temperature_omitted": true,
+        "no_storage_or_truncation": true,
+        "preflight_context_matches": true,
+        "preflight_schema_matches": true,
+        "correct_review": true,
+        "correct_question": true,
+        "full_history": true,
+        "history_contents_match_prior_outputs": true
+      },
+      "passed": true
+    },
+    {
+      "operation": "chat-JD05-1",
+      "checks": {
+        "full_profile": true,
+        "correct_jd": true,
+        "correct_model": true,
+        "correct_effort": true,
+        "correct_timeout": true,
+        "correct_output_ceiling": true,
+        "temperature_omitted": true,
+        "no_storage_or_truncation": true,
+        "preflight_context_matches": true,
+        "preflight_schema_matches": true,
+        "correct_review": true,
+        "correct_question": true,
+        "full_history": true,
+        "history_contents_match_prior_outputs": true
+      },
+      "passed": true
+    },
+    {
+      "operation": "review-JD05",
+      "checks": {
+        "full_profile": true,
+        "correct_jd": true,
+        "correct_model": true,
+        "correct_effort": true,
+        "correct_timeout": true,
+        "correct_output_ceiling": true,
+        "temperature_omitted": true,
+        "no_storage_or_truncation": true,
+        "preflight_context_matches": true,
+        "preflight_schema_matches": true
+      },
+      "passed": true
+    },
+    {
+      "operation": "chat-JD07-4",
+      "checks": {
+        "full_profile": true,
+        "correct_jd": true,
+        "correct_model": true,
+        "correct_effort": true,
+        "correct_timeout": true,
+        "correct_output_ceiling": true,
+        "temperature_omitted": true,
+        "no_storage_or_truncation": true,
+        "preflight_context_matches": true,
+        "preflight_schema_matches": true,
+        "correct_review": true,
+        "correct_question": true,
+        "full_history": true,
+        "history_contents_match_prior_outputs": true
+      },
+      "passed": true
+    },
+    {
+      "operation": "chat-JD07-1",
+      "checks": {
+        "full_profile": true,
+        "correct_jd": true,
+        "correct_model": true,
+        "correct_effort": true,
+        "correct_timeout": true,
+        "correct_output_ceiling": true,
+        "temperature_omitted": true,
+        "no_storage_or_truncation": true,
+        "preflight_context_matches": true,
+        "preflight_schema_matches": true,
+        "correct_review": true,
+        "correct_question": true,
+        "full_history": true,
+        "history_contents_match_prior_outputs": true
+      },
+      "passed": true
+    },
+    {
+      "operation": "chat-JD07-3",
+      "checks": {
+        "full_profile": true,
+        "correct_jd": true,
+        "correct_model": true,
+        "correct_effort": true,
+        "correct_timeout": true,
+        "correct_output_ceiling": true,
+        "temperature_omitted": true,
+        "no_storage_or_truncation": true,
+        "preflight_context_matches": true,
+        "preflight_schema_matches": true,
+        "correct_review": true,
+        "correct_question": true,
+        "full_history": true,
+        "history_contents_match_prior_outputs": true
+      },
+      "passed": true
+    },
+    {
+      "operation": "chat-JD07-2",
+      "checks": {
+        "full_profile": true,
+        "correct_jd": true,
+        "correct_model": true,
+        "correct_effort": true,
+        "correct_timeout": true,
+        "correct_output_ceiling": true,
+        "temperature_omitted": true,
+        "no_storage_or_truncation": true,
+        "preflight_context_matches": true,
+        "preflight_schema_matches": true,
+        "correct_review": true,
+        "correct_question": true,
+        "full_history": true,
+        "history_contents_match_prior_outputs": true
+      },
+      "passed": true
+    },
+    {
+      "operation": "review-JD07",
+      "checks": {
+        "full_profile": true,
+        "correct_jd": true,
+        "correct_model": true,
+        "correct_effort": true,
+        "correct_timeout": true,
+        "correct_output_ceiling": true,
+        "temperature_omitted": true,
+        "no_storage_or_truncation": true,
+        "preflight_context_matches": true,
+        "preflight_schema_matches": true
+      },
+      "passed": true
+    },
+    {
+      "operation": "chat-JD10-4",
+      "checks": {
+        "full_profile": true,
+        "correct_jd": true,
+        "correct_model": true,
+        "correct_effort": true,
+        "correct_timeout": true,
+        "correct_output_ceiling": true,
+        "temperature_omitted": true,
+        "no_storage_or_truncation": true,
+        "preflight_context_matches": true,
+        "preflight_schema_matches": true,
+        "correct_review": true,
+        "correct_question": true,
+        "full_history": true,
+        "history_contents_match_prior_outputs": true
+      },
+      "passed": true
+    },
+    {
+      "operation": "chat-JD10-2",
+      "checks": {
+        "full_profile": true,
+        "correct_jd": true,
+        "correct_model": true,
+        "correct_effort": true,
+        "correct_timeout": true,
+        "correct_output_ceiling": true,
+        "temperature_omitted": true,
+        "no_storage_or_truncation": true,
+        "preflight_context_matches": true,
+        "preflight_schema_matches": true,
+        "correct_review": true,
+        "correct_question": true,
+        "full_history": true,
+        "history_contents_match_prior_outputs": true
+      },
+      "passed": true
+    },
+    {
+      "operation": "review-JD10",
+      "checks": {
+        "full_profile": true,
+        "correct_jd": true,
+        "correct_model": true,
+        "correct_effort": true,
+        "correct_timeout": true,
+        "correct_output_ceiling": true,
+        "temperature_omitted": true,
+        "no_storage_or_truncation": true,
+        "preflight_context_matches": true,
+        "preflight_schema_matches": true
+      },
+      "passed": true
+    },
+    {
+      "operation": "chat-JD10-3",
+      "checks": {
+        "full_profile": true,
+        "correct_jd": true,
+        "correct_model": true,
+        "correct_effort": true,
+        "correct_timeout": true,
+        "correct_output_ceiling": true,
+        "temperature_omitted": true,
+        "no_storage_or_truncation": true,
+        "preflight_context_matches": true,
+        "preflight_schema_matches": true,
+        "correct_review": true,
+        "correct_question": true,
+        "full_history": true,
+        "history_contents_match_prior_outputs": true
+      },
+      "passed": true
+    },
+    {
+      "operation": "chat-JD10-1",
+      "checks": {
+        "full_profile": true,
+        "correct_jd": true,
+        "correct_model": true,
+        "correct_effort": true,
+        "correct_timeout": true,
+        "correct_output_ceiling": true,
+        "temperature_omitted": true,
+        "no_storage_or_truncation": true,
+        "preflight_context_matches": true,
+        "preflight_schema_matches": true,
+        "correct_review": true,
+        "correct_question": true,
+        "full_history": true,
+        "history_contents_match_prior_outputs": true
+      },
+      "passed": true
+    },
+    {
+      "operation": "chat-JD11-4",
+      "checks": {
+        "full_profile": true,
+        "correct_jd": true,
+        "correct_model": true,
+        "correct_effort": true,
+        "correct_timeout": true,
+        "correct_output_ceiling": true,
+        "temperature_omitted": true,
+        "no_storage_or_truncation": true,
+        "preflight_context_matches": true,
+        "preflight_schema_matches": true,
+        "correct_review": true,
+        "correct_question": true,
+        "full_history": true,
+        "history_contents_match_prior_outputs": true
+      },
+      "passed": true
+    },
+    {
+      "operation": "chat-JD11-2",
+      "checks": {
+        "full_profile": true,
+        "correct_jd": true,
+        "correct_model": true,
+        "correct_effort": true,
+        "correct_timeout": true,
+        "correct_output_ceiling": true,
+        "temperature_omitted": true,
+        "no_storage_or_truncation": true,
+        "preflight_context_matches": true,
+        "preflight_schema_matches": true,
+        "correct_review": true,
+        "correct_question": true,
+        "full_history": true,
+        "history_contents_match_prior_outputs": true
+      },
+      "passed": true
+    },
+    {
+      "operation": "review-JD11",
+      "checks": {
+        "full_profile": true,
+        "correct_jd": true,
+        "correct_model": true,
+        "correct_effort": true,
+        "correct_timeout": true,
+        "correct_output_ceiling": true,
+        "temperature_omitted": true,
+        "no_storage_or_truncation": true,
+        "preflight_context_matches": true,
+        "preflight_schema_matches": true
+      },
+      "passed": true
+    },
+    {
+      "operation": "chat-JD11-3",
+      "checks": {
+        "full_profile": true,
+        "correct_jd": true,
+        "correct_model": true,
+        "correct_effort": true,
+        "correct_timeout": true,
+        "correct_output_ceiling": true,
+        "temperature_omitted": true,
+        "no_storage_or_truncation": true,
+        "preflight_context_matches": true,
+        "preflight_schema_matches": true,
+        "correct_review": true,
+        "correct_question": true,
+        "full_history": true,
+        "history_contents_match_prior_outputs": true
+      },
+      "passed": true
+    },
+    {
+      "operation": "chat-JD11-1",
+      "checks": {
+        "full_profile": true,
+        "correct_jd": true,
+        "correct_model": true,
+        "correct_effort": true,
+        "correct_timeout": true,
+        "correct_output_ceiling": true,
+        "temperature_omitted": true,
+        "no_storage_or_truncation": true,
+        "preflight_context_matches": true,
+        "preflight_schema_matches": true,
+        "correct_review": true,
+        "correct_question": true,
+        "full_history": true,
+        "history_contents_match_prior_outputs": true
+      },
+      "passed": true
+    }
+  ]
+}

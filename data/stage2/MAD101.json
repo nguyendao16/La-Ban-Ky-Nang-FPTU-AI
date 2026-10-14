@@ -1,0 +1,311 @@
+{
+  "metadata": {
+    "syllabus_name": "Toán rời rạc",
+    "course_name_english": "Discrete mathematics",
+    "subject_code": "MAD101",
+    "description": "Upon finishing the course, students must acquire:\n1. the following knowledge: (ABET a.1)\n• Concepts of logical expressions & predicate logic.\n• The method of induction and recursive definition.\n• Concepts of algorithms, recursive algorithms, the complexity.\n• Recurrence relations and divide-and-conquer algorithms.\n• Application of integers and congruence in information technology.\n• Set structure and map, counting principles and combinatorics concepts.\n• The terminologies and properties of graphs & trees & weighted graphs.\n• The applications of graphs, trees and weighted graphs in information technology.\n2. the following skills: (ABET a.2)\n• Manipulate logical expressions & produce equivalent logical expressions.\n• Produce proof of simple mathematical propositions, including applying induction method.\n• Evaluate complexity of algorithms.\n• Solving simple congruence equations.\n• Apply counting techniques in evaluating various set cardinalities.\n• Solve counting problems, apply in analyze algorithms.\n• Apply graph’s algorithms to solve problems related to graph theory.",
+    "tools": "- Testbank for ST1.\n- Powerpoint image in CD + Powerpoint prepared by previous lecturers (PP).\n- Computerized tools (for example C programming tools, Maxima http://maxima.sourceforge.net/) (CT)\n- Teaching Suggestion and Applications of Discrete Mathematics for ST1 (TS)."
+  },
+  "clos": [
+    {
+      "clo_name": "CLO1",
+      "clo_details": "Manipulate logical expressions and use logic for inference\nLO1.1 Determine the truth value of a proposition; check if two propositions are equivalent; translate between logical expressions and sentences for propositional logic.\nLO1.2 Determine the truth value of a proposition; check if two propositions are equivalent; translate between logical expressions and sentences for predicate logic.\nLO1.3 Manipulate logical expressions with nested quantifiers.\nLO1.4 Recognize the inference rules used in a valid statemment; use inference rules to draw conclusions; check if a statement is valid."
+    },
+    {
+      "clo_name": "CLO2",
+      "clo_details": "Perform basic operations on sets, functions and sequences\nLO2.1 Distinguish basic terminologies in set theory; find the power set and cartersian product; represent a subset using binary bits.\nLO2.2 Perform operations on sets; check if two sets are equal.\nLO2.3 Determine if a given rule represents a function; perform operations on functions and manipulate functions inlvolving the floor and the ceiling functions.\nLO2.4 Determine if a function is one-to-one, onto or a bijection, and describe how these properties can be used to compare two sets.\nLO2.5 Find a formula for a sequence; evaluate a finite sum with a possible use of special summations."
+    },
+    {
+      "clo_name": "CLO3",
+      "clo_details": "Analyze basic algorithms written in pseudo codes and determine their complexities\nLO3.1 Determine if a procedure is an algorithm; work out basic algorithms written in pseudocodes including searching, sorting and greedy algorithms.\nLO3.2 Find big-O, big-Omega and big-Theta estimates of a function; describe complexity of an algorithm."
+    },
+    {
+      "clo_name": "CLO4",
+      "clo_details": "Discuss applications of modular arithmetic and analyze algorithms on integers\nLO4.1 Perform integer division and modular arithmetic; apply congruence in generating pseudorandom numbers and in cryptology.\nLO4.2 Find the base b expansion of an integer; perform binary operations and modular exponentiation on integers.\nLO4.3 Check if a number is prime and find prime factorization of an integer; find greatest common divisor and least common multiple."
+    },
+    {
+      "clo_name": "CLO5",
+      "clo_details": "Use induction and recursive definition to prove a statement or to describe an object, and write recursive algorithms\nLO5.1 Prove mathematical statements by induction.\nLO5.2 Manipulate sequences and sets defined by recursion.\nLO5.3 Work out recursive algorithms, including the mergesort algorithm; distinguish between iterative and recursive algorithms."
+    },
+    {
+      "clo_name": "CLO6",
+      "clo_details": "Solve counting problems\nLO6.1 Use basic rules for counting\nLO6.2 Use recurrence relations for counting, including divide-and-conquer recurrence relations."
+    },
+    {
+      "clo_name": "CLO7",
+      "clo_details": "Analyze the structure of a graph and find shortest paths in a weighted graph\nLO7.1 Classify and describe a graph; use hand-shaking theorem to analyze a graph; identify special graphs including bipartite graphs.\nLO7.2 Represent a graph using incidence and adjacency matrices; determine if two graphs are isomorphic.\nLO7.3 Check connectivity of a graph and identify its connected components; count paths in a graph.\nLO7.4 Determine if a graph has Euler/Hamilton paths/circuits; find Euler and Hamilton paths/circuits in a graph.\nLO7.5 Run Dijsktra's algorithm to determine the shortest paths and the shortest distance in a weighted graph."
+    },
+    {
+      "clo_name": "CLO8",
+      "clo_details": "Analyze the structure of a tree and describe algorithms using trees\nLO8.1 Check if a graph is a tree, and identify basic terminologies of a tree; use properties of m-ary trees to solve problems.\nLO8.2 Build binary search trees and decision trees; analyze complexities of algorithms described using binary search trees and decision trees.\nLO8.3 Recognize and construct prefix codes; build optimal trees using Huffman coding.\nLO8.4 Traverse a tree and use tree traversal to generate notations; evaluate prefix and postfix expressions.\nLO8.5 Run Depth-first search and Breadth-first search algorithms to find spanning trees\nLO8.6 Find minimum spanning trees using Prim, Kruskal,... algorithms"
+    }
+  ],
+  "schedule": [
+    {
+      "topic": "0 Introduction\n1.1 Propositional Logic (1.1 and 1.2, skip the topic on Logic Circuits)",
+      "lo": "LO1"
+    },
+    {
+      "topic": "1.2 Propositional Equivalences (1.3, skip the topic on Satisfiability)",
+      "lo": "LO1"
+    },
+    {
+      "topic": "1.3 Predicates (1.4)",
+      "lo": "LO1"
+    },
+    {
+      "topic": "1.3 Quantifiers",
+      "lo": "LO1"
+    },
+    {
+      "topic": "1.4 Nested Quantifiers (1.5)",
+      "lo": "LO1"
+    },
+    {
+      "topic": "1.4 Nested Quantifiers (1.5) (cont.)",
+      "lo": "LO1"
+    },
+    {
+      "topic": "1.5 Rules of Inference (1.6)",
+      "lo": "LO1"
+    },
+    {
+      "topic": "1.5 Rules of Inference (1.6) (cont.)",
+      "lo": "LO1"
+    },
+    {
+      "topic": "2.1 Introduction to sets",
+      "lo": "LO2"
+    },
+    {
+      "topic": "2.2 Set operations",
+      "lo": "LO2"
+    },
+    {
+      "topic": "2.3 Functions (2.3, skip the topic on Partial Functions)",
+      "lo": "LO2"
+    },
+    {
+      "topic": "2.3 Functions (2.3, skip the topic on Partial Functions) (cont.)",
+      "lo": "LO2"
+    },
+    {
+      "topic": "2.4 Sequences and Summations (2.4, skip the topic on Recurrence relations)",
+      "lo": "LO2"
+    },
+    {
+      "topic": "2.4 Sequences and Summations (2.4, skip the topic on Recurrence relations) (cont.)",
+      "lo": "LO2"
+    },
+    {
+      "topic": "5.1 Basic Counting Principles (6.1)",
+      "lo": "LO6"
+    },
+    {
+      "topic": "5.1 Basic Counting Principles (6.1) (continued)",
+      "lo": "LO6"
+    },
+    {
+      "topic": "Review",
+      "lo": "LO1, LO2, LO6"
+    },
+    {
+      "topic": "Progress Test 1",
+      "lo": "LO1, LO2, LO6"
+    },
+    {
+      "topic": "3.1 Algorithms",
+      "lo": "LO3"
+    },
+    {
+      "topic": "3.2 The Growth of Functions",
+      "lo": "LO3"
+    },
+    {
+      "topic": "3.3 Complexity of Algorithms (3.3, skip the topics on Matrix multiplication, Algorithmic Paradigms)",
+      "lo": "LO3"
+    },
+    {
+      "topic": "3.4 The Integers and Division (4.1, 4.5, and the topic on Classical Cryptography 4.6)",
+      "lo": "LO4"
+    },
+    {
+      "topic": "3.4 The Integers and Division (4.1, 4.5, and the topic on Classical Cryptography 4.6) (cont.)",
+      "lo": "LO4"
+    },
+    {
+      "topic": "3.5 Primes and Greatest Common Divisors (4.3)",
+      "lo": "LO4"
+    },
+    {
+      "topic": "3.5 Primes and Greatest Common Divisors (4.3) (cont.)",
+      "lo": "LO4"
+    },
+    {
+      "topic": "3.6 Intergers and Algorithms (4.2)",
+      "lo": "LO4"
+    },
+    {
+      "topic": "3.6 Intergers and Algorithms (4.2) (cont.)",
+      "lo": "LO4"
+    },
+    {
+      "topic": "3.6 Intergers and Algorithms (4.2) (cont.)",
+      "lo": "LO4"
+    },
+    {
+      "topic": "4.1 Mathematical Induction (5.1)",
+      "lo": "LO5"
+    },
+    {
+      "topic": "4.2 Strong Induction (5.2)",
+      "lo": "LO5"
+    },
+    {
+      "topic": "4.3 Recursive Definitions and Structural Induction (5.3)",
+      "lo": "LO5"
+    },
+    {
+      "topic": "4.3 Recursive Definitions and Structural Induction (5.3) (cont.)",
+      "lo": "LO5"
+    },
+    {
+      "topic": "4.4 Recursive Algorithms (5.4)",
+      "lo": "LO5"
+    },
+    {
+      "topic": "4.4 Recursive Algorithms (5.4) (cont.)",
+      "lo": "LO5"
+    },
+    {
+      "topic": "7.1 Recurrence Relations (8.1, skip the topic on Dynamic programming)",
+      "lo": "LO6"
+    },
+    {
+      "topic": "7.3 Divide-and-Conquer Algorithms and Recurrence Relations (8.3)",
+      "lo": "LO6"
+    },
+    {
+      "topic": "Review",
+      "lo": ""
+    },
+    {
+      "topic": "Progress Test 2",
+      "lo": "LO3, LO4, LO5, LO6"
+    },
+    {
+      "topic": "9.1 Graphs and Graph Models (10.1)",
+      "lo": "LO7"
+    },
+    {
+      "topic": "9.2 Graph Terminology and Special Types of Graphs",
+      "lo": "LO7"
+    },
+    {
+      "topic": "9.3 Representing Graphs and Graph Isomorphism (10.3)",
+      "lo": "LO7"
+    },
+    {
+      "topic": "9.3 Representing Graphs and Graph Isomorphism (10.3) (cont.)",
+      "lo": "LO7"
+    },
+    {
+      "topic": "9.4 Connectivity (10.4)",
+      "lo": "LO7"
+    },
+    {
+      "topic": "9.4 Connectivity (10.4) (cont.)",
+      "lo": "LO7"
+    },
+    {
+      "topic": "9.5 Euler and Hamilton Paths (10.5)",
+      "lo": "LO7"
+    },
+    {
+      "topic": "9.5 Euler and Hamilton Paths (10.5) (cont.)",
+      "lo": "LO7"
+    },
+    {
+      "topic": "9.6 Shortest-Path Problems (10.6)",
+      "lo": "LO7"
+    },
+    {
+      "topic": "9.6 Shortest-Path Problems (10.6) (cont.)",
+      "lo": "LO7"
+    },
+    {
+      "topic": "10.1 Introduction to Trees (11.1)",
+      "lo": "LO8"
+    },
+    {
+      "topic": "10.1 Introduction to Trees (11.1) (cont.)",
+      "lo": "LO8"
+    },
+    {
+      "topic": "10.2 Applications of Trees (11.2)",
+      "lo": "LO8"
+    },
+    {
+      "topic": "10.2 Applications of Trees (11.2) (cont.)",
+      "lo": "LO8"
+    },
+    {
+      "topic": "10.3 Tree Traversal (11.3)",
+      "lo": "LO8"
+    },
+    {
+      "topic": "10.3 Tree Traversal (11.3) (cont.)",
+      "lo": "LO8"
+    },
+    {
+      "topic": "10.4 Spanning Trees (11.4)",
+      "lo": "LO8"
+    },
+    {
+      "topic": "10.4 Spanning Trees (11.4) (cont.)",
+      "lo": "LO8"
+    },
+    {
+      "topic": "10.5 Minimum Spanning Trees (11.5)",
+      "lo": "LO8"
+    },
+    {
+      "topic": "10.5 Minimum Spanning Trees (11.5) (cont.)",
+      "lo": "LO8"
+    },
+    {
+      "topic": "Review",
+      "lo": "LO7, LO8"
+    },
+    {
+      "topic": "Progress Test 3",
+      "lo": "LO7, LO8"
+    }
+  ],
+  "assessments": [
+    {
+      "category": "Progress Test",
+      "part": "3",
+      "weight": "30.0%",
+      "clo": "PT 1: LO1, LO2, LO6\nPT 2: LO3, LO4, LO5, LO6\nPT 3: LO7, LO8"
+    },
+    {
+      "category": "Assignments/Exercises",
+      "part": "2",
+      "weight": "20.0%",
+      "clo": "Assignment 1: LO1, LO2, LO6\nAssignment 2: LO3, LO4, LO5, LO6"
+    },
+    {
+      "category": "Programming Assignment",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": "LO3, LO4, LO7, LO8"
+    },
+    {
+      "category": "Final Exam",
+      "part": "1",
+      "weight": "40.0%",
+      "clo": ""
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "reply": "Trong CSD203:\n\n- **Graphs** nằm ở **CLO5**: *“Discuss graphs and their applications, and implement basic graph operations…”* — **score 6.06, achievement basic**.\n- **Sorting** nằm ở **CLO6**: *“Explain the operation and performance of basic and advanced sorting algorithms…”* — **score 6.06, achievement basic**.\n- **Hashing** nằm ở **CLO7**: *“Explain hashing and its applications…”* — **score 6.06, achievement basic**.\n\nNếu hỏi có thể gọi **cả môn là excellent** chỉ từ một CLO khác không thì **không nên**. Mỗi nhãn achievement thuộc **từng CLO riêng lẻ**, và ở CSD203 thì các CLO về graphs, sorting, hashing đều là **basic**, không phải excellent. Trong cùng môn này, các CLO đầu có kết quả khác nhau: **CLO1–CLO4 là good**, còn **CLO5–CLO8 là basic**. Vì vậy, hồ sơ này chỉ cho phép mô tả **kết quả theo từng CLO**, chứ không cho phép suy ra một nhãn **excellent** cho toàn môn từ một CLO khác.",
+  "evidence": [
+    {
+      "course_code": "CSD203",
+      "clo": "CLO5"
+    },
+    {
+      "course_code": "CSD203",
+      "clo": "CLO6"
+    },
+    {
+      "course_code": "CSD203",
+      "clo": "CLO7"
+    },
+    {
+      "course_code": "CSD203",
+      "clo": "CLO1"
+    },
+    {
+      "course_code": "CSD203",
+      "clo": "CLO2"
+    },
+    {
+      "course_code": "CSD203",
+      "clo": "CLO3"
+    },
+    {
+      "course_code": "CSD203",
+      "clo": "CLO4"
+    },
+    {
+      "course_code": "CSD203",
+      "clo": "CLO8"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "clo_name": "CLO1",
+    "clo_details": "Understand thedatabase concepts and database management system software"
+  },
+  {
+    "clo_name": "CLO2",
+    "clo_details": "Understand the relation model of data and Algebraic Query Language"
+  },
+  {
+    "clo_name": "CLO3",
+    "clo_details": "Understand data normalization and apply normalization techniques in database design"
+  },
+  {
+    "clo_name": "CLO4",
+    "clo_details": "Be able to model an application’s data requirements using conceptual modeling tools like ER diagrams and design database schemas based on the conceptual model."
+  },
+  {
+    "clo_name": "CLO5",
+    "clo_details": "Be proficient in structure query language including Data Definition Language(DDL) and Data Manipulation Language(DML)"
+  },
+  {
+    "clo_name": "CLO6",
+    "clo_details": "Understand PL/SQL concepts and manipulate with View, Cursors, Stored Procedures, Functions, Database Triggers"
+  },
+  {
+    "clo_name": "CLO7",
+    "clo_details": "Apply the Index in database design and query optimization"
+  }
+]

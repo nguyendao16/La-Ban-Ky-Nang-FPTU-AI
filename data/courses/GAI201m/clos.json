@@ -1,0 +1,22 @@
+[
+  {
+    "clo": "CLO1",
+    "description": "Describe how generative AI models work at an intuitive, non-mathematical level, including Introduction to the Generative AI Landscape, What generative AI is and isn't, From single models to multi-model systems, Foundations and Intuition of Generative Models, Discriminative vs generative models, Attention, intuitively."
+  },
+  {
+    "clo": "CLO2",
+    "description": "Apply prompt engineering techniques to obtain useful, reliable outputs from generative models, including Prompt Engineering Fundamentals, Advanced Prompt Engineering, Evaluation, Prompt Engineering."
+  },
+  {
+    "clo": "CLO3",
+    "description": "Build a small generative AI application end to end, retrieval-augmented generation, structured output validation, basic agent/tool use, and an appropriate customization strategy (prompting, RAG, or fine-tuning), including Retrieval-Augmented Generation (RAG), Why grounding matters, the RAG pipeline, RAG evaluation and failure modes, Building Generative AI Applications, Agents and Tool Use, When NOT to use an agent, Model Customization."
+  },
+  {
+    "clo": "CLO4",
+    "description": "Evaluate generative AI outputs and systems using rubrics, test sets, model-as-judge methods, and analysis of failure modes, including Model-as-judge with verification, Building Generative AI Applications, Evaluation, Failure Modes."
+  },
+  {
+    "clo": "CLO5",
+    "description": "Analyze the ethical, social, legal, and governance implications of generative AI and apply responsible-use practices, including Society, Law, Governance, Governance inside organisations."
+  }
+]

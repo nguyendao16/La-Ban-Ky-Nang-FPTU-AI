@@ -1,0 +1,331 @@
+{
+  "metadata": {
+    "syllabus_name": "Kỹ năng giao tiếp và cộng tác",
+    "course_name_english": "Communication and In-Group Working Skills",
+    "subject_code": "SSG105",
+    "description": "This course develops students’ teamwork and workplace communication skills for academic and professional contexts. Students examine how teams function and practice building trust, leadership, and conflict management while communicating effectively in collaborative settings. The course also emphasizes academic integrity, netiquette, and ethical communication as essential principles for responsible participation in academic and professional communities. Through group projects and applied activities, students develop practical skills in writing, presentations, meetings, and career communication.",
+    "tools": "- Internet"
+  },
+  "clos": [
+    {
+      "clo_name": "CLO1",
+      "clo_details": "Explain key concepts of teamwork, leadership, and team dynamics in academic and workplace contexts."
+    },
+    {
+      "clo_name": "CLO2",
+      "clo_details": "Apply teamwork and leadership skills to accomplish group tasks and projects effectively."
+    },
+    {
+      "clo_name": "CLO3",
+      "clo_details": "Demonstrate effective communication in collaborative settings using emotional intelligence and meeting facilitation techniques."
+    },
+    {
+      "clo_name": "CLO4",
+      "clo_details": "Analyze and resolve team conflicts using problem-solving and constructive feedback strategies."
+    },
+    {
+      "clo_name": "CLO5",
+      "clo_details": "Produce professional written documents and deliver clear and persuasive presentations for academic and workplace purposes."
+    },
+    {
+      "clo_name": "CLO6",
+      "clo_details": "Develop a personal career plan and demonstrate readiness for professional environments."
+    },
+    {
+      "clo_name": "CLO7",
+      "clo_details": "Demonstrate ethical and responsible communication in teamwork and professional contexts."
+    }
+  ],
+  "schedule": [
+    {
+      "topic": "'Ice-breaking and Course introduction\nPart I. Teamwork Skills in University\nUnit 1. Overview of Teamwork\n1. The Team and the Organization",
+      "lo": "LO1, LO7"
+    },
+    {
+      "topic": "2. Why Teamwork Works",
+      "lo": "LO1, LO7"
+    },
+    {
+      "topic": "3. The Team and Its Members\nActivity: Form project groups (5–9 students per group)",
+      "lo": "LO1, LO7"
+    },
+    {
+      "topic": "Unit 2. Project Launch\n1. Class Team Projects\n2. Create a Team Charter",
+      "lo": "LO2, LO7"
+    },
+    {
+      "topic": "3. The Importance of Trust\n4. Measuring Trust\n5. Building Trust",
+      "lo": "LO2, LO7"
+    },
+    {
+      "topic": "6. Psychological Safety\n7. Creating Psychological Safety\n8. Trust and Communication\n9. Building Trust in Teams – Conclusion\nUnit 2 Activity: Preparing Project Ideas",
+      "lo": "LO2, LO3, LO7"
+    },
+    {
+      "topic": "Unit 3 Business Writing in Action\n1. Text, Email, and Netiquette",
+      "lo": "LO3, LO5, LO7"
+    },
+    {
+      "topic": "2. Memorandums and Letters",
+      "lo": "LO5, LO7"
+    },
+    {
+      "topic": "3. Business Proposal",
+      "lo": "LO2, LO5, LO7"
+    },
+    {
+      "topic": "3. Practice: Business Proposal\nGuidance on Writing a Group Project Proposal",
+      "lo": "LO2, LO5, LO7"
+    },
+    {
+      "topic": "3. Practice: Business Proposal (cont.)\nGuidance on Writing a Group Project Proposal (5–9 students per group)",
+      "lo": "LO2, LO5, LO7"
+    },
+    {
+      "topic": "3. Practice: Business Proposal (cont.)\nGuidance on Writing a Group Project Proposal (5–9 students per group)",
+      "lo": "LO2, LO5, LO7"
+    },
+    {
+      "topic": "Unit 4. Team Leadership\n1. Challenges of Managing Team\n2. The Importance of Leadership",
+      "lo": "LO1, LO2, LO7"
+    },
+    {
+      "topic": "3. Types of Leadership\n4. How to Build Leadership Skills",
+      "lo": "LO1, LO2, LO7"
+    },
+    {
+      "topic": "5. Practice: Team Leadership",
+      "lo": "LO1, LO2, LO7"
+    },
+    {
+      "topic": "Group Project – Part 1: Proposal Presentation",
+      "lo": "LO2, LO3, LO5, LO7"
+    },
+    {
+      "topic": "Group Project – Part 1: Proposal Presentation",
+      "lo": "LO2, LO3, LO5, LO7"
+    },
+    {
+      "topic": "Group Project – Part 1: Proposal Presentation",
+      "lo": "LO2, LO3, LO5, LO7"
+    },
+    {
+      "topic": "Unit 5. Working Together\n1. Importance of Emotional Intelligence\n2. Expressing Feelings Productively\n3. Working Together – Conclusion",
+      "lo": "LO3, LO7"
+    },
+    {
+      "topic": "Unit 6. Effective Team Meetings\n1. Team Meeting Planner",
+      "lo": "LO3, LO7"
+    },
+    {
+      "topic": "2. Practice: Effective Team Meetings",
+      "lo": "LO3, LO7"
+    },
+    {
+      "topic": "Unit 7. Overcoming Challenges\n1. Group Problem Solving – Part 1",
+      "lo": "LO3, LO4, LO7"
+    },
+    {
+      "topic": "2. Group Problem Solving – Part 2",
+      "lo": "LO3, LO4, LO7"
+    },
+    {
+      "topic": "3. Practice: Group Problem Solving",
+      "lo": "LO3, LO4, LO7"
+    },
+    {
+      "topic": "4. Sources of Conflict and How to Manage Conflict\n5. Effective Communication During Conflict",
+      "lo": "LO3, LO4, LO7"
+    },
+    {
+      "topic": "6. Ability to Provide Feedback\n7. Respectful Feedback\n8. Positive and Encouraging\n9. Goal-directed\n10. Collaborative and Feedback Communication\n11. Overcoming Challenges – Conclusion",
+      "lo": "LO3, LO4, LO7"
+    },
+    {
+      "topic": "12. Practice: Conflict resolution skills",
+      "lo": "LO3, LO4, LO7"
+    },
+    {
+      "topic": "Part II: Business Communication for Success\nUnit 8: Nonverbal Delivery\n1. Principles of Nonverbal Communication\n2. Types of Nonverbal Communication\n3 Movement in Your Speech\n4. Visual Aids\n5. Nonverbal Strategies for Success with Your Audience\n6.Additional Resources",
+      "lo": "LO3, LO5, LO7"
+    },
+    {
+      "topic": "6. Practice: Nonverbal Delivery",
+      "lo": "LO3, LO5, LO7"
+    },
+    {
+      "topic": "Unit 9: Presentations to Persuade\n1. What Is Persuasion?\n2. Principles of Persuasion\n3. Functions of the Presentation to Persuade\n4. Meeting the Listener’s Basic Needs\n5. Making an Argument\n6. Speaking Ethically and Avoiding Fallacies\n7. Sample Persuasive Speech\n8. Elevator Speech",
+      "lo": "LO3, LO5, LO7"
+    },
+    {
+      "topic": "9. Practice: Presentations to Persuade",
+      "lo": "LO3, LO5, LO7"
+    },
+    {
+      "topic": "9. Practice: Presentations to Persuade (cont.)",
+      "lo": "LO3, LO5, LO7"
+    },
+    {
+      "topic": "9. Practice: Presentations to Persuade (cont.)",
+      "lo": "LO3, LO5, LO7"
+    },
+    {
+      "topic": "Unit 10. Effective Business Writing\n1. Oral versus Written Communication\n2. How Is Writing Learned?\n3. Good Writing\n4. Style in Written Communication\n5. Principles of Written Communication\n6. Overcoming Barriers to Effective Written Communication",
+      "lo": "LO3, LO5, LO7"
+    },
+    {
+      "topic": "Unit 11. Writing Preparation\n1. Think, Then Write: Writing Preparation\n2. A Planning Checklist for Business Messages\n3. Research and Investigation: Getting Started\n4. Ethics, Plagiarism, and Reliable Sources\n5. Completing Your Research and Investigation\n6. Reading and Analyzing",
+      "lo": "LO3, LO5, LO7"
+    },
+    {
+      "topic": "Unit 12: Writing\n1. Organization\n2. Writing Style\n3. Making an Argument\n4. Paraphrase and Summary versus Plagiarism\n5. Revising and Presenting Your Writing\n6. Feedback in the Writing Process\nHomework: Prepare information for a group project progress report (To what extent have the objectives been achieved? What has been accomplished, what remains incomplete, and what are the next steps?)",
+      "lo": "LO3, LO5, LO7"
+    },
+    {
+      "topic": "7. Report\nWhat Is a Report?\nTypes of Report?",
+      "lo": "LO2, LO5, LO7"
+    },
+    {
+      "topic": "Pratice: Mid-project progress report",
+      "lo": "LO2, LO5, LO7"
+    },
+    {
+      "topic": "Pratice: Mid-project progress report (cont.)",
+      "lo": "LO2, LO5, LO7"
+    },
+    {
+      "topic": "7. Report (cont.)\nInformational or Analytical Report?\nHow Are Reports Organized?\nPractice: Guidelines for Writing a Final Group Project Report",
+      "lo": "LO2, LO5, LO7"
+    },
+    {
+      "topic": "Practice in data collection: Data sources; data collected through a survey evaluating the effectiveness of the project.\nGuidelines for designing a survey to evaluate project effectiveness",
+      "lo": "LO2, LO5, LO7"
+    },
+    {
+      "topic": "Practice (cont.)\nHomework: Use a survey to evaluate the effectiveness of the group project and, after collecting the data, write a draft of the project report.",
+      "lo": "LO2, LO5, LO7"
+    },
+    {
+      "topic": "Unit 13: Career Exploration\n1. Words of Wisdom: Learn What You Don’t Want\n2. The Big Picture\n3. Career Paths",
+      "lo": "LO6, LO7"
+    },
+    {
+      "topic": "4. Words of Wisdom: What Do You Enjoy Studying?\n5. College Majors\n6. Professional Skill Building\n7. Career Development\n8. Words of Wisdom: Transferable\n9. Networking",
+      "lo": "LO6, LO7"
+    },
+    {
+      "topic": "11. Résumé and Cover Letter Guidelines and Review\nHomework: Prepare a CV/Résumé and a cover letter to participate in the Mini Job Fair.",
+      "lo": "LO6, LO7"
+    },
+    {
+      "topic": "'11. Résumé and Cover Letter Guidelines and Review (cont.)",
+      "lo": "LO6, LO7"
+    },
+    {
+      "topic": "'12. Interviewing",
+      "lo": "LO6, LO7"
+    },
+    {
+      "topic": "MINI CAREER FAIR: Preparation\nStudents participate in a mini job fair simulation to practice job-seeking skills and professional communication. After the activity, students are required to complete a Mini Job Fair Report reflecting on their experience.\nThe format of the Mini Job Fair will be determined by the instructor.",
+      "lo": "LO6, LO7"
+    },
+    {
+      "topic": "MINI CAREER FAIR (cont.)",
+      "lo": "LO6, LO7"
+    },
+    {
+      "topic": "MINI CAREER FAIR (cont.)",
+      "lo": "LO6, LO7"
+    },
+    {
+      "topic": "MINI CAREER FAIR (cont.)",
+      "lo": "LO5, LO6, LO7"
+    },
+    {
+      "topic": "AFTER THE MINI CAREER FAIR: Feedback & Reflection\n'- Employer feedback on: CV, Cover Letter, Interview Performance\n'- Students write and share a short reflection (150–200 words):",
+      "lo": "LO5, LO6, LO7"
+    },
+    {
+      "topic": "Quiz",
+      "lo": "LO1 - LO7"
+    },
+    {
+      "topic": "Review the final group project report and prepare for the project presentation.",
+      "lo": "LO1 - LO7"
+    },
+    {
+      "topic": "Group Project – Part 2: Final Report & Presentation",
+      "lo": "LO1 - LO7"
+    },
+    {
+      "topic": "Group Project – Part 2: Final Report & Presentation",
+      "lo": "LO1 - LO7"
+    },
+    {
+      "topic": "Group Project – Part 2: Final Report & Presentation",
+      "lo": "LO1 - LO7"
+    },
+    {
+      "topic": "Group Project – Part 2: Final Report & Presentation",
+      "lo": "LO1 - LO7"
+    },
+    {
+      "topic": "Group Project – Part 2: Final Report & Presentation",
+      "lo": "LO1 - LO7"
+    },
+    {
+      "topic": "Comprehensive course review",
+      "lo": "LO1 - LO7"
+    }
+  ],
+  "assessments": [
+    {
+      "category": "Activities",
+      "part": "2",
+      "weight": "10.0%",
+      "clo": "LO1-7"
+    },
+    {
+      "category": "Group Assignment 1",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": "LO1-7"
+    },
+    {
+      "category": "Group Assignment 2",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": "LO1-7"
+    },
+    {
+      "category": "Group Project: part 1(Project Proposal & Presentation)",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": "LO1-7"
+    },
+    {
+      "category": "Group Project: part 2(Group Project Deliverables & Final Project Report/Presentation)",
+      "part": "1",
+      "weight": "20.0%",
+      "clo": "LO1-7"
+    },
+    {
+      "category": "Participation",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": "LO1-7"
+    },
+    {
+      "category": "Quiz",
+      "part": "1",
+      "weight": "5.0%",
+      "clo": "LO1-7"
+    },
+    {
+      "category": "Final exam",
+      "part": "1",
+      "weight": "25.0%",
+      "clo": "LO1-7"
+    }
+  ]
+}

@@ -1,0 +1,1025 @@
+{
+  "schema_version": "stage1_v1",
+  "record_type": "combo_subject",
+  "subject": {
+    "code": "AIH301m",
+    "name": {
+      "full": "AI in Healthcare_Ứng dụng TTNT trong chăm sóc sức khỏe",
+      "en": "AI in Healthcare",
+      "vi": "Ứng dụng TTNT trong chăm sóc sức khỏe"
+    },
+    "semester": 5,
+    "credits": 3,
+    "prerequisite": ""
+  },
+  "syllabus": {
+    "id": "14111",
+    "name": "AI in Healthcare_Ứng dụng TTNT trong chăm sóc sức khỏe",
+    "is_active": true,
+    "is_approved": true,
+    "decision_no": "377/QĐ-ĐHFPT dated 04/09/2026"
+  },
+  "content": {
+    "metadata": {
+      "syllabus_id": "14111",
+      "syllabus_name": "AI in Healthcare_Ứng dụng TTNT trong chăm sóc sức khỏe",
+      "course_name_english": "AI in Healthcare",
+      "subject_code": "AIH301m",
+      "learning_teaching_method": "In-class lecture, Social Constructivism, Active Learning",
+      "nocredit": "3",
+      "degree_level": "Bachelor",
+      "time_allocation": "45h (60 sessions) contact hours + 1h final exam + 104h self-study",
+      "pre_requisite": "No",
+      "description": "Artificial intelligence (AI) has transformed industries around the world, and has the potential to radically alter the field of healthcare. The aim of this unit is to introducethe current and future applications of AI in healthcare with the goal of learning to bring AI technologies into the clinic safely and ethically. Students will be guided to analyze data on patient, such as diseases, medications, tests, or valuable health information, and get a sense of how AI could transform patient care and diagnoses.",
+      "studenttasks": "- Students must attend at least 80% of contact slots in order to be accepted to the final examination.\n- Student is responsible to do all exercises, assignments and labs given by instructor in class or at home and submit on time\n- Use laptop in class only for learning purpose\n- Promptly access to the FU FLM at https://flm.fpt.edu.vn/ for up-to-date course information",
+      "tools": "No",
+      "scoring_scale": "10",
+      "decisionno_mm_dd_yyyy": "377/QĐ-ĐHFPT dated 04/09/2026",
+      "isapproved": "True",
+      "note": "",
+      "is_scored": "True",
+      "minavgmarktopass": "5",
+      "isactive": "True",
+      "approveddate": "4/9/2026"
+    },
+    "materials": [
+      {
+        "no": "1",
+        "material_description": "https://www.coursera.org/specializations/ai-healthcare",
+        "author": "Coursera",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": ""
+      },
+      {
+        "no": "2",
+        "material_description": "https://www.coursera.org/learn/intro-to-healthcare?specialization=ai-healthcare",
+        "author": "Coursera",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": ""
+      },
+      {
+        "no": "3",
+        "material_description": "https://www.coursera.org/learn/introduction-clinical-data?specialization=ai-healthcare",
+        "author": "Coursera",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": ""
+      },
+      {
+        "no": "4",
+        "material_description": "https://www.coursera.org/learn/fundamental-machine-learning-healthcare?specialization=ai-healthcare",
+        "author": "Coursera",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": ""
+      },
+      {
+        "no": "5",
+        "material_description": "https://www.coursera.org/learn/evaluations-ai-applications-healthcare?specialization=ai-healthcare",
+        "author": "Coursera",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": ""
+      },
+      {
+        "no": "6",
+        "material_description": "https://www.coursera.org/specializations/healthcare-it",
+        "author": "Coursera",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": ""
+      },
+      {
+        "no": "7",
+        "material_description": "https://www.coursera.org/learn/ai-for-everyone",
+        "author": "Coursera",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": ""
+      },
+      {
+        "no": "8",
+        "material_description": "- PowerPoint Slides",
+        "author": "",
+        "publisher": "",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": false,
+        "note": ""
+      },
+      {
+        "no": "9",
+        "material_description": "- Assignments 1",
+        "author": "",
+        "publisher": "",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": false,
+        "note": ""
+      },
+      {
+        "no": "10",
+        "material_description": "- Assignments 2",
+        "author": "",
+        "publisher": "",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": false,
+        "note": ""
+      },
+      {
+        "no": "11",
+        "material_description": "- Quiz for Progress Tests",
+        "author": "",
+        "publisher": "",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": false,
+        "note": ""
+      }
+    ],
+    "clos": [
+      {
+        "no": "1",
+        "clo_name": "CLO1",
+        "clo_details": "Learners should be able to describe the structure of healthcare systems, AI, and machine learning."
+      },
+      {
+        "no": "2",
+        "clo_name": "CLO2",
+        "clo_details": "The major challenges and the issues in efforts to improve healthcare delivery and system."
+      },
+      {
+        "no": "3",
+        "clo_name": "CLO3",
+        "clo_details": "How to apply a framework for medical data mining, makes good research questions, and construct a data mining workflow."
+      },
+      {
+        "no": "4",
+        "clo_name": "CLO4",
+        "clo_details": "Define important relationships between the fields of machine learning, biostatistics, and computer programming."
+      },
+      {
+        "no": "5",
+        "clo_name": "CLO5",
+        "clo_details": "The machine learning models in dynamic medical practices and discontinuous timelines impact clinical machine learning applications."
+      },
+      {
+        "no": "6",
+        "clo_name": "CLO6",
+        "clo_details": "Principles and practical considerations for integrating AI into clinical workflows, improving the quality of healthcare applications."
+      },
+      {
+        "no": "7",
+        "clo_name": "CLO7",
+        "clo_details": "Learners should be able to understand AI-emerging technologies in the fields of healthcare."
+      },
+      {
+        "no": "8",
+        "clo_name": "CLO8",
+        "clo_details": "The ethical issues for the combination of healthcare system and AI."
+      }
+    ],
+    "schedule": [
+      {
+        "session": "1",
+        "topic": "Course introduction:\n- Introduce the materials of the courses and how to asses these materials\n- Introduce the assignments and how to pass",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 1",
+        "itu": "IT",
+        "student_materials": "Course Implementation\n- Syllabus AIH301m\n- Slides, Videos",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "2",
+        "topic": "1.1. Overview of Health Care Systems and Key Challenges They Face:\n1.1.1. The Basic Structure of Health Care Systems",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 1",
+        "itu": "T",
+        "student_materials": "Slides, Videos of The Basic Structure of Health Care Systems",
+        "s_download": "mat2",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "3",
+        "topic": "1.1. Overview of Health Care Systems and Key Challenges They Face:\n1.1.2. Three Key Challenges Facing Health Care Systems",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 1",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Three Key Challenges Facing Health Care Systems",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "4",
+        "topic": "1.2. Physicians, Physician Practices, and Physician Payment:\n1.2.1. Physician Practices\n1.2.2. Physician Payment",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 1, CLO 2",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Physician Practices and Physician Payment",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "5",
+        "topic": "1.3. Hospitals, Other Provider Organizations, and Related Payment Systems\n1.3.1. Hospitals overview\n1.3.2. Hospital payment\n1.3.3. Non-Hospital facilities",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 1, CLO 2",
+        "itu": "T",
+        "student_materials": "Videos of Hospitals overview, Hospital payment, and Non-Hospital facilities",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "6",
+        "topic": "1.3. Hospitals, Other Provider Organizations, and Related Payment Systems\n1.3.4. Larger provider orgnizations\n1.3.5. Pay for performance in provider payment\n1.3.6. Providers and electronic records",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 1, CLO 2",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Larger provider orgnizations, Pay for performance in provider payment, and Providers and electronic records",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "7",
+        "topic": "1.4. Intermediaries, Health Insurance Plans, and Health Care Financing:\n1.4.1. Intermediaries overview\n1.4.2. Intermediary approaches to influencing healthcare utilization and spending",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 2",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Intermediaries overview, Intermediary approaches to influencing healthcare utilization and spending",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "8",
+        "topic": "1.4. Intermediaries, Health Insurance Plans, and Health Care Financing:\n1.4.3. Common health plan designs\n1.4.4. Different intermediaries offering healthcare coverage",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 2",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Common health plan designs, Different intermediaries offering healthcare coverage",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "9",
+        "topic": "1.5. Health Care Products and Prescription Drugs, and Quality Measurement and Improvement:\n1.5.1. Healthcare product regulatiun: overview\n1.5.2. Precription drug regulation and pricing",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 2",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Healthcare product regulatiun: overview, Precription drug regulation and pricing",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "10",
+        "topic": "1.5. Health Care Products and Prescription Drugs, and Quality Measurement and Improvement:\n1.5.3. Quality measurement and improvement",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 2",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Quality measurement and improvement",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "11",
+        "topic": "1.6. Ethics in Healthcare System\n1.6.1. Overview of AI applications in delivery of health care services and ethical issues\n1.6.2. Ethical frameworks for health care and for AI",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 1, CLO 8",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Overview of AI applications in delivery of health care services and ethical issues, Ethical frameworks for health care and for AI",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "12",
+        "topic": "1.6. Ethics in Healthcare System\n1.6.3. AI and incentives in health care delivery and payment structures\n1.6.4. More examples of AI and incentives in health care delivery and payment structures",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 1, CLO 8",
+        "itu": "T",
+        "student_materials": "Slides, Videos of AI and incentives in health care delivery and payment structures, More examples of AI and incentives in health care delivery and payment structures",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "13",
+        "topic": "Review the introduction to healthcare",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 1, CLO 2, CLO 8",
+        "itu": "U",
+        "student_materials": "Content 1-6",
+        "s_download": "",
+        "student_tasks": "Read Slides and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "14",
+        "topic": "Assignment 1",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 1, CLO 2, CLO 8",
+        "itu": "",
+        "student_materials": "Assignment 1",
+        "s_download": "",
+        "student_tasks": "Assignment 1",
+        "urls": ""
+      },
+      {
+        "session": "15",
+        "topic": "Review Assignment 1",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 1, CLO 2, CLO 8",
+        "itu": "U",
+        "student_materials": "Assignment 1",
+        "s_download": "",
+        "student_tasks": "Review Assignment 1",
+        "urls": ""
+      },
+      {
+        "session": "16",
+        "topic": "2.1. Asking and answering questions via clinical data mining:\n2.1.1. The data mining workflow\n2.1.2. Types of research questions",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 3",
+        "itu": "T",
+        "student_materials": "Slides, Videos of The data mining workflow, Types of research questions",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "17",
+        "topic": "2.2. Data available from Healthcare systems:\n2.2.1. The healthcare system\n2.2.2. Healthcare data types",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 3",
+        "itu": "T",
+        "student_materials": "Slides, Videos of The healthcare system, Healthcare data types",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "18",
+        "topic": "2.2. Data available from Healthcare systems:\n2.2.3. Sources of bias and errors\n2.2.4. Healthcare data sources",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 3",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Sources of bias and errors, Healthcare data sources",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "19",
+        "topic": "2.3. Representing time, and timing of events, for clinical data mining:\n2.3.1. Healthcare happens over time\n2.3.2. Representation of time\n2.3.3. Data change over time",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 3",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Healthcare happens over time, Representation of time, and Data change over time",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "20",
+        "topic": "2.3. Representing time, and timing of events, for clinical data mining:\n2.3.3. Data change over time",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 3",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Data change over time",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "21",
+        "topic": "2.4. Creating analysis ready datasets from patient timelines\n2.4.1. Creating features to analyze\n2.4.2. Missing values",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 3",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Creating features to analyze, Missing values",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "22",
+        "topic": "2.4. Creating analysis ready datasets from patient timelines\n2.4.3. Creating new features\n2.4.4. Knowledge graphs",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 3",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Creating new features, Knowledge graphs",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "23",
+        "topic": "2.5. Handling unstructured healthcare data: text, images, signals:\n2.5.1. Unstructured data\n2.5.2. Clinical text",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 3",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Unstructured data, Clinical text",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "24",
+        "topic": "2.5. Handling unstructured healthcare data: text, images, signals:\n2.5.3. Images\n2.5.4. Signals",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 3",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Images, Signals",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "25",
+        "topic": "2.6. Putting the pieces together: Electronic phenotyping\n2.6.1. Electronic phenotyping",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 3",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Electronic phenotyping",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "26",
+        "topic": "2.6. Putting the pieces together: Electronic phenotyping\n2.6.2. Two approaches to phenotyping",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 3",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Two approaches to phenotyping",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "27",
+        "topic": "2.7. Ethics in Clinical Data\n2.7.1. Research Ethics and AI\n2.7.2. The Belmont Report: A Framework for Research Ethics\n2.7.3. Ethical Issues in Data sources for AI",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 3, CLO 8",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Research Ethics and AI, The Belmont Report: A Framework for Research Ethics, Ethical Issues in Data sources for AI",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "28",
+        "topic": "2.7. Ethics in Clinical Data\n2.7.4. Secondary Uses of Data\n2.7.5. Return of Results\n2.7.6. AI and The Learning Health System",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 3, CLO 8",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Secondary Uses of Data, Return of Results, AI and The Learning Health System",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "29",
+        "topic": "Review the introduction to clinical data",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 1, CLO 2, CLO 3, CLO 8",
+        "itu": "U",
+        "student_materials": "Content 1-14",
+        "s_download": "",
+        "student_tasks": "Read Slides and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "30",
+        "topic": "Progress Test 1",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 1, CLO 2, CLO 3, CLO 8",
+        "itu": "",
+        "student_materials": "Progress Test 1",
+        "s_download": "",
+        "student_tasks": "Test 1",
+        "urls": ""
+      },
+      {
+        "session": "31",
+        "topic": "Review the Test 1",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 1, CLO 2, CLO 3, CLO 8",
+        "itu": "U",
+        "student_materials": "Progress Test 1",
+        "s_download": "",
+        "student_tasks": "Review Test 1",
+        "urls": ""
+      },
+      {
+        "session": "32",
+        "topic": "3.1. Why machine learning in healthcare?\n3.1.1. History of machine learning in healthcare\n3.1.2. The magic of machine learning and the different approaches",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 4",
+        "itu": "T",
+        "student_materials": "Slides, Videos of History of machine learning in healthcare, The magic of machine learning and the different approaches",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "33",
+        "topic": "3.2. Concepts and Principles of machine learning in healthcare part 1\n3.2.1. Machine Learning Terms, Definitions, and Jargon\n3.2.3. How Machines Learn",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 4",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Machine Learning Terms, Definitions, and Jargon, How Machines Learn",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "34",
+        "topic": "3.2. Concepts and Principles of machine learning in healthcare part 1\n3.2.4. Supervised Machine Learning\n3.2.5. Traditional machine learning",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 4",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Supervised Machine Learning, Traditional machine learning",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "35",
+        "topic": "3.3. Concepts and Principles of machine learning in healthcare part 2\n3.3.1. Deep learning and neural networks\n3.3.2. Important concepts in deep learning",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 4",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Deep learning and neural networks, Important concepts in deep learning",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "36",
+        "topic": "3.3. Concepts and Principles of machine learning in healthcare part 2\n3.3.3. Types of neural networks and applications\n3.3.4. Overview of common neural networks",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 4",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Types of neural networks and applications, Overview of common neural networks",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "37",
+        "topic": "3.4. Evaluation and Metrics for machine learning in healthcare\n3.4.1. Critical evaluation of models and strategies for healthcare applications",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 4",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Critical evaluation of models and strategies for healthcare applications",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "38",
+        "topic": "3.4. Evaluation and Metrics for machine learning in healthcare\n3.4.2. Important metrics for clinical machine learning",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 4",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Important metrics for clinical machine learning",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "39",
+        "topic": "3.5. Strategies and Challenges in Machine Learning in Healthcare\n3.5.1. Challenges and strategies for clinical machine learning\n3.5.2. Interpretability and performance of machine learning models in healthcare",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 5",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Challenges and strategies for clinical machine learning, Interpretability and performance of machine learning models in healthcare",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "40",
+        "topic": "3.5. Strategies and Challenges in Machine Learning in Healthcare\n3.5.3. Medical data for machine learning",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 5",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Medical data for machine learning",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "41",
+        "topic": "3.6. Best practices, teams, and launching your machine learning journey\n3.6.1. Designing and evaluating clinical machine learning applications",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 5",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Designing and evaluating clinical machine learning applications",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "42",
+        "topic": "3.6. Best practices, teams, and launching your machine learning journey\n3.6.2. Human factors in clinical machine learning - from job displacement to automation bias\n3.6.3. Recommended Reading for Ethics",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 5",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Human factors in clinical machine learning - from job displacement to automation bias, Recommended Reading for Ethics",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "43",
+        "topic": "Review the fundamentals of machine learning for healthcare",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 4, CLO 5",
+        "itu": "U",
+        "student_materials": "Content 16-21",
+        "s_download": "",
+        "student_tasks": "Read Slides and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "44",
+        "topic": "Assignment 2",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 4, CLO 5",
+        "itu": "",
+        "student_materials": "Assignment 2",
+        "s_download": "",
+        "student_tasks": "Assignment 2",
+        "urls": ""
+      },
+      {
+        "session": "45",
+        "topic": "Review Assignment 2",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 4, CLO 5",
+        "itu": "U",
+        "student_materials": "Assignment 2",
+        "s_download": "",
+        "student_tasks": "Review Assignment 2",
+        "urls": ""
+      },
+      {
+        "session": "46",
+        "topic": "4.1. Al in Healthcare\n4.1.1. Current Al Models in Healthcare\n4.1.2. Growth of Alin Healthcare\n4.1.3. How to Know if an Al model is Good",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 6",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Current Al Models in Healthcare, Growth of Alin Healthcare, How to Know if an Al model is Good",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "47",
+        "topic": "4.2. Evaluations of Al in Healthcare\n4.2.1. A Framework for Evaluation\n4.2.2. Outcome: Action Pairing",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 6",
+        "itu": "T",
+        "student_materials": "Slides, Videos of A Framework for Evaluation, Outcome: Action Pairing",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "48",
+        "topic": "4.2. Evaluations of Al in Healthcare\n4.2.3. Clinical Utility\n4.2.4. Feasibility",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 6",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Clinical Utility, Feasibility",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "49",
+        "topic": "4.3. Al Deployment\n4.3.1. Al Deployment\n4.3.2. Design and Development\n4.3.3. Evaluate and Validate",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 6",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Al Deployment, Design and Development, Evaluate and Validate",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "50",
+        "topic": "4.3. Al Deployment\n4.3.4. Product Validation\n4.3.5. Difuse and Scale\n4.3.6. Monitoring and Maintenance\n4.3.7. Challenges",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 6",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Product Validation, Difuse and Scale, Monitoring and Maintenance, Challenges",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "51",
+        "topic": "4.4. Downstream Evaluations of Al in Healthcare: Bias and Fairness\n4.4.1. Bias in Al Solutions\n4.4.2. Types of Bias",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 6",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Bias in Al Solutions, Types of Bias",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "52",
+        "topic": "4.4. Downstream Evaluations of Al in Healthcare: Bias and Fairness\n4.4.3. Algorithmic Fairness\n4.4.4. Transparency\n4.4.5. Downstream Evaluations",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 6",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Algorithmic Fairness, Transparency, Downstream Evaluations",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "53",
+        "topic": "4.5. The Regulatory Environment for Al in Healthcare\n4.5.1. Overview\n4.5.2. Components of Regulation\n4.5.3. Clinical Evaluation Process",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 7",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Overview, Components of Regulation, Clinical Evaluation Process",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "54",
+        "topic": "4.5. The Regulatory Environment for Al in Healthcare\n4.5.4. FDA Application\n4.5.5. Product Approval\n4.5.6. Global Environment",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 7",
+        "itu": "T",
+        "student_materials": "Slides, Videos of FDA Application, Product Approval, Global Environment",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "55",
+        "topic": "4.6. Best Ethical Practices for Al in Health Care\n4.6.1. Problem Formulation\n4.6.2. Identifying Conflicts of Interest\n4.6.3. Mitigating Conflicts of Interest",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 7",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Problem Formulation, Identifying Conflicts of Interest, Mitigating Conflicts of Interest",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "56",
+        "topic": "Review the evaluations of AI applications in healthcare",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 6, CLO 7",
+        "itu": "U",
+        "student_materials": "Content 16-28",
+        "s_download": "",
+        "student_tasks": "Read Slides and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "57",
+        "topic": "Progress Test 2",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 4 - 7",
+        "itu": "U",
+        "student_materials": "Assignment 3",
+        "s_download": "",
+        "student_tasks": "Review Test 2",
+        "urls": ""
+      },
+      {
+        "session": "58",
+        "topic": "Review Progress Test 2",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 4 - 7",
+        "itu": "",
+        "student_materials": "Progress Test 2",
+        "s_download": "",
+        "student_tasks": "Review Test 2",
+        "urls": ""
+      },
+      {
+        "session": "59",
+        "topic": "Assignment 3",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 6 - 7",
+        "itu": "U",
+        "student_materials": "Contents 23-28",
+        "s_download": "",
+        "student_tasks": "Assignment 3",
+        "urls": ""
+      },
+      {
+        "session": "60",
+        "topic": "Summary All Slides, Tests, and Assignments",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 1 - 8",
+        "itu": "U",
+        "student_materials": "All Contents",
+        "s_download": "",
+        "student_tasks": "Review and Group discussion",
+        "urls": ""
+      }
+    ],
+    "assessments": [
+      {
+        "no": "1",
+        "category": "Assignment 1",
+        "type": "on-going",
+        "part": "1",
+        "weight": "10.0%",
+        "completion_criteria": ">0",
+        "duration": "45'",
+        "clo": "CLO 1, CLO 2, CLO 8",
+        "question_type": "Group presentation for the selected article",
+        "no_question": "1",
+        "knowledge_and_skill": "- cover content 1-6",
+        "grading_guide": "in class, by group presentation",
+        "note": "Instructor has resposibility to review the presentation for students after graded."
+      },
+      {
+        "no": "2",
+        "category": "Assignment 2",
+        "type": "on-going",
+        "part": "1",
+        "weight": "10.0%",
+        "completion_criteria": ">0",
+        "duration": "45'",
+        "clo": "CLO 4, CLO 5",
+        "question_type": "Group presentation for the selected article",
+        "no_question": "1",
+        "knowledge_and_skill": "- cover content 16-21",
+        "grading_guide": "in class, by group presentation",
+        "note": "Instructor has resposibility to review the presentation for students after graded."
+      },
+      {
+        "no": "3",
+        "category": "Assignment 3",
+        "type": "on-going",
+        "part": "1",
+        "weight": "10.0%",
+        "completion_criteria": ">0",
+        "duration": "45'",
+        "clo": "CLO 6, CLO 7",
+        "question_type": "Group presentation for the selected article",
+        "no_question": "1",
+        "knowledge_and_skill": "- cover content 23-28",
+        "grading_guide": "in class, by group presentation",
+        "note": "Instructor has resposibility to review the presentation for students after graded."
+      },
+      {
+        "no": "4",
+        "category": "Progress test 1",
+        "type": "on-going",
+        "part": "1",
+        "weight": "15.0%",
+        "completion_criteria": ">0",
+        "duration": "20'-30'",
+        "clo": "CLO 1, CLO 2, CLO 3, CLO 8",
+        "question_type": "Multiple choices\nMarked by Computer or a suitable format",
+        "no_question": "20",
+        "knowledge_and_skill": "- cover content 1-14",
+        "grading_guide": "in class, by instructor",
+        "note": "Instruction and shedules for Progress tests must be presented in the Course Implementation Plan approved by director of the campus.\nProgress test must be taken right after the last lectures of required material.\nInstructor has resposibility to review the test for students after graded."
+      },
+      {
+        "no": "5",
+        "category": "Progress test 2",
+        "type": "on-going",
+        "part": "1",
+        "weight": "15.0%",
+        "completion_criteria": ">0",
+        "duration": "20'-30'",
+        "clo": "CLO 4, CLO 5, CLO 6, CLO 7",
+        "question_type": "Multiple choicesMarked by Computer or a suitable format",
+        "no_question": "20",
+        "knowledge_and_skill": "- cover content 16-28",
+        "grading_guide": "in class, by instructor",
+        "note": "Instruction and shedules for Progress tests must be presented in the Course Implementation Plan approved by director of the campus.\nProgress test must be taken right after the last lectures of required material.\nInstructor has resposibility to review the test for students after graded."
+      },
+      {
+        "no": "6",
+        "category": "Final exam",
+        "type": "Final exam",
+        "part": "1",
+        "weight": "40.0%",
+        "completion_criteria": "4",
+        "duration": "60'",
+        "clo": "CLO 1 - 8",
+        "question_type": "Multiple choicesMarked by Computer",
+        "no_question": "50",
+        "knowledge_and_skill": "concepts, algorithms; all studied slides",
+        "grading_guide": "by exam board,\nusing computer",
+        "note": "The exam questions must be updated or different at least 70% to the previous ones."
+      }
+    ]
+  },
+  "combo": {
+    "family": "AI17_COM",
+    "code": "AI17_COM3",
+    "name": "Topic on AI application_Chủ đề Ứng dụng TTNT BIT_AI_K17C(FNO)",
+    "title": "AI17_COM3: Topic on AI application_Chủ đề Ứng dụng TTNT BIT_AI_K17C(FNO)",
+    "note": "",
+    "slot": {
+      "code": "AI17_COM*1",
+      "alias": "AI17_COM_1",
+      "number": 1,
+      "name": {
+        "full": "Subject 1 of Combo*_Học phần 1 của combo*",
+        "en": "Subject 1 of Combo*",
+        "vi": "Học phần 1 của combo*"
+      }
+    },
+    "row_note": ""
+  },
+  "source": {
+    "raw_file": "flm_output/subjects/AI17_COM_1.json",
+    "curriculum_url": "https://flm.fpt.edu.vn/gui/role/student/CurriculumDetails?curid=3173",
+    "pre_syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/Syllabuses?subCode=AI17_COM%2A1&curriculumID=3173",
+    "syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=14111",
+    "details_source_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=14111"
+  },
+  "crawl": {
+    "error": null
+  },
+  "quality": {
+    "has_syllabus": true,
+    "counts": {
+      "materials": 11,
+      "clos": 8,
+      "schedule": 60,
+      "assessments": 6
+    },
+    "warnings": []
+  }
+}

@@ -1,0 +1,1830 @@
+{
+  "report_type": "clo_scoring_validation",
+  "academic_report_courses": 15,
+  "processed_courses": 15,
+  "courses_with_metadata": 15,
+  "courses_without_metadata": 0,
+  "metadata_validation_errors": [],
+  "total_clos_evaluated": 122,
+  "clos_with_scores": 122,
+  "clos_with_missing_scores": 0,
+  "missing_or_unmatched_assessment_grades": [],
+  "missing_canonical_assessment_grades": [],
+  "duplicate_or_ambiguous_assessment_matches": [],
+  "invalid_clo_mappings": [],
+  "invalid_assessment_weights": [],
+  "invalid_assessment_grades": [],
+  "unexpected_course_weight_totals": [],
+  "courses_could_not_be_processed": [],
+  "courses": [
+    {
+      "course_code": "MAE101",
+      "status": "processed",
+      "assessment_count": 7,
+      "clo_count": 9,
+      "matched_assessments": [
+        {
+          "course_code": "MAE101",
+          "report_assessment": "Assignment 1",
+          "canonical_assessment": "Assignment 1",
+          "assessment_index": 0,
+          "match_type": "exact"
+        },
+        {
+          "course_code": "MAE101",
+          "report_assessment": "Assignment 2",
+          "canonical_assessment": "Assignment 2",
+          "assessment_index": 1,
+          "match_type": "exact"
+        },
+        {
+          "course_code": "MAE101",
+          "report_assessment": "Assignment 3",
+          "canonical_assessment": "Assignment 3",
+          "assessment_index": 2,
+          "match_type": "exact"
+        },
+        {
+          "course_code": "MAE101",
+          "report_assessment": "Progress tess 1",
+          "canonical_assessment": "Progress Test 1",
+          "assessment_index": 3,
+          "match_type": "alias"
+        },
+        {
+          "course_code": "MAE101",
+          "report_assessment": "Progress tess 2",
+          "canonical_assessment": "Progress Test 2",
+          "assessment_index": 4,
+          "match_type": "alias"
+        },
+        {
+          "course_code": "MAE101",
+          "report_assessment": "Progress tess 3",
+          "canonical_assessment": "Progress Test 3",
+          "assessment_index": 5,
+          "match_type": "alias"
+        },
+        {
+          "course_code": "MAE101",
+          "report_assessment": "Final exam",
+          "canonical_assessment": "Final Exam",
+          "assessment_index": 6,
+          "match_type": "normalized"
+        }
+      ],
+      "missing_canonical_assessment_grades": [],
+      "unmatched_report_assessments": [],
+      "duplicate_or_ambiguous_assessment_matches": [],
+      "invalid_clo_mappings": [],
+      "invalid_assessment_weights": [],
+      "invalid_assessment_grades": [],
+      "unexpected_weight_total": null,
+      "clo_results": [
+        {
+          "clo": "CLO1",
+          "score": 8.98,
+          "achievement": "excellent",
+          "total_allocated_weight": 9.4444,
+          "evidence_count": 3
+        },
+        {
+          "clo": "CLO2",
+          "score": 8.98,
+          "achievement": "excellent",
+          "total_allocated_weight": 9.4444,
+          "evidence_count": 3
+        },
+        {
+          "clo": "CLO3",
+          "score": 8.98,
+          "achievement": "excellent",
+          "total_allocated_weight": 9.4444,
+          "evidence_count": 3
+        },
+        {
+          "clo": "CLO4",
+          "score": 8.98,
+          "achievement": "excellent",
+          "total_allocated_weight": 9.4444,
+          "evidence_count": 3
+        },
+        {
+          "clo": "CLO5",
+          "score": 9.36,
+          "achievement": "excellent",
+          "total_allocated_weight": 11.1111,
+          "evidence_count": 3
+        },
+        {
+          "clo": "CLO6",
+          "score": 9.36,
+          "achievement": "excellent",
+          "total_allocated_weight": 11.1111,
+          "evidence_count": 3
+        },
+        {
+          "clo": "CLO7",
+          "score": 9.36,
+          "achievement": "excellent",
+          "total_allocated_weight": 11.1111,
+          "evidence_count": 3
+        },
+        {
+          "clo": "CLO8",
+          "score": 9.06,
+          "achievement": "excellent",
+          "total_allocated_weight": 14.4444,
+          "evidence_count": 3
+        },
+        {
+          "clo": "CLO9",
+          "score": 9.06,
+          "achievement": "excellent",
+          "total_allocated_weight": 14.4444,
+          "evidence_count": 3
+        }
+      ]
+    },
+    {
+      "course_code": "MAD101",
+      "status": "processed",
+      "assessment_count": 7,
+      "clo_count": 8,
+      "matched_assessments": [
+        {
+          "course_code": "MAD101",
+          "report_assessment": "Assignment 1",
+          "canonical_assessment": "Assignment 1",
+          "assessment_index": 0,
+          "match_type": "exact"
+        },
+        {
+          "course_code": "MAD101",
+          "report_assessment": "Assignment 2",
+          "canonical_assessment": "Assignment 2",
+          "assessment_index": 1,
+          "match_type": "exact"
+        },
+        {
+          "course_code": "MAD101",
+          "report_assessment": "Assignment 3",
+          "canonical_assessment": "Assignment 3",
+          "assessment_index": 2,
+          "match_type": "exact"
+        },
+        {
+          "course_code": "MAD101",
+          "report_assessment": "Progress tess 1",
+          "canonical_assessment": "Progress Test 1",
+          "assessment_index": 3,
+          "match_type": "alias"
+        },
+        {
+          "course_code": "MAD101",
+          "report_assessment": "Progress tess 2",
+          "canonical_assessment": "Progress Test 2",
+          "assessment_index": 4,
+          "match_type": "alias"
+        },
+        {
+          "course_code": "MAD101",
+          "report_assessment": "Progress tess 3",
+          "canonical_assessment": "Progress Test 3",
+          "assessment_index": 5,
+          "match_type": "alias"
+        },
+        {
+          "course_code": "MAD101",
+          "report_assessment": "Final exam",
+          "canonical_assessment": "Final Exam",
+          "assessment_index": 6,
+          "match_type": "normalized"
+        }
+      ],
+      "missing_canonical_assessment_grades": [],
+      "unmatched_report_assessments": [],
+      "duplicate_or_ambiguous_assessment_matches": [],
+      "invalid_clo_mappings": [],
+      "invalid_assessment_weights": [],
+      "invalid_assessment_grades": [],
+      "unexpected_weight_total": null,
+      "clo_results": [
+        {
+          "clo": "CLO1",
+          "score": 8.91,
+          "achievement": "excellent",
+          "total_allocated_weight": 11.6667,
+          "evidence_count": 3
+        },
+        {
+          "clo": "CLO2",
+          "score": 8.91,
+          "achievement": "excellent",
+          "total_allocated_weight": 11.6667,
+          "evidence_count": 3
+        },
+        {
+          "clo": "CLO3",
+          "score": 8.47,
+          "achievement": "good",
+          "total_allocated_weight": 10.0,
+          "evidence_count": 3
+        },
+        {
+          "clo": "CLO4",
+          "score": 8.47,
+          "achievement": "good",
+          "total_allocated_weight": 10.0,
+          "evidence_count": 3
+        },
+        {
+          "clo": "CLO5",
+          "score": 8.47,
+          "achievement": "good",
+          "total_allocated_weight": 10.0,
+          "evidence_count": 3
+        },
+        {
+          "clo": "CLO6",
+          "score": 8.74,
+          "achievement": "excellent",
+          "total_allocated_weight": 16.6667,
+          "evidence_count": 5
+        },
+        {
+          "clo": "CLO7",
+          "score": 8.5,
+          "achievement": "excellent",
+          "total_allocated_weight": 15.0,
+          "evidence_count": 3
+        },
+        {
+          "clo": "CLO8",
+          "score": 8.5,
+          "achievement": "excellent",
+          "total_allocated_weight": 15.0,
+          "evidence_count": 3
+        }
+      ]
+    },
+    {
+      "course_code": "CSI106",
+      "status": "processed",
+      "assessment_count": 8,
+      "clo_count": 13,
+      "matched_assessments": [
+        {
+          "course_code": "CSI106",
+          "report_assessment": "Group presentation 1",
+          "canonical_assessment": "Group presentation 1",
+          "assessment_index": 0,
+          "match_type": "exact"
+        },
+        {
+          "course_code": "CSI106",
+          "report_assessment": "Group presentation 2",
+          "canonical_assessment": "Group presentation 2",
+          "assessment_index": 1,
+          "match_type": "exact"
+        },
+        {
+          "course_code": "CSI106",
+          "report_assessment": "Lab 1",
+          "canonical_assessment": "Lab 1",
+          "assessment_index": 2,
+          "match_type": "exact"
+        },
+        {
+          "course_code": "CSI106",
+          "report_assessment": "Lab 2",
+          "canonical_assessment": "Lab 2",
+          "assessment_index": 3,
+          "match_type": "exact"
+        },
+        {
+          "course_code": "CSI106",
+          "report_assessment": "Progress tess 1",
+          "canonical_assessment": "Progress Test 1",
+          "assessment_index": 4,
+          "match_type": "alias"
+        },
+        {
+          "course_code": "CSI106",
+          "report_assessment": "Progress tess 2",
+          "canonical_assessment": "Progress Test 2",
+          "assessment_index": 5,
+          "match_type": "alias"
+        },
+        {
+          "course_code": "CSI106",
+          "report_assessment": "Progress tess 3",
+          "canonical_assessment": "Progress Test 3",
+          "assessment_index": 6,
+          "match_type": "alias"
+        },
+        {
+          "course_code": "CSI106",
+          "report_assessment": "Final exam",
+          "canonical_assessment": "Final exam",
+          "assessment_index": 7,
+          "match_type": "exact"
+        }
+      ],
+      "missing_canonical_assessment_grades": [],
+      "unmatched_report_assessments": [],
+      "duplicate_or_ambiguous_assessment_matches": [],
+      "invalid_clo_mappings": [],
+      "invalid_assessment_weights": [],
+      "invalid_assessment_grades": [],
+      "unexpected_weight_total": null,
+      "clo_results": [
+        {
+          "clo": "CLO1",
+          "score": 8.1,
+          "achievement": "good",
+          "total_allocated_weight": 5.8333,
+          "evidence_count": 3
+        },
+        {
+          "clo": "CLO2",
+          "score": 8.04,
+          "achievement": "good",
+          "total_allocated_weight": 15.8333,
+          "evidence_count": 4
+        },
+        {
+          "clo": "CLO3",
+          "score": 8.1,
+          "achievement": "good",
+          "total_allocated_weight": 5.8333,
+          "evidence_count": 3
+        },
+        {
+          "clo": "CLO4",
+          "score": 8.1,
+          "achievement": "good",
+          "total_allocated_weight": 5.8333,
+          "evidence_count": 3
+        },
+        {
+          "clo": "CLO5",
+          "score": 8.1,
+          "achievement": "good",
+          "total_allocated_weight": 5.8333,
+          "evidence_count": 3
+        },
+        {
+          "clo": "CLO6",
+          "score": 8.22,
+          "achievement": "good",
+          "total_allocated_weight": 11.3333,
+          "evidence_count": 4
+        },
+        {
+          "clo": "CLO7",
+          "score": 8.22,
+          "achievement": "good",
+          "total_allocated_weight": 11.3333,
+          "evidence_count": 4
+        },
+        {
+          "clo": "CLO8",
+          "score": 8.39,
+          "achievement": "good",
+          "total_allocated_weight": 6.3333,
+          "evidence_count": 3
+        },
+        {
+          "clo": "CLO9",
+          "score": 8.39,
+          "achievement": "good",
+          "total_allocated_weight": 6.3333,
+          "evidence_count": 3
+        },
+        {
+          "clo": "CLO10",
+          "score": 8.39,
+          "achievement": "good",
+          "total_allocated_weight": 6.3333,
+          "evidence_count": 3
+        },
+        {
+          "clo": "CLO11",
+          "score": 8.43,
+          "achievement": "good",
+          "total_allocated_weight": 5.8333,
+          "evidence_count": 2
+        },
+        {
+          "clo": "CLO12",
+          "score": 8.43,
+          "achievement": "good",
+          "total_allocated_weight": 5.8333,
+          "evidence_count": 2
+        },
+        {
+          "clo": "CLO13",
+          "score": 8.47,
+          "achievement": "good",
+          "total_allocated_weight": 7.5,
+          "evidence_count": 2
+        }
+      ]
+    },
+    {
+      "course_code": "PFP191",
+      "status": "processed",
+      "assessment_count": 10,
+      "clo_count": 7,
+      "matched_assessments": [
+        {
+          "course_code": "PFP191",
+          "report_assessment": "Assignment",
+          "canonical_assessment": "Assignment",
+          "assessment_index": 0,
+          "match_type": "exact"
+        },
+        {
+          "course_code": "PFP191",
+          "report_assessment": "Lab 1",
+          "canonical_assessment": "Lab 1",
+          "assessment_index": 1,
+          "match_type": "exact"
+        },
+        {
+          "course_code": "PFP191",
+          "report_assessment": "Lab 2",
+          "canonical_assessment": "Lab 2",
+          "assessment_index": 2,
+          "match_type": "exact"
+        },
+        {
+          "course_code": "PFP191",
+          "report_assessment": "Lab 3",
+          "canonical_assessment": "Lab 3",
+          "assessment_index": 3,
+          "match_type": "exact"
+        },
+        {
+          "course_code": "PFP191",
+          "report_assessment": "Lab 4",
+          "canonical_assessment": "Lab 4",
+          "assessment_index": 4,
+          "match_type": "exact"
+        },
+        {
+          "course_code": "PFP191",
+          "report_assessment": "Lab 5",
+          "canonical_assessment": "Lab 5",
+          "assessment_index": 5,
+          "match_type": "exact"
+        },
+        {
+          "course_code": "PFP191",
+          "report_assessment": "Progress tess 1",
+          "canonical_assessment": "Progress Test 1",
+          "assessment_index": 7,
+          "match_type": "alias"
+        },
+        {
+          "course_code": "PFP191",
+          "report_assessment": "Progress tess 2",
+          "canonical_assessment": "Progress Test 2",
+          "assessment_index": 8,
+          "match_type": "alias"
+        },
+        {
+          "course_code": "PFP191",
+          "report_assessment": "Practical exam",
+          "canonical_assessment": "Practical Exam",
+          "assessment_index": 6,
+          "match_type": "normalized"
+        },
+        {
+          "course_code": "PFP191",
+          "report_assessment": "Final exam",
+          "canonical_assessment": "Final Exam",
+          "assessment_index": 9,
+          "match_type": "normalized"
+        }
+      ],
+      "missing_canonical_assessment_grades": [],
+      "unmatched_report_assessments": [],
+      "duplicate_or_ambiguous_assessment_matches": [],
+      "invalid_clo_mappings": [],
+      "invalid_assessment_weights": [],
+      "invalid_assessment_grades": [],
+      "unexpected_weight_total": null,
+      "clo_results": [
+        {
+          "clo": "CLO1",
+          "score": 8.72,
+          "achievement": "excellent",
+          "total_allocated_weight": 15.2857,
+          "evidence_count": 6
+        },
+        {
+          "clo": "CLO2",
+          "score": 8.72,
+          "achievement": "excellent",
+          "total_allocated_weight": 15.2857,
+          "evidence_count": 6
+        },
+        {
+          "clo": "CLO3",
+          "score": 8.98,
+          "achievement": "excellent",
+          "total_allocated_weight": 16.2857,
+          "evidence_count": 6
+        },
+        {
+          "clo": "CLO4",
+          "score": 9.0,
+          "achievement": "excellent",
+          "total_allocated_weight": 11.7857,
+          "evidence_count": 4
+        },
+        {
+          "clo": "CLO5",
+          "score": 9.0,
+          "achievement": "excellent",
+          "total_allocated_weight": 13.7857,
+          "evidence_count": 5
+        },
+        {
+          "clo": "CLO6",
+          "score": 9.15,
+          "achievement": "excellent",
+          "total_allocated_weight": 13.7857,
+          "evidence_count": 5
+        },
+        {
+          "clo": "CLO7",
+          "score": 8.9,
+          "achievement": "excellent",
+          "total_allocated_weight": 13.7857,
+          "evidence_count": 5
+        }
+      ]
+    },
+    {
+      "course_code": "CEA201",
+      "status": "processed",
+      "assessment_count": 7,
+      "clo_count": 10,
+      "matched_assessments": [
+        {
+          "course_code": "CEA201",
+          "report_assessment": "Assignment 1",
+          "canonical_assessment": "Assignment 1",
+          "assessment_index": 0,
+          "match_type": "exact"
+        },
+        {
+          "course_code": "CEA201",
+          "report_assessment": "Assignment 2",
+          "canonical_assessment": "Assignment 2",
+          "assessment_index": 1,
+          "match_type": "exact"
+        },
+        {
+          "course_code": "CEA201",
+          "report_assessment": "Exercices 1",
+          "canonical_assessment": "Exercise 1",
+          "assessment_index": 2,
+          "match_type": "alias"
+        },
+        {
+          "course_code": "CEA201",
+          "report_assessment": "Exercices 2",
+          "canonical_assessment": "Exercise 2",
+          "assessment_index": 3,
+          "match_type": "alias"
+        },
+        {
+          "course_code": "CEA201",
+          "report_assessment": "Exercices 3",
+          "canonical_assessment": "Exercise 3",
+          "assessment_index": 4,
+          "match_type": "alias"
+        },
+        {
+          "course_code": "CEA201",
+          "report_assessment": "Exercices 4",
+          "canonical_assessment": "Exercise 4",
+          "assessment_index": 5,
+          "match_type": "alias"
+        },
+        {
+          "course_code": "CEA201",
+          "report_assessment": "Final exam",
+          "canonical_assessment": "Final exam",
+          "assessment_index": 6,
+          "match_type": "exact"
+        }
+      ],
+      "missing_canonical_assessment_grades": [],
+      "unmatched_report_assessments": [],
+      "duplicate_or_ambiguous_assessment_matches": [],
+      "invalid_clo_mappings": [],
+      "invalid_assessment_weights": [],
+      "invalid_assessment_grades": [],
+      "unexpected_weight_total": null,
+      "clo_results": [
+        {
+          "clo": "CLO1",
+          "score": 7.01,
+          "achievement": "good",
+          "total_allocated_weight": 10.0,
+          "evidence_count": 7
+        },
+        {
+          "clo": "CLO2",
+          "score": 7.01,
+          "achievement": "good",
+          "total_allocated_weight": 10.0,
+          "evidence_count": 7
+        },
+        {
+          "clo": "CLO3",
+          "score": 7.01,
+          "achievement": "good",
+          "total_allocated_weight": 10.0,
+          "evidence_count": 7
+        },
+        {
+          "clo": "CLO4",
+          "score": 7.01,
+          "achievement": "good",
+          "total_allocated_weight": 10.0,
+          "evidence_count": 7
+        },
+        {
+          "clo": "CLO5",
+          "score": 7.01,
+          "achievement": "good",
+          "total_allocated_weight": 10.0,
+          "evidence_count": 7
+        },
+        {
+          "clo": "CLO6",
+          "score": 7.01,
+          "achievement": "good",
+          "total_allocated_weight": 10.0,
+          "evidence_count": 7
+        },
+        {
+          "clo": "CLO7",
+          "score": 7.01,
+          "achievement": "good",
+          "total_allocated_weight": 10.0,
+          "evidence_count": 7
+        },
+        {
+          "clo": "CLO8",
+          "score": 7.01,
+          "achievement": "good",
+          "total_allocated_weight": 10.0,
+          "evidence_count": 7
+        },
+        {
+          "clo": "CLO9",
+          "score": 7.01,
+          "achievement": "good",
+          "total_allocated_weight": 10.0,
+          "evidence_count": 7
+        },
+        {
+          "clo": "CLO10",
+          "score": 7.01,
+          "achievement": "good",
+          "total_allocated_weight": 10.0,
+          "evidence_count": 7
+        }
+      ]
+    },
+    {
+      "course_code": "CSD203",
+      "status": "processed",
+      "assessment_count": 6,
+      "clo_count": 8,
+      "matched_assessments": [
+        {
+          "course_code": "CSD203",
+          "report_assessment": "Assignment 1",
+          "canonical_assessment": "Assignment 1",
+          "assessment_index": 0,
+          "match_type": "exact"
+        },
+        {
+          "course_code": "CSD203",
+          "report_assessment": "Assignment 2",
+          "canonical_assessment": "Assignment 2",
+          "assessment_index": 1,
+          "match_type": "exact"
+        },
+        {
+          "course_code": "CSD203",
+          "report_assessment": "Progress tess 1",
+          "canonical_assessment": "Progress Test 1",
+          "assessment_index": 3,
+          "match_type": "alias"
+        },
+        {
+          "course_code": "CSD203",
+          "report_assessment": "Progress tess 2",
+          "canonical_assessment": "Progress Test 2",
+          "assessment_index": 4,
+          "match_type": "alias"
+        },
+        {
+          "course_code": "CSD203",
+          "report_assessment": "Practical exam",
+          "canonical_assessment": "Practical exam",
+          "assessment_index": 2,
+          "match_type": "exact"
+        },
+        {
+          "course_code": "CSD203",
+          "report_assessment": "Final exam",
+          "canonical_assessment": "Final exam",
+          "assessment_index": 5,
+          "match_type": "exact"
+        }
+      ],
+      "missing_canonical_assessment_grades": [],
+      "unmatched_report_assessments": [],
+      "duplicate_or_ambiguous_assessment_matches": [],
+      "invalid_clo_mappings": [],
+      "invalid_assessment_weights": [],
+      "invalid_assessment_grades": [],
+      "unexpected_weight_total": null,
+      "clo_results": [
+        {
+          "clo": "CLO1",
+          "score": 7.26,
+          "achievement": "good",
+          "total_allocated_weight": 12.5,
+          "evidence_count": 4
+        },
+        {
+          "clo": "CLO2",
+          "score": 7.26,
+          "achievement": "good",
+          "total_allocated_weight": 12.5,
+          "evidence_count": 4
+        },
+        {
+          "clo": "CLO3",
+          "score": 7.26,
+          "achievement": "good",
+          "total_allocated_weight": 12.5,
+          "evidence_count": 4
+        },
+        {
+          "clo": "CLO4",
+          "score": 7.26,
+          "achievement": "good",
+          "total_allocated_weight": 12.5,
+          "evidence_count": 4
+        },
+        {
+          "clo": "CLO5",
+          "score": 6.06,
+          "achievement": "basic",
+          "total_allocated_weight": 12.5,
+          "evidence_count": 4
+        },
+        {
+          "clo": "CLO6",
+          "score": 6.06,
+          "achievement": "basic",
+          "total_allocated_weight": 12.5,
+          "evidence_count": 4
+        },
+        {
+          "clo": "CLO7",
+          "score": 6.06,
+          "achievement": "basic",
+          "total_allocated_weight": 12.5,
+          "evidence_count": 4
+        },
+        {
+          "clo": "CLO8",
+          "score": 6.06,
+          "achievement": "basic",
+          "total_allocated_weight": 12.5,
+          "evidence_count": 4
+        }
+      ]
+    },
+    {
+      "course_code": "DBI202",
+      "status": "processed",
+      "assessment_count": 10,
+      "clo_count": 7,
+      "matched_assessments": [
+        {
+          "course_code": "DBI202",
+          "report_assessment": "Assignment",
+          "canonical_assessment": "Assignment",
+          "assessment_index": 0,
+          "match_type": "exact"
+        },
+        {
+          "course_code": "DBI202",
+          "report_assessment": "Lab 1",
+          "canonical_assessment": "Lab 1",
+          "assessment_index": 1,
+          "match_type": "exact"
+        },
+        {
+          "course_code": "DBI202",
+          "report_assessment": "Lab 2",
+          "canonical_assessment": "Lab 2",
+          "assessment_index": 2,
+          "match_type": "exact"
+        },
+        {
+          "course_code": "DBI202",
+          "report_assessment": "Lab 3",
+          "canonical_assessment": "Lab 3",
+          "assessment_index": 3,
+          "match_type": "exact"
+        },
+        {
+          "course_code": "DBI202",
+          "report_assessment": "Lab 4",
+          "canonical_assessment": "Lab 4",
+          "assessment_index": 4,
+          "match_type": "exact"
+        },
+        {
+          "course_code": "DBI202",
+          "report_assessment": "Lab 5",
+          "canonical_assessment": "Lab 5",
+          "assessment_index": 5,
+          "match_type": "exact"
+        },
+        {
+          "course_code": "DBI202",
+          "report_assessment": "Progress tess 1",
+          "canonical_assessment": "Progress Test 1",
+          "assessment_index": 7,
+          "match_type": "alias"
+        },
+        {
+          "course_code": "DBI202",
+          "report_assessment": "Progress tess 2",
+          "canonical_assessment": "Progress Test 2",
+          "assessment_index": 8,
+          "match_type": "alias"
+        },
+        {
+          "course_code": "DBI202",
+          "report_assessment": "Practical exam",
+          "canonical_assessment": "Practical Exam",
+          "assessment_index": 6,
+          "match_type": "normalized"
+        },
+        {
+          "course_code": "DBI202",
+          "report_assessment": "Final exam",
+          "canonical_assessment": "Final exam",
+          "assessment_index": 9,
+          "match_type": "exact"
+        }
+      ],
+      "missing_canonical_assessment_grades": [],
+      "unmatched_report_assessments": [],
+      "duplicate_or_ambiguous_assessment_matches": [],
+      "invalid_clo_mappings": [],
+      "invalid_assessment_weights": [],
+      "invalid_assessment_grades": [],
+      "unexpected_weight_total": null,
+      "clo_results": [
+        {
+          "clo": "CLO1",
+          "score": 6.03,
+          "achievement": "basic",
+          "total_allocated_weight": 14.0952,
+          "evidence_count": 5
+        },
+        {
+          "clo": "CLO2",
+          "score": 6.03,
+          "achievement": "basic",
+          "total_allocated_weight": 14.0952,
+          "evidence_count": 5
+        },
+        {
+          "clo": "CLO3",
+          "score": 5.45,
+          "achievement": "basic",
+          "total_allocated_weight": 15.0952,
+          "evidence_count": 5
+        },
+        {
+          "clo": "CLO4",
+          "score": 6.43,
+          "achievement": "basic",
+          "total_allocated_weight": 15.1786,
+          "evidence_count": 6
+        },
+        {
+          "clo": "CLO5",
+          "score": 5.96,
+          "achievement": "basic",
+          "total_allocated_weight": 13.8452,
+          "evidence_count": 6
+        },
+        {
+          "clo": "CLO6",
+          "score": 5.96,
+          "achievement": "basic",
+          "total_allocated_weight": 13.8452,
+          "evidence_count": 6
+        },
+        {
+          "clo": "CLO7",
+          "score": 5.96,
+          "achievement": "basic",
+          "total_allocated_weight": 13.8452,
+          "evidence_count": 6
+        }
+      ]
+    },
+    {
+      "course_code": "AIG202c",
+      "status": "processed",
+      "assessment_count": 1,
+      "clo_count": 5,
+      "matched_assessments": [
+        {
+          "course_code": "AIG202c",
+          "report_assessment": "TE",
+          "canonical_assessment": "TE",
+          "assessment_index": 0,
+          "match_type": "exact"
+        }
+      ],
+      "missing_canonical_assessment_grades": [],
+      "unmatched_report_assessments": [],
+      "duplicate_or_ambiguous_assessment_matches": [],
+      "invalid_clo_mappings": [],
+      "invalid_assessment_weights": [],
+      "invalid_assessment_grades": [],
+      "unexpected_weight_total": null,
+      "clo_results": [
+        {
+          "clo": "CLO1",
+          "score": 8.0,
+          "achievement": "good",
+          "total_allocated_weight": 20.0,
+          "evidence_count": 1
+        },
+        {
+          "clo": "CLO3",
+          "score": 8.0,
+          "achievement": "good",
+          "total_allocated_weight": 20.0,
+          "evidence_count": 1
+        },
+        {
+          "clo": "CLO4",
+          "score": 8.0,
+          "achievement": "good",
+          "total_allocated_weight": 20.0,
+          "evidence_count": 1
+        },
+        {
+          "clo": "CLO5",
+          "score": 8.0,
+          "achievement": "good",
+          "total_allocated_weight": 20.0,
+          "evidence_count": 1
+        },
+        {
+          "clo": "CLO2",
+          "score": 8.0,
+          "achievement": "good",
+          "total_allocated_weight": 20.0,
+          "evidence_count": 1
+        }
+      ]
+    },
+    {
+      "course_code": "ADY201m",
+      "status": "processed",
+      "assessment_count": 8,
+      "clo_count": 7,
+      "matched_assessments": [
+        {
+          "course_code": "ADY201m",
+          "report_assessment": "Final Project Evaluation",
+          "canonical_assessment": "Final Project Evaluation",
+          "assessment_index": 0,
+          "match_type": "exact"
+        },
+        {
+          "course_code": "ADY201m",
+          "report_assessment": "On going assessment 1",
+          "canonical_assessment": "On going assessment 1",
+          "assessment_index": 1,
+          "match_type": "exact"
+        },
+        {
+          "course_code": "ADY201m",
+          "report_assessment": "On going assessment 2",
+          "canonical_assessment": "On going assessment 2",
+          "assessment_index": 2,
+          "match_type": "exact"
+        },
+        {
+          "course_code": "ADY201m",
+          "report_assessment": "On going assessment 3",
+          "canonical_assessment": "On going assessment 3",
+          "assessment_index": 3,
+          "match_type": "exact"
+        },
+        {
+          "course_code": "ADY201m",
+          "report_assessment": "Progress tess 1",
+          "canonical_assessment": "Progress Test 1",
+          "assessment_index": 4,
+          "match_type": "alias"
+        },
+        {
+          "course_code": "ADY201m",
+          "report_assessment": "Progress tess 2",
+          "canonical_assessment": "Progress Test 2",
+          "assessment_index": 5,
+          "match_type": "alias"
+        },
+        {
+          "course_code": "ADY201m",
+          "report_assessment": "Project Planning",
+          "canonical_assessment": "Project Planning",
+          "assessment_index": 6,
+          "match_type": "exact"
+        },
+        {
+          "course_code": "ADY201m",
+          "report_assessment": "Final exam",
+          "canonical_assessment": "Final exam",
+          "assessment_index": 7,
+          "match_type": "exact"
+        }
+      ],
+      "missing_canonical_assessment_grades": [],
+      "unmatched_report_assessments": [],
+      "duplicate_or_ambiguous_assessment_matches": [],
+      "invalid_clo_mappings": [],
+      "invalid_assessment_weights": [],
+      "invalid_assessment_grades": [],
+      "unexpected_weight_total": null,
+      "clo_results": [
+        {
+          "clo": "CLO1",
+          "score": 8.3,
+          "achievement": "good",
+          "total_allocated_weight": 16.5476,
+          "evidence_count": 5
+        },
+        {
+          "clo": "CLO2",
+          "score": 8.3,
+          "achievement": "good",
+          "total_allocated_weight": 16.5476,
+          "evidence_count": 5
+        },
+        {
+          "clo": "CLO3",
+          "score": 8.43,
+          "achievement": "good",
+          "total_allocated_weight": 11.5476,
+          "evidence_count": 4
+        },
+        {
+          "clo": "CLO4",
+          "score": 8.83,
+          "achievement": "excellent",
+          "total_allocated_weight": 15.7143,
+          "evidence_count": 5
+        },
+        {
+          "clo": "CLO5",
+          "score": 8.61,
+          "achievement": "excellent",
+          "total_allocated_weight": 13.2143,
+          "evidence_count": 4
+        },
+        {
+          "clo": "CLO6",
+          "score": 8.61,
+          "achievement": "excellent",
+          "total_allocated_weight": 13.2143,
+          "evidence_count": 4
+        },
+        {
+          "clo": "CLO7",
+          "score": 8.61,
+          "achievement": "excellent",
+          "total_allocated_weight": 13.2143,
+          "evidence_count": 4
+        }
+      ]
+    },
+    {
+      "course_code": "ITE303c",
+      "status": "processed",
+      "assessment_count": 1,
+      "clo_count": 4,
+      "matched_assessments": [
+        {
+          "course_code": "ITE303c",
+          "report_assessment": "Final exam",
+          "canonical_assessment": "Final exam",
+          "assessment_index": 0,
+          "match_type": "exact"
+        }
+      ],
+      "missing_canonical_assessment_grades": [],
+      "unmatched_report_assessments": [],
+      "duplicate_or_ambiguous_assessment_matches": [],
+      "invalid_clo_mappings": [],
+      "invalid_assessment_weights": [],
+      "invalid_assessment_grades": [],
+      "unexpected_weight_total": null,
+      "clo_results": [
+        {
+          "clo": "CLO1",
+          "score": 8.6,
+          "achievement": "excellent",
+          "total_allocated_weight": 25.0,
+          "evidence_count": 1
+        },
+        {
+          "clo": "CLO2",
+          "score": 8.6,
+          "achievement": "excellent",
+          "total_allocated_weight": 25.0,
+          "evidence_count": 1
+        },
+        {
+          "clo": "CLO3",
+          "score": 8.6,
+          "achievement": "excellent",
+          "total_allocated_weight": 25.0,
+          "evidence_count": 1
+        },
+        {
+          "clo": "CLO4",
+          "score": 8.6,
+          "achievement": "excellent",
+          "total_allocated_weight": 25.0,
+          "evidence_count": 1
+        }
+      ]
+    },
+    {
+      "course_code": "MAI391",
+      "status": "processed",
+      "assessment_count": 7,
+      "clo_count": 9,
+      "matched_assessments": [
+        {
+          "course_code": "MAI391",
+          "report_assessment": "Assignment 1",
+          "canonical_assessment": "Assignment 1",
+          "assessment_index": 0,
+          "match_type": "exact"
+        },
+        {
+          "course_code": "MAI391",
+          "report_assessment": "Assignment 2",
+          "canonical_assessment": "Assignment 2",
+          "assessment_index": 1,
+          "match_type": "exact"
+        },
+        {
+          "course_code": "MAI391",
+          "report_assessment": "Assignment 3",
+          "canonical_assessment": "Assignment 3",
+          "assessment_index": 2,
+          "match_type": "exact"
+        },
+        {
+          "course_code": "MAI391",
+          "report_assessment": "Computer Project",
+          "canonical_assessment": "Computer Project",
+          "assessment_index": 3,
+          "match_type": "exact"
+        },
+        {
+          "course_code": "MAI391",
+          "report_assessment": "Progress tess 1",
+          "canonical_assessment": "Progress Test 1",
+          "assessment_index": 4,
+          "match_type": "alias"
+        },
+        {
+          "course_code": "MAI391",
+          "report_assessment": "Progress tess 2",
+          "canonical_assessment": "Progress Test 2",
+          "assessment_index": 5,
+          "match_type": "alias"
+        },
+        {
+          "course_code": "MAI391",
+          "report_assessment": "Final Exam",
+          "canonical_assessment": "Final exam",
+          "assessment_index": 6,
+          "match_type": "normalized"
+        }
+      ],
+      "missing_canonical_assessment_grades": [],
+      "unmatched_report_assessments": [],
+      "duplicate_or_ambiguous_assessment_matches": [],
+      "invalid_clo_mappings": [],
+      "invalid_assessment_weights": [],
+      "invalid_assessment_grades": [],
+      "unexpected_weight_total": null,
+      "clo_results": [
+        {
+          "clo": "CLO0",
+          "score": 9.22,
+          "achievement": "excellent",
+          "total_allocated_weight": 11.8333,
+          "evidence_count": 3
+        },
+        {
+          "clo": "CLO1",
+          "score": 9.22,
+          "achievement": "excellent",
+          "total_allocated_weight": 11.8333,
+          "evidence_count": 3
+        },
+        {
+          "clo": "CLO2",
+          "score": 9.22,
+          "achievement": "excellent",
+          "total_allocated_weight": 11.8333,
+          "evidence_count": 3
+        },
+        {
+          "clo": "CLO3",
+          "score": 9.43,
+          "achievement": "excellent",
+          "total_allocated_weight": 12.6667,
+          "evidence_count": 3
+        },
+        {
+          "clo": "CLO4",
+          "score": 9.43,
+          "achievement": "excellent",
+          "total_allocated_weight": 12.6667,
+          "evidence_count": 3
+        },
+        {
+          "clo": "CLO5",
+          "score": 9.4,
+          "achievement": "excellent",
+          "total_allocated_weight": 8.3333,
+          "evidence_count": 2
+        },
+        {
+          "clo": "CLO6",
+          "score": 9.4,
+          "achievement": "excellent",
+          "total_allocated_weight": 8.3333,
+          "evidence_count": 2
+        },
+        {
+          "clo": "CLO7",
+          "score": 9.4,
+          "achievement": "excellent",
+          "total_allocated_weight": 8.3333,
+          "evidence_count": 2
+        },
+        {
+          "clo": "CLO8",
+          "score": 9.51,
+          "achievement": "excellent",
+          "total_allocated_weight": 14.1667,
+          "evidence_count": 4
+        }
+      ]
+    },
+    {
+      "course_code": "MAS291",
+      "status": "processed",
+      "assessment_count": 7,
+      "clo_count": 9,
+      "matched_assessments": [
+        {
+          "course_code": "MAS291",
+          "report_assessment": "Assignment 1",
+          "canonical_assessment": "Assignment 1",
+          "assessment_index": 0,
+          "match_type": "exact"
+        },
+        {
+          "course_code": "MAS291",
+          "report_assessment": "Assignment 2",
+          "canonical_assessment": "Assignment 2",
+          "assessment_index": 1,
+          "match_type": "exact"
+        },
+        {
+          "course_code": "MAS291",
+          "report_assessment": "Computer Project",
+          "canonical_assessment": "Computer Project",
+          "assessment_index": 2,
+          "match_type": "exact"
+        },
+        {
+          "course_code": "MAS291",
+          "report_assessment": "Progress tess 1",
+          "canonical_assessment": "Progress Test 1",
+          "assessment_index": 3,
+          "match_type": "alias"
+        },
+        {
+          "course_code": "MAS291",
+          "report_assessment": "Progress tess 2",
+          "canonical_assessment": "Progress Test 2",
+          "assessment_index": 4,
+          "match_type": "alias"
+        },
+        {
+          "course_code": "MAS291",
+          "report_assessment": "Progress tess 3",
+          "canonical_assessment": "Progress Test 3",
+          "assessment_index": 5,
+          "match_type": "alias"
+        },
+        {
+          "course_code": "MAS291",
+          "report_assessment": "Final Exam",
+          "canonical_assessment": "Final exam",
+          "assessment_index": 6,
+          "match_type": "normalized"
+        }
+      ],
+      "missing_canonical_assessment_grades": [],
+      "unmatched_report_assessments": [],
+      "duplicate_or_ambiguous_assessment_matches": [],
+      "invalid_clo_mappings": [],
+      "invalid_assessment_weights": [],
+      "invalid_assessment_grades": [],
+      "unexpected_weight_total": null,
+      "clo_results": [
+        {
+          "clo": "CLO1",
+          "score": 9.34,
+          "achievement": "excellent",
+          "total_allocated_weight": 10.5556,
+          "evidence_count": 3
+        },
+        {
+          "clo": "CLO2",
+          "score": 9.34,
+          "achievement": "excellent",
+          "total_allocated_weight": 10.5556,
+          "evidence_count": 3
+        },
+        {
+          "clo": "CLO3",
+          "score": 9.34,
+          "achievement": "excellent",
+          "total_allocated_weight": 10.5556,
+          "evidence_count": 3
+        },
+        {
+          "clo": "CLO4",
+          "score": 9.15,
+          "achievement": "excellent",
+          "total_allocated_weight": 10.5556,
+          "evidence_count": 3
+        },
+        {
+          "clo": "CLO5",
+          "score": 9.15,
+          "achievement": "excellent",
+          "total_allocated_weight": 10.5556,
+          "evidence_count": 3
+        },
+        {
+          "clo": "CLO6",
+          "score": 9.15,
+          "achievement": "excellent",
+          "total_allocated_weight": 10.5556,
+          "evidence_count": 3
+        },
+        {
+          "clo": "CLO7",
+          "score": 9.43,
+          "achievement": "excellent",
+          "total_allocated_weight": 12.2222,
+          "evidence_count": 3
+        },
+        {
+          "clo": "CLO8",
+          "score": 9.43,
+          "achievement": "excellent",
+          "total_allocated_weight": 12.2222,
+          "evidence_count": 3
+        },
+        {
+          "clo": "CLO9",
+          "score": 9.43,
+          "achievement": "excellent",
+          "total_allocated_weight": 12.2222,
+          "evidence_count": 3
+        }
+      ]
+    },
+    {
+      "course_code": "AIL303m",
+      "status": "processed",
+      "assessment_count": 8,
+      "clo_count": 10,
+      "matched_assessments": [
+        {
+          "course_code": "AIL303m",
+          "report_assessment": "Lab 1",
+          "canonical_assessment": "Lab 1",
+          "assessment_index": 0,
+          "match_type": "exact"
+        },
+        {
+          "course_code": "AIL303m",
+          "report_assessment": "Lab 2",
+          "canonical_assessment": "Lab 2",
+          "assessment_index": 1,
+          "match_type": "exact"
+        },
+        {
+          "course_code": "AIL303m",
+          "report_assessment": "Progress test 1",
+          "canonical_assessment": "Progress Test 1",
+          "assessment_index": 3,
+          "match_type": "normalized"
+        },
+        {
+          "course_code": "AIL303m",
+          "report_assessment": "Progress tess 2",
+          "canonical_assessment": "Progress Test 2",
+          "assessment_index": 4,
+          "match_type": "alias"
+        },
+        {
+          "course_code": "AIL303m",
+          "report_assessment": "Progress tess 3",
+          "canonical_assessment": "Progress Test 3",
+          "assessment_index": 5,
+          "match_type": "alias"
+        },
+        {
+          "course_code": "AIL303m",
+          "report_assessment": "Progress tess 4",
+          "canonical_assessment": "Progress Test 4",
+          "assessment_index": 6,
+          "match_type": "alias"
+        },
+        {
+          "course_code": "AIL303m",
+          "report_assessment": "Mini capstone",
+          "canonical_assessment": "Mini capstone",
+          "assessment_index": 2,
+          "match_type": "exact"
+        },
+        {
+          "course_code": "AIL303m",
+          "report_assessment": "Final exam",
+          "canonical_assessment": "Final exam",
+          "assessment_index": 7,
+          "match_type": "exact"
+        }
+      ],
+      "missing_canonical_assessment_grades": [],
+      "unmatched_report_assessments": [],
+      "duplicate_or_ambiguous_assessment_matches": [],
+      "invalid_clo_mappings": [],
+      "invalid_assessment_weights": [],
+      "invalid_assessment_grades": [],
+      "unexpected_weight_total": null,
+      "clo_results": [
+        {
+          "clo": "CLO1",
+          "score": 7.56,
+          "achievement": "good",
+          "total_allocated_weight": 8.3333,
+          "evidence_count": 3
+        },
+        {
+          "clo": "CLO2",
+          "score": 7.56,
+          "achievement": "good",
+          "total_allocated_weight": 8.3333,
+          "evidence_count": 3
+        },
+        {
+          "clo": "CLO3",
+          "score": 7.56,
+          "achievement": "good",
+          "total_allocated_weight": 8.3333,
+          "evidence_count": 3
+        },
+        {
+          "clo": "CLO4",
+          "score": 8.39,
+          "achievement": "good",
+          "total_allocated_weight": 12.5,
+          "evidence_count": 4
+        },
+        {
+          "clo": "CLO5",
+          "score": 8.39,
+          "achievement": "good",
+          "total_allocated_weight": 12.5,
+          "evidence_count": 4
+        },
+        {
+          "clo": "CLO6",
+          "score": 8.27,
+          "achievement": "good",
+          "total_allocated_weight": 5.0,
+          "evidence_count": 2
+        },
+        {
+          "clo": "CLO7",
+          "score": 7.4,
+          "achievement": "good",
+          "total_allocated_weight": 3.3333,
+          "evidence_count": 1
+        },
+        {
+          "clo": "CLO8",
+          "score": 6.87,
+          "achievement": "basic",
+          "total_allocated_weight": 5.0,
+          "evidence_count": 2
+        },
+        {
+          "clo": "CLO9",
+          "score": 6.87,
+          "achievement": "basic",
+          "total_allocated_weight": 5.0,
+          "evidence_count": 2
+        },
+        {
+          "clo": "CLO10",
+          "score": 5.42,
+          "achievement": "basic",
+          "total_allocated_weight": 31.6667,
+          "evidence_count": 2
+        }
+      ]
+    },
+    {
+      "course_code": "CPV301",
+      "status": "processed",
+      "assessment_count": 8,
+      "clo_count": 9,
+      "matched_assessments": [
+        {
+          "course_code": "CPV301",
+          "report_assessment": "Assignment",
+          "canonical_assessment": "Assignment",
+          "assessment_index": 0,
+          "match_type": "exact"
+        },
+        {
+          "course_code": "CPV301",
+          "report_assessment": "Lab 1",
+          "canonical_assessment": "Lab 1",
+          "assessment_index": 1,
+          "match_type": "exact"
+        },
+        {
+          "course_code": "CPV301",
+          "report_assessment": "Lab 2",
+          "canonical_assessment": "Lab 2",
+          "assessment_index": 2,
+          "match_type": "exact"
+        },
+        {
+          "course_code": "CPV301",
+          "report_assessment": "Lab 3",
+          "canonical_assessment": "Lab 3",
+          "assessment_index": 3,
+          "match_type": "exact"
+        },
+        {
+          "course_code": "CPV301",
+          "report_assessment": "Lab 4",
+          "canonical_assessment": "Lab 4",
+          "assessment_index": 4,
+          "match_type": "exact"
+        },
+        {
+          "course_code": "CPV301",
+          "report_assessment": "Progress test",
+          "canonical_assessment": "Progress Test",
+          "assessment_index": 6,
+          "match_type": "normalized"
+        },
+        {
+          "course_code": "CPV301",
+          "report_assessment": "Practical Exam",
+          "canonical_assessment": "Practical Exam",
+          "assessment_index": 5,
+          "match_type": "exact"
+        },
+        {
+          "course_code": "CPV301",
+          "report_assessment": "Final exam",
+          "canonical_assessment": "Final Exam",
+          "assessment_index": 7,
+          "match_type": "normalized"
+        }
+      ],
+      "missing_canonical_assessment_grades": [],
+      "unmatched_report_assessments": [],
+      "duplicate_or_ambiguous_assessment_matches": [],
+      "invalid_clo_mappings": [],
+      "invalid_assessment_weights": [],
+      "invalid_assessment_grades": [],
+      "unexpected_weight_total": null,
+      "clo_results": [
+        {
+          "clo": "CLO1",
+          "score": 8.71,
+          "achievement": "excellent",
+          "total_allocated_weight": 10.2083,
+          "evidence_count": 5
+        },
+        {
+          "clo": "CLO2",
+          "score": 8.87,
+          "achievement": "excellent",
+          "total_allocated_weight": 12.7083,
+          "evidence_count": 6
+        },
+        {
+          "clo": "CLO3",
+          "score": 8.91,
+          "achievement": "excellent",
+          "total_allocated_weight": 11.4583,
+          "evidence_count": 5
+        },
+        {
+          "clo": "CLO4",
+          "score": 8.88,
+          "achievement": "excellent",
+          "total_allocated_weight": 12.2917,
+          "evidence_count": 6
+        },
+        {
+          "clo": "CLO5",
+          "score": 8.88,
+          "achievement": "excellent",
+          "total_allocated_weight": 12.1667,
+          "evidence_count": 6
+        },
+        {
+          "clo": "CLO6",
+          "score": 8.88,
+          "achievement": "excellent",
+          "total_allocated_weight": 12.1667,
+          "evidence_count": 6
+        },
+        {
+          "clo": "CLO7",
+          "score": 8.81,
+          "achievement": "excellent",
+          "total_allocated_weight": 9.6667,
+          "evidence_count": 4
+        },
+        {
+          "clo": "CLO8",
+          "score": 8.81,
+          "achievement": "excellent",
+          "total_allocated_weight": 9.6667,
+          "evidence_count": 4
+        },
+        {
+          "clo": "CLO9",
+          "score": 8.81,
+          "achievement": "excellent",
+          "total_allocated_weight": 9.6667,
+          "evidence_count": 4
+        }
+      ]
+    },
+    {
+      "course_code": "DAP391m",
+      "status": "processed",
+      "assessment_count": 5,
+      "clo_count": 7,
+      "matched_assessments": [
+        {
+          "course_code": "DAP391m",
+          "report_assessment": "Final Project Evaluation",
+          "canonical_assessment": "Final Project Evaluation",
+          "assessment_index": 0,
+          "match_type": "exact"
+        },
+        {
+          "course_code": "DAP391m",
+          "report_assessment": "On going assessment",
+          "canonical_assessment": "On going assessment",
+          "assessment_index": 1,
+          "match_type": "exact"
+        },
+        {
+          "course_code": "DAP391m",
+          "report_assessment": "Progress test",
+          "canonical_assessment": "Progress Test",
+          "assessment_index": 2,
+          "match_type": "normalized"
+        },
+        {
+          "course_code": "DAP391m",
+          "report_assessment": "Project Planning",
+          "canonical_assessment": "Project Planning",
+          "assessment_index": 3,
+          "match_type": "exact"
+        },
+        {
+          "course_code": "DAP391m",
+          "report_assessment": "Final exam",
+          "canonical_assessment": "Final exam",
+          "assessment_index": 4,
+          "match_type": "exact"
+        }
+      ],
+      "missing_canonical_assessment_grades": [],
+      "unmatched_report_assessments": [],
+      "duplicate_or_ambiguous_assessment_matches": [],
+      "invalid_clo_mappings": [],
+      "invalid_assessment_weights": [],
+      "invalid_assessment_grades": [],
+      "unexpected_weight_total": null,
+      "clo_results": [
+        {
+          "clo": "CLO1",
+          "score": 8.45,
+          "achievement": "good",
+          "total_allocated_weight": 23.4286,
+          "evidence_count": 5
+        },
+        {
+          "clo": "CLO2",
+          "score": 8.79,
+          "achievement": "excellent",
+          "total_allocated_weight": 13.4286,
+          "evidence_count": 4
+        },
+        {
+          "clo": "CLO3",
+          "score": 8.79,
+          "achievement": "excellent",
+          "total_allocated_weight": 13.4286,
+          "evidence_count": 4
+        },
+        {
+          "clo": "CLO4",
+          "score": 8.79,
+          "achievement": "excellent",
+          "total_allocated_weight": 13.4286,
+          "evidence_count": 4
+        },
+        {
+          "clo": "CLO5",
+          "score": 8.79,
+          "achievement": "excellent",
+          "total_allocated_weight": 13.4286,
+          "evidence_count": 4
+        },
+        {
+          "clo": "CLO6",
+          "score": 9.1,
+          "achievement": "excellent",
+          "total_allocated_weight": 11.4286,
+          "evidence_count": 3
+        },
+        {
+          "clo": "CLO7",
+          "score": 9.1,
+          "achievement": "excellent",
+          "total_allocated_weight": 11.4286,
+          "evidence_count": 3
+        }
+      ]
+    }
+  ]
+}

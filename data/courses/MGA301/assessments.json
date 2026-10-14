@@ -1,0 +1,44 @@
+[
+  {
+    "category": "Final Presentation & Demonstration",
+    "part": "1",
+    "weight": "20.0%",
+    "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8"
+  },
+  {
+    "category": "Progress Test",
+    "part": "1",
+    "weight": "15.0%",
+    "clo": "CLO1, CLO2, CLO3, CLO4, CLO5"
+  },
+  {
+    "category": "Report 1",
+    "part": "1",
+    "weight": "5.0%",
+    "clo": "CLO1"
+  },
+  {
+    "category": "Report 2",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO2,CLO3"
+  },
+  {
+    "category": "Report 3",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO4,CLO5,CLO6"
+  },
+  {
+    "category": "Report 4",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO7"
+  },
+  {
+    "category": "Final Exam",
+    "part": "1",
+    "weight": "30.0%",
+    "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8"
+  }
+]

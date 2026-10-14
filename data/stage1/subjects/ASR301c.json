@@ -1,0 +1,337 @@
+{
+  "schema_version": "stage1_v1",
+  "record_type": "combo_subject",
+  "subject": {
+    "code": "ASR301c",
+    "name": {
+      "full": "AI for Scientific Research_TTNT cho Nghiên cứu khoa học",
+      "en": "AI for Scientific Research",
+      "vi": "TTNT cho Nghiên cứu khoa học"
+    },
+    "semester": 5,
+    "credits": 3,
+    "prerequisite": ""
+  },
+  "syllabus": {
+    "id": "12628",
+    "name": "AI for Scientific Research_TTNT cho Nghiên cứu khoa học",
+    "is_active": true,
+    "is_approved": true,
+    "decision_no": "359/QĐ-ĐHFPT dated 04/09/2025"
+  },
+  "content": {
+    "metadata": {
+      "syllabus_id": "12628",
+      "syllabus_name": "AI for Scientific Research_TTNT cho Nghiên cứu khoa học",
+      "course_name_english": "AI for Scientific Research",
+      "subject_code": "ASR301c",
+      "learning_teaching_method": "In-class lecture, Social Constructivism, Active Learning",
+      "nocredit": "3",
+      "degree_level": "Bachelor",
+      "time_allocation": "Study hour (150h) = 46h online + 3h offline + 1h final exam + 100h self-study",
+      "pre_requisite": "",
+      "description": "This course is about using AI in scientific situations to discover trends and patterns within datasets. Course 1 teaches a little about the Python language related to data science. We'll share some existing libraries to help analyze your datasets. By the end of the course, you'll apply a classification model to predict the presence or absence of heart disease from a patient's health data. Course 2 covers the complete machine learning pipeline, from reading in, cleaning, and transforming data to running basic and advanced machine learning algorithms. In the final project, we'll apply our skills to compare different machine learning models in Python. In Course 3, we will build on our knowledge of basic models and explore more advanced AI techniques. We’ll describe the differences between the two techniques and explore how they differ. Then, we’ll complete a project predicting similarities between health patients using random forests. In Course 4, a capstone project course, we'll compare genome sequences of COVID-19 mutations to identify potential areas a drug therapy can look to target. By the end, you'll be well on your way to discovering ways to combat disease with genome sequencing.",
+      "studenttasks": "Student must get the certification of AI for Scientific Research Specialization from Coursera to be accepted to the final examination",
+      "tools": "",
+      "scoring_scale": "10",
+      "decisionno_mm_dd_yyyy": "359/QĐ-ĐHFPT dated 04/09/2025",
+      "isapproved": "True",
+      "note": "1. Final Exam included Final Theory Exam (TE): 100%\n2. Students who complete all MOOCs before the course deadline will receive 1 bonus point; otherwise, no bonus point will be awarded.\n3.Completion Criteria: Final TE Score >=4 & (Final TE Score + bonus) >= 5\n4. Complete the online courses and get all specialization certifications to be allowed to take Final Exam",
+      "is_scored": "True",
+      "minavgmarktopass": "5",
+      "isactive": "True",
+      "approveddate": "4/9/2025"
+    },
+    "materials": [
+      {
+        "no": "1",
+        "material_description": "Specialization: AI for Scientific Research Specialization",
+        "author": "LearnQuest",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://www.coursera.org/specializations/artificial-intelligence-scientific-research"
+      },
+      {
+        "no": "2",
+        "material_description": "MOOC 1: Introduction to Data Science and scikit-learn in Python",
+        "author": "LearnQuest",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://www.coursera.org/learn/data-science-and-scikit-learn-in-python?specialization=artificial-intelligence-scientific-research"
+      },
+      {
+        "no": "3",
+        "material_description": "MOOC 2: Machine Learning Models in Science",
+        "author": "LearnQuest",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://www.coursera.org/learn/machine-learning-models-in-science?specialization=artificial-intelligence-scientific-research"
+      },
+      {
+        "no": "4",
+        "material_description": "MOOC 3: Neural Networks and Random Forests",
+        "author": "LearnQuest",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://www.coursera.org/learn/neural-networks-random-forests?specialization=artificial-intelligence-scientific-research"
+      },
+      {
+        "no": "5",
+        "material_description": "MOOC 4: Capstone Project: Advanced AI for Drug Discovery",
+        "author": "LearnQuest",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://www.coursera.org/learn/ai-for-drug-discovery?specialization=artificial-intelligence-scientific-research"
+      },
+      {
+        "no": "6",
+        "material_description": "Help Articles",
+        "author": "",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://www.coursera.support/s/article/208280036-Coursera-Code-of-Conduct?language=en_US"
+      }
+    ],
+    "clos": [
+      {
+        "no": "1",
+        "clo_name": "CLO1",
+        "clo_details": "Employ artificial intelligence techniques to test hypothesis in Python, and apply a machine learning model combining Numpy, Pandas, and Scikit-Learn"
+      },
+      {
+        "no": "2",
+        "clo_name": "CLO2",
+        "clo_details": "Implement and evaluate machine learning models (neural networks, random forests, etc.) on scientific data in Python"
+      },
+      {
+        "no": "3",
+        "clo_name": "CLO3",
+        "clo_details": "Implement simple neural network models and describe the differences between Neural Networks and Random Forests"
+      },
+      {
+        "no": "4",
+        "clo_name": "CLO4",
+        "clo_details": "Analyzing genome sequences to find similarities and identify target subsequences using predctive models"
+      }
+    ],
+    "schedule": [
+      {
+        "session": "1",
+        "topic": "Specialization Introduction\nIntroduction to Data Science and scikit-learn in Python\n- Introduction to Python Programming for Hypothesis Testing\n- Creating a Hypothesis: Numpy, Pandas, and Scikit-Learn\nOffline 1: Guide learning and review of the specialization",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "IT",
+        "student_materials": "Associated Coursera links",
+        "s_download": "",
+        "student_tasks": "Complete Week 1, 2 of the course\nIntroduction to Data Science and scikit-learn in Python",
+        "urls": ""
+      },
+      {
+        "session": "2",
+        "topic": "Introduction to Data Science and scikit-learn in Python (cont.)\n- Scikit-Learn Revisited: ML for Hypothesis Testing\n- Using Classification to Predict the Presence of Heart Disease",
+        "learning_teaching_type": "Online",
+        "lo": "CLO1",
+        "itu": "I",
+        "student_materials": "Associated Coursera links",
+        "s_download": "",
+        "student_tasks": "Complete Week 3, 4 of the course Introduction to Data Science and scikit-learn in Python",
+        "urls": ""
+      },
+      {
+        "session": "3",
+        "topic": "Machine Learning Models in Science\n- Before the AI: Preparing and Preprocessing Data",
+        "learning_teaching_type": "Online",
+        "lo": "CLO2",
+        "itu": "IT",
+        "student_materials": "Associated Coursera links",
+        "s_download": "",
+        "student_tasks": "- Complete Week 1 of the course Machine Learning Models in Science",
+        "urls": ""
+      },
+      {
+        "session": "4",
+        "topic": "Machine Learning Models in Science (cont.)\n- Foundational AI Algorithms: K-Means and SVM",
+        "learning_teaching_type": "Online",
+        "lo": "CLO2",
+        "itu": "I",
+        "student_materials": "Associated Coursera links",
+        "s_download": "",
+        "student_tasks": "Complete Week 2 of the course Machine Learning Models in Science",
+        "urls": ""
+      },
+      {
+        "session": "5",
+        "topic": "Machine Learning Models in Science (cont.)\n- Advanced AI: Neural Networks and Decision Trees",
+        "learning_teaching_type": "Online",
+        "lo": "CLO2",
+        "itu": "I",
+        "student_materials": "Associated Coursera links",
+        "s_download": "",
+        "student_tasks": "Complete Week 3 of the course Machine Learning Models in Science",
+        "urls": ""
+      },
+      {
+        "session": "6",
+        "topic": "Machine Learning Models in Science (cont.)\n- Course Project",
+        "learning_teaching_type": "Online",
+        "lo": "CLO2",
+        "itu": "I",
+        "student_materials": "Associated Coursera links",
+        "s_download": "",
+        "student_tasks": "Complete Week 4 of the course Machine Learning Models in Science",
+        "urls": ""
+      },
+      {
+        "session": "7",
+        "topic": "Neural Networks and Random Forests\n- I2NN and Deep dive into NN",
+        "learning_teaching_type": "Online",
+        "lo": "CLO3",
+        "itu": "IT",
+        "student_materials": "Associated Coursera links",
+        "s_download": "",
+        "student_tasks": "- Complete Week 1 of the course Neural Networks and Random Forests",
+        "urls": ""
+      },
+      {
+        "session": "8",
+        "topic": "Neural Networks and Random Forests (cont.)\n- Exploring Random Forests",
+        "learning_teaching_type": "Online",
+        "lo": "CLO3",
+        "itu": "I",
+        "student_materials": "Associated Coursera links",
+        "s_download": "",
+        "student_tasks": "Complete Week 2 of the course Neural Networks and Random Forests",
+        "urls": ""
+      },
+      {
+        "session": "9",
+        "topic": "Neural Networks and Random Forests (cont.)\n- Final Project: Comparing Models to predict pedal width",
+        "learning_teaching_type": "Online",
+        "lo": "CLO3",
+        "itu": "I",
+        "student_materials": "Associated Coursera links",
+        "s_download": "",
+        "student_tasks": "Complete Week 3 of the course Neural Networks and Random Forests",
+        "urls": ""
+      },
+      {
+        "session": "10",
+        "topic": "Capstone Project: Advanced AI for Drug Discovery\n- Comparing genome sequences and PCA on genome sequence",
+        "learning_teaching_type": "Online",
+        "lo": "CLO4",
+        "itu": "IT",
+        "student_materials": "Associated Coursera links",
+        "s_download": "",
+        "student_tasks": "- Complete Week 1 of the course Capstone Project: Advanced AI for Drug Discovery",
+        "urls": ""
+      },
+      {
+        "session": "11",
+        "topic": "Capstone Project: Advanced AI for Drug Discovery (cont.)\n- Feature Analysis using K-means Clustering",
+        "learning_teaching_type": "Online",
+        "lo": "CLO4",
+        "itu": "I",
+        "student_materials": "Associated Coursera links",
+        "s_download": "",
+        "student_tasks": "Complete Week 2 of the course Capstone Project: Advanced AI for Drug Discovery",
+        "urls": ""
+      },
+      {
+        "session": "12",
+        "topic": "Capstone Project: Advanced AI for Drug Discovery (cont.)\n- Predicting Bit Score to find sequences matches\nCourse 4 Review",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "IT",
+        "student_materials": "Associated Coursera links",
+        "s_download": "",
+        "student_tasks": "- Complete Week 3 of the course Capstone Project: Advanced AI for Drug Discovery\n- Deadline of Coursera Completion: End of Friday of the week.\nAll Students should participate in review slot (if any question)",
+        "urls": ""
+      }
+    ],
+    "assessments": [
+      {
+        "no": "1",
+        "category": "Final exam",
+        "type": "Final exam",
+        "part": "1",
+        "weight": "100.0%",
+        "completion_criteria": "4",
+        "duration": "60'",
+        "clo": "CLO1, CLO2, CLO3, CLO4",
+        "question_type": "Multiple choicesMarked by Computer",
+        "no_question": "50",
+        "knowledge_and_skill": "All studied courses. Each module of course contributes 4-5 questions.",
+        "grading_guide": "by exam board,\nusing computer",
+        "note": "Customized from the quizzes of this specialization.\n1st Evaluation: For students who completed & got Coursera's specialization certificates (Option at week 7);\n2nd Evaluation: For students who completed & got Coursera's specialization certificates) at week 13;\n3rd Evaluation: For students who completed & got Coursera's specialization certificates) at week 14."
+      }
+    ]
+  },
+  "combo": {
+    "family": "AI17_COM",
+    "code": "AI17_COM3",
+    "name": "Topic on AI application_Chủ đề Ứng dụng TTNT BIT_AI_K17C(FNO)",
+    "title": "AI17_COM3: Topic on AI application_Chủ đề Ứng dụng TTNT BIT_AI_K17C(FNO)",
+    "note": "",
+    "slot": {
+      "code": "AI17_COM*2",
+      "alias": "AI17_COM_2",
+      "number": 2,
+      "name": {
+        "full": "Subject 2 of Combo*_Học phần 2 của combo*",
+        "en": "Subject 2 of Combo*",
+        "vi": "Học phần 2 của combo*"
+      }
+    },
+    "row_note": ""
+  },
+  "source": {
+    "raw_file": "flm_output/subjects/AI17_COM_2.json",
+    "curriculum_url": "https://flm.fpt.edu.vn/gui/role/student/CurriculumDetails?curid=3173",
+    "pre_syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/Syllabuses?subCode=AI17_COM%2A2&curriculumID=3173",
+    "syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=12628",
+    "details_source_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=12628"
+  },
+  "crawl": {
+    "error": null
+  },
+  "quality": {
+    "has_syllabus": true,
+    "counts": {
+      "materials": 6,
+      "clos": 4,
+      "schedule": 12,
+      "assessments": 1
+    },
+    "warnings": []
+  }
+}

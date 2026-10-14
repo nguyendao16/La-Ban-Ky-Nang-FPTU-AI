@@ -1,0 +1,137 @@
+{
+  "course_id": "AMO301m",
+  "clos": [
+    {
+      "clo_id": "CLO1",
+      "original_description": "Understand the core concepts of Python programming, advanced data structures, and their specific applications within MLOps workflows.",
+      "enriched_description": "Understand the core concepts of Python programming, advanced data structures, and their applications within MLOps workflows, including MLOps overview concepts, Python foundations for MLOps, functional and object-oriented programming for MLOps pipelines, and applied Python workflows.",
+      "source_topic_indices": [
+        1,
+        2,
+        3
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO2",
+      "original_description": "Apply clean coding practices, modern testing frameworks, and efficient data manipulation using Pandas and NumPy for machine learning data readiness.",
+      "enriched_description": "Apply clean coding practices, modern testing frameworks, and efficient data manipulation using Pandas and NumPy for machine learning data readiness, including Software Testing, Code Quality & Frameworks for MLOps, Data Engineering Foundations & Pipeline Processing with Pandas & NumPy.",
+      "source_topic_indices": [
+        0,
+        1
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO3",
+      "original_description": "Understand the fundamental principles of MLOps, DevOps, and DataOps methodologies, including their importance in the software development lifecycle.",
+      "enriched_description": "Understand the fundamental principles of MLOps, DevOps, and DataOps methodologies, including their importance in the software development lifecycle, including Introduction to MLOps Methodology, Essential Math & Data Science Foundations.",
+      "source_topic_indices": [
+        0,
+        1
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO4",
+      "original_description": "Design and compose software solutions using microservices architectures and automated operations pipelines to support scalable machine learning applications.",
+      "enriched_description": "Design and compose software solutions using microservices architectures and automated operations pipelines to support scalable machine learning applications, including Principles of Operations Pipelines, End-to-End MLOps & AIOps Architecture.",
+      "source_topic_indices": [
+        0,
+        1
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO5",
+      "original_description": "Understand the principles of ethical AI and the application of high-performance languages like Rust for zero-shot classification and efficient processing.",
+      "enriched_description": "Understand the principles of ethical AI and the application of high-performance languages like Rust for zero-shot classification and efficient processing, including Rust for MLOps Zero Shot Classification (HF), High-Performance Rust for MLOps.",
+      "source_topic_indices": [
+        0,
+        1
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO6",
+      "original_description": "Understand cloud-based data engineering architectures, including data ingestion, repository creation, and secure data transformation solutions.",
+      "enriched_description": "Understand cloud-based data engineering architectures, including data ingestion, repository creation, and secure data transformation solutions, including Exploratory Data Analysis with AWS Technology, AWS Lab: Data Ingestion with AWS Lambda, AWS Lab: Data Transformation with Step Functions.",
+      "source_topic_indices": [
+        1,
+        2,
+        3
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO7",
+      "original_description": "Apply cloud technologies (such as AWS Step Functions, AWS Lambda, and Amazon SageMaker) to build, monitor, and automate end-to-end data engineering and modeling pipelines.",
+      "enriched_description": "Apply cloud technologies (such as AWS Step Functions, AWS Lambda, and Amazon SageMaker) to build, monitor, and automate end-to-end data engineering and modeling pipelines, including Core Modeling with AWS Cloud Technology, Production MLOps with AWS Technology, AWS Lab: Data Ingestion with AWS Lambda, AWS Lab: Data Transformation with Step Functions.",
+      "source_topic_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO8",
+      "original_description": "Understand the fundamentals of MLflow, including the Tracking UI, model registries, and artifact management via APIs.",
+      "enriched_description": "Understand the fundamentals of MLflow, including the Tracking UI, model registries, and artifact management via APIs, including Introduction to MLflow Module, Understanding the MLflow Tracking UI, Model Registry, Interaction via API, Reference Artifacts from MLflow API, Integration of MLflow, Hugging Face, Hands-on Lab: Tracking Runs, Model Registration, Hands-on Lab: Deploying Models to Production API.",
+      "source_topic_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO9",
+      "original_description": "Apply MLflow and Hugging Face modules to package reproducible machine learning projects and deploy pre-trained models efficiently.",
+      "enriched_description": "Apply MLflow and Hugging Face modules to package reproducible machine learning projects and deploy pre-trained models efficiently, including Introduction to MLflow Module, Understanding the MLflow Tracking UI, Working with MLflow Projects for Reproducibility, Reference Artifacts from MLflow API, Introduction to Hugging Face, Hugging Face, Hands-on Lab: Deploying Models to Production API.",
+      "source_topic_indices": [
+        14,
+        15,
+        16,
+        18,
+        19,
+        20,
+        21,
+        23
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO10",
+      "original_description": "Implement an end-to-end Advanced MLOps project that includes infrastructure setup, automated data pipelines, model tracking, cloud deployment, and reporting.",
+      "enriched_description": "Implement an end-to-end Advanced MLOps project that includes infrastructure setup, automated data pipelines, model tracking, cloud deployment, and reporting, including project topic and infrastructure planning, pipeline proposal discussion, data pipeline setup, AWS integration, model tracking setup, integration and results, final system packaging, presentation practice.",
+      "source_topic_indices": [
+        1,
+        3,
+        6,
+        7,
+        9,
+        10,
+        12,
+        13,
+        14
+      ],
+      "review_required": false,
+      "review_notes": []
+    }
+  ]
+}

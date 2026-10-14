@@ -1,0 +1,257 @@
+{
+  "status": "passed",
+  "errors": [],
+  "checks": [
+    {
+      "path": "segments/1/academic_sources/0",
+      "reference": {
+        "course_code": "MAS291",
+        "clo": "CLO5"
+      },
+      "source_excerpt": "Describe data using numerical summaries and visual displays",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/1/academic_sources/1",
+      "reference": {
+        "course_code": "MAS291",
+        "clo": "CLO6"
+      },
+      "source_excerpt": "Discuss sampling distributions and point estimation",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/1/academic_sources/2",
+      "reference": {
+        "course_code": "MAS291",
+        "clo": "CLO7"
+      },
+      "source_excerpt": "Construct and interpret confidence intervals",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/1/academic_sources/3",
+      "reference": {
+        "course_code": "MAS291",
+        "clo": "CLO8"
+      },
+      "source_excerpt": "Verify claims about population parameters",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/1/academic_sources/4",
+      "reference": {
+        "course_code": "MAS291",
+        "clo": "CLO9"
+      },
+      "source_excerpt": "Construct a simple linear regression model",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/1/academic_sources/5",
+      "reference": {
+        "course_code": "ADY201m",
+        "clo": "CLO6"
+      },
+      "source_excerpt": "Explain statistics for data science, including mean, median, mode, variance, standard deviation, data visualization, probability distributions, and regression analysis",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/2/academic_sources/0",
+      "reference": {
+        "course_code": "DAP391m",
+        "clo": "CLO2"
+      },
+      "source_excerpt": "import data from multiple sources, clean and wrangle data, perform exploratory data analysis (EDA), and create meaningful data visualizations",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/2/academic_sources/1",
+      "reference": {
+        "course_code": "DAP391m",
+        "clo": "CLO7"
+      },
+      "source_excerpt": "Implement the small mini capstone data science project includes steps: involving data collection, data wrangling, exploratory data analysis, data visualization, model development, model evaluation, and reporting",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/2/academic_sources/2",
+      "reference": {
+        "course_code": "ADY201m",
+        "clo": "CLO7"
+      },
+      "source_excerpt": "Implement a small data science project by applying Python fundamentals, Python data structures, SQL/database access, data understanding, preprocessing, modeling, evaluation, deployment, visualization, probability, regression analysis, and final reporting",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/3/academic_sources/0",
+      "reference": {
+        "course_code": "PFP191",
+        "clo": "CLO7"
+      },
+      "source_excerpt": "Understand object-oriented programming in Python and apply it in application contexts",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/3/academic_sources/1",
+      "reference": {
+        "course_code": "PFP191",
+        "clo": "CLO1"
+      },
+      "source_excerpt": "Understand the Python programming environment and foundational programming concepts",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/3/academic_sources/2",
+      "reference": {
+        "course_code": "PFP191",
+        "clo": "CLO2"
+      },
+      "source_excerpt": "Understand Python variables, expressions, and statements",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/3/academic_sources/3",
+      "reference": {
+        "course_code": "PFP191",
+        "clo": "CLO3"
+      },
+      "source_excerpt": "Understand conditional execution, functions, loops, and iteration in Python",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/3/academic_sources/4",
+      "reference": {
+        "course_code": "PFP191",
+        "clo": "CLO4"
+      },
+      "source_excerpt": "Understand Python strings as sequences",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/3/academic_sources/5",
+      "reference": {
+        "course_code": "PFP191",
+        "clo": "CLO5"
+      },
+      "source_excerpt": "Understand file handling in Python",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/3/academic_sources/6",
+      "reference": {
+        "course_code": "PFP191",
+        "clo": "CLO6"
+      },
+      "source_excerpt": "Understand Python lists, dictionaries, and tuples as core data structures",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/3/academic_sources/7",
+      "reference": {
+        "course_code": "ADY201m",
+        "clo": "CLO5"
+      },
+      "source_excerpt": "Discuss Python fundamentals, Python libraries, and API support for data science tasks",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/4/academic_sources/0",
+      "reference": {
+        "course_code": "DBI202",
+        "clo": "CLO5"
+      },
+      "source_excerpt": "Be proficient in SQL",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/4/academic_sources/1",
+      "reference": {
+        "course_code": "DBI202",
+        "clo": "CLO6"
+      },
+      "source_excerpt": "Understand T-SQL database programming concepts in Microsoft SQL Server",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/4/academic_sources/2",
+      "reference": {
+        "course_code": "ADY201m",
+        "clo": "CLO1"
+      },
+      "source_excerpt": "Understand relational database concepts and foundational SQL language knowledge in the context of data science work",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/5/academic_sources/0",
+      "reference": {
+        "course_code": "AIG202c",
+        "clo": "CLO2"
+      },
+      "source_excerpt": "Explain underlying concepts related to Machine Learning, Deep Learning and Neural Networks",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/5/academic_sources/1",
+      "reference": {
+        "course_code": "AIL303m",
+        "clo": "CLO4"
+      },
+      "source_excerpt": "describe and use supervised models, including Introduction to Supervised Machine Learning, Linear Regression",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/5/academic_sources/2",
+      "reference": {
+        "course_code": "AIL303m",
+        "clo": "CLO9"
+      },
+      "source_excerpt": "describe and use common clustering and dimensionality-reduction algorithms",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/5/academic_sources/3",
+      "reference": {
+        "course_code": "MAI391",
+        "clo": "CLO6"
+      },
+      "source_excerpt": "Apply dimensionality reduction with PCA",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/5/academic_sources/4",
+      "reference": {
+        "course_code": "MAI391",
+        "clo": "CLO7"
+      },
+      "source_excerpt": "Apply support vector machine classification",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    }
+  ],
+  "semantic_support": "requires_manual_assessment"
+}

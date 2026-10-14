@@ -1,0 +1,42 @@
+[
+  {
+    "clo": "CLO1",
+    "description": "Identify relevant generative-AI techniques for a capstone topic, including LLMs, diffusion, multimodal systems, RAG, agents, fine-tuning, and alignment, while considering topic scope, feasibility, frontier areas, dataset or model licensing, compute feasibility, and required readings."
+  },
+  {
+    "clo": "CLO2",
+    "description": "Formulate generative-AI project problem statements, scope, objectives, and success criteria, including topic selection with dataset/model licensing and compute feasibility, proposal guidance covering problem statement, related work, modalities/models, evaluation plan and compute budget, scoping, novelty checks."
+  },
+  {
+    "clo": "CLO3",
+    "description": "Plan data preparation, model selection, and licensing or ethics review for a generative-AI project, including dataset licensing, preprocessing, tokenization, data preparation discussion and improvement, hosted versus open-weight model selection, model size, license and cost considerations, data and baseline submission."
+  },
+  {
+    "clo": "CLO4",
+    "description": "Conduct baseline analysis using pre-trained models, prompting, and in-context learning, including zero-shot and few-shot baselines, structured prompt engineering, baseline and prompt discussion, prompt engineering improvement, data and baseline submission, and baseline improvement."
+  },
+  {
+    "clo": "CLO5",
+    "description": "Develop and adapt generative-AI systems to project requirements, including choosing adaptation paths such as prompt-only, RAG, LoRA/QLoRA fine-tuning, or agent/tool-use designs, model adaptation discussion, adaptation improvement, model-results submission, and model-results improvement."
+  },
+  {
+    "clo": "CLO6",
+    "description": "Evaluate and optimize generative-AI systems using appropriate metrics and iteration protocols, including metrics such as perplexity, ROUGE, faithfulness, FID, BLEU, human or LLM-based evaluation, evaluation and iteration discussion, iteration improvement, model-results submission, and model-results improvement."
+  },
+  {
+    "clo": "CLO7",
+    "description": "Interpret outputs and failure modes, including hallucination, bias, jailbreak, grounding, and demo behavior, and visualize results for stakeholders, including results, demo, and failure-mode analysis, supporting references, failure-mode discussion, improvement cycles, model-results submission, model-results improvement."
+  },
+  {
+    "clo": "CLO8",
+    "description": "Summarize conclusions and actionable recommendations for a generative-AI capstone, including deployment trade-offs, cost and latency considerations, ethics, provenance, privacy, limitations, and future work."
+  },
+  {
+    "clo": "CLO9",
+    "description": "Compile a final report with explicit ethics, safety, and provenance coverage, integrating prior project reports into a conference-style write-up with reproducibility notes and code repository evidence."
+  },
+  {
+    "clo": "CLO10",
+    "description": "Deliver oral presentations with live demonstrations and Q&A defense, including demo rehearsal, failure-mode discussion, ethics coverage, slide polishing, and individual contribution explanation."
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "syllabus_name": "Natural Language Processing_Xử lý ngôn ngữ tự nhiên",
+  "course_name_english": "Natural Language Processing",
+  "subject_code": "NLP301m",
+  "description": "This course provides students with a foundation in core concepts and methods of Natural Language Processing. The course covers text classification, vector space models, probabilistic methods, sequence models, attention, and transformer-based approaches. Through a research-oriented team project, students learn how to define an NLP problem, review related work, select datasets, build baseline and improved models, evaluate results, analyze errors, and report findings clearly. By the end of the course, students are expected to understand major NLP techniques, apply them to real problems, design and compare experiments, and write technical reports and a short research paper.",
+  "tools": "- Jupyter Notebook / Google Colab\n- Python libraries: NumPy, NLTK, scikit-learn, TensorFlow / Keras, PyTorch or equivalent as needed for specialization-aligned models\n- Git/GitHub for version control, experiment logs, and teamwork\n- Reference manager / citation workflow (e.g., Zotero, Mendeley, or equivalent)\n- Cloud/GPU server or Colab runtime as needed for project experiments"
+}

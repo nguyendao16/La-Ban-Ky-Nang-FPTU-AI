@@ -1,0 +1,1006 @@
+{
+  "origin": "manual_review_by_codex_of_unmodified_outputs",
+  "rubric_path": "data/academic_benchmark/evaluations/rubric.json",
+  "dimensions": [
+    "jd_coverage",
+    "evidence_grounding",
+    "academic_achievement",
+    "gap_calibration",
+    "knowledge_vs_experience",
+    "conversational_continuity",
+    "completeness",
+    "naturalness",
+    "scope_adherence"
+  ],
+  "scale": {
+    "0": "Chưa đạt hoặc sai",
+    "1": "Đạt một phần",
+    "2": "Đạt",
+    "null": "Không áp dụng; ca chưa đọc không có annotation"
+  },
+  "records": {
+    "review-JD01": {
+      "reviewed_at": "2026-10-13T21:40:00.829746+07:00",
+      "artifact": "data/academic_benchmark/evaluations/reasoning-five-jds-20261013/requests/review-JD01.json",
+      "response_sha256": "388f5ff8cf06c0ab4475312a291d737eb1b4e7097e4e290976ef33570dc72165",
+      "case_id": "JD01",
+      "stage": "review",
+      "turn": null,
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": 2,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": null,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "findings": [],
+      "notes": "Đã kiểm tra mọi row: AIG202c/CLO2 hỗ trợ khái niệm deep learning; CPV301/CLO3–5 và CLO8 hỗ trợ đúng CV. AIL303m/CLO10 và DBI202 giữ basic, không được gộp thành good/excellent. Description metadata hỗ trợ curriculum; framework, English và thời lượng internship vẫn chưa xác nhận. Related cho nền tảng của công việc giữ rõ giới hạn kinh nghiệm. Không ghi nhận P0/P1/P2.",
+      "p0_observed": false,
+      "p1_observed": false,
+      "canonical_profile_sha256": "b0bfa72fdc04f8d2cfc94e68fd7b4745387cd378a923f55eb94e2aef391bf531",
+      "evaluated_unmodified_output": true
+    },
+    "chat-JD01-1": {
+      "reviewed_at": "2026-10-13T21:40:00.831599+07:00",
+      "artifact": "data/academic_benchmark/evaluations/reasoning-five-jds-20261013/requests/chat-JD01-1.json",
+      "response_sha256": "468ea100784f28d344109a725c2e6aba09c2b326c4abd90c316466851bb4b8af",
+      "case_id": "JD01",
+      "stage": "chat",
+      "turn": 1,
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": 2,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "case_id": "JD01",
+          "stage": "chat",
+          "turn": 1,
+          "severity": "P2",
+          "original_claim": "Toán và thống kê cho ML",
+          "source": {
+            "kind": "presentation",
+            "artifact": "data/academic_benchmark/evaluations/reasoning-five-jds-20261013/requests/chat-JD01-1.json",
+            "support_or_conflict": "Rubric P2: lặp, trích tiếng Anh dư thừa, diễn đạt thiếu tự nhiên; độ dài không phải ngưỡng lỗi."
+          },
+          "explanation": "Liệt kê/trích English gần30 CLO kèm một summary nữa; cách diễn đạt mang tính tra cứu hơn hội thoại.",
+          "original_claim_verbatim": "- **Toán và thống kê cho ML**:"
+        }
+      ],
+      "notes": "Đã đọc reply và 33 references. Mọi score/band đúng, gồm DAP391m/CLO1=8.45/good và MAI391/CLO4–7. CPV301/CLO8 giữ Understand/Implement; CLO9 giữ Explain. Reply đầy đủ nhưng nhiều trích English giống danh mục tra cứu.",
+      "p0_observed": false,
+      "p1_observed": false,
+      "canonical_profile_sha256": "b0bfa72fdc04f8d2cfc94e68fd7b4745387cd378a923f55eb94e2aef391bf531",
+      "evaluated_unmodified_output": true
+    },
+    "chat-JD01-2": {
+      "reviewed_at": "2026-10-13T21:40:00.833228+07:00",
+      "artifact": "data/academic_benchmark/evaluations/reasoning-five-jds-20261013/requests/chat-JD01-2.json",
+      "response_sha256": "43d5a68d6330282a51883f0c909da0a6a615fb16662a520a7615905123d39a59",
+      "case_id": "JD01",
+      "stage": "chat",
+      "turn": 2,
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": 2,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "case_id": "JD01",
+          "stage": "chat",
+          "turn": 2,
+          "severity": "P2",
+          "original_claim": "Modern ML frameworks",
+          "source": {
+            "kind": "presentation",
+            "artifact": "data/academic_benchmark/evaluations/reasoning-five-jds-20261013/requests/chat-JD01-2.json",
+            "support_or_conflict": "Rubric P2: lặp, trích tiếng Anh dư thừa, diễn đạt thiếu tự nhiên; độ dài không phải ngưỡng lỗi."
+          },
+          "explanation": "Để giải thích framework chưa được xác nhận, lặp sáu CLO dài đã xuất hiện lượt1; có thể giải thích nguồn liên quan tự nhiên hơn mà giữ đầy đủ bằng chứng.",
+          "original_claim_verbatim": "1. **Modern ML frameworks**: **scikit-learn, TensorFlow, Keras, PyTorch**. Hồ sơ của bạn có nền tảng ML/CV liên quan qua các CLO như **AIL303m/CLO4** (*“Learners should be able to describe and use supervised models, including Introduction to Supervised Machine Learning, Linear Regression.”*), **AIL303m/CLO10** (*“Implement a mini capstone ML project includes steps: data collection, data wrangling, exploratory data analysis, model development, model evaluation, and reporting...”*), **AIG202c/CLO2** (*“Explain underlying concepts related to Machine Learning, Deep Learning and Neural Networks...”*), **CPV301/CLO8** (*“Understand and implement object detection techniques.”*), **ADY201m/CLO7** (*“Implement a small data science project by applying Python fundamentals, Python data structures, SQL/database access...”*), và **DAP391m/CLO7** (*“Implement the small mini capstone data science project includes steps: involving data collection, data wrangling, exploratory data analysis, data visualization, model development, model evaluation, and reporting...”*). Tuy nhiên, các CLO này chỉ cho thấy nền tảng ML/CV và project workflow; **không nêu đích danh** scikit-learn, TensorFlow, Keras hay PyTorch."
+        }
+      ],
+      "notes": "Không suy scikit-learn/TensorFlow/Keras/PyTorch từ ML/CV; English và internship/backend được giữ là chưa xác nhận. Không kết luận về năng lực thực tế. Phần framework lặp nhiều CLO đã giải thích ở lượt trước.",
+      "p0_observed": false,
+      "p1_observed": false,
+      "canonical_profile_sha256": "b0bfa72fdc04f8d2cfc94e68fd7b4745387cd378a923f55eb94e2aef391bf531",
+      "evaluated_unmodified_output": true
+    },
+    "chat-JD01-3": {
+      "reviewed_at": "2026-10-13T21:40:00.834562+07:00",
+      "artifact": "data/academic_benchmark/evaluations/reasoning-five-jds-20261013/requests/chat-JD01-3.json",
+      "response_sha256": "9c7e713792e7fcf066cb62917069d213522a081e9e9daec1200c03b042365c7c",
+      "case_id": "JD01",
+      "stage": "chat",
+      "turn": 3,
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": 2,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "findings": [],
+      "notes": "Object Detection đúng CPV301/CLO8; Face Recognition/Object Tracking đúng CLO9; cùng 8.81/excellent. Không nâng Explain của CLO9 thành Implement. Lặp CLO9 nhưng câu trả lời vẫn phù hợp câu hỏi hẹp.",
+      "p0_observed": false,
+      "p1_observed": false,
+      "canonical_profile_sha256": "b0bfa72fdc04f8d2cfc94e68fd7b4745387cd378a923f55eb94e2aef391bf531",
+      "evaluated_unmodified_output": true
+    },
+    "chat-JD01-4": {
+      "reviewed_at": "2026-10-13T21:40:00.836054+07:00",
+      "artifact": "data/academic_benchmark/evaluations/reasoning-five-jds-20261013/requests/chat-JD01-4.json",
+      "response_sha256": "bb16d4780ee086622c4951ef17d78a4c6042ef9b797e968d88a72679eb2d9642",
+      "case_id": "JD01",
+      "stage": "chat",
+      "turn": 4,
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": 2,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "case_id": "JD01",
+          "stage": "chat",
+          "turn": 4,
+          "severity": "P2",
+          "original_claim": "Toán và thống kê cho ML",
+          "source": {
+            "kind": "presentation",
+            "artifact": "data/academic_benchmark/evaluations/reasoning-five-jds-20261013/requests/chat-JD01-4.json",
+            "support_or_conflict": "Rubric P2: lặp, trích tiếng Anh dư thừa, diễn đạt thiếu tự nhiên; độ dài không phải ngưỡng lỗi."
+          },
+          "explanation": "Lặp lại sáu nhóm và nhiều trích dẫn English của lượt1, rồi thêm một summary cuối; summary thiếu chọn lọc. Không chấm lỗi chỉ vì reply dài.",
+          "original_claim_verbatim": "- **Toán và thống kê cho ML**: **MAI391/CLO3** *“Apply probability and distribution concepts...”* — **9.43, excellent**; **MAI391/CLO4** *“Solve continuous optimization problems using gradient descent...”* — **9.43, excellent**; **MAI391/CLO5** *“Apply linear regression concepts...”* — **9.4, excellent**; **MAI391/CLO6** *“Apply dimensionality reduction with PCA...”* — **9.4, excellent**; **MAI391/CLO7** *“Apply support vector machine classification...”* — **9.4, excellent**. Bổ trợ thêm là **MAS291/CLO2** *“...conditional probability, multiplication and total probability rules, independence, and Bayes' theorem...”* — **9.34, excellent**; **MAS291/CLO7** *“Construct and interpret confidence intervals...”* — **9.43, excellent**; **MAS291/CLO8** *“Verify claims... using hypothesis testing...”* — **9.43, excellent**; **MAS291/CLO9** *“Construct a simple linear regression model and use it for prediction and interpretation...”* — **9.43, excellent**."
+        }
+      ],
+      "notes": "Đã kiểm tra 34 references và mọi score/band. Summary giữ AIL303m/CLO10=5.42/basic và SQL theo từng CLO; không suy framework/dự án nghề nghiệp. Không ghi nhận P0/P1. Nội dung gần như lặp lại danh mục dài của lượt 1.",
+      "p0_observed": false,
+      "p1_observed": false,
+      "canonical_profile_sha256": "b0bfa72fdc04f8d2cfc94e68fd7b4745387cd378a923f55eb94e2aef391bf531",
+      "evaluated_unmodified_output": true
+    },
+    "review-JD05": {
+      "reviewed_at": "2026-10-13T21:42:19.412296+07:00",
+      "artifact": "data/academic_benchmark/evaluations/reasoning-five-jds-20261013/requests/review-JD05.json",
+      "response_sha256": "003e8cacb4d00e879e9c796879e524b8f2fc4f09383ff81666afd35157bd809d",
+      "case_id": "JD05",
+      "stage": "review",
+      "turn": null,
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": 2,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": null,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "findings": [],
+      "notes": "Giữ Python OR R, SQL/BI preferred, AIG202c/CLO2 cho khái niệm DL, đúng MAS291 hypothesis testing và MAI391/CLO4–7. SQL và AIL303m giữ band từng CLO. Metadata description hỗ trợ visualization/dashboard, không suy tên BI tool. Không ghi nhận P0/P1/P2.",
+      "p0_observed": false,
+      "p1_observed": false,
+      "canonical_profile_sha256": "b0bfa72fdc04f8d2cfc94e68fd7b4745387cd378a923f55eb94e2aef391bf531",
+      "evaluated_unmodified_output": true
+    },
+    "chat-JD05-1": {
+      "reviewed_at": "2026-10-13T21:42:19.414508+07:00",
+      "artifact": "data/academic_benchmark/evaluations/reasoning-five-jds-20261013/requests/chat-JD05-1.json",
+      "response_sha256": "5b89d659277fae932aa69a8951c7c84515f4d244c7b0c73652cae02484ada54e",
+      "case_id": "JD05",
+      "stage": "chat",
+      "turn": 1,
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": 2,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "case_id": "JD05",
+          "stage": "chat",
+          "severity": "P2",
+          "original_claim": "Identify sample spaces, events, and random variables",
+          "source": {
+            "profile_path": "data/student_academic_profile.enriched.json",
+            "canonical": []
+          },
+          "explanation": "Nhiều đoạnEnglish nguyên văn xen tiếng Việt khiến reply giống bảng CLO; finding về diễn đạt, không về việc giải thích statistics đủ chi tiết.",
+          "turn": 1,
+          "original_claim_verbatim": "- **MAS291/CLO2 (9.34, excellent)**: *Identify sample spaces, events, and random variables...*; dùng xác suất, conditional probability, independence và Bayes’ theorem để tính toán xác suất. Đây là nền tảng thống kê rất sát với yêu cầu “foundations in statistics”."
+        }
+      ],
+      "notes": "Đã kiểm tra 17 references và mọi điểm. MAS291/CLO7=confidence intervals, CLO8=hypothesis testing, CLO9=regression đúng; DAP391m/CLO1=8.45/good. Giải thích đủ statistics/data analysis nhưng xen nhiều trích English.",
+      "p0_observed": false,
+      "p1_observed": false,
+      "canonical_profile_sha256": "b0bfa72fdc04f8d2cfc94e68fd7b4745387cd378a923f55eb94e2aef391bf531",
+      "evaluated_unmodified_output": true
+    },
+    "chat-JD05-2": {
+      "reviewed_at": "2026-10-13T21:42:19.416266+07:00",
+      "artifact": "data/academic_benchmark/evaluations/reasoning-five-jds-20261013/requests/chat-JD05-2.json",
+      "response_sha256": "2cc46bf78c5aa8ccbc2ba4f8b201c3cbc0a94dbe3c1d3bbec9ecad3a46b76005",
+      "case_id": "JD05",
+      "stage": "chat",
+      "turn": 2,
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 0,
+        "academic_achievement": 2,
+        "gap_calibration": 1,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 1
+      },
+      "findings": [
+        {
+          "case_id": "JD05",
+          "stage": "chat",
+          "severity": "P0",
+          "original_claim": "MAS291/CLO9 *“Construct and interpret confidence intervals...”*",
+          "source": {
+            "profile_path": "data/student_academic_profile.enriched.json",
+            "canonical": [
+              {
+                "course_code": "MAS291",
+                "clo": "CLO7",
+                "description": "Construct and interpret confidence intervals for population parameters and differences between population parameters, including intervals for means of normal distributions with known or unknown variance, large-sample intervals for population proportions, inference on differences between two means, and inference on differences between two proportions.",
+                "score": 9.43,
+                "achievement": "excellent"
+              },
+              {
+                "course_code": "MAS291",
+                "clo": "CLO9",
+                "description": "Construct a simple linear regression model and use it for prediction and interpretation, including empirical models, least-squares estimation, sums of squares, regression equations, correlation coefficients, properties of least-squares estimators, and hypothesis tests for significance in simple linear regression.",
+                "score": 9.43,
+                "achievement": "excellent"
+              }
+            ]
+          },
+          "explanation": "Gán confidence intervals cho CLO9. Canonical CLO9 nói simple linear regression; CLO7 mới nói confidence intervals. ID tồn tại và cùng điểm 9.43/excellent không làm attribution đúng.",
+          "turn": 2,
+          "original_claim_verbatim": "Về **kiến thức cốt lõi**, hồ sơ của bạn đã có nền khá sát JD ở phần **statistics, data analysis, Python và SQL**: ví dụ **MAS291/CLO5** *“Describe data using numerical summaries and visual displays”*; **MAS291/CLO8** *“Verify claims ... using hypothesis testing”*; **MAS291/CLO9** *“Construct and interpret confidence intervals...”*; **DAP391m/CLO2** *“Understand how to import data from multiple sources, clean and wrangle data, perform exploratory data analysis (EDA), and create meaningful data visualizations”*; và **ADY201m/CLO7** *“Implement a small data science project ... data wrangling, exploratory data analysis, data visualization, model development, model evaluation, and reporting.”* Vì vậy, mình **không thấy một mảng thống kê/phân tích dữ liệu lõi nào đang bị hổng rõ ràng** trong hồ sơ hiện có."
+        },
+        {
+          "case_id": "JD05",
+          "stage": "chat",
+          "severity": "P1",
+          "original_claim": "ADY201m/CLO7 *“Implement a small data science project ... data wrangling, exploratory data analysis, data visualization, model development, model evaluation, and reporting.”*",
+          "source": {
+            "profile_path": "data/student_academic_profile.enriched.json",
+            "canonical": [
+              {
+                "course_code": "ADY201m",
+                "clo": "CLO7",
+                "description": "Implement a small data science project by applying Python fundamentals, Python data structures, SQL/database access, data understanding, preprocessing, modeling, evaluation, deployment, visualization, probability, regression analysis, and final reporting within a guided project workflow.",
+                "score": 8.61,
+                "achievement": "excellent"
+              },
+              {
+                "course_code": "DAP391m",
+                "clo": "CLO7",
+                "description": "Implement the small mini capstone data science project includes steps: involving data collection, data wrangling, exploratory data analysis, data visualization, model development, model evaluation, and reporting, including Applied Data Science Capstone: Interactive Visual Analytics, Dashboard , Applied Data Science Capstone: Interactive Visual Analytics, Dashboard , Applied Data Science Capstone: Predictive Analysis (Classification) , Applied Data Science Capstone: Predictive Analysis (Classification), Evaluate final project.",
+                "score": 9.1,
+                "achievement": "excellent"
+              }
+            ]
+          },
+          "explanation": "Câu đặt trong dấu trích dẫn trộn wording DAP391m/CLO7 vào ADY201m/CLO7. ADY201m/CLO7 có project Python/data understanding/preprocessing nhưng không phải câu nguyên văn này. Reply còn nhắc DAP391m/CLO7 ở phần dashboard/cleaning mà evidence không có CLO7 đó.",
+          "turn": 2,
+          "original_claim_verbatim": "Về **kiến thức cốt lõi**, hồ sơ của bạn đã có nền khá sát JD ở phần **statistics, data analysis, Python và SQL**: ví dụ **MAS291/CLO5** *“Describe data using numerical summaries and visual displays”*; **MAS291/CLO8** *“Verify claims ... using hypothesis testing”*; **MAS291/CLO9** *“Construct and interpret confidence intervals...”*; **DAP391m/CLO2** *“Understand how to import data from multiple sources, clean and wrangle data, perform exploratory data analysis (EDA), and create meaningful data visualizations”*; và **ADY201m/CLO7** *“Implement a small data science project ... data wrangling, exploratory data analysis, data visualization, model development, model evaluation, and reporting.”* Vì vậy, mình **không thấy một mảng thống kê/phân tích dữ liệu lõi nào đang bị hổng rõ ràng** trong hồ sơ hiện có."
+        },
+        {
+          "case_id": "JD05",
+          "stage": "chat",
+          "severity": "P1",
+          "original_claim": "không cần bổ sung gấp về statistics hay data analysis nền tảng",
+          "source": {
+            "profile_path": "data/student_academic_profile.enriched.json",
+            "canonical": []
+          },
+          "explanation": "Hồ sơ xác nhận nội dung học thuật, không đủ xác định nhu cầu hoặc độ gấp bổ sung thực tế của cá nhân. Cần giữ lời khuyên có điều kiện nếu chưa học ngoài hồ sơ.",
+          "turn": 2,
+          "original_claim_verbatim": "Tóm lại: **không cần bổ sung gấp về statistics hay data analysis nền tảng**; nếu muốn tăng mức khớp JD, hãy cân nhắc **1 BI tool cụ thể** và, ở mức công việc, làm quen thêm với **data quality/reporting trong bối cảnh doanh nghiệp**. "
+        }
+      ],
+      "notes": "Schema/reference passed nhưng sai attribution confidence intervals ở MAS291/CLO9. Giữ đúng BI preferred và nguồn metadata cho tools. Có trích dẫn trộn wording DAP391m/CLO7 sang ADY201m/CLO7, bỏ reference DAP391m/CLO7 dù nhắc nó, và khuyến nghị quá chắc về nhu cầu bổ sung thực tế.",
+      "p0_observed": true,
+      "p1_observed": true,
+      "canonical_profile_sha256": "b0bfa72fdc04f8d2cfc94e68fd7b4745387cd378a923f55eb94e2aef391bf531",
+      "evaluated_unmodified_output": true
+    },
+    "chat-JD05-3": {
+      "reviewed_at": "2026-10-13T21:42:19.418165+07:00",
+      "artifact": "data/academic_benchmark/evaluations/reasoning-five-jds-20261013/requests/chat-JD05-3.json",
+      "response_sha256": "73491a3db96a7b0b0e71e64ac75ba391a00ebbb675372b8757dde7049405970c",
+      "case_id": "JD05",
+      "stage": "chat",
+      "turn": 3,
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": 2,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "findings": [],
+      "notes": "SQL đúng DBI202/CLO5–7=5.96/basic, ADY201m/CLO1=8.3/good và CLO7=8.61/excellent. R được nhắc ở CLO3 nhưng use-at-least-one không xác nhận R được chọn; metadata RStudio là bối cảnh môn học. Không bịa nguyên nhân điểm thấp hay tạo mức SQL tổng thể.",
+      "p0_observed": false,
+      "p1_observed": false,
+      "canonical_profile_sha256": "b0bfa72fdc04f8d2cfc94e68fd7b4745387cd378a923f55eb94e2aef391bf531",
+      "evaluated_unmodified_output": true
+    },
+    "chat-JD05-4": {
+      "reviewed_at": "2026-10-13T21:42:19.420943+07:00",
+      "artifact": "data/academic_benchmark/evaluations/reasoning-five-jds-20261013/requests/chat-JD05-4.json",
+      "response_sha256": "788cb3b494b8003e2beb9d382bb0b75e35852610d215779b0b7d32a6b994bb1e",
+      "case_id": "JD05",
+      "stage": "chat",
+      "turn": 4,
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": 1,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 1,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "case_id": "JD05",
+          "stage": "chat",
+          "severity": "P1",
+          "original_claim": "AIL303m/CLO8 (6.87, basic) và AIL303m/CLO9 (6.87, basic): liên quan clustering và dimensionality reduction ở mức cơ bản trong học phần này.",
+          "source": {
+            "profile_path": "data/student_academic_profile.enriched.json",
+            "canonical": [
+              {
+                "course_code": "AIL303m",
+                "clo": "CLO8",
+                "description": "Explain the curse of dimensionality, and how it makes clustering difficult with many features, including K Means Clustering, Selecting a clustering algorithm, Distance Metrics of Clustering Algorithms, Common clustering algorithms, Hierarchical Agglomerative Clustering, Hierarchical Agglomerative Clustering Lab, Compare clustering, Dimensionality Reduction.",
+                "score": 6.87,
+                "achievement": "basic"
+              },
+              {
+                "course_code": "AIL303m",
+                "clo": "CLO9",
+                "description": "Learners should be able to describe and use common clustering and dimensionality-reduction algorithms, including Selecting a clustering algorithm, Distance Metrics of Clustering Algorithms, Common clustering algorithms, Hierarchical Agglomerative Clustering, Hierarchical Agglomerative Clustering Lab, Compare clustering algorithms, Clustering Demo.",
+                "score": 6.87,
+                "achievement": "basic"
+              }
+            ]
+          },
+          "explanation": "Cụm ở mức cơ bản trong học phần dễ biến achievement thành độ sâu syllabus. Basic là kết quả từng CLO; descriptions vẫn có các kỹ thuật và practical labs. Điểm/band được nêu không sai, nên ghi P1 về diễn giải.",
+          "turn": 4,
+          "original_claim_verbatim": "- **AIL303m/CLO8 (6.87, basic)** và **AIL303m/CLO9 (6.87, basic)**: liên quan clustering và dimensionality reduction ở mức cơ bản trong học phần này."
+        }
+      ],
+      "notes": "Summary dùng MAS291/CLO7/CLO9 đúng; 26 references và mọi điểm/band đúng. Không lặp lỗi confidence intervals trước đó, nhưng không đính chính tường minh. Cụm clustering/dimensionality reduction ở mức cơ bản trong học phần dễ lẫn band với độ sâu curriculum.",
+      "p0_observed": false,
+      "p1_observed": true,
+      "canonical_profile_sha256": "b0bfa72fdc04f8d2cfc94e68fd7b4745387cd378a923f55eb94e2aef391bf531",
+      "evaluated_unmodified_output": true
+    },
+    "review-JD07": {
+      "reviewed_at": "2026-10-13T21:46:17.983217+07:00",
+      "artifact": "data/academic_benchmark/evaluations/reasoning-five-jds-20261013/requests/review-JD07.json",
+      "response_sha256": "cfb876e4955e80acf6233c231ffcc36bdca8da748d1ff6d9f98a29a235e7ae24",
+      "case_id": "JD07",
+      "stage": "review",
+      "turn": null,
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": 2,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": null,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "findings": [],
+      "notes": "SQL/basic và ADY201m good/excellent đúng; cleaning/charts/dashboard đúng nguồn. MAS291 metadata Excel/Maxima là ví dụ/lựa chọn công cụ, không chứng minh công cụ cá nhân đã chọn. Không suy GPA/English. Covered dashboard/comparable tools được giới hạn ở curriculum. Không ghi nhận P0/P1/P2.",
+      "p0_observed": false,
+      "p1_observed": false,
+      "canonical_profile_sha256": "b0bfa72fdc04f8d2cfc94e68fd7b4745387cd378a923f55eb94e2aef391bf531",
+      "evaluated_unmodified_output": true
+    },
+    "chat-JD07-1": {
+      "reviewed_at": "2026-10-13T21:46:17.985316+07:00",
+      "artifact": "data/academic_benchmark/evaluations/reasoning-five-jds-20261013/requests/chat-JD07-1.json",
+      "response_sha256": "09a8abc9104e2b12e317e9af6756aefada68d14ea5da41f654429a31dd58e83d",
+      "case_id": "JD07",
+      "stage": "chat",
+      "turn": 1,
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": 2,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "findings": [],
+      "notes": "Đã kiểm tra 21 references. Mọi điểm/band được nêu đúng; DBI202 basic và AIL303m/CLO10 basic được giữ. Không đổi good thành excellent. Nhóm môn và lời giải thích phù hợp câu hỏi rộng.",
+      "p0_observed": false,
+      "p1_observed": false,
+      "canonical_profile_sha256": "b0bfa72fdc04f8d2cfc94e68fd7b4745387cd378a923f55eb94e2aef391bf531",
+      "evaluated_unmodified_output": true
+    },
+    "chat-JD07-2": {
+      "reviewed_at": "2026-10-13T21:46:17.986875+07:00",
+      "artifact": "data/academic_benchmark/evaluations/reasoning-five-jds-20261013/requests/chat-JD07-2.json",
+      "response_sha256": "aea49002d882966f1e9ba02999c110a681c04531659fdd151ab485dc31f66bed",
+      "case_id": "JD07",
+      "stage": "chat",
+      "turn": 2,
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": 2,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "findings": [],
+      "notes": "Giữ Excel là metadata chưa có outcome chấm riêng; Power BI/Tableau chưa có tên trực tiếp; GPA 7.5 và English B1 không được suy từ CLO. Modern stack/real-data được giữ là cơ hội học, không biến thành yêu cầu kinh nghiệm trước đó. Không ghi nhận P0/P1/P2.",
+      "p0_observed": false,
+      "p1_observed": false,
+      "canonical_profile_sha256": "b0bfa72fdc04f8d2cfc94e68fd7b4745387cd378a923f55eb94e2aef391bf531",
+      "evaluated_unmodified_output": true
+    },
+    "chat-JD07-3": {
+      "reviewed_at": "2026-10-13T21:46:17.988242+07:00",
+      "artifact": "data/academic_benchmark/evaluations/reasoning-five-jds-20261013/requests/chat-JD07-3.json",
+      "response_sha256": "310ccbed6dcb0e3006069f80fe55fbc798468b93e74b1d80f6f506df6746665b",
+      "case_id": "JD07",
+      "stage": "chat",
+      "turn": 3,
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": 2,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 1,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "case_id": "JD07",
+          "stage": "chat",
+          "turn": 3,
+          "severity": "P1",
+          "original_claim": "Nhóm liên quan đến Data Analysis",
+          "source": {
+            "profile_path": "data/student_academic_profile.enriched.json",
+            "canonical": {
+              "course_code": "DAP391m",
+              "clo": "CLO1",
+              "description": "Understand the basics of data analysis with Python for building and evaluating data models, including importing datasets and data wrangling.",
+              "score": 8.45,
+              "achievement": "good"
+            }
+          },
+          "explanation": "Danh sách điểm Data Analysis bỏ DAP391m/CLO1=8.45/good, một outcome nêu trực tiếp data analysis with Python. Câu hỏi nhắm vào điểm/bands nên thiếu evidence này làm reply chưa đầy đủ; không chấm P0 vì không có score/band sai.",
+          "original_claim_verbatim": "### 2) Nhóm liên quan đến Data Analysis"
+        }
+      ],
+      "notes": "Điểm/band của 9 references đúng nhưng bỏ DAP391m/CLO1=8.45/good, outcome trực tiếp về Data Analysis, khi câu hỏi yêu cầu điểm/achievement. Không có good-to-excellent conversion vì CLO1 không được nêu.",
+      "p0_observed": false,
+      "p1_observed": true,
+      "canonical_profile_sha256": "b0bfa72fdc04f8d2cfc94e68fd7b4745387cd378a923f55eb94e2aef391bf531",
+      "evaluated_unmodified_output": true
+    },
+    "chat-JD07-4": {
+      "reviewed_at": "2026-10-13T21:46:17.989890+07:00",
+      "artifact": "data/academic_benchmark/evaluations/reasoning-five-jds-20261013/requests/chat-JD07-4.json",
+      "response_sha256": "01af79ac3053f6a17c99f04d33f67a8e43ec054969adaca175f5c922e38dc4f5",
+      "case_id": "JD07",
+      "stage": "chat",
+      "turn": 4,
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": 2,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "case_id": "JD07",
+          "stage": "chat",
+          "turn": 4,
+          "severity": "P2",
+          "original_claim": "Nếu bạn muốn, mình có thể rút tiếp thành một bản 3 dòng",
+          "source": {
+            "kind": "presentation",
+            "artifact": "data/academic_benchmark/evaluations/reasoning-five-jds-20261013/requests/chat-JD07-4.json",
+            "support_or_conflict": "Rubric P2: lời kết/lặp không cần thiết, chi tiết phải phù hợp câu hỏi."
+          },
+          "explanation": "Sau summary năm nhóm vàgiới hạn nguồn, reply lại đề nghị mộtsummary nữa; nhiều tríchEnglish và cấu trúc lặp. Không đặt wordlimit hoặc chấm lỗi chỉ vì câu trả lời dài.",
+          "original_claim_verbatim": "Nếu bạn muốn, mình có thể rút tiếp thành một bản **3 dòng: mạnh nhất là gì, chưa xác nhận là gì, và cái nào chỉ là bằng chứng học thuật chứ chưa phải kinh nghiệm thực tế**."
+        }
+      ],
+      "notes": "Summary đưa lại DAP391m/CLO1=8.45/good; SQL giữ band riêng, 24 references đúng. Không lặp attribution sai. Phần trình bày có nhiều cấu trúc/trích English lặp, rồi lại đề nghị một summary nữa.",
+      "p0_observed": false,
+      "p1_observed": false,
+      "canonical_profile_sha256": "b0bfa72fdc04f8d2cfc94e68fd7b4745387cd378a923f55eb94e2aef391bf531",
+      "evaluated_unmodified_output": true
+    },
+    "review-JD10": {
+      "reviewed_at": "2026-10-13T21:50:07.062110+07:00",
+      "artifact": "data/academic_benchmark/evaluations/reasoning-five-jds-20261013/requests/review-JD10.json",
+      "response_sha256": "8934b7bab0d22628ae9e5e56d3e1fcebcb618c934c9e1632f660f5b9b934489a",
+      "case_id": "JD10",
+      "stage": "review",
+      "turn": null,
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": 2,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": null,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "findings": [],
+      "notes": "Đã kiểm tra cả 9 rows: không suy pandas/numpy/JSON/CSV từ Python; prompting khác prompt testing/structured outputs. Git tools và use-at-least-one không chứng minh direct Git operations. Giữ MCP trong responsibilities và preferred prior experience riêng; SQL bands đúng. Không ghi nhận P0/P1/P2.",
+      "p0_observed": false,
+      "p1_observed": false,
+      "canonical_profile_sha256": "b0bfa72fdc04f8d2cfc94e68fd7b4745387cd378a923f55eb94e2aef391bf531",
+      "evaluated_unmodified_output": true
+    },
+    "chat-JD10-1": {
+      "reviewed_at": "2026-10-13T21:50:07.063991+07:00",
+      "artifact": "data/academic_benchmark/evaluations/reasoning-five-jds-20261013/requests/chat-JD10-1.json",
+      "response_sha256": "865086d70054503a213e231b3dff8aea91408493e3990d7a9cff8b85064e78ff",
+      "case_id": "JD10",
+      "stage": "chat",
+      "turn": 1,
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": 2,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 1,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "case_id": "JD10",
+          "stage": "chat",
+          "turn": 1,
+          "severity": "P1",
+          "original_claim": "CLO này không phải GenAI trực tiếp, nhưng cho thấy bạn đã làm workflow dự án dữ liệu/AI theo hướng end-to-end.",
+          "source": {
+            "profile_path": "data/student_academic_profile.enriched.json",
+            "canonical": [
+              {
+                "course_code": "DAP391m",
+                "clo": "CLO7",
+                "description": "Implement the small mini capstone data science project includes steps: involving data collection, data wrangling, exploratory data analysis, data visualization, model development, model evaluation, and reporting, including Applied Data Science Capstone: Interactive Visual Analytics, Dashboard , Applied Data Science Capstone: Interactive Visual Analytics, Dashboard , Applied Data Science Capstone: Predictive Analysis (Classification) , Applied Data Science Capstone: Predictive Analysis (Classification), Evaluate final project.",
+                "score": 9.1,
+                "achievement": "excellent"
+              }
+            ]
+          },
+          "explanation": "Implement capstone là outcome được đánh giá; profile không có artifact dự án cá nhân để xác nhận đã hoàn tất workflow end-to-end. Cần giữ wording về nội dung học tập. Ghi P1 vì reply vẫn giữ bối cảnh học thuật, không bịa employment.",
+          "original_claim_verbatim": "- **AI workflow trong dự án:** **DAP391m/CLO7** là **“Implement the small mini capstone data science project includes steps: involving data collection, data wrangling, exploratory data analysis, data visualization, model development, model evaluation, and reporting”**. CLO này không phải GenAI trực tiếp, nhưng cho thấy bạn đã làm workflow dự án dữ liệu/AI theo hướng end-to-end."
+        }
+      ],
+      "notes": "AIG202c/CLO1–5 và CSI106/CLO13 được dẫn đúng; Explore/Explain được giữ. Watson applications không trở thành RAG/LLM-API prototype. Cụm đã làm workflow dự án end-to-end chuyển intended academic outcome thành xác nhận hoàn tất dự án cá nhân; vẫn giữ bối cảnh học thuật, không bịa employment.",
+      "p0_observed": false,
+      "p1_observed": true,
+      "canonical_profile_sha256": "b0bfa72fdc04f8d2cfc94e68fd7b4745387cd378a923f55eb94e2aef391bf531",
+      "evaluated_unmodified_output": true
+    },
+    "chat-JD10-2": {
+      "reviewed_at": "2026-10-13T21:50:07.065534+07:00",
+      "artifact": "data/academic_benchmark/evaluations/reasoning-five-jds-20261013/requests/chat-JD10-2.json",
+      "response_sha256": "a0ee48f9078a88dbe8f837a7eaea26298dd44c59fbd06ef5d3a009462ecf98df",
+      "case_id": "JD10",
+      "stage": "chat",
+      "turn": 2,
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": 2,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "findings": [],
+      "notes": "RAG/MCP/pandas/numpy không được nêu trực tiếp; Python libraries khác named libraries. Không kết luận thiếu hồ sơ là thiếu năng lực. Không có expansion MCP sai; reply cũng chưa chủ động giải thích tên đầy đủ Model Context Protocol.",
+      "p0_observed": false,
+      "p1_observed": false,
+      "canonical_profile_sha256": "b0bfa72fdc04f8d2cfc94e68fd7b4745387cd378a923f55eb94e2aef391bf531",
+      "evaluated_unmodified_output": true
+    },
+    "chat-JD10-3": {
+      "reviewed_at": "2026-10-13T21:50:07.067130+07:00",
+      "artifact": "data/academic_benchmark/evaluations/reasoning-five-jds-20261013/requests/chat-JD10-3.json",
+      "response_sha256": "1ec864645569cfd4380e7858c5e91d5be19f59088c3fe9e162b4fe1ae7abefbc",
+      "case_id": "JD10",
+      "stage": "chat",
+      "turn": 3,
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": 2,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "findings": [],
+      "notes": "Giải thích đúng Explore prompt engineering ở AIG202c/CLO4 và Watson chatbot ở CLO5 không mở rộng thành RAG/MCP/tool-calling. References AIG202c/CLO4–5 và DAP391m/CLO6 đúng. Phù hợp câu hỏi, không tutorial/roadmap.",
+      "p0_observed": false,
+      "p1_observed": false,
+      "canonical_profile_sha256": "b0bfa72fdc04f8d2cfc94e68fd7b4745387cd378a923f55eb94e2aef391bf531",
+      "evaluated_unmodified_output": true
+    },
+    "chat-JD10-4": {
+      "reviewed_at": "2026-10-13T21:50:07.069129+07:00",
+      "artifact": "data/academic_benchmark/evaluations/reasoning-five-jds-20261013/requests/chat-JD10-4.json",
+      "response_sha256": "70d8347fd79ab274d5bfcb509008f86b22e15661f6fb47d9eaf8f7b616ab5650",
+      "case_id": "JD10",
+      "stage": "chat",
+      "turn": 4,
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 0,
+        "academic_achievement": 2,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 1,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "case_id": "JD10",
+          "stage": "chat",
+          "turn": 4,
+          "severity": "P0",
+          "original_claim": "MAS291/CLO9: Construct and interpret confidence intervals... and simple linear regression... — score9.43, excellent.",
+          "source": {
+            "profile_path": "data/student_academic_profile.enriched.json",
+            "canonical": [
+              {
+                "course_code": "MAS291",
+                "clo": "CLO7",
+                "description": "Construct and interpret confidence intervals for population parameters and differences between population parameters, including intervals for means of normal distributions with known or unknown variance, large-sample intervals for population proportions, inference on differences between two means, and inference on differences between two proportions.",
+                "score": 9.43,
+                "achievement": "excellent"
+              },
+              {
+                "course_code": "MAS291",
+                "clo": "CLO9",
+                "description": "Construct a simple linear regression model and use it for prediction and interpretation, including empirical models, least-squares estimation, sums of squares, regression equations, correlation coefficients, properties of least-squares estimators, and hypothesis tests for significance in simple linear regression.",
+                "score": 9.43,
+                "achievement": "excellent"
+              }
+            ]
+          },
+          "explanation": "Gộp confidence intervals của CLO7 với regression của CLO9 rồi chỉ dẫn CLO9. Hai CLO cùng 9.43/excellent không làm attribution đúng. Confidence intervals là claim mới ở summary này, không phải nội dung được nêu ở Review hoặc history trước đó.",
+          "original_claim_verbatim": "- **MAS291/CLO9**: *“Construct and interpret confidence intervals... and simple linear regression...”* — score **9.43**, **excellent**.  "
+        },
+        {
+          "case_id": "JD10",
+          "stage": "chat",
+          "turn": 4,
+          "severity": "P2",
+          "original_claim": "Computer vision, ethics và chatbot/app AI bổ trợ",
+          "source": {
+            "jd_path": "data/academic_benchmark/jds/JD10.txt",
+            "support_or_conflict": "JD10 tập trungPython/API/SQL/GenAI/prompting/tool-calling; không nêucomputer vision."
+          },
+          "explanation": "Summary thêm object detection và một nhóm CV ít liên quan yêu cầu JD/câu hỏi, làm phần giải thích phân tán. Không chấm P2 chỉ vì reply dài.",
+          "original_claim_verbatim": "**5) Computer vision, ethics và chatbot/app AI bổ trợ**  "
+        }
+      ],
+      "notes": "20 reference IDs và mọi điểm/band đúng nhưng gán confidence intervals cùng regression cho MAS291/CLO9; CLO7 mới là confidence intervals. Đây là P0 dù reference validator passed. Summary thêm CV/ethics ít liên quan JD10; lỗi mới không đến từ Review hoặc history của JD khác.",
+      "p0_observed": true,
+      "p1_observed": false,
+      "canonical_profile_sha256": "b0bfa72fdc04f8d2cfc94e68fd7b4745387cd378a923f55eb94e2aef391bf531",
+      "evaluated_unmodified_output": true
+    },
+    "review-JD11": {
+      "reviewed_at": "2026-10-13T21:53:49.471734+07:00",
+      "artifact": "data/academic_benchmark/evaluations/reasoning-five-jds-20261013/requests/review-JD11.json",
+      "response_sha256": "157c054e67aeb8e25e6e0a163cf028cb2621f1fb5b29e46f28181432f35b999c",
+      "case_id": "JD11",
+      "stage": "review",
+      "turn": null,
+      "scores": {
+        "jd_coverage": 1,
+        "evidence_grounding": 2,
+        "academic_achievement": 2,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": null,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "case_id": "JD11",
+          "stage": "review",
+          "turn": null,
+          "severity": "P1",
+          "original_claim": "Responsibility/preferred: integrate AI and enterprise services — coverage=covered",
+          "source": {
+            "jd_path": "data/academic_benchmark/jds/JD11.txt",
+            "profile_path": "data/student_academic_profile.enriched.json",
+            "canonical": [
+              {
+                "course_code": "DAP391m",
+                "clo": "CLO5",
+                "description": "Implement an application that leverages multiple Watson AI services, including Discovery, Speech to Text, Watson Assistant, and Text to Speech, with chatbot creation and integration in a final project context.",
+                "score": 8.79,
+                "achievement": "excellent"
+              },
+              {
+                "course_code": "DAP391m",
+                "clo": "CLO6",
+                "description": "Implementing different techniques to develop applications and AI powered solutions, including Building AI Applications with Watson APIs- Introduction , Building AI Applications with Watson APIs- Introduction , Building AI Applications with Watson APIs- Giving it, Develop applications, AI powered solutions.",
+                "score": 9.1,
+                "achievement": "excellent"
+              },
+              {
+                "course_code": "AIG202c",
+                "clo": "CLO5",
+                "description": "Visually create and deploy chatbots with Watson Assistant, including intents, entities, dialog design, deployment, context variables, slots, digressions, and optional Watson Actions concepts.",
+                "score": 8.0,
+                "achievement": "good"
+              }
+            ]
+          },
+          "explanation": "Nguồn trực tiếp hỗ trợ Watson/AI services. Row gộp AI AND enterprise services nhưng covered cho toàn bộ mà không nêu phần enterprise-specific chưa được xác nhận. Nên tách phần có nguồn hoặc related với giới hạn; không phải bịa điểm/công nghệ nên P1.",
+          "original_row": {
+            "jd_requirement": "Responsibility/preferred: integrate AI and enterprise services",
+            "coverage": "covered",
+            "comment": "DAP391m/CLO5 trực tiếp bao gồm implement application tận dụng nhiều Watson AI services như Discovery, Speech to Text, Watson Assistant và Text to Speech trong ngữ cảnh chatbot integration; DAP391m/CLO6 tiếp tục bao gồm phát triển applications và AI-powered solutions với Watson APIs. AIG202c/CLO5 bổ sung việc visually create and deploy chatbots with Watson Assistant. Đây là bằng chứng học thuật trực tiếp cho phần tích hợp AI services; achievement ở DAP391m là excellent và AIG202c/CLO5 là good. Các minh chứng này là kết quả học tập trong môn học, không tự động xác nhận bối cảnh triển khai ngoài học thuật.",
+            "evidence": [
+              {
+                "course_code": "DAP391m",
+                "clo": "CLO5"
+              },
+              {
+                "course_code": "DAP391m",
+                "clo": "CLO6"
+              },
+              {
+                "course_code": "AIG202c",
+                "clo": "CLO5"
+              }
+            ]
+          }
+        }
+      ],
+      "notes": "Python, SQL Server/OR similar, DBI202 basic và ADY201m good/excellent đúng. API ở ADY201m/CLO5, DAP391m/CLO5–6, không gán CLO7. Named frameworks và backend-specific topics chưa xác nhận. Một row gộp AI AND enterprise services thành covered mà nguồn trực tiếp chỉ xác nhận AI services; ghi P1 về coverage.",
+      "p0_observed": false,
+      "p1_observed": true,
+      "canonical_profile_sha256": "b0bfa72fdc04f8d2cfc94e68fd7b4745387cd378a923f55eb94e2aef391bf531",
+      "evaluated_unmodified_output": true
+    },
+    "chat-JD11-1": {
+      "reviewed_at": "2026-10-13T21:53:49.473792+07:00",
+      "artifact": "data/academic_benchmark/evaluations/reasoning-five-jds-20261013/requests/chat-JD11-1.json",
+      "response_sha256": "64bb6d39284d04e33d2566b4053558be98dfe4f618b587943c0b2ac2b9938a74",
+      "case_id": "JD11",
+      "stage": "chat",
+      "turn": 1,
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 0,
+        "academic_achievement": 2,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "case_id": "JD11",
+          "stage": "chat",
+          "turn": 1,
+          "severity": "P0",
+          "original_claim": "CSI106/CLO4: \"Describe how different data type is stored inside a computer...\"",
+          "source": {
+            "profile_path": "data/student_academic_profile.enriched.json",
+            "canonical": [
+              {
+                "course_code": "CSI106",
+                "clo": "CLO3",
+                "description": "Describe how different data type is stored inside a computer as bit patterns and operations on data, including Data storage and Operations on Data, Logic operations, Shift, Arithmetic operations.",
+                "score": 8.1,
+                "achievement": "good"
+              },
+              {
+                "course_code": "CSI106",
+                "clo": "CLO4",
+                "description": "Describe the layers in networking and their relationship, including Computer Networks, Internet, Overview, and layers in netwoking.",
+                "score": 8.1,
+                "achievement": "good"
+              }
+            ]
+          },
+          "explanation": "CLO3 mô tả data types/bit patterns, CLO4 mô tả network layers. Câu trích được gán sai CLO dù ID tồn tại và reference validator passed.",
+          "original_claim_verbatim": "- CSI106/CLO4: \"Describe how different data type is stored inside a computer...\" không phải backend trực tiếp, nhưng là nền tảng hệ thống."
+        }
+      ],
+      "notes": "Đã kiểm tra 25 references, mọi điểm/band được nêu đúng. API và SQL đúng nguồn; tuy vậy CSI106/CLO4 bị gán mô tả data types/bit patterns của CLO3. CLO4 thật nói network layers. Đây là P0 với ID hợp lệ.",
+      "p0_observed": true,
+      "p1_observed": false,
+      "canonical_profile_sha256": "b0bfa72fdc04f8d2cfc94e68fd7b4745387cd378a923f55eb94e2aef391bf531",
+      "evaluated_unmodified_output": true
+    },
+    "chat-JD11-2": {
+      "reviewed_at": "2026-10-13T21:53:49.475264+07:00",
+      "artifact": "data/academic_benchmark/evaluations/reasoning-five-jds-20261013/requests/chat-JD11-2.json",
+      "response_sha256": "bb6db6ae4956c94f45c24df484528e6e3fcbeed551d617c30e24dd5cbd5c142a",
+      "case_id": "JD11",
+      "stage": "chat",
+      "turn": 2,
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": 2,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "findings": [],
+      "notes": "SQL Server có CLO5–6 và metadata.tools; không suy PostgreSQL. Python/API không thành FastAPI/SQLAlchemy. Giữ khả năng sinh viên đã tự học ngoài hồ sơ. Không ghi nhận P0/P1/P2.",
+      "p0_observed": false,
+      "p1_observed": false,
+      "canonical_profile_sha256": "b0bfa72fdc04f8d2cfc94e68fd7b4745387cd378a923f55eb94e2aef391bf531",
+      "evaluated_unmodified_output": true
+    },
+    "chat-JD11-3": {
+      "reviewed_at": "2026-10-13T21:53:49.476916+07:00",
+      "artifact": "data/academic_benchmark/evaluations/reasoning-five-jds-20261013/requests/chat-JD11-3.json",
+      "response_sha256": "47446c57cb47ac476b2f342332c6cce965d37ac24806868f6526a4da2f4019cc",
+      "case_id": "JD11",
+      "stage": "chat",
+      "turn": 3,
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": 2,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "findings": [],
+      "notes": "API đúng ADY201m/CLO5, DAP391m/CLO5–6 và AIL303m/CLO1; giữ Discuss khác Implement. Không gán API cho ADY201m/CLO7 hoặc DAP391m/CLO7. Scope API/data science khác REST backend design. Không ghi nhận P0/P1/P2.",
+      "p0_observed": false,
+      "p1_observed": false,
+      "canonical_profile_sha256": "b0bfa72fdc04f8d2cfc94e68fd7b4745387cd378a923f55eb94e2aef391bf531",
+      "evaluated_unmodified_output": true
+    },
+    "chat-JD11-4": {
+      "reviewed_at": "2026-10-13T21:53:49.478826+07:00",
+      "artifact": "data/academic_benchmark/evaluations/reasoning-five-jds-20261013/requests/chat-JD11-4.json",
+      "response_sha256": "14147d927c0f6acaa188d05cc3e66f9ce965ca019275031a056995edf0d47e6a",
+      "case_id": "JD11",
+      "stage": "chat",
+      "turn": 4,
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": 2,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "case_id": "JD11",
+          "stage": "chat",
+          "turn": 4,
+          "severity": "P2",
+          "original_claim": "Kết luận ngắn",
+          "source": {
+            "kind": "presentation",
+            "artifact": "data/academic_benchmark/evaluations/reasoning-five-jds-20261013/requests/chat-JD11-4.json",
+            "support_or_conflict": "Rubric P2: lặp và diễn đạt thiếu tự nhiên."
+          },
+          "explanation": "Sau hai nhóm đã kết luận rõ nền tảng/frameworks, thêm phần kết lặp cùng nội dung và nhiều câu trích English. Finding về sự lặp, không yêu cầu response ngắn cố định.",
+          "original_claim_verbatim": "**Kết luận ngắn**"
+        }
+      ],
+      "notes": "Summary giữ SQL/API/frameworks đúng; 18 references đủ cho các claim học thuật được nêu. CSI106/CLO4 được dùng đúng cho network/OS ở summary, không lặp bit-pattern error trước đó nhưng không đính chính tường minh. Không ghi nhận P0/P1; trích English và phần kết lặp làm trình bày nặng.",
+      "p0_observed": false,
+      "p1_observed": false,
+      "canonical_profile_sha256": "b0bfa72fdc04f8d2cfc94e68fd7b4745387cd378a923f55eb94e2aef391bf531",
+      "evaluated_unmodified_output": true
+    }
+  },
+  "semantic_success_definition": "No observed P0; P1 limitations reported separately; completion/schema alone are insufficient.",
+  "reviewer_method": "Codex đọc mọi output nguyên bản và đối chiếu nguồn canonical; không có generation/API judge phụ."
+}

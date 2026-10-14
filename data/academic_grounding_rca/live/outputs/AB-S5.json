@@ -1,0 +1,52 @@
+{
+  "selections": [
+    {
+      "claim_id": "S5-OPT",
+      "claim": "Continuous optimization bằng gradient descent",
+      "relation": "direct",
+      "source_matches": [
+        {
+          "course_code": "MAI391",
+          "clo": "CLO4",
+          "source_excerpt": "Solve continuous optimization problems using gradient descent for local minima"
+        }
+      ]
+    },
+    {
+      "claim_id": "S5-LR",
+      "claim": "Linear regression",
+      "relation": "direct",
+      "source_matches": [
+        {
+          "course_code": "MAI391",
+          "clo": "CLO5",
+          "source_excerpt": "Apply linear regression concepts"
+        }
+      ]
+    },
+    {
+      "claim_id": "S5-PCA",
+      "claim": "PCA",
+      "relation": "direct",
+      "source_matches": [
+        {
+          "course_code": "MAI391",
+          "clo": "CLO6",
+          "source_excerpt": "Apply dimensionality reduction with PCA"
+        }
+      ]
+    },
+    {
+      "claim_id": "S5-SVM",
+      "claim": "Support vector machine classification",
+      "relation": "direct",
+      "source_matches": [
+        {
+          "course_code": "MAI391",
+          "clo": "CLO7",
+          "source_excerpt": "Apply support vector machine classification"
+        }
+      ]
+    }
+  ]
+}

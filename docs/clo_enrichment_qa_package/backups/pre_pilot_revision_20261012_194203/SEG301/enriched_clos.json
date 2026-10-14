@@ -1,0 +1,84 @@
+{
+  "course_id": "SEG301",
+  "clos": [
+    {
+      "clo_id": "CLO1",
+      "original_description": "Understanding how search engines work: Students should be able to explain the underlying technology behind search engines, including the algorithms used to crawl, index and rank web pages.",
+      "enriched_description": "Understanding how search engines work: Students should be able to explain the underlying technology behind search engines, including the algorithms used to crawl, index and rank web pages. The scope includes Search engineers; Other Search Applications 3; Building blocks: Text acquisition, Text transformation, Index Creattion; Crawling the Web: Retrieving web pages, web crawler, freshness, Crawling, deep web, sitemaps, distributed; Crawling the Web : Crawling, deep web, sitemaps, distributed crawling; Ranking with indexes; Inverted Indexes: documents, counts, positions, fields and extents, scores, ordering; Index construction: simple construction, merging, parallelism and distribution, update; Query processing : structured queries, distributed evaluation, caching, Impact Ordering, static index pruning; Showing the results: result pages and snippets, advertising and search, clustering the results; Fundamentals of Search Engine Optimization: Content, Architecture, HTML, Trust, Links, User-Related Factors; and User Tags and Manual Indexing: Searching Tags, Inferring Missing Tags,Browsing and Tag Clouds.",
+      "source_topic_indices": [
+        1,
+        2,
+        4,
+        7,
+        8,
+        18,
+        21,
+        23,
+        27,
+        35,
+        46
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO2",
+      "original_description": "Search engine optimization: Students should be able to apply best practices for optimizing web pages to improve their visibility in search engine results pages (SERPs).",
+      "enriched_description": "Search engine optimization: Students should be able to apply best practices for optimizing web pages to improve their visibility in search engine results pages (SERPs). The scope includes Fundamentals of Search Engine Optimization: Content, Architecture, HTML, Trust, Links, User-Related Factors and The Position of Search Engine Providers.",
+      "source_topic_indices": [
+        0,
+        1
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO3",
+      "original_description": "Keyword research: Students should be able to conduct keyword research to identify the most relevant and profitable keywords by using popular retrieval models..",
+      "enriched_description": "Keyword research: Students should be able to conduct keyword research to identify the most relevant and profitable keywords by using popular retrieval models.. The scope includes Crawling the Web: Retrieving web pages, web crawler, freshness, Crawling, deep web, sitemaps, distributed; Crawling the Web : Crawling, deep web, sitemaps, distributed crawling; Conversion problem: character encodings; Storing the documents: using database system, random access, compression and large files, update, big table; From Words to Terms; Text statistics; Link analysis: anchor text, pagerank, link quality; Inverted Indexes: documents, counts, positions, fields and extents, scores, ordering; Index construction: simple construction, merging, parallelism and distribution, update; Query processing : structured queries, distributed evaluation, caching, Impact Ordering, static index pruning; Showing the results: result pages and snippets, advertising and search, clustering the results; and Training, testing and statistics: significance tests, setting parameter values, Online testing.",
+      "source_topic_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7,
+        10,
+        12,
+        16,
+        19
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO4",
+      "original_description": "Analytics and tracking: Students should be able to use analytics tools to track website traffic, user behavior, and campaign performance.",
+      "enriched_description": "Analytics and tracking: Students should be able to use analytics tools to track website traffic, user behavior, and campaign performance. The scope includes Ranking with indexes; Abstract model of raking; Inverted Indexes: documents, counts, positions, fields and extents, scores, ordering; b Implementing Inverted Indices; Compression : compression in practice, looking ahead, skipping and skip pointers; Index construction: simple construction, merging, parallelism and distribution, update; Query processing : structured queries, distributed evaluation, caching, Impact Ordering, static index pruning; Probabilistic models: Information retrieval as classification, BM25 Ranking Algorithm; Training, testing and statistics: significance tests, setting parameter values, Online testing; Classification and clustering; classification: Navie bayes, Support vector machines, Evaluation, Classfier and feature selection, spam; and Clustering: Hierachical and K-meas clustering, K-nearest neighbor clustering, evaluation, how to choose K.",
+      "source_topic_indices": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        13,
+        15,
+        16
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO5",
+      "original_description": "Solving problems: Students should be able to apply search engine techniques to solve the real-life problems",
+      "enriched_description": "Solving problems: Students should be able to apply search engine techniques to solve the real-life problems. The scope includes User Tags and Manual Indexing: Searching Tags, Inferring Missing Tags,Browsing and Tag Clouds; Searching with Communities: What Is a Community?, Finding Communities, Community-Based Question Answering; and Peer-to-Peer and Metasearch: Distributed Search, P2P Networks.",
+      "source_topic_indices": [
+        0,
+        1,
+        2
+      ],
+      "review_required": false,
+      "review_notes": []
+    }
+  ]
+}

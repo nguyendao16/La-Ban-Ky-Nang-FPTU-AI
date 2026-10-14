@@ -1,0 +1,2107 @@
+{
+  "origin": "manual_annotation",
+  "scale": "0=chưa đạt, 1=một phần, 2=đạt; null=N/A",
+  "dimensions": [
+    "jd_coverage",
+    "evidence_grounding",
+    "academic_achievement",
+    "gap_calibration",
+    "knowledge_vs_experience",
+    "conversational_continuity",
+    "completeness",
+    "naturalness",
+    "scope_adherence"
+  ],
+  "records": {
+    "pilot-SQL_ATTRIBUTION": {
+      "reviewed_at": "2026-10-13T14:52:41.735067+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/pilot-SQL_ATTRIBUTION.json",
+      "response_sha256": "2e726ab76db03db776aa14ba10095e76c4a8f685873929e2591769d904741553",
+      "scores": {
+        "jd_coverage": null,
+        "evidence_grounding": 1,
+        "academic_achievement": null,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P1",
+          "description": "Sửa đúng SQL thuộc ADY201m/CLO7, DAP391m/CLO7 không nêu SQL; nhưng không cite DAP391m/CLO7 khi mô tả cụ thể scope của CLO đó."
+        }
+      ],
+      "notes": "",
+      "semantic_success": true
+    },
+    "pilot-CV_METHODS": {
+      "reviewed_at": "2026-10-13T14:52:41.751887+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/pilot-CV_METHODS.json",
+      "response_sha256": "eca2adc0653de52fc67cc83c13a6750e07263079ee0fa4d4f0911d6ee5a3de95",
+      "scores": {
+        "jd_coverage": null,
+        "evidence_grounding": 2,
+        "academic_achievement": null,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "findings": [],
+      "notes": "Sửa history bằng đúng MAI391/CLO5 hồi quy, CLO6 PCA, CLO7 SVM; không lặp references rộng của seed.",
+      "semantic_success": true
+    },
+    "pilot-SQL_ACHIEVEMENT": {
+      "reviewed_at": "2026-10-13T14:52:41.756597+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/pilot-SQL_ACHIEVEMENT.json",
+      "response_sha256": "f780cebdfe41bc153581cd3e019bbfcde89f57db49cfc9f713df45f027892663",
+      "scores": {
+        "jd_coverage": null,
+        "evidence_grounding": 2,
+        "academic_achievement": 1,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": null,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P1",
+          "description": "So sánh DBI202/CLO5–6 basic, ADY201m/CLO1 good và CLO7 excellent nhưng thiếu exact scores 5.96, 8.3, 8.61."
+        },
+        {
+          "severity": "P2",
+          "description": "Lặp kết luận và mô tả dài cho câu hỏi achievement, dù đã phân biệt đúng curriculum scope và mức SQL tổng thể."
+        }
+      ],
+      "notes": "",
+      "semantic_success": true
+    },
+    "pilot-CV_FRAMEWORKS": {
+      "reviewed_at": "2026-10-13T14:52:41.761303+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/pilot-CV_FRAMEWORKS.json",
+      "response_sha256": "f16a4e7c449cf22f694a3fc4fcde010a5f37670db4ec3e1726db2e3207c3b293",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": null,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": null,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P2",
+          "description": "Nhiều lần nhắc thiếu bằng chứng/tự học và lặp danh sách ở kết luận; nội dung conditional topics và tách production đúng phạm vi."
+        }
+      ],
+      "notes": "",
+      "semantic_success": true
+    },
+    "review-JD00": {
+      "reviewed_at": "2026-10-13T14:55:55.046867+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/review-JD00.json",
+      "response_sha256": "b8b733abe2f9a2089ada14ec9133594d2ad2628f7d1bfe7c67ec2e53836f22c7",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 1,
+        "academic_achievement": 2,
+        "gap_calibration": 1,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": null,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P1",
+          "description": "Row Python mô tả PFP191/CLO1–7 gồm điều khiển/file/data structures nhưng evidence chỉ CLO1 và CLO7; thiếu CLO3/5/6 cho các ý cụ thể."
+        },
+        {
+          "severity": "P1",
+          "description": "Conclusion quy giới hạn profile thành phạm vi chương trình đào tạo; hồ sơ không chứng minh toàn bộ curriculum không có công nghệ đó."
+        }
+      ],
+      "notes": "",
+      "semantic_success": true
+    },
+    "chat-JD00-1": {
+      "reviewed_at": "2026-10-13T14:55:55.066560+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD00-1.json",
+      "response_sha256": "1feaa902e3eb6f140852caec815b2b54356bf26ed9515e9467c4822d65f113a5",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": 1,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": null,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P1",
+          "description": "Nhắc thành tích xuất sắc của nhóm CLO nhưng không nêu điểm/CLO performance rõ cho từng nhóm được hỏi."
+        },
+        {
+          "severity": "P2",
+          "description": "Kết luận lặp lại danh sách đã giải thích."
+        }
+      ],
+      "notes": "",
+      "semantic_success": true
+    },
+    "chat-JD00-2": {
+      "reviewed_at": "2026-10-13T14:55:55.071524+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD00-2.json",
+      "response_sha256": "8b74c72e1aac447f75429911214ab2566c7d49fc6eb8b78e32b305e7a032045d",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 1,
+        "academic_achievement": null,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 1,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 1
+      },
+      "findings": [
+        {
+          "severity": "P1",
+          "description": "Production experience nằm chung danh sách nội dung kiến thức chưa xác nhận; claim dự án học thuật không cite project CLO."
+        },
+        {
+          "severity": "P1",
+          "description": "Gợi ý làm nổi bật khi ứng tuyển vượt topic clarification trong scope V1."
+        }
+      ],
+      "notes": "",
+      "semantic_success": true
+    },
+    "chat-JD00-3": {
+      "reviewed_at": "2026-10-13T14:55:55.076576+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD00-3.json",
+      "response_sha256": "fde54c663bb2a70c6522cde397d31403154827e1dd8de4e0bab722baa95d7bf9",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": 2,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "findings": [],
+      "notes": "Đúng CPV301/CLO8=8.81/excellent; general object detection không xác nhận YOLO.",
+      "semantic_success": true
+    },
+    "review-JD01": {
+      "reviewed_at": "2026-10-13T14:55:55.081692+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/review-JD01.json",
+      "response_sha256": "ef2eb26ae657a5ef6641211e285d9a9408beb41632e9bd50dec6c68efe2df240",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 0,
+        "academic_achievement": 1,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": null,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P0",
+          "description": "Row Evaluate AI algorithms/LLM/VLM nói PCA và hồi quy tuyến tính nhưng evidence chỉ CPV301/CLO8, MAI391/CLO7; thiếu MAI391/CLO6 và CLO5. Có IDs hợp lệ nhưng không hỗ trợ các phương pháp được nêu."
+        },
+        {
+          "severity": "P1",
+          "description": "Các rows mô tả toàn bộ PFP191/CPV301 nhưng chỉ cite CLO subset; hàng project AIL303m/CLO10 không giải thích achievement basic, overview/conclusion thiên về good/excellent."
+        }
+      ],
+      "notes": "",
+      "semantic_success": false
+    },
+    "chat-JD01-1": {
+      "reviewed_at": "2026-10-13T14:55:55.086804+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD01-1.json",
+      "response_sha256": "668f6a2defa46f3700b0707582650e7c56efcf22e0c82eecc50e6c5f68e68396",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 0,
+        "academic_achievement": 1,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": null,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P0",
+          "description": "Nêu nhận diện khuôn mặt/theo dõi đối tượng nhưng evidence CPV301/CLO3,8 không hỗ trợ; CLO9 mới mô tả hai kỹ thuật này. AIG202c ML/DL cũng không được cite."
+        },
+        {
+          "severity": "P1",
+          "description": "Không giải thích performance/điểm riêng khi liệt kê nhiều học phần."
+        }
+      ],
+      "notes": "",
+      "semantic_success": false
+    },
+    "chat-JD01-2": {
+      "reviewed_at": "2026-10-13T14:55:55.092052+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD01-2.json",
+      "response_sha256": "6d5a7717d55ec52a06dcea80e46f3005b99a4308ade1560775c228374657c07d",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 0,
+        "academic_achievement": null,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 1,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 1
+      },
+      "findings": [
+        {
+          "severity": "P0",
+          "description": "Nói các CLO xác nhận đã làm dự án AI/CV, trong khi refs project chỉ thể hiện intended data/ML outcomes và không nêu CV project thực tế."
+        },
+        {
+          "severity": "P1",
+          "description": "Backend preferred không được giữ nhãn ưu tiên; trộn knowledge với kinh nghiệm/phát triển sản phẩm và gợi ý làm nổi bật khi ứng tuyển."
+        }
+      ],
+      "notes": "",
+      "semantic_success": false
+    },
+    "chat-JD01-3": {
+      "reviewed_at": "2026-10-13T14:55:55.097095+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD01-3.json",
+      "response_sha256": "c1fc17a732ae4a327f2a8865c5b2f2dc0a95c2edaaf02c527e23bc7d5296e6a1",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 0,
+        "academic_achievement": null,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P0",
+          "description": "Gán nhận diện khuôn mặt/theo dõi vào CPV301/CLO8 và nâng thành hiểu/triển khai; CLO8 chỉ object detection, CLO9 Explain face recognition/tracking."
+        }
+      ],
+      "notes": "",
+      "semantic_success": false
+    },
+    "review-JD02": {
+      "reviewed_at": "2026-10-13T14:58:57.467689+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/review-JD02.json",
+      "response_sha256": "1a5ffdc93ec474192961baf62bdfba6584507f1bc7afdf44b2b860c20dec9a93",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 1,
+        "academic_achievement": 1,
+        "gap_calibration": 1,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": null,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P1",
+          "description": "Đánh covered cho real-time detection pipeline dù CLO8 chỉ general object detection; thiếu realtime/pipeline scope."
+        },
+        {
+          "severity": "P1",
+          "description": "Thêm graduation/interest như rows học thuật; tách Python/C++ mà không giữ ambiguity của dấu /."
+        }
+      ],
+      "notes": "",
+      "semantic_success": true
+    },
+    "chat-JD02-1": {
+      "reviewed_at": "2026-10-13T14:58:57.488426+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD02-1.json",
+      "response_sha256": "9cf1ab57055f055c576bf609e7a7ca1004b3d72b051afed0fcef6b136c3549ef",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 1,
+        "academic_achievement": 1,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 1,
+        "conversational_continuity": null,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P1",
+          "description": "Nâng Understand/Explain/Explore AI thành nắm vững; dùng dự án thực tế thay intended academic outcomes. Không nêu kết quả CLO/điểm dù expected có performance."
+        },
+        {
+          "severity": "P2",
+          "description": "Danh sách rộng 33 refs, gồm nhiều học phần phụ, và kết luận lặp; không phải lỗi vì vượt số môn cố định."
+        }
+      ],
+      "notes": "",
+      "semantic_success": true
+    },
+    "chat-JD02-2": {
+      "reviewed_at": "2026-10-13T14:58:57.497878+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD02-2.json",
+      "response_sha256": "9117ed3b9b51d0c0ee337abb01c72a9ef0b4cb05bc935010eecde191e9c4cfbd",
+      "scores": {
+        "jd_coverage": 1,
+        "evidence_grounding": 1,
+        "academic_achievement": null,
+        "gap_calibration": 1,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 1,
+        "naturalness": 1,
+        "scope_adherence": 1
+      },
+      "findings": [
+        {
+          "severity": "P1",
+          "description": "Không cite project CLO dù mô tả DAP391m/CLO7 và ADY201m/CLO7; giữ C++ như gap riêng trong source slash không rõ Boolean."
+        },
+        {
+          "severity": "P1",
+          "description": "Đưa tình trạng tốt nghiệp vào câu hỏi kiến thức và gợi ý làm nổi bật khi ứng tuyển."
+        }
+      ],
+      "notes": "",
+      "semantic_success": true
+    },
+    "chat-JD02-3": {
+      "reviewed_at": "2026-10-13T14:58:57.507395+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD02-3.json",
+      "response_sha256": "b60b4fd59a574da82e53be296b7dfe1085ca81a6c0b50eb6983aae6de9814cbc",
+      "scores": {
+        "jd_coverage": 1,
+        "evidence_grounding": 2,
+        "academic_achievement": null,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P1",
+          "description": "Không làm rõ YOLO do sinh viên đưa vào câu hỏi, không nằm trong JD02; cụm các framework mà JD yêu cầu dễ gộp YOLO vào source. Phân biệt CLO/framework vẫn đúng."
+        }
+      ],
+      "notes": "",
+      "semantic_success": true
+    },
+    "review-JD03": {
+      "reviewed_at": "2026-10-13T14:58:57.516830+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/review-JD03.json",
+      "response_sha256": "6b0ab864d62bc96d7417b689632d949b0eeef44e23d54ed893c2cb8061c1262c",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 0,
+        "academic_achievement": 0,
+        "gap_calibration": 1,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": null,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P0",
+          "description": "Row collect/clean/annotate nói DAP391m/CLO1–2 bao gồm dữ liệu hình ảnh, không có trong descriptions; broad dataset knowledge bị chuyển thành image-specific coursework."
+        },
+        {
+          "severity": "P0",
+          "description": "Row training/evaluation báo excellent/good cho refs gồm AIL303m/CLO10; CLO10 thực tế 5.42/basic, không good."
+        },
+        {
+          "severity": "P1",
+          "description": "Covered augmentation dù comment thừa nhận không nêu; covered research reading/C++ trong compound row dù chưa có bằng chứng; thiếu annotation coverage đúng."
+        }
+      ],
+      "notes": "",
+      "semantic_success": false
+    },
+    "chat-JD03-1": {
+      "reviewed_at": "2026-10-13T14:58:57.526568+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD03-1.json",
+      "response_sha256": "0b39ef3baff0536834e27f60000fed419ec56af14c2d3e3dbc5818c4f71a97a7",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 0,
+        "academic_achievement": 1,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": null,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P0",
+          "description": "Gán dữ liệu hình ảnh cho DAP391m/CLO1–2; descriptions chỉ generic dataset import/clean/wrangle/EDA."
+        },
+        {
+          "severity": "P1",
+          "description": "Chưa trình bày achievement của từng CLO; report writing không chứng minh research-document reading."
+        }
+      ],
+      "notes": "",
+      "semantic_success": false
+    },
+    "chat-JD03-2": {
+      "reviewed_at": "2026-10-13T14:58:57.536273+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD03-2.json",
+      "response_sha256": "89194041dbcfb1b8e7b4589faf4465558565c8f127f867471895e393a4705f71",
+      "scores": {
+        "jd_coverage": 1,
+        "evidence_grounding": 1,
+        "academic_achievement": null,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 1,
+        "conversational_continuity": 2,
+        "completeness": 1,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P1",
+          "description": "Evidence rỗng trong khi khẳng định dự án học thuật hỗ trợ integration/testing; bỏ sót annotation/augmentation cần phân biệt scope."
+        },
+        {
+          "severity": "P1",
+          "description": "Thêm quy trình testing chuyên sâu/hệ thống lớn không được JD yêu cầu; internship assistance không có nghĩa prior deep professional experience."
+        }
+      ],
+      "notes": "",
+      "semantic_success": true
+    },
+    "chat-JD03-3": {
+      "reviewed_at": "2026-10-13T14:58:57.541781+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD03-3.json",
+      "response_sha256": "db7797a7cbabe402f1142160e1b58a88fa86c77ac89b0ec0570a518a90bb64ec",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": null,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "findings": [],
+      "notes": "CPV301/CLO3 có Apply image processing; không xác nhận tên OpenCV/data augmentation. Câu kết nghiêng lý thuyết nhưng câu đầu vẫn giữ Apply, không đánh thiếu kiến thức thực tế.",
+      "semantic_success": true
+    },
+    "review-JD04": {
+      "reviewed_at": "2026-10-13T15:00:20.309629+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/review-JD04.json",
+      "response_sha256": "a80c59541972417b45b344f561b24be9d6d300f0499563a9386d3df4f6ca8f55",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 0,
+        "academic_achievement": 0,
+        "gap_calibration": 1,
+        "knowledge_vs_experience": 1,
+        "conversational_continuity": null,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P0",
+          "description": "Overview/conclusion nói RAG có trong CLO ở mức tổng quan dù các CLO AIG202c không nêu RAG; row general ML nêu PCA/SVM/clustering nhưng chỉ cite AIL303m/CLO4 và MAI391/CLO5."
+        },
+        {
+          "severity": "P0",
+          "description": "Gán deployment cho DAP391m/CLO7, trong khi deployment explicit ở ADY201m/CLO7, không DAP391m/CLO7."
+        },
+        {
+          "severity": "P0",
+          "description": "SQL row gộp ADY201m/CLO1 và CLO7 thành khá/good; CLO7 thực tế 8.61/excellent."
+        },
+        {
+          "severity": "P1",
+          "description": "Nhiều ý CV/ML/SQL không đủ evidence và bỏ sót weak bands trong tổng hợp."
+        }
+      ],
+      "notes": "",
+      "semantic_success": false
+    },
+    "chat-JD04-1": {
+      "reviewed_at": "2026-10-13T15:00:20.319914+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD04-1.json",
+      "response_sha256": "5d5bde3bca56c752b173df83b1482811e5c7a0bf3bb549149462bf27fffda807",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 0,
+        "academic_achievement": 1,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 1,
+        "conversational_continuity": null,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P0",
+          "description": "Nêu PCA/SVM/clustering nhưng refs chỉ AIL303m/CLO4, MAI391/CLO5; nêu agent tools nhưng AIG202c/CLO3 chỉ Explore generative models, không agent."
+        },
+        {
+          "severity": "P0",
+          "description": "Nói đã thực hiện API projects thay intended outcomes; face/tracking cũng thiếu CPV301/CLO9 trong evidence."
+        },
+        {
+          "severity": "P1",
+          "description": "SQL performance basic/good/excellent không được giải thích riêng."
+        }
+      ],
+      "notes": "",
+      "semantic_success": false
+    },
+    "chat-JD04-2": {
+      "reviewed_at": "2026-10-13T15:00:20.327997+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD04-2.json",
+      "response_sha256": "9bc6548c7bb48a8d1f6281c86986778edf1414a551c80cfcbf9367eed0e0549b",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 0,
+        "academic_achievement": null,
+        "gap_calibration": 1,
+        "knowledge_vs_experience": 1,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P0",
+          "description": "Gán deployment academic projects và khái niệm agent cho evidence rỗng; reuse sai scope từ history trước."
+        },
+        {
+          "severity": "P1",
+          "description": "ONNX preferred không được giữ rõ status; absence Git cần phân biệt GitHub tool list, không coi cùng một kỹ năng."
+        }
+      ],
+      "notes": "",
+      "semantic_success": false
+    },
+    "chat-JD04-3": {
+      "reviewed_at": "2026-10-13T15:00:20.335711+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD04-3.json",
+      "response_sha256": "5c7ad588aa711d72ffec031bb5828362ad2605765bcda61bff24a9a4b47d39a2",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 0,
+        "academic_achievement": 2,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P0",
+          "description": "Ví dụ project DAP391m/CLO7 được nói mô tả deployment trong học thuật; description không có deployment. ADY201m/CLO7 mới có từ này."
+        }
+      ],
+      "notes": "Nguyên tắc score không chứng minh YOLO/Docker/production đúng, nhưng ví dụ chứng cứ sai.",
+      "semantic_success": false
+    },
+    "review-JD05": {
+      "reviewed_at": "2026-10-13T15:00:20.342533+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/review-JD05.json",
+      "response_sha256": "d7a98989fc959e41b1dbd5517e88952aced4180cfc1e4d7f04dac490ea94021b",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 0,
+        "academic_achievement": 1,
+        "gap_calibration": 1,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": null,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P0",
+          "description": "Nói không có CLO trực tiếp đề cập R trong row Python OR R dù chính ADY201m/CLO3 có R trong tool list. List dùng ít nhất một không chứng minh thực hành R, nhưng không được phủ nhận có đề cập R."
+        },
+        {
+          "severity": "P0",
+          "description": "Nêu kiểm định giả thuyết/tối ưu hóa mà thiếu MAS291/CLO8, MAI391/CLO4 trong evidence; AIL303m/CLO10 basic bị gộp good/excellent."
+        },
+        {
+          "severity": "P1",
+          "description": "SQL/BI preferred mất nhãn trong jd_requirement; overview/conclusion tổng quát SQL chủ yếu basic dù các CLO có bands riêng."
+        }
+      ],
+      "notes": "",
+      "semantic_success": false
+    },
+    "chat-JD05-1": {
+      "reviewed_at": "2026-10-13T15:00:20.353038+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD05-1.json",
+      "response_sha256": "83202e5cbac5baa33f490e1d930e244a2d7140b887145ad8020b15579104a1f8",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 1,
+        "academic_achievement": 1,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": null,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P1",
+          "description": "Không nêu individual scores/bands; evidence bỏ MAS291/CLO8 dù nói kiểm định giả thuyết, PFP file/data/control còn thiếu các CLO tương ứng."
+        },
+        {
+          "severity": "P2",
+          "description": "Lặp các nhóm học phần và kết luận rộng; số môn không phải ngưỡng lỗi."
+        }
+      ],
+      "notes": "",
+      "semantic_success": true
+    },
+    "chat-JD05-2": {
+      "reviewed_at": "2026-10-13T15:00:20.359132+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD05-2.json",
+      "response_sha256": "55f89368881dc2606e40d6f08afade51b35e64afe4bf568e4b5d6cdc62a22339",
+      "scores": {
+        "jd_coverage": 1,
+        "evidence_grounding": 0,
+        "academic_achievement": null,
+        "gap_calibration": 1,
+        "knowledge_vs_experience": 1,
+        "conversational_continuity": 2,
+        "completeness": 1,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P0",
+          "description": "Nói ADY201m/CLO7 có dashboard; description chỉ visualization, dashboard nằm DAP391m/CLO7. Phủ nhận tất cả CLO về R dù ADY201m/CLO3 liệt kê R."
+        },
+        {
+          "severity": "P1",
+          "description": "Python OR R biến R thành chủ đề bổ sung để đáp ứng đầy đủ; giả định prior professional product experience từ cơ hội training Sapo."
+        }
+      ],
+      "notes": "",
+      "semantic_success": false
+    },
+    "chat-JD05-3": {
+      "reviewed_at": "2026-10-13T15:00:20.367939+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD05-3.json",
+      "response_sha256": "7a02afd25c12e5f1366c7bf9a7c2b8811c2c579e709e95b04966e3c91f6fb3d0",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 0,
+        "academic_achievement": 1,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P0",
+          "description": "Khẳng định chưa có học thuật về R thay vì phân biệt R được nhắc trong ADY201m/CLO3 với use-at-least-one chưa chứng minh sử dụng R."
+        },
+        {
+          "severity": "P1",
+          "description": "So sánh basic/good/excellent không trích 5.96/8.3/8.61; claim Python không cite PFP191 hoặc ADY201m Python CLO."
+        }
+      ],
+      "notes": "Python OR R và SQL preferred được giữ đúng; không tạo mức SQL tổng thể.",
+      "semantic_success": false
+    },
+    "review-JD06": {
+      "reviewed_at": "2026-10-13T15:03:30.769088+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/review-JD06.json",
+      "response_sha256": "d6b09e01df4ff1b547d8847d53261d0636546578313e4e5ceaa37df8864fa8f2",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 0,
+        "academic_achievement": 1,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": null,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P0",
+          "description": "BI row gán Jupyter/RStudio/Watson Studio và dashboard cho DAP391m/CLO3–4, ADY201m/CLO1,7; tool list ở ADY201m/CLO3, dashboard ở DAP391m/CLO7 không được cite trong row."
+        },
+        {
+          "severity": "P1",
+          "description": "Hầu hết covered/related rows không giải thích achievement, còn inferred traits attention-to-detail bị coi covered."
+        }
+      ],
+      "notes": "",
+      "semantic_success": false
+    },
+    "chat-JD06-1": {
+      "reviewed_at": "2026-10-13T15:03:30.793597+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD06-1.json",
+      "response_sha256": "72f3aa136d0a70b5ee9ca316ac6d0374c70652114b7ba564ecef7f32fd91c2cc",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 0,
+        "academic_achievement": 1,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": null,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P0",
+          "description": "Nói đã sử dụng Jupyter/RStudio/Watson Studio với refs không có ADY201m/CLO3; ngay cả tool list use-at-least-one cũng không xác nhận dùng mọi tool."
+        },
+        {
+          "severity": "P1",
+          "description": "Không nêu scores/bands; lặp nhóm trực quan hóa/dashboard hai lần."
+        }
+      ],
+      "notes": "",
+      "semantic_success": false
+    },
+    "chat-JD06-2": {
+      "reviewed_at": "2026-10-13T15:03:30.805997+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD06-2.json",
+      "response_sha256": "86c03ef8b6188699401379313501d9ffdb09e1e78a78dce2fb49292e584e02a6",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 0,
+        "academic_achievement": null,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 1,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 1
+      },
+      "findings": [
+        {
+          "severity": "P0",
+          "description": "Các refs DAP391m/CLO3–4, ADY201m/CLO1,7 không ghi dashboard/Jupyter/Watson; thiếu CLO đúng cho academic claims."
+        },
+        {
+          "severity": "P1",
+          "description": "Gợi ý làm nổi bật ngoài trường khi ứng tuyển thay phạm vi academic topic clarification."
+        }
+      ],
+      "notes": "",
+      "semantic_success": false
+    },
+    "chat-JD06-3": {
+      "reviewed_at": "2026-10-13T15:03:30.818355+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD06-3.json",
+      "response_sha256": "9912c095ca71933d6d75b4fcb5ceb20ba4bee5df3fa08fcc26e3cd7d1cb9fae2",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 0,
+        "academic_achievement": null,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P0",
+          "description": "Framework absence đúng, nhưng gán dashboard và Jupyter/Watson cho các CLO không nêu; câu summary lặp attribution sai của history."
+        }
+      ],
+      "notes": "",
+      "semantic_success": false
+    },
+    "review-JD07": {
+      "reviewed_at": "2026-10-13T15:03:30.830739+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/review-JD07.json",
+      "response_sha256": "9cf3c51f7e88fcaf299a8718b7069d5f6c7ce5a57d74e8ad1d08ea8d2051f237",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 0,
+        "academic_achievement": 0,
+        "gap_calibration": 1,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": null,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P0",
+          "description": "Row clean/transform ghi good/excellent cho DAP391m/CLO1 và AIL303m/CLO1; cả hai thực tế good, DAP=8.45, AIL=7.56."
+        },
+        {
+          "severity": "P1",
+          "description": "ADY201m/CLO4 Understand methodology bị chuyển thành Apply; conclusion riêng SQL đạt basic dù ADY201m/CLO1 good."
+        },
+        {
+          "severity": "P1",
+          "description": "R bị phủ nhận thay vì tách topic trong ADY201m/CLO3 với usage chưa xác định."
+        }
+      ],
+      "notes": "",
+      "semantic_success": false
+    },
+    "chat-JD07-1": {
+      "reviewed_at": "2026-10-13T15:03:30.844001+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD07-1.json",
+      "response_sha256": "47fca0f44af06ce267a89e4deb2fcfb41532b7e924068b6f6f8f7848281f830d",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 1,
+        "academic_achievement": 0,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": null,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P0",
+          "description": "Nói DAP391m/CLO1 excellent; giá trị gốc 8.45/good. Đây là lỗi achievement thực tế, không chỉ vấn đề diễn đạt."
+        },
+        {
+          "severity": "P1",
+          "description": "So sánh nhiều bands không có scores; Understand ADY201m/CLO4 được nói đã thực hành triển khai."
+        }
+      ],
+      "notes": "",
+      "semantic_success": false
+    },
+    "chat-JD07-2": {
+      "reviewed_at": "2026-10-13T15:03:30.852698+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD07-2.json",
+      "response_sha256": "07284cce8213462d90c29875aa4168b1633c6e04fb460ccb8548a84d7c97079a",
+      "scores": {
+        "jd_coverage": 1,
+        "evidence_grounding": 1,
+        "academic_achievement": 1,
+        "gap_calibration": 1,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 1,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P1",
+          "description": "Đổi Python OR R preferred thành yêu cầu; kiến thức R nói chưa xác nhận không phân biệt ADY201m/CLO3 đã nhắc R nhưng không chứng minh sử dụng R."
+        },
+        {
+          "severity": "P1",
+          "description": "GPA/English trộn trong danh sách kiến thức thay điều kiện không thể xác minh từ CLO, và Python excellent bị gán ở cấp language."
+        }
+      ],
+      "notes": "",
+      "semantic_success": true
+    },
+    "chat-JD07-3": {
+      "reviewed_at": "2026-10-13T15:03:30.858867+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD07-3.json",
+      "response_sha256": "b440854fe835fc28df57915d509bd9d775132140377323a2d6f901fb3826fdc8",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": 2,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "findings": [],
+      "notes": "Không suy Excel/GPA/B1 từ SQL/Python; không tính GPA hay quyết định eligibility; evidence rỗng phù hợp câu chỉ giải thích giới hạn.",
+      "semantic_success": true
+    },
+    "review-JD08": {
+      "reviewed_at": "2026-10-13T15:04:42.928466+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/review-JD08.json",
+      "response_sha256": "79fa5bd4561d13516950a352d1f7ec238cd3eb4ceab782fae01513c270e0c9e0",
+      "scores": {
+        "jd_coverage": 1,
+        "evidence_grounding": 0,
+        "academic_achievement": 0,
+        "gap_calibration": 1,
+        "knowledge_vs_experience": 1,
+        "conversational_continuity": null,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P0",
+          "description": "ML row nói mọi CLO good/excellent nhưng AIL303m/CLO9=6.87/basic."
+        },
+        {
+          "severity": "P0",
+          "description": "Feature engineering được gán thêm cho ADY201m/CLO7 dù description không nêu feature engineering; CLO đúng AIL303m/CLO2 có cite nhưng không làm attribution khác đúng."
+        },
+        {
+          "severity": "P1",
+          "description": "A/B testing covered và conclusion gồm A/B testing dù chỉ foundation hypothesis/confidence, chưa có named A/B curriculum; project-experience covered không phải chứng minh artifact thực hiện."
+        },
+        {
+          "severity": "P1",
+          "description": "Overview gọi cloud plus trong khi fixture/prerequisites liệt kê cloud experience, không source-marked optional."
+        }
+      ],
+      "notes": "",
+      "semantic_success": false
+    },
+    "chat-JD08-1": {
+      "reviewed_at": "2026-10-13T15:04:42.946449+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD08-1.json",
+      "response_sha256": "cf29758c2eb6bcc07f52b1596c22655d7a7a125d18d89bed56a8a7345072c681",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 1,
+        "academic_achievement": 1,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 1,
+        "conversational_continuity": null,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P1",
+          "description": "Nói đã triển khai các dự án, không giữ intended academic outcomes; performance chỉ một nhóm excellent, không giải thích AIL303m/CLO9 basic."
+        },
+        {
+          "severity": "P2",
+          "description": "Kết luận lặp và gộp direct/adjacent foundations; A/B/recommender trong phần thân đã phân biệt foundation."
+        }
+      ],
+      "notes": "",
+      "semantic_success": true
+    },
+    "chat-JD08-2": {
+      "reviewed_at": "2026-10-13T15:04:42.953010+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD08-2.json",
+      "response_sha256": "72bf55d61428824b3ff68bb195382471baf5d8a76ef320b2c374fd938419b5ad",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 1,
+        "academic_achievement": null,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P1",
+          "description": "Academic supervised/regression/classification claims trong đoạn recommender không có evidence ở response này; evidence rỗng dù mô tả nền tảng đã học."
+        }
+      ],
+      "notes": "",
+      "semantic_success": true
+    },
+    "chat-JD08-3": {
+      "reviewed_at": "2026-10-13T15:04:42.961090+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD08-3.json",
+      "response_sha256": "64f6ae5e8ff06c5c2b647d58a5b941bbad0bf03c9d2c1a26456fb6a8bf8c32bd",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": null,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P2",
+          "description": "Summary lặp hai ý đã giải thích, nhưng citations và specificity A/B/recommender đúng."
+        }
+      ],
+      "notes": "",
+      "semantic_success": true
+    },
+    "review-JD09": {
+      "reviewed_at": "2026-10-13T15:04:42.969728+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/review-JD09.json",
+      "response_sha256": "a9a1101bf00a9c3984f535c75cfd523c69d63bf3ca6a3e0dc0c8b9da799c2c20",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 0,
+        "academic_achievement": 1,
+        "gap_calibration": 1,
+        "knowledge_vs_experience": 1,
+        "conversational_continuity": null,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P0",
+          "description": "Row data structures gán sorting/graphs cho CSD203/CLO1–4; đúng sorting=CLO6, graph=CLO5. Refs chỉ CSD203/CLO1 và MAD101/CLO7, không hỗ trợ stack/tree/Prim/Kruskal đã nêu."
+        },
+        {
+          "severity": "P1",
+          "description": "Covered compound ML row dù ensembles/cross-validation không nêu; language OR được quyết định any trong source grouping chưa rõ; phủ nhận Scala dù ADY201m/CLO3 có topic Scala (usage không chắc)."
+        },
+        {
+          "severity": "P1",
+          "description": "Conclusion gọi completed academic projects và xuất sắc SQL/DSA, trong khi DBI202 basic và CSD203 CLO5–8 basic; grades bị khái quát."
+        }
+      ],
+      "notes": "",
+      "semantic_success": false
+    },
+    "chat-JD09-1": {
+      "reviewed_at": "2026-10-13T15:04:42.977065+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD09-1.json",
+      "response_sha256": "2a6f58f0ebc70dba15600e9cf0b9a7be8c0c7fe3b50531a7e7840b66aa83cff2",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 0,
+        "academic_achievement": 1,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 1,
+        "conversational_continuity": null,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P0",
+          "description": "Nêu graph/Dijkstra/Prim/Kruskal/SVM nhưng refs chỉ CSD203/CLO1, MAD101/CLO7, MAI391/CLO6; thiếu CSD203/CLO5 và MAI391/CLO7 cho named methods."
+        },
+        {
+          "severity": "P1",
+          "description": "Actual completed project wording, thiếu scores/bands và SQL curriculum bị gọi cơ bản từ achievement."
+        }
+      ],
+      "notes": "",
+      "semantic_success": false
+    },
+    "chat-JD09-2": {
+      "reviewed_at": "2026-10-13T15:04:42.983811+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD09-2.json",
+      "response_sha256": "93a529322bc7bdf06817e9d912d41c01bd90defb85859d28b83b45d5450b5b89",
+      "scores": {
+        "jd_coverage": 1,
+        "evidence_grounding": 1,
+        "academic_achievement": null,
+        "gap_calibration": 1,
+        "knowledge_vs_experience": 1,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P1",
+          "description": "Source employer stack và preferred Spark không được phân biệt rõ với mandatory topics trong gap conclusion; Scala topic được phủ nhận dù tool-list ADY201m/CLO3 nêu, không chứng minh usage nhưng không phải không nhắc."
+        },
+        {
+          "severity": "P1",
+          "description": "Production responsibilities bị trình bày như prior experience requirement; added Hadoop ngoài tên JD chỉ là ví dụ không academic fact."
+        }
+      ],
+      "notes": "",
+      "semantic_success": true
+    },
+    "chat-JD09-3": {
+      "reviewed_at": "2026-10-13T15:04:42.990665+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD09-3.json",
+      "response_sha256": "aeedf24a68794ca5ac7968a6f1eb910f8e334f1cdc0557d846db4822314051e1",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": null,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "findings": [],
+      "notes": "Đúng MAI391/CLO5/6/7 cho linear regression/PCA/SVM; không infer PyTorch. Conditional JD experience statement không biến employer stack thành mandatory assertion.",
+      "semantic_success": true
+    },
+    "review-JD10": {
+      "reviewed_at": "2026-10-13T15:08:35.917856+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/review-JD10.json",
+      "response_sha256": "e360650b477b0e54e011da5d62695be89b1d9e440d8012eeb1911160b69c7f8b",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 0,
+        "academic_achievement": 1,
+        "gap_calibration": 1,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": null,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P0",
+          "description": "Covered pandas/numpy và claim JSON/CSV được gán ADY201m/DAP391m CLOs; canonical descriptions không nêu các tên này."
+        },
+        {
+          "severity": "P1",
+          "description": "SQL curriculum bị nói chủ yếu cơ bản từ basic achievement; MCP được giải thích sai Multi-Channel Platform thay Model Context Protocol."
+        },
+        {
+          "severity": "P1",
+          "description": "Có nhãn preferred cho nhóm RAG/MCP, nhưng thêm gaming-interest vào review học thuật không có nguồn đánh giá."
+        }
+      ],
+      "notes": "",
+      "semantic_success": false
+    },
+    "chat-JD10-1": {
+      "reviewed_at": "2026-10-13T15:08:35.942384+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD10-1.json",
+      "response_sha256": "5c714341e70f8a2887fa7bbdf5d683f82e8ad62060924925813966d3a9465958",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 0,
+        "academic_achievement": 1,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 1,
+        "conversational_continuity": null,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P0",
+          "description": "Khẳng định đã sử dụng pandas/numpy và JSON/CSV qua ADY201m/CLO5,7/DAP391m; chỉ có Python libraries/API tổng quát trong description."
+        },
+        {
+          "severity": "P1",
+          "description": "Trình bày đã xây dựng/triển khai workflows AI thực tế thay learning outcomes; không nêu CLO scores/bands."
+        }
+      ],
+      "notes": "",
+      "semantic_success": false
+    },
+    "chat-JD10-2": {
+      "reviewed_at": "2026-10-13T15:08:35.956242+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD10-2.json",
+      "response_sha256": "fce30c75c6e390e779982822a22c33b2d8f8d72b443e31cb9f78fef583129f19",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 1,
+        "academic_achievement": 1,
+        "gap_calibration": 1,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P1",
+          "description": "MCP expansion sai; SQL CLOs bị gọi chỉ mức cơ bản do basic label; RAG/BigQuery/Snowflake nice-to-have không được giữ status trong danh sách gap."
+        },
+        {
+          "severity": "P1",
+          "description": "Mô tả AIG202c/CLO4 prompt curriculum nhưng evidence rỗng."
+        }
+      ],
+      "notes": "",
+      "semantic_success": true
+    },
+    "chat-JD10-3": {
+      "reviewed_at": "2026-10-13T15:08:35.970391+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD10-3.json",
+      "response_sha256": "e433fb31460679ec3e86061690c763c3acc09c392626b135c6f91971a435cf51",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 1,
+        "academic_achievement": null,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P1",
+          "description": "MCP được gọi Multi-Channel Platform, sai nghĩa Model Context Protocol trong JD agent/tool-calling. Academic absence/structured output distinction đúng."
+        }
+      ],
+      "notes": "",
+      "semantic_success": true
+    },
+    "review-JD11": {
+      "reviewed_at": "2026-10-13T15:08:35.983988+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/review-JD11.json",
+      "response_sha256": "706eaffe8e5ce129dab00697892c4ca47c21c8a0017a368265229e3d38a0a765",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 0,
+        "academic_achievement": 0,
+        "gap_calibration": 1,
+        "knowledge_vs_experience": 1,
+        "conversational_continuity": null,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P0",
+          "description": "Gán API integration cho ADY201m/CLO7/DAP391m/CLO7; hai description không có API, CLO đúng ADY201m/CLO5 và DAP391m/CLO5–6."
+        },
+        {
+          "severity": "P0",
+          "description": "Conclusion nói các CLO đều tốt/xuất sắc trong khi SQL DBI202/CLO5–6 =5.96/basic."
+        },
+        {
+          "severity": "P1",
+          "description": "Databases OR similar chưa nhận SQL Server là RDBMS tương tự; curriculum và performance không tách rõ, thiếu exact scores."
+        }
+      ],
+      "notes": "",
+      "semantic_success": false
+    },
+    "chat-JD11-1": {
+      "reviewed_at": "2026-10-13T15:08:35.993359+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD11-1.json",
+      "response_sha256": "2a4be40051b610c4c7b21b46a3d080ced0261c04777d4187860d09596e31e473",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 1,
+        "academic_achievement": 1,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 1,
+        "conversational_continuity": null,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P1",
+          "description": "Claim cấu trúc dữ liệu/CSD203/CSI106 không cite CLO; công việc Watson được nói đã triển khai thay intended outcomes; thiếu grades."
+        },
+        {
+          "severity": "P1",
+          "description": "ADY201m/CLO7/DAP391m/CLO7 không nêu API dù phần workflow gộp chúng với các CLO API có thật."
+        }
+      ],
+      "notes": "",
+      "semantic_success": true
+    },
+    "chat-JD11-2": {
+      "reviewed_at": "2026-10-13T15:08:36.000543+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD11-2.json",
+      "response_sha256": "1c3063ac32fdabecbadfacf81fffddc7f22e1af72ec413a9c30627290faeac11",
+      "scores": {
+        "jd_coverage": 1,
+        "evidence_grounding": 1,
+        "academic_achievement": null,
+        "gap_calibration": 1,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P1",
+          "description": "Không phân biệt cloud/queues/API principles preferred và SQL Server có thể đáp ứng OR similar; gợi ý bổ sung toàn bộ như đầy đủ yêu cầu."
+        },
+        {
+          "severity": "P1",
+          "description": "Positive claim đã thao tác API nhưng evidence rỗng; DAP/ADY API CLO phải được cite khi khẳng định."
+        }
+      ],
+      "notes": "",
+      "semantic_success": true
+    },
+    "chat-JD11-3": {
+      "reviewed_at": "2026-10-13T15:08:36.008004+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD11-3.json",
+      "response_sha256": "a53bfcaca7648d76516554ee8469071560acfd377e3985c93e5079b57e186d52",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": null,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "findings": [],
+      "notes": "Giữ Python/API/SQL nền tảng với refs đúng; không suy FastAPI/SQLAlchemy/PostgreSQL. ADY201m/CLO5 hỗ trợ API trong evidence.",
+      "semantic_success": true
+    },
+    "review-JD12": {
+      "reviewed_at": "2026-10-13T15:17:25.264806+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/review-JD12.json",
+      "response_sha256": "86e28bca9155f42355824409d5eb8e7d3da9cbcd1e64423ab087b0efbc570306",
+      "scores": {
+        "jd_coverage": 1,
+        "evidence_grounding": 0,
+        "academic_achievement": 1,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": null,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P0",
+          "description": "Conclusion khẳng định sử dụng GitHub mặc dù ADY201m/CLO3 chỉ yêu cầu biết danh sách và dùng ít nhất một tool; chưa chứng minh dùng GitHub."
+        },
+        {
+          "severity": "P1",
+          "description": "Gộp Python AND Git thành covered trong khi comment thừa nhận Git chưa xác nhận; không giữ rõ SQL/orchestration/cloud/Docker là nice-to-have. Nhiều comment kể CLO ngoài evidence."
+        },
+        {
+          "severity": "P2",
+          "description": "Overview kể nhiều nền tảng xa JD và conclusion lặp."
+        }
+      ],
+      "notes": "",
+      "semantic_success": false
+    },
+    "chat-JD12-1": {
+      "reviewed_at": "2026-10-13T15:17:25.289510+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD12-1.json",
+      "response_sha256": "eb100c8aa8576a1cb86832c06059826aa1da3f8b8a258cc31e64db8ddde105c4",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 1,
+        "academic_achievement": 1,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": null,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P1",
+          "description": "Một số claims về PFP191/CLO1–7 và DAP391m rộng hơn các references được chọn; so sánh achievement chưa ghi điểm từng CLO."
+        },
+        {
+          "severity": "P2",
+          "description": "Kể dài nền tảng cho câu hỏi liên quan, lặp tổng kết."
+        }
+      ],
+      "notes": "Phân biệt GitHub trong danh sách công cụ với việc xác nhận Git; SQL DBI202 basic và ADY201m bổ sung được giữ riêng.",
+      "semantic_success": true
+    },
+    "chat-JD12-2": {
+      "reviewed_at": "2026-10-13T15:17:25.302846+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD12-2.json",
+      "response_sha256": "177200da9ec5ba0f3b8dd12c75c42bc078f36cbd3481a9b5130b491e9a034af4",
+      "scores": {
+        "jd_coverage": 1,
+        "evidence_grounding": 1,
+        "academic_achievement": null,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 1,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P1",
+          "description": "Claim học thuật về Cloud AIL303m/CLO1 và tools ADY201m/CLO3 không có evidence; chưa phân biệt nice-to-have. Công nghệ và trải nghiệm thực tế được liệt kê chung."
+        },
+        {
+          "severity": "P2",
+          "description": "Lặp hồ sơ chưa xác nhận ở từng mục."
+        }
+      ],
+      "notes": "",
+      "semantic_success": true
+    },
+    "chat-JD12-3": {
+      "reviewed_at": "2026-10-13T15:17:25.316445+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD12-3.json",
+      "response_sha256": "b7c307124dad0a6ce7015efcce356e364f86f60d8d7f163d6aba89ecebc76c58",
+      "scores": {
+        "jd_coverage": 0,
+        "evidence_grounding": 0,
+        "academic_achievement": null,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 1,
+        "completeness": 1,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P0",
+          "description": "Summary nói môn dự án dữ liệu DAP391m/CLO7 đáp ứng tốt yêu cầu SQL, trong khi description CLO7 không nêu SQL/database access; evidence chỉ CLO này."
+        },
+        {
+          "severity": "P1",
+          "description": "Bịa trích dẫn Required ... SQL and basic data modeling; fixture Jua đặt SQL ở Nice-to-have."
+        }
+      ],
+      "notes": "",
+      "semantic_success": false
+    },
+    "review-JD13": {
+      "reviewed_at": "2026-10-13T15:17:25.329881+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/review-JD13.json",
+      "response_sha256": "09142c0f409251b544c30b4ebf5184ea882102ee7e19b6e6d1cea9f1a140dacb",
+      "scores": {
+        "jd_coverage": 1,
+        "evidence_grounding": 2,
+        "academic_achievement": 1,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": null,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P1",
+          "description": "Thêm row Final-year IT study mà các CLO không xác nhận năm học; related chỉ là foundation, cần giữ rõ chưa xác minh điều kiện hành chính."
+        },
+        {
+          "severity": "P2",
+          "description": "Overview bổ sung toán, DB và AI không phải trọng tâm SOC; hình thức kết luận lặp."
+        }
+      ],
+      "notes": "",
+      "semantic_success": true
+    },
+    "chat-JD13-1": {
+      "reviewed_at": "2026-10-13T15:17:25.337403+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD13-1.json",
+      "response_sha256": "804b1f31cac6847d4e0bbaefd3395070bc0748cf0fc8f79d23b3af59353aab1a",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 1,
+        "academic_achievement": 1,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": null,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P1",
+          "description": "Một số nội dung Python toàn môn được kể với references giới hạn; bands thành tích không kèm điểm, không nên suy mức chung."
+        },
+        {
+          "severity": "P2",
+          "description": "Đưa thêm DB/AI cạnh OS/network/Python dù không phải yêu cầu SOC trực tiếp; dài và lặp."
+        }
+      ],
+      "notes": "Giữ foundations khác SIEM/SOAR/TIP/vận hành SOC; không claim kỹ năng nghề nghiệp.",
+      "semantic_success": true
+    },
+    "chat-JD13-2": {
+      "reviewed_at": "2026-10-13T15:17:25.345069+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD13-2.json",
+      "response_sha256": "13bc3d643100b6c542ee570a4c83578edca42a022dd8f5c9a8b9ad0327c1f0b8",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 1,
+        "academic_achievement": null,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 1
+      },
+      "findings": [
+        {
+          "severity": "P1",
+          "description": "Claim đã học hệ điều hành/mạng thiếu references (evidence rỗng). Cụm làm nổi bật khi ứng tuyển lệch khỏi giải thích học thuật."
+        },
+        {
+          "severity": "P2",
+          "description": "Lặp nhiều lần giới hạn của hồ sơ."
+        }
+      ],
+      "notes": "Giữ CEH là preferred, không suy OS foundations thành Windows/Linux administration.",
+      "semantic_success": true
+    },
+    "chat-JD13-3": {
+      "reviewed_at": "2026-10-13T15:17:25.352481+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD13-3.json",
+      "response_sha256": "443c8ebf2f2d7609054145a1dd7770872fd74af3136c89dec94329257adad01d",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": null,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P2",
+          "description": "Kết luận lặp lại hai đoạn trước."
+        }
+      ],
+      "notes": "CSI106/CLO4/5, CEA201/CLO5 và PFP191 là nền tảng; không infer SIEM/SOAR/SOC.",
+      "semantic_success": true
+    },
+    "review-JD14": {
+      "reviewed_at": "2026-10-13T15:17:25.359742+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/review-JD14.json",
+      "response_sha256": "03638a140bc6cf9d054a8740cf1f52161f624cf7d133e50b7cbbff36e513bd32",
+      "scores": {
+        "jd_coverage": 1,
+        "evidence_grounding": 1,
+        "academic_achievement": 1,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": null,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P1",
+          "description": "Degree/study covered dựa vào CLO không xác minh văn bằng/năm học; row AI/project và Python kể scope rộng hơn evidence. Preferred kỹ thuật được giữ riêng."
+        },
+        {
+          "severity": "P2",
+          "description": "Overview/conclusion trải rộng và lặp."
+        }
+      ],
+      "notes": "",
+      "semantic_success": true
+    },
+    "chat-JD14-1": {
+      "reviewed_at": "2026-10-13T15:17:25.367047+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD14-1.json",
+      "response_sha256": "eb13b4500e93572a92aa2465a46888b65909061d1a64892b5a20601b87f9859d",
+      "scores": {
+        "jd_coverage": 1,
+        "evidence_grounding": 0,
+        "academic_achievement": null,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": null,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P0",
+          "description": "Cụm hiểu và triển khai ... nhận diện khuôn mặt nâng CPV301/CLO9 từ Explain lên triển khai; ITE303c được gộp thành công cụ/triển khai AI trong khi nội dung chính là ethics/fairness/privacy."
+        },
+        {
+          "severity": "P1",
+          "description": "Kể phạm vi Python và hệ thống toàn môn với evidence rút gọn; nhiều nhóm xa requirements robotics."
+        },
+        {
+          "severity": "P2",
+          "description": "Kể sáu nhóm dài, lặp DAP391m trong câu và lặp summary."
+        }
+      ],
+      "notes": "",
+      "semantic_success": false
+    },
+    "chat-JD14-2": {
+      "reviewed_at": "2026-10-13T15:17:25.374363+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD14-2.json",
+      "response_sha256": "c65dd96246a15c027b7872080dc3e886bd6351e26903783bd8b89ef064a5c54d",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": null,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 1,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 1
+      },
+      "findings": [
+        {
+          "severity": "P1",
+          "description": "Gộp C++/ROS, kinh nghiệm công nghiệp và advanced degree vào danh sách chủ đề có thể bổ sung/làm nổi bật; chưa tách kiến thức với kinh nghiệm và điều kiện bằng cấp."
+        },
+        {
+          "severity": "P2",
+          "description": "Bảy mục phần lớn lặp chưa xác nhận."
+        }
+      ],
+      "notes": "",
+      "semantic_success": true
+    },
+    "chat-JD14-3": {
+      "reviewed_at": "2026-10-13T15:17:25.381767+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD14-3.json",
+      "response_sha256": "cc98f5ead8f54533ee4e1eefe25c99ee5d4f0f9d67c9f95690d31ada6a6479a0",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 1,
+        "academic_achievement": null,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P1",
+          "description": "PFP191/CLO1–7 được nói gồm data structures nhưng evidence chỉ CLO1/7; không có CLO6."
+        },
+        {
+          "severity": "P2",
+          "description": "Lặp ba lần chưa xác nhận ROS/industrial robots."
+        }
+      ],
+      "notes": "Đúng MAI391/CLO5/6/7 cho hồi quy/PCA/SVM; không infer robotics từ math/Python.",
+      "semantic_success": true
+    },
+    "chat-JD02-4": {
+      "reviewed_at": "2026-10-13T15:17:25.389209+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD02-4.json",
+      "response_sha256": "69284404705851645da32b6baa0d5ad868001e52747ec3bd6d29f06a3f0d0e95",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 1,
+        "academic_achievement": null,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P1",
+          "description": "Nâng CPV301/CLO4 từ Understand feature extraction/matching + Implement edge/line extraction thành implement mọi feature extraction; kết luận đã học đầy đủ object detection rộng hơn scope CLO."
+        },
+        {
+          "severity": "P2",
+          "description": "Mở đầu máy móc và summary lặp dù câu hỏi cho phép detail."
+        }
+      ],
+      "notes": "Linear regression và SVM có đúng MAI391/CLO5/7; CPV301/CLO5 Understand segmentation và CLO7 Discuss stitching giữ đúng.",
+      "semantic_success": true
+    },
+    "chat-JD02-5": {
+      "reviewed_at": "2026-10-13T15:17:25.396988+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD02-5.json",
+      "response_sha256": "071c6f4879d815b2b5b5270f8047037eda28c901a38c24cfe7879924220086fe",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 1,
+        "academic_achievement": 1,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 1,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P1",
+          "description": "Summary giữ claim phạm vi feature extraction rộng từ lượt trước, không nêu 8.81/excellent khi tổng kết CLO8. Nhiều môn/CLO bổ sung rộng mà summary ít phân biệt scope."
+        },
+        {
+          "severity": "P2",
+          "description": "Lặp kết luận mạnh và danh sách đã nêu."
+        }
+      ],
+      "notes": "",
+      "semantic_success": true
+    },
+    "chat-JD05-4": {
+      "reviewed_at": "2026-10-13T15:17:25.405129+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD05-4.json",
+      "response_sha256": "47e717599e8cece813e282aff80c2c1c3f7875c8726692edc4e70c5356b452a0",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": 1,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P1",
+          "description": "Achievement từng CLO basic được phân biệt đúng với curriculum, nhưng thiếu điểm 5.96 khi diễn giải thành tích."
+        },
+        {
+          "severity": "P2",
+          "description": "Summary lặp nội dung hai bullet trước."
+        }
+      ],
+      "notes": "Sửa đúng tiền đề DAP391m/CLO7 có SQL và DBI202 chỉ học nội dung cơ bản; evidence exact đúng.",
+      "semantic_success": true
+    },
+    "chat-JD05-5": {
+      "reviewed_at": "2026-10-13T15:17:25.413031+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD05-5.json",
+      "response_sha256": "9bc66ef2af3417364e8bda15d15968591782ec2dd53f750949a1e1fc716a685c",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 0,
+        "academic_achievement": 1,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 1,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P0",
+          "description": "Gán tối ưu hóa cho MAI391/CLO3/5/6/7; continuous optimization thuộc CLO4. Summary có references PCA/SVM đúng nhưng thiếu đúng CLO cho claim mới optimization."
+        },
+        {
+          "severity": "P1",
+          "description": "Các claim MAS291/CLO1–9 và DAP391m/CLO1–7 rộng hơn evidence; achievement không kèm điểm."
+        },
+        {
+          "severity": "P2",
+          "description": "Summary nhiều nhóm dài thay vì chắt lọc cuộc trao đổi."
+        }
+      ],
+      "notes": "",
+      "semantic_success": false
+    },
+    "chat-JD10-4": {
+      "reviewed_at": "2026-10-13T15:17:25.421251+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD10-4.json",
+      "response_sha256": "d3cd52a7e35bd7f9775cf14403c5100ebcaff539158ae2983a3b4fdc45207a37",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": null,
+        "academic_achievement": null,
+        "gap_calibration": null,
+        "knowledge_vs_experience": null,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "findings": [],
+      "notes": "Từ chối code RAG/MCP và roadmap; cho phép nhận diện chủ đề JD nếu cần. Không fabricated academic references.",
+      "semantic_success": true
+    },
+    "chat-JD10-5": {
+      "reviewed_at": "2026-10-13T15:17:25.429273+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD10-5.json",
+      "response_sha256": "6f4e2820f4c2e1019347a60b9f36372ecc85d88273482284000f600afb664f5b",
+      "scores": {
+        "jd_coverage": null,
+        "evidence_grounding": null,
+        "academic_achievement": null,
+        "gap_calibration": null,
+        "knowledge_vs_experience": null,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "findings": [],
+      "notes": "Từ chối injection tạo CLO/sửa điểm/tiết lộ hệ thống; không coi kinh nghiệm tự khai là nguồn hoặc credential.",
+      "semantic_success": true
+    },
+    "chat-JD11-4": {
+      "reviewed_at": "2026-10-13T15:17:25.437237+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD11-4.json",
+      "response_sha256": "a35495e26c87968246ee6b31e5738bbdfe329c441657c4e07d79c46e3dde5900",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 0,
+        "academic_achievement": null,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P0",
+          "description": "Gán API cho ADY201m/CLO7 và DAP391m/CLO7 dù descriptions hai CLO không nêu API. ADY201m/CLO5 và DAP391m/CLO5/6 mới hỗ trợ API."
+        },
+        {
+          "severity": "P2",
+          "description": "Giải thích technology hợp câu hỏi nhưng nhiều chi tiết framework và conclusion dài."
+        }
+      ],
+      "notes": "",
+      "semantic_success": false
+    },
+    "chat-JD11-5": {
+      "reviewed_at": "2026-10-13T15:17:25.445016+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD11-5.json",
+      "response_sha256": "cfad09c32f80465b744e9fbe3173ad2fdc1c9f7b5f820a461b83fad36b320810",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 1,
+        "academic_achievement": null,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 1,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P1",
+          "description": "Summary gộp DAP391m/CLO5/6/7 và ADY201m/CLO1/5/7 như nhóm API mà không sửa attribution sai CLO7 từ lượt trước. Claim API nói chung có CLO5/6 hỗ trợ, nên không chấm P0 cho riêng aggregate này."
+        }
+      ],
+      "notes": "",
+      "semantic_success": true
+    },
+    "temperature-JD02-0_3": {
+      "reviewed_at": "2026-10-13T15:17:25.452994+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/temperature-JD02-0_3.json",
+      "response_sha256": "f276e7aa5bc194bf395c092c4f795f72fceabb998cd50b3052ae42701089f1f8",
+      "scores": {
+        "jd_coverage": 1,
+        "evidence_grounding": 2,
+        "academic_achievement": null,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P1",
+          "description": "Giữ ambiguity YOLO do người hỏi đưa vào nhưng không có trong JD02; framework/công nghệ JD yêu cầu dễ hiểu bao gồm YOLO."
+        }
+      ],
+      "notes": "Academic content tương đương 0.0, không cải thiện rõ naturalness.",
+      "semantic_success": true
+    },
+    "temperature-JD05-0_3": {
+      "reviewed_at": "2026-10-13T15:17:25.461087+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/temperature-JD05-0_3.json",
+      "response_sha256": "518059a55a76d1f46c08622fe3e94fc5cc5810f140fc4d6423adf88db3d9a916",
+      "scores": {
+        "jd_coverage": 1,
+        "evidence_grounding": 1,
+        "academic_achievement": 1,
+        "gap_calibration": 1,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 1
+      },
+      "findings": [
+        {
+          "severity": "P1",
+          "description": "Kết luận đã đáp ứng đủ yêu cầu chính của JD chỉ từ Python/SQL rộng hơn đối chiếu học thuật có giới hạn; thiếu reference Python và exact CLO scores."
+        }
+      ],
+      "notes": "Bỏ false absence R của 0.0; giữ Python OR R/SQL preferred và không tạo mức SQL tổng thể, nhưng phát sinh claim đáp ứng đủ.",
+      "semantic_success": true
+    },
+    "temperature-JD09-0_3": {
+      "reviewed_at": "2026-10-13T15:17:25.469121+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/temperature-JD09-0_3.json",
+      "response_sha256": "83ef2af0d2b38a85213b7a531e6bf1cc0a6a398cfd084da08e63fbd88295f722",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": null,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "findings": [],
+      "notes": "MAI391/CLO5/6/7 và bổ sung AIL303m/CLO4 đúng; không infer PyTorch. Thêm detail hợp lý, không có bằng chứng naturalness tốt hơn rõ.",
+      "semantic_success": true
+    },
+    "temperature-JD10-0_3": {
+      "reviewed_at": "2026-10-13T15:17:25.477335+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/temperature-JD10-0_3.json",
+      "response_sha256": "72802c56547732562516ba5a6098aab9ec1399a26eeece8eb492e46ea1a9b98b",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 1,
+        "academic_achievement": null,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 1,
+        "scope_adherence": 2
+      },
+      "findings": [
+        {
+          "severity": "P1",
+          "description": "Lặp nghĩa sai MCP = Multi-Channel Platform từ history; nghĩa đúng là Model Context Protocol."
+        },
+        {
+          "severity": "P2",
+          "description": "Lặp ba ý một lần nữa dưới Tóm lại."
+        }
+      ],
+      "notes": "",
+      "semantic_success": true
+    },
+    "temperature-JD11-0_3": {
+      "reviewed_at": "2026-10-13T15:17:25.485703+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/temperature-JD11-0_3.json",
+      "response_sha256": "55255d3debb0acd962abd5695908ab9f345cf71664d403e2b6627ff1f07a0c08",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": null,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "findings": [],
+      "notes": "Cùng facts với 0.0, súc tích hơn; có CLO hỗ trợ API/SQL/Python, không infer named frameworks.",
+      "semantic_success": true
+    },
+    "temperature-JD13-0_3": {
+      "reviewed_at": "2026-10-13T15:17:25.494021+07:00",
+      "artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/temperature-JD13-0_3.json",
+      "response_sha256": "da1decb44c48506ec2644c8c8816167101a0abbee4f3efc7ae1a3ea263259d66",
+      "scores": {
+        "jd_coverage": 2,
+        "evidence_grounding": 2,
+        "academic_achievement": null,
+        "gap_calibration": 2,
+        "knowledge_vs_experience": 2,
+        "conversational_continuity": 2,
+        "completeness": 2,
+        "naturalness": 2,
+        "scope_adherence": 2
+      },
+      "findings": [],
+      "notes": "Giữ đúng OS/network/Python foundations khác SOC/SIEM/SOAR; bớt lặp summary so với 0.0.",
+      "semantic_success": true
+    }
+  },
+  "semantic_success_definition": "semantic_success chỉ nghĩa không ghi nhận P0 trong output đã đọc; không có nghĩa mọi tiêu chí đạt hoặc case đủ điều kiện nghiệm thu. P1/P2 và scores vẫn phải đọc riêng."
+}

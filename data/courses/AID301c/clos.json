@@ -1,0 +1,22 @@
+[
+  {
+    "clo": "CLO1",
+    "description": "Learners should be able to describe the business use case and the process of ingesting data, including Specialization Introduction, Introduction to AI Workflow: Business Priorities, Data Ingestion, IBM AI Enterprise Workflow Introduction, Data Collection, Data Ingestion."
+  },
+  {
+    "clo": "CLO2",
+    "description": "Learners should be able to use common techniques such as: EDA, visualization, hypothesis testing and statistical tools, including AI Workflow: Data Analysis, Hypothesis Testing, Data Analysis."
+  },
+  {
+    "clo": "CLO3",
+    "description": "Learners should be able to describe and use common feature selection and feature engineering techniques, including AI Workflow: Feature Engineering, Bias Detection, Data transforms and feature engineering."
+  },
+  {
+    "clo": "CLO4",
+    "description": "Learners should be able to implement the model: machine learning and deep learning algorithms, evaluation and performance metrics, including Model Evaluation, Performance Metrics, Building Machine Learning, Deep Learning Models."
+  },
+  {
+    "clo": "CLO5",
+    "description": "Learners should be able to deploy the model by interacting with Apache Spark then progressing to a tutorial with Docker, including AI Workflow: Enterprise Model Deployment, Deploying Models using Spark."
+  }
+]

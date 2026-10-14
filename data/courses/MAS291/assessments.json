@@ -1,0 +1,44 @@
+[
+  {
+    "category": "Assignment 1",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "LO1, LO2, LO3"
+  },
+  {
+    "category": "Assignment 2",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "LO4, LO5, LO6"
+  },
+  {
+    "category": "Computer Project",
+    "part": "1",
+    "weight": "15.0%",
+    "clo": "CLO7, CLO8, CLO9"
+  },
+  {
+    "category": "Progress Test 1",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO1, CLO2, CLO3"
+  },
+  {
+    "category": "Progress Test 2",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO4, CLO5, CLO6"
+  },
+  {
+    "category": "Progress Test 3",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO7, CLO8, CLO9"
+  },
+  {
+    "category": "Final exam",
+    "part": "1",
+    "weight": "35.0%",
+    "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8, CLO9"
+  }
+]

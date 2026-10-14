@@ -1,0 +1,184 @@
+{
+  "review_type": "academic_knowledge_review",
+  "overview": "JD yêu cầu kiến thức nền tảng về Machine Learning (ML), kinh nghiệm thực hiện dự án ML (có thể là học thuật), thành thạo Python và SQL, hiểu biết về các framework ML phổ biến (TensorFlow, Keras, sklearn, PyTorch), quy trình xây dựng hệ thống recommendation/ranking, xử lý dữ liệu, feature engineering, đánh giá mô hình, và có kinh nghiệm với cloud (AWS/GCP) là điểm cộng. Hồ sơ học thuật cung cấp bằng chứng rõ ràng về kiến thức nền tảng ML, Python, SQL, các quy trình dự án ML học thuật, và một số nội dung liên quan đến recommendation system, A/B testing, feature engineering, cũng như các kỹ năng xử lý dữ liệu. Tuy nhiên, chưa có CLO nào xác nhận trực tiếp kinh nghiệm với các framework ML cụ thể (TensorFlow, Keras, PyTorch), workflow embedding/LLM, hoặc triển khai pipeline trên cloud (AWS/GCP).",
+  "requirement_reviews": [
+    {
+      "jd_requirement": "Kiến thức nền tảng về Machine Learning (ML fundamentals/architectures)",
+      "coverage": "covered",
+      "comment": "Các CLO trong MAI391 (CLO5: Linear regression, CLO6: PCA, CLO7: SVM) cung cấp kiến thức nền tảng về các thuật toán ML cơ bản, bao gồm regression, dimensionality reduction, classification. AIL303m (CLO4, CLO5, CLO7, CLO9) bổ sung kiến thức về supervised/unsupervised learning, error metrics, clustering, dimensionality reduction. AIG202c (CLO2) xác nhận hiểu biết về Machine Learning, Deep Learning, Neural Networks. Thành tích học thuật ở các CLO này đều ở mức good hoặc excellent.",
+      "evidence": [
+        {
+          "course_code": "MAI391",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO6"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO9"
+        },
+        {
+          "course_code": "AIG202c",
+          "clo": "CLO2"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Kinh nghiệm thực hiện dự án Machine Learning (học thuật hoặc thực tế)",
+      "coverage": "covered",
+      "comment": "ADY201m (CLO7) yêu cầu sinh viên triển khai một dự án nhỏ về data science, bao gồm các bước: Python, cấu trúc dữ liệu, truy cập SQL/database, hiểu và tiền xử lý dữ liệu, mô hình hóa, đánh giá, triển khai, trực quan hóa, xác suất, hồi quy và báo cáo. AIL303m (CLO10) và DAP391m (CLO7) đều yêu cầu thực hiện mini capstone project hoặc capstone data science project với các bước: thu thập dữ liệu, xử lý, phân tích, phát triển mô hình, đánh giá và báo cáo. Các CLO này phản ánh yêu cầu học tập về quy trình dự án ML học thuật, với thành tích từ basic đến excellent.",
+      "evidence": [
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO10"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO7"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Thành thạo Python cho ML/data science",
+      "coverage": "covered",
+      "comment": "PFP191 (CLO1–CLO7) xác nhận kiến thức vững chắc về Python, bao gồm OOP, xử lý file, cấu trúc dữ liệu, và áp dụng trong các ngữ cảnh ứng dụng. ADY201m (CLO5) và DAP391m (CLO1, CLO2) bổ sung kiến thức về sử dụng Python cho data science, phân tích dữ liệu, trực quan hóa, và workflow thực tế. Thành tích học thuật ở các CLO này đều excellent hoặc good.",
+      "evidence": [
+        {
+          "course_code": "PFP191",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO1"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Thành thạo SQL cho truy vấn và thao tác dữ liệu",
+      "coverage": "covered",
+      "comment": "DBI202 (CLO5) xác nhận sinh viên sử dụng SQL (DDL, DML) trên Microsoft SQL Server để thực hiện các truy vấn cơ bản, truy vấn nhiều bảng, lồng nhau, truy vấn tổng hợp, và thao tác dữ liệu (INSERT, UPDATE, DELETE). ADY201m (CLO1, CLO7) bổ sung kiến thức về truy cập database bằng Python và áp dụng SQL trong dự án data science. Thành tích học thuật ở DBI202 là basic, ADY201m là good/excellent.",
+      "evidence": [
+        {
+          "course_code": "DBI202",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO7"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Kiến thức về feature engineering và data wrangling",
+      "coverage": "covered",
+      "comment": "AIL303m (CLO2) xác nhận sinh viên biết mô tả và sử dụng các kỹ thuật feature selection và feature engineering. DAP391m (CLO1, CLO2, CLO7) yêu cầu hiểu và thực hiện data wrangling, exploratory data analysis, và áp dụng trong dự án. ADY201m (CLO7) cũng yêu cầu thực hiện các bước tiền xử lý dữ liệu, feature engineering trong dự án data science. Thành tích học thuật ở các CLO này từ good đến excellent.",
+      "evidence": [
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO2"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO2"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO7"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Kiến thức về recommendation/ranking models",
+      "coverage": "related",
+      "comment": "MAI391 (CLO5, CLO7) và AIL303m (CLO4, CLO5) xác nhận kiến thức về supervised learning, classification, regression, error metrics – là nền tảng cho recommendation/ranking models. Tuy nhiên, chưa có CLO nào xác nhận trực tiếp về các thuật toán recommendation system hoặc ranking models cụ thể. Hồ sơ học thuật hiện có cung cấp nền tảng lý thuyết liên quan nhưng chưa xác nhận học thuật về các mô hình recommendation chuyên biệt.",
+      "evidence": [
+        {
+          "course_code": "MAI391",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO5"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Kiến thức về A/B testing và đánh giá mô hình thống kê",
+      "coverage": "covered",
+      "comment": "MAS291 (CLO7, CLO8) xác nhận sinh viên biết xây dựng và diễn giải confidence intervals, kiểm định giả thuyết, xác định giá trị p, nhận diện lỗi kiểm định – là nền tảng cho A/B testing và đánh giá thống kê. MAI391 (CLO3) bổ sung kiến thức về xác suất, phân phối, Bayes, Gaussian – hỗ trợ đánh giá mô hình. Thành tích học thuật excellent.",
+      "evidence": [
+        {
+          "course_code": "MAS291",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "MAS291",
+          "clo": "CLO8"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO3"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Kiến thức về ML frameworks (TensorFlow, Keras, sklearn, PyTorch) và embedding/LLM workflows",
+      "coverage": "not_evidenced",
+      "comment": "Chưa có CLO nào xác nhận trực tiếp việc học hoặc sử dụng TensorFlow, Keras, sklearn, PyTorch, hoặc workflow embedding/LLM. Một số CLO xác nhận kiến thức nền tảng về ML, nhưng không đề cập đến các framework hoặc workflow cụ thể.",
+      "evidence": []
+    },
+    {
+      "jd_requirement": "Kiến thức về cloud (AWS/GCP), Airflow, pipeline triển khai mô hình",
+      "coverage": "not_evidenced",
+      "comment": "Hồ sơ học thuật hiện có chưa cung cấp bằng chứng trực tiếp về việc học hoặc sử dụng AWS, GCP, Airflow, hoặc triển khai pipeline mô hình trên cloud. Một số CLO xác nhận triển khai dự án học thuật, nhưng không đề cập đến cloud-native pipelines hoặc các công cụ này.",
+      "evidence": []
+    }
+  ],
+  "conclusion": "Hồ sơ học thuật cung cấp bằng chứng rõ ràng về kiến thức nền tảng Machine Learning, Python, SQL, feature engineering, data wrangling, quy trình dự án ML học thuật, và các kỹ năng đánh giá mô hình thống kê (bao gồm A/B testing). Thành tích học thuật ở các nội dung này chủ yếu ở mức good đến excellent. Tuy nhiên, hồ sơ chưa xác nhận học thuật về các framework ML cụ thể như TensorFlow, Keras, sklearn, PyTorch, cũng như workflow embedding/LLM, hoặc kinh nghiệm triển khai pipeline trên cloud (AWS/GCP) và Airflow. Các nội dung về recommendation/ranking models chỉ được hỗ trợ ở mức lý thuyết nền tảng, chưa có bằng chứng học thuật về các thuật toán recommendation chuyên biệt hoặc triển khai thực tế. Hồ sơ chưa xác nhận kinh nghiệm chuyên sâu với các công nghệ cloud hoặc pipeline triển khai mô hình. Tóm lại, hồ sơ học thuật đáp ứng tốt các yêu cầu nền tảng về ML, Python, SQL và quy trình dự án học thuật, nhưng chưa cung cấp bằng chứng trực tiếp về các công nghệ, framework và workflow chuyên biệt mà JD đề cập."
+}

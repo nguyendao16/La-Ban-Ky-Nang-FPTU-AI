@@ -1,0 +1,224 @@
+{
+  "version": 1,
+  "origin": "offline_plan",
+  "run_id": "reasoning-five-jds-20261013",
+  "manifest_sha256": "91d2c0627a64e16435d33782478cd472f519676731b13b44f485f64caa09fff4",
+  "profile_sha256": "b0bfa72fdc04f8d2cfc94e68fd7b4745387cd378a923f55eb94e2aef391bf531",
+  "case_ids": [
+    "JD01",
+    "JD05",
+    "JD07",
+    "JD10",
+    "JD11"
+  ],
+  "stages": {
+    "review": {
+      "model": "gpt-5.4",
+      "reasoning_effort": "high",
+      "max_output_tokens": 32768,
+      "timeout_seconds": 360.0,
+      "context_window": 1050000,
+      "temperature": null,
+      "planning_input_tokens": 32000
+    },
+    "chat": {
+      "model": "gpt-5.4-mini",
+      "reasoning_effort": "medium",
+      "max_output_tokens": 8192,
+      "timeout_seconds": 180.0,
+      "context_window": 400000,
+      "temperature": null,
+      "planning_input_tokens": 80000
+    }
+  },
+  "operations": [
+    {
+      "operation": "review-JD01",
+      "stage": "review",
+      "case_id": "JD01"
+    },
+    {
+      "operation": "chat-JD01-1",
+      "stage": "chat",
+      "case_id": "JD01",
+      "question": "Với JD này, mình đã học những kiến thức nào liên quan nhất?"
+    },
+    {
+      "operation": "chat-JD01-2",
+      "stage": "chat",
+      "case_id": "JD01",
+      "question": "Những công nghệ hoặc kiến thức nào JD yêu cầu nhưng hồ sơ của mình chưa xác nhận?"
+    },
+    {
+      "operation": "chat-JD01-3",
+      "stage": "chat",
+      "case_id": "JD01",
+      "question": "Mình có học Object Detection, Face Recognition và Object Tracking không? Những nội dung đó nằm ở CLO nào?"
+    },
+    {
+      "operation": "chat-JD01-4",
+      "stage": "chat",
+      "case_id": "JD01",
+      "question": "Tóm lại, những phần nào mình đã có nền tảng và những phần nào vẫn chưa có bằng chứng?"
+    },
+    {
+      "operation": "review-JD05",
+      "stage": "review",
+      "case_id": "JD05"
+    },
+    {
+      "operation": "chat-JD05-1",
+      "stage": "chat",
+      "case_id": "JD05",
+      "question": "Những kiến thức phân tích dữ liệu và thống kê nào mình đã học có liên quan tới JD?"
+    },
+    {
+      "operation": "chat-JD05-2",
+      "stage": "chat",
+      "case_id": "JD05",
+      "question": "Mình cần xem xét bổ sung những kiến thức hoặc công cụ nào?"
+    },
+    {
+      "operation": "chat-JD05-3",
+      "stage": "chat",
+      "case_id": "JD05",
+      "question": "Mình có học SQL và R không? Tại sao một số CLO SQL chỉ đạt basic?"
+    },
+    {
+      "operation": "chat-JD05-4",
+      "stage": "chat",
+      "case_id": "JD05",
+      "question": "Bạn có thể tổng hợp lại bằng chứng từ các môn học, kèm điểm và mức achievement phù hợp không?"
+    },
+    {
+      "operation": "review-JD07",
+      "stage": "review",
+      "case_id": "JD07"
+    },
+    {
+      "operation": "chat-JD07-1",
+      "stage": "chat",
+      "case_id": "JD07",
+      "question": "Đối với JD này, những môn nào giúp mình có nền tảng phù hợp?"
+    },
+    {
+      "operation": "chat-JD07-2",
+      "stage": "chat",
+      "case_id": "JD07",
+      "question": "Hồ sơ học thuật chưa xác nhận những yêu cầu nào?"
+    },
+    {
+      "operation": "chat-JD07-3",
+      "stage": "chat",
+      "case_id": "JD07",
+      "question": "Điểm và mức achievement của các CLO liên quan đến Data Cleaning và Data Analysis là bao nhiêu?"
+    },
+    {
+      "operation": "chat-JD07-4",
+      "stage": "chat",
+      "case_id": "JD07",
+      "question": "Tóm tắt các điểm mạnh học thuật và những giới hạn bằng chứng của mình."
+    },
+    {
+      "operation": "review-JD10",
+      "stage": "review",
+      "case_id": "JD10"
+    },
+    {
+      "operation": "chat-JD10-1",
+      "stage": "chat",
+      "case_id": "JD10",
+      "question": "Mình đã học những gì về AI và Generative AI liên quan tới JD?"
+    },
+    {
+      "operation": "chat-JD10-2",
+      "stage": "chat",
+      "case_id": "JD10",
+      "question": "Những công nghệ như RAG, MCP, pandas và numpy có bằng chứng trong hồ sơ không?"
+    },
+    {
+      "operation": "chat-JD10-3",
+      "stage": "chat",
+      "case_id": "JD10",
+      "question": "Mình đã học Prompt Engineering rồi, vậy tại sao chưa thể kết luận đã có kinh nghiệm với RAG hoặc MCP?"
+    },
+    {
+      "operation": "chat-JD10-4",
+      "stage": "chat",
+      "case_id": "JD10",
+      "question": "Tóm tắt những kiến thức đã có và những công nghệ chuyên biệt chưa được hồ sơ xác nhận."
+    },
+    {
+      "operation": "review-JD11",
+      "stage": "review",
+      "case_id": "JD11"
+    },
+    {
+      "operation": "chat-JD11-1",
+      "stage": "chat",
+      "case_id": "JD11",
+      "question": "Mình có những nền tảng học thuật nào liên quan tới Backend Engineering?"
+    },
+    {
+      "operation": "chat-JD11-2",
+      "stage": "chat",
+      "case_id": "JD11",
+      "question": "Mình đã học Python và SQL rồi, vậy FastAPI, SQLAlchemy và PostgreSQL có được xác nhận không?"
+    },
+    {
+      "operation": "chat-JD11-3",
+      "stage": "chat",
+      "case_id": "JD11",
+      "question": "Những CLO nào thực sự có nội dung về API? Mình có học API trong các môn Data Science không?"
+    },
+    {
+      "operation": "chat-JD11-4",
+      "stage": "chat",
+      "case_id": "JD11",
+      "question": "Tóm tắt lại cuộc trao đổi và phân biệt những gì mình đã học với những framework chưa có bằng chứng."
+    }
+  ],
+  "max_generations": 25,
+  "max_preflights": 25,
+  "max_http_operations": 50,
+  "max_cost_usd": 6.0,
+  "max_retries": 0,
+  "continue_on_case_error": true,
+  "planning_uncached_ceiling_usd": "4.794880",
+  "input_assumptions_are_not_truncation_limits": true,
+  "jd_sources": [
+    {
+      "case_id": "JD01",
+      "path": "data/academic_benchmark/jds/JD01.txt",
+      "sha256": "0caa2a9237c9ba797c98ca6888118333aed23f4a06f32946ab392b9feded2a1d"
+    },
+    {
+      "case_id": "JD05",
+      "path": "data/academic_benchmark/jds/JD05.txt",
+      "sha256": "318609c7106c3e08ba47ed31a8304cdee358fcf38adbb69b58877fc942e556f8"
+    },
+    {
+      "case_id": "JD07",
+      "path": "data/academic_benchmark/jds/JD07.txt",
+      "sha256": "65d180c4d3af0f9224504c185c1b86c52691f1371ecd3b726e7a6a2bd0cadd88"
+    },
+    {
+      "case_id": "JD10",
+      "path": "data/academic_benchmark/jds/JD10.txt",
+      "sha256": "2d62971cc0222edd47e1f095089ba7a84a0752c44e53b331395ffca35734b564"
+    },
+    {
+      "case_id": "JD11",
+      "path": "data/academic_benchmark/jds/JD11.txt",
+      "sha256": "126514f3dfe7101147c1aeca66e34a46f1dd5f4fdba758e43c5fa171e1d4a4f9"
+    }
+  ],
+  "review_prompt_sha256": "7e1a2bfa435a3ffbf952327cc35261eef563029a359aa756ba7143922e0a6a0d",
+  "chat_prompt_sha256": "e897551924e282c1a03e7420ea80e8d1d220729cd5bf43d669b88b0aa685a898",
+  "review_schema_sha256": "a8e579a6cbda82b40f619899dde58cbe86a3a5e940566a9a626ea833ab5cf136",
+  "chat_schema_sha256": "2f8ad0eed0ab8adf0537afd2533a45a96c99b873871d933cd1c3c5fe386831de",
+  "pricing_sources": [
+    "https://developers.openai.com/api/docs/models/gpt-5.4",
+    "https://developers.openai.com/api/docs/models/gpt-5.4-mini"
+  ]
+}

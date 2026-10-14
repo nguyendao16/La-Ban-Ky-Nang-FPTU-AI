@@ -1,0 +1,32 @@
+[
+  {
+    "category": "Report 1: Project Proposal",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO1, CLO2"
+  },
+  {
+    "category": "Report 2: Data & Baseline (Data Preparation + Baseline & Prompt Engineering)",
+    "part": "1",
+    "weight": "20.0%",
+    "clo": "CLO3, CLO4"
+  },
+  {
+    "category": "Report 3: Model & Results (Adaptation + Evaluation + Results & Failure Analysis + Conclusion / Ethics)",
+    "part": "1",
+    "weight": "30.0%",
+    "clo": "CLO5, CLO6, CLO7, CLO8"
+  },
+  {
+    "category": "Report 4: Final Project Report",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO9"
+  },
+  {
+    "category": "Final Exam (Oral group presentation)",
+    "part": "1",
+    "weight": "30.0%",
+    "clo": "CLO5, CLO6, CLO7, CLO8, CLO9, CLO10"
+  }
+]

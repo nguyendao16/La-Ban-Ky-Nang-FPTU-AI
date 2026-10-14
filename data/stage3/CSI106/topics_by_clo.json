@@ -1,0 +1,122 @@
+{
+  "CLO1": [
+    "Introduction to the Course\n1.Computer Organization\n1.1 Von Neumann model",
+    "1.2 Computer generations",
+    "1.3 Subsystems and the role of subsystems",
+    "1.4 Central Processing Unit",
+    "1.5 Memory: main memory",
+    "1.6 Input/Output subsystems",
+    "1.7 Different architectures",
+    "Introduction to presentation 1",
+    "Progress test 1",
+    "Presentations 1",
+    "Review"
+  ],
+  "CLO2": [
+    "2. Numbering systems\n2.1 Introduction\n2.2 Positional Number Systems",
+    "2. Numbering systems\n2.3 Conversion",
+    "Lab 1: Guide",
+    "Introduction to presentation 1",
+    "Progress test 1",
+    "Presentations 1",
+    "Review"
+  ],
+  "CLO3": [
+    "Introduction to presentation 1",
+    "3.Data storage and Operations on Data\n3.1 Storing Numbers",
+    "3.Data storage and Operations on Data\n3.2 Storing Text, Media, Image, Video",
+    "3.3 Logic operations",
+    "3.3 Shift, Arithmetic operations",
+    "Progress test 1",
+    "Presentations 1",
+    "Review"
+  ],
+  "CLO4": [
+    "Introduction to presentation 1",
+    "4. Computer Networks and Internet\n4.1 Overview\n4.1.1 LAN & WAN\n4.1.2 TCP/IP protocol",
+    "4. Computer Networks and Internet\n4.2 layers in netwoking",
+    "Progress test 1",
+    "Presentations 1",
+    "Review"
+  ],
+  "CLO5": [
+    "Introduction to presentation 1",
+    "Progress test 1",
+    "5. Operating System\n5.1 Introduction\n5.2 Evolution",
+    "5. Operating System\n5.3 Components of OS: UI, memory manager",
+    "5. Operating System\n5.3 Components of OS: file manager",
+    "5. Operating System\n5.3 Components of OS: device manager",
+    "Presentations 1",
+    "Progress test 2",
+    "Review"
+  ],
+  "CLO6": [
+    "Introduction to presentation 1",
+    "6. Algorithms\n6.1 Concepts: input, output, processing\n6.2 Three basic constructs",
+    "6.3 Algorithm representation\n6.4 Search Algorithms: linear, binary",
+    "Presentations 1",
+    "Lab2: Guide",
+    "Progress test 2",
+    "Review"
+  ],
+  "CLO7": [
+    "Introduction to presentation 1",
+    "Presentations 1",
+    "7. Programming\n7.1 translation",
+    "7. Programming\n7.2 programming paradigms",
+    "Lab2: Guide",
+    "Progress test 2",
+    "Review"
+  ],
+  "CLO8": [
+    "Introduction to presentation 1",
+    "Presentations 1",
+    "8.Software engineering\n8.1 The software lifecycle\n8.2 Analysis phase",
+    "8.Software engineering\n8.1 The software lifecycle\n8.2 Analysis phase\n8.3 Design phase",
+    "8.4 Implementation phase",
+    "8.5 Testing phase",
+    "Progress test 2",
+    "Review"
+  ],
+  "CLO9": [
+    "Introduction to presentation 1",
+    "Presentations 1",
+    "9. Data structures\n9.1 Arrays\n9.2 Records",
+    "9. Data structures\n9.3 Linked List",
+    "9.4 Introduction: Stack, Queue, Tree, graph",
+    "Progress test 2",
+    "Review"
+  ],
+  "CLO10": [
+    "Introduction to presentation 1",
+    "Presentations 1",
+    "10.File structure\n10.1 Text versus Binary",
+    "10.File structure\n10.2 Access methods",
+    "Progress test 3",
+    "Review"
+  ],
+  "CLO11": [
+    "11. Database\n11.1 Introduction",
+    "11. Database\n11.2 Database architecture",
+    "11.3 Database model\n11.4 The relationship database model",
+    "11.5 Database design",
+    "11.6 Guide do practice set (database)",
+    "Progress test 3",
+    "Review"
+  ],
+  "CLO12": [
+    "12. Security and Ethical Issues\n12.1 Introduction\n12.2 Confidentiality",
+    "12. Security and Ethical Issues\n12.3 Ethical Principles",
+    "12.4 Privacy",
+    "12.5 Hackers",
+    "Progress test 3",
+    "Review"
+  ],
+  "CLO13": [
+    "Introduction to Additional Learning: \"AI For Everyone\" course in Coursera\nIntroduction to presentation 2\n(Students have to complete Additional Learning and achieve the certificate before Presentation 2)",
+    "Presentation 2",
+    "Review Additional Learning (AI For Everyone course)",
+    "Progress test 3",
+    "Review"
+  ]
+}

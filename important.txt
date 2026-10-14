@@ -1,0 +1,24 @@
+content
+-metadata
+--syllabus_name
+--course_name_english
+--subject_code
+--description
+--tools
+
+-clos (seperate csv)
+--clo_name
+--clo_detaols
+
+-schedule
+--topic
+--lo
+
+-assessments
+--category
+--part (map với schedule nếu Lab hoặc PT không chia ra)
+--weight
+--clo (đôi khi không có, phải map với schedule)
+
+
+	

@@ -1,0 +1,38 @@
+[
+  {
+    "clo_name": "CLO1",
+    "clo_details": "Pre-process data and set up a pre-trained neural network."
+  },
+  {
+    "clo_name": "CLO2",
+    "clo_details": "Evaluate models by accuracy, specificity, predictive value, confidence intervals, ROC curve, and F1 score."
+  },
+  {
+    "clo_name": "CLO3",
+    "clo_details": "Diagnose diseases from x-rays and 3D MRI brain images."
+  },
+  {
+    "clo_name": "CLO4",
+    "clo_details": "Walk through examples of prognostic tasks."
+  },
+  {
+    "clo_name": "CLO5",
+    "clo_details": "Predict patient survival rates more accurately using tree-based models."
+  },
+  {
+    "clo_name": "CLO6",
+    "clo_details": "Navigate practical challenges in medicine, like missing data."
+  },
+  {
+    "clo_name": "CLO7",
+    "clo_details": "Estimate treatment effects on patients using data from randomized trials."
+  },
+  {
+    "clo_name": "CLO8",
+    "clo_details": "Explore methods to interpret diagnostic and prognostic models."
+  },
+  {
+    "clo_name": "CLO9",
+    "clo_details": "Automate the task of labeling medical datasets using natural language processing."
+  }
+]

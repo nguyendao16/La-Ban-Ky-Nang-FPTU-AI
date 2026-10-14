@@ -1,0 +1,52 @@
+{
+  "course_id": "PMG201c",
+  "clos": [
+    {
+      "clo_id": "CLO1",
+      "original_description": "Define project plan",
+      "enriched_description": "Define project plan, including What is a project?, Managing Project Risks, Changes, Project Management Capstone, Project Components & Instructions, Final Project Assignment Submission, Final Project Peer Review Evaluation.",
+      "source_topic_indices": [
+        2,
+        3,
+        5
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO2",
+      "original_description": "- Define a project’s scope - Build a work breakdown schedule - Allocate project resources- Create a project budget",
+      "enriched_description": "- Define a project's scope - Build a work breakdown schedule - Allocate project resources- Create a project budget, including Managing Project Risks, Changes, Project Management Capstone, Project Components & Instructions, Final Project Assignment Submission, Final Project Peer Review Evaluation.",
+      "source_topic_indices": [
+        2,
+        3,
+        5
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO3",
+      "original_description": "- Define key elements of communications management plan - Identify and manage risks",
+      "enriched_description": "- Define key elements of communications management plan - Identify and manage risks, including Managing Project Risks, Changes, Managing Project Risks, Project Management Capstone.",
+      "source_topic_indices": [
+        1,
+        3
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO4",
+      "original_description": "Practise to: - Define project plan - Define a project’s scope - Build a work breakdown schedule - Allocate project resources - Create a project budget - Define key elements of communications management plan - Identify and manage risks",
+      "enriched_description": "Practise to: - Define project plan - Define a project's scope - Build a work breakdown schedule - Allocate project resources - Create a project budget - Define key elements of communications management plan - Identify and manage risks, including Managing Project Risks, Changes, Project Management Capstone, Project Components & Instructions, Final Project Assignment Submission, Final Project Peer Review Evaluation.",
+      "source_topic_indices": [
+        0,
+        1,
+        3
+      ],
+      "review_required": false,
+      "review_notes": []
+    }
+  ]
+}

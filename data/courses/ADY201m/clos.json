@@ -1,0 +1,30 @@
+[
+  {
+    "clo": "CLO1",
+    "description": "Understand relational database concepts and foundational SQL language knowledge in the context of data science work, including accessing databases with Python, getting started with SQL, basic through advanced SQL-based data analysis, database fundamentals, nested queries, and multi-table SELECT statements."
+  },
+  {
+    "clo": "CLO2",
+    "description": "Define what data science is today by explaining introductory data science concepts, major topic areas, and examples of data science in everyday contexts."
+  },
+  {
+    "clo": "CLO3",
+    "description": "Know common tools used in data science and use at least one tool for basic data operations, including tool introduction and analysis workflows using Python, R, Scala, SQL, GitHub, Jupyter Notebooks, RStudio IDE, Watson Studio."
+  },
+  {
+    "clo": "CLO4",
+    "description": "Understand why data science methodology is needed and how it guides data science work, including problem understanding, business understanding, analytic approach, data requirements, data collection, data understanding, preprocessing, modeling, evaluation, deployment, feedback, and data science process steps."
+  },
+  {
+    "clo": "CLO5",
+    "description": "Discuss Python fundamentals, Python libraries, and API support for data science tasks, including understanding Python APIs, collecting data with Python, understanding and preprocessing data in Python, and using Python for data science, AI, and development workflows."
+  },
+  {
+    "clo": "CLO6",
+    "description": "Explain statistics for data science, including mean, median, mode, variance, standard deviation, data visualization, probability distributions, and regression analysis, including basic and advanced data statistics, visualization, probability distributions, regression analysis, Python-based statistics practice on housing data."
+  },
+  {
+    "clo": "CLO7",
+    "description": "Implement a small data science project by applying Python fundamentals, Python data structures, SQL/database access, data understanding, preprocessing, modeling, evaluation, deployment, visualization, probability, regression analysis, and final reporting within a guided project workflow."
+  }
+]

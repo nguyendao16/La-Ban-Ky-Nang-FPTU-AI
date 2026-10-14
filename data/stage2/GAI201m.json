@@ -1,0 +1,311 @@
+{
+  "metadata": {
+    "syllabus_name": "Introduction to Generative AI_Nhập môn TTNT tạo sinh",
+    "course_name_english": "Introduction to Generative AI",
+    "subject_code": "GAI201m",
+    "description": "The course gives students a working understanding of how modern generative AI models work and how to use them well. The course covers foundations and intuition of large language models, diffusion and multimodal models; prompt engineering and evaluation; retrieval-augmented generation (RAG); building applications with model APIs; agents and tool use; customization (prompting, RAG, fine-tuning); failure modes and evaluation; and ethics, safety, and governance. Mathematical internals are deferred to the Deep Learning course; this course stays at the level of intuition while building real, hands-on skill.",
+    "tools": "- Any modern chat-based AI assistant (free tier acceptable for most labs)\n- Python 3.10+ with Google Colab or Jupyter Notebook\n- A code/text editor (e.g., VS Code)\n- A model API endpoint provided by the instructor for Lab 3 (mock available offline)"
+  },
+  "clos": [
+    {
+      "clo_name": "CLO1",
+      "clo_details": "Describe how generative AI models work at an intuitive, non-mathematical level."
+    },
+    {
+      "clo_name": "CLO2",
+      "clo_details": "Apply prompt engineering techniques to obtain useful, reliable outputs from generative models."
+    },
+    {
+      "clo_name": "CLO3",
+      "clo_details": "Build a small generative AI application end to end, retrieval-augmented generation, structured output validation, basic agent/tool use, and an appropriate customization strategy (prompting, RAG, or fine-tuning)."
+    },
+    {
+      "clo_name": "CLO4",
+      "clo_details": "Evaluate generative AI outputs and systems using rubrics, test sets, model-as-judge methods, and analysis of failure modes."
+    },
+    {
+      "clo_name": "CLO5",
+      "clo_details": "Analyze the ethical, social, legal, and governance implications of generative AI and apply responsible-use practices."
+    }
+  ],
+  "schedule": [
+    {
+      "topic": "1. Introduction to the Generative AI Landscape\n- What generative AI is and isn't\n- Main model families: LLMs, diffusion, multimodal",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "1, Introduction to the Generative AI Landscape (continued)\n- From single models to multi-model systems\n- Capabilities, limits, and responsible use",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "Guided Exercises / In-class Activity\n(Worked examples from the )",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "Review and Discussion",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "2. Foundations and Intuition of Generative Models\n- Discriminative vs generative models\n- What 'learning' means: predict-measure-adjust",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "2. Foundations and Intuition of Generative Models (continued)\n- Embeddings: meaning as geometry\n- Similarity search and use cases",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "Guided Exercises / In-class Activity",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "Review and Discussion",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "3. How Large Language Models Work\n- Next-token prediction and sampling\n- Tokenization and the context window",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "3. How Large Language Models Work (continued)\n- Attention, intuitively\n- Pretraining, fine-tuning, alignment\n- Reasoning models",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "Guided Exercises / In-class Activity",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "Review and Discussion",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "4. Prompt Engineering Fundamentals\n- Anatomy of a strong prompt\n- Zero-shot vs few-shot",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "4. Prompt Engineering Fundamentals (continued)\n- Structured output\n- Chain-of-thought and reasoning models",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "Guided Exercises / In-class Activity\n(Worked examples from the )",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "Review and Discussion",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "5. Advanced Prompt Engineering and Evaluation\n- Iteration and refinement\n- Building a test set and rubric",
+      "lo": "CLO2/CLO4"
+    },
+    {
+      "topic": "5. Advanced Prompt Engineering and Evaluation (continued)\n- Self-consistency and decomposition\n- Model-as-judge with verification",
+      "lo": "CLO2/CLO4"
+    },
+    {
+      "topic": "Lab 1: Prompt Engineering and Evaluation\n(Hands-on lab session)",
+      "lo": "CLO2/CLO4"
+    },
+    {
+      "topic": "Review and Discussion",
+      "lo": "CLO2/CLO4"
+    },
+    {
+      "topic": "6. Image and Multimodal Generation\n- How diffusion generates an image\n- Diffusion transformers; GANs in context",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "6. Image and Multimodal Generation (continued)\n- Prompting and steering image models\n- Multimodal: beyond making pictures",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "Guided Exercises / In-class Activity",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "Review and Discussion",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "7. Additional Modalities and Midterm Review\n- Audio generation and voice cloning\n- Video generation in 2026",
+      "lo": "CLO1/CLO2/CLO4"
+    },
+    {
+      "topic": "7. Additional Modalities and Midterm Review (continued)\n- Code generation, safely\n- Choosing the right modality; midterm review",
+      "lo": "CLO1/CLO2/CLO4"
+    },
+    {
+      "topic": "Progress Test",
+      "lo": "CLO1/CLO2/CLO4"
+    },
+    {
+      "topic": "Review and Discussion",
+      "lo": "CLO1/CLO2/CLO4"
+    },
+    {
+      "topic": "8. Retrieval-Augmented Generation (RAG)\n- Why grounding matters; the RAG pipeline\n- Chunking and embedding choices",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "8. Retrieval-Augmented Generation (RAG) (continued)\n- Hybrid search and reranking\n- RAG evaluation and failure modes",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "Term Project — Proposal Workshop\n(One-page proposal due this week)",
+      "lo": "CLO3/CLO5"
+    },
+    {
+      "topic": "Review and Discussion",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "9. Building Generative AI Applications\n- Treating the model as one component\n- Validation, fallback, structured output",
+      "lo": "CLO3/CLO4"
+    },
+    {
+      "topic": "9. Building Generative AI Applications (continued)\n- Cost and latency\n- Security: prompt injection defense",
+      "lo": "CLO3/CLO4"
+    },
+    {
+      "topic": "Project. Proposal",
+      "lo": "CLO3/CLO4/CLO5"
+    },
+    {
+      "topic": "Review and Discussion",
+      "lo": "CLO3/CLO4"
+    },
+    {
+      "topic": "10. Agents and Tool Use\n- Think-act-observe loop\n- Tools, function calling, and MCP",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "10. Agents and Tool Use (continued)\n- Autonomy, oversight, and stopping rules\n- When NOT to use an agent",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "Guided Exercises / In-class Activity",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "Review and Discussion",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "11. Model Customization Strategies\n- The customization ladder\n- Fine-tuning: form, not facts",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "11. Model Customization Strategies (continued)\n- LoRA, QLoRA, DPO; data preparation\n- Hybrid systems and trade-offs",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "Lab 2: Building and Customizing a GenAI Application\n(Hands-on lab session)",
+      "lo": "CLO3/CLO4"
+    },
+    {
+      "topic": "Review and Discussion",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "12. Evaluation and Failure Modes\n- What to measure and why\n- Benchmarks vs your task",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "12. Evaluation and Failure Modes (continued)\n- Hallucination as an incentive problem (Kalai et al., 2025)\n- Regression testing and drift",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "Guided Exercises / In-class Activity",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "Review and Discussion",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "13. Ethics, Safety, and Responsible AI\n- Bias, privacy, misinformation, deepfakes\n- Alignment and guardrails",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "13. Ethics, Safety, and Responsible AI (continued)\n- Data minimisation and disclosure\n- Running an ethics review",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "Guided Exercises / In-class Activity",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "Review and Discussion",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "14. Society, Law, and Governance\n- Risk-based regulation: the EU AI Act\n- Comparative regulatory approaches",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "14. Society, Law, and Governance (continued)\n- The Brussels effect\n- Governance inside organisations",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "Final Project — Draft Review Checkpoint\n(Partial working demo + early evaluation)",
+      "lo": "CLO3/CLO4"
+    },
+    {
+      "topic": "Review and Discussion",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "Course Review and Project Presentations\n- Course arc and consolidation\n- Project demonstrations and Q&A",
+      "lo": "CLO3/CLO4/CLO5"
+    },
+    {
+      "topic": "Course Review and Project Presentations (continued)\n- Feedback and reflection\n- Next steps (Deep Learning course and beyond)",
+      "lo": "CLO3/CLO4/CLO5"
+    },
+    {
+      "topic": "Final Project — Demonstrations\n(Live/recorded demo + Q&A)",
+      "lo": "CLO3/CLO4/CLO5"
+    },
+    {
+      "topic": "Review and Discussion",
+      "lo": "CLO3/CLO4/CLO5"
+    }
+  ],
+  "assessments": [
+    {
+      "category": "Final Project - Final report & Group presentation",
+      "part": "2",
+      "weight": "30.0%",
+      "clo": "CLO3, CLO4, CLO5"
+    },
+    {
+      "category": "Lab 1: Prompting and Evaluation",
+      "part": "1",
+      "weight": "5.0%",
+      "clo": "CLO2, CLO4"
+    },
+    {
+      "category": "Lab 2: Building and Customizing a GenAI Application",
+      "part": "2",
+      "weight": "5.0%",
+      "clo": "CLO3, CLO4"
+    },
+    {
+      "category": "Progress Test",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": "CLO1, CLO2, CLO4"
+    },
+    {
+      "category": "Project proposal",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": "CLO3, CLO4, CLO5"
+    },
+    {
+      "category": "Final Exam",
+      "part": "1",
+      "weight": "40.0%",
+      "clo": "CLO1, CLO2, CLO3, CLO4, CLO5"
+    }
+  ]
+}

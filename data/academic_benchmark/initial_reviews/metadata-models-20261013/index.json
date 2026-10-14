@@ -1,0 +1,37 @@
+{
+  "origin": "live_export_without_extra_generation",
+  "reviews": [
+    {
+      "path": "data/academic_benchmark/initial_reviews/metadata-models-20261013/review-JD01-enriched-gpt41.json",
+      "sha256": "ebe0aaba345ddd0f068c546d1e186798b1310b3fba7d06eccd085885a1db983c",
+      "request_artifact": "data/academic_benchmark/evaluations/metadata-models-20261013/requests/review-JD01-enriched-gpt41.json",
+      "profile_path": "data/student_academic_profile.enriched.json",
+      "case_id": "JD01",
+      "semantic_status": "P0_observed"
+    },
+    {
+      "path": "data/academic_benchmark/initial_reviews/metadata-models-20261013/review-JD05-legacy-gpt41.json",
+      "sha256": "c901f649c0d48cdf5c7682e5bb347897a0ee21b0ff36d1457d10874231c4b374",
+      "request_artifact": "data/academic_benchmark/evaluations/metadata-models-20261013/requests/review-JD05-legacy-gpt41.json",
+      "profile_path": "data/student_academic_profile.json",
+      "case_id": "JD05",
+      "semantic_status": "P0_observed"
+    },
+    {
+      "path": "data/academic_benchmark/initial_reviews/metadata-models-20261013/review-JD05-enriched-gpt41.json",
+      "sha256": "013bec91084327b4a50b346a41ed693f796b1ad0ece4b480aaa5b9b2e0f83fd0",
+      "request_artifact": "data/academic_benchmark/evaluations/metadata-models-20261013/requests/review-JD05-enriched-gpt41.json",
+      "profile_path": "data/student_academic_profile.enriched.json",
+      "case_id": "JD05",
+      "semantic_status": "P0_observed"
+    },
+    {
+      "path": "data/academic_benchmark/initial_reviews/metadata-models-20261013/review-JD05-enriched-gpt54-high.json",
+      "sha256": "9fa4236d3527f930d20254a220fa952b81bd8e7ed01bce8edfcc34f6e589b4cc",
+      "request_artifact": "data/academic_benchmark/evaluations/metadata-models-20261013/requests/review-JD05-enriched-gpt54-high.json",
+      "profile_path": "data/student_academic_profile.enriched.json",
+      "case_id": "JD05",
+      "semantic_status": "no_P0_observed"
+    }
+  ]
+}

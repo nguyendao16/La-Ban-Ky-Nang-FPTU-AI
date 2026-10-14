@@ -1,0 +1,42 @@
+[
+  {
+    "clo": "CLO1",
+    "description": "Learners should be able to use common techniques to retrieve data from multiple data sources: SQL, NoSQL databases, APIs, Cloud, including Retrieving, Cleaning data."
+  },
+  {
+    "clo": "CLO2",
+    "description": "Learners should be able to describe and use common feature selection and feature engineering techniques, including Exploratory Data Analysis, Feature Engineering, Variable."
+  },
+  {
+    "clo": "CLO3",
+    "description": "Learners should be able to use a variety of techniques for detecting and dealing with outliers, including Inferential Statistics, Hypothesis Testing, Estimation, Inference, Hypothesis Testing (Homework)."
+  },
+  {
+    "clo": "CLO4",
+    "description": "Learners should be able to describe and use supervised models, including Introduction to Supervised Machine Learning, Linear Regression."
+  },
+  {
+    "clo": "CLO5",
+    "description": "Learners should be able to use a variety of error metrics to compare and select a supervised model that best suits your data, including Logistic Regression: Introduction to Classification, Error Metrics, Error Metrics, Model Interpretability (Homework)."
+  },
+  {
+    "clo": "CLO6",
+    "description": "Learners should be able to use oversampling and undersampling as techniques to handle unbalanced classes in a data, including Modeling Unbalanced Classes, Practice Lab: Modeling Imbalanced Classes."
+  },
+  {
+    "clo": "CLO7",
+    "description": "Learners should be able to explain the kinds of problems suitable for Unsupervised Learning approaches, including Introduction to Unsupervised Learning, K Means."
+  },
+  {
+    "clo": "CLO8",
+    "description": "Explain the curse of dimensionality, and how it makes clustering difficult with many features, including K Means Clustering, Selecting a clustering algorithm, Distance Metrics of Clustering Algorithms, Common clustering algorithms, Hierarchical Agglomerative Clustering, Hierarchical Agglomerative Clustering Lab, Compare clustering, Dimensionality Reduction."
+  },
+  {
+    "clo": "CLO9",
+    "description": "Learners should be able to describe and use common clustering and dimensionality-reduction algorithms, including Selecting a clustering algorithm, Distance Metrics of Clustering Algorithms, Common clustering algorithms, Hierarchical Agglomerative Clustering, Hierarchical Agglomerative Clustering Lab, Compare clustering algorithms, Clustering Demo."
+  },
+  {
+    "clo": "CLO10",
+    "description": "Implement a mini capstone ML project includes steps: data collection, data wrangling, exploratory data analysis, model development, model evaluation, and reporting, including Guiding mini Capstone, Review the mini Capstone, Review mini Capstone."
+  }
+]

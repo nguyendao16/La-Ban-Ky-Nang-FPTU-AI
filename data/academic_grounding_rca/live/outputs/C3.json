@@ -1,0 +1,9 @@
+{
+  "reply": "Nội dung **confidence intervals** được xác nhận trực tiếp ở **MAS291/CLO7**: *“Construct and interpret confidence intervals for population parameters and differences between population parameters…”* CLO này yêu cầu **construct** và **interpret** khoảng tin cậy, gồm cả khoảng tin cậy cho trung bình, tỷ lệ và chênh lệch giữa hai nhóm. Điểm của CLO này là **9.43**, achievement **excellent**.\n\nNếu bạn muốn, mình có thể chỉ tiếp các CLO liên quan gần nhất như hypothesis testing hay regression trong cùng môn MAS291.",
+  "evidence": [
+    {
+      "course_code": "MAS291",
+      "clo": "CLO7"
+    }
+  ]
+}

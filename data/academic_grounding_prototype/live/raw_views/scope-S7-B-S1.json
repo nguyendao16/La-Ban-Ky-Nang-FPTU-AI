@@ -1,0 +1,14 @@
+{
+  "publication": "analysis_only",
+  "reply": "Sorting nằm ở CSD203/CLO6: CLO này ghi rõ explain the operation and performance of basic and advanced sorting algorithms, gồm selection sort, insertion sort, bubble sort, quicksort, merge sort, heap sort, bucket sort và radix sort; điểm của CLO6 là 6.06, achievement basic.\n\nHashing nằm ở CSD203/CLO7: CLO này ghi rõ explain hashing and its applications, gồm hash tables, hash functions, collision handling, load factors, rehashing, efficiency considerations và Python hash table implementation; điểm của CLO7 là 6.06, achievement basic.",
+  "evidence": [
+    {
+      "course_code": "CSD203",
+      "clo": "CLO6"
+    },
+    {
+      "course_code": "CSD203",
+      "clo": "CLO7"
+    }
+  ]
+}

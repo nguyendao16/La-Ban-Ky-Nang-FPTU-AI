@@ -1,0 +1,942 @@
+{
+  "schema_version": "stage1_v1",
+  "record_type": "normal_subject",
+  "subject": {
+    "code": "CSD203",
+    "name": {
+      "full": "Data Structures and Algorithm with Python_Cấu trúc dữ liệu và giải thuật với Python",
+      "en": "Data Structures and Algorithm with Python",
+      "vi": "Cấu trúc dữ liệu và giải thuật với Python"
+    },
+    "semester": 2,
+    "credits": 3,
+    "prerequisite": "PFP191"
+  },
+  "syllabus": {
+    "id": "13813",
+    "name": "Data Structures and Algorithm with Python_Cấu trúc dữ liệu và giải thuật với Python",
+    "is_active": true,
+    "is_approved": true,
+    "decision_no": "1402/QĐ-ĐHFPT dated 12/12/2025"
+  },
+  "content": {
+    "metadata": {
+      "syllabus_id": "13813",
+      "syllabus_name": "Data Structures and Algorithm with Python_Cấu trúc dữ liệu và giải thuật với Python",
+      "course_name_english": "Data Structures and Algorithm with Python",
+      "subject_code": "CSD203",
+      "learning_teaching_method": "Inquiry-Based Learning,In-class lecture",
+      "nocredit": "3",
+      "degree_level": "Bachelor",
+      "time_allocation": "45h (60 sessions) contact hours + 1h TE + 85' practical exam + 102.6h self-study",
+      "pre_requisite": "PFP191",
+      "description": "This course introduces the basic concepts of data structures and algorithms in data structures with the use of Python. Topics introduced in the course include the basics of algorithm analysis, basic data structures (including stack, queue, linked list, hashtable, tree), recursion and some important applications of these data structures and algorithms.",
+      "studenttasks": "- Students must attend at least 80% of contact slots in order to be accepted to the final examination.\n- Student is responsible to do all exercises, assignments and labs given by instructor in class or at home and submit on time\n- Use laptop in class only for learning purpose\n- Promptly access to the https://flm.fpt.edu.vn/ for up-to-date course information",
+      "tools": "- Thonny\n- PyCharm\n- Visual Studio Code",
+      "scoring_scale": "10",
+      "decisionno_mm_dd_yyyy": "1402/QĐ-ĐHFPT dated 12/12/2025",
+      "isapproved": "True",
+      "note": "",
+      "is_scored": "True",
+      "minavgmarktopass": "5",
+      "isactive": "True",
+      "approveddate": "12/12/2025"
+    },
+    "materials": [
+      {
+        "no": "1",
+        "material_description": "Data Structures and Algorithms in Python",
+        "author": "Michael T. Goodrich, Roberto Tamassia, Michael H. Goldwasser",
+        "publisher": "Wiley",
+        "published_date": "2013",
+        "edition": "1st",
+        "isbn": "9781118290279",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "Sách online (Wiley platform)"
+      },
+      {
+        "no": "2",
+        "material_description": "- PowerPoint Slides",
+        "author": "",
+        "publisher": "",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": false,
+        "note": ""
+      },
+      {
+        "no": "3",
+        "material_description": "- Assignments",
+        "author": "",
+        "publisher": "",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": false,
+        "note": ""
+      },
+      {
+        "no": "4",
+        "material_description": "- Labs",
+        "author": "",
+        "publisher": "",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": false,
+        "note": ""
+      },
+      {
+        "no": "5",
+        "material_description": "Data Structures and Algorithms using Python",
+        "author": "Rance D. Necaise",
+        "publisher": "Wiley",
+        "published_date": "2011",
+        "edition": "1st",
+        "isbn": "9788126562169",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": ""
+      },
+      {
+        "no": "6",
+        "material_description": "Data Structures and Algorithms with Python",
+        "author": "Kent D. Lee Steve Hubbard",
+        "publisher": "Springer",
+        "published_date": "2015",
+        "edition": "1st",
+        "isbn": "9783319130712",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": ""
+      }
+    ],
+    "clos": [
+      {
+        "no": "1",
+        "clo_name": "CLO1",
+        "clo_details": "LO1. Describe the list data structure and its’ different way of implementations. Implement the singly linked list."
+      },
+      {
+        "no": "2",
+        "clo_name": "CLO2",
+        "clo_details": "LO2. Define stack and queue. Describe basic operations and the use of these structures."
+      },
+      {
+        "no": "3",
+        "clo_name": "CLO3",
+        "clo_details": "LO3. Describe about recursive definitions, algorithms, functions and their implementation and use."
+      },
+      {
+        "no": "4",
+        "clo_name": "CLO4",
+        "clo_details": "LO4. Explain about general tree, Binary Tree and Binary Search Tree (BST). Implement BST with basic operations."
+      },
+      {
+        "no": "5",
+        "clo_name": "CLO5",
+        "clo_details": "LO5. Díscuss about graphs and their application. Implement a graph with some basic operations."
+      },
+      {
+        "no": "6",
+        "clo_name": "CLO6",
+        "clo_details": "LO6 Explain the operation and performance of some basic and advanced sorting alggorithms"
+      },
+      {
+        "no": "7",
+        "clo_name": "CLO7",
+        "clo_details": "LO7 Explain about hashing and application."
+      },
+      {
+        "no": "8",
+        "clo_name": "CLO8",
+        "clo_details": "LO8 Describe the Text Processing problem and its’ application. Explain the Huffman, LZW and Run-length encoding Algorithms."
+      }
+    ],
+    "schedule": [
+      {
+        "session": "1",
+        "topic": "Course Introduction\n1.1. Using Arrays\n1.2. Singly Linked Lists",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "IT",
+        "student_materials": "- Slides: Chapter 1\nText book:- Chapter 5 page 184 - 224\n- Chapter 7 page 256-275",
+        "s_download": "mat1",
+        "student_tasks": "Read Chapter 1,5,7",
+        "urls": ""
+      },
+      {
+        "session": "2",
+        "topic": "1.3. Circularly Linked Lists\n1.4. Doubly Linked Lists",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "IT",
+        "student_materials": "- Slides: Chapter 1\nText book:- Chapter 5 page 184 - 224\n- Chapter 7 page 256-275",
+        "s_download": "",
+        "student_tasks": "Read Chapter 1,5,7",
+        "urls": ""
+      },
+      {
+        "session": "3",
+        "topic": "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignment",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 1",
+        "itu": "U",
+        "student_materials": "slide chapter 1, 5, 7\nLab 1: Lab1_st (.docx file)",
+        "s_download": "",
+        "student_tasks": "Review Chapter 1, 5, 7\nDo Lab 1",
+        "urls": ""
+      },
+      {
+        "session": "4",
+        "topic": "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignment (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 1",
+        "itu": "U",
+        "student_materials": "slide chapter 1, 5, 7\nLab 1: Lab1_st (.docx file)",
+        "s_download": "",
+        "student_tasks": "Review Chapter 1, 5, 7\nDo Lab 1",
+        "urls": ""
+      },
+      {
+        "session": "5",
+        "topic": "2.1 Stacks\nGuiding Exercises/Assignment",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 2",
+        "itu": "T\nU",
+        "student_materials": "- Slides: Chapter 6\n- Text book: Chapter 6 page 228-238",
+        "s_download": "",
+        "student_tasks": "Read Chapter 6\nDo Lab 2",
+        "urls": ""
+      },
+      {
+        "session": "6",
+        "topic": "2.1 Stacks\nGuiding Exercises/Assignment (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 2",
+        "itu": "T\nU",
+        "student_materials": "- Slides: Chapter 6\n- Text book: Chapter 6 page 228-238",
+        "s_download": "",
+        "student_tasks": "Read Chapter 6\nDo Lab 2",
+        "urls": ""
+      },
+      {
+        "session": "7",
+        "topic": "2.2 Queues\n2.3 Double-Ended Queues (Deque)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 2",
+        "itu": "T",
+        "student_materials": "- Slides: Chapter 6\n- Text book: Chapter 6 page 239-250",
+        "s_download": "",
+        "student_tasks": "Read Chapter 6\nDo Lab 2",
+        "urls": ""
+      },
+      {
+        "session": "8",
+        "topic": "2.4 The Priority Queue",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 2",
+        "itu": "T",
+        "student_materials": "- Slides: Chapter 6\n- Text book: Chapter 6 page 239-250",
+        "s_download": "",
+        "student_tasks": "Read Chapter 6\nDo Lab 2",
+        "urls": ""
+      },
+      {
+        "session": "9",
+        "topic": "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignment",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 2",
+        "itu": "U",
+        "student_materials": "- Slides: Chapter 6\n- Textbook\n- Lab 2: Lab2 (.docx file)",
+        "s_download": "",
+        "student_tasks": "Review Chapter 6\nDo Lab 2",
+        "urls": ""
+      },
+      {
+        "session": "10",
+        "topic": "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignment (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 2",
+        "itu": "U",
+        "student_materials": "- Slides: Chapter 6\n- Textbook\n- Lab 2: Lab2 (.docx file)",
+        "s_download": "",
+        "student_tasks": "Review Chapter 6\nDo Lab 2",
+        "urls": ""
+      },
+      {
+        "session": "11",
+        "topic": "3.1 Illustrative Examples\n3.1.1 The Factorial Function\n3.1.2 Binary Search\n3.1.3 File Systems\n3.2 Analyzing Recursive Algorithms",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 3",
+        "itu": "T",
+        "student_materials": "- Slides: Chapter 4\n- Text book: Chapter 4 page 148 - 180",
+        "s_download": "",
+        "student_tasks": "Read Chapter 4",
+        "urls": ""
+      },
+      {
+        "session": "12",
+        "topic": "3.3 Further Examples of Recursion\n3.3.1 Linear Recursion\n3.3.2 Binary Recursion\n3.3.3 Multiple Recursion\n3.4 Designing Recursive Algorithms\n3.5 Eliminating Tail Recursion",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 3",
+        "itu": "T",
+        "student_materials": "- Slides: Chapter 4\n- Text book: Chapter 4 page 148 - 180",
+        "s_download": "",
+        "student_tasks": "Read Chapter 4",
+        "urls": ""
+      },
+      {
+        "session": "13",
+        "topic": "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignment",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 3",
+        "itu": "U",
+        "student_materials": "Lab 3: Lab3 (.docx file)",
+        "s_download": "",
+        "student_tasks": "Do Lab 3",
+        "urls": ""
+      },
+      {
+        "session": "14",
+        "topic": "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignment (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 3",
+        "itu": "U",
+        "student_materials": "Lab 3: Lab3 (.docx file)",
+        "s_download": "",
+        "student_tasks": "Do Lab 3",
+        "urls": ""
+      },
+      {
+        "session": "15",
+        "topic": "4.1 General Trees\n4.1.1 Tree Definitions and Properties\n4.1.2 The Tree Abstract Data Type\n4.2 Binary Trees - . 317\n4.2.1 The Binary Tree Abstract Data Type\n4.2.2 Properties of Binary Trees",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 4",
+        "itu": "T",
+        "student_materials": "- Slides: Chapter 8\n- Text book: Chapter 8 page 300 - 310",
+        "s_download": "",
+        "student_tasks": "Read Chapter 8",
+        "urls": ""
+      },
+      {
+        "session": "16",
+        "topic": "4.3 Implementing Trees\n4.4 Tree Traversal Algorithms",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 4",
+        "itu": "T",
+        "student_materials": "- Slides: Chapter 8\n- Text book: Chapter 8 page 300 - 310",
+        "s_download": "",
+        "student_tasks": "Read Chapter 8",
+        "urls": ""
+      },
+      {
+        "session": "17",
+        "topic": "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignment",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 4",
+        "itu": "U",
+        "student_materials": "Lab 4: Lab4 (.docx file)\n- Text book: Chapter 8 page 300 - 310",
+        "s_download": "",
+        "student_tasks": "Review Chapter 8\nDo Lab 4",
+        "urls": ""
+      },
+      {
+        "session": "18",
+        "topic": "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignment (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 4",
+        "itu": "U",
+        "student_materials": "Lab 4: Lab4 (.docx file)\n- Text book: Chapter 8 page 300 - 310",
+        "s_download": "",
+        "student_tasks": "Review Chapter 8\nDo Lab 4",
+        "urls": ""
+      },
+      {
+        "session": "19",
+        "topic": "4.5 Binary Search Trees\n4.5.1 Searching Within a Binary Search Tree",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 4",
+        "itu": "T",
+        "student_materials": "- Slides: Chapter 11\n- Text book: Chapter 11 page 460 - 473",
+        "s_download": "",
+        "student_tasks": "Read Chapter 11",
+        "urls": ""
+      },
+      {
+        "session": "20",
+        "topic": "4.5.2 Insertions and Deletions",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 4",
+        "itu": "T",
+        "student_materials": "- Slides: Chapter 11\n- Text book: Chapter 11 page 460 - 473",
+        "s_download": "",
+        "student_tasks": "Read Chapter 11",
+        "urls": ""
+      },
+      {
+        "session": "21",
+        "topic": "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignment",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 4",
+        "itu": "U",
+        "student_materials": "- slide chapter 11\n- Lab 4: Lab4 (.docx file)\n- Text book: Chapter 11 page 460 - 473",
+        "s_download": "",
+        "student_tasks": "Review Chapter 11\nDo Lab 4",
+        "urls": ""
+      },
+      {
+        "session": "22",
+        "topic": "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignment (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 4",
+        "itu": "U",
+        "student_materials": "- slide chapter 11\n- Lab 4: Lab4 (.docx file)\n- Text book: Chapter 11 page 460 - 473",
+        "s_download": "",
+        "student_tasks": "Review Chapter 11\nDo Lab 4",
+        "urls": ""
+      },
+      {
+        "session": "23",
+        "topic": "4.6 Balanced Search Trees\n4.7 AVL Trees",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 4",
+        "itu": "T",
+        "student_materials": "- Slides: Chapter 11, 9\n- Chapter 11 page 475 - 488\n- Chapter 9 page 370 - 384",
+        "s_download": "",
+        "student_tasks": "Read Chapter 9,11",
+        "urls": ""
+      },
+      {
+        "session": "24",
+        "topic": "4.8 Heaps",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 4",
+        "itu": "T",
+        "student_materials": "- Slides: Chapter 11, 9\n- Chapter 11 page 475 - 488\n- Chapter 9 page 370 - 384",
+        "s_download": "",
+        "student_tasks": "Read Chapter 9,11",
+        "urls": ""
+      },
+      {
+        "session": "25",
+        "topic": "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignment",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 4",
+        "itu": "U",
+        "student_materials": "- Lab 4: Lab4 (.docx file)",
+        "s_download": "",
+        "student_tasks": "Do Lab 4",
+        "urls": ""
+      },
+      {
+        "session": "26",
+        "topic": "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignment (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 4",
+        "itu": "U",
+        "student_materials": "- Lab 4: Lab4 (.docx file)",
+        "s_download": "",
+        "student_tasks": "Do Lab 4",
+        "urls": ""
+      },
+      {
+        "session": "27",
+        "topic": "Progress test 1 and review",
+        "learning_teaching_type": "Offline",
+        "lo": "",
+        "itu": "U",
+        "student_materials": "- Content 1 - 4\n- Text book\n- Prgress test 1",
+        "s_download": "",
+        "student_tasks": "Review Content 1 - 4\nDo Prgress test 1",
+        "urls": ""
+      },
+      {
+        "session": "28",
+        "topic": "Progress test 1 and review (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "",
+        "itu": "U",
+        "student_materials": "- Content 1 - 4\n- Text book\n- Prgress test 1",
+        "s_download": "",
+        "student_tasks": "Review Content 1 - 4\nDo Prgress test 1",
+        "urls": ""
+      },
+      {
+        "session": "29",
+        "topic": "5.1 Graphs\n5.2 Data Structures for Graphs\n5.2.1 Edge List Structure\n5.2.2 Adjacency List Structure\n5.2.3 Adjacency Matrix Structure",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 5",
+        "itu": "T",
+        "student_materials": "- Slides: Chapter 14\n- Text book: Chapter 14 page 620 - 648",
+        "s_download": "",
+        "student_tasks": "Read Chapter 14",
+        "urls": ""
+      },
+      {
+        "session": "30",
+        "topic": "5.3 Graph Traversals\n5.3.1 Depth-First Search\n5.3.3 Breadth-First Search",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 5",
+        "itu": "T",
+        "student_materials": "- Slides: Chapter 14\n- Text book: Chapter 14 page 620 - 648",
+        "s_download": "",
+        "student_tasks": "Read Chapter 14",
+        "urls": ""
+      },
+      {
+        "session": "31",
+        "topic": "Progress test and/or Assignmen\nReview Exercises\nGuiding Exercises/Assignmen",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 5",
+        "itu": "U",
+        "student_materials": "- slide chapter 14\n- Lab 5: Lab5 (.docx file)\n- Assignment 1",
+        "s_download": "",
+        "student_tasks": "Review Chapter 14\nDo Lab 5\nDo - Assignment 1",
+        "urls": ""
+      },
+      {
+        "session": "32",
+        "topic": "Progress test and/or Assignmen\nReview Exercises\nGuiding Exercises/Assignmen (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 5",
+        "itu": "U",
+        "student_materials": "- slide chapter 14\n- Lab 5: Lab5 (.docx file)\n- Assignment 1",
+        "s_download": "",
+        "student_tasks": "Review Chapter 14\nDo Lab 5\nDo - Assignment 1",
+        "urls": ""
+      },
+      {
+        "session": "33",
+        "topic": "5.4 Shortest Paths\n5.4.1 Weighted Graphs",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 5",
+        "itu": "T",
+        "student_materials": "- Slides: Chapter 14\n- Text book: Chapter 14 page 659 - 669",
+        "s_download": "",
+        "student_tasks": "Read Chapter 14",
+        "urls": ""
+      },
+      {
+        "session": "34",
+        "topic": "5.4.2 Dijkstra’s Algorithm",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 5",
+        "itu": "T",
+        "student_materials": "- Slides: Chapter 14\n- Text book: Chapter 14 page 659 - 669",
+        "s_download": "",
+        "student_tasks": "Read Chapter 14",
+        "urls": ""
+      },
+      {
+        "session": "35",
+        "topic": "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignmen",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 5",
+        "itu": "U",
+        "student_materials": "- slide chapter 14\n- Lab 5: Lab5 (.docx file)",
+        "s_download": "",
+        "student_tasks": "Review Chapter 14\nDo Lab 5",
+        "urls": ""
+      },
+      {
+        "session": "36",
+        "topic": "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignmen (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 5",
+        "itu": "U",
+        "student_materials": "- slide chapter 14\n- Lab 5: Lab5 (.docx file)",
+        "s_download": "",
+        "student_tasks": "Review Chapter 14\nDo Lab 5",
+        "urls": ""
+      },
+      {
+        "session": "37",
+        "topic": "5.5 Minimum Spanning Trees\n5.5.1 Prim-Jarn ́ık Algorithm\n5.5.2 Kruskal’s Algorithm",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 5",
+        "itu": "T",
+        "student_materials": "- Slides: Chapter 14\n- Text book: Chapter 14 page 670 - 685",
+        "s_download": "",
+        "student_tasks": "Read Chapter 14",
+        "urls": ""
+      },
+      {
+        "session": "38",
+        "topic": "5.6. Euler's tour and Euler's cycle",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 5",
+        "itu": "T",
+        "student_materials": "- Slides: Chapter 14\n- Text book: Chapter 14 page 670 - 685",
+        "s_download": "",
+        "student_tasks": "Read Chapter 14",
+        "urls": ""
+      },
+      {
+        "session": "39",
+        "topic": "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignmen",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 5",
+        "itu": "U",
+        "student_materials": "- slide chapter 14\n- Lab 5: Lab5 (.docx file)",
+        "s_download": "",
+        "student_tasks": "Review Chapter 14\nDo Lab 5",
+        "urls": ""
+      },
+      {
+        "session": "40",
+        "topic": "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignmen (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 5",
+        "itu": "U",
+        "student_materials": "- slide chapter 14\n- Lab 5: Lab5 (.docx file)",
+        "s_download": "",
+        "student_tasks": "Review Chapter 14\nDo Lab 5",
+        "urls": ""
+      },
+      {
+        "session": "41",
+        "topic": "6.1 Selection-Sort\n6.2 Insertion-Sort",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 6",
+        "itu": "T",
+        "student_materials": "- Slides: Chapter 9, 12\n- Text book: Chapter 9 page 385 -386\n- Chapter 12 page 550 - 559",
+        "s_download": "",
+        "student_tasks": "Read Chapter 9, 12",
+        "urls": ""
+      },
+      {
+        "session": "42",
+        "topic": "6.3 Bubble-sort\n6.4 Quick-Sort",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 6",
+        "itu": "T",
+        "student_materials": "- Slides: Chapter 9, 12\n- Text book: Chapter 9 page 385 -386\n- Chapter 12 page 550 - 559",
+        "s_download": "",
+        "student_tasks": "Read Chapter 9, 12",
+        "urls": ""
+      },
+      {
+        "session": "43",
+        "topic": "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignmen",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 6",
+        "itu": "U",
+        "student_materials": "- slide chapter 9, 12\n- Lab 6: Lab6 (.docx file)",
+        "s_download": "",
+        "student_tasks": "Review Chapter 9, 12\nDo Lab 6",
+        "urls": ""
+      },
+      {
+        "session": "44",
+        "topic": "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignmen (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 6",
+        "itu": "U",
+        "student_materials": "- slide chapter 9, 12\n- Lab 6: Lab6 (.docx file)",
+        "s_download": "",
+        "student_tasks": "Review Chapter 9, 12\nDo Lab 6",
+        "urls": ""
+      },
+      {
+        "session": "45",
+        "topic": "6.5 Merge-Sort\n6.6 Heap-Sort",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 6",
+        "itu": "T",
+        "student_materials": "- Slides: Chapter 9, 12\n- Text book: Chapter 9 page 370 -388\n- Text book: Chapter 12 page 538 - 547",
+        "s_download": "",
+        "student_tasks": "Read Chapter 9, 12",
+        "urls": ""
+      },
+      {
+        "session": "46",
+        "topic": "6.7 Linear-Time Sorting: Bucket-Sort and Radix-Sort\n6.8 Comparing Sorting Algorithms",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 6",
+        "itu": "T",
+        "student_materials": "- Slides: Chapter 9, 12\n- Text book: Chapter 9 page 370 -388\n- Text book: Chapter 12 page 538 - 547",
+        "s_download": "",
+        "student_tasks": "Read Chapter 9, 12",
+        "urls": ""
+      },
+      {
+        "session": "47",
+        "topic": "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignmen",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 6",
+        "itu": "U",
+        "student_materials": "- slide chapter 9, 12\n- Lab 6: Lab6 (.docx file)",
+        "s_download": "",
+        "student_tasks": "Review Chapter 9, 12\nDo Lab 6",
+        "urls": ""
+      },
+      {
+        "session": "48",
+        "topic": "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignmen (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 6",
+        "itu": "U",
+        "student_materials": "- slide chapter 9, 12\n- Lab 6: Lab6 (.docx file)",
+        "s_download": "",
+        "student_tasks": "Review Chapter 9, 12\nDo Lab 6",
+        "urls": ""
+      },
+      {
+        "session": "49",
+        "topic": "7.1 Hash Tables\n7.2 Hash Functions\n7.3 Collision-Handling",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 7",
+        "itu": "T",
+        "student_materials": "- Slides: Chapter 10\n- Text book: Chapter 10 page 410 - 422",
+        "s_download": "",
+        "student_tasks": "Read Chapter 10",
+        "urls": ""
+      },
+      {
+        "session": "50",
+        "topic": "7.4 Load Factors, Rehashing, and Efficiency\n7.5 Python Hash Table Implementation",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 7",
+        "itu": "T",
+        "student_materials": "- Slides: Chapter 10\n- Text book: Chapter 10 page 410 - 422",
+        "s_download": "",
+        "student_tasks": "Read Chapter 10",
+        "urls": ""
+      },
+      {
+        "session": "51",
+        "topic": "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignmen",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 7",
+        "itu": "U",
+        "student_materials": "Lab 7: Lab7 (.docx file)",
+        "s_download": "",
+        "student_tasks": "Do Lab 7",
+        "urls": ""
+      },
+      {
+        "session": "52",
+        "topic": "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignmen (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 7",
+        "itu": "U",
+        "student_materials": "Lab 7: Lab7 (.docx file)",
+        "s_download": "",
+        "student_tasks": "Do Lab 7",
+        "urls": ""
+      },
+      {
+        "session": "53",
+        "topic": "8.1 Abundance of Digitized Text\n8.2 Pattern-Matching Algorithms\n8.2.1 Brute Force\n8.2.2 The Knuth-Morris-Pratt Algorithm",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 8",
+        "itu": "T",
+        "student_materials": "- Slides: Chapter 13\n- Text book: Chapter 13 page 581 -612",
+        "s_download": "",
+        "student_tasks": "Read Chapter 13",
+        "urls": ""
+      },
+      {
+        "session": "54",
+        "topic": "8.3 Text Compression\n8.3.1 The Huffman Coding Algorithm\n8.3.2 The LZW Algorithm\n8.3.3 The Run-length Encoding Algorithm",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 8",
+        "itu": "T",
+        "student_materials": "- Slides: Chapter 13\n- Text book: Chapter 13 page 581 -612",
+        "s_download": "",
+        "student_tasks": "Read Chapter 13",
+        "urls": ""
+      },
+      {
+        "session": "55",
+        "topic": "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignmen",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 8",
+        "itu": "U",
+        "student_materials": "slide chapter 13\nLab 8: Lab 8 (.docx file)",
+        "s_download": "",
+        "student_tasks": "Review Chapter 13\nDo Lab 8",
+        "urls": ""
+      },
+      {
+        "session": "56",
+        "topic": "Progress test and/or\nReview Exercises\nGuiding Exercises/Assignmen (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO 8",
+        "itu": "U",
+        "student_materials": "slide chapter 13\nLab 8: Lab 8 (.docx file)",
+        "s_download": "",
+        "student_tasks": "Review Chapter 13\nDo Lab 8",
+        "urls": ""
+      },
+      {
+        "session": "57",
+        "topic": "Course review\nPractical Exam",
+        "learning_teaching_type": "Offline",
+        "lo": "",
+        "itu": "I",
+        "student_materials": "Review the course\n- Assignment 2",
+        "s_download": "",
+        "student_tasks": "Review the course\n- Do Assignment 2",
+        "urls": ""
+      },
+      {
+        "session": "58",
+        "topic": "Course review\nPractical Exam (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "",
+        "itu": "I",
+        "student_materials": "Review the course\n- Assignment 2",
+        "s_download": "",
+        "student_tasks": "Review the course\n- Do Assignment 2",
+        "urls": ""
+      },
+      {
+        "session": "59",
+        "topic": "Progress test 2 and review",
+        "learning_teaching_type": "Offline",
+        "lo": "",
+        "itu": "U, I",
+        "student_materials": "Content 5 - 8\nText book\nPrgress test 2",
+        "s_download": "",
+        "student_tasks": "Review the course\nDo Prgress test 2",
+        "urls": ""
+      },
+      {
+        "session": "60",
+        "topic": "Progress test 2 and review (cont.)",
+        "learning_teaching_type": "Offline",
+        "lo": "",
+        "itu": "U, I",
+        "student_materials": "Content 5 - 8\nText book\nPrgress test 2",
+        "s_download": "",
+        "student_tasks": "Review the course\nDo Prgress test 2",
+        "urls": ""
+      }
+    ],
+    "assessments": [
+      {
+        "no": "1",
+        "category": "Assignment 1",
+        "type": "on-going",
+        "part": "1",
+        "weight": "10.0%",
+        "completion_criteria": ">0",
+        "duration": "45",
+        "clo": "",
+        "question_type": "Written test questions",
+        "no_question": "2",
+        "knowledge_and_skill": "- cover content 1,2,3,4",
+        "grading_guide": "in class, by instructor",
+        "note": "Instructor has resposibility to review the test for students after graded."
+      },
+      {
+        "no": "2",
+        "category": "Assignment 2",
+        "type": "on-going",
+        "part": "1",
+        "weight": "10.0%",
+        "completion_criteria": ">0",
+        "duration": "45'",
+        "clo": "",
+        "question_type": "Written test questions",
+        "no_question": "2",
+        "knowledge_and_skill": "- cover content 5,6,7,8",
+        "grading_guide": "in class, by instructor",
+        "note": "Instructor has resposibility to review the test for students after graded."
+      },
+      {
+        "no": "3",
+        "category": "Practical exam",
+        "type": "on-going",
+        "part": "1",
+        "weight": "30.0%",
+        "completion_criteria": ">0",
+        "duration": "85'",
+        "clo": "",
+        "question_type": "Written test questions",
+        "no_question": "2",
+        "knowledge_and_skill": "- cover content 1,2,3,4,5,6,7",
+        "grading_guide": "by exam board,\nusing computer",
+        "note": "The exam questions must be updated or different at least 70% to the previous ones."
+      },
+      {
+        "no": "4",
+        "category": "Progress test 1",
+        "type": "on-going",
+        "part": "1",
+        "weight": "10.0%",
+        "completion_criteria": ">0",
+        "duration": "10'-30'",
+        "clo": "",
+        "question_type": "Multiple choices\nMarked by Computer or a suitable format",
+        "no_question": "30",
+        "knowledge_and_skill": "- cover content 1,2,3,4",
+        "grading_guide": "in class, by instructor",
+        "note": "Instruction and shedules for Progress tests must be presented in the Course Implementation Plan approved by director of the campus.\nProgress test must be taken right after the last lectures of required material.\nInstructor has resposibility to review the test for students after graded."
+      },
+      {
+        "no": "5",
+        "category": "Progress test 2",
+        "type": "on-going",
+        "part": "1",
+        "weight": "10.0%",
+        "completion_criteria": ">0",
+        "duration": "10'-30'",
+        "clo": "",
+        "question_type": "Multiple choicesMarked by Computer or a suitable format",
+        "no_question": "30",
+        "knowledge_and_skill": "- cover content 5,6,7,8",
+        "grading_guide": "in class, by instructor",
+        "note": "Instruction and shedules for Progress tests must be presented in the Course Implementation Plan approved by director of the campus.\nProgress test must be taken right after the last lectures of required material.\nInstructor has resposibility to review the test for students after graded."
+      },
+      {
+        "no": "6",
+        "category": "Final exam",
+        "type": "Final exam",
+        "part": "1",
+        "weight": "30.0%",
+        "completion_criteria": "4",
+        "duration": "60'",
+        "clo": "",
+        "question_type": "Multiple choices\nMarked by Computer",
+        "no_question": "50",
+        "knowledge_and_skill": "concepts, algorithms;\nall studied chapters",
+        "grading_guide": "by exam board,\nusing computer",
+        "note": "The exam questions must be updated or different at least 70% to the previous ones."
+      }
+    ]
+  },
+  "source": {
+    "raw_file": "flm_output/subjects/CSD203.json",
+    "curriculum_url": "https://flm.fpt.edu.vn/gui/role/student/CurriculumDetails?curid=3173",
+    "pre_syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/Syllabuses?subCode=CSD203&curriculumID=3173",
+    "syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=13813",
+    "details_source_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=13813"
+  },
+  "crawl": {
+    "error": null
+  },
+  "quality": {
+    "has_syllabus": true,
+    "counts": {
+      "materials": 6,
+      "clos": 8,
+      "schedule": 60,
+      "assessments": 6
+    },
+    "warnings": []
+  }
+}

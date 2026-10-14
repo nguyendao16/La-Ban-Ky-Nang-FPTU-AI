@@ -1,0 +1,7 @@
+{
+  "syllabus_name": "AI-DS Project- Dự án TTNT- KHDL",
+  "course_name_english": "AI-DS Project",
+  "subject_code": "DAP391m",
+  "description": "This course will take student from the basics of data analysis with Python to building and evaluating data models. The students will learn to work with some Data Visualization tools and techniques and create interactive dashboards that allow even those without any Data Science experience to better understand data, and make more effective and informed decisions. A student will be able to write an application that leverages multiple Watson AI services. This course allows students to practice data scientists' work in real life when working with datasets.",
+  "tools": "Jupyter Notebooks\n- JupyterLab\n- RStudio IDE\n- Git, GitHub\n- Watson Studio."
+}

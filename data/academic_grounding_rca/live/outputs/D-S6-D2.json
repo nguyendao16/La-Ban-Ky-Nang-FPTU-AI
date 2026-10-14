@@ -1,0 +1,49 @@
+{
+  "claims": [
+    {
+      "statement": "Trong ADY201m, các công cụ Git, GitHub, Jupyter Notebooks, JupyterLab và RStudio IDE xuất hiện ở metadata.tools của môn.",
+      "sources": [
+        {
+          "course_code": "ADY201m",
+          "metadata_field": "tools",
+          "source_excerpt": "Jupyter Notebooks\n- JupyterLab\n- RStudio IDE\n- Git, GitHub\n-Watson Studio."
+        }
+      ]
+    },
+    {
+      "statement": "Trong DAP391m, metadata.tools cũng liệt kê Jupyter Notebooks, JupyterLab, RStudio IDE, Git, GitHub và Watson Studio.",
+      "sources": [
+        {
+          "course_code": "DAP391m",
+          "metadata_field": "tools",
+          "source_excerpt": "Jupyter Notebooks\n- JupyterLab\n- RStudio IDE\n- Git, GitHub\n- Watson Studio."
+        }
+      ]
+    },
+    {
+      "statement": "ADY201m/CLO3 chỉ xác nhận yêu cầu \"use at least one tool\" trong nhóm công cụ gồm Python, R, Scala, SQL, GitHub, Jupyter Notebooks, RStudio IDE và Watson Studio; câu này không xác nhận bạn đã sử dụng từng công cụ trong danh sách.",
+      "sources": [
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO3",
+          "source_excerpt": "Know common tools used in data science and use at least one tool for basic data operations, including tool introduction and analysis workflows using Python, R, Scala, SQL, GitHub, Jupyter Notebooks, RStudio IDE, Watson Studio."
+        }
+      ]
+    }
+  ],
+  "reply": "Có 2 chỗ bạn đang hỏi:\n\n- **ADY201m/tools**: danh sách công cụ có **Jupyter Notebooks, JupyterLab, RStudio IDE, Git, GitHub, Watson Studio**.\n- **DAP391m/tools**: cũng có **Jupyter Notebooks, JupyterLab, RStudio IDE, Git, GitHub, Watson Studio**.\n\nCòn câu **“use at least one”** trong **ADY201m/CLO3** chỉ có nghĩa là CLO này yêu cầu/đánh giá việc dùng **ít nhất một** công cụ trong nhóm đó. Vì vậy, nó **không xác nhận** bạn đã dùng **từng** công cụ riêng lẻ; từ hồ sơ hiện tại chỉ kết luận được rằng các công cụ đó xuất hiện như bối cảnh/chọn lựa công cụ của học phần, và CLO nêu tối thiểu là dùng một công cụ trong nhóm.",
+  "evidence": [
+    {
+      "course_code": "ADY201m",
+      "metadata_field": "tools"
+    },
+    {
+      "course_code": "DAP391m",
+      "metadata_field": "tools"
+    },
+    {
+      "course_code": "ADY201m",
+      "clo": "CLO3"
+    }
+  ]
+}

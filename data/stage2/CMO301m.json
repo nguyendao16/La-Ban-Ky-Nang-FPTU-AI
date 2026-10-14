@@ -1,0 +1,175 @@
+{
+  "metadata": {
+    "syllabus_name": "Cloud for MLOps_Cloud cho hoạt động học máy",
+    "course_name_english": "Cloud for MLOps",
+    "subject_code": "CMO301m",
+    "description": "This course provides students with practical knowledge and skills to design, deploy, and operate end-to-end MLOps pipelines on cloud platforms (AWS, Azure, Google Cloud). Students will master cloud-native data engineering (S3/GCS, Kafka, Dataflow, Glue), data versioning with DVC, feature stores (Feast, Vertex Feature Store), and scalable model training using distributed GPU/TPU clusters. The curriculum covers CI/CD for ML (GitHub Actions, Jenkins, GitLab CI), containerization with Docker, Kubernetes-based deployment (GKE/EKS/AKS), and production monitoring with Prometheus, Grafana, and cloud-native logging. Through hands-on labs and a final cloud-deployed project, students will gain comprehensive experience in building production-ready ML systems with automated monitoring, drift detection, and retraining pipelines, while addressing cost optimization, security, and compliance (GDPR, HIPAA).",
+    "tools": "Python, AWS (SageMaker, Lambda, ECR, GKE/EKS/AKS), Google Cloud (Vertex AI, Cloud Composer, GCR), Azure (Azure ML, ACR), Docker, Kubernetes, DVC, MLflow, Feast, TFX, GitHub Actions, Jenkins, GitLab CI, Terraform, Prometheus, Grafana, Evidently AI, FastAPI, TensorFlow Serving."
+  },
+  "clos": [
+    {
+      "clo_name": "CLO1",
+      "clo_details": "Understand core concepts, differences, and relationships among MLOps, DevOps, DataOps, and LLMOps (including RAG & Prompt Engineering basics); apply cloud architecture patterns for ML systems (ingestion, storage, deployment models) across major cloud platforms (AWS SageMaker, Azure ML, Vertex AI)."
+    },
+    {
+      "clo_name": "CLO2",
+      "clo_details": "Design and implement cloud-based data engineering pipelines using cloud-native services (AWS Lambda/Step Functions/Glue, GCP Dataflow/Cloud Composer, Azure Data Factory) and implement feature store management solutions (Feast, Vertex/Azure Feature Store) for offline/online inference."
+    },
+    {
+      "clo_name": "CLO3",
+      "clo_details": "Apply experiment tracking tools (MLflow, WandB, SageMaker Experiments, Vertex Vizier) and data versioning principles using DVC with cloud remotes (S3/GCS/Azure) to ensure reproducibility, data lineage, and metadata management in ML experiments."
+    },
+    {
+      "clo_name": "CLO4",
+      "clo_details": "Design and build end-to-end TensorFlow Extended (TFX) and cloud native pipelines (including ExampleGen, Transform, Trainer, Evaluator, Publisher), establish model baselines, and handle concept drift."
+    },
+    {
+      "clo_name": "CLO5",
+      "clo_details": "Understand feature store concepts and implement feature management solutions using Feast, Vertex Feature Store, or Azure Feature Stores for offline/online inference on cloud."
+    },
+    {
+      "clo_name": "CLO6",
+      "clo_details": "Apply Docker containerization best practices, build containerized MLOps pipelines to deploy to cloud registries (ECR/GCR/ACR) and services (Cloud Run, ECS, GKE, AKS), and implement model serving patterns (TF Serving, FastAPI, Flask) with progressive delivery (blue-green, canary) and autoscaling (HPA/VPA)."
+    },
+    {
+      "clo_name": "CLO7",
+      "clo_details": "Implement automated CI/CD pipelines for ML using GitHub Actions, Jenkins, or GitLab CI integrated with cloud services to automate model deployments, testing, and continuous validation in cloud environments."
+    },
+    {
+      "clo_name": "CLO8",
+      "clo_details": "Implement continuous model monitoring (Prometheus, Grafana, Cloud Monitoring) for data/concept drift, setup automated retraining triggers based on performance thresholds, and apply operational excellence principles (incident response, runbooks, rollback, data governance, GDPR, HIPAA, IAM)."
+    },
+    {
+      "clo_name": "CLO9",
+      "clo_details": "Implement an end-to-end Cloud MLOps capstone project encompassing infrastructure setup, automated data pipelines, model tracking, cloud deployment, monitoring, automated retraining, and document it via a scientific/technical paper (4–6 pages) detailing architecture, experiments, ops plan, and cost analysis."
+    }
+  ],
+  "schedule": [
+    {
+      "topic": "Course Introduction & Cloud MLOps Overview",
+      "lo": "CLO1, CLO9"
+    },
+    {
+      "topic": "1.1. What is MLOps?\n- Definition\n- key concepts\n- cloud impact",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "1.2. MLOps vs DevOps vs DataOps, differences & cloud relationships",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "1.3. Key challenges in ML production on cloud: drift & cost spikes",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "1.4. MLOps maturity models & cloud maturity hierarchy",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "1.5. Case study: Speech recognition system deployed on cloud",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "2.1. Steps of an ML project on cloud:\n- problem\n- data\n- model\n- deploy\n- monitor",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "2.2. Scoping diligence:\n- feasibility\n- value\n- cloud resource sizing\n- cost estimation",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "2.3. Defining project milestones, resourcing & cloud budgeting (tags, budgets)",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "2.4. Deployment patterns on cloud:\n- batch vs online\n- static vs dynamic\n- serverless vs k8s",
+      "lo": "CLO1, CLO6"
+    },
+    {
+      "topic": "2.5. Establishing performance baselines\n- SLO/SLI\n- human-level performance (HLP)",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "Discussion on Project Topics & Cloud Infrastructure Setup",
+      "lo": "CLO9"
+    },
+    {
+      "topic": "Formation of Teams and Group Agreement",
+      "lo": "CLO9"
+    },
+    {
+      "topic": "3.1. The 4 stages of ML product lifecycle on cloud:\n- Scoping\n- Data\n- Modeling\n- Deployment",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "3.2. ML project lifecycle components on cloud (data lake, warehouse, clusters, serving)",
+      "lo": "CLO1, CLO2"
+    },
+    {
+      "topic": "3.3.1. Static vs dynamic training",
+      "lo": "CLO2"
+    }
+  ],
+  "assessments": [
+    {
+      "category": "Final Project: End-to-End Cloud MLOps Pipeline + Scientific Paper",
+      "part": "1",
+      "weight": "20.0%",
+      "clo": "CLO1–CLO16"
+    },
+    {
+      "category": "Lab 1: Data Versioning & Pipeline Orchestration",
+      "part": "1",
+      "weight": "7.5%",
+      "clo": "CLO3, CLO4, CLO5"
+    },
+    {
+      "category": "Lab 2: TFX Pipeline & Model Validation",
+      "part": "2",
+      "weight": "7.5%",
+      "clo": "CLO6, CLO7, CLO8"
+    },
+    {
+      "category": "Lab 3: Containerization & Kubernetes Deployment",
+      "part": "3",
+      "weight": "7.5%",
+      "clo": "CLO9, CLO10, CLO11"
+    },
+    {
+      "category": "Lab 4: Monitoring, Alerting & Automated Retraining",
+      "part": "4",
+      "weight": "7.5%",
+      "clo": "CLO11, CLO12, CLO13, CLO14"
+    },
+    {
+      "category": "Process Test 1: Incident Simulation (Drift & Rollback)",
+      "part": "1",
+      "weight": "7.5%",
+      "clo": "CLO12, CLO13, CLO14"
+    },
+    {
+      "category": "Process Test 2: Model Promotion Workflow",
+      "part": "2",
+      "weight": "7.5%",
+      "clo": "CLO9, CLO10, CLO11, CLO13"
+    },
+    {
+      "category": "Progress Test 1",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6"
+    },
+    {
+      "category": "Progress Test 2",
+      "part": "2",
+      "weight": "10.0%",
+      "clo": "CLO6, CLO7, CLO8, CLO9, CLO10, CLO11"
+    },
+    {
+      "category": "Final Examination",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8, CLO9, CLO10, CLO11, CLO12, CLO13, CLO14, CLO15"
+    }
+  ]
+}

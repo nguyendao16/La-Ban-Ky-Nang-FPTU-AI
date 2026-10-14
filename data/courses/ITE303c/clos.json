@@ -1,0 +1,18 @@
+[
+  {
+    "clo": "CLO1",
+    "description": "Understand the rise of algorithms, from the most basic to the fully autonomous, and discuss the trajectory of artificial intelligence and the broader implications for society as well, including Artificial Intelligence Algorithms Models, Limitations, Define Algorithms, Identify how learning algorithms are used in everyday life, Summarize moral quandaries with artificial general intelligence, Describe the economic benefits and consequences of artificial, Define general vs narrow intelligence."
+  },
+  {
+    "clo": "CLO2",
+    "description": "Explore fairness and bias in machine learning and ethical model building, including algorithmic fairness examples, fairness-accuracy trade-offs, fairness constraints, predictive model appraisal, bias recognition, Pareto curves, fairness as a modeling concept, methods for avoiding predictive bias, and bias errors in model attributes."
+  },
+  {
+    "clo": "CLO3",
+    "description": "Explore fundamental concepts involved in security and privacy of machine learning projects and affects user privacy and transparency now and in the future while creating useful predictive models, including Artificial Intelligence Privacy, Convenience, Define privacy in the context of machine learning, Identify issues of privacy in anonymous datasets, Analyze algorithmic privacy violations, Identify ways to maximize, Formulate an ethical model using privacy and fairness considerations."
+  },
+  {
+    "clo": "CLO4",
+    "description": "Able to apply bias and fairness analysis and skills in a real world or a fictional scenario, including Examining bias in a predictive text model, Apply bias and fairness analysis skills in a real world scenario, Understanding fairness issues with sensitive predictions, Apply game theory fairness analysis and skills in a fictional scenario."
+  }
+]

@@ -1,0 +1,341 @@
+{
+  "metadata": {
+    "syllabus_name": "Kỹ năng học thuật",
+    "course_name_english": "Academic skills",
+    "subject_code": "SSA101",
+    "description": "This course introduces essential academic skills for university success, focusing on effective study habits, critical and creative thinking, academic communication, and the responsible use of AI. Students will explore three key areas: AI and academic integrity, thinking skills for the digital age, and learning and communication at university. The course emphasizes self-directed learning and helps students manage their study, time, and learning strategies effectively in both traditional and online settings.",
+    "tools": "- Internet"
+  },
+  "clos": [
+    {
+      "clo_name": "CLO1",
+      "clo_details": "Understand concepts of university learning expectations and student responsibilities."
+    },
+    {
+      "clo_name": "CLO2",
+      "clo_details": "Apply effective study and memory strategies."
+    },
+    {
+      "clo_name": "CLO3",
+      "clo_details": "Identify test-taking strategies used in academic assessments."
+    },
+    {
+      "clo_name": "CLO4",
+      "clo_details": "Plan academic goals and manage study time effectively."
+    },
+    {
+      "clo_name": "CLO5",
+      "clo_details": "Implement strategies to manage academic stress and maintain well-being."
+    },
+    {
+      "clo_name": "CLO6",
+      "clo_details": "Demonstrate effective communication in academic contexts."
+    },
+    {
+      "clo_name": "CLO7",
+      "clo_details": "Utilize digital learning tools and online learning strategies."
+    },
+    {
+      "clo_name": "CLO8",
+      "clo_details": "Practice responsible and ethical use of AI in academic work."
+    },
+    {
+      "clo_name": "CLO9",
+      "clo_details": "Evaluate the credibility of academic information sources."
+    },
+    {
+      "clo_name": "CLO10",
+      "clo_details": "Apply thinking skills to analyze learning problems using critical or creative approaches."
+    },
+    {
+      "clo_name": "CLO11",
+      "clo_details": "Integrate academic skills in practical learning tasks or project work."
+    }
+  ],
+  "schedule": [
+    {
+      "topic": "Ice-breaking and Course introductions\nSession I. Effective Learning Skills\nExploring College:\nIntroduction\nWhy College?\nThe First Year of College Will Be an Experience",
+      "lo": "LO1"
+    },
+    {
+      "topic": "Exploring College (cont):\nCollege culture and expectations\nDiscussion and Practice",
+      "lo": "LO1"
+    },
+    {
+      "topic": "Exploring College (cont):\nCollege culture and expectations\nDiscussion and Practice",
+      "lo": "LO1, LO11"
+    },
+    {
+      "topic": "Studying, memory and Test taking:\nIntroduction\nMemory\nDiscussion and Practice",
+      "lo": "LO1, LO11"
+    },
+    {
+      "topic": "Studying, memory and Test taking:\nIntroduction\nStudying\nDiscussion and Practice",
+      "lo": "LO2, LO11"
+    },
+    {
+      "topic": "Studying, memory and Test taking (cont):\nTest taking\nDiscussion and Practice",
+      "lo": "LO2, LO11"
+    },
+    {
+      "topic": "Time Management Skills:\nIntroduction\nThe Benefits of Time Management\nDiscussion and Practice",
+      "lo": "LO3, LO11"
+    },
+    {
+      "topic": "Time Management Skills (cont.)\nTime Management in College\nDiscussion and Practice",
+      "lo": "LO4, LO11"
+    },
+    {
+      "topic": "Time Management Skills (cont.):\nProcrastination: The Enemy Within\nHow to Manage Time\nDiscussion and Practice",
+      "lo": "LO4, LO11"
+    },
+    {
+      "topic": "Time Management Skills (cont.):\nPrioritization: Self-Management of What You Do and When You Do It\nGoal Setting and Motivation\nDiscussion and Practice",
+      "lo": "LO4, LO11"
+    },
+    {
+      "topic": "Time Management Skills (cont.):\nEnhanced Strategies for Time and\nDiscussion and Practice",
+      "lo": "LO4, LO5, LO11"
+    },
+    {
+      "topic": "Time Management Skills (cont.):\nIdentifying and Managing Stress\nDiscussion and Practice",
+      "lo": "LO6, LO11"
+    },
+    {
+      "topic": "Part1 Project - Topic selection and planning",
+      "lo": "LO6, LO11"
+    },
+    {
+      "topic": "Part1 Project - Research and preparation",
+      "lo": "LO6, LO11"
+    },
+    {
+      "topic": "Part1 Project - Research and preparation",
+      "lo": "LO6"
+    },
+    {
+      "topic": "Communication Skills:\nIntroduction\nAn Overview of Communication\nPurpose of Communication\nCommunication and Technology",
+      "lo": "LO6, LO11"
+    },
+    {
+      "topic": "Communication Skills (cont.):\nCommunication and Technology\nDiscussion and Practice",
+      "lo": "LO6, LO11"
+    },
+    {
+      "topic": "Communication Skills (cont.):\nThe Context of Communication\nBarriers to Effective Communication\nDiscussion and Practice",
+      "lo": "LO6, LO11"
+    },
+    {
+      "topic": "Learning to Learn Online:\n1. Who am I as an online learner?\n2. Who am I on my learning journey with?\n3. Who are my instructors? What is their role?",
+      "lo": "LO6, LO11"
+    },
+    {
+      "topic": "Learning to Learn Online:\n1. Who am I as an online learner?\n2. Who am I on my learning journey with?\n3. Who are my instructors? What is their role?",
+      "lo": "LO6, LO11"
+    },
+    {
+      "topic": "Learning to Learn Online:\n1. Who am I as an online learner?\n2. Who am I on my learning journey with?\n3. Who are my instructors? What is their role?",
+      "lo": "LO7, LO11"
+    },
+    {
+      "topic": "Information Literacy\nDiscussion and Practice",
+      "lo": "LO7, LO11"
+    },
+    {
+      "topic": "Information Literacy\nDiscussion and Practice",
+      "lo": "LO1–LO7"
+    },
+    {
+      "topic": "Review session I\nQuiz 1",
+      "lo": "LO8, LO11"
+    },
+    {
+      "topic": "Session II. Issues in AI Use and Academic Ethics\nIntroduction AI and Ethics in Higher Education",
+      "lo": "LO8, LO11"
+    },
+    {
+      "topic": "AI and Digital Literacy\nWhat is Digital Literacy?\nAI Literacy\nThe Benefits and Drawbacks of AI",
+      "lo": "LO8, LO11"
+    },
+    {
+      "topic": "AI and Digital Literacy (cont.)\nPrivacy\nAI Hallucinations\nAI Accountability\nDiscussion and Practice",
+      "lo": "LO8, LO11"
+    },
+    {
+      "topic": "Ethics of Using AI in Higher Education and Its Impact on Academic Integrity\n-Implications of Using AI in Higher Education\n- Ethical Challenges of Using AI in Higher Education\n- Ethical Concerns About Biases and Surveillance in AI Algorithms",
+      "lo": "LO8, LO11"
+    },
+    {
+      "topic": "Ethics of Using AI in Higher Education and Its Impact on Academic Integrity (Cont)\nAcademic Integrity in Higher Education Under the Lens of AI\nImpact on Academic Integrity in the Form of Plagiarism Due to AI Tools",
+      "lo": "LO8, LO11"
+    },
+    {
+      "topic": "Ethics of Using AI in Higher Education and Its Impact on Academic Integrity (Cont)\nImpact on Academic Integrity Due to Efficacy of AI Detection Tools\nImpact on Academic Integrity Due to Human Biases Generated By AI tools",
+      "lo": "LO8, LO11"
+    },
+    {
+      "topic": "How to use AI to Help, Not Hinder, Your Learning",
+      "lo": "LO9, LO11"
+    },
+    {
+      "topic": "How to use AI to Help, Not Hinder, Your Learning (cont.)\nDiscussion and Practice",
+      "lo": "LO9, LO11"
+    },
+    {
+      "topic": "Review session II",
+      "lo": "LO8 - LO9"
+    },
+    {
+      "topic": "Part2 Project - Application of knowledge to practice",
+      "lo": "LO6, LO11"
+    },
+    {
+      "topic": "Part2 Project - Application of knowledge to practice",
+      "lo": "LO6, LO11"
+    },
+    {
+      "topic": "Part2 Project - Application of knowledge to practice",
+      "lo": "LO6, LO11"
+    },
+    {
+      "topic": "Session III. Thinking Skills for the Digital Age\nWhat thinking means\nAnalytical Thinking",
+      "lo": "LO10"
+    },
+    {
+      "topic": "Discussion and Practice",
+      "lo": "LO10, LO11"
+    },
+    {
+      "topic": "Discussion and Practice",
+      "lo": "LO10"
+    },
+    {
+      "topic": "Creative thinking",
+      "lo": "LO10, LO11"
+    },
+    {
+      "topic": "Discussion and Practice",
+      "lo": "LO10, LO11"
+    },
+    {
+      "topic": "Discussion and Practice",
+      "lo": "LO10"
+    },
+    {
+      "topic": "Critical thinking",
+      "lo": "LO10, LO11"
+    },
+    {
+      "topic": "Discussion and Practice",
+      "lo": "LO10, LO11"
+    },
+    {
+      "topic": "Discussion and Practice",
+      "lo": "LO10"
+    },
+    {
+      "topic": "Problem - Solving",
+      "lo": "LO10, LO11"
+    },
+    {
+      "topic": "Discussion and Practice",
+      "lo": "LO10, LO11"
+    },
+    {
+      "topic": "Discussion and Practice",
+      "lo": "LO10"
+    },
+    {
+      "topic": "Metacognition",
+      "lo": "LO10, LO11"
+    },
+    {
+      "topic": "Discussion and Practice",
+      "lo": "LO10, LO11"
+    },
+    {
+      "topic": "Discussion and Practice\nReview session III",
+      "lo": "LO10"
+    },
+    {
+      "topic": "Individual Progress Test",
+      "lo": "LO1-10"
+    },
+    {
+      "topic": "Individual Progress Test",
+      "lo": "LO1-10"
+    },
+    {
+      "topic": "Individual Progress Test",
+      "lo": "LO1-11"
+    },
+    {
+      "topic": "Group Project Part 3: Presentation & Final report of group project",
+      "lo": "LO1-11"
+    },
+    {
+      "topic": "Group Project Part 3: Presentation & Final report of group project",
+      "lo": "LO1-11"
+    },
+    {
+      "topic": "Group Project Part 3: Presentation & Final report of group project",
+      "lo": "LO1-11"
+    },
+    {
+      "topic": "Group Project Part 3: Presentation & Final report of group project (cont)",
+      "lo": "LO1-11"
+    },
+    {
+      "topic": "Group Project Part 3: Presentation & Final report of group project (cont)",
+      "lo": "LO1-10"
+    },
+    {
+      "topic": "Revise course content and prepare for the final examination.",
+      "lo": "LO1-10"
+    }
+  ],
+  "assessments": [
+    {
+      "category": "Individual Progress Test",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": "LO1-10"
+    },
+    {
+      "category": "Participation",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": "LO1-10"
+    },
+    {
+      "category": "Project Part 1 – Proposal & Presentation",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": "LO1,2,3,4,5"
+    },
+    {
+      "category": "Project Part 2 – Project Execution",
+      "part": "1",
+      "weight": "20.0%",
+      "clo": "LO5,6,7,8"
+    },
+    {
+      "category": "Project Part 3 – Final Report & Presentation",
+      "part": "1",
+      "weight": "20.0%",
+      "clo": "LO1-10"
+    },
+    {
+      "category": "Quiz",
+      "part": "1",
+      "weight": "5.0%",
+      "clo": "LO2, LO4, LO8"
+    },
+    {
+      "category": "Final Exam",
+      "part": "1",
+      "weight": "25.0%",
+      "clo": "LO1-LO10"
+    }
+  ]
+}

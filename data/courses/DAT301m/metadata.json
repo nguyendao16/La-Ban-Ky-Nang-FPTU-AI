@@ -1,0 +1,7 @@
+{
+  "syllabus_name": "AI Development_Phát triển UDTTNT",
+  "course_name_english": "AI Development",
+  "subject_code": "DAT301m",
+  "description": "Learn how to build real-world AI applications with TensorFlow! In this hands-on course, you’ll train neural networks for computer vision, apply techniques like data augmentation, dropout, and transfer learning, and build natural language processing systems using RNNs, GRUs, and LSTMs. Through project-based learning, you’ll gain practical experience creating image classifiers, object detectors, and text generators—preparing you with the skills to design and deploy powerful AI solutions.",
+  "tools": "Jupyter Notebooks, Google Colab, ChatGPT, Github Copilot"
+}

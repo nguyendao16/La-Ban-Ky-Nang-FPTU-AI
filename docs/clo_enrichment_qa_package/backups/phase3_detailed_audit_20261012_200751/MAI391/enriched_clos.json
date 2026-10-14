@@ -1,0 +1,139 @@
+{
+  "course_id": "MAI391",
+  "clos": [
+    {
+      "clo_id": "CLO0",
+      "original_description": "Analytic Geometry\nLO 0.1 Define a norm and an inner product on a vector space\nLO 0.2 Determine bilinear mapping and check if a square matrix is positive definite.\nLO 0.3 Find the length of a vector as well as the distance between two vectors in a vector space by using inner product.\nLO 0.4 Find the angle between two vectors and check if they are orthogonal. Check if a square matrix is orthogonal.\nLO 0.5 Check if a set of vectors is an orthogonal or an orthonormal basis of a given vector space. Determine an orthogonal complement of a subspace.\nLO 0.6 Construct the projection onto a subspace.",
+      "enriched_description": "Apply analytic geometry concepts, including norms, inner products, bilinear mappings, positive definite matrices, vector lengths and distances, angles, orthogonality, orthogonal matrices, orthogonal and orthonormal bases, orthogonal complements, and projections onto subspaces.",
+      "source_topic_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO1",
+      "original_description": "Matrix Decomposition\nLO 1.1\nCompute the determinant of a square matrix, decide when a square matrix is invertible by equivalent conditions.\nFind the characteristic polynomial, eigenvalues and eigenvectors of a matrix.\nUnderstand some theorems concerning eigenvalues.\nLO1.2\nDiagonalize a matrix by eigendecomposition.\nDecompose a matrix by singular value decomposition.\nLO1.3\nCompute matrix approximation.",
+      "enriched_description": "Use matrix decompositions, including determinants, traces, invertibility conditions, characteristic polynomials, eigenvalues, eigenvectors, eigendecomposition, diagonalization, singular value decomposition, and matrix approximation.",
+      "source_topic_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO2",
+      "original_description": "Vector Calculus\nLO 2.1\nRevisit differentiation of a univariate function.\nFind Taylor expansion of a smooth function at a given point.\nLO 2.2 Find partial derivatives using basic formulas and the chain rule, gradients of multivariate functions.\nLO 2.3 Find gradients, Jacobian matrices of Vector-Valued Functions.\nLO 2.4 Take gradients of matrices with respect to vectors.\nLO 2.5 Understand the idea of backpropagation in deep learning.\nLO 2.6 Find the higher-order partial derivatives, linearization and multivariate Taylor series of multivariate functions.",
+      "enriched_description": "Apply vector calculus concepts, including univariate differentiation, Taylor expansion, partial derivatives, chain rule, gradients of multivariate functions, Jacobian matrices of vector-valued functions, matrix gradients with respect to vectors, backpropagation, higher-order partial derivatives, linearization, and multivariate Taylor series.",
+      "source_topic_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO3",
+      "original_description": "Probability and Distributions\nLO 3.1 Catch the notions of discrete variable continuous variable; find the probability mass function, the probability density function, the cumulative distribution function and their properties.\nLO 3.2 Calculate conditional probabilities; use multiplication rule, total probability rule and Bayes theorem to find probabilities.\nLO 3.3 Compute the mean and variance of a random variable, compute the covariance and the correlation between two variables.\nLO 3.4 Consider whether two variables are independent.\nLO 3.5 Describe a Gauss distribution, marginals, conditionals, sums and products of Gauss distributions.",
+      "enriched_description": "Apply probability and distribution concepts, including discrete and continuous random variables, probability mass functions, probability density functions, cumulative distribution functions, conditional probability, multiplication rule, total probability rule, Bayes' theorem, means, variances, covariance, correlation, independence, and Gaussian distributions with marginals, conditionals, sums, and products.",
+      "source_topic_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO4",
+      "original_description": "Continuous Optimization\nLO 4.1 Find a local minimum of a function using gradient descent.\nLO 4.2 Use Lagrange multipliers to find the maximum/minimum value of a multivariate function with constraints.\nLO 4.3 Understand convex optimization problems and solve linear programings.",
+      "enriched_description": "Solve continuous optimization problems using gradient descent for local minima, Lagrange multipliers for constrained extrema, convex optimization concepts, and linear programming.",
+      "source_topic_indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO5",
+      "original_description": "Linear Regression\nLO 5.1 Use maximum likelihood and maximum a posteriori (MAP) estimation to find optimal model parameters.\nLO 5.2 Using these parameter estimates to have a brief look at generalization errors and overfitting.\nLO 5.3 Discuss Bayesian linear regression.",
+      "enriched_description": "Apply linear regression concepts, including problem formulation, parameter estimation, maximum likelihood estimation, maximum a posteriori estimation, generalization error, overfitting, and Bayesian linear regression.",
+      "source_topic_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO6",
+      "original_description": "Dimensionality Reduction with PCA\nLO 6.1 Compute the data covariance matrix of a data set, construct m-dimensional subspace with maximum variance.\nLO 6.2 Find the basis of theprincipal subspace.\nLO 6.3 Using Low-Rank Matrix to approximate PCA.\nLO 6.4 Discuss PCA in high dimension and key steps of PCA.",
+      "enriched_description": "Apply dimensionality reduction with PCA, including covariance matrices, maximum-variance subspaces, principal subspace bases, low-rank matrix approximation, PCA in high dimensions, projection perspectives, eigenvector computation, and key practical PCA steps.",
+      "source_topic_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO7",
+      "original_description": "Classification with SVM\nLO 7.1 Understand binary classification by seperating hyperplane.\nLO 7.2 Catch mathematical ideas of support vector machine.\nLO 7.3 Understand the advantage of dual support vector machine.\nLO 7.4 Introduce non-linear classifiers by kernels.\nLO 7.5 Consider two different approaches for finding the optimal solution for the SVM.",
+      "enriched_description": "Apply support vector machine classification, including separating hyperplanes, primal and dual SVM formulations, kernel-based nonlinear classifiers, and numerical approaches for finding optimal SVM solutions.",
+      "source_topic_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "review_required": false,
+      "review_notes": []
+    },
+    {
+      "clo_id": "CLO8",
+      "original_description": "Attitude and soft skills\nLO 8 Develop working in group skills and self-discipline",
+      "enriched_description": "Develop group-working skills and self-discipline for applied mathematics and machine learning project contexts.",
+      "source_topic_indices": [],
+      "review_required": true,
+      "review_notes": [
+        "Mapped topics are review, progress-test, or presentation logistics and do not directly support the soft-skill CLO; no topic-supported enrichment was added."
+      ]
+    }
+  ]
+}

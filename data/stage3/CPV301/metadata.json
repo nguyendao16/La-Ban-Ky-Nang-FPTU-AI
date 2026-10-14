@@ -1,0 +1,7 @@
+{
+  "syllabus_name": "Computer Vision_Thị giác máy tính",
+  "course_name_english": "",
+  "subject_code": "CPV301",
+  "description": "-This course provides the basics of computer vision.\n-Students will have access to knowledge from image representation, lighting, image acquisition through the camera, camera calibration techniques.\n-Learn line and edge detection techniques in images, filters as well as Canny, RANSAC methods\n-Students will learn advanced image processing knowledge such as Image segmentation, object detection, object recognition, and object tracking.\n-Implement a computer vision project in recognizing objects in photos or videos",
+  "tools": "Text Book\n'Pycharm or Matlab\nInternet"
+}

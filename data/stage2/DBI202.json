@@ -1,0 +1,313 @@
+{
+  "metadata": {
+    "syllabus_name": "Database Systems_Các hệ cơ sở dữ liệu",
+    "course_name_english": "Database Systems",
+    "subject_code": "DBI202",
+    "description": "- Knowledge about database systems has become an essential part of an education in computer science because database management has evolved from a specialized computer application to a central component of a modern computing environment.\n- The content of this course includes aspects of database management basic concepts, database design, database languages, and database-system implementation. Basing on these contents, the course emphasizes on how to organize, maintain and retrieve efficiently data and information from a DBMS.",
+    "tools": "Microsoft SQL Server"
+  },
+  "clos": [
+    {
+      "clo_name": "CLO1",
+      "clo_details": "Understand thedatabase concepts and database management system software"
+    },
+    {
+      "clo_name": "CLO2",
+      "clo_details": "Understand the relation model of data and Algebraic Query Language"
+    },
+    {
+      "clo_name": "CLO3",
+      "clo_details": "Understand data normalization and apply normalization techniques in database design"
+    },
+    {
+      "clo_name": "CLO4",
+      "clo_details": "Be able to model an application’s data requirements using conceptual modeling tools like ER diagrams and design database schemas based on the conceptual model."
+    },
+    {
+      "clo_name": "CLO5",
+      "clo_details": "Be proficient in structure query language including Data Definition Language(DDL) and Data Manipulation Language(DML)"
+    },
+    {
+      "clo_name": "CLO6",
+      "clo_details": "Understand PL/SQL concepts and manipulate with View, Cursors, Stored Procedures, Functions, Database Triggers"
+    },
+    {
+      "clo_name": "CLO7",
+      "clo_details": "Apply the Index in database design and query optimization"
+    }
+  ],
+  "schedule": [
+    {
+      "topic": "Chapter 1. The Worlds of Database Systems\n1.1 The Evolution of Database Systems\n1.2 Overview of Database Management System",
+      "lo": "LO1"
+    },
+    {
+      "topic": "1.3 Outline of Database-System Studies\nAssignment Introduction (individual)",
+      "lo": "LO1"
+    },
+    {
+      "topic": "Chapter 2. The Relational Model of Data\n2.1 An Overview of Data Models",
+      "lo": "LO2"
+    },
+    {
+      "topic": "2.2 Basics of the Relational Model",
+      "lo": "LO2"
+    },
+    {
+      "topic": "2.4 An Algebraic Query Language",
+      "lo": "LO2"
+    },
+    {
+      "topic": "2.4 An Algebraic Query Language (cont.)",
+      "lo": "LO2"
+    },
+    {
+      "topic": "Lab1 assistance",
+      "lo": "LO1, LO2"
+    },
+    {
+      "topic": "Lab1 assistance (cont.)",
+      "lo": "LO1, LO2"
+    },
+    {
+      "topic": "Chapter 3. Design Theory for Relational Databases\n3.1 Functional Dependencies",
+      "lo": "LO3"
+    },
+    {
+      "topic": "3.2 Rules About Functional Dependencies",
+      "lo": "LO3"
+    },
+    {
+      "topic": "3.3 Design of Relational Database Schema",
+      "lo": "LO3"
+    },
+    {
+      "topic": "3.3 Design of Relational Database Schema (cont.)",
+      "lo": "LO3"
+    },
+    {
+      "topic": "3.5 Normal Forms (1NF, 2NF)",
+      "lo": "LO3"
+    },
+    {
+      "topic": "3.5 Normal Forms (cont. 3NF, BCNF)",
+      "lo": "LO3"
+    },
+    {
+      "topic": "Lab 2 assistance",
+      "lo": "LO3"
+    },
+    {
+      "topic": "Lab 2 assistance (cont.)",
+      "lo": "LO3"
+    },
+    {
+      "topic": "Progress test 1 (<=30')\nAssignment assistance",
+      "lo": "LO1, LO2, LO3"
+    },
+    {
+      "topic": "Assignment assistance (cont.)",
+      "lo": "LO1, LO2, LO3"
+    },
+    {
+      "topic": "Chapter 4. High-Level Database Models\n4.1 The Entity / Relationship Model",
+      "lo": "LO4"
+    },
+    {
+      "topic": "4.2 Design Principles\n4.3 Constraints in the E / R Model",
+      "lo": "LO4"
+    },
+    {
+      "topic": "4.4 Weak Entity Sets\n4.5 From E / R Diagrams to Relational Models",
+      "lo": "LO4"
+    },
+    {
+      "topic": "4.6 Converting Subclass Structures to Relations",
+      "lo": "LO4"
+    },
+    {
+      "topic": "Lab 3 assistance",
+      "lo": "LO4"
+    },
+    {
+      "topic": "Lab 3 assistance (cont.)",
+      "lo": "LO4"
+    },
+    {
+      "topic": "Assignment assistance",
+      "lo": "LO1, LO2, LO3, LO4"
+    },
+    {
+      "topic": "Assignment assistance (cont.)",
+      "lo": "LO1, LO2, LO3, LO4"
+    },
+    {
+      "topic": "Chapter 6. The Database Language SQL\n6.1 Data Definition Lanaguage (DDL)",
+      "lo": "LO5"
+    },
+    {
+      "topic": "DDL (cont.)",
+      "lo": "LO5"
+    },
+    {
+      "topic": "6.2. Implement constraints on attributes with MS SQL Server (Keys and Foreign Keys, UNIQUE, CHECK,..)",
+      "lo": "LO5"
+    },
+    {
+      "topic": "6.2. Implement constraints on attributes with MS SQL Server (cont.)",
+      "lo": "LO5"
+    },
+    {
+      "topic": "6.3 DML introduction & Basic of SQL Queries",
+      "lo": "LO5"
+    },
+    {
+      "topic": "DML (cont.)",
+      "lo": "LO5"
+    },
+    {
+      "topic": "6.4 Query on more one relation",
+      "lo": "LO5"
+    },
+    {
+      "topic": "6.4 Query on more one relation (cont.)",
+      "lo": "LO5"
+    },
+    {
+      "topic": "6.5 Nested Queries in SQL",
+      "lo": "LO5"
+    },
+    {
+      "topic": "6.5 Nested Queries in SQL (cont.)",
+      "lo": "LO5"
+    },
+    {
+      "topic": "6.6 Aggregation Queries in SQL",
+      "lo": "LO5"
+    },
+    {
+      "topic": "6.6 Aggregation Queries in SQL (cont.)",
+      "lo": "LO5"
+    },
+    {
+      "topic": "6.7 Database Modifications (INSERT, UPDATE statement)",
+      "lo": "LO5"
+    },
+    {
+      "topic": "6.7 Database Modifications (cont. DELETE statement)",
+      "lo": "LO5"
+    },
+    {
+      "topic": "Chapter 7. Practical Issues of database application\n7.1. Index",
+      "lo": "LO7"
+    },
+    {
+      "topic": "Index (cont.)",
+      "lo": "LO7"
+    },
+    {
+      "topic": "7.2. Transaction, View and Query Optimization",
+      "lo": "LO6, LO7"
+    },
+    {
+      "topic": "7.2. Transaction, View and Query Optimization (cont.)",
+      "lo": "LO6, LO7"
+    },
+    {
+      "topic": "Lab 4 assistance",
+      "lo": "LO5, LO6, LO7"
+    },
+    {
+      "topic": "Lab 4 assistance (cont.)",
+      "lo": "LO5, LO6, LO7"
+    },
+    {
+      "topic": "Assignment assistance (focus on query)",
+      "lo": "LO1, LO2, LO3, LO4, LO5, LO7"
+    },
+    {
+      "topic": "Assignment assistance (focus on query) (cont.)",
+      "lo": "LO1, LO2, LO3, LO4, LO5, LO7"
+    },
+    {
+      "topic": "Chapter 8. Constraints and T-SQL Programming\n8.1 Triggers",
+      "lo": "LO6"
+    },
+    {
+      "topic": "8.2 Constraint with triggers",
+      "lo": "LO6"
+    },
+    {
+      "topic": "8.3 View, Function",
+      "lo": "LO6"
+    },
+    {
+      "topic": "8.3 View, Function (cont.)",
+      "lo": "LO6"
+    },
+    {
+      "topic": "8.4 Cursors",
+      "lo": "LO6"
+    },
+    {
+      "topic": "8.5 Implement stored procedure with MS SQL Server",
+      "lo": "LO6"
+    },
+    {
+      "topic": "Progress test 2\nLab 5 assistance",
+      "lo": "LO4, LO5, LO6, LO7"
+    },
+    {
+      "topic": "Lab 5 assistance (cont.)",
+      "lo": "LO4, LO5, LO6, LO7"
+    },
+    {
+      "topic": "Assignment review",
+      "lo": "LO1, LO2, LO3, LO4, LO5, LO6, LO7"
+    },
+    {
+      "topic": "Assignment review (cont.)",
+      "lo": "LO1, LO2, LO3, LO4, LO5, LO6, LO7"
+    },
+    {
+      "topic": "Review",
+      "lo": "All LOs"
+    },
+    {
+      "topic": "Review",
+      "lo": "All LOs"
+    }
+  ],
+  "assessments": [
+    {
+      "category": "Assignment",
+      "part": "1",
+      "weight": "20.0%",
+      "clo": ""
+    },
+    {
+      "category": "Lab",
+      "part": "5",
+      "weight": "10.0%",
+      "clo": ""
+    },
+    {
+      "category": "Practical Exam",
+      "part": "1",
+      "weight": "30.0%",
+      "clo": ""
+    },
+    {
+      "category": "Progress test",
+      "part": "2",
+      "weight": "10.0%",
+      "clo": ""
+    },
+    {
+      "category": "Final exam",
+      "part": "1",
+      "weight": "30.0%",
+      "clo": ""
+    }
+  ]
+}

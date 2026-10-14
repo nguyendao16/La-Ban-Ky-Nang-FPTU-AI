@@ -1,0 +1,54 @@
+[
+  {
+    "clo_name": "CLO1",
+    "clo_details": "Understand the subsystems of a computer and describe the role of these components"
+  },
+  {
+    "clo_name": "CLO2",
+    "clo_details": "Know how to convert a number from one base to other base( decimal, binary, octal and hexadecimal)"
+  },
+  {
+    "clo_name": "CLO3",
+    "clo_details": "Describe how different data type is stored inside a computer as bit patterns and operations on data"
+  },
+  {
+    "clo_name": "CLO4",
+    "clo_details": "Describe the layers in netwoking and their relationship"
+  },
+  {
+    "clo_name": "CLO5",
+    "clo_details": "Undestand the role of OS in a computer system"
+  },
+  {
+    "clo_name": "CLO6",
+    "clo_details": "Define a algorithm and describe tools used to develop algorithms"
+  },
+  {
+    "clo_name": "CLO7",
+    "clo_details": "Explain how a program in a high-level language is translated into machine language"
+  },
+  {
+    "clo_name": "CLO8",
+    "clo_details": "Describe the software lifecycle"
+  },
+  {
+    "clo_name": "CLO9",
+    "clo_details": "Discuss some data structures: Array, Records, Linked list"
+  },
+  {
+    "clo_name": "CLO10",
+    "clo_details": "Distinguish between text file and binary file and access methods"
+  },
+  {
+    "clo_name": "CLO11",
+    "clo_details": "Describe and explain operations within a relational database"
+  },
+  {
+    "clo_name": "CLO12",
+    "clo_details": "Descibe security goals and discuss ethical issues"
+  },
+  {
+    "clo_name": "CLO13",
+    "clo_details": "Describe artificial intelligence and its basic concepts"
+  }
+]

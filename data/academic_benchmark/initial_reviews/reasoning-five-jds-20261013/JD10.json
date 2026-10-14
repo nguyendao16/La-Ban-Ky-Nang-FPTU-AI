@@ -1,0 +1,194 @@
+{
+  "review_type": "academic_knowledge_review",
+  "overview": "Hồ sơ học thuật phù hợp rõ nhất với các phần của JD liên quan Python, truy xuất dữ liệu từ APIs/nhiều nguồn, workflow data science/AI có hướng dẫn, SQL phục vụ phân tích và các project học thuật tích hợp Watson AI services. Minh chứng trực tiếp nổi bật gồm ADY201m/CLO5 và CLO7 về Python APIs, SQL/database access và guided project workflow với achievement excellent; AIL303m/CLO1 về truy xuất dữ liệu từ SQL/NoSQL/APIs/Cloud với achievement good; cùng DAP391m/CLO5-CLO7 về tích hợp AI services, AI-powered solutions và mini capstone với achievement excellent. Về SQL, hồ sơ cho thấy cả nền tảng hệ CSDL ở DBI202 với achievement basic cho SQL/T-SQL/index optimization và phần bổ trợ thiên phân tích dữ liệu ở ADY201m với achievement good/excellent. Ở mảng GenAI/LLM, AIG202c cung cấp ngữ cảnh generative AI, prompt engineering và Watson Assistant ở mức good, nhưng hồ sơ hiện có chưa cung cấp bằng chứng trực tiếp cho các mục rất cụ thể như pandas/numpy, JSON/CSV, tokens/context/temperature/function calling, structured JSON/XML outputs, Git operations được đánh giá riêng, MCP/RAG/vector search, hay BigQuery/Snowflake.",
+  "requirement_reviews": [
+    {
+      "jd_requirement": "Responsibilities/Qualifications: build data/API integration tools và guided AI workflows bằng Python và APIs",
+      "coverage": "covered",
+      "comment": "ADY201m/CLO5 bao gồm yêu cầu học tập về Python fundamentals, Python APIs, thu thập dữ liệu với Python và dùng Python cho data science/AI/development workflows; achievement excellent phản ánh kết quả học thuật tốt đối với CLO này. AIL303m/CLO1 bao gồm truy xuất dữ liệu từ SQL, NoSQL, APIs và Cloud; achievement good. ADY201m/CLO7 yêu cầu triển khai một guided data science project với Python fundamentals, SQL/database access, preprocessing, modeling, evaluation, deployment và reporting; achievement excellent. DAP391m/CLO5 bổ sung nội dung triển khai ứng dụng tích hợp nhiều Watson AI services; achievement excellent. Tổ hợp này bao phủ về mặt học thuật phần xây dựng workflow AI/data và tích hợp API, dù bối cảnh product/marketing của JD không phải trọng tâm được nêu trong hồ sơ.",
+      "evidence": [
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO5"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Qualifications: Python with pandas/numpy, JSON/CSV và AI SDKs",
+      "coverage": "related",
+      "comment": "ADY201m/CLO5 nêu Python libraries và API support cho data science tasks; achievement excellent. PFP191/CLO5 bao gồm đọc/ghi tệp văn bản và xử lý file trong Python; achievement excellent. DAP391m/CLO6 bao gồm phát triển ứng dụng và AI powered solutions với Watson APIs; achievement excellent. Tuy vậy, hồ sơ học thuật hiện có chưa nêu trực tiếp pandas, numpy, JSON, CSV hay một AI SDK cụ thể trong các CLO/metadata đã cung cấp, nên các thành phần được nêu đích danh này mới được hỗ trợ ở mức liên quan.",
+      "evidence": [
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "PFP191",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO6"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Qualifications: analytical SQL và data-warehouse concepts",
+      "coverage": "related",
+      "comment": "DBI202/CLO5 bao gồm SQL DDL/DML, truy vấn nhiều bảng, nested queries, aggregation và cập nhật dữ liệu trên Microsoft SQL Server; achievement basic. DBI202/CLO6 bao gồm T-SQL programming concepts, views, cursors, stored procedures, functions, triggers và transaction concepts; achievement basic. DBI202/CLO7 bao gồm áp dụng index để hỗ trợ query optimization; achievement basic. ADY201m/CLO1 bổ sung SQL-based data analysis và database access with Python với achievement good, còn ADY201m/CLO7 áp dụng SQL/database access trong guided project với achievement excellent. Các minh chứng này hỗ trợ rõ cho SQL phân tích trong học tập; riêng data-warehouse concepts chưa được nêu trực tiếp trong các CLO/metadata đã cung cấp.",
+      "evidence": [
+        {
+          "course_code": "DBI202",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "DBI202",
+          "clo": "CLO6"
+        },
+        {
+          "course_code": "DBI202",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO7"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Qualifications: LLM concepts including tokens, context, temperature và function calling",
+      "coverage": "related",
+      "comment": "AIG202c/CLO3 bao gồm giới thiệu các mô hình và công cụ generative AI; achievement good. AIG202c/CLO4 bao gồm prompt engineering basics, techniques và approaches; achievement good. AIG202c/CLO5 đề cập tạo và triển khai chatbot với Watson Assistant; achievement good. DAP391m/CLO6 bổ sung bối cảnh phát triển AI powered solutions với Watson APIs; achievement excellent. Các học phần này liên quan đến bối cảnh ứng dụng LLM/GenAI, nhưng hồ sơ hiện có chưa nêu trực tiếp các khái niệm tokens, context, temperature hoặc function calling.",
+      "evidence": [
+        {
+          "course_code": "AIG202c",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "AIG202c",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "AIG202c",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO6"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Responsibilities/Qualifications: design/test prompts, evaluation cases, applied prompting và structured JSON/XML outputs",
+      "coverage": "related",
+      "comment": "AIG202c/CLO4 nêu trực tiếp prompt engineering basics, techniques và approaches; achievement good. AIG202c/CLO5 bao gồm dialog design và deployment cho chatbot Watson Assistant; achievement good. DAP391m/CLO5 bổ sung ngữ cảnh tích hợp chatbot trong final project; achievement excellent. Vì vậy hồ sơ có bằng chứng học thuật liên quan đến prompting ứng dụng, nhưng chưa có mô tả trực tiếp về prompt evaluation cases/testing hoặc structured JSON/XML outputs.",
+      "evidence": [
+        {
+          "course_code": "AIG202c",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "AIG202c",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO5"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Qualifications: a prior LLM-API prototype",
+      "coverage": "related",
+      "comment": "DAP391m/CLO5 bao gồm triển khai ứng dụng dùng nhiều Watson AI services và chatbot integration trong final project context; achievement excellent. DAP391m/CLO6 bao gồm phát triển applications và AI powered solutions với Watson APIs; achievement excellent. DAP391m/CLO7 bao gồm mini capstone với các bước từ data collection đến reporting; achievement excellent. AIG202c/CLO5 cũng bao gồm tạo và deploy chatbot với Watson Assistant; achievement good. Đây là các kết quả học thuật dạng project/prototype trong môi trường môn học; tuy nhiên hồ sơ chưa xác nhận trực tiếp một prior LLM-API prototype hay API của mô hình ngôn ngữ cụ thể.",
+      "evidence": [
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO6"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "AIG202c",
+          "clo": "CLO5"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Qualifications: basic Git operations; responsibility context about a versioned prompt library",
+      "coverage": "related",
+      "comment": "ADY201m/CLO3 liệt kê GitHub trong nhóm công cụ data science và yêu cầu dùng ít nhất một công cụ cho basic data operations; achievement good. Git/GitHub cũng được liệt kê trong metadata.tools của ADY201m và DAP391m, cho thấy có ngữ cảnh chương trình học liên quan đến version control. Tuy vậy, wording của CLO3 không cho biết công cụ nào đã được chọn, và hồ sơ chưa có CLO đánh giá trực tiếp các thao tác Git cơ bản hoặc việc duy trì versioned prompt library.",
+      "evidence": [
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "ADY201m",
+          "metadata_field": "tools"
+        },
+        {
+          "course_code": "DAP391m",
+          "metadata_field": "tools"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Responsibilities + Preferred: tool-calling/MCP agents và tích hợp với communication/business services; preferred thêm RAG/vector search hoặc agent frameworks/MCP",
+      "coverage": "related",
+      "comment": "DAP391m/CLO5 và CLO6 bao gồm tích hợp nhiều Watson AI services và phát triển AI powered solutions; cả hai đều có achievement excellent. AIL303m/CLO1 bổ sung truy xuất dữ liệu từ APIs/Cloud với achievement good. Các minh chứng này liên quan đến phần tích hợp dịch vụ/API trong JD. Tuy nhiên, hồ sơ học thuật hiện có chưa nêu trực tiếp tool-calling, MCP, agent frameworks, communication/business services cụ thể, cũng như RAG/vector search.",
+      "evidence": [
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO6"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO1"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Preferred: BigQuery/Snowflake và report automation",
+      "coverage": "related",
+      "comment": "DAP391m/CLO7 bao gồm mini capstone với data visualization, model evaluation và reporting; achievement excellent. Metadata description của DAP391m còn nêu phạm vi tạo interactive dashboards để hỗ trợ hiểu dữ liệu. Điều này tạo bối cảnh học thuật liên quan đến reporting/dashboard. Tuy nhiên BigQuery và Snowflake không được nêu trực tiếp, và report automation cũng chưa được đánh giá trực tiếp trong các CLO đã cung cấp.",
+      "evidence": [
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "DAP391m",
+          "metadata_field": "description"
+        }
+      ]
+    }
+  ],
+  "conclusion": "Tóm lại, hồ sơ học thuật hiện có cho thấy quá trình học đã bao quát tốt Python/API workflows, SQL phục vụ phân tích, thống kê-học máy và một số project học thuật tích hợp AI services; các achievement liên quan nổi bật nằm ở good/excellent trong ADY201m, AIG202c và DAP391m, trong khi DBI202 cung cấp phần SQL/T-SQL/index ở mức basic. Hồ sơ cũng có ngữ cảnh chương trình học liên quan đến Git/GitHub qua CLO và metadata.tools, nhưng chưa có đánh giá trực tiếp thao tác Git cơ bản. Đối với các yêu cầu đặc thù của JD như pandas/numpy, data warehouse, tokens/context/temperature/function calling, structured JSON/XML outputs, MCP/agent frameworks/RAG/vector search, BigQuery/Snowflake và một prior LLM-API prototype được nêu đích danh, hồ sơ học thuật hiện có mới cho thấy mức liên quan hoặc chưa xác nhận trực tiếp ở phạm vi CLO/metadata đã cung cấp."
+}

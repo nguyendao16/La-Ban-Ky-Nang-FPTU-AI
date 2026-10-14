@@ -1,0 +1,18 @@
+[
+  {
+    "clo_name": "CLO1",
+    "clo_details": "Compare and contrast software development methodologies with respect to environmental, organizational, and product constraints."
+  },
+  {
+    "clo_name": "CLO2",
+    "clo_details": "Demonstrate the ability to participate effectively in agile practices/process for software development."
+  },
+  {
+    "clo_name": "CLO3",
+    "clo_details": "Apply lean techniques / methods to software development"
+  },
+  {
+    "clo_name": "CLO4",
+    "clo_details": "Comfortably and effectively participate in various techniques and processes for building secure and high quality software."
+  }
+]

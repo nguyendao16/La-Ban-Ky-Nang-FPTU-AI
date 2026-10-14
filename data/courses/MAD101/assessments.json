@@ -1,0 +1,44 @@
+[
+  {
+    "category": "Assignment 1",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO1, CLO2, CLO6"
+  },
+  {
+    "category": "Assignment 2",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO3, CLO4, CLO5, CLO6"
+  },
+  {
+    "category": "Assignment 3",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO7, CLO8"
+  },
+  {
+    "category": "Progress Test 1",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO1, CLO2, CLO6"
+  },
+  {
+    "category": "Progress Test 2",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO3, CLO4, CLO5, CLO6"
+  },
+  {
+    "category": "Progress Test 3",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "CLO7, CLO8"
+  },
+  {
+    "category": "Final Exam",
+    "part": "1",
+    "weight": "40.0%",
+    "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8"
+  }
+]

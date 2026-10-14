@@ -1,0 +1,329 @@
+{
+  "metadata": {
+    "syllabus_name": "Multimodal AI_TTNT đa phương thức",
+    "course_name_english": "Multimodal AI",
+    "subject_code": "MGA301",
+    "description": "Multimodal AI course aim on building AI systems that operate across modalities - vision, language, audio, video, 3D, and embodiment. The course frames multimodality through four core problems (representation, alignment, fusion, translation) and proceeds through cross-modal representations (CLIP, SigLIP, ImageBind), fusion architectures (cross-attention, Perceiver, Q-Former, gated cross-attention), vision-language and unified models (LLaVA, BLIP-2, Flamingo, Chameleon/Janus families), speech and audio, video and world models, 3D and embodied agents, multimodal reasoning / agents / RAG, evaluation (benchmark saturation, hallucination), efficiency and deployment, and safety/provenance/frontiers. Mathematical depth is assumed from the prerequisites (Deep Learning, Advanced Generative AI); this course focuses on architectures, training recipes, evaluation, and hands-on multimodal systems.",
+    "tools": "`- Python 3.10+ with PyTorch and Hugging Face Transformers\n- Google Colab or Jupyter Notebook (GPU access for labs)\n- A code/text editor (e.g., VS Code) - Open-weight VLMs (LLaVA/SigLIP/Whisper families)\n- Datasets via Hugging Face Datasets (COCO, VQA, AudioSet, video benchmarks)"
+  },
+  "clos": [
+    {
+      "clo_name": "CLO1",
+      "clo_details": "Identify and characterize multimodal AI systems and the four core problems of multimodal machine learning - representation, alignment, fusion, and translation."
+    },
+    {
+      "clo_name": "CLO2",
+      "clo_details": "Build cross-modal representations using contrastive and self-supervised methods, and evaluate them via zero-shot transfer and cross-modal retrieval."
+    },
+    {
+      "clo_name": "CLO3",
+      "clo_details": "Design and implement fusion architectures (cross-attention, latent bottlenecks, connector modules) that combine heterogeneous modalities."
+    },
+    {
+      "clo_name": "CLO4",
+      "clo_details": "Apply vision-language and unified multimodal architectures (LLaVA, BLIP-2, Flamingo, and unified token/diffusion-transformer families) and instruction-tune them."
+    },
+    {
+      "clo_name": "CLO5",
+      "clo_details": "Apply multimodal techniques to non-image modalities - speech, audio, video, 3D, and embodied agents - and to cross-modal generation."
+    },
+    {
+      "clo_name": "CLO6",
+      "clo_details": "Engineer multimodal reasoning, agent, and retrieval systems, and address the input-size and latency challenges of deploying them."
+    },
+    {
+      "clo_name": "CLO7",
+      "clo_details": "Evaluate multimodal systems with appropriate benchmarks and protocols, recognizing saturation and the migrating frontier, and run hallucination and grounding diagnostics."
+    },
+    {
+      "clo_name": "CLO8",
+      "clo_details": "Analyze the safety, provenance, bias, and privacy issues specific to multimodal AI - deepfakes, watermarking, and biometric data."
+    }
+  ],
+  "schedule": [
+    {
+      "topic": "1. Foundations of Multimodality\n- What multimodal AI is and isn't\n- The four core problems: representation, alignment, fusion, translation",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "1. Foundations of Multimodality (continued)\n- Why now: from connectors to native multimodality\n- Across modalities (vision, language, audio, video, 3D)",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "Guided Exercises / In-class Activity",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "Review and Discussion",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "2. Cross-Modal Representation Learning\n- Joint vs coordinated spaces\n- Contrastive learning and the InfoNCE objective",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "2. Cross-Modal Representation Learning (continued)\n- CLIP, ALIGN, SigLIP at scale\n- ImageBind: binding many modalities",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "Report 1 - Project proposal",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "Review and Discussion",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "3. Fusion Architectures\n- Early/late/hybrid fusion\n- Cross-attention as the fusion engine",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "3. Fusion Architectures (continued)\n- Perceiver and latent bottlenecks\n- Q-Former and projection connectors",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "Guided Exercises / In-class Activity",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "Review and Discussion",
+      "lo": "CLO3"
+    },
+    {
+      "topic": "4. Vision-Language Models I\n- The connector paradigm\n- The LLaVA recipe end to end",
+      "lo": "CLO3/CLO4"
+    },
+    {
+      "topic": "4. Vision-Language Models I (continued)\n- Flamingo: gated cross-attention\n- Two-stage training and visual instruction tuning",
+      "lo": "CLO3/CLO4"
+    },
+    {
+      "topic": "Report 2 - Representation & Fusion Milestone",
+      "lo": "CLO2/CLO3"
+    },
+    {
+      "topic": "Review and Discussion",
+      "lo": "CLO3/CLO4"
+    },
+    {
+      "topic": "5. Vision-Language Models II\n- Captioning, VQA, and grounding/referring expressions\n- The VLM task zoo",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "5. Vision-Language Models II (continued)\n- OCR and long-document understanding\n- Data, scaling, and failure modes",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "Guided Exercises / In-class Activity",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "Review and Discussion",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "6. Multimodal LLMs, Unification and Any-to-Any\n- From connectors to native architectures\n- Unified-token decoder-only models (Chameleon, Emu3)",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "6. Multimodal LLMs, Unification and Any-to-Any (continued)\n- Diffusion transformers and hybrid AR+diffusion (Transfusion, Janus, BAGEL)\n- The discrete-token understanding gap",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "Guided Exercises / In-class Activity",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "Review and Discussion",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "7. Speech and Audio\n- Audio as a modality; ASR and Whisper\n- Audio understanding and audio-LMs",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "7. Speech and Audio (continued)\n- TTS and speech/music generation\n- Real-time, streaming omni models",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "Report 3 - Integrated Prototype Milestone",
+      "lo": "CLO4/CLO5/CLO6"
+    },
+    {
+      "topic": "Review and Discussion",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "Progress Test",
+      "lo": "CLO1/CLO2/CLO3/CLO4/CLO5"
+    },
+    {
+      "topic": "Progress Test",
+      "lo": "CLO1/CLO2/CLO3/CLO4/CLO5"
+    },
+    {
+      "topic": "Progress Test",
+      "lo": "CLO1/CLO2/CLO3/CLO4/CLO5"
+    },
+    {
+      "topic": "Review and Discussion",
+      "lo": "CLO1/CLO2/CLO3/CLO4/CLO5"
+    },
+    {
+      "topic": "9. Cross-Modal Generation\n- Conditioning is a prerequisite\n- Conditioning across modalities",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "9. Cross-Modal Generation (continued)\n- Text-to-audio and music generation\n- How generation joins the unified model",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "Capstone Project - Proposal Workshop (One-page proposal due this week)",
+      "lo": "CLO3/CLO4/CLO5/CLO8"
+    },
+    {
+      "topic": "Review and Discussion",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "10. Video\n- Why video is hard: temporal structure and scale\n- Temporal modeling and long-video strategies",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "10. Video (continued)\n- Video diffusion and text-to-video maturation\n- Video as a step toward world models",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "Guided Exercises / In-class Activity",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "Review and Discussion",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "11. 3D and Embodied Multimodality\n- Representing 3D scenes: NeRF and Gaussian splatting\n- Text-to-3D via score distillation (DreamFusion)",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "11. 3D and Embodied Multimodality (continued)\n- Vision-language-action (VLA) models\n- Embodied agents and world models",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "Report 4 - Evaluation & Analysis Milestone",
+      "lo": "CLO7"
+    },
+    {
+      "topic": "Review and Discussion",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "12. Multimodal Reasoning, Agents and Retrieval\n- Multimodal reasoning and thinking with images\n- Test-time compute over visual input",
+      "lo": "CLO6"
+    },
+    {
+      "topic": "12. Multimodal Reasoning, Agents and Retrieval (continued)\n- Computer-use and GUI agents\n- Cross-modal retrieval and multimodal RAG",
+      "lo": "CLO6"
+    },
+    {
+      "topic": "Guided Exercises / In-class Activity",
+      "lo": "CLO6"
+    },
+    {
+      "topic": "Review and Discussion",
+      "lo": "CLO6"
+    },
+    {
+      "topic": "13. Evaluating Multimodal Systems\n- Why evaluation is hard; the saturation story (MMMU-Pro)\n- Where the frontier moved: video, OCR, audio, unified eval",
+      "lo": "CLO7"
+    },
+    {
+      "topic": "13. Evaluating Multimodal Systems (continued)\n- Hallucination and grounding diagnostics (POPE)\n- Contamination, robustness, judge bias",
+      "lo": "CLO7"
+    },
+    {
+      "topic": "Review and Discussion",
+      "lo": "CLO7"
+    },
+    {
+      "topic": "14. Efficiency and Deployment\n- The token-explosion problem\n- Token reduction and resampling",
+      "lo": "CLO6"
+    },
+    {
+      "topic": "14. Efficiency and Deployment (continued)\n- Quantization for VLMs; serving multimodal models\n- Latency, cost, and model-tier selection",
+      "lo": "CLO6"
+    },
+    {
+      "topic": "Review and Discussion",
+      "lo": "CLO6"
+    },
+    {
+      "topic": "15. Safety, Provenance and Frontiers / Course Wrap\n- The multimodal risk surface; deepfakes and synthetic media\n- Provenance and watermarking (C2PA)",
+      "lo": "CLO8"
+    },
+    {
+      "topic": "15.Safety, Provenance and Frontiers / Course Wrap (continued)\n- Biometric and facial privacy; bias across modalities\n- Open problems and frontiers; course consolidation",
+      "lo": "CLO8"
+    },
+    {
+      "topic": "Capstone Project - Final Presentation and Demonstrations",
+      "lo": "CLO1/CLO2/CLO3/CLO4/CLO5/CLO6/CLO7/CLO8"
+    },
+    {
+      "topic": "Capstone Project - Final Presentation and Demonstrations",
+      "lo": "CLO1/CLO2/CLO3/CLO4/CLO5/CLO6/CLO7/CLO8"
+    },
+    {
+      "topic": "Capstone Project - Final Presentation and Demonstrations",
+      "lo": "CLO1/CLO2/CLO3/CLO4/CLO5/CLO6/CLO7/CLO8"
+    },
+    {
+      "topic": "Review and Discussion",
+      "lo": "CLO8"
+    }
+  ],
+  "assessments": [
+    {
+      "category": "Final Presentation & Demonstration",
+      "part": "1",
+      "weight": "20.0%",
+      "clo": "CLO1,CLO2,CLO3, CLO4, CLO5, CLO6, CLO7, CLO8"
+    },
+    {
+      "category": "Progress Test",
+      "part": "1",
+      "weight": "15.0%",
+      "clo": "CLO1, CLO2, CLO3, CLO4, CLO5"
+    },
+    {
+      "category": "Report 1 - Project proposal",
+      "part": "1",
+      "weight": "5.0%",
+      "clo": "CLO1"
+    },
+    {
+      "category": "Report 2 - Representation & Fusion Milestone",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": "CLO2,CLO3"
+    },
+    {
+      "category": "Report 3 - Integrated Prototype Milestone",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": "CLO4,CLO5,CLO6"
+    },
+    {
+      "category": "Report 4 - Evaluation & Analysis Milestone",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": "CLO7"
+    },
+    {
+      "category": "Final Exam",
+      "part": "1",
+      "weight": "30.0%",
+      "clo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8"
+    }
+  ]
+}

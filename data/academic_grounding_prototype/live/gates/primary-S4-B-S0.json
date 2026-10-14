@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "errors": [],
+  "checks": [
+    {
+      "path": "segments/0/academic_sources/0",
+      "reference": {
+        "course_code": "MAD101",
+        "metadata_field": "tools"
+      },
+      "source_excerpt": "- Computerized tools (for example C programming tools, Maxima http://maxima.sourceforge.net/) (CT)",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/1/academic_sources/0",
+      "reference": {
+        "course_code": "MAD101",
+        "metadata_field": "tools"
+      },
+      "source_excerpt": "- Computerized tools (for example C programming tools, Maxima http://maxima.sourceforge.net/) (CT)",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    }
+  ],
+  "semantic_support": "requires_manual_assessment"
+}

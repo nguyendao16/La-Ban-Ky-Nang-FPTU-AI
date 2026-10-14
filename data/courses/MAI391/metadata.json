@@ -1,0 +1,7 @@
+{
+  "syllabus_name": "Toán cho học máy",
+  "course_name_english": "Mathematics for Machine Learning",
+  "subject_code": "MAI391",
+  "description": "This course introduces the mathematical concepts and foundations needed to talk about the three main components of a machine learning system: data, models, and learning. Upon this course, students will be able to understand: • Foundametal concepts about matrices and matrix decomposition.\n• Concepts of gradients.\n• The basics of probability and some distributions.\n• Optimization to find maxima/minima of functions. • Dimensionality reduction using principal component analysis.\n• Classification in the context of support vector machines.\nMethod of teaching and learning: Lecture and project based learning",
+  "tools": "- Internet\n- Python Programme"
+}

@@ -1,0 +1,7 @@
+{
+  "syllabus_name": "Introduction to Generative AI_Nhập môn TTNT tạo sinh",
+  "course_name_english": "Introduction to Generative AI",
+  "subject_code": "GAI201m",
+  "description": "The course gives students a working understanding of how modern generative AI models work and how to use them well. The course covers foundations and intuition of large language models, diffusion and multimodal models; prompt engineering and evaluation; retrieval-augmented generation (RAG); building applications with model APIs; agents and tool use; customization (prompting, RAG, fine-tuning); failure modes and evaluation; and ethics, safety, and governance. Mathematical internals are deferred to the Deep Learning course; this course stays at the level of intuition while building real, hands-on skill.",
+  "tools": "- Any modern chat-based AI assistant (free tier acceptable for most labs)\n- Python 3.10+ with Google Colab or Jupyter Notebook\n- A code/text editor (e.g., VS Code)\n- A model API endpoint provided by the instructor for Lab 3 (mock available offline)"
+}

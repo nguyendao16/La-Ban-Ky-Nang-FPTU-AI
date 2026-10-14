@@ -1,0 +1,972 @@
+{
+  "schema_version": "stage1_v1",
+  "record_type": "normal_subject",
+  "subject": {
+    "code": "SSA101",
+    "name": {
+      "full": "Kỹ năng học thuật",
+      "en": "Kỹ năng học thuật",
+      "vi": null
+    },
+    "semester": 1,
+    "credits": 3,
+    "prerequisite": "None"
+  },
+  "syllabus": {
+    "id": "13785",
+    "name": "Kỹ năng học thuật",
+    "is_active": true,
+    "is_approved": true,
+    "decision_no": "1318/QĐ-ĐHFPT dated 11/27/2025"
+  },
+  "content": {
+    "metadata": {
+      "syllabus_id": "13785",
+      "syllabus_name": "Kỹ năng học thuật",
+      "course_name_english": "Academic skills",
+      "subject_code": "SSA101",
+      "learning_teaching_method": "Project-based learning",
+      "nocredit": "3",
+      "degree_level": "Bachelor",
+      "time_allocation": "Study hour (150h) = 45 contact hours (60 sessions) + 1 hour final exam + 104 hours self-study",
+      "pre_requisite": "None",
+      "description": "This course introduces essential academic skills for university success, focusing on effective study habits, critical and creative thinking, academic communication, and the responsible use of AI. Students will explore three key areas: AI and academic integrity, thinking skills for the digital age, and learning and communication at university. The course emphasizes self-directed learning and helps students manage their study, time, and learning strategies effectively in both traditional and online settings.",
+      "studenttasks": "- Students must attend more than 80% of contact slots in order to be accepted to the final examination.\n- Student is responsible to do all exercises, assignments and labs given by instructor in class or at home and submit on time\n- Use laptop in class only for learning purpose\n- Promptly access the FLM system at https://flm.fpt.edu.vn\nfor up-to-date course information.",
+      "tools": "- Internet",
+      "scoring_scale": "10",
+      "decisionno_mm_dd_yyyy": "1318/QĐ-ĐHFPT dated 11/27/2025",
+      "isapproved": "True",
+      "note": "Progress marks:\n- 01 Participation: 10%\n- Project - Part 1: 10%\n- Project - Parts 2 & 3: 2x20%\n- 01 Quiz: 5%\n- 01 Individual Progress Test: 10%\n- 01 Final exam: 25%\nConditions to pass: Final exam >= 4\nGrade Average >= 5/10",
+      "is_scored": "True",
+      "minavgmarktopass": "5",
+      "isactive": "True",
+      "approveddate": "11/27/2025"
+    },
+    "materials": [
+      {
+        "no": "1",
+        "material_description": "College Success",
+        "author": "Senior Contributing Authors: Amy Baldwin, University of Central Arkansas",
+        "publisher": "University of Kansas Libraries",
+        "published_date": "2020",
+        "edition": "2th",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://openstax.org/details/books/college-success?Book%20details"
+      },
+      {
+        "no": "2",
+        "material_description": "AI and Ethics in Higher Education",
+        "author": "Hepler, R. C., Vecchione, A., Hensley, R., Fensie, A., Sinha, S., Otero, L., Riechers, D., Long, L., Liang, L., Randall, R., & Gladd, J.",
+        "publisher": "EdTech Books",
+        "published_date": "2024",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://edtechbooks.org/introduction_to_ai_and_ethics_in_higher_education"
+      },
+      {
+        "no": "3",
+        "material_description": "Learning to Learn Online",
+        "author": "Kwantlen Polytechnic University Learning Centres, Christina Page, Adam Vincent",
+        "publisher": "Kwantlen Polytechnic University",
+        "published_date": "2018",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://open.umn.edu/opentextbooks/textbooks/learning-to-learn-online?"
+      },
+      {
+        "no": "4",
+        "material_description": "Academic Skills for University Success Specialization",
+        "author": "Katherine Olston,\nJessica Blackburn, Luke Alexander, Lydia Dutcher",
+        "publisher": "The University of Sydney",
+        "published_date": "N/A",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://www.coursera.org/specializations/academic-skills?"
+      },
+      {
+        "no": "5",
+        "material_description": "Modern Blueprint for College and Career Success",
+        "author": "Dave Dillon",
+        "publisher": "Creative Commons Attribution",
+        "published_date": "N/A",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://pressbooks.pub/modernblueprint"
+      },
+      {
+        "no": "6",
+        "material_description": "AI for everyone on Coursera",
+        "author": "Andrew Ng",
+        "publisher": "Coursera",
+        "published_date": "N/A",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://www.coursera.org/learn/ai-for-everyone"
+      }
+    ],
+    "clos": [
+      {
+        "no": "1",
+        "clo_name": "CLO1",
+        "clo_details": "Understand concepts of university learning expectations and student responsibilities."
+      },
+      {
+        "no": "2",
+        "clo_name": "CLO2",
+        "clo_details": "Apply effective study and memory strategies."
+      },
+      {
+        "no": "3",
+        "clo_name": "CLO3",
+        "clo_details": "Identify test-taking strategies used in academic assessments."
+      },
+      {
+        "no": "4",
+        "clo_name": "CLO4",
+        "clo_details": "Plan academic goals and manage study time effectively."
+      },
+      {
+        "no": "5",
+        "clo_name": "CLO5",
+        "clo_details": "Implement strategies to manage academic stress and maintain well-being."
+      },
+      {
+        "no": "6",
+        "clo_name": "CLO6",
+        "clo_details": "Demonstrate effective communication in academic contexts."
+      },
+      {
+        "no": "7",
+        "clo_name": "CLO7",
+        "clo_details": "Utilize digital learning tools and online learning strategies."
+      },
+      {
+        "no": "8",
+        "clo_name": "CLO8",
+        "clo_details": "Practice responsible and ethical use of AI in academic work."
+      },
+      {
+        "no": "9",
+        "clo_name": "CLO9",
+        "clo_details": "Evaluate the credibility of academic information sources."
+      },
+      {
+        "no": "10",
+        "clo_name": "CLO10",
+        "clo_details": "Apply thinking skills to analyze learning problems using critical or creative approaches."
+      },
+      {
+        "no": "11",
+        "clo_name": "CLO11",
+        "clo_details": "Integrate academic skills in practical learning tasks or project work."
+      }
+    ],
+    "schedule": [
+      {
+        "session": "1",
+        "topic": "Ice-breaking and Course introductions\nSession I. Effective Learning Skills\nExploring College:\nIntroduction\nWhy College?\nThe First Year of College Will Be an Experience",
+        "learning_teaching_type": "offline",
+        "lo": "LO1",
+        "itu": "IT",
+        "student_materials": "College Success\nAI and Ethics in Higher Education\nLearning to Learn Online",
+        "s_download": "link1-1",
+        "student_tasks": "Reading syllabus overview; Introduce yourself and discuss expectations.\nNote: Students are required to complete the online course “Learning to Learn Online” before Session 21",
+        "urls": ""
+      },
+      {
+        "session": "2",
+        "topic": "Exploring College (cont):\nCollege culture and expectations\nDiscussion and Practice",
+        "learning_teaching_type": "offline",
+        "lo": "LO1",
+        "itu": "IT",
+        "student_materials": "- College Success: Chapter 1. Exploring College",
+        "s_download": "",
+        "student_tasks": "Read the materials at home and prepare in-depth discussion questions for class.",
+        "urls": ""
+      },
+      {
+        "session": "3",
+        "topic": "Exploring College (cont):\nCollege culture and expectations\nDiscussion and Practice",
+        "learning_teaching_type": "offline",
+        "lo": "LO1, LO11",
+        "itu": "ITU",
+        "student_materials": "- College Success: Chapter 1. Exploring College",
+        "s_download": "",
+        "student_tasks": "Read the materials at home and prepare in-depth discussion questions for class.",
+        "urls": ""
+      },
+      {
+        "session": "4",
+        "topic": "Studying, memory and Test taking:\nIntroduction\nMemory\nDiscussion and Practice",
+        "learning_teaching_type": "offline",
+        "lo": "LO1, LO11",
+        "itu": "ITU",
+        "student_materials": "- College Success: Chapter 6.Studying, Memory, and Test Taking",
+        "s_download": "",
+        "student_tasks": "Read the materials at home and prepare in-depth discussion questions for class.",
+        "urls": ""
+      },
+      {
+        "session": "5",
+        "topic": "Studying, memory and Test taking:\nIntroduction\nStudying\nDiscussion and Practice",
+        "learning_teaching_type": "offline",
+        "lo": "LO2, LO11",
+        "itu": "ITU",
+        "student_materials": "- College Success: Chapter 6.Studying, Memory, and Test Taking",
+        "s_download": "",
+        "student_tasks": "Read the materials at home and prepare in-depth discussion questions for class.",
+        "urls": ""
+      },
+      {
+        "session": "6",
+        "topic": "Studying, memory and Test taking (cont):\nTest taking\nDiscussion and Practice",
+        "learning_teaching_type": "offline",
+        "lo": "LO2, LO11",
+        "itu": "ITU",
+        "student_materials": "- College Success: Chapter 3. Managing Your Time and Priorities\nChapter 11.3 Taking Care of Your Emotional Health",
+        "s_download": "",
+        "student_tasks": "Read the materials at home and prepare in-depth discussion questions for class.",
+        "urls": ""
+      },
+      {
+        "session": "7",
+        "topic": "Time Management Skills:\nIntroduction\nThe Benefits of Time Management\nDiscussion and Practice",
+        "learning_teaching_type": "offline",
+        "lo": "LO3, LO11",
+        "itu": "ITU",
+        "student_materials": "- College Success: Chapter 3. Managing Your Time and Priorities\nChapter 11.3 Taking Care of Your Emotional Health",
+        "s_download": "",
+        "student_tasks": "Read the materials at home and prepare in-depth discussion questions for class.",
+        "urls": ""
+      },
+      {
+        "session": "8",
+        "topic": "Time Management Skills (cont.)\nTime Management in College\nDiscussion and Practice",
+        "learning_teaching_type": "offline",
+        "lo": "LO4, LO11",
+        "itu": "ITU",
+        "student_materials": "- College Success: Chapter 3. Managing Your Time and Priorities\nChapter 11.3 Taking Care of Your Emotional Health",
+        "s_download": "",
+        "student_tasks": "Read the materials at home and prepare in-depth discussion questions for class.",
+        "urls": ""
+      },
+      {
+        "session": "9",
+        "topic": "Time Management Skills (cont.):\nProcrastination: The Enemy Within\nHow to Manage Time\nDiscussion and Practice",
+        "learning_teaching_type": "offline",
+        "lo": "LO4, LO11",
+        "itu": "ITU",
+        "student_materials": "- College Success: Chapter 3. Managing Your Time and Priorities\nChapter 11.3 Taking Care of Your Emotional Health",
+        "s_download": "",
+        "student_tasks": "Read the materials at home and prepare in-depth discussion questions for class.",
+        "urls": ""
+      },
+      {
+        "session": "10",
+        "topic": "Time Management Skills (cont.):\nPrioritization: Self-Management of What You Do and When You Do It\nGoal Setting and Motivation\nDiscussion and Practice",
+        "learning_teaching_type": "offline",
+        "lo": "LO4, LO11",
+        "itu": "ITU",
+        "student_materials": "- College Success: Chapter 3. Managing Your Time and Priorities\nChapter 11.3 Taking Care of Your Emotional Health",
+        "s_download": "",
+        "student_tasks": "Read the materials at home and prepare in-depth discussion questions for class.",
+        "urls": ""
+      },
+      {
+        "session": "11",
+        "topic": "Time Management Skills (cont.):\nEnhanced Strategies for Time and\nDiscussion and Practice",
+        "learning_teaching_type": "offline",
+        "lo": "LO4, LO5, LO11",
+        "itu": "ITU",
+        "student_materials": "- College Success: Chapter 3. Managing Your Time and Priorities\nChapter 11.3 Taking Care of Your Emotional Health",
+        "s_download": "",
+        "student_tasks": "Read the materials at home and prepare in-depth discussion questions for class.",
+        "urls": ""
+      },
+      {
+        "session": "12",
+        "topic": "Time Management Skills (cont.):\nIdentifying and Managing Stress\nDiscussion and Practice",
+        "learning_teaching_type": "offline",
+        "lo": "LO6, LO11",
+        "itu": "IU",
+        "student_materials": "- College Success: Chapter 3. Managing Your Time and Priorities\nChapter 11.3 Taking Care of Your Emotional Health",
+        "s_download": "",
+        "student_tasks": "Read the materials at home and prepare in-depth discussion questions for class.",
+        "urls": ""
+      },
+      {
+        "session": "13",
+        "topic": "Part1 Project - Topic selection and planning",
+        "learning_teaching_type": "offline",
+        "lo": "LO6, LO11",
+        "itu": "IU",
+        "student_materials": "Project Guidelines",
+        "s_download": "",
+        "student_tasks": "Read, comprehend, discuss, and collaborate in groups based on the Project Guidelines.",
+        "urls": ""
+      },
+      {
+        "session": "14",
+        "topic": "Part1 Project - Research and preparation",
+        "learning_teaching_type": "offline",
+        "lo": "LO6, LO11",
+        "itu": "IU",
+        "student_materials": "Project Guidelines",
+        "s_download": "",
+        "student_tasks": "Read, comprehend, discuss, and collaborate in groups based on the Project Guidelines.",
+        "urls": ""
+      },
+      {
+        "session": "15",
+        "topic": "Part1 Project - Research and preparation",
+        "learning_teaching_type": "offline",
+        "lo": "LO6",
+        "itu": "IT",
+        "student_materials": "Project Guidelines",
+        "s_download": "",
+        "student_tasks": "Read, comprehend, discuss, and collaborate in groups based on the Project Guidelines.",
+        "urls": ""
+      },
+      {
+        "session": "16",
+        "topic": "Communication Skills:\nIntroduction\nAn Overview of Communication\nPurpose of Communication\nCommunication and Technology",
+        "learning_teaching_type": "offline",
+        "lo": "LO6, LO11",
+        "itu": "ITU",
+        "student_materials": "- College Success: Chapter 8 Communicating",
+        "s_download": "",
+        "student_tasks": "Reading; Review College Success Chapter 8",
+        "urls": ""
+      },
+      {
+        "session": "17",
+        "topic": "Communication Skills (cont.):\nCommunication and Technology\nDiscussion and Practice",
+        "learning_teaching_type": "offline",
+        "lo": "LO6, LO11",
+        "itu": "ITU",
+        "student_materials": "- College Success: Chapter 8 Communicating",
+        "s_download": "",
+        "student_tasks": "Reading; Review College Success Chapter 8",
+        "urls": ""
+      },
+      {
+        "session": "18",
+        "topic": "Communication Skills (cont.):\nThe Context of Communication\nBarriers to Effective Communication\nDiscussion and Practice",
+        "learning_teaching_type": "offline",
+        "lo": "LO6, LO11",
+        "itu": "IU",
+        "student_materials": "- College Success: Chapter 8 Communicating",
+        "s_download": "",
+        "student_tasks": "Reading; Review College Success Chapter 8",
+        "urls": ""
+      },
+      {
+        "session": "19",
+        "topic": "Learning to Learn Online:\n1. Who am I as an online learner?\n2. Who am I on my learning journey with?\n3. Who are my instructors? What is their role?",
+        "learning_teaching_type": "offline",
+        "lo": "LO6, LO11",
+        "itu": "IU",
+        "student_materials": "Learning to Learn Online: Part 1 to Part 7",
+        "s_download": "",
+        "student_tasks": "Complete the online course “Learning to Learn Online” before starting this module.\nReview Learning to Learn Online: Parts 1–7",
+        "urls": ""
+      },
+      {
+        "session": "20",
+        "topic": "Learning to Learn Online:\n1. Who am I as an online learner?\n2. Who am I on my learning journey with?\n3. Who are my instructors? What is their role?",
+        "learning_teaching_type": "offline",
+        "lo": "LO6, LO11",
+        "itu": "IU",
+        "student_materials": "Learning to Learn Online: Part 1 to Part 7",
+        "s_download": "",
+        "student_tasks": "Complete the online course “Learning to Learn Online” before starting this module.\nReview Learning to Learn Online: Parts 1–7",
+        "urls": ""
+      },
+      {
+        "session": "21",
+        "topic": "Learning to Learn Online:\n1. Who am I as an online learner?\n2. Who am I on my learning journey with?\n3. Who are my instructors? What is their role?",
+        "learning_teaching_type": "offline",
+        "lo": "LO7, LO11",
+        "itu": "ITU",
+        "student_materials": "Learning to Learn Online: Part 1 to Part 7",
+        "s_download": "",
+        "student_tasks": "Complete the online course “Learning to Learn Online” before starting this module.\nReview Learning to Learn Online: Parts 1–7",
+        "urls": ""
+      },
+      {
+        "session": "22",
+        "topic": "Information Literacy\nDiscussion and Practice",
+        "learning_teaching_type": "offline",
+        "lo": "LO7, LO11",
+        "itu": "IU",
+        "student_materials": "- College Success: 7.7 Information Literacy of Chapter 7",
+        "s_download": "",
+        "student_tasks": "Reading; Reflect: Information Literacy",
+        "urls": ""
+      },
+      {
+        "session": "23",
+        "topic": "Information Literacy\nDiscussion and Practice",
+        "learning_teaching_type": "offline",
+        "lo": "LO1–LO7",
+        "itu": "ITU",
+        "student_materials": "- College Success: 7.7 Information Literacy of Chapter 7",
+        "s_download": "",
+        "student_tasks": "Reading; Review Session II",
+        "urls": ""
+      },
+      {
+        "session": "24",
+        "topic": "Review session I\nQuiz 1",
+        "learning_teaching_type": "offline",
+        "lo": "LO8, LO11",
+        "itu": "ITU",
+        "student_materials": "College Success: Chapter 1, 6, 3, 8\n& Learning to Learn Online: Part 1 to Part 7",
+        "s_download": "",
+        "student_tasks": "Review previous lessons; prepare reflection",
+        "urls": ""
+      },
+      {
+        "session": "25",
+        "topic": "Session II. Issues in AI Use and Academic Ethics\nIntroduction AI and Ethics in Higher Education",
+        "learning_teaching_type": "offline",
+        "lo": "LO8, LO11",
+        "itu": "IU",
+        "student_materials": "AI and Ethics in Higher Education: Introduction AI and Ethics in Higher Education",
+        "s_download": "",
+        "student_tasks": "Applied Practice",
+        "urls": ""
+      },
+      {
+        "session": "26",
+        "topic": "AI and Digital Literacy\nWhat is Digital Literacy?\nAI Literacy\nThe Benefits and Drawbacks of AI",
+        "learning_teaching_type": "offline",
+        "lo": "LO8, LO11",
+        "itu": "ITU",
+        "student_materials": "Foundations of AI and Ethics, Section I",
+        "s_download": "",
+        "student_tasks": "Reading; Reflect: AI and digital literacy",
+        "urls": ""
+      },
+      {
+        "session": "27",
+        "topic": "AI and Digital Literacy (cont.)\nPrivacy\nAI Hallucinations\nAI Accountability\nDiscussion and Practice",
+        "learning_teaching_type": "offline",
+        "lo": "LO8, LO11",
+        "itu": "IU",
+        "student_materials": "Foundations of AI and Ethics, Section I",
+        "s_download": "",
+        "student_tasks": "Applied Practice",
+        "urls": ""
+      },
+      {
+        "session": "28",
+        "topic": "Ethics of Using AI in Higher Education and Its Impact on Academic Integrity\n-Implications of Using AI in Higher Education\n- Ethical Challenges of Using AI in Higher Education\n- Ethical Concerns About Biases and Surveillance in AI Algorithms",
+        "learning_teaching_type": "offline",
+        "lo": "LO8, LO11",
+        "itu": "IT",
+        "student_materials": "Foundations of AI and Ethics, Section I",
+        "s_download": "",
+        "student_tasks": "Reading; Reflect: Ethics of Using AI in Higher Education and Its Impact on Academic Integrity",
+        "urls": ""
+      },
+      {
+        "session": "29",
+        "topic": "Ethics of Using AI in Higher Education and Its Impact on Academic Integrity (Cont)\nAcademic Integrity in Higher Education Under the Lens of AI\nImpact on Academic Integrity in the Form of Plagiarism Due to AI Tools",
+        "learning_teaching_type": "offline",
+        "lo": "LO8, LO11",
+        "itu": "ITU",
+        "student_materials": "Foundations of AI and Ethics, Section I",
+        "s_download": "",
+        "student_tasks": "Applied Practice",
+        "urls": ""
+      },
+      {
+        "session": "30",
+        "topic": "Ethics of Using AI in Higher Education and Its Impact on Academic Integrity (Cont)\nImpact on Academic Integrity Due to Efficacy of AI Detection Tools\nImpact on Academic Integrity Due to Human Biases Generated By AI tools",
+        "learning_teaching_type": "offline",
+        "lo": "LO8, LO11",
+        "itu": "ITU",
+        "student_materials": "Foundations of AI and Ethics, Section I",
+        "s_download": "",
+        "student_tasks": "Applied Practice",
+        "urls": ""
+      },
+      {
+        "session": "31",
+        "topic": "How to use AI to Help, Not Hinder, Your Learning",
+        "learning_teaching_type": "offline",
+        "lo": "LO9, LO11",
+        "itu": "ITU",
+        "student_materials": "Foundations of AI and Ethics, Section I",
+        "s_download": "",
+        "student_tasks": "Applied Practice",
+        "urls": ""
+      },
+      {
+        "session": "32",
+        "topic": "How to use AI to Help, Not Hinder, Your Learning (cont.)\nDiscussion and Practice",
+        "learning_teaching_type": "offline",
+        "lo": "LO9, LO11",
+        "itu": "IU",
+        "student_materials": "Foundations of AI and Ethics, Section I",
+        "s_download": "",
+        "student_tasks": "Applied Practice",
+        "urls": ""
+      },
+      {
+        "session": "33",
+        "topic": "Review session II",
+        "learning_teaching_type": "offline",
+        "lo": "LO8 - LO9",
+        "itu": "ITU",
+        "student_materials": "AI and Ethics in Higher Education: Session I",
+        "s_download": "",
+        "student_tasks": "Review previous lessons; prepare reflection",
+        "urls": ""
+      },
+      {
+        "session": "34",
+        "topic": "Part2 Project - Application of knowledge to practice",
+        "learning_teaching_type": "offline",
+        "lo": "LO6, LO11",
+        "itu": "IU",
+        "student_materials": "Project Guidelines\nIn or outside",
+        "s_download": "",
+        "student_tasks": "Conduct a mid-project review and preparation for the final phase",
+        "urls": ""
+      },
+      {
+        "session": "35",
+        "topic": "Part2 Project - Application of knowledge to practice",
+        "learning_teaching_type": "offline",
+        "lo": "LO6, LO11",
+        "itu": "IU",
+        "student_materials": "Project Guidelines\nIn or outside",
+        "s_download": "",
+        "student_tasks": "Conduct a mid-project review and preparation for the final phase",
+        "urls": ""
+      },
+      {
+        "session": "36",
+        "topic": "Part2 Project - Application of knowledge to practice",
+        "learning_teaching_type": "offline",
+        "lo": "LO6, LO11",
+        "itu": "IU",
+        "student_materials": "Project Guidelines\nIn or outside",
+        "s_download": "",
+        "student_tasks": "Conduct a mid-project review and preparation for the final phase",
+        "urls": ""
+      },
+      {
+        "session": "37",
+        "topic": "Session III. Thinking Skills for the Digital Age\nWhat thinking means\nAnalytical Thinking",
+        "learning_teaching_type": "offline",
+        "lo": "LO10",
+        "itu": "ITU",
+        "student_materials": "College Success, chapter 7",
+        "s_download": "",
+        "student_tasks": "Read the materials at home and prepare in-depth discussion questions for class.",
+        "urls": ""
+      },
+      {
+        "session": "38",
+        "topic": "Discussion and Practice",
+        "learning_teaching_type": "offline",
+        "lo": "LO10, LO11",
+        "itu": "IU",
+        "student_materials": "College Success, chapter 7",
+        "s_download": "",
+        "student_tasks": "Applied Practice",
+        "urls": ""
+      },
+      {
+        "session": "39",
+        "topic": "Discussion and Practice",
+        "learning_teaching_type": "offline",
+        "lo": "LO10",
+        "itu": "IT",
+        "student_materials": "College Success, chapter 7",
+        "s_download": "",
+        "student_tasks": "Applied Practice",
+        "urls": ""
+      },
+      {
+        "session": "40",
+        "topic": "Creative thinking",
+        "learning_teaching_type": "offline",
+        "lo": "LO10, LO11",
+        "itu": "IU",
+        "student_materials": "College Success, chapter 7",
+        "s_download": "",
+        "student_tasks": "Read the materials at home and prepare in-depth discussion questions for class.",
+        "urls": ""
+      },
+      {
+        "session": "41",
+        "topic": "Discussion and Practice",
+        "learning_teaching_type": "offline",
+        "lo": "LO10, LO11",
+        "itu": "IU",
+        "student_materials": "College Success, chapter 7",
+        "s_download": "",
+        "student_tasks": "Applied Practice",
+        "urls": ""
+      },
+      {
+        "session": "42",
+        "topic": "Discussion and Practice",
+        "learning_teaching_type": "offline",
+        "lo": "LO10",
+        "itu": "ITU",
+        "student_materials": "College Success, chapter 7",
+        "s_download": "",
+        "student_tasks": "Applied Practice",
+        "urls": ""
+      },
+      {
+        "session": "43",
+        "topic": "Critical thinking",
+        "learning_teaching_type": "offline",
+        "lo": "LO10, LO11",
+        "itu": "IU",
+        "student_materials": "College Success, chapter 7",
+        "s_download": "",
+        "student_tasks": "Read the materials at home and prepare in-depth discussion questions for class.",
+        "urls": ""
+      },
+      {
+        "session": "44",
+        "topic": "Discussion and Practice",
+        "learning_teaching_type": "offline",
+        "lo": "LO10, LO11",
+        "itu": "IU",
+        "student_materials": "College Success, chapter 7",
+        "s_download": "",
+        "student_tasks": "Applied Practice",
+        "urls": ""
+      },
+      {
+        "session": "45",
+        "topic": "Discussion and Practice",
+        "learning_teaching_type": "offline",
+        "lo": "LO10",
+        "itu": "ITU",
+        "student_materials": "College Success, chapter 7",
+        "s_download": "",
+        "student_tasks": "Applied Practice",
+        "urls": ""
+      },
+      {
+        "session": "46",
+        "topic": "Problem - Solving",
+        "learning_teaching_type": "offline",
+        "lo": "LO10, LO11",
+        "itu": "IU",
+        "student_materials": "College Success, chapter 7",
+        "s_download": "",
+        "student_tasks": "Read the materials at home and prepare in-depth discussion questions for class.",
+        "urls": ""
+      },
+      {
+        "session": "47",
+        "topic": "Discussion and Practice",
+        "learning_teaching_type": "offline",
+        "lo": "LO10, LO11",
+        "itu": "IU",
+        "student_materials": "College Success, chapter 7",
+        "s_download": "",
+        "student_tasks": "Applied Practice",
+        "urls": ""
+      },
+      {
+        "session": "48",
+        "topic": "Discussion and Practice",
+        "learning_teaching_type": "offline",
+        "lo": "LO10",
+        "itu": "ITU",
+        "student_materials": "College Success, chapter 5",
+        "s_download": "",
+        "student_tasks": "Applied Practice",
+        "urls": ""
+      },
+      {
+        "session": "49",
+        "topic": "Metacognition",
+        "learning_teaching_type": "offline",
+        "lo": "LO10, LO11",
+        "itu": "IU",
+        "student_materials": "College Success, chapter 7",
+        "s_download": "",
+        "student_tasks": "Read the materials at home and prepare in-depth discussion questions for class.",
+        "urls": ""
+      },
+      {
+        "session": "50",
+        "topic": "Discussion and Practice",
+        "learning_teaching_type": "offline",
+        "lo": "LO10, LO11",
+        "itu": "IU",
+        "student_materials": "College Success, chapter 7",
+        "s_download": "",
+        "student_tasks": "Applied Practice",
+        "urls": ""
+      },
+      {
+        "session": "51",
+        "topic": "Discussion and Practice\nReview session III",
+        "learning_teaching_type": "offline",
+        "lo": "LO10",
+        "itu": "ITU",
+        "student_materials": "College Success, chapter 7",
+        "s_download": "",
+        "student_tasks": "Review previous lessons; prepare reflection",
+        "urls": ""
+      },
+      {
+        "session": "52",
+        "topic": "Individual Progress Test",
+        "learning_teaching_type": "offline",
+        "lo": "LO1-10",
+        "itu": "IU",
+        "student_materials": "Revise all materials covered in the course.",
+        "s_download": "",
+        "student_tasks": "Write learning reflection",
+        "urls": ""
+      },
+      {
+        "session": "53",
+        "topic": "Individual Progress Test",
+        "learning_teaching_type": "offline",
+        "lo": "LO1-10",
+        "itu": "IU",
+        "student_materials": "Revise all materials covered in the course.",
+        "s_download": "",
+        "student_tasks": "Write learning reflection",
+        "urls": ""
+      },
+      {
+        "session": "54",
+        "topic": "Individual Progress Test",
+        "learning_teaching_type": "offline",
+        "lo": "LO1-11",
+        "itu": "IU",
+        "student_materials": "Revise all materials covered in the course.",
+        "s_download": "",
+        "student_tasks": "Write learning reflection",
+        "urls": ""
+      },
+      {
+        "session": "55",
+        "topic": "Group Project Part 3: Presentation & Final report of group project",
+        "learning_teaching_type": "offline",
+        "lo": "LO1-11",
+        "itu": "IU",
+        "student_materials": "Course materials",
+        "s_download": "",
+        "student_tasks": "Prepare and present final group report",
+        "urls": ""
+      },
+      {
+        "session": "56",
+        "topic": "Group Project Part 3: Presentation & Final report of group project",
+        "learning_teaching_type": "offline",
+        "lo": "LO1-11",
+        "itu": "IU",
+        "student_materials": "Course materials",
+        "s_download": "",
+        "student_tasks": "Prepare and present final group report",
+        "urls": ""
+      },
+      {
+        "session": "57",
+        "topic": "Group Project Part 3: Presentation & Final report of group project",
+        "learning_teaching_type": "offline",
+        "lo": "LO1-11",
+        "itu": "IU",
+        "student_materials": "Course materials",
+        "s_download": "",
+        "student_tasks": "Prepare and present final group report",
+        "urls": ""
+      },
+      {
+        "session": "58",
+        "topic": "Group Project Part 3: Presentation & Final report of group project (cont)",
+        "learning_teaching_type": "offline",
+        "lo": "LO1-11",
+        "itu": "IU",
+        "student_materials": "Course materials",
+        "s_download": "",
+        "student_tasks": "Prepare and present final group report",
+        "urls": ""
+      },
+      {
+        "session": "59",
+        "topic": "Group Project Part 3: Presentation & Final report of group project (cont)",
+        "learning_teaching_type": "offline",
+        "lo": "LO1-10",
+        "itu": "IT",
+        "student_materials": "Course materials",
+        "s_download": "",
+        "student_tasks": "Review previous lessons; prepare reflection",
+        "urls": ""
+      },
+      {
+        "session": "60",
+        "topic": "Revise course content and prepare for the final examination.",
+        "learning_teaching_type": "offline",
+        "lo": "LO1-10",
+        "itu": "IT",
+        "student_materials": "Course materials",
+        "s_download": "",
+        "student_tasks": "Review previous lessons; prepare reflection",
+        "urls": ""
+      }
+    ],
+    "assessments": [
+      {
+        "no": "1",
+        "category": "Individual Progress Test",
+        "type": "on-going",
+        "part": "1",
+        "weight": "10.0%",
+        "completion_criteria": ">0",
+        "duration": "60-90', week 9",
+        "clo": "LO1-10",
+        "question_type": "Multiple choice or Essay",
+        "no_question": "1",
+        "knowledge_and_skill": "concepts, algorithms; all studied chapters",
+        "grading_guide": "in class, by instructor",
+        "note": "Instruction and shedules for Progress tests and Project must be presented in the Course Implementation Plan approved by director of the campus.\nProgress test must be taken right after the last lectures of required material.\nInstructor has resposibility to review the test for students after graded."
+      },
+      {
+        "no": "2",
+        "category": "Participation",
+        "type": "on-going",
+        "part": "1",
+        "weight": "10.0%",
+        "completion_criteria": ">0",
+        "duration": "week 1 - 10",
+        "clo": "LO1-10",
+        "question_type": "based on schedule's course",
+        "no_question": "1",
+        "knowledge_and_skill": "",
+        "grading_guide": "Active participation in class sessions, including attendance, contribution to discussions, engagement in in-class learning activities, and completion of short reflective or",
+        "note": ""
+      },
+      {
+        "no": "3",
+        "category": "Project Part 1 – Proposal & Presentation",
+        "type": "on-going",
+        "part": "1",
+        "weight": "10.0%",
+        "completion_criteria": ">0",
+        "duration": "60-90'; week 3-4",
+        "clo": "LO1,2,3,4,5",
+        "question_type": "See file Group project",
+        "no_question": "1",
+        "knowledge_and_skill": "Project the acquainted knowledge which student obtained in the delivered chapters",
+        "grading_guide": "guided by instructor",
+        "note": "Instruction and shedules for Progress tests and Project must be presented in the Course Implementation Plan approved by director of the campus.\nProgress test must be taken right after the last lectures of required material.\nInstructor has resposibility to review the test for students after graded."
+      },
+      {
+        "no": "4",
+        "category": "Project Part 2 – Project Execution",
+        "type": "on-going",
+        "part": "1",
+        "weight": "20.0%",
+        "completion_criteria": ">0",
+        "duration": "60-90'; week 7",
+        "clo": "LO5,6,7,8",
+        "question_type": "See file Group project",
+        "no_question": "1",
+        "knowledge_and_skill": "Project the acquainted knowledge which student obtained in the delivered chapters",
+        "grading_guide": "In or outside",
+        "note": "Instruction and shedules for Progress tests and Project must be presented in the Course Implementation Plan approved by director of the campus.\nProgress test must be taken right after the last lectures of required material.\nInstructor has resposibility to review the test for students after graded."
+      },
+      {
+        "no": "5",
+        "category": "Project Part 3 – Final Report & Presentation",
+        "type": "on-going",
+        "part": "1",
+        "weight": "20.0%",
+        "completion_criteria": ">0",
+        "duration": "60-90'; week 10",
+        "clo": "LO1-10",
+        "question_type": "See file Group project",
+        "no_question": "1",
+        "knowledge_and_skill": "Project the acquainted knowledge which student obtained in the delivered chapters",
+        "grading_guide": "in class",
+        "note": "Instruction and shedules for Progress tests and Project must be presented in the Course Implementation Plan approved by director of the campus.\nProgress test must be taken right after the last lectures of required material.\nInstructor has resposibility to review the test for students after graded."
+      },
+      {
+        "no": "6",
+        "category": "Quiz",
+        "type": "on-going",
+        "part": "1",
+        "weight": "5.0%",
+        "completion_criteria": ">0",
+        "duration": "30', week 4-5",
+        "clo": "LO2, LO4, LO8",
+        "question_type": "Develop assessment questions based on the open textbook Learning to Learn Online",
+        "no_question": "1",
+        "knowledge_and_skill": "Assess students’ understanding of the content covered in the “Learning to Learn Online” course.",
+        "grading_guide": "Students are required to complete the online course “Learning to Learn Online” before Session 21",
+        "note": "https://open.umn.edu/opentextbooks/textbooks/learning-to-learn-online?"
+      },
+      {
+        "no": "7",
+        "category": "Final Exam",
+        "type": "Final exam",
+        "part": "1",
+        "weight": "25.0%",
+        "completion_criteria": "4",
+        "duration": "60'",
+        "clo": "LO1-LO10",
+        "question_type": "Multiple choices\nMarked by Computer",
+        "no_question": "50",
+        "knowledge_and_skill": "concepts, algorithms;\nall studied chapters",
+        "grading_guide": "by exam board,\nusing computer",
+        "note": "The exam questions must be updated or different at least 70% to the previous ones."
+      }
+    ]
+  },
+  "source": {
+    "raw_file": "flm_output/subjects/SSA101.json",
+    "curriculum_url": "https://flm.fpt.edu.vn/gui/role/student/CurriculumDetails?curid=3173",
+    "pre_syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/Syllabuses?subCode=SSA101&curriculumID=3173",
+    "syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=13785",
+    "details_source_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=13785"
+  },
+  "crawl": {
+    "error": null
+  },
+  "quality": {
+    "has_syllabus": true,
+    "counts": {
+      "materials": 6,
+      "clos": 11,
+      "schedule": 60,
+      "assessments": 7
+    },
+    "warnings": []
+  }
+}

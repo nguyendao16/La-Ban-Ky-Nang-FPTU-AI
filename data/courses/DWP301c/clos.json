@@ -1,0 +1,46 @@
+[
+  {
+    "clo": "CLO1",
+    "description": "Understand cloud computing from a business and cloud-practitioner perspective, including core cloud concepts, essential characteristics, major service providers, IaaS, PaaS, SaaS, deployment models, hybrid multicloud, microservices, serverless computing, DevOps, cloud-native modernization, security, monitoring, and cloud job roles."
+  },
+  {
+    "clo": "CLO2",
+    "description": "Understand how HTML, CSS, and JavaScript work together to structure, style, and add interactivity to websites, while recognizing front-end, back-end, and full-stack developer roles and related web technologies."
+  },
+  {
+    "clo": "CLO3",
+    "description": "Hands-on experience using Git and GitHub, including Introduced to collaborative version control and popular Git platforms, Practice various Git concepts such as forking, cloning and merging workflows, Use GitHub to work effectively as a team, and perform common Git operations, such as Pull Requests, from both."
+  },
+  {
+    "clo": "CLO4",
+    "description": "Build rich front-end applications with React and ES6 by writing components with Hooks and Redux, managing component properties and state, connecting React pages to external servers, and demonstrating React skills in a portfolio-ready project."
+  },
+  {
+    "clo": "CLO5",
+    "description": "Able to develop applications using asynchronous callbacks and promises - create REST APIs and perform CRUD operations - implement authentication and session management, including Create REST APIs and perform CRUD operations, Full Stack Software Developer Assessment."
+  },
+  {
+    "clo": "CLO6",
+    "description": "Understand Python basics, data types, data structures, program creation, data work, automation, and use of Python libraries such as Pandas, NumPy, and Beautiful Soup for data science, AI, development, APIs, and web scraping tasks."
+  },
+  {
+    "clo": "CLO7",
+    "description": "Able to develop web applications and AI powered solutions, including Python Project for AI & Application Development, Apply basic Python skills for developing Artificial Intelligence (AI) enabled applications, Demonstrate your foundational Python skills by, Full Stack Software Developer Assessment."
+  },
+  {
+    "clo": "CLO8",
+    "description": "Understand fundamental database concepts and hands-on experience deploying your Django web app on the cloud, including Developing Applications with SQL, Databases, and Django, Describe what is a database and how to model data, Compose SQL queries to insert, select, update, delete data in a database, Understand Object Relational Model (ORM), Employ Django to develop database-powered applications, Deploy your Django app on the cloud Prerequisites."
+  },
+  {
+    "clo": "CLO9",
+    "description": "Build cloud-native applications using containers, Docker, container registries, Kubernetes, OpenShift, and Istio, including building container images, deploying and scaling containers on the cloud, and applying containerization concepts in public, private, or hybrid cloud environments."
+  },
+  {
+    "clo": "CLO10",
+    "description": "Understanding of how serverless benefits developers, learn when to use serverless programming, serverless deployment models, and discover its top use cases and design patterns, including Application Development using Microservices and Serverless, Understanding of how serverless benefits developers, Learn when to use serverless programming, serverless deployment models, and discover its top use cases and, Discover how serverless supports continuous integration and continuous delivery (CI/CD) and microservices, Hands-on labs reinforce serverless programming concepts for creation, deployment, and invocation of, Microservices and serverless computing."
+  },
+  {
+    "clo": "CLO11",
+    "description": "Apply full-stack cloud development knowledge to a real-life challenge by designing a dynamic user experience, building front-end and back-end features, adding database operations, using cloud-native services, managing containerized deployment, and delivering a successful full-stack solution."
+  }
+]

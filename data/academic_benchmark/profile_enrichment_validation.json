@@ -1,0 +1,19 @@
+{
+  "origin": "offline_validation",
+  "courses": 15,
+  "clos": 122,
+  "metadata_coverage": 15,
+  "empty_tools": [
+    "MAE101",
+    "CSI106",
+    "AIG202c",
+    "ITE303c"
+  ],
+  "all_original_fields_unchanged": true,
+  "profile_validation": "passed",
+  "legacy_sha256": "99f34048ed8c3d11ed972fa0a97476aa7fba6f071ad8aea454bb66b6b5c2eca1",
+  "enriched_sha256": "b0bfa72fdc04f8d2cfc94e68fd7b4745387cd378a923f55eb94e2aef391bf531",
+  "legacy_bytes": 47495,
+  "enriched_bytes": 62415,
+  "metadata_errors": []
+}

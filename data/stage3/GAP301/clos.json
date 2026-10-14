@@ -1,0 +1,42 @@
+[
+  {
+    "clo_name": "CLO1",
+    "clo_details": "Identify relevant generative-AI techniques (LLMs, diffusion, multimodal, RAG, agents, fine-tuning, alignment) for a capstone topic."
+  },
+  {
+    "clo_name": "CLO2",
+    "clo_details": "Formulate problem statements, scope, objectives, and success criteria in a project proposal."
+  },
+  {
+    "clo_name": "CLO3",
+    "clo_details": "Plan data preparation, model selection, and licensing/ethics review."
+  },
+  {
+    "clo_name": "CLO4",
+    "clo_details": "Conduct baseline analysis using pre-trained models, prompting, and in-context learning."
+  },
+  {
+    "clo_name": "CLO5",
+    "clo_details": "Develop and adapt generative-AI systems to project requirements."
+  },
+  {
+    "clo_name": "CLO6",
+    "clo_details": "Evaluate and optimize systems using appropriate metrics and protocols, with attention to contamination and saturation."
+  },
+  {
+    "clo_name": "CLO7",
+    "clo_details": "Interpret outputs and failure modes (hallucination, bias, jailbreak) and visualize results for stakeholders."
+  },
+  {
+    "clo_name": "CLO8",
+    "clo_details": "Summarize conclusions and actionable recommendations, including deployment and cost/latency trade-offs."
+  },
+  {
+    "clo_name": "CLO9",
+    "clo_details": "Compile a final report with an explicit ethics, safety, and provenance subsection."
+  },
+  {
+    "clo_name": "CLO10",
+    "clo_details": "Deliver oral presentations with live demonstrations and Q&A defense."
+  }
+]

@@ -1,0 +1,6 @@
+GrayMatter Robotics — Fall 2026 Robotics Engineering Intern: Systems & Applications
+Responsibilities: Help design, implement and test robotic surface-finishing systems; support application engineers and customer proof-of-concepts; solve hands-on system problems.
+Minimum qualifications: Relevant bachelor's study/degree; iterative cyber-physical/mechatronic design and prototyping; AI-tool familiarity; ability to read C++ and Python; ROS OR ROS2 experience. General robotics exposure is welcomed.
+Preferred: Advanced degree; industry/internship autonomous-manufacturing experience; technical documentation; hands-on industrial robots/auxiliary systems.
+Other conditions: US export-control eligibility and an onsite internship. CLO scores do not establish legal or recruitment eligibility.
+Source-grounded paraphrase of verified indexed text for the specified Fall internship, not a different permanent Robotics Engineer role. Direct ATS was a JavaScript shell; current application availability is unconfirmed.

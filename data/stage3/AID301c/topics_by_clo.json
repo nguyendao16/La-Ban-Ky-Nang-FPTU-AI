@@ -1,0 +1,24 @@
+{
+  "CLO1": [
+    "Specialization Introduction\nIntroduction to AI Workflow: Business Priorities and Data Ingestion\n- IBM AI Enterprise Workflow Introduction\nOffline 1: Guide learning and review of the specialization",
+    "Introduction to AI Workflow: Business Priorities and Data Ingestion (cont.)\n- Data Collection\n- Data Ingestion"
+  ],
+  "CLO2": [
+    "AI Workflow: Data Analysis and Hypothesis Testing\n- Data Analysis",
+    "AI Workflow: Data Analysis and Hypothesis Testing (cont.)\n- Data Investigation"
+  ],
+  "CLO3": [
+    "AI Workflow: Feature Engineering and Bias Detection\n- Data transforms and feature engineering",
+    "AI Workflow: Feature Engineering and Bias Detection (cont.)\n- Pattern recognition and data mining best practices"
+  ],
+  "CLO4": [
+    "AI Workflow: Machine Learning, Visual Recognition and NLP\n- Model Evaluation and Performance Metrics",
+    "AI Workflow: Machine Learning, Visual Recognition and NLP (cont.)\n- Building Machine Learning and Deep Learning Models"
+  ],
+  "CLO5": [
+    "AI Workflow: Enterprise Model Deployment\n- Deploying Models",
+    "AI Workflow: Enterprise Model Deployment (cont.)\n- Deploying Models using Spark",
+    "Capstone Project: AI Workflow: AI in Production\n- Feedback loops and Monitoring\n- Hands on with Openscale and Kubernetes\n)",
+    "Capstone Project: AI Workflow: AI in Production\n- Capstone: Pulling it all together (Part 1\n- Capstone: Pulling it all together (Part 2)"
+  ]
+}

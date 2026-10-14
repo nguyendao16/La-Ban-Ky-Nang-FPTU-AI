@@ -1,0 +1,904 @@
+{
+  "schema_version": "stage1_v1",
+  "record_type": "combo_subject",
+  "subject": {
+    "code": "SLP301",
+    "name": {
+      "full": "Speech Processing_Xử lý tiếng nói",
+      "en": "Speech Processing",
+      "vi": "Xử lý tiếng nói"
+    },
+    "semester": 7,
+    "credits": 3,
+    "prerequisite": ""
+  },
+  "syllabus": {
+    "id": "13945",
+    "name": "Speech Processing_Xử lý tiếng nói",
+    "is_active": true,
+    "is_approved": true,
+    "decision_no": "1318/QĐ-ĐHFPT dated 11/27/2025"
+  },
+  "content": {
+    "metadata": {
+      "syllabus_id": "13945",
+      "syllabus_name": "Speech Processing_Xử lý tiếng nói",
+      "course_name_english": "Speech Processing",
+      "subject_code": "SLP301",
+      "learning_teaching_method": "In-class lecture, Social Constructivism, Active Learning",
+      "nocredit": "3",
+      "degree_level": "Bachelor",
+      "time_allocation": "45h (60 sessions) contact hours + 1h final exam + 104h self-study",
+      "pre_requisite": "CSD203, AIL303m",
+      "description": "This speech processing course comprehensively explains how humans and machines generate, transmit, and process speech signals. The course covers speech production, phonetics, acoustic analysis, speech perception, speech recognition, natural language processing, and speech synthesis. Students will learn about the principles and algorithms behind various speech-processing techniques, including signal processing, machine learning, and deep learning. The course also covers speech processing applications in speech recognition, speech recognition, speech synthesis, and speech enhancement. Upon completing the course, students will have a solid foundation in speech processing and be equipped with the necessary skills to tackle real-world speech-processing problems.",
+      "studenttasks": "'- Students must attend at least 80% of contact slots in order to be accepted to the final examination.\n- Student is responsible to do all exercises, assignments and labs given by instructor in class or at home and submit on time\n- Use laptop in class only for learning purpose\n- Promptly access to the FU FLM at http://flm.fpt.edu.vn for up-to-date course information",
+      "tools": "No",
+      "scoring_scale": "10",
+      "decisionno_mm_dd_yyyy": "1318/QĐ-ĐHFPT dated 11/27/2025",
+      "isapproved": "True",
+      "note": "1) On-going Assessment\n- 2 Assignments: 30%\n- 2 progress tests: 30%\n2) 1 Final Exam: 40%\n3) Final Result 100% (The Final result - including bonus score - is not greater than 10)\nCompletion Criteria:\n1) Every on-going assessment component > 0\n2) Final Exam Score >= 4 & Final Result >= 5\nBonus score for accepted paper (email accepted/ published):\nISI/Scopus Q1, Q2: 5\nISI/Scopus Q3, Q4: 3\nScopus Q1, Q2: 3\nScopus Q3, Q4: 2\nSource to check Scopus ranking: https://www.scimagojr.com/\nSource to check ISI: https://mjl.clarivate.com",
+      "is_scored": "True",
+      "minavgmarktopass": "5",
+      "isactive": "True",
+      "approveddate": "11/27/2025"
+    },
+    "materials": [
+      {
+        "no": "1",
+        "material_description": "Natural Language Processing and Computational Linguistics 1: Speech, Morphology and Syntax",
+        "author": "Mohamed Zakaria Kurdi",
+        "publisher": "Wiley",
+        "published_date": "2016",
+        "edition": "",
+        "isbn": "978-1848218482 (ISBN-13)",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://library.books24x7.com"
+      },
+      {
+        "no": "2",
+        "material_description": "Spoken Language Processing",
+        "author": "Joseph Mariani",
+        "publisher": "Wiley",
+        "published_date": "2009",
+        "edition": "",
+        "isbn": "978-1848210318 (ISBN-13)",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://library.books24x7.com"
+      },
+      {
+        "no": "3",
+        "material_description": "Theory and Applications of Digital Speech Processing",
+        "author": "Lawrence Rabiner, Ronald Schafer",
+        "publisher": "Pearson",
+        "published_date": "2010",
+        "edition": "",
+        "isbn": "978-0136034285 (ISBN-13)",
+        "is_main_material": false,
+        "is_hard_copy": true,
+        "is_online": false,
+        "note": ""
+      },
+      {
+        "no": "4",
+        "material_description": "Speech and Language Processing",
+        "author": "Daniel Jurafsky, James Martin",
+        "publisher": "Prentice Hall",
+        "published_date": "2008",
+        "edition": "",
+        "isbn": "978-0131873216 (ISBN-13)",
+        "is_main_material": false,
+        "is_hard_copy": true,
+        "is_online": false,
+        "note": ""
+      }
+    ],
+    "clos": [
+      {
+        "no": "1",
+        "clo_name": "CLO1",
+        "clo_details": "Gain a comprehensive understanding of fundamental principles in processing speech signals, covering digital signal processing (DSP) methods, feature extraction, and speech signal analysis"
+      },
+      {
+        "no": "2",
+        "clo_name": "CLO2",
+        "clo_details": "Develop expertise in speech recognition and synthesis, exploring and applying various algorithms for automatic speech recognition (ASR) and speech synthesis, including rule-based and statistical approaches"
+      },
+      {
+        "no": "3",
+        "clo_name": "CLO3",
+        "clo_details": "Apply relevant machine learning algorithms and models to address speech-processing challenges, including feature extraction, classification, and other tasks within the speech context"
+      },
+      {
+        "no": "4",
+        "clo_name": "CLO4",
+        "clo_details": "Acquire practical skills by using and implementing widely-used speech-processing tools, software, libraries, and frameworks, such as Praat, HTK, or other relevant platforms"
+      },
+      {
+        "no": "5",
+        "clo_name": "CLO5",
+        "clo_details": "Demonstrate the ability to assess speech-processing system performance, applying appropriate metrics to evaluate accuracy and efficiency in speech recognition and synthesis models. Critically analyze the strengths and limitations of various approaches"
+      }
+    ],
+    "schedule": [
+      {
+        "session": "1",
+        "topic": "Course introduction:\nIntroduce the materials of the courses and how to asses these materials\nIntroduce the assignments and how to pass the course",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "IT",
+        "student_materials": "Course Implementation\n- Syllabus SLP301m\n- Slides",
+        "s_download": "mat1",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "2",
+        "topic": "1. Introduction to Digital Speech Processing\n1.1 The Speech Signal",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus SLP301m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "3",
+        "topic": "1. Introduction to Digital Speech Processing\n1.2 The Speech Stack",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus SLP301m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "4",
+        "topic": "1. Introduction to Digital Speech Processing\n1.3 Applications of DSP",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus SLP301m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "5",
+        "topic": "1. Introduction to Digital Speech Processing\n1.4 Summary",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus SLP301m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "6",
+        "topic": "2. Review of Fundamentals of DSP\n2.1 Discrete-Time Signals and Systems\nAssignment 1 Introduction",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus SLP301m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "7",
+        "topic": "2. Review of Fundamentals of DSP\n2.2 Transform Representation of Signals and Systems",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus SLP301m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "8",
+        "topic": "2. Review of Fundamentals of DSP\n2.3 Fundamentals of Digital Filters",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus SLP301m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "9",
+        "topic": "2. Review of Fundamentals of DSP\n2.4 Sampling and Summary",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus SLP301m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "10",
+        "topic": "3. Human Speech Production\n3.1 The Process of Speech Production",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus SLP301m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "11",
+        "topic": "Assignment 1 review",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "T",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "Following Instructions",
+        "urls": ""
+      },
+      {
+        "session": "12",
+        "topic": "3. Human Speech Production\n3.2 Short-Time Fourier Representation of Speech",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus SLP301m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "13",
+        "topic": "3. Human Speech Production\n3.3 Acoustic Phonetics",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus SLP301m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slides and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "14",
+        "topic": "3. Human Speech Production\n3.4 Distinctive Features of The Phonemes English",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus SLP301m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slides and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "15",
+        "topic": "4. Hearing, Auditory Models, and Speech Perception\n4.1 The Speech Chain",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus SLP301m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slides and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "16",
+        "topic": "4. Hearing, Auditory Models, and Speech Perception\n4.2 Anatomy and Function of the Ear",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus SLP301m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "17",
+        "topic": "4. Hearing, Auditory Models, and Speech Perception\n4.3 The Perception of Sound",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus SLP301m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "18",
+        "topic": "4. Hearing, Auditory Models, and Speech Perception\n4.4 Auditory Models",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus SLP301m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "19",
+        "topic": "4. Hearing, Auditory Models, and Speech Perception\n4.5 HSP Experiments",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus SLP301m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "20",
+        "topic": "Assignment 1 review",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "T",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "Following Instructions",
+        "urls": ""
+      },
+      {
+        "session": "21",
+        "topic": "5. Time-Domain Methods for Speech Processing\n5.1 Short-Time Analysis of Speech",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus SLP301m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "22",
+        "topic": "5. Time-Domain Methods for Speech Processing\n5.2 Short-Time Energy and Short-Time Magnitude",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus SLP301m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "23",
+        "topic": "5. Time-Domain Methods for Speech Processing\n5.3 Short-Time Zero-Crossing Rate",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus SLP301m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "24",
+        "topic": "5. Time-Domain Methods for Speech Processing\n5.4 The Short-Time Autocorrelation Function",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus SLP301m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "25",
+        "topic": "5. Time-Domain Methods for Speech Processing\n5.5 The Modified Short-Time Autocorrelation Function",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus SLP301m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "26",
+        "topic": "5. Time-Domain Methods for Speech Processing\n5.6 The Short-Time Average Magnitude Difference Function",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus SLP301m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "27",
+        "topic": "5. Time-Domain Methods for Speech Processing\n5.7 Summary",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus SLP301m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "28",
+        "topic": "6. Frequency-Domain Representations\n6.1 Discrete-Time Fourier Analysis",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus SLP301m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "29",
+        "topic": "Assignment 1 Evaluation",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "U",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "Presentations",
+        "urls": ""
+      },
+      {
+        "session": "30",
+        "topic": "Progress Test 1\nAssignment 2 Introduction",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1,CLO2",
+        "itu": "",
+        "student_materials": "Progress Test 1",
+        "s_download": "",
+        "student_tasks": "Test 1",
+        "urls": ""
+      },
+      {
+        "session": "31",
+        "topic": "6. Frequency-Domain Representations\n6.2 Short-Time Fourier Analysis",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus SLP301m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "32",
+        "topic": "6. Frequency-Domain Representations\n6.3 Overlap Addition Method of Synthesis",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus SLP301m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "33",
+        "topic": "6. Frequency-Domain Representations\n6.4 Time-Decimated Filter Banks",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus SLP301m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "34",
+        "topic": "6. Frequency-Domain Representations\n6.5 Two-Channel Filter Banks",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus SLP301m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "35",
+        "topic": "Assignment 2 Review",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2,CLO3",
+        "itu": "T",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "Following Instructions",
+        "urls": ""
+      },
+      {
+        "session": "36",
+        "topic": "7. Linear Predictive Analysis of Speech Signals\n7.1 Introduction",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus SLP301m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "37",
+        "topic": "7. Linear Predictive Analysis of Speech Signals\n7.2 Basic Principles of Linear Predictive Analysis",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus SLP301m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "38",
+        "topic": "7. Linear Predictive Analysis of Speech Signals\n7.3 Computation of the Gain of the Model",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus SLP301m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "39",
+        "topic": "7. Linear Predictive Analysis of Speech Signals\n7.4 Frequency Domain Interpretations",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus SLP301m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "40",
+        "topic": "7. Linear Predictive Analysis of Speech Signals\n7.5 The Prediction Error Signal",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus SLP301m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "41",
+        "topic": "7. Linear Predictive Analysis of Speech Signals\n7.6 Relation of LPA to Lossless Tube Models",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus SLP301m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "42",
+        "topic": "8. Algorithms for Estimating Speech Parameters\n8.1 Median Smoothing and Speech Processing",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus SLP301m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "43",
+        "topic": "8. Algorithms for Estimating Speech Parameters\n8.2 Speech-Background/Slience Discrimination",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus SLP301m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "44",
+        "topic": "8. Algorithms for Estimating Speech Parameters\n8.3 A Bayesian Approach to Voiced Detection",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus SLP301m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "45",
+        "topic": "8. Algorithms for Estimating Speech Parameters\n8.4 Formant Estimation",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus SLP301m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "46",
+        "topic": "Assignment 2 Review",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2,CLO3",
+        "itu": "T",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "Following Instructions",
+        "urls": ""
+      },
+      {
+        "session": "47",
+        "topic": "9. Text-to-Speech Synthesis Methods\n9.1 Introduction",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus SLP301m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "48",
+        "topic": "9. Text-to-Speech Synthesis Methods\n9.2 Text Analysis",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus SLP301m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "49",
+        "topic": "9. Text-to-Speech Synthesis Methods\n9.3 Evolution of Speech Synthesis Methods",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus SLP301m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "50",
+        "topic": "9. Text-to-Speech Synthesis Methods\n9.3 Early Speech Synthesis Approaches",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus SLP301m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "51",
+        "topic": "9. Text-to-Speech Synthesis Methods\n9.4 Unit Selection Methods",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus SLP301m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "52",
+        "topic": "9. Text-to-Speech Synthesis Methods\n9.5 TTS Future Needs",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus SLP301m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "53",
+        "topic": "9. Text-to-Speech Synthesis Methods\n9.6 Visual TTS",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus SLP301m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "54",
+        "topic": "Assignment 2 Evaluation",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2,CLO3",
+        "itu": "T",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "Presentations",
+        "urls": ""
+      },
+      {
+        "session": "55",
+        "topic": "10. Automatic Speech Recognition and NLU\n10.1 Introduction",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2, CLO5",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus SLP301m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "56",
+        "topic": "10. Automatic Speech Recognition and NLU\n10.2 Basic ASR Formulation",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2, CLO5",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus SLP301m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slides and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "57",
+        "topic": "10. Automatic Speech Recognition and NLU\n10.3 Overall Speech Recognition Process",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2, CLO5",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus SLP301m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slides and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "58",
+        "topic": "10. Automatic Speech Recognition and NLU\n10.4 User Interfaces (UI) and Multimodel UI",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2, CLO5",
+        "itu": "T",
+        "student_materials": "Course Implementation\n- Syllabus SLP301m\n- Slides",
+        "s_download": "",
+        "student_tasks": "Read Slides and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "59",
+        "topic": "Progress Test 2",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3,CLO4,CLO5",
+        "itu": "T",
+        "student_materials": "Progress Test 2",
+        "s_download": "",
+        "student_tasks": "Test 2",
+        "urls": ""
+      },
+      {
+        "session": "60",
+        "topic": "Summary All Slides, Tests, and Assignments",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1,CLO2,CLO3,CLO4,CLO5",
+        "itu": "U",
+        "student_materials": "All Contents",
+        "s_download": "",
+        "student_tasks": "Review and Group Discussion",
+        "urls": ""
+      }
+    ],
+    "assessments": [
+      {
+        "no": "1",
+        "category": "Assignment 1",
+        "type": "on-going",
+        "part": "1",
+        "weight": "15.0%",
+        "completion_criteria": ">0",
+        "duration": "45'",
+        "clo": "CLO1",
+        "question_type": "Group presentation for the selected article",
+        "no_question": "1",
+        "knowledge_and_skill": "- cover content CLO1",
+        "grading_guide": "in class, by group presentation",
+        "note": "Instructor has resposibility to review the presentation for students after graded."
+      },
+      {
+        "no": "2",
+        "category": "Assignment 2",
+        "type": "on-going",
+        "part": "1",
+        "weight": "15.0%",
+        "completion_criteria": ">0",
+        "duration": "45'",
+        "clo": "CLO2,CLO3",
+        "question_type": "Group presentation for the selected article",
+        "no_question": "1",
+        "knowledge_and_skill": "- cover content CLO2,CLO3",
+        "grading_guide": "in class, by group presentation",
+        "note": "Instructor has resposibility to review the presentation for students after graded."
+      },
+      {
+        "no": "3",
+        "category": "Progress test 1",
+        "type": "on-going",
+        "part": "1",
+        "weight": "15.0%",
+        "completion_criteria": ">0",
+        "duration": "20'-30'",
+        "clo": "CLO1,CLO2",
+        "question_type": "Multiple choicesMarked by Computer or a suitable format",
+        "no_question": "30",
+        "knowledge_and_skill": "- cover content CLO1,CLO2",
+        "grading_guide": "in class, by instructor",
+        "note": "Instruction and shedules for Progress tests must be presented in the Course Implementation Plan approved by director of the campus.\nProgress test must be taken right after the last lectures of required material.\nInstructor has resposibility to review the test for students after graded."
+      },
+      {
+        "no": "4",
+        "category": "Progress test 2",
+        "type": "on-going",
+        "part": "1",
+        "weight": "15.0%",
+        "completion_criteria": ">0",
+        "duration": "20'-30'",
+        "clo": "CLO3,CLO4,CLO5",
+        "question_type": "Multiple choicesMarked by Computer or a suitable format",
+        "no_question": "30",
+        "knowledge_and_skill": "- cover content CLO3,CLO4,CLO5",
+        "grading_guide": "in class, by instructor",
+        "note": "Instruction and shedules for Progress tests must be presented in the Course Implementation Plan approved by director of the campus.\nProgress test must be taken right after the last lectures of required material.\nInstructor has resposibility to review the test for students after graded."
+      },
+      {
+        "no": "5",
+        "category": "Final exam",
+        "type": "Final exam",
+        "part": "1",
+        "weight": "40.0%",
+        "completion_criteria": "4",
+        "duration": "60'",
+        "clo": "CLO1,CLO2,CLO3,CLO4,CLO5",
+        "question_type": "Multiple choices\nMarked by Computer",
+        "no_question": "50",
+        "knowledge_and_skill": "concepts, algorithms;\nall studied slides",
+        "grading_guide": "by exam board,\nusing computer",
+        "note": "The exam questions must be updated or different at least 70% to the previous ones."
+      }
+    ]
+  },
+  "combo": {
+    "family": "AI17_COM",
+    "code": "AI17_COM2.1",
+    "name": "Topic on AI Applied research_Chủ đề Định hướng nghiên cứu ứng dụng TTNT",
+    "title": "AI17_COM2.1: Topic on AI Applied research_Chủ đề Định hướng nghiên cứu ứng dụng TTNT",
+    "note": "Adjust the subject code in the combo (remove ending m)",
+    "slot": {
+      "code": "AI17_COM*3",
+      "alias": "AI17_COM_3",
+      "number": 3,
+      "name": {
+        "full": "Subject 3 of Combo*_Học phần 3 của combo*",
+        "en": "Subject 3 of Combo*",
+        "vi": "Học phần 3 của combo*"
+      }
+    },
+    "row_note": ""
+  },
+  "source": {
+    "raw_file": "flm_output/subjects/AI17_COM_3.json",
+    "curriculum_url": "https://flm.fpt.edu.vn/gui/role/student/CurriculumDetails?curid=3173",
+    "pre_syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/Syllabuses?subCode=AI17_COM%2A3&curriculumID=3173",
+    "syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=13945",
+    "details_source_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=13945"
+  },
+  "crawl": {
+    "error": null
+  },
+  "quality": {
+    "has_syllabus": true,
+    "counts": {
+      "materials": 4,
+      "clos": 5,
+      "schedule": 60,
+      "assessments": 5
+    },
+    "warnings": []
+  }
+}

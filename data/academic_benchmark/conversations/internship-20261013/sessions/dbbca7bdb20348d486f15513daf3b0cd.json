@@ -1,0 +1,425 @@
+{
+  "version": 1,
+  "session_id": "dbbca7bdb20348d486f15513daf3b0cd",
+  "sources": {
+    "profile": {
+      "path": "/data/FPT/Learning_Materials/Semester_5/DPL302m/skillbridge/data/student_academic_profile.json",
+      "sha256": "99f34048ed8c3d11ed972fa0a97476aa7fba6f071ad8aea454bb66b6b5c2eca1"
+    },
+    "jd": {
+      "path": "/data/FPT/Learning_Materials/Semester_5/DPL302m/skillbridge/data/academic_benchmark/jds/JD02.txt",
+      "sha256": "21063f28c32bb3a3a1ed538190d2e3fd3508bf22ad5f4d424009a602e185be6a"
+    },
+    "review": {
+      "path": "/data/FPT/Learning_Materials/Semester_5/DPL302m/skillbridge/data/academic_benchmark/initial_reviews/internship-20261013/JD02.json",
+      "sha256": "7b9e6718968f1fd60b2e08939269f1d15d441a2f89b175df7bd406835fcde440"
+    }
+  },
+  "messages": [
+    {
+      "role": "user",
+      "content": "Với JD này thì những kiến thức nào mình đã học ở trường có liên quan nhất?"
+    },
+    {
+      "role": "assistant",
+      "content": "Các kiến thức bạn đã học ở trường liên quan nhất đến JD Intern AI / Perception Engineer này bao gồm:\n\n1. Nhận diện đối tượng và xử lý ảnh:\n- CPV301/CLO8: Bạn đã học và thực hành các kỹ thuật nhận diện đối tượng (object detection techniques), đúng với yêu cầu phát triển pipeline nhận diện đối tượng trong JD.\n- CPV301/CLO3, CLO4, CLO5, CLO7: Bổ sung kiến thức về xử lý ảnh, trích xuất đặc trưng, phân đoạn ảnh, ghép ảnh – đều là các thành phần quan trọng trong pipeline nhận diện đối tượng.\n\n2. Nền tảng AI, học máy, Computer Vision:\n- CPV301/CLO1: Hiểu tổng quan về Computer Vision và các ứng dụng liên quan.\n- AIG202c/CLO1, CLO2, CLO3: Nắm vững các khái niệm AI, Machine Learning, Deep Learning, các mô hình Generative AI và ứng dụng thực tế.\n- ITE303c/CLO1: Hiểu về các thuật toán AI, mô hình học máy và tác động xã hội.\n- MAI391/CLO5, CLO7: Học về linear regression, SVM – là các thuật toán nền tảng trong học máy và nhận diện đối tượng.\n\n3. Lập trình Python và kỹ năng thực hành:\n- PFP191/CLO1–CLO7: Bạn đã học lập trình Python từ cơ bản đến nâng cao, bao gồm cả lập trình hướng đối tượng, xử lý file, cấu trúc dữ liệu.\n- ADY201m/CLO1, CLO3, CLO5, CLO7: Ứng dụng Python trong khoa học dữ liệu, thao tác với SQL/database, thực hiện dự án nhỏ về data science.\n- DAP391m/CLO1–CLO7: Thực hành phân tích dữ liệu, trực quan hóa, xây dựng và đánh giá mô hình với Python.\n\n4. Kỹ thuật học máy, xử lý dữ liệu và dự án thực tế:\n- AIL303m/CLO4, CLO5, CLO10: Học về supervised learning, error metrics, thực hiện mini capstone ML project.\n- DAP391m/CLO7: Thực hiện dự án phân tích dữ liệu, xây dựng mô hình, đánh giá và báo cáo kết quả.\n\nTóm lại, các môn học và CLO trên cung cấp nền tảng vững chắc về AI, Computer Vision, học máy, xử lý ảnh, lập trình Python và thực hành dự án – đều rất liên quan đến yêu cầu của vị trí này. Tuy nhiên, các công nghệ cụ thể như PyTorch, ONNX, TensorRT, OpenCV và triển khai trên Jetson chưa được xác nhận trong hồ sơ học thuật.",
+      "evidence": [
+        {
+          "course_code": "CPV301",
+          "clo": "CLO8"
+        },
+        {
+          "course_code": "CPV301",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "CPV301",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "CPV301",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "CPV301",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "CPV301",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "AIG202c",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "AIG202c",
+          "clo": "CLO2"
+        },
+        {
+          "course_code": "AIG202c",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "ITE303c",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "PFP191",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "PFP191",
+          "clo": "CLO2"
+        },
+        {
+          "course_code": "PFP191",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "PFP191",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "PFP191",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "PFP191",
+          "clo": "CLO6"
+        },
+        {
+          "course_code": "PFP191",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO2"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO6"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO10"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "So với JD thì những nội dung nào mình còn thiếu hoặc chưa được hồ sơ xác nhận?"
+    },
+    {
+      "role": "assistant",
+      "content": "Đối chiếu với JD Intern AI / Perception Engineer, các nội dung sau chưa được hồ sơ học thuật xác nhận trực tiếp:\n\n1. Công nghệ cụ thể:\n- PyTorch, ONNX, TensorRT, OpenCV: Không có CLO nào đề cập đến việc học hoặc sử dụng các framework/thư viện này. Hồ sơ chỉ xác nhận nền tảng AI, học máy, xử lý ảnh và Python, nhưng chưa xác nhận thực hành với các công cụ này.\n\n2. Triển khai mô hình trên Jetson:\n- Không có CLO nào nói về việc triển khai mô hình trên Jetson hoặc các nền tảng nhúng tương tự.\n\n3. Lập trình C++:\n- Hồ sơ chưa có bằng chứng về việc học hoặc sử dụng ngôn ngữ lập trình C++.\n\n4. Dự án cá nhân:\n- Các CLO có thể yêu cầu thực hiện dự án học thuật (ví dụ: DAP391m/CLO7, ADY201m/CLO7), nhưng chưa xác nhận bạn đã thực hiện dự án cá nhân ngoài chương trình học.\n\n5. Xác nhận năm cuối hoặc tốt nghiệp:\n- Hồ sơ học thuật không cung cấp thông tin về năm học hoặc tình trạng tốt nghiệp.\n\nNếu bạn đã tự học hoặc có kinh nghiệm thực tế với các công nghệ trên ngoài trường, hồ sơ hiện tại chưa phản ánh được điều đó. Đây là những chủ đề bạn có thể cân nhắc bổ sung hoặc làm nổi bật nếu chưa từng học/đã học ngoài chương trình.",
+      "evidence": []
+    },
+    {
+      "role": "user",
+      "content": "Mình học Object Detection rồi mà, sao YOLO hay PyTorch vẫn chưa được hồ sơ xác nhận?"
+    },
+    {
+      "role": "assistant",
+      "content": "Bạn đã học về Object Detection trong CPV301/CLO8, với yêu cầu \"hiểu và triển khai các kỹ thuật nhận diện đối tượng\". Tuy nhiên, CLO này chỉ xác nhận bạn đã học các kỹ thuật nhận diện đối tượng ở mức tổng quát, không nêu cụ thể framework, thư viện hay công nghệ nào như YOLO hoặc PyTorch.\n\nĐể một công nghệ cụ thể như YOLO hoặc PyTorch được xác nhận trong hồ sơ học thuật, cần có CLO hoặc mô tả môn học ghi rõ tên công nghệ đó. Trong hồ sơ hiện tại, không có CLO nào đề cập trực tiếp đến YOLO, PyTorch, ONNX, TensorRT hay OpenCV. Vì vậy, dù bạn đã học về lý thuyết và kỹ thuật nhận diện đối tượng, hồ sơ chỉ xác nhận phạm vi tổng quát, chưa xác nhận thực hành hoặc kiến thức về các framework/công nghệ cụ thể mà JD yêu cầu.\n\nNếu bạn đã tự học hoặc thực hành với YOLO, PyTorch ngoài chương trình học, hồ sơ này chưa phản ánh được điều đó.",
+      "evidence": [
+        {
+          "course_code": "CPV301",
+          "clo": "CLO8"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "Bạn giải thích kỹ hơn giúp mình phần kiến thức trực tiếp và nền tảng toán liên quan đến object detection nhé."
+    },
+    {
+      "role": "assistant",
+      "content": "Chắc chắn! Mình sẽ phân tích rõ hai phần: (1) kiến thức trực tiếp về object detection và (2) nền tảng toán học liên quan mà bạn đã học, dựa trên hồ sơ học thuật.\n\n1. Kiến thức trực tiếp về object detection:\n- CPV301/CLO8: Bạn đã học và thực hành các kỹ thuật nhận diện đối tượng (object detection techniques). CLO này xác nhận bạn hiểu và triển khai các phương pháp nhận diện đối tượng trong lĩnh vực Computer Vision.\n- Các CLO bổ trợ khác của CPV301 như:\n  + CLO3: Áp dụng các kỹ thuật xử lý ảnh cơ bản (image processing), là bước tiền đề cho object detection.\n  + CLO4: Hiểu và triển khai các kỹ thuật trích xuất đặc trưng (feature extraction), giúp phát hiện và phân biệt các đối tượng trong ảnh.\n  + CLO5: Hiểu về phân đoạn ảnh (image segmentation), hỗ trợ xác định vùng đối tượng.\n  + CLO7: Thảo luận về ghép ảnh (image stitching), liên quan đến căn chỉnh và tổng hợp thông tin từ nhiều ảnh – kỹ năng hữu ích khi xử lý dữ liệu đầu vào cho object detection.\n\n2. Nền tảng toán học liên quan:\n- MAI391/CLO0, CLO1, CLO2: Bạn đã học về hình học giải tích, đại số tuyến tính (ma trận, vector, eigenvalues, eigenvectors, decomposition), vi phân đa biến, gradient, backpropagation – đây là các kiến thức nền tảng cho các thuật toán học sâu (deep learning) và các mô hình object detection hiện đại.\n- MAI391/CLO3: Xác suất, phân phối xác suất, biến ngẫu nhiên – nền tảng cho các thuật toán học máy, đánh giá xác suất phát hiện đúng/sai đối tượng.\n- MAI391/CLO4: Tối ưu hóa liên tục (continuous optimization), gradient descent – là lõi của quá trình huấn luyện các mô hình object detection.\n- MAI391/CLO5, CLO7: Học về hồi quy tuyến tính (linear regression), SVM – các thuật toán nền tảng trong học máy, có thể dùng cho các bài toán phân loại đối tượng đơn giản hoặc làm baseline cho object detection.\n- MAS291/CLO2, CLO3, CLO4: Xác suất, phân phối rời rạc/liên tục, các phép tính xác suất – hỗ trợ đánh giá hiệu quả mô hình và phân tích dữ liệu đầu vào.\n\nTóm lại, bạn đã được học đầy đủ các kiến thức trực tiếp về object detection ở mức tổng quát (CPV301) và nền tảng toán học vững chắc (MAI391, MAS291) phục vụ cho việc hiểu, xây dựng và tối ưu các mô hình nhận diện đối tượng hiện đại.",
+      "evidence": [
+        {
+          "course_code": "CPV301",
+          "clo": "CLO8"
+        },
+        {
+          "course_code": "CPV301",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "CPV301",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "CPV301",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "CPV301",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO0"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO2"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "MAS291",
+          "clo": "CLO2"
+        },
+        {
+          "course_code": "MAS291",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "MAS291",
+          "clo": "CLO4"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "Tóm tắt cuộc trao đổi này, giữ rõ phần học thuật và các công nghệ chưa được xác nhận."
+    },
+    {
+      "role": "assistant",
+      "content": "Tóm tắt cuộc trao đổi:\n\n1. Phần học thuật đã được xác nhận:\n- Bạn đã học và đạt thành tích xuất sắc về các kỹ thuật nhận diện đối tượng (object detection) trong CPV301/CLO8, cùng với các kiến thức bổ trợ về xử lý ảnh, trích xuất đặc trưng, phân đoạn ảnh, ghép ảnh (CPV301/CLO3, CLO4, CLO5, CLO7).\n- Nền tảng AI, học máy, Computer Vision được củng cố qua các môn như CPV301, AIG202c, ITE303c, MAI391, với các CLO về thuật toán học máy (linear regression, SVM), xác suất, tối ưu hóa, và các ứng dụng AI.\n- Bạn có nền tảng toán học vững chắc (MAI391, MAS291) về đại số tuyến tính, giải tích, xác suất, tối ưu hóa – là cơ sở cho việc hiểu và phát triển các mô hình object detection hiện đại.\n- Kỹ năng lập trình Python và thực hành dự án được xác nhận qua PFP191, ADY201m, DAP391m, AIL303m.\n\n2. Các công nghệ/chủ đề chưa được hồ sơ xác nhận:\n- Chưa có CLO nào xác nhận bạn đã học hoặc sử dụng các công nghệ cụ thể như PyTorch, ONNX, TensorRT, OpenCV.\n- Chưa có bằng chứng về việc triển khai mô hình trên Jetson hoặc các nền tảng nhúng.\n- Chưa có bằng chứng về lập trình C++.\n- Hồ sơ chưa xác nhận dự án cá nhân ngoài chương trình học và chưa xác nhận năm cuối/tốt nghiệp.\n\nTóm lại, hồ sơ học thuật của bạn rất mạnh về nền tảng AI, Computer Vision, object detection và toán học liên quan, nhưng chưa xác nhận thực hành với các công nghệ cụ thể mà JD yêu cầu.",
+      "evidence": [
+        {
+          "course_code": "CPV301",
+          "clo": "CLO8"
+        },
+        {
+          "course_code": "CPV301",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "CPV301",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "CPV301",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "CPV301",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "AIG202c",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "AIG202c",
+          "clo": "CLO2"
+        },
+        {
+          "course_code": "AIG202c",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "ITE303c",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO0"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO2"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "MAS291",
+          "clo": "CLO2"
+        },
+        {
+          "course_code": "MAS291",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "MAS291",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "PFP191",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "PFP191",
+          "clo": "CLO2"
+        },
+        {
+          "course_code": "PFP191",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "PFP191",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "PFP191",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "PFP191",
+          "clo": "CLO6"
+        },
+        {
+          "course_code": "PFP191",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO2"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO6"
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO10"
+        }
+      ]
+    }
+  ]
+}

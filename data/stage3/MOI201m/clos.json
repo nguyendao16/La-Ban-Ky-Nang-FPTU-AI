@@ -1,0 +1,38 @@
+[
+  {
+    "clo_name": "CLO1",
+    "clo_details": "Explain the core concepts of the MLOps lifecycle, maturity models, and the fundamental architectural differences between DevOps, DataOps, and MLOps."
+  },
+  {
+    "clo_name": "CLO2",
+    "clo_details": "Execute machine learning project scoping, define business key performance indicators (KPIs), select appropriate deployment patterns, and establish reliable performance baselines."
+  },
+  {
+    "clo_name": "CLO3",
+    "clo_details": "Implement systematic error analysis, data-centric AI techniques, and experiment tracking to address issues like skewed datasets and class imbalance."
+  },
+  {
+    "clo_name": "CLO4",
+    "clo_details": "Build automated data pipelines utilizing version control tools (DVC) and centralized feature stores (TFX) to guarantee data lineage and experiment reproducibility."
+  },
+  {
+    "clo_name": "CLO5",
+    "clo_details": "Design and coordinate end-to-end machine learning orchestration pipelines utilizing components like TensorFlow Extended (TFX) for training, evaluation, and validation."
+  },
+  {
+    "clo_name": "CLO6",
+    "clo_details": "Apply containerization (Docker) and Continuous Integration/Continuous Deployment (CI/CD) workflows to automate model testing and infrastructure provisioning."
+  },
+  {
+    "clo_name": "CLO7",
+    "clo_details": "Deploy production-grade model serving microservices using architectures like FastAPI, TensorFlow Serving, and Kubernetes supporting progressive delivery patterns."
+  },
+  {
+    "clo_name": "CLO8",
+    "clo_details": "Construct automated production monitoring infrastructures with Prometheus, Grafana, and Evidently AI to detect data drift, concept drift, and performance degradation."
+  },
+  {
+    "clo_name": "CLO9",
+    "clo_details": "Architect, document, and present a complete, end-to-end operational MLOps system that solves a real-world enterprise problem."
+  }
+]

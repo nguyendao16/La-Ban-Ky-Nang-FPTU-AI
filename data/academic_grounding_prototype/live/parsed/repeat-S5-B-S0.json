@@ -1,0 +1,31 @@
+{
+  "segments": [
+    {
+      "kind": "academic_claim",
+      "text": "Tóm lại theo hồ sơ, các nội dung đã trao đổi là: confidence intervals thuộc MAS291/CLO7, với mô tả “Construct and interpret confidence intervals for population parameters and differences between population parameters…”; điểm 9.43, achievement excellent. Hypothesis testing thuộc MAS291/CLO8, với mô tả “Verify claims about population parameters and differences between population parameters using hypothesis testing…”; điểm 9.43, achievement excellent. Simple linear regression thuộc MAS291/CLO9, với mô tả “Construct a simple linear regression model and use it for prediction and interpretation…”; điểm 9.43, achievement excellent. PCA thuộc MAI391/CLO6, với mô tả “Apply dimensionality reduction with PCA…”; điểm 9.4, achievement excellent. Bốn nội dung này là bốn CLO riêng, nên điểm và achievement được giữ riêng theo từng CLO, không gộp thành một mức chung.",
+      "academic_sources": [
+        {
+          "course_code": "MAS291",
+          "clo": "CLO7",
+          "source_excerpt": "Construct and interpret confidence intervals for population parameters and differences between population parameters, including intervals for means of normal distributions with known or unknown variance, large-sample intervals for population proportions, inference on differences between two means, and inference on differences between two proportions."
+        },
+        {
+          "course_code": "MAS291",
+          "clo": "CLO8",
+          "source_excerpt": "Verify claims about population parameters and differences between population parameters using hypothesis testing, including formulating hypotheses, identifying critical values and test statistics, computing p-values, recognizing testing errors, and conducting tests for single means, single proportions, differences between two means, and differences between two proportions."
+        },
+        {
+          "course_code": "MAS291",
+          "clo": "CLO9",
+          "source_excerpt": "Construct a simple linear regression model and use it for prediction and interpretation, including empirical models, least-squares estimation, sums of squares, regression equations, correlation coefficients, properties of least-squares estimators, and hypothesis tests for significance in simple linear regression."
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO6",
+          "source_excerpt": "Apply dimensionality reduction with PCA, including covariance matrices, maximum-variance subspaces, principal subspace bases, low-rank matrix approximation, PCA in high dimensions, projection perspectives, eigenvector computation, and key practical PCA steps."
+        }
+      ],
+      "jd_excerpt": null
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "clo": "CLO1",
+    "description": "Understand the basics of TensorFlow and application of TensorFlow framework in Machine Learning, Deep Learning, including Working with TensorFlow, Machine learning and computer vision in TensorFlow, Coding with TensorFlow in Google Colaboratory."
+  },
+  {
+    "clo": "CLO2",
+    "description": "Understand how to build a basic neural network in TensorFlow and train a neural network for a computer vision application, including Computer Vision Neural Network, Understand Convolutional Neural Networks in TensorFlow, The techniques of Convolutional Neural Networks in TensorFlow."
+  },
+  {
+    "clo": "CLO3",
+    "description": "Understand the convolutional Neural Networks in TensorFlow, include the strategies to prevent overfitting, including augmentation and dropout, including The large dataset in the Neural network, Image Augmentation, Overfitting and solutions."
+  },
+  {
+    "clo": "CLO4",
+    "description": "Understand the transfer learning and how learned features can be extracted from models, including The concept of transfer learning, Create model with transferred features, Exploring dropouts, Transfer Learning with Inception."
+  },
+  {
+    "clo": "CLO5",
+    "description": "Understand basic concepts of sentiment in text, word Embeddings, sequence model and literature, including The word based encodings in TensorFlow, Text to sequence in TensorFlow."
+  },
+  {
+    "clo": "CLO6",
+    "description": "Implementing natural language processing systems using TensorFlow, including Classifier for the sarcasm dataset, Subwords text encoder, The Long Short Term Memory (LSTM) for NLP, Exploring different sequence models, Sequence models and literature for NLP."
+  },
+  {
+    "clo": "CLO7",
+    "description": "Understand the sequences, time series and prediction problems in TensorFlow, including The introduction of Time series and its application, Machine learning applied to time series, Time series: Train, validation and test sets, Time series: Metrics for evaluating performance, Time series:tips to build the forecasting."
+  },
+  {
+    "clo": "CLO8",
+    "description": "Understand how to apply RNNs, GRUs, and LSTMs as you train them using text repositories, including Deep neural networks for time series: Preparing features and labels, Deep neural networks for time series: build the layer neural network, Deep neural networks for time series: training, tuning and prediction, Conceptual of Recurrent neural network for time series, Recurrent neural network for time series: input, lambda layer, learnig rate, output."
+  },
+  {
+    "clo": "CLO9",
+    "description": "Understand how to apply AI tools to complete a mini project using TensorFlow-based computer vision, convolutional neural networks, transfer learning, NLP sequence models, and time-series modeling. The project scope includes topic selection, proposal discussion, model development, model results, and presentation practice."
+  },
+  {
+    "clo": "CLO10",
+    "description": "Implement an AI project that includes topic selection, proposal development, data collection, model development, model evaluation, results discussion, reporting, and presentation."
+  }
+]

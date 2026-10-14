@@ -1,0 +1,147 @@
+{
+  "review_type": "academic_knowledge_review",
+  "overview": "Hồ sơ học thuật của sinh viên thể hiện nền tảng vững chắc về toán học, lập trình Python, xử lý ảnh, thị giác máy tính, học máy/học sâu, cơ sở dữ liệu và các chủ đề liên quan đến AI. Các CLO liên quan đến Python, Computer Vision, Machine Learning, Deep Learning, SQL, cơ sở dữ liệu, cũng như các khái niệm về LLM, RAG, agent và triển khai ứng dụng AI đều được đề cập với mức độ thành tích học thuật từ khá đến xuất sắc. Tuy nhiên, một số công nghệ cụ thể như OpenCV, YOLO, PyTorch, TensorFlow, FastAPI, Flask, Docker, ONNX chưa được xác nhận trực tiếp trong mô tả CLO, mặc dù có các CLO liên quan về mặt học thuật. Các CLO về dự án học thuật mô tả yêu cầu thực hiện các bước xây dựng, triển khai mô hình và ứng dụng AI nhưng không xác nhận kinh nghiệm triển khai thực tế hoặc sử dụng các công nghệ sản xuất cụ thể.",
+  "requirement_reviews": [
+    {
+      "jd_requirement": "Python programming (explicit requirement)",
+      "coverage": "covered",
+      "comment": "Các CLO trong PFP191 (đặc biệt là CLO1–CLO7) yêu cầu sinh viên hiểu và áp dụng lập trình Python, bao gồm môi trường, cấu trúc chương trình, biến, hàm, cấu trúc điều khiển, xử lý file, cấu trúc dữ liệu (list, dict, tuple) và lập trình hướng đối tượng. Thành tích học thuật xuất sắc phản ánh mức độ tiếp thu tốt các kiến thức này.",
+      "evidence": [
+        {
+          "course_code": "PFP191",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "PFP191",
+          "clo": "CLO7"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Computer vision and image processing foundations",
+      "coverage": "covered",
+      "comment": "CPV301 cung cấp nền tảng về thị giác máy tính và xử lý ảnh: CLO1–CLO5 đề cập tổng quan, hình thành ảnh, các kỹ thuật xử lý ảnh cơ bản, trích xuất đặc trưng, phân đoạn ảnh. CLO8 yêu cầu sinh viên hiểu và triển khai kỹ thuật phát hiện đối tượng. Thành tích học thuật xuất sắc cho thấy sinh viên đã học và thực hiện các kỹ thuật này trong môi trường học thuật.",
+      "evidence": [
+        {
+          "course_code": "CPV301",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "CPV301",
+          "clo": "CLO8"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Object detection, classification, OCR, anomaly detection model training/validation",
+      "coverage": "related",
+      "comment": "CPV301/CLO8 xác nhận sinh viên đã học và triển khai kỹ thuật phát hiện đối tượng (object detection). CLO9 đề cập nhận diện khuôn mặt và theo dõi đối tượng. Tuy nhiên, không có CLO nào xác nhận trực tiếp về OCR hoặc anomaly detection. Việc huấn luyện và đánh giá mô hình phân loại được đề cập trong các CLO về học máy (AIL303m/CLO4, CLO5; MAI391/CLO5, CLO7), nhưng không xác nhận cụ thể về OCR hoặc anomaly detection.",
+      "evidence": [
+        {
+          "course_code": "CPV301",
+          "clo": "CLO8"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO4"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "OpenCV, YOLO, PyTorch, TensorFlow (explicit tool/library knowledge)",
+      "coverage": "not_evidenced",
+      "comment": "Hồ sơ học thuật hiện có chưa cung cấp bằng chứng trực tiếp về việc học hoặc sử dụng các thư viện OpenCV, YOLO, PyTorch hoặc TensorFlow. Các CLO chỉ đề cập đến kỹ thuật hoặc thuật toán tổng quát mà không nêu tên các thư viện/công cụ này.",
+      "evidence": []
+    },
+    {
+      "jd_requirement": "LLM, RAG, agent concepts and workflows",
+      "coverage": "related",
+      "comment": "AIG202c/CLO3 và CLO4 đề cập đến các mô hình Generative AI, prompt engineering, và các công cụ liên quan, phù hợp với khái niệm LLM và agent ở mức tổng quan. Tuy nhiên, không có CLO nào xác nhận trực tiếp về RAG (Retrieval-Augmented Generation) hoặc workflow cụ thể cho LLM/agent.",
+      "evidence": [
+        {
+          "course_code": "AIG202c",
+          "clo": "CLO3"
+        },
+        {
+          "course_code": "AIG202c",
+          "clo": "CLO4"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "REST API development (FastAPI/Flask), API integration",
+      "coverage": "related",
+      "comment": "DAP391m/CLO6 yêu cầu sinh viên phát triển ứng dụng AI sử dụng Watson APIs, thể hiện kiến thức về tích hợp API. Tuy nhiên, không có CLO nào xác nhận trực tiếp về REST API hoặc sử dụng FastAPI/Flask.",
+      "evidence": [
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO6"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "SQL and database knowledge (including Microsoft SQL Server, T-SQL)",
+      "coverage": "covered",
+      "comment": "DBI202/CLO5 xác nhận sinh viên đã học và thực hành SQL, bao gồm DDL, DML, truy vấn nhiều bảng, truy vấn lồng, tổng hợp, và thao tác dữ liệu trên Microsoft SQL Server. CLO6 đề cập đến lập trình T-SQL, stored procedures, triggers, và transaction. Thành tích học thuật ở mức cơ bản. ADY201m/CLO1 và CLO7 bổ sung kiến thức về SQL và truy cập cơ sở dữ liệu trong bối cảnh khoa học dữ liệu với thành tích khá.",
+      "evidence": [
+        {
+          "course_code": "DBI202",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "DBI202",
+          "clo": "CLO6"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO1"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "General machine learning and deep learning foundations",
+      "coverage": "covered",
+      "comment": "AIL303m/CLO4, CLO5, CLO7 xác nhận sinh viên đã học các mô hình học máy có giám sát và không giám sát, các thuật toán phân loại, hồi quy, clustering, và các kỹ thuật đánh giá mô hình. MAI391/CLO5, CLO6, CLO7 bổ sung kiến thức về hồi quy tuyến tính, PCA, SVM. Các CLO này phản ánh nền tảng học thuật vững chắc về ML/DL.",
+      "evidence": [
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO5"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Git and Docker (explicit tool knowledge)",
+      "coverage": "not_evidenced",
+      "comment": "Hồ sơ học thuật hiện có chưa cung cấp bằng chứng trực tiếp về việc học hoặc sử dụng Git hoặc Docker.",
+      "evidence": []
+    },
+    {
+      "jd_requirement": "ONNX deployment (preferred)",
+      "coverage": "not_evidenced",
+      "comment": "Không có CLO nào xác nhận về ONNX hoặc triển khai mô hình với ONNX.",
+      "evidence": []
+    },
+    {
+      "jd_requirement": "Deploying models to edge, server, or cloud environments",
+      "coverage": "related",
+      "comment": "DAP391m/CLO7 yêu cầu sinh viên thực hiện dự án khoa học dữ liệu bao gồm các bước triển khai (deployment) trong môi trường học thuật. Tuy nhiên, CLO không xác nhận triển khai thực tế lên edge, server hoặc cloud với các công nghệ cụ thể.",
+      "evidence": [
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO7"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "MLOps/AgentOps reliability support",
+      "coverage": "not_evidenced",
+      "comment": "Hồ sơ học thuật hiện có chưa cung cấp bằng chứng trực tiếp về MLOps hoặc AgentOps.",
+      "evidence": []
+    }
+  ],
+  "conclusion": "Hồ sơ học thuật của sinh viên cho thấy nền tảng vững chắc về lập trình Python, thị giác máy tính, xử lý ảnh, học máy, học sâu, SQL và cơ sở dữ liệu, với thành tích học thuật từ cơ bản đến xuất sắc tùy từng chủ đề. Các CLO xác nhận sinh viên đã học và thực hiện các kỹ thuật phát hiện đối tượng, phân loại, hồi quy, clustering, và triển khai dự án AI trong môi trường học thuật. Tuy nhiên, hồ sơ chưa cung cấp bằng chứng trực tiếp về việc học hoặc sử dụng các công nghệ cụ thể như OpenCV, YOLO, PyTorch, TensorFlow, FastAPI, Flask, Docker, Git, ONNX, cũng như các quy trình MLOps/AgentOps hoặc triển khai thực tế lên edge/server/cloud. Một số chủ đề như LLM, agent, RAG chỉ được đề cập ở mức tổng quan. Kết quả học thuật phản ánh mức độ tiếp thu tốt các kiến thức nền tảng, nhưng chưa xác nhận kinh nghiệm thực tế hoặc sử dụng các công nghệ sản xuất cụ thể."
+}

@@ -1,0 +1,189 @@
+{
+  "origin": "offline_integrity_check",
+  "checked_at": "2026-10-13T15:20:36.456101+07:00",
+  "protected_files": [
+    {
+      "path": ".env",
+      "before": "3877e1fb58070af2edab4f04243ca9a0b597e05e65c83aa19b6b8b2ba248e607",
+      "after": "3877e1fb58070af2edab4f04243ca9a0b597e05e65c83aa19b6b8b2ba248e607",
+      "unchanged": true
+    },
+    {
+      "path": "academic_report.json",
+      "before": "8766801603a5bab7ada55dda5bd2e0fb56fd0d3ac397488d89ef5ccb0385c40d",
+      "after": "8766801603a5bab7ada55dda5bd2e0fb56fd0d3ac397488d89ef5ccb0385c40d",
+      "unchanged": true
+    },
+    {
+      "path": "data/academic_chat_evaluation/cases.json",
+      "before": "d7a4bcfd3d34a5203d94f38851c47e7dfd7e1b609a0e194c7bc25acbd6b0a9b8",
+      "after": "d7a4bcfd3d34a5203d94f38851c47e7dfd7e1b609a0e194c7bc25acbd6b0a9b8",
+      "unchanged": true
+    },
+    {
+      "path": "data/academic_chat_evaluation/conversational_style.examples.live.json",
+      "before": "7ebd0bdb4fb7b037d97b38b054dc87869c103ca0db660a21b0b67f4e51ff71cc",
+      "after": "7ebd0bdb4fb7b037d97b38b054dc87869c103ca0db660a21b0b67f4e51ff71cc",
+      "unchanged": true
+    },
+    {
+      "path": "data/academic_chat_evaluation/conversational_style.final.live.json",
+      "before": "aef582c64a98243f936d8973447df7c8b4a81ec48781828c8b4b0a04dd4e8f07",
+      "after": "aef582c64a98243f936d8973447df7c8b4a81ec48781828c8b4b0a04dd4e8f07",
+      "unchanged": true
+    },
+    {
+      "path": "data/academic_chat_evaluation/conversational_style.live.json",
+      "before": "e97d48983cdeaf55749540a250c9a1a15d8b51d733f36e7a531b99b35cf3eefd",
+      "after": "e97d48983cdeaf55749540a250c9a1a15d8b51d733f36e7a531b99b35cf3eefd",
+      "unchanged": true
+    },
+    {
+      "path": "data/academic_chat_evaluation/conversational_style.refined.live.json",
+      "before": "8a18f11b11ce14bab3673d7e4d0610f145e466d051e2e8c569f6bd673f7f28e8",
+      "after": "8a18f11b11ce14bab3673d7e4d0610f145e466d051e2e8c569f6bd673f7f28e8",
+      "unchanged": true
+    },
+    {
+      "path": "data/academic_chat_evaluation/conversations.initial.live.json",
+      "before": "0418952f5fdd66a0f7436f050f1bed33b306991eb52bcfd552ed684142564b67",
+      "after": "0418952f5fdd66a0f7436f050f1bed33b306991eb52bcfd552ed684142564b67",
+      "unchanged": true
+    },
+    {
+      "path": "data/academic_chat_evaluation/conversations.live.json",
+      "before": "0418952f5fdd66a0f7436f050f1bed33b306991eb52bcfd552ed684142564b67",
+      "after": "0418952f5fdd66a0f7436f050f1bed33b306991eb52bcfd552ed684142564b67",
+      "unchanged": true
+    },
+    {
+      "path": "data/academic_chat_evaluation/refinement.live.json",
+      "before": "db9642c4863665c8588b7036811254ef1f7deb84078e9d4b3255b2d2e97fee3e",
+      "after": "db9642c4863665c8588b7036811254ef1f7deb84078e9d4b3255b2d2e97fee3e",
+      "unchanged": true
+    },
+    {
+      "path": "data/academic_chat_evaluation/sql_final.live.json",
+      "before": "f95ca7bbad7fba7f7bc0ed34e27749a04bf3c0d2972e5d8eaf64bcbdd5a18c9a",
+      "after": "f95ca7bbad7fba7f7bc0ed34e27749a04bf3c0d2972e5d8eaf64bcbdd5a18c9a",
+      "unchanged": true
+    },
+    {
+      "path": "data/academic_review_evaluation/computer_vision.initial.live.json",
+      "before": "b3ee761bd63f35629ffd7fa0b077cdccc79724c2455e1b7948ce73f1a8d041ad",
+      "after": "b3ee761bd63f35629ffd7fa0b077cdccc79724c2455e1b7948ce73f1a8d041ad",
+      "unchanged": true
+    },
+    {
+      "path": "data/academic_review_evaluation/computer_vision.revision2.live.json",
+      "before": "959d063dc815fcae6acea91da5064caee17d826977346c6185eaf0290d275cd8",
+      "after": "959d063dc815fcae6acea91da5064caee17d826977346c6185eaf0290d275cd8",
+      "unchanged": true
+    },
+    {
+      "path": "data/academic_review_evaluation/manifest.json",
+      "before": "90dcc81bedcbf5c4dab5364f3ac55c4f624ee73bf10a94d0a3891b12d9a69ebb",
+      "after": "90dcc81bedcbf5c4dab5364f3ac55c4f624ee73bf10a94d0a3891b12d9a69ebb",
+      "unchanged": true
+    },
+    {
+      "path": "data/academic_review_evaluation/prompt_injection.live.json",
+      "before": "f2389a3936463a12780a0bc5bb4c4e535c6ebd618743120ae6144d7d4293a854",
+      "after": "f2389a3936463a12780a0bc5bb4c4e535c6ebd618743120ae6144d7d4293a854",
+      "unchanged": true
+    },
+    {
+      "path": "data/academic_review_evaluation/prompt_injection.txt",
+      "before": "60f40c5f9b5092eabd12f70760cd00a46f9b905fc9d7e3c2059ff638341bdc06",
+      "after": "60f40c5f9b5092eabd12f70760cd00a46f9b905fc9d7e3c2059ff638341bdc06",
+      "unchanged": true
+    },
+    {
+      "path": "data/academic_review_evaluation/sql_data_analysis.gpt41.initial.live.json",
+      "before": "ca1ba88daa025320e62890e65bc7872102781f5ecc37b4081ec7140680d0822f",
+      "after": "ca1ba88daa025320e62890e65bc7872102781f5ecc37b4081ec7140680d0822f",
+      "unchanged": true
+    },
+    {
+      "path": "data/academic_review_evaluation/sql_data_analysis.initial.live.json",
+      "before": "5d3489df1215c1a8c767b1b5bc59f698e84517800f1f8b335f5c95551ea8a313",
+      "after": "5d3489df1215c1a8c767b1b5bc59f698e84517800f1f8b335f5c95551ea8a313",
+      "unchanged": true
+    },
+    {
+      "path": "data/academic_review_evaluation/sql_data_analysis.live.json",
+      "before": "1c627fdbbb88a95ad7e2f47eddaf7fe5b9a83c0b882438331348b6c2f61ead1a",
+      "after": "1c627fdbbb88a95ad7e2f47eddaf7fe5b9a83c0b882438331348b6c2f61ead1a",
+      "unchanged": true
+    },
+    {
+      "path": "data/academic_review_evaluation/sql_data_analysis.revision2.live.json",
+      "before": "8811e5e2e7eee9c4403b599338a868a958f3c97c5e09162900cac5567569f0e3",
+      "after": "8811e5e2e7eee9c4403b599338a868a958f3c97c5e09162900cac5567569f0e3",
+      "unchanged": true
+    },
+    {
+      "path": "data/academic_review_evaluation/sql_data_analysis.txt",
+      "before": "3cb7f7a82569ac6873e379861f81d258baf5575519082d520b75fe216f5a7c03",
+      "after": "3cb7f7a82569ac6873e379861f81d258baf5575519082d520b75fe216f5a7c03",
+      "unchanged": true
+    },
+    {
+      "path": "data/academic_review_evaluation/uncovered_technical.initial.live.json",
+      "before": "a1f1c233aa5135fdd120630352209ddec0bcf5f3f2fab883166893e1b1a40db0",
+      "after": "a1f1c233aa5135fdd120630352209ddec0bcf5f3f2fab883166893e1b1a40db0",
+      "unchanged": true
+    },
+    {
+      "path": "data/academic_review_evaluation/uncovered_technical.live.json",
+      "before": "99c24b3e946ae8cd2b2d73a4c08a79151b74112557da4bd9349648de78b4f1bd",
+      "after": "99c24b3e946ae8cd2b2d73a4c08a79151b74112557da4bd9349648de78b4f1bd",
+      "unchanged": true
+    },
+    {
+      "path": "data/academic_review_evaluation/uncovered_technical.txt",
+      "before": "9b11564989d3f331b7b14a26dda442a07d89c367fdc7dead84f1bb610b2a98c5",
+      "after": "9b11564989d3f331b7b14a26dda442a07d89c367fdc7dead84f1bb610b2a98c5",
+      "unchanged": true
+    },
+    {
+      "path": "data/clo_scoring_report.json",
+      "before": "54267445fc3f878e23dd40fe053103135047f5279d58f14802d346a389b2a7db",
+      "after": "54267445fc3f878e23dd40fe053103135047f5279d58f14802d346a389b2a7db",
+      "unchanged": true
+    },
+    {
+      "path": "data/jd_academic_review.json",
+      "before": "0dbd52a3c967bc9accb5472938bf501b3fe82fb92c776fc4812e1cf7f78e5d9c",
+      "after": "0dbd52a3c967bc9accb5472938bf501b3fe82fb92c776fc4812e1cf7f78e5d9c",
+      "unchanged": true
+    },
+    {
+      "path": "data/sample_jd.txt",
+      "before": "93feb444800b15c391ae9deacdf9bacda5ccc4539d2ea42795c279ba8d1558dc",
+      "after": "93feb444800b15c391ae9deacdf9bacda5ccc4539d2ea42795c279ba8d1558dc",
+      "unchanged": true
+    },
+    {
+      "path": "data/student_academic_profile.json",
+      "before": "99f34048ed8c3d11ed972fa0a97476aa7fba6f071ad8aea454bb66b6b5c2eca1",
+      "after": "99f34048ed8c3d11ed972fa0a97476aa7fba6f071ad8aea454bb66b6b5c2eca1",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/build_student_academic_profile.py",
+      "before": "0f5b45c73584b7277bfbbfbb47b4412687221fde89c744a779a794dee2b6d737",
+      "after": "0f5b45c73584b7277bfbbfbb47b4412687221fde89c744a779a794dee2b6d737",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/clo_scoring.py",
+      "before": "7097127992be589cbbc2cdb60c5be17bbd969e3bf0df08ca763ea5c755db22d4",
+      "after": "7097127992be589cbbc2cdb60c5be17bbd969e3bf0df08ca763ea5c755db22d4",
+      "unchanged": true
+    }
+  ],
+  "review_schema_unchanged": true,
+  "chat_schema_structure_unchanged": true,
+  "chat_descriptions_changed": true
+}

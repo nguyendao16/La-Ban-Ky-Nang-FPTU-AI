@@ -1,0 +1,7 @@
+{
+  "syllabus_name": "AI for Scientific Research_TTNT cho Nghiên cứu khoa học",
+  "course_name_english": "AI for Scientific Research",
+  "subject_code": "ASR301c",
+  "description": "This course is about using AI in scientific situations to discover trends and patterns within datasets. Course 1 teaches a little about the Python language related to data science. We'll share some existing libraries to help analyze your datasets. By the end of the course, you'll apply a classification model to predict the presence or absence of heart disease from a patient's health data. Course 2 covers the complete machine learning pipeline, from reading in, cleaning, and transforming data to running basic and advanced machine learning algorithms. In the final project, we'll apply our skills to compare different machine learning models in Python. In Course 3, we will build on our knowledge of basic models and explore more advanced AI techniques. We’ll describe the differences between the two techniques and explore how they differ. Then, we’ll complete a project predicting similarities between health patients using random forests. In Course 4, a capstone project course, we'll compare genome sequences of COVID-19 mutations to identify potential areas a drug therapy can look to target. By the end, you'll be well on your way to discovering ways to combat disease with genome sequencing.",
+  "tools": ""
+}

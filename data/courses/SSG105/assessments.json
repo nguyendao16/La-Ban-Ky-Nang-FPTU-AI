@@ -1,0 +1,50 @@
+[
+  {
+    "category": "Activity",
+    "part": "2",
+    "weight": "10.0%",
+    "clo": "LO1-7"
+  },
+  {
+    "category": "Group Assignment 1",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "LO1-7"
+  },
+  {
+    "category": "Group Assignment 2",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "LO1-7"
+  },
+  {
+    "category": "Group Project: part 1(Project Proposal & Presentation)",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "LO1-7"
+  },
+  {
+    "category": "Group Project: part 2(Group Project Deliverable & Final Project Report/Presentation)",
+    "part": "1",
+    "weight": "20.0%",
+    "clo": "LO1-7"
+  },
+  {
+    "category": "Participation",
+    "part": "1",
+    "weight": "10.0%",
+    "clo": "LO1-7"
+  },
+  {
+    "category": "Quiz",
+    "part": "1",
+    "weight": "5.0%",
+    "clo": "LO1-7"
+  },
+  {
+    "category": "Final exam",
+    "part": "1",
+    "weight": "25.0%",
+    "clo": "LO1-7"
+  }
+]

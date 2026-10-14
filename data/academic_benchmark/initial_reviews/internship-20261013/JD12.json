@@ -1,0 +1,117 @@
+{
+  "review_type": "academic_knowledge_review",
+  "overview": "Hồ sơ học thuật của sinh viên thể hiện nền tảng vững chắc về Python, xử lý dữ liệu, cơ sở dữ liệu, các thuật toán và một số kiến thức liên quan đến dữ liệu không gian và tự động hóa quy trình. Các học phần như PFP191, ADY201m, DAP391m, DBI202, cùng với các môn về AI, khoa học dữ liệu và xử lý dữ liệu lớn cung cấp bằng chứng học thuật về các chủ đề cốt lõi mà vị trí Data Engineering Intern yêu cầu. Tuy nhiên, các công nghệ chuyên biệt như Dagster, Airflow, Prefect, Docker, GCP/AWS và dữ liệu địa lý chỉ được đề cập gián tiếp hoặc chưa có bằng chứng học thuật trực tiếp trong hồ sơ này.",
+  "requirement_reviews": [
+    {
+      "jd_requirement": "Strong Python and Git familiarity",
+      "coverage": "covered",
+      "comment": "PFP191/CLO1-7 cung cấp nền tảng lập trình Python toàn diện, bao gồm môi trường, cấu trúc chương trình, biến, hàm, cấu trúc dữ liệu, OOP và thao tác file với thành tích excellent. ADY201m/CLO5, CLO7 và DAP391m/CLO1-4, CLO7 bổ sung kiến thức Python cho khoa học dữ liệu, thao tác dữ liệu, và thực hiện dự án nhỏ. Về Git, ADY201m/CLO3 đề cập đến việc sử dụng ít nhất một công cụ phổ biến trong khoa học dữ liệu, bao gồm GitHub, tuy nhiên chỉ yêu cầu sử dụng một công cụ nên chưa xác nhận chắc chắn về Git.",
+      "evidence": [
+        {
+          "course_code": "PFP191",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "PFP191",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO3"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Integrate weather/climate/geospatial datasets",
+      "coverage": "related",
+      "comment": "DAP391m/CLO1-2, CLO7 và AIL303m/CLO1 xác nhận sinh viên đã học về nhập dữ liệu từ nhiều nguồn (bao gồm APIs, Cloud), làm sạch, phân tích và thực hiện dự án dữ liệu thực tế. Tuy nhiên, chưa có CLO nào đề cập trực tiếp đến dữ liệu thời tiết, khí hậu hoặc dữ liệu địa lý/geospatial. CPV301/CLO8 liên quan đến xử lý đối tượng trong computer vision, nhưng không đề cập đến dữ liệu không gian địa lý.",
+      "evidence": [
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO1"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Build Dagster pipelines; pipelines/ETL and orchestration such as Dagster, Airflow OR Prefect",
+      "coverage": "not_evidenced",
+      "comment": "Hồ sơ học thuật hiện có chưa cung cấp bằng chứng trực tiếp về Dagster, Airflow, Prefect hoặc các công cụ orchestration/pipeline chuyên biệt. Các CLO về dự án dữ liệu xác nhận quy trình phân tích, xử lý, và báo cáo dữ liệu nhưng không đề cập đến xây dựng hoặc vận hành pipeline với các công cụ này.",
+      "evidence": []
+    },
+    {
+      "jd_requirement": "Validate data quality/completeness",
+      "coverage": "related",
+      "comment": "DAP391m/CLO1-2, CLO7 và AIL303m/CLO1 xác nhận sinh viên đã học về nhập, làm sạch, kiểm tra dữ liệu và thực hiện dự án phân tích dữ liệu, bao gồm các bước kiểm tra chất lượng dữ liệu trong quy trình thực tế. Tuy nhiên, chưa có CLO nào mô tả rõ ràng về các kỹ thuật kiểm tra chất lượng hoặc tính đầy đủ dữ liệu ở mức chuyên sâu.",
+      "evidence": [
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO1"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Document and automate ingestion; support foundational data operations",
+      "coverage": "related",
+      "comment": "DAP391m/CLO7 và ADY201m/CLO7 xác nhận sinh viên đã thực hiện dự án nhỏ về khoa học dữ liệu, bao gồm các bước thu thập, xử lý, phân tích, đánh giá và báo cáo dữ liệu. Tuy nhiên, chưa có CLO nào đề cập trực tiếp đến việc tự động hóa ingestion hoặc tài liệu hóa quy trình ingestion dữ liệu.",
+      "evidence": [
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO7"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO7"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "GCP/AWS and structured/geospatial data familiarity",
+      "coverage": "related",
+      "comment": "AIL303m/CLO1 đề cập đến việc truy xuất dữ liệu từ Cloud, nhưng không nêu rõ GCP hay AWS. DBI202/CLO1-2, CLO5-7 và ADY201m/CLO1 xác nhận kiến thức về dữ liệu có cấu trúc (structured data) và SQL. Không có CLO nào đề cập trực tiếp đến dữ liệu địa lý (geospatial data).",
+      "evidence": [
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO1"
+        },
+        {
+          "course_code": "DBI202",
+          "clo": "CLO5"
+        }
+      ]
+    },
+    {
+      "jd_requirement": "Docker/containerized development",
+      "coverage": "not_evidenced",
+      "comment": "Hồ sơ học thuật hiện có chưa cung cấp bằng chứng về Docker hoặc phát triển ứng dụng dạng container.",
+      "evidence": []
+    },
+    {
+      "jd_requirement": "SQL and basic data modeling",
+      "coverage": "covered",
+      "comment": "DBI202/CLO5 xác nhận sinh viên đã học và thực hành SQL (DDL, DML, truy vấn nhiều bảng, lồng, tổng hợp, cập nhật, xóa) trên Microsoft SQL Server với achievement basic. DBI202/CLO4, CLO3 bổ sung kiến thức về mô hình hóa dữ liệu (ER, chuyển đổi ER sang lược đồ quan hệ, chuẩn hóa). ADY201m/CLO1, CLO7 xác nhận sử dụng SQL trong dự án khoa học dữ liệu với achievement good/excellent.",
+      "evidence": [
+        {
+          "course_code": "DBI202",
+          "clo": "CLO5"
+        },
+        {
+          "course_code": "DBI202",
+          "clo": "CLO4"
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO1"
+        }
+      ]
+    }
+  ],
+  "conclusion": "Hồ sơ học thuật của sinh viên cung cấp bằng chứng vững chắc về Python, thao tác dữ liệu, SQL và mô hình hóa dữ liệu cơ bản, cùng với kinh nghiệm học thuật về thực hiện dự án khoa học dữ liệu và sử dụng một số công cụ phổ biến như GitHub. Các chủ đề về kiểm tra chất lượng dữ liệu, tự động hóa ingestion, truy xuất dữ liệu từ Cloud và dữ liệu có cấu trúc được đề cập ở mức liên quan, nhưng chưa có bằng chứng học thuật trực tiếp về các công nghệ chuyên biệt như Dagster, Airflow, Prefect, Docker, GCP/AWS cụ thể hoặc dữ liệu địa lý. Thành tích học tập trải dài từ basic đến excellent, trong đó các kỹ năng Python và khoa học dữ liệu đạt mức excellent, còn SQL và mô hình hóa dữ liệu ở mức basic đến good. Hồ sơ chưa xác nhận kinh nghiệm thực tế với các công cụ orchestration/pipeline hoặc phát triển container hóa."
+}

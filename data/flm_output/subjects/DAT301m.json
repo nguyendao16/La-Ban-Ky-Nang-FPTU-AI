@@ -1,0 +1,933 @@
+{
+  "record_type": "normal_subject",
+  "curriculum": {
+    "subject_code": "DAT301m",
+    "subject_name": "AI Development with TensorFlow_Phát triển UDTTNT với TensorFlow",
+    "semester": "7",
+    "credits": "3",
+    "prerequisite": "CPV301, DPL302m",
+    "pre_syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/Syllabuses?subCode=DAT301m&curriculumID=3173",
+    "curriculum_url": "https://flm.fpt.edu.vn/gui/role/student/CurriculumDetails?curid=3173"
+  },
+  "syllabus_versions": [
+    {
+      "subject_code": "DAT301m",
+      "syllabus_name": "AI Development_Phát triển UDTTNT",
+      "is_active": true,
+      "is_approved": true,
+      "decision_no": "932/QĐ-ĐHFPT dated 08/22/2025",
+      "syllabus_id": "13293",
+      "syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=13293",
+      "pre_syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/Syllabuses?subCode=DAT301m&curriculumID=3173"
+    }
+  ],
+  "selected_syllabus": {
+    "subject_code": "DAT301m",
+    "syllabus_name": "AI Development_Phát triển UDTTNT",
+    "is_active": true,
+    "is_approved": true,
+    "decision_no": "932/QĐ-ĐHFPT dated 08/22/2025",
+    "syllabus_id": "13293",
+    "syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=13293",
+    "pre_syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/Syllabuses?subCode=DAT301m&curriculumID=3173"
+  },
+  "details": {
+    "source_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=13293",
+    "metadata": {
+      "Syllabus ID": "13293",
+      "Syllabus Name": "AI Development_Phát triển UDTTNT",
+      "Course Name English": "AI Development",
+      "Subject Code": "DAT301m",
+      "Learning-Teaching Method": "Offline",
+      "NoCredit": "3",
+      "Degree Level": "Bachelor",
+      "Time Allocation": "45h (60 sessions) contact hours + 1h final exam + 104h self-study;",
+      "Pre-Requisite": "CPV301, DPL302m",
+      "Description": "Learn how to build real-world AI applications with TensorFlow! In this hands-on course, you’ll train neural networks for computer vision, apply techniques like data augmentation, dropout, and transfer learning, and build natural language processing systems using RNNs, GRUs, and LSTMs. Through project-based learning, you’ll gain practical experience creating image classifiers, object detectors, and text generators—preparing you with the skills to design and deploy powerful AI solutions.",
+      "StudentTasks": "- Students must attend at least 80% of contact slots in order to be accepted to the final examination.\n- Student is responsible to do all exercises, assignments and labs given by instructor in class or at home and submit on time\n- Use laptop in class only for learning purpose\n- Promptly access to the FU FLM at https://flm.fpt.edu.vn/ for up-to-date course information",
+      "Tools": "Jupyter Notebooks, Google Colab, ChatGPT, Github Copilot",
+      "Scoring Scale": "10",
+      "DecisionNo MM/dd/yyyy": "932/QĐ-ĐHFPT dated 08/22/2025",
+      "IsApproved": "True",
+      "Note": "1) On-going Assessment\n- Report 1: Project Proposal [ Oral group presentatation] : 10%\n- Report 2: Data Tasks [ Oral group presentatation]: 10%\n- Report 3: Model & Results [ Oral group presentatation]: 30%\n- Report 4: Final report & Group presentatation: 10%\n- 1 progress tests: 10%\n- 1 Final Exam: 30%\n2) Final Result 100%\nCompletion Criteria:\n1) Every on-going assessment component > 0\n2) Final Exam Score >= 4 & Final Result >= 5",
+      "Is Scored": "True",
+      "MinAvgMarkToPass": "5",
+      "IsActive": "True",
+      "ApprovedDate": "8/22/2025"
+    },
+    "materials": [
+      {
+        "No.": "1",
+        "Material Description": "Convolutional Neural Networks in TensorFlow",
+        "Author": "Coursera",
+        "Publisher": "https://www.coursera.org/learn/convolutional-neural-networks-tensorflow",
+        "Published Date": "",
+        "Edition": "",
+        "ISBN": "",
+        "Is Main Material": "True",
+        "Is Hard Copy": "False",
+        "Is Online": "True",
+        "Note": ""
+      },
+      {
+        "No.": "2",
+        "Material Description": "Guided Project\nObject Localization with TensorFlow",
+        "Author": "Coursera",
+        "Publisher": "https://www.coursera.org/programs/fptu-fall-2024-zb2kn/projects/object-localization-tensorflow?source=search",
+        "Published Date": "",
+        "Edition": "",
+        "ISBN": "",
+        "Is Main Material": "False",
+        "Is Hard Copy": "False",
+        "Is Online": "True",
+        "Note": ""
+      },
+      {
+        "No.": "3",
+        "Material Description": "Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning",
+        "Author": "Coursera",
+        "Publisher": "https://www.coursera.org/learn/introduction-tensorflow",
+        "Published Date": "",
+        "Edition": "",
+        "ISBN": "",
+        "Is Main Material": "True",
+        "Is Hard Copy": "False",
+        "Is Online": "True",
+        "Note": ""
+      },
+      {
+        "No.": "4",
+        "Material Description": "Natural Language Processing in TensorFlow",
+        "Author": "Coursera",
+        "Publisher": "https://www.coursera.org/learn/natural-language-processing-tensorflow",
+        "Published Date": "",
+        "Edition": "",
+        "ISBN": "",
+        "Is Main Material": "True",
+        "Is Hard Copy": "False",
+        "Is Online": "True",
+        "Note": ""
+      },
+      {
+        "No.": "5",
+        "Material Description": "Sequences, Time Series and Prediction",
+        "Author": "Coursera",
+        "Publisher": "https://www.coursera.org/learn/tensorflow-sequences-time-series-and-prediction",
+        "Published Date": "",
+        "Edition": "",
+        "ISBN": "",
+        "Is Main Material": "True",
+        "Is Hard Copy": "False",
+        "Is Online": "True",
+        "Note": ""
+      }
+    ],
+    "clos": [
+      {
+        "No.": "1",
+        "CLO Name": "CLO1",
+        "CLO Details": "Understand the basics of TensorFlow and application of TensorFlow framework in Machine Learning, Deep Learning."
+      },
+      {
+        "No.": "2",
+        "CLO Name": "CLO2",
+        "CLO Details": "Understand how to build a basic neural network in TensorFlow and train a neural network for a computer vision application."
+      },
+      {
+        "No.": "3",
+        "CLO Name": "CLO3",
+        "CLO Details": "Understan the convolutional Neural Networks in TensorFlow, include the strategies to prevent overfitting, including augmentation and dropout"
+      },
+      {
+        "No.": "4",
+        "CLO Name": "CLO4",
+        "CLO Details": "Undesrstand the transfer learning and how learned features can be extracted from models"
+      },
+      {
+        "No.": "5",
+        "CLO Name": "CLO5",
+        "CLO Details": "Understand basic concepts of sentiment in text, word Embeddings, sequence model and literature"
+      },
+      {
+        "No.": "6",
+        "CLO Name": "CLO6",
+        "CLO Details": "Implementing natural language processing systems using TensorFlow"
+      },
+      {
+        "No.": "7",
+        "CLO Name": "CLO7",
+        "CLO Details": "Understand the sequences, time series and prediction problems in TensorFlow"
+      },
+      {
+        "No.": "8",
+        "CLO Name": "CLO8",
+        "CLO Details": "Understand how to apply RNNs, GRUs, and LSTMs as you train them using text repositories"
+      },
+      {
+        "No.": "9",
+        "CLO Name": "CLO9",
+        "CLO Details": "Understand how to apply AI tools to complete a mini project"
+      },
+      {
+        "No.": "10",
+        "CLO Name": "CLO10",
+        "CLO Details": "Implement a AI project includes steps: data collection, data wrangling, exploratory data analysis, model development, model evaluation, and reporting"
+      }
+    ],
+    "schedule": [
+      {
+        "Session": "1",
+        "Topic": "Course Introduction",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO1,CLO9",
+        "ITU": "T",
+        "Student Materials": "- slides: Introduction",
+        "S-Download": "mat1",
+        "Student's Tasks": "Read slide introduction\nSyllabus DAT301m",
+        "URLs": ""
+      },
+      {
+        "Session": "2",
+        "Topic": "1.1. Working with TensorFlow",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO1,CLO9",
+        "ITU": "T",
+        "Student Materials": "- slides: chapter 1.1",
+        "S-Download": "",
+        "Student's Tasks": "Read Chapter 1.1",
+        "URLs": ""
+      },
+      {
+        "Session": "3",
+        "Topic": "1.2. Machine learning and computer vision in TensorFlow",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO1,CLO9",
+        "ITU": "T",
+        "Student Materials": "- slides: chapter 1.2",
+        "S-Download": "",
+        "Student's Tasks": "Read Chapter 1.2",
+        "URLs": ""
+      },
+      {
+        "Session": "4",
+        "Topic": "1.3 Coding with TensorFlow in Google Colaboratory",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO1,CLO9",
+        "ITU": "T",
+        "Student Materials": "- slide chapter 1.3",
+        "S-Download": "",
+        "Student's Tasks": "Read chapter 1.3",
+        "URLs": ""
+      },
+      {
+        "Session": "5",
+        "Topic": "1.4 Computer Vision Neural Network",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO2,CLO9",
+        "ITU": "T",
+        "Student Materials": "- slide chapter 1.4",
+        "S-Download": "",
+        "Student's Tasks": "Read Chapter 1.4",
+        "URLs": ""
+      },
+      {
+        "Session": "6",
+        "Topic": "1.5 Understand Convolutional Neural Networks in TensorFlow",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO2,CLO9",
+        "ITU": "T",
+        "Student Materials": "- slide chapter 1.5",
+        "S-Download": "",
+        "Student's Tasks": "Read Chapter 1.5",
+        "URLs": ""
+      },
+      {
+        "Session": "7",
+        "Topic": "1.6 The techniques of Convolutional Neural Networks in TensorFlow",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO2,CLO9",
+        "ITU": "T",
+        "Student Materials": "- slide chapter 1.6",
+        "S-Download": "",
+        "Student's Tasks": "Read Chapter 1.6",
+        "URLs": ""
+      },
+      {
+        "Session": "8",
+        "Topic": "Discussion on the Capstone Project (CP) topic",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO9,CLO10",
+        "ITU": "U",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "",
+        "URLs": ""
+      },
+      {
+        "Session": "9",
+        "Topic": "Formation of teams/groups",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO9,CLO10",
+        "ITU": "U",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "",
+        "URLs": ""
+      },
+      {
+        "Session": "10",
+        "Topic": "Discuss and choose a project topic",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO9,CLO10",
+        "ITU": "U",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "",
+        "URLs": ""
+      },
+      {
+        "Session": "11",
+        "Topic": "Report 1: Project Proposal (Discussion)",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO9,CLO10",
+        "ITU": "U",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "",
+        "URLs": ""
+      },
+      {
+        "Session": "12",
+        "Topic": "2.1 The large dataset in the Neural network",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO3,CLO9",
+        "ITU": "T",
+        "Student Materials": "- slide chapter 2.1",
+        "S-Download": "",
+        "Student's Tasks": "Read Chapter 2.1",
+        "URLs": ""
+      },
+      {
+        "Session": "13",
+        "Topic": "2.2 Image Augmentation",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO3,CLO9",
+        "ITU": "T",
+        "Student Materials": "- slide chapter 2.2",
+        "S-Download": "",
+        "Student's Tasks": "Read Chapter 2.2",
+        "URLs": ""
+      },
+      {
+        "Session": "14",
+        "Topic": "2.3 Overfitting and solutions",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO3,CLO9",
+        "ITU": "T",
+        "Student Materials": "- slide chapter 2.3",
+        "S-Download": "",
+        "Student's Tasks": "Read Chapter 2.3",
+        "URLs": ""
+      },
+      {
+        "Session": "15",
+        "Topic": "2.4 The concept of transfer learning",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO4,CLO9",
+        "ITU": "T",
+        "Student Materials": "- slide chapter 2.4",
+        "S-Download": "",
+        "Student's Tasks": "Read Chapter 2.4",
+        "URLs": ""
+      },
+      {
+        "Session": "16",
+        "Topic": "2.5 Create model with transferred features",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO4,CLO9",
+        "ITU": "T",
+        "Student Materials": "- slide chapter 2.5",
+        "S-Download": "",
+        "Student's Tasks": "Read Chapter 2.5",
+        "URLs": ""
+      },
+      {
+        "Session": "17",
+        "Topic": "2.6 Exploring dropouts and Transfer Learning with Inception",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO4,CLO9",
+        "ITU": "T",
+        "Student Materials": "- slide chapter 2.6",
+        "S-Download": "",
+        "Student's Tasks": "Read Chapter 2.6",
+        "URLs": ""
+      },
+      {
+        "Session": "18",
+        "Topic": "2.7 The multi-class classification: discusses and examples",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO4,CLO9",
+        "ITU": "T",
+        "Student Materials": "- slide chapter 2.7",
+        "S-Download": "",
+        "Student's Tasks": "Read Chapter 2.7",
+        "URLs": ""
+      },
+      {
+        "Session": "19",
+        "Topic": "Team Meeting: Project Proposal Writing (Report 1)",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO9,CLO10",
+        "ITU": "U",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "",
+        "URLs": ""
+      },
+      {
+        "Session": "20",
+        "Topic": "Team Meeting: Project Proposal Writing (Report 1)",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO9,CLO10",
+        "ITU": "U",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "",
+        "URLs": ""
+      },
+      {
+        "Session": "21",
+        "Topic": "Team Meeting: Instructor's feedbacks for Project Proposal (Report 1)",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO9,CLO10",
+        "ITU": "U",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "",
+        "URLs": ""
+      },
+      {
+        "Session": "22",
+        "Topic": "Team Meeting: Instructor's feedbacks for Project Proposal (Report 1)",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO9,CLO10",
+        "ITU": "U",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "",
+        "URLs": ""
+      },
+      {
+        "Session": "23",
+        "Topic": "Team Meeting: Instructor's feedbacks for Project Proposal (Report 1)",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO9,CLO10",
+        "ITU": "U",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "",
+        "URLs": ""
+      },
+      {
+        "Session": "24",
+        "Topic": "Team Meeting: Instructor's feedbacks for Project Proposal (Report 1)",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO9,CLO10",
+        "ITU": "U",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "",
+        "URLs": ""
+      },
+      {
+        "Session": "25",
+        "Topic": "Team Meeting: Data Collection(Present the issues discussed and agreed upon by the group) (Report 2)",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO9,CLO10",
+        "ITU": "U",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "",
+        "URLs": ""
+      },
+      {
+        "Session": "26",
+        "Topic": "3.1 The word based encodings in TensorFlow",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO5,CLO9",
+        "ITU": "T",
+        "Student Materials": "- slide chapter 3.1",
+        "S-Download": "",
+        "Student's Tasks": "Read Chapter 3.1",
+        "URLs": ""
+      },
+      {
+        "Session": "27",
+        "Topic": "3.2 Text to sequence in TensorFlow",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO5,CLO9",
+        "ITU": "T",
+        "Student Materials": "- slide chapter 3.2",
+        "S-Download": "",
+        "Student's Tasks": "Read Chapter 3.2",
+        "URLs": ""
+      },
+      {
+        "Session": "28",
+        "Topic": "3.3 The Tokenizer in TensorFlow",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO5,CLO9",
+        "ITU": "T",
+        "Student Materials": "- slide chapter 3.3",
+        "S-Download": "",
+        "Student's Tasks": "Read Chapter 3.3",
+        "URLs": ""
+      },
+      {
+        "Session": "29",
+        "Topic": "3.4 The padding in TensorFlow",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO5.CLO9",
+        "ITU": "T",
+        "Student Materials": "- slide chapter 3.4",
+        "S-Download": "",
+        "Student's Tasks": "Read Chapter 3.4",
+        "URLs": ""
+      },
+      {
+        "Session": "30",
+        "Topic": "3.5 The vector in TensorFlow",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO5,CLO9",
+        "ITU": "T",
+        "Student Materials": "- slide chapter 3.5",
+        "S-Download": "",
+        "Student's Tasks": "Read Chapter 3.5",
+        "URLs": ""
+      },
+      {
+        "Session": "31",
+        "Topic": "3.6 Classifier for the sarcasm dataset",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO6,CLO9",
+        "ITU": "T",
+        "Student Materials": "- slide chapter 3.6",
+        "S-Download": "",
+        "Student's Tasks": "Read Chapter 3.6",
+        "URLs": ""
+      },
+      {
+        "Session": "32",
+        "Topic": "3.7 Subwords text encoder",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO6,CLO9",
+        "ITU": "T",
+        "Student Materials": "- slide chapter 3.7",
+        "S-Download": "",
+        "Student's Tasks": "Read Chapter 3.7",
+        "URLs": ""
+      },
+      {
+        "Session": "33",
+        "Topic": "3.8 The Long Short Term Memory (LSTM) for NLP",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO6,CLO9",
+        "ITU": "T",
+        "Student Materials": "- slide chapter 3.8",
+        "S-Download": "",
+        "Student's Tasks": "Read Chapter 3.8",
+        "URLs": ""
+      },
+      {
+        "Session": "34",
+        "Topic": "3.9 Exploring different sequence models",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO6,CLO9",
+        "ITU": "T",
+        "Student Materials": "- slide chapter 3.9",
+        "S-Download": "",
+        "Student's Tasks": "Read Chapter 3.9",
+        "URLs": ""
+      },
+      {
+        "Session": "35",
+        "Topic": "3.10 Sequence models and literature for NLP",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO6,CLO9",
+        "ITU": "T",
+        "Student Materials": "- slide chapter 3.10",
+        "S-Download": "",
+        "Student's Tasks": "Read Chapter 3.10",
+        "URLs": ""
+      },
+      {
+        "Session": "36",
+        "Topic": "Team Meeting: Data Collection(Present the issues discussed and agreed upon by the group) (Report 2)",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO9,CLO10",
+        "ITU": "U",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "",
+        "URLs": ""
+      },
+      {
+        "Session": "37",
+        "Topic": "Team Meeting: Instructor's feedbacks for Data Tasks all phase (Report 2)",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO9,CLO10",
+        "ITU": "U",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "",
+        "URLs": ""
+      },
+      {
+        "Session": "38",
+        "Topic": "Team Meeting: Instructor's feedbacks for Data Tasks all phase (Report 2)",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO9,CLO10",
+        "ITU": "U",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "",
+        "URLs": ""
+      },
+      {
+        "Session": "39",
+        "Topic": "Team Meeting: Instructor's feedbacks for Data Tasks all phase (Report 2)",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO9,CLO10",
+        "ITU": "U",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "",
+        "URLs": ""
+      },
+      {
+        "Session": "40",
+        "Topic": "Progess test",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6",
+        "ITU": "T",
+        "Student Materials": "- slide chapter 1, 2,3",
+        "S-Download": "",
+        "Student's Tasks": "- slide chapter 1, 2,3",
+        "URLs": ""
+      },
+      {
+        "Session": "41",
+        "Topic": "4.1 The introduction of Time series and its application",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO7,CLO9",
+        "ITU": "T",
+        "Student Materials": "- slide chapter 4.1",
+        "S-Download": "",
+        "Student's Tasks": "Read Chapter 4.1",
+        "URLs": ""
+      },
+      {
+        "Session": "42",
+        "Topic": "4.2 Machine learning applied to time series",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO7,CLO9",
+        "ITU": "T",
+        "Student Materials": "- slide chapter 4.2",
+        "S-Download": "",
+        "Student's Tasks": "Read Chapter 4.2",
+        "URLs": ""
+      },
+      {
+        "Session": "43",
+        "Topic": "4.3 Time series: Train, validation and test sets",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO7,CLO9",
+        "ITU": "T",
+        "Student Materials": "- slide chapter 4.3",
+        "S-Download": "",
+        "Student's Tasks": "Read Chapter 4.3",
+        "URLs": ""
+      },
+      {
+        "Session": "44",
+        "Topic": "4.4 Time series: Metrics for evaluating performance",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO7,CLO9",
+        "ITU": "T",
+        "Student Materials": "- slide chapter 4.4",
+        "S-Download": "",
+        "Student's Tasks": "Read Chapter 4.4",
+        "URLs": ""
+      },
+      {
+        "Session": "45",
+        "Topic": "4.5 Time series:tips to build the forecasting",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO7,CLO9",
+        "ITU": "T",
+        "Student Materials": "- slide chapter 4.5",
+        "S-Download": "",
+        "Student's Tasks": "Read Chapter 4.5",
+        "URLs": ""
+      },
+      {
+        "Session": "46",
+        "Topic": "4.6 Deep neural networks for time series: Preparing features and labels",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO8,CLO9",
+        "ITU": "T",
+        "Student Materials": "- slide chapter 4.6",
+        "S-Download": "",
+        "Student's Tasks": "Read Chapter 4.6",
+        "URLs": ""
+      },
+      {
+        "Session": "47",
+        "Topic": "4.7 Deep neural networks for time series: build the layer neural network",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO8,CLO9",
+        "ITU": "T",
+        "Student Materials": "- slide chapter 4.7",
+        "S-Download": "",
+        "Student's Tasks": "Read Chapter 4.7",
+        "URLs": ""
+      },
+      {
+        "Session": "48",
+        "Topic": "4.8 Deep neural networks for time series: training, tuning and prediction",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO8,CLO9",
+        "ITU": "T",
+        "Student Materials": "- slide chapter 4.8",
+        "S-Download": "",
+        "Student's Tasks": "Read Chapter 4.8",
+        "URLs": ""
+      },
+      {
+        "Session": "49",
+        "Topic": "4.9 Conceptual of Recurrent neural network for time series",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO8,CLO9",
+        "ITU": "T",
+        "Student Materials": "- slide chapter 4.9",
+        "S-Download": "",
+        "Student's Tasks": "Read Chapter 4.9",
+        "URLs": ""
+      },
+      {
+        "Session": "50",
+        "Topic": "4.10 Recurrent neural network for time series: input, lambda layer, learnig rate, output",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO8,CLO9",
+        "ITU": "T",
+        "Student Materials": "- slide chapter 4.10",
+        "S-Download": "",
+        "Student's Tasks": "Read Chapter 4.10",
+        "URLs": ""
+      },
+      {
+        "Session": "51",
+        "Topic": "Team Meeting: Model & Results (Present the issues discussed and agreed upon by the group) (Report 3)",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO9,CLO10",
+        "ITU": "U",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "",
+        "URLs": ""
+      },
+      {
+        "Session": "52",
+        "Topic": "Team Meeting: Model & Results (Present the issues discussed and agreed upon by the group) (Report 3)",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO9,CLO10",
+        "ITU": "U",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "",
+        "URLs": ""
+      },
+      {
+        "Session": "53",
+        "Topic": "Team Meeting: Instructor's feedbacks for Model & Results (Report 3)",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO9,CLO10",
+        "ITU": "U",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "",
+        "URLs": ""
+      },
+      {
+        "Session": "54",
+        "Topic": "Team Meeting: Instructor's feedbacks for Model & Results (Report 3)",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO9,CLO10",
+        "ITU": "U",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "",
+        "URLs": ""
+      },
+      {
+        "Session": "55",
+        "Topic": "Team Meeting: Instructor's feedbacks for Model & Results (Report 3)",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO9,CLO10",
+        "ITU": "U",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "",
+        "URLs": ""
+      },
+      {
+        "Session": "56",
+        "Topic": "Team Meeting: Practice for Presentation of Capstone Project (Report 4)",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO9,CLO10",
+        "ITU": "U",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "",
+        "URLs": ""
+      },
+      {
+        "Session": "57",
+        "Topic": "Team Meeting: Practice for Presentation of Capstone Project (Report 4)",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO9,CLO10",
+        "ITU": "U",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "",
+        "URLs": ""
+      },
+      {
+        "Session": "58",
+        "Topic": "Team Meeting: Practice for Presentation of Capstone Project (Report 4)",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO9,CLO10",
+        "ITU": "U",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "",
+        "URLs": ""
+      },
+      {
+        "Session": "59",
+        "Topic": "Team Meeting: Practice for Presentation of Capstone Project (Report 4)",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO9,CLO10",
+        "ITU": "U",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "",
+        "URLs": ""
+      },
+      {
+        "Session": "60",
+        "Topic": "Review course\nResults",
+        "Learning-Teaching Type": "Offline",
+        "LO": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8",
+        "ITU": "U",
+        "Student Materials": "Syllabus DAT301m\nSlide chapter 1,2,3,4",
+        "S-Download": "",
+        "Student's Tasks": "Syllabus DAT301m\nSlide chapter 1,2,3,4",
+        "URLs": ""
+      }
+    ],
+    "assessments": [
+      {
+        "No.": "1",
+        "Category": "Progress test",
+        "Type": "on-going",
+        "Part": "1",
+        "Weight": "10.0%",
+        "Completion Criteria": ">0",
+        "Duration": "45'",
+        "CLO": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6",
+        "Question Type": "Multiple choices\nMarked by Computer or a suitable format",
+        "No Question": "30",
+        "Knowledge and Skill": "- cover chapter 1,2,3",
+        "Grading Guide": "in class, by instructor",
+        "Note": "Instruction and shedules for Progress tests must be presented in the Course Implementation Plan approved by director of the campus.\nProgress test must be taken right after the last lectures of required material.\nInstructor has resposibility to review the test for students after graded."
+      },
+      {
+        "No.": "2",
+        "Category": "Report 1: Project Proposal [ Oral group presentation]",
+        "Type": "on-going",
+        "Part": "1",
+        "Weight": "10.0%",
+        "Completion Criteria": ">0",
+        "Duration": "225'",
+        "CLO": "CLO9, CLO10",
+        "Question Type": "Presentation, class",
+        "No Question": "1",
+        "Knowledge and Skill": "- cover chapter 1",
+        "Grading Guide": "in class, by instructor",
+        "Note": "Instructor has resposibility to review the test for students after graded."
+      },
+      {
+        "No.": "3",
+        "Category": "Report 2: Data Tasks [ Oral group presentation]",
+        "Type": "on-going",
+        "Part": "1",
+        "Weight": "10.0%",
+        "Completion Criteria": ">0",
+        "Duration": "225'",
+        "CLO": "CLO9, CLO10",
+        "Question Type": "Presentation, class",
+        "No Question": "1",
+        "Knowledge and Skill": "- cover chapter 2",
+        "Grading Guide": "in class, by instructor",
+        "Note": "Instructor has resposibility to review the test for students after graded."
+      },
+      {
+        "No.": "4",
+        "Category": "Report 3: Model & Results [ Oral group presentation]",
+        "Type": "on-going",
+        "Part": "1",
+        "Weight": "30.0%",
+        "Completion Criteria": ">0",
+        "Duration": "225'",
+        "CLO": "CLO9, CLO10",
+        "Question Type": "Presentation, class",
+        "No Question": "1",
+        "Knowledge and Skill": "- cover chapter 3",
+        "Grading Guide": "in class, by instructor",
+        "Note": "Instructor has resposibility to review the test for students after graded."
+      },
+      {
+        "No.": "5",
+        "Category": "Report 4: Final report & Group presentation",
+        "Type": "on-going",
+        "Part": "1",
+        "Weight": "10.0%",
+        "Completion Criteria": ">0",
+        "Duration": "225'",
+        "CLO": "CLO9, CLO10",
+        "Question Type": "Presentation, class",
+        "No Question": "1",
+        "Knowledge and Skill": "- cover chapter 4",
+        "Grading Guide": "in class, by instructor",
+        "Note": "Instructor has resposibility to review the test for students after graded."
+      },
+      {
+        "No.": "6",
+        "Category": "Final exam",
+        "Type": "Final exam",
+        "Part": "1",
+        "Weight": "30.0%",
+        "Completion Criteria": "4",
+        "Duration": "60'",
+        "CLO": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8",
+        "Question Type": "Multiple choices\nMarked by Computer",
+        "No Question": "50",
+        "Knowledge and Skill": "- cover chapter 1, 2, 3, 4",
+        "Grading Guide": "by exam board,\nusing computer",
+        "Note": "The exam questions must be updated or different at least 70% to the previous ones."
+      }
+    ]
+  },
+  "error": null
+}

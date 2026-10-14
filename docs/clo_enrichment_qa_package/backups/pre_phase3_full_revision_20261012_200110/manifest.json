@@ -1,0 +1,300 @@
+{
+  "created_at": "20261012_200110",
+  "type": "pre_phase3_full_revision",
+  "files": [
+    {
+      "course_id": "ADY201m",
+      "count": 7,
+      "schema": "detailed_wrapper",
+      "path": "docs/clo_enrichment_qa_package/backups/pre_phase3_full_revision_20261012_200110/ADY201m/enriched_clos.json"
+    },
+    {
+      "course_id": "AGA301c",
+      "count": 5,
+      "schema": "detailed_wrapper",
+      "path": "docs/clo_enrichment_qa_package/backups/pre_phase3_full_revision_20261012_200110/AGA301c/enriched_clos.json"
+    },
+    {
+      "course_id": "AI17_GRA_ELE",
+      "count": 0,
+      "schema": "detailed_wrapper",
+      "path": "docs/clo_enrichment_qa_package/backups/pre_phase3_full_revision_20261012_200110/AI17_GRA_ELE/enriched_clos.json"
+    },
+    {
+      "course_id": "AID301c",
+      "count": 5,
+      "schema": "detailed_wrapper",
+      "path": "docs/clo_enrichment_qa_package/backups/pre_phase3_full_revision_20261012_200110/AID301c/enriched_clos.json"
+    },
+    {
+      "course_id": "AIE301m",
+      "count": 9,
+      "schema": "detailed_wrapper",
+      "path": "docs/clo_enrichment_qa_package/backups/pre_phase3_full_revision_20261012_200110/AIE301m/enriched_clos.json"
+    },
+    {
+      "course_id": "AIG202c",
+      "count": 5,
+      "schema": "detailed_wrapper",
+      "path": "docs/clo_enrichment_qa_package/backups/pre_phase3_full_revision_20261012_200110/AIG202c/enriched_clos.json"
+    },
+    {
+      "course_id": "AIH301m",
+      "count": 8,
+      "schema": "detailed_wrapper",
+      "path": "docs/clo_enrichment_qa_package/backups/pre_phase3_full_revision_20261012_200110/AIH301m/enriched_clos.json"
+    },
+    {
+      "course_id": "AIL303m",
+      "count": 10,
+      "schema": "detailed_wrapper",
+      "path": "docs/clo_enrichment_qa_package/backups/pre_phase3_full_revision_20261012_200110/AIL303m/enriched_clos.json"
+    },
+    {
+      "course_id": "AIM301m",
+      "count": 9,
+      "schema": "detailed_wrapper",
+      "path": "docs/clo_enrichment_qa_package/backups/pre_phase3_full_revision_20261012_200110/AIM301m/enriched_clos.json"
+    },
+    {
+      "course_id": "AIS301c",
+      "count": 5,
+      "schema": "detailed_wrapper",
+      "path": "docs/clo_enrichment_qa_package/backups/pre_phase3_full_revision_20261012_200110/AIS301c/enriched_clos.json"
+    },
+    {
+      "course_id": "AMO301m",
+      "count": 10,
+      "schema": "detailed_wrapper",
+      "path": "docs/clo_enrichment_qa_package/backups/pre_phase3_full_revision_20261012_200110/AMO301m/enriched_clos.json"
+    },
+    {
+      "course_id": "ASR301c",
+      "count": 4,
+      "schema": "detailed_wrapper",
+      "path": "docs/clo_enrichment_qa_package/backups/pre_phase3_full_revision_20261012_200110/ASR301c/enriched_clos.json"
+    },
+    {
+      "course_id": "BDI302c",
+      "count": 6,
+      "schema": "detailed_wrapper",
+      "path": "docs/clo_enrichment_qa_package/backups/pre_phase3_full_revision_20261012_200110/BDI302c/enriched_clos.json"
+    },
+    {
+      "course_id": "CEA201",
+      "count": 10,
+      "schema": "detailed_wrapper",
+      "path": "docs/clo_enrichment_qa_package/backups/pre_phase3_full_revision_20261012_200110/CEA201/enriched_clos.json"
+    },
+    {
+      "course_id": "CMO301m",
+      "count": 9,
+      "schema": "detailed_wrapper",
+      "path": "docs/clo_enrichment_qa_package/backups/pre_phase3_full_revision_20261012_200110/CMO301m/enriched_clos.json"
+    },
+    {
+      "course_id": "CPV301",
+      "count": 9,
+      "schema": "detailed_wrapper",
+      "path": "docs/clo_enrichment_qa_package/backups/pre_phase3_full_revision_20261012_200110/CPV301/enriched_clos.json"
+    },
+    {
+      "course_id": "CSD203",
+      "count": 8,
+      "schema": "detailed_wrapper",
+      "path": "docs/clo_enrichment_qa_package/backups/pre_phase3_full_revision_20261012_200110/CSD203/enriched_clos.json"
+    },
+    {
+      "course_id": "CSI106",
+      "count": 13,
+      "schema": "detailed_wrapper",
+      "path": "docs/clo_enrichment_qa_package/backups/pre_phase3_full_revision_20261012_200110/CSI106/enriched_clos.json"
+    },
+    {
+      "course_id": "DAP391m",
+      "count": 7,
+      "schema": "detailed_wrapper",
+      "path": "docs/clo_enrichment_qa_package/backups/pre_phase3_full_revision_20261012_200110/DAP391m/enriched_clos.json"
+    },
+    {
+      "course_id": "DAT301m",
+      "count": 10,
+      "schema": "detailed_wrapper",
+      "path": "docs/clo_enrichment_qa_package/backups/pre_phase3_full_revision_20261012_200110/DAT301m/enriched_clos.json"
+    },
+    {
+      "course_id": "DBI202",
+      "count": 7,
+      "schema": "detailed_wrapper",
+      "path": "docs/clo_enrichment_qa_package/backups/pre_phase3_full_revision_20261012_200110/DBI202/enriched_clos.json"
+    },
+    {
+      "course_id": "DBM302m",
+      "count": 4,
+      "schema": "detailed_wrapper",
+      "path": "docs/clo_enrichment_qa_package/backups/pre_phase3_full_revision_20261012_200110/DBM302m/enriched_clos.json"
+    },
+    {
+      "course_id": "DPL302m",
+      "count": 7,
+      "schema": "detailed_wrapper",
+      "path": "docs/clo_enrichment_qa_package/backups/pre_phase3_full_revision_20261012_200110/DPL302m/enriched_clos.json"
+    },
+    {
+      "course_id": "DSP391m",
+      "count": 10,
+      "schema": "detailed_wrapper",
+      "path": "docs/clo_enrichment_qa_package/backups/pre_phase3_full_revision_20261012_200110/DSP391m/enriched_clos.json"
+    },
+    {
+      "course_id": "DSR301m",
+      "count": 6,
+      "schema": "detailed_wrapper",
+      "path": "docs/clo_enrichment_qa_package/backups/pre_phase3_full_revision_20261012_200110/DSR301m/enriched_clos.json"
+    },
+    {
+      "course_id": "DWP301c",
+      "count": 11,
+      "schema": "detailed_wrapper",
+      "path": "docs/clo_enrichment_qa_package/backups/pre_phase3_full_revision_20261012_200110/DWP301c/enriched_clos.json"
+    },
+    {
+      "course_id": "ENW493c",
+      "count": 5,
+      "schema": "detailed_wrapper",
+      "path": "docs/clo_enrichment_qa_package/backups/pre_phase3_full_revision_20261012_200110/ENW493c/enriched_clos.json"
+    },
+    {
+      "course_id": "EXE101",
+      "count": 5,
+      "schema": "detailed_wrapper",
+      "path": "docs/clo_enrichment_qa_package/backups/pre_phase3_full_revision_20261012_200110/EXE101/enriched_clos.json"
+    },
+    {
+      "course_id": "EXE201",
+      "count": 4,
+      "schema": "detailed_wrapper",
+      "path": "docs/clo_enrichment_qa_package/backups/pre_phase3_full_revision_20261012_200110/EXE201/enriched_clos.json"
+    },
+    {
+      "course_id": "GAI201m",
+      "count": 5,
+      "schema": "detailed_wrapper",
+      "path": "docs/clo_enrichment_qa_package/backups/pre_phase3_full_revision_20261012_200110/GAI201m/enriched_clos.json"
+    },
+    {
+      "course_id": "GAP301",
+      "count": 10,
+      "schema": "detailed_wrapper",
+      "path": "docs/clo_enrichment_qa_package/backups/pre_phase3_full_revision_20261012_200110/GAP301/enriched_clos.json"
+    },
+    {
+      "course_id": "IMP302",
+      "count": 5,
+      "schema": "detailed_wrapper",
+      "path": "docs/clo_enrichment_qa_package/backups/pre_phase3_full_revision_20261012_200110/IMP302/enriched_clos.json"
+    },
+    {
+      "course_id": "ITE303c",
+      "count": 4,
+      "schema": "detailed_wrapper",
+      "path": "docs/clo_enrichment_qa_package/backups/pre_phase3_full_revision_20261012_200110/ITE303c/enriched_clos.json"
+    },
+    {
+      "course_id": "MAD101",
+      "count": 8,
+      "schema": "detailed_wrapper",
+      "path": "docs/clo_enrichment_qa_package/backups/pre_phase3_full_revision_20261012_200110/MAD101/enriched_clos.json"
+    },
+    {
+      "course_id": "MAE101",
+      "count": 9,
+      "schema": "detailed_wrapper",
+      "path": "docs/clo_enrichment_qa_package/backups/pre_phase3_full_revision_20261012_200110/MAE101/enriched_clos.json"
+    },
+    {
+      "course_id": "MAI391",
+      "count": 9,
+      "schema": "detailed_wrapper",
+      "path": "docs/clo_enrichment_qa_package/backups/pre_phase3_full_revision_20261012_200110/MAI391/enriched_clos.json"
+    },
+    {
+      "course_id": "MAS291",
+      "count": 9,
+      "schema": "detailed_wrapper",
+      "path": "docs/clo_enrichment_qa_package/backups/pre_phase3_full_revision_20261012_200110/MAS291/enriched_clos.json"
+    },
+    {
+      "course_id": "MGA301",
+      "count": 8,
+      "schema": "detailed_wrapper",
+      "path": "docs/clo_enrichment_qa_package/backups/pre_phase3_full_revision_20261012_200110/MGA301/enriched_clos.json"
+    },
+    {
+      "course_id": "MOI201m",
+      "count": 9,
+      "schema": "detailed_wrapper",
+      "path": "docs/clo_enrichment_qa_package/backups/pre_phase3_full_revision_20261012_200110/MOI201m/enriched_clos.json"
+    },
+    {
+      "course_id": "NLP301m",
+      "count": 7,
+      "schema": "detailed_wrapper",
+      "path": "docs/clo_enrichment_qa_package/backups/pre_phase3_full_revision_20261012_200110/NLP301m/enriched_clos.json"
+    },
+    {
+      "course_id": "PFP191",
+      "count": 7,
+      "schema": "detailed_wrapper",
+      "path": "docs/clo_enrichment_qa_package/backups/pre_phase3_full_revision_20261012_200110/PFP191/enriched_clos.json"
+    },
+    {
+      "course_id": "PMG201c",
+      "count": 4,
+      "schema": "detailed_wrapper",
+      "path": "docs/clo_enrichment_qa_package/backups/pre_phase3_full_revision_20261012_200110/PMG201c/enriched_clos.json"
+    },
+    {
+      "course_id": "REL301m",
+      "count": 7,
+      "schema": "detailed_wrapper",
+      "path": "docs/clo_enrichment_qa_package/backups/pre_phase3_full_revision_20261012_200110/REL301m/enriched_clos.json"
+    },
+    {
+      "course_id": "SEG301",
+      "count": 5,
+      "schema": "detailed_wrapper",
+      "path": "docs/clo_enrichment_qa_package/backups/pre_phase3_full_revision_20261012_200110/SEG301/enriched_clos.json"
+    },
+    {
+      "course_id": "SLP301",
+      "count": 5,
+      "schema": "detailed_wrapper",
+      "path": "docs/clo_enrichment_qa_package/backups/pre_phase3_full_revision_20261012_200110/SLP301/enriched_clos.json"
+    },
+    {
+      "course_id": "SSA101",
+      "count": 11,
+      "schema": "detailed_wrapper",
+      "path": "docs/clo_enrichment_qa_package/backups/pre_phase3_full_revision_20261012_200110/SSA101/enriched_clos.json"
+    },
+    {
+      "course_id": "SSG105",
+      "count": 7,
+      "schema": "detailed_wrapper",
+      "path": "docs/clo_enrichment_qa_package/backups/pre_phase3_full_revision_20261012_200110/SSG105/enriched_clos.json"
+    },
+    {
+      "course_id": "SWE201c",
+      "count": 4,
+      "schema": "detailed_wrapper",
+      "path": "docs/clo_enrichment_qa_package/backups/pre_phase3_full_revision_20261012_200110/SWE201c/enriched_clos.json"
+    },
+    {
+      "course_id": "TMG301",
+      "count": 5,
+      "schema": "detailed_wrapper",
+      "path": "docs/clo_enrichment_qa_package/backups/pre_phase3_full_revision_20261012_200110/TMG301/enriched_clos.json"
+    }
+  ]
+}

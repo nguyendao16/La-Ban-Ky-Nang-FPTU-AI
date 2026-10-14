@@ -1,0 +1,7 @@
+{
+  "syllabus_name": "Data Mining_Khai phá dữ liệu",
+  "course_name_english": "Data Mining",
+  "subject_code": "DBM302m",
+  "description": "- This course introduces the key steps involved in the data mining pipeline, including data understanding, data preprocessing, data warehousing, data modeling, interpretation and evaluation, and real-world applications.\n- Students will learn the general concepts of data mining along with basic methodologies and applications. Then dive into one subfield in data mining: pattern discovery. Learn in-depth concepts, methods, and applications of pattern discovery in data mining. This courser will introduce methods for pattern-based classification and some interesting applications of pattern discovery. It also provides you the opportunity to learn skills and content to practice and engage in scalable pattern discovery methods on massive transactional data, discuss pattern evaluation measures, and study methods for mining diverse kinds of patterns, sequential patterns, and sub-graph patterns.",
+  "tools": "Jupyter Notebooks, RStudio IDE"
+}

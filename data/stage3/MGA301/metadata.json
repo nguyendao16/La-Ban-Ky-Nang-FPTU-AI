@@ -1,0 +1,7 @@
+{
+  "syllabus_name": "Multimodal AI_TTNT đa phương thức",
+  "course_name_english": "Multimodal AI",
+  "subject_code": "MGA301",
+  "description": "Multimodal AI course aim on building AI systems that operate across modalities - vision, language, audio, video, 3D, and embodiment. The course frames multimodality through four core problems (representation, alignment, fusion, translation) and proceeds through cross-modal representations (CLIP, SigLIP, ImageBind), fusion architectures (cross-attention, Perceiver, Q-Former, gated cross-attention), vision-language and unified models (LLaVA, BLIP-2, Flamingo, Chameleon/Janus families), speech and audio, video and world models, 3D and embodied agents, multimodal reasoning / agents / RAG, evaluation (benchmark saturation, hallucination), efficiency and deployment, and safety/provenance/frontiers. Mathematical depth is assumed from the prerequisites (Deep Learning, Advanced Generative AI); this course focuses on architectures, training recipes, evaluation, and hands-on multimodal systems.",
+  "tools": "`- Python 3.10+ with PyTorch and Hugging Face Transformers\n- Google Colab or Jupyter Notebook (GPU access for labs)\n- A code/text editor (e.g., VS Code) - Open-weight VLMs (LLaVA/SigLIP/Whisper families)\n- Datasets via Hugging Face Datasets (COCO, VQA, AudioSet, video benchmarks)"
+}

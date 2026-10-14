@@ -1,0 +1,79 @@
+{
+  "CLO1": [
+    "Course Introduction\n1.1. Introduction to deep learning",
+    "1.2 Neural Networks Basics",
+    "1.3 Shallow neural networks",
+    "1.4 Deep Neural Networks",
+    "Progess test",
+    "Review"
+  ],
+  "CLO2": [
+    "2.1 Practical aspects of Deep Learning",
+    "2.2 Optimization algorithms",
+    "2.3 Hyperparameter tuning, Batch Normalization and Programming Frameworks",
+    "Progess test",
+    "Review"
+  ],
+  "CLO3": [
+    "3.1 ML Strategy 1",
+    "3.2 ML Strategy 2",
+    "Progess test",
+    "Review"
+  ],
+  "CLO4": [
+    "3.1 ML Strategy 2",
+    "4.1 Foundations of CNNs",
+    "4.2 Deep convolutional models: case studies",
+    "4.3 Object detection",
+    "4.4 Special applications: Face recognition and Neural style transfer",
+    "Progess test",
+    "Review"
+  ],
+  "CLO5": [
+    "5.1 Recurrent Neural Networks",
+    "5.2 Natural Language Processing and Word Embeddings",
+    "5.3 Sequence models and Attention mechanism",
+    "5.4 Transformer Network",
+    "Review"
+  ],
+  "CLO6": [
+    "Discussion on the Project (CP) topic",
+    "Formation of teams/groups",
+    "Discuss and choose a project topic",
+    "Report 1: Project Proposal (Discussion)",
+    "Team Meeting: Project Proposal Writing Report 1)",
+    "Team Meeting: Project Proposal Writing (Report 1)",
+    "Team Meeting: Instructor's feedbacks for Project Proposal (Report 1)",
+    "Team Meeting: Data Collection (Present the issues discussed and agreed upon by the group) (Report 2)",
+    "Team Meeting: Instructor's feedbacks for Data Tasks all phase (Report 2)",
+    "Team Meeting: Model & Results (Present the issues discussed and agreed upon by the group) (Report 3)",
+    "Team Meeting: Instructor's feedbacks for Model & Results (Report 3)",
+    "Team Meeting: Final Report (Present the issues discussed and agreed upon by the group)",
+    "Team Meeting: Instructor's feedbacks for Final Report (Report 4)",
+    "Project defense"
+  ],
+  "CLO7": [
+    "1.2 Neural Networks Basics",
+    "1.3 Shallow neural networks",
+    "Discussion on the Project (CP) topic",
+    "Formation of teams/groups",
+    "Discuss and choose a project topic",
+    "Report 1: Project Proposal (Discussion)",
+    "1.4 Deep Neural Networks",
+    "Team Meeting: Project Proposal Writing Report 1)",
+    "Team Meeting: Project Proposal Writing (Report 1)",
+    "Team Meeting: Instructor's feedbacks for Project Proposal (Report 1)",
+    "2.1 Practical aspects of Deep Learning",
+    "Team Meeting: Data Collection (Present the issues discussed and agreed upon by the group) (Report 2)",
+    "2.2 Optimization algorithms",
+    "Team Meeting: Instructor's feedbacks for Data Tasks all phase (Report 2)",
+    "2.3 Hyperparameter tuning, Batch Normalization and Programming Frameworks",
+    "Team Meeting: Model & Results (Present the issues discussed and agreed upon by the group) (Report 3)",
+    "Team Meeting: Instructor's feedbacks for Model & Results (Report 3)",
+    "5.2 Natural Language Processing and Word Embeddings",
+    "5.3 Sequence models and Attention mechanism",
+    "Team Meeting: Final Report (Present the issues discussed and agreed upon by the group)",
+    "5.4 Transformer Network",
+    "Team Meeting: Instructor's feedbacks for Final Report (Report 4)"
+  ]
+}

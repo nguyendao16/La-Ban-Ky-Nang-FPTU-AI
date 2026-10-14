@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "syllabus_name": "Introduction to Software Engineering_Nhập môn kỹ thuật phần mềm",
+    "course_name_english": "Introduction to Software Engineering",
+    "subject_code": "SWE201c",
+    "description": "SWE201c is for people who are new to software engineering. It's also for those who have already developed software, but wish to gain a deeper understanding of the underlying context and theory of software development practices.\nAt the end of this course, we expect learners to be able to:\n1.) Build high-quality and secure software using SDLC methodologies such as agile, lean, and traditional/waterfall.\n2.) Analyze a software development team's SDLC methodology and make recommendations for improvements.\n3.) Compare and contrast software development methodologies with respect to environmental, organizational, and product constraints.",
+    "tools": ""
+  },
+  "clos": [
+    {
+      "clo_name": "CLO1",
+      "clo_details": "Compare and contrast software development methodologies with respect to environmental, organizational, and product constraints."
+    },
+    {
+      "clo_name": "CLO2",
+      "clo_details": "Demonstrate the ability to participate effectively in agile practices/process for software development."
+    },
+    {
+      "clo_name": "CLO3",
+      "clo_details": "Apply lean techniques / methods to software development"
+    },
+    {
+      "clo_name": "CLO4",
+      "clo_details": "Comfortably and effectively participate in various techniques and processes for building secure and high quality software."
+    }
+  ],
+  "schedule": [
+    {
+      "topic": "Specialization Introduction\nSoftware Development Processes and Methodologies:\n- Software development processes: Part 1\nOffline 1: Introduction to the online course SWE201c",
+      "lo": "LO1"
+    },
+    {
+      "topic": "- Software Development Processes : Part 2",
+      "lo": "LO1"
+    },
+    {
+      "topic": "- Software Development Models: Traditional Models",
+      "lo": "LO1"
+    },
+    {
+      "topic": "- Software Development Models: Agile and Lean",
+      "lo": "LO1"
+    },
+    {
+      "topic": "Agile Software Development:\n- Agile Fundamentals\n- Requirements and Planning",
+      "lo": "LO2"
+    },
+    {
+      "topic": "- Scrum\n- XP and Course Wrap-up",
+      "lo": "LO2"
+    },
+    {
+      "topic": "Lean Software Development:\n- Lean Fundamentals\n- Kanban, Value Steam Mapping and Kaizen",
+      "lo": "LO4"
+    },
+    {
+      "topic": "- Lean Startup\n- Design Thinking",
+      "lo": "LO3"
+    },
+    {
+      "topic": "Engineering Practices for Building Quality Software:\n- Introduction to Quality Software\n- Quality in Design",
+      "lo": "LO4"
+    },
+    {
+      "topic": "- Quality in Architecture",
+      "lo": "LO4"
+    },
+    {
+      "topic": "- Quality in Implementation",
+      "lo": "LO4"
+    },
+    {
+      "topic": "- Quality in Testing and Deployment\nOffline 2: Review Software Development Lifecycle Specialization",
+      "lo": "LO4"
+    }
+  ],
+  "assessments": [
+    {
+      "category": "PE",
+      "part": "1",
+      "weight": "40.0%",
+      "clo": ""
+    },
+    {
+      "category": "TE",
+      "part": "1",
+      "weight": "60.0%",
+      "clo": ""
+    }
+  ]
+}

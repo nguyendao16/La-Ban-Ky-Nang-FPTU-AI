@@ -1,0 +1,217 @@
+{
+  "segments": [
+    {
+      "kind": "general_explanation",
+      "text": "Mình gom lại theo các nhóm nội dung học thuật chính đã trao đổi, và giữ nguyên điểm/achievement khi nhắc đến từng CLO.",
+      "academic_sources": [],
+      "jd_excerpt": null
+    },
+    {
+      "kind": "academic_claim",
+      "text": "Nhóm statistics rõ nhất nằm ở MAS291: CLO5 (điểm 9.15, achievement excellent) về mô tả dữ liệu bằng numerical summaries và visual displays; CLO6 (9.15, excellent) về sampling distributions, point estimation và Central Limit Theorem; CLO7 (9.43, excellent) về confidence intervals; CLO8 (9.43, excellent) về hypothesis testing; và CLO9 (9.43, excellent) về simple linear regression để prediction và interpretation. Đây là phần nền tảng statistics học thuật trực tiếp và khá mạnh.",
+      "academic_sources": [
+        {
+          "course_code": "MAS291",
+          "clo": "CLO5",
+          "source_excerpt": "Describe data using numerical summaries and visual displays, including descriptive statistics, stem-and-leaf diagrams, frequency distributions, histograms, box plots, quartiles, outlier identification, and time sequence plots."
+        },
+        {
+          "course_code": "MAS291",
+          "clo": "CLO6",
+          "source_excerpt": "Discuss sampling distributions and point estimation, then use the Central Limit Theorem to analyze sampling distributions of means."
+        },
+        {
+          "course_code": "MAS291",
+          "clo": "CLO7",
+          "source_excerpt": "Construct and interpret confidence intervals for population parameters and differences between population parameters, including intervals for means of normal distributions with known or unknown variance, large-sample intervals for population proportions, inference on differences between two means, and inference on differences between two proportions."
+        },
+        {
+          "course_code": "MAS291",
+          "clo": "CLO8",
+          "source_excerpt": "Verify claims about population parameters and differences between population parameters using hypothesis testing, including formulating hypotheses, identifying critical values and test statistics, computing p-values, recognizing testing errors, and conducting tests for single means, single proportions, differences between two means, and differences between two proportions."
+        },
+        {
+          "course_code": "MAS291",
+          "clo": "CLO9",
+          "source_excerpt": "Construct a simple linear regression model and use it for prediction and interpretation, including empirical models, least-squares estimation, sums of squares, regression equations, correlation coefficients, properties of least-squares estimators, and hypothesis tests for significance in simple linear regression."
+        }
+      ],
+      "jd_excerpt": null
+    },
+    {
+      "kind": "academic_claim",
+      "text": "Về data processing và data analysis, DAP391m/CLO1 (8.45, good) cho importing datasets và data wrangling; DAP391m/CLO2 (8.79, excellent) cho import từ nhiều nguồn, clean/wrangle data, exploratory data analysis (EDA) và tạo meaningful data visualizations; DAP391m/CLO7 (9.1, excellent) cho mini capstone gồm data collection, wrangling, EDA, data visualization, model development, evaluation và reporting. ADY201m/CLO7 (8.61, excellent) cũng xác nhận workflow dự án với Python fundamentals, SQL/database access, preprocessing, modeling, evaluation, deployment, visualization và reporting. AIL303m/CLO1 (7.56, good) bổ sung việc retrieving dữ liệu từ SQL, NoSQL, APIs và Cloud cùng cleaning.",
+      "academic_sources": [
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO1",
+          "source_excerpt": "Understand the basics of data analysis with Python for building and evaluating data models, including importing datasets and data wrangling."
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO2",
+          "source_excerpt": "Understand how to import data from multiple sources, clean and wrangle data, perform exploratory data analysis (EDA), and create meaningful data visualizations, including Data Analysis, Data Analysis with Python- Exploratory Data Analysis, Data Analysis with Python- Exploratory Data Analysis."
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO7",
+          "source_excerpt": "Implement the small mini capstone data science project includes steps: involving data collection, data wrangling, exploratory data analysis, data visualization, model development, model evaluation, and reporting, including Applied Data Science Capstone: Interactive Visual Analytics, Dashboard , Applied Data Science Capstone: Interactive Visual Analytics, Dashboard , Applied Data Science Capstone: Predictive Analysis (Classification) , Applied Data Science Capstone: Predictive Analysis (Classification), Evaluate final project."
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO7",
+          "source_excerpt": "Implement a small data science project by applying Python fundamentals, Python data structures, SQL/database access, data understanding, preprocessing, modeling, evaluation, deployment, visualization, probability, regression analysis, and final reporting within a guided project workflow."
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO1",
+          "source_excerpt": "Learners should be able to use common techniques to retrieve data from multiple data sources: SQL, NoSQL databases, APIs, Cloud, including Retrieving, Cleaning data."
+        }
+      ],
+      "jd_excerpt": null
+    },
+    {
+      "kind": "academic_claim",
+      "text": "Nền tảng ML/DL được xác nhận ở AIG202c/CLO2 (8.0, good) với Machine Learning, Deep Learning và Neural Networks. MAI391 bổ sung các phương pháp/mô hình cụ thể: CLO5 (9.4, excellent) về linear regression, CLO6 (9.4, excellent) về PCA, và CLO7 (9.4, excellent) về SVM classification. AIL303m/CLO4 (8.39, good) là supervised models với linear regression; CLO8 (6.87, basic) và CLO9 (6.87, basic) là clustering và dimensionality-reduction algorithms; CLO10 (5.42, basic) là mini capstone ML project.",
+      "academic_sources": [
+        {
+          "course_code": "AIG202c",
+          "clo": "CLO2",
+          "source_excerpt": "Explain underlying concepts related to Machine Learning, Deep Learning and Neural Networks, including AI Concepts, Terminology, Application Areas, AI: Issues, Concerns, Ethical Considerations."
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO5",
+          "source_excerpt": "Apply linear regression concepts, including problem formulation, parameter estimation, maximum likelihood estimation, maximum a posteriori estimation, generalization error, overfitting, and Bayesian linear regression."
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO6",
+          "source_excerpt": "Apply dimensionality reduction with PCA, including covariance matrices, maximum-variance subspaces, principal subspace bases, low-rank matrix approximation, PCA in high dimensions, projection perspectives, eigenvector computation, and key practical PCA steps."
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO7",
+          "source_excerpt": "Apply support vector machine classification, including separating hyperplanes, primal and dual SVM formulations, kernel-based nonlinear classifiers, and numerical approaches for finding optimal SVM solutions."
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO4",
+          "source_excerpt": "Learners should be able to describe and use supervised models, including Introduction to Supervised Machine Learning, Linear Regression."
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO8",
+          "source_excerpt": "Explain the curse of dimensionality, and how it makes clustering difficult with many features, including K Means Clustering, Selecting a clustering algorithm, Distance Metrics of Clustering Algorithms, Common clustering algorithms, Hierarchical Agglomerative Clustering, Hierarchical Agglomerative Clustering Lab, Compare clustering, Dimensionality Reduction."
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO9",
+          "source_excerpt": "Learners should be able to describe and use common clustering and dimensionality-reduction algorithms, including Selecting a clustering algorithm, Distance Metrics of Clustering Algorithms, Common clustering algorithms, Hierarchical Agglomerative Clustering, Hierarchical Agglomerative Clustering Lab, Compare clustering algorithms, Clustering Demo."
+        },
+        {
+          "course_code": "AIL303m",
+          "clo": "CLO10",
+          "source_excerpt": "Implement a mini capstone ML project includes steps: data collection, data wrangling, exploratory data analysis, model development, model evaluation, and reporting, including Guiding mini Capstone, Review the mini Capstone, Review mini Capstone."
+        }
+      ],
+      "jd_excerpt": null
+    },
+    {
+      "kind": "academic_claim",
+      "text": "Về Python và SQL, PFP191/CLO7 (8.9, excellent) cho OOP trong Python; ADY201m/CLO5 (8.61, excellent) cho Python fundamentals, libraries và API support trong data science; DAP391m/CLO1 cũng gắn Python với data analysis, importing datasets và data wrangling. Về SQL, DBI202/CLO5 (5.96, basic) bao gồm SQL DDL/DML, multi-relation queries, nested queries và modifications trên Microsoft SQL Server; DBI202/CLO6 (5.96, basic) là T-SQL, views, cursors, stored procedures, functions, triggers; DBI202/CLO7 (5.96, basic) là indexes và query optimization. ADY201m/CLO1 (8.3, good) và CLO7 (8.61, excellent) bổ sung SQL/database access trong bối cảnh data science.",
+      "academic_sources": [
+        {
+          "course_code": "PFP191",
+          "clo": "CLO7",
+          "source_excerpt": "Understand object-oriented programming in Python and apply it in application contexts using classes and objects, encapsulation and data hiding, abstraction and modular design, inheritance, polymorphism, method overloading, object usage in OOP programs, object lifecycle, advanced OOP concepts, design patterns, and case studies."
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO5",
+          "source_excerpt": "Discuss Python fundamentals, Python libraries, and API support for data science tasks, including understanding Python APIs, collecting data with Python, understanding and preprocessing data in Python, and using Python for data science, AI, and development workflows."
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO1",
+          "source_excerpt": "Understand the basics of data analysis with Python for building and evaluating data models, including importing datasets and data wrangling."
+        },
+        {
+          "course_code": "DBI202",
+          "clo": "CLO5",
+          "source_excerpt": "Be proficient in SQL, including Data Definition Language (DDL) for defining database structures and implementing constraints such as primary and foreign keys, UNIQUE, and CHECK constraints using Microsoft SQL Server. Use Data Manipulation Language (DML) to perform basic queries, multi-relation queries, nested queries, aggregation queries, and database modifications using INSERT, UPDATE, and DELETE statements."
+        },
+        {
+          "course_code": "DBI202",
+          "clo": "CLO6",
+          "source_excerpt": "Understand T-SQL database programming concepts in Microsoft SQL Server and work with database views, cursors, stored procedures, functions, and triggers, including the use of triggers to enforce database constraints. Understand transaction concepts in database applications."
+        },
+        {
+          "course_code": "DBI202",
+          "clo": "CLO7",
+          "source_excerpt": "Apply database indexes in relational database design to support query optimization and improve query performance in practical database applications."
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO1",
+          "source_excerpt": "Understand relational database concepts and foundational SQL language knowledge in the context of data science work, including accessing databases with Python, getting started with SQL, basic through advanced SQL-based data analysis, database fundamentals, nested queries, and multi-table SELECT statements."
+        },
+        {
+          "course_code": "ADY201m",
+          "clo": "CLO7",
+          "source_excerpt": "Implement a small data science project by applying Python fundamentals, Python data structures, SQL/database access, data understanding, preprocessing, modeling, evaluation, deployment, visualization, probability, regression analysis, and final reporting within a guided project workflow."
+        }
+      ],
+      "jd_excerpt": null
+    },
+    {
+      "kind": "academic_claim",
+      "text": "Phần visualization và dashboard cũng xuất hiện khá rõ: DAP391m/CLO2 (8.79, excellent) nói về data visualizations; DAP391m/CLO3 (8.79, excellent) nói về việc biểu diễn dữ liệu hiệu quả cho quy mô nhỏ và lớn; DAP391m/CLO4 (8.79, excellent) bao gồm nhiều loại biểu đồ như waffle charts, histograms, bar charts, pie charts, scatter plots, word clouds và choropleth maps; còn DAP391m/CLO7 (9.1, excellent) nhắc trực tiếp đến interactive visual analytics và dashboard.",
+      "academic_sources": [
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO2",
+          "source_excerpt": "Understand how to import data from multiple sources, clean and wrangle data, perform exploratory data analysis (EDA), and create meaningful data visualizations, including Data Analysis, Data Analysis with Python- Exploratory Data Analysis, Data Analysis with Python- Exploratory Data Analysis."
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO3",
+          "source_excerpt": "Know difference ways to effectively visualize both small and large-scale data, including Project Topic Introduction and discuss, Evaluate final project."
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO4",
+          "source_excerpt": "Implement various types of basic and advanced graphs and charts like: Waffle Charts, Area Plots, Histograms, Bar Charts, Pie Charts, Scatter Plots, Word Clouds, Choropleth Maps, and many more, including Advanced Visualizations, Geospatial Data."
+        },
+        {
+          "course_code": "DAP391m",
+          "clo": "CLO7",
+          "source_excerpt": "Implement the small mini capstone data science project includes steps: involving data collection, data wrangling, exploratory data analysis, data visualization, model development, model evaluation, and reporting, including Applied Data Science Capstone: Interactive Visual Analytics, Dashboard , Applied Data Science Capstone: Interactive Visual Analytics, Dashboard , Applied Data Science Capstone: Predictive Analysis (Classification) , Applied Data Science Capstone: Predictive Analysis (Classification), Evaluate final project."
+        }
+      ],
+      "jd_excerpt": null
+    },
+    {
+      "kind": "academic_claim",
+      "text": "Ngoài các mảng trên, hồ sơ còn có nền tảng phân tích/toán học hỗ trợ problem solving: MAE101/CLO3 (8.98, excellent) dùng đạo hàm để phân tích hàm và giải bài toán ứng dụng; MAD101/CLO3 (8.47, good) phân tích thuật toán và độ phức tạp; và MAI391/CLO4 (9.43, excellent) giải continuous optimization bằng gradient descent, Lagrange multipliers, convex optimization và linear programming.",
+      "academic_sources": [
+        {
+          "course_code": "MAE101",
+          "clo": "CLO3",
+          "source_excerpt": "Use derivatives to analyze functions and solve applications, including implicit differentiation, related rates, linear approximation, differentials and approximation error, Rolle's Theorem, the Mean Value Theorem, critical numbers, absolute and local extrema, monotonicity, optimization, acceleration as a second derivative, inflection points, concavity, and Newton's method."
+        },
+        {
+          "course_code": "MAD101",
+          "clo": "CLO3",
+          "source_excerpt": "Analyze basic algorithms written in pseudocode and determine their complexities, including searching, sorting, greedy algorithms, growth of functions, and Big-O, Big-Omega, and Big-Theta estimates."
+        },
+        {
+          "course_code": "MAI391",
+          "clo": "CLO4",
+          "source_excerpt": "Solve continuous optimization problems using gradient descent for local minima, Lagrange multipliers for constrained extrema, convex optimization concepts, and linear programming."
+        }
+      ],
+      "jd_excerpt": null
+    }
+  ]
+}

@@ -1,0 +1,305 @@
+{
+  "metadata": {
+    "syllabus_name": "Image and Video processing_Xử lý ảnh và video",
+    "course_name_english": "Image and Video processing",
+    "subject_code": "IMP302",
+    "description": "Image & Video Processing is an advanced course that covers the fundamental principles, techniques, and applications of image and video processing. The course explores manipulating digital images and videos to extract useful information, enhance visual quality, and perform analysis. It covers various topics, including image acquisition and digitization, image enhancement and restoration, image compression and coding, image segmentation and feature extraction, and object recognition and tracking. The course also covers fundamental concepts in video processing, including video coding and compression, motion estimation, and video analysis. Students will learn to process images and videos using various tools and software platforms, including MATLAB and Python.",
+    "tools": "No"
+  },
+  "clos": [
+    {
+      "clo_name": "CLO1",
+      "clo_details": "Gain a comprehensive understanding of fundamental principles in image and video processing, digital signal processing in time domain and frequency domain"
+    },
+    {
+      "clo_name": "CLO2",
+      "clo_details": "Develop expertise in applying the tradditional and machine learning-based techniques for image and video acquisition, digitization, enhancement, restoration."
+    },
+    {
+      "clo_name": "CLO3",
+      "clo_details": "Develop expertise in applying traditional and machine learning based methods to compress images and video"
+    },
+    {
+      "clo_name": "CLO4",
+      "clo_details": "Acquire practical skills by using and implementing traditional and machine learning based tools to segment and extract features of an image"
+    },
+    {
+      "clo_name": "CLO5",
+      "clo_details": "Develop expertise in applying traditional and machine learning based methods in object detection, motion estimation and video analysis."
+    }
+  ],
+  "schedule": [
+    {
+      "topic": "Course introduction:\nIntroduce the materials of the courses and how to asses these materials\nIntroduce the assignments and how to pass the course",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "1. Basic Gray-Level Image Processing\n1.1 Basic gray-level image processing\n1.2 Basic binary image processing\nAssignment 1 introduction",
+      "lo": "CLO1, CLO2"
+    },
+    {
+      "topic": "2. Image and Video Processing (Enhancement)\n2.1 Basic Linear Filtering with Application to Image Enhancement\n2.2 Nonlinear Filtering for Image Analysis and Enhancement",
+      "lo": "CLO1, CLO2"
+    },
+    {
+      "topic": "2.3 Morphological Filtering for Image Enhancement and Feature Detection",
+      "lo": "CLO1, CLO2"
+    },
+    {
+      "topic": "2.4 Spatial Filtering\n2.5 Filtering in frequency domain",
+      "lo": "CLO1, CLO2"
+    },
+    {
+      "topic": "3. Image Degradation, Restoration and Resconstruction\n3.1 A model of image restoration procees\n3.2 Noise models",
+      "lo": "CLO1, CLO2"
+    },
+    {
+      "topic": "3.3 Spatial filtering and frequency domain filtering in noise reduction\n3.4 Degradation and its function",
+      "lo": "CLO1, CLO2"
+    },
+    {
+      "topic": "3.5 Wavelet Denoising for Image Enhancement\n3.6 Minimum mean square error filtering\n3.7 Constrained least square filtering",
+      "lo": "CLO1, CLO2"
+    },
+    {
+      "topic": "3.8 Basic Methods for Image Restoration and Identification\n3.9 Image reconstruction from projections",
+      "lo": "CLO1, CLO2"
+    },
+    {
+      "topic": "3.10 Multichannel Image Recovery",
+      "lo": "CLO1, CLO2"
+    },
+    {
+      "topic": "Assignment 1 review",
+      "lo": "CLO1, CLO2, CLO3"
+    },
+    {
+      "topic": "3.11 Motion Detection and Estimation\n3.12 Video Enhancement and Restoration",
+      "lo": "CLO1, CLO2"
+    },
+    {
+      "topic": "4. Image and video analysis\n4.1 Wavelet transform and other image transforms\n4.2 Discrete Hartley transform",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "4.3 Discrete Cosine transform",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "4.4 Walsh-Hadamard Transforms",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "4.5 Wavelet Transforms",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "4.6 Multiscale Image Decompositions and Wavelets",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "4.7 Image Noise Models (machine learning based Video analysis)",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "5. Image compression\n5.1 Lossless coding\n5.2 Block Truncation Coding (BTC)",
+      "lo": "CLO1, CLO3"
+    },
+    {
+      "topic": "Assignment 1 review",
+      "lo": "CLO1, CLO2, CLO3"
+    },
+    {
+      "topic": "5.3 Fundamentals of Vector Quantlzation\n5.4 Huffman coding",
+      "lo": "CLO1, CLO3"
+    },
+    {
+      "topic": "5.5 Wavelet Image Compression",
+      "lo": "CLO1, CLO3"
+    },
+    {
+      "topic": "5.6 Arithmetic coding",
+      "lo": "CLO1, CLO3"
+    },
+    {
+      "topic": "5.7 Lossy Image Compression: JPEG and JPEG2000 Standards",
+      "lo": "CLO1, CLO3"
+    },
+    {
+      "topic": "5.8 Multispectral Image Coding",
+      "lo": "CLO1, CLO3"
+    },
+    {
+      "topic": "5.8 Recovery Methods for Postprocessing of Compressed Images",
+      "lo": "CLO1, CLO3"
+    },
+    {
+      "topic": "5.9 Image compression based on machine learning/deep learning",
+      "lo": "CLO1, CLO3"
+    },
+    {
+      "topic": "6. Video compression\n6.1 Basic Concepts and Techniques of Video Coding and the H.261 Standard",
+      "lo": "CLO1, CLO3"
+    },
+    {
+      "topic": "6.2 Interframe Subband/Wavelet Scalable Video Coding",
+      "lo": "CLO1, CLO3"
+    },
+    {
+      "topic": "Assignment 1 Evaluation",
+      "lo": "CLO1, CLO2, CLO3"
+    },
+    {
+      "topic": "Progress Test 1\nAssignment 2 Introduction",
+      "lo": "CLO1, CLO2, CLO3"
+    },
+    {
+      "topic": "6.3 Digital Video Transcoding",
+      "lo": "CLO1, CLO3"
+    },
+    {
+      "topic": "6.4 MPEG-1 and MPEG-2 Video Standards",
+      "lo": "CLO1, CLO3"
+    },
+    {
+      "topic": "7. Image and Video Acquisition\n7.1 Image Scanning, Sampling, and Interpolation",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "7.2 Video Sampling and Interpolation",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "Assignment 2 Review",
+      "lo": "CLO1, CLO2, CLO3, CLO4, CLO5"
+    },
+    {
+      "topic": "8. Image and Video Rendering and Assessment\n8.1 Image Quantization, Halftoning, and Printing",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "8.2 Perceptual Criteria for Image Quality Evaluation",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "8.3 Structural Approaches to Image Quality Assessment",
+      "lo": "CLO2"
+    },
+    {
+      "topic": "9. Image and Video segmentation\n9.1 Clustering and superpixels based segmentation",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "9.2 Segmentation using graph cuts\n9.3 The use of motion in segmentation",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "9.4 Statistical Methods for Image Segmentation",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "9.5 Video Segmentation",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "9.6 2D and 3D Motion Tracking in Digital Video\n9.7 Adaptive and Neural Methods for Image Segmentation",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "9.8 Machine learning/deep learning based segmentation",
+      "lo": "CLO4"
+    },
+    {
+      "topic": "Assignment 2 Review",
+      "lo": "CLO1, CLO2, CLO3, CLO4, CLO5"
+    },
+    {
+      "topic": "10. Feature extraction\n10.1 Boundary feature descriptors",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "10.2 Region feature descriptors",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "10.3 Principal Components as features",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "10.4 Whole-image feature",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "10.5 Machine learning based features",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "11. Object detection\n11.1 Traditional methods",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "11.2 Machine learning based methods",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "Assignment 2 Evaluation",
+      "lo": "CLO1, CLO2, CLO3, CLO4, CLO5"
+    },
+    {
+      "topic": "12. Image pattern classification\n12.1 Patterns and pattern classes",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "12.2 Optimum statistical classifier",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "12.3 Neural network and Deep learning based classifiers",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "12.4 Deep convoluntional neural network based classifiers",
+      "lo": "CLO5"
+    },
+    {
+      "topic": "Progress Test 2",
+      "lo": "CLO1, CLO2, CLO3, CLO4, CLO5"
+    },
+    {
+      "topic": "Summary All Slides, Tests, and Assignments",
+      "lo": "CLO1, CLO2, CLO3, CLO4, CLO5"
+    }
+  ],
+  "assessments": [
+    {
+      "category": "Assignment 1",
+      "part": "1",
+      "weight": "20.0%",
+      "clo": "CLO1, CLO2, CLO3"
+    },
+    {
+      "category": "Assignment 2",
+      "part": "1",
+      "weight": "20.0%",
+      "clo": "CLO1, CLO2, CLO3, CLO4, CLO5"
+    },
+    {
+      "category": "Progress test 1",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": "CLO1, CLO2, CLO3"
+    },
+    {
+      "category": "Progress test 2",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": "CLO4, CLO5"
+    },
+    {
+      "category": "Final exam",
+      "part": "1",
+      "weight": "40.0%",
+      "clo": "CLO1, CLO2, CLO3, CLO4, CLO5"
+    }
+  ]
+}

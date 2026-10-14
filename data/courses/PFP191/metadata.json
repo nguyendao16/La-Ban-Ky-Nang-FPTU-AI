@@ -1,0 +1,7 @@
+{
+  "syllabus_name": "Programming Fundamentals with Python_Cơ sở lập trình (với Python)",
+  "course_name_english": "Programming Fundamentals with Python",
+  "subject_code": "PFP191",
+  "description": "- Knowledge about programming language has become an essential part of an education in computer science because the realization of ideas, approaches, models, and algorithms is extremely important for the field of education and research as well as production. In order to deploy from an idea to a product, programming language tools are required.\n- In recent years, python has emerged as a popular, powerful, multitasking and widely applicable 3rd generation language, especially in some new technology fields such as AI, Fintech, Data Science, IoT, and so on.\n- This course covers the essential aspects of programming, including fundamental concepts, coding design, and the Python programming language, with an emphasis on object-oriented programming (OOP), given its importance for advanced software development and subsequent courses.",
+  "tools": "Visual Studio Code, Google Colab"
+}

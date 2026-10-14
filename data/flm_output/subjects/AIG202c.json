@@ -1,0 +1,318 @@
+{
+  "record_type": "normal_subject",
+  "curriculum": {
+    "subject_code": "AIG202c",
+    "subject_name": "Artificial Intelligence_Trí tuệ nhân tạo",
+    "semester": "2",
+    "credits": "3",
+    "prerequisite": "",
+    "pre_syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/Syllabuses?subCode=AIG202c&curriculumID=3173",
+    "curriculum_url": "https://flm.fpt.edu.vn/gui/role/student/CurriculumDetails?curid=3173"
+  },
+  "syllabus_versions": [
+    {
+      "subject_code": "AIG202c",
+      "syllabus_name": "Artificial Intelligence_Trí tuệ nhân tạo",
+      "is_active": true,
+      "is_approved": true,
+      "decision_no": "359/QĐ-ĐHFPT dated 04/09/2025",
+      "syllabus_id": "12551",
+      "syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=12551",
+      "pre_syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/Syllabuses?subCode=AIG202c&curriculumID=3173"
+    }
+  ],
+  "selected_syllabus": {
+    "subject_code": "AIG202c",
+    "syllabus_name": "Artificial Intelligence_Trí tuệ nhân tạo",
+    "is_active": true,
+    "is_approved": true,
+    "decision_no": "359/QĐ-ĐHFPT dated 04/09/2025",
+    "syllabus_id": "12551",
+    "syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=12551",
+    "pre_syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/Syllabuses?subCode=AIG202c&curriculumID=3173"
+  },
+  "details": {
+    "source_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=12551",
+    "metadata": {
+      "Syllabus ID": "12551",
+      "Syllabus Name": "Artificial Intelligence_Trí tuệ nhân tạo",
+      "Course Name English": "Artificial Intelligence",
+      "Subject Code": "AIG202c",
+      "Learning-Teaching Method": "Blended,Online,Active learning,Inquiry-based Teaching",
+      "NoCredit": "3",
+      "Degree Level": "Bachelor",
+      "Time Allocation": "Study hour (150h) = 26h online + 3h offline + 1h TE + 120 h self-study",
+      "Pre-Requisite": "",
+      "Description": "This specialization is designed for those with little or no background in AI, whether you have technology background or not, and does not require any programming skills. It is designed to give you a firm understanding of what is AI, its applications and use cases across various industries. Students will become acquainted with terms like Machine Learning, Deep Learning and Neural Networks.\nFurthermore, it will familiarize you with IBM Watson AI services that enable any business to quickly and easily employ pre-built AI smarts to their products and solutions. Students will also learn about creating intelligent virtual assistants and how they can be leveraged in different scenarios.\nBy the end of this specialization, learners will have had hands-on interactions with several AI environments and applications, and have built and deployed an AI enabled chatbot on a website – without any coding.\nLearners will perform several no-code hands-on exercises in each of the three courses. At the end of the last course, learners would have developed, tested, and deployed a Watson AI powered customer service chatbot on a website to delight their clients.",
+      "StudentTasks": "Student must get the certification of AI Foundations for Everyone specialization from Coursera to be accepted to the final examination",
+      "Tools": "",
+      "Scoring Scale": "10",
+      "DecisionNo MM/dd/yyyy": "359/QĐ-ĐHFPT dated 04/09/2025",
+      "IsApproved": "True",
+      "Note": "1. Complete the online courses and get all specialization certifications to be allowed to take Final Exam\n2. Final Exam included Final Theory Exam (TE): 100%\n3. Students who complete all MOOCs before the course deadline will receive 1 bonus point; otherwise, no bonus point will be awarded.\n4. Completion Criteria: Final TE Score >=4 & (Final TE Score + bonus) >= 5",
+      "Is Scored": "True",
+      "MinAvgMarkToPass": "5",
+      "IsActive": "True",
+      "ApprovedDate": "4/9/2025"
+    },
+    "materials": [
+      {
+        "No.": "1",
+        "Material Description": "https://www.coursera.org/learn/introduction-to-ai",
+        "Author": "",
+        "Publisher": "Coursera",
+        "Published Date": "",
+        "Edition": "",
+        "ISBN": "",
+        "Is Main Material": "True",
+        "Is Hard Copy": "False",
+        "Is Online": "True",
+        "Note": "MOOC 01: Introduction to Artificial Intelligence (AI)"
+      },
+      {
+        "No.": "2",
+        "Material Description": "https://learner.coursera.help/hc/en-us/articles/208280036-Coursera-Code-of-Conduct",
+        "Author": "",
+        "Publisher": "Coursera",
+        "Published Date": "",
+        "Edition": "",
+        "ISBN": "",
+        "Is Main Material": "False",
+        "Is Hard Copy": "False",
+        "Is Online": "True",
+        "Note": "Help Articles"
+      },
+      {
+        "No.": "3",
+        "Material Description": "https://www.coursera.org/learn/generative-ai-introduction-and-applications",
+        "Author": "",
+        "Publisher": "Coursera",
+        "Published Date": "",
+        "Edition": "",
+        "ISBN": "",
+        "Is Main Material": "True",
+        "Is Hard Copy": "False",
+        "Is Online": "True",
+        "Note": "MOOC 02: Generative AI: Introduction and Applications"
+      },
+      {
+        "No.": "4",
+        "Material Description": "https://www.coursera.org/learn/building-ai-powered-chatbots",
+        "Author": "",
+        "Publisher": "Coursera",
+        "Published Date": "",
+        "Edition": "",
+        "ISBN": "",
+        "Is Main Material": "True",
+        "Is Hard Copy": "False",
+        "Is Online": "True",
+        "Note": "MOOC 04: Building AI Powered Chatbots Without Programming"
+      },
+      {
+        "No.": "5",
+        "Material Description": "https://www.coursera.org/specializations/ai-foundations-for-everyone",
+        "Author": "",
+        "Publisher": "Coursera",
+        "Published Date": "",
+        "Edition": "",
+        "ISBN": "",
+        "Is Main Material": "True",
+        "Is Hard Copy": "False",
+        "Is Online": "True",
+        "Note": "SPEC: AI Foundations for Everyone Specialization"
+      },
+      {
+        "No.": "6",
+        "Material Description": "https://www.coursera.org/learn/generative-ai-prompt-engineering-for-everyone",
+        "Author": "",
+        "Publisher": "Coursera",
+        "Published Date": "",
+        "Edition": "",
+        "ISBN": "",
+        "Is Main Material": "True",
+        "Is Hard Copy": "False",
+        "Is Online": "True",
+        "Note": "MOOC 03: Generative AI: Prompt Engineering Basics"
+      }
+    ],
+    "clos": [
+      {
+        "No.": "1",
+        "CLO Name": "CLO1",
+        "CLO Details": "Understand what is AI, its applications and use cases, its ethical considerrations and how it is transforming our lives."
+      },
+      {
+        "No.": "2",
+        "CLO Name": "CLO3",
+        "CLO Details": "Explore common generative AI models and tools for text, code, image, audio, and video generation."
+      },
+      {
+        "No.": "3",
+        "CLO Name": "CLO4",
+        "CLO Details": "Explore commonly used tools for prompt engineering to aid with prompt engineering"
+      },
+      {
+        "No.": "4",
+        "CLO Name": "CLO5",
+        "CLO Details": "Visually create chatbots with Watson Assistant (formerly Watson Conversation) and how to deploy them on your own website through a handy WordPress plugin."
+      },
+      {
+        "No.": "5",
+        "CLO Name": "CLO2",
+        "CLO Details": "Explain underlying concepts related to Machine Learning, Deep Learning and Neural Networks."
+      }
+    ],
+    "schedule": [
+      {
+        "Session": "1",
+        "Topic": "Specialization Introduction\nIntroduction to Artificial Intelligence (AI)\n- What is AI? Applications and Examples of AI\n- AI Concepts, Terminology, and Application Areas\nOffline 1: Introduction to the online course AIG202c",
+        "Learning-Teaching Type": "Offline,Online",
+        "LO": "LO1, LO2",
+        "ITU": "",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "- Watch all videos, read all materials in the MOOC\n- Finish quizzes, self-assessment, assignments and take part in discussion boards (if needed)\nAll students should participate in offline slot (if any question)",
+        "URLs": ""
+      },
+      {
+        "Session": "2",
+        "Topic": "- AI: Issues, Concerns and Ethical Considerations",
+        "Learning-Teaching Type": "Online",
+        "LO": "LO1, LO2",
+        "ITU": "",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "- Watch all videos, read all materials in the MOOC\n- Finish quizzes, self-assessment, assignments and take part in discussion boards (if needed)",
+        "URLs": ""
+      },
+      {
+        "Session": "3",
+        "Topic": "- The Future with AI, and AI in Action",
+        "Learning-Teaching Type": "Online",
+        "LO": "LO1, LO2",
+        "ITU": "",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "- Watch all videos, read all materials in the MOOC\n- Finish quizzes, self-assessment, assignments and take part in discussion boards (if needed)",
+        "URLs": ""
+      },
+      {
+        "Session": "4",
+        "Topic": "Generative AI: Introduction and Applications:\n- Introduction and capacities of Generative AI\n- Application and tools of Generative AI",
+        "Learning-Teaching Type": "Online",
+        "LO": "LO3",
+        "ITU": "",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "- Watch all videos, read all materials in the MOOC\n- Finish quizzes, self-assessment, assignments and take part in discussion boards (if needed)",
+        "URLs": ""
+      },
+      {
+        "Session": "5",
+        "Topic": "- Course quiz, project and warm-up",
+        "Learning-Teaching Type": "Online",
+        "LO": "LO3",
+        "ITU": "",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "- Watch all videos, read all materials in the MOOC\n- Finish quizzes, self-assessment, assignments and take part in discussion boards (if needed)",
+        "URLs": ""
+      },
+      {
+        "Session": "6",
+        "Topic": "Generative AI: Prompt Engineering Basics:\n- Prompt Engineering for Generative AI",
+        "Learning-Teaching Type": "Online",
+        "LO": "LO4",
+        "ITU": "",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "- Watch all videos, read all materials in the MOOC\n- Finish quizzes, self-assessment, assignments and take part in discussion boards (if needed)",
+        "URLs": ""
+      },
+      {
+        "Session": "7",
+        "Topic": "- Prompt Engineering: Techniques and Approaches",
+        "Learning-Teaching Type": "Online",
+        "LO": "LO4",
+        "ITU": "",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "- Watch all videos, read all materials in the MOOC\n- Finish quizzes, self-assessment, assignments and take part in discussion boards (if needed)",
+        "URLs": ""
+      },
+      {
+        "Session": "8",
+        "Topic": "- Course quiz, project and warm-up",
+        "Learning-Teaching Type": "Online",
+        "LO": "LO4",
+        "ITU": "",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "- Watch all videos, read all materials in the MOOC\n- Finish quizzes, self-assessment, assignments and take part in discussion boards (if needed)",
+        "URLs": ""
+      },
+      {
+        "Session": "9",
+        "Topic": "Building AI Powered Chatbots Without Programming:\n- Introduction\n- Intents",
+        "Learning-Teaching Type": "Online",
+        "LO": "LO5",
+        "ITU": "",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "- Watch all videos, read all materials in the MOOC\n- Finish quizzes, self-assessment, assignments and take part in discussion boards (if needed)",
+        "URLs": ""
+      },
+      {
+        "Session": "10",
+        "Topic": "- Entities\n- Dialog",
+        "Learning-Teaching Type": "Online",
+        "LO": "LO5",
+        "ITU": "",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "- Watch all videos, read all materials in the MOOC\n- Finish quizzes, self-assessment, assignments and take part in discussion boards (if needed)",
+        "URLs": ""
+      },
+      {
+        "Session": "11",
+        "Topic": "- Deployment\n- Context Variables & Slots",
+        "Learning-Teaching Type": "Online",
+        "LO": "LO5",
+        "ITU": "",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "- Watch all videos, read all materials in the MOOC\n- Finish quizzes, self-assessment, assignments and take part in discussion boards (if needed)",
+        "URLs": ""
+      },
+      {
+        "Session": "12",
+        "Topic": "- Digressions\n- Summary\n- (Optional) Watson Actions\n- Final Exam (spec)\nOffline 2: Review AI Foundations for Everyone Specialization (Spec)",
+        "Learning-Teaching Type": "Offline,Online",
+        "LO": "LO5",
+        "ITU": "",
+        "Student Materials": "",
+        "S-Download": "",
+        "Student's Tasks": "- Watch all videos, read all materials in the MOOC\n- Finish quizzes, self-assessment, assignments and take part in discussion boards (if needed)\nDeadline of Coursera completion: End of Friday of the week.\nAll students should participate in review slot (if any question)",
+        "URLs": ""
+      }
+    ],
+    "assessments": [
+      {
+        "No.": "1",
+        "Category": "TE",
+        "Type": "Final exam",
+        "Part": "1",
+        "Weight": "100.0%",
+        "Completion Criteria": "4",
+        "Duration": "60'",
+        "CLO": "",
+        "Question Type": "Computer gradable",
+        "No Question": "60",
+        "Knowledge and Skill": "All studied courses. Each module of course contributes 2-3 questions.",
+        "Grading Guide": "by Exam Board",
+        "Note": "Customized from the quizzes of this specialization."
+      }
+    ]
+  },
+  "error": null
+}

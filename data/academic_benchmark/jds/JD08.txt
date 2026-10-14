@@ -1,0 +1,5 @@
+Razer — Data Scientist Intern (Personalisation), JR2026007105
+Responsibilities: Develop recommendations/ranking models, conduct A/B experiments, explore embeddings/candidate generation/re-ranking, wrangle data and engineer features, perform offline model evaluation, contribute to Airflow/AWS pipelines and deployed-model monitoring.
+Prerequisites: ML fundamentals/architectures; hands-on ML project experience, academic OR industry; Python and SQL; common ML frameworks and LLM/embedding workflows. The source names TensorFlow, Keras, sklearn and PyTorch as examples. Cloud experience with AWS/GCP is listed.
+Learning outcomes: End-to-end ML lifecycle, statistically sound experimentation, production recommendation systems, production Python/SQL and cloud-native pipelines. These future outcomes are not assertions of experience already required for every task.
+Paraphrase of verified indexed employer content. Direct Workday rendering yielded no text; availability is unconfirmed.

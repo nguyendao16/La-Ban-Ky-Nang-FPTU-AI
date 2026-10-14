@@ -1,0 +1,995 @@
+{
+  "schema_version": "stage1_v1",
+  "record_type": "combo_subject",
+  "subject": {
+    "code": "AIE301m",
+    "name": {
+      "full": "AI for Trading_Ứng dụng TTNT cho giao dịch",
+      "en": "AI for Trading",
+      "vi": "Ứng dụng TTNT cho giao dịch"
+    },
+    "semester": 8,
+    "credits": 3,
+    "prerequisite": ""
+  },
+  "syllabus": {
+    "id": "11703",
+    "name": "AI for Trading_Ứng dụng TTNT cho giao dịch",
+    "is_active": true,
+    "is_approved": true,
+    "decision_no": "765/QĐ-ĐHFPT dated 07/29/2024"
+  },
+  "content": {
+    "metadata": {
+      "syllabus_id": "11703",
+      "syllabus_name": "AI for Trading_Ứng dụng TTNT cho giao dịch",
+      "course_name_english": "AI for Trading",
+      "subject_code": "AIE301m",
+      "learning_teaching_method": "Practice, In-class lecture, Social Constructivism, Active Learning",
+      "nocredit": "3",
+      "degree_level": "Bachelor",
+      "time_allocation": "45h (60 sessions) contact hours + 1h final exam + 104h self-study",
+      "pre_requisite": "PFP191, AIL303m",
+      "description": "Artificial intelligence (AI) has transformed industries around the world. The aim of this unit is to introduce the current and future applications of AI in trading strategy. Students will be guided to discover the structure used in machine learning (ML), deep learning (DL), and reinforcement learning (RL) techniques, the required steps, and the optimized methods in the AI-driven trading field. Students also learn how to build some ML models on Keras and Tensorflow.",
+      "studenttasks": "'- Students must attend at least 80% of contact slots in order to be accepted to the final examination.\n- Student is responsible to do all exercises, assignments and labs given by instructor in class or at home and submit on time\n- Use laptop in class only for learning purpose\n- Promptly access to the FU FLM at https://flm.fpt.edu.vn/ for up-to-date course information",
+      "tools": "No",
+      "scoring_scale": "10",
+      "decisionno_mm_dd_yyyy": "765/QĐ-ĐHFPT dated 07/29/2024",
+      "isapproved": "True",
+      "note": "",
+      "is_scored": "True",
+      "minavgmarktopass": "5",
+      "isactive": "True",
+      "approveddate": "7/29/2024"
+    },
+    "materials": [
+      {
+        "no": "1",
+        "material_description": "Spec: Machine Learning for Trading Specialization",
+        "author": "Google Cloud",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": false,
+        "note": "https://www.coursera.org/specializations/machine-learning-trading"
+      },
+      {
+        "no": "2",
+        "material_description": "MOOC 1: Introduction to Trading, Machine Learning & GCP",
+        "author": "Google Cloud",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://www.coursera.org/learn/introduction-trading-machine-learning-gcp?specialization=machine-learning-trading"
+      },
+      {
+        "no": "3",
+        "material_description": "MOOC 2: Using Machine Learning in Trading and Finance",
+        "author": "Google Cloud",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://www.coursera.org/learn/machine-learning-trading-finance?specialization=machine-learning-trading"
+      },
+      {
+        "no": "4",
+        "material_description": "MOOC 3: Reinforcement Learning for Trading Strategies",
+        "author": "Google Cloud",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://www.coursera.org/learn/trading-strategies-reinforcement-learning?specialization=machine-learning-trading"
+      },
+      {
+        "no": "5",
+        "material_description": "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems",
+        "author": "Aurélien Géron",
+        "publisher": "O'Reilly Media",
+        "published_date": "5/9/2017 12:00:00 AM",
+        "edition": "1st edition",
+        "isbn": "978-1491962299",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "http://ds.libol.fpt.edu.vn/"
+      },
+      {
+        "no": "6",
+        "material_description": "Course AI For Everyone",
+        "author": "Deeplearning.AI",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": false,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://www.coursera.org/learn/ai-for-everyone"
+      }
+    ],
+    "clos": [
+      {
+        "no": "1",
+        "clo_name": "CLO1",
+        "clo_details": "Understand the fundamentals of trading."
+      },
+      {
+        "no": "2",
+        "clo_name": "CLO2",
+        "clo_details": "Define quantitative trading and the main types of quantitative trading strategies."
+      },
+      {
+        "no": "3",
+        "clo_name": "CLO3",
+        "clo_details": "Basic steps in exchange arbitrage, statistical arbitrage, index arbitrage and the application of machine learning to financial use cases."
+      },
+      {
+        "no": "4",
+        "clo_name": "CLO4",
+        "clo_details": "Design basic quantitative trading strategies."
+      },
+      {
+        "no": "5",
+        "clo_name": "CLO5",
+        "clo_details": "Use Keras and Tensorflow to build machine learning models."
+      },
+      {
+        "no": "6",
+        "clo_name": "CLO6",
+        "clo_details": "Build a pair trading strategy prediction model, a momentum-based trading model, and back test them."
+      },
+      {
+        "no": "7",
+        "clo_name": "CLO7",
+        "clo_details": "Understand the structure and techniques used in reinforcement learning (RL) strategies."
+      },
+      {
+        "no": "8",
+        "clo_name": "CLO8",
+        "clo_details": "Understand the benefits of using RL vs. other learning methods."
+      },
+      {
+        "no": "9",
+        "clo_name": "CLO9",
+        "clo_details": "Describe the steps required to develop, test, and optimize an RL trading strategy."
+      }
+    ],
+    "schedule": [
+      {
+        "session": "1",
+        "topic": "Course introduction:\n- Introduce the materials of the courses and how to asses these materials\n- Introduce the assignments and how to pass\n- Introduce CMS and the way to log on to submit the assignments http://cms.btec.fpt.edu.vn and class forum with enroll key.",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1 - 9",
+        "itu": "IT",
+        "student_materials": "Course Implementation\n- Syllabus AIE301m\n- Slides, Videos",
+        "s_download": "mat1",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "2",
+        "topic": "1.1 Introduction to Trading with Machine learning on Google Cloud\n1.1.1 Machine Learning in Finance and your first model using Google Cloud",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Introduction to Trading, Machine Learning & GCP",
+        "s_download": "mat2",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "3",
+        "topic": "1.1.2 Why Google Cloud Platform?",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Introduction to Trading, Machine Learning & GCP",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "4",
+        "topic": "1.1.3 Learn ML interactively with Jupyter Notebooks on Cloud AI Platform",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Introduction to Trading, Machine Learning & GCP",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "5",
+        "topic": "1.1.4 Trading Fundamentals: Quant Theory, Arbitrage, and Back-testing",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Introduction to Trading, Machine Learning & GCP",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "6",
+        "topic": "1.1.4 (Cont.) Trading Fundamentals: Quant Theory, Arbitrage, and Back-testing",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Introduction to Trading, Machine Learning & GCP",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "7",
+        "topic": "1.2 Supervised Learning with BigQuery ML\n1.2.1 Introduction to Supervised Learning",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Introduction to Trading, Machine Learning & GCP",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "8",
+        "topic": "Lab 1: BigWuery Machine Learning model types: Reading \"Staying current with BigQuery ML model types\"",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2",
+        "itu": "T",
+        "student_materials": "Slides, Videos, Lab Tutorial",
+        "s_download": "",
+        "student_tasks": "Read Lab and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "9",
+        "topic": "Lab 2: Building a Regression Model in BigQuery for AAPL Stock Data",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2",
+        "itu": "T",
+        "student_materials": "Slides, Videos, Lab Tutorial",
+        "s_download": "",
+        "student_tasks": "Read Lab and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "10",
+        "topic": "1.3 Time Series and ARIMA Modeling\n1.3.1 Time Series",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Introduction to Trading, Machine Learning & GCP",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "11",
+        "topic": "1.3.2 Comparing Regression to ARIMA",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Introduction to Trading, Machine Learning & GCP",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "12",
+        "topic": "Lab 3: Building an ARIMA Model for a Financial Dataset",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "T",
+        "student_materials": "Slides, Videos, Lab Tutorial",
+        "s_download": "",
+        "student_tasks": "Read Lab and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "13",
+        "topic": "1.4 Introduction to Neural networks and Deep learning\n1.4.1 Deep Learning",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Introduction to Trading, Machine Learning & GCP",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "14",
+        "topic": "1.4.2 Model Generalization",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Introduction to Trading, Machine Learning & GCP",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "15",
+        "topic": "Assignment 1: Example BigQuery ML DNN code",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1 - 3",
+        "itu": "U",
+        "student_materials": "Assignment 1",
+        "s_download": "",
+        "student_tasks": "Assignment 1",
+        "urls": ""
+      },
+      {
+        "session": "16",
+        "topic": "Review Assignment 1",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1 - 3",
+        "itu": "U",
+        "student_materials": "Assignment 1",
+        "s_download": "",
+        "student_tasks": "Assignment 1",
+        "urls": ""
+      },
+      {
+        "session": "17",
+        "topic": "Progress Test 1",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1 - 3",
+        "itu": "U",
+        "student_materials": "Slides, Videos of Introduction to Trading, Machine Learning & GCP, Lab Tutorial",
+        "s_download": "",
+        "student_tasks": "Progress Test 1",
+        "urls": ""
+      },
+      {
+        "session": "18",
+        "topic": "Review Progress Test 1",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1 - 3",
+        "itu": "U",
+        "student_materials": "Progress Test 1",
+        "s_download": "",
+        "student_tasks": "Progress Test 1",
+        "urls": ""
+      },
+      {
+        "session": "19",
+        "topic": "2.1 Introduction to Quantitative trading and TensorFlow\n2.1.1 Introduction to TensorFlow, Trading, ML",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Using Machine Learning in Trading and Finance",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "20",
+        "topic": "2.1.2 Understand Quantitive Trading Strategies",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Using Machine Learning in Trading and Finance",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "21",
+        "topic": "2.1.3 Introduction to TensorFlow",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Using Machine Learning in Trading and Finance",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "22",
+        "topic": "2.1.3 (Cont.) Introduction to TensorFlow",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Using Machine Learning in Trading and Finance",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "23",
+        "topic": "Lab 4: Writing low-level TensorFlow Programs",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "T",
+        "student_materials": "Slides, Videos, Lab Tutorial",
+        "s_download": "",
+        "student_tasks": "Read Lab and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "24",
+        "topic": "Lab 5: Manipulating data with TensorFlow Dataset API",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "T",
+        "student_materials": "Slides, Videos, Lab Tutorial",
+        "s_download": "",
+        "student_tasks": "Read Lab and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "25",
+        "topic": "2.2 Traning neural networks with TensorFlow 2 and Keras\n2.2.1 Overview of Neural Networks and Introduction to Keras APIs",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO5",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Using Machine Learning in Trading and Finance",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "26",
+        "topic": "2.2.1 (Cont.) Overview of Neural Networks and Introduction to Keras APIs",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO5",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Using Machine Learning in Trading and Finance",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "27",
+        "topic": "Lab 6: Introducing the Keras Sequential API",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO5",
+        "itu": "T",
+        "student_materials": "Slides, Videos, Lab Tutorial",
+        "s_download": "",
+        "student_tasks": "Read Lab and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "28",
+        "topic": "Assignment 2: The Keras Functional API",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO5",
+        "itu": "U",
+        "student_materials": "Assignment 2",
+        "s_download": "",
+        "student_tasks": "Assignment 2",
+        "urls": ""
+      },
+      {
+        "session": "29",
+        "topic": "Review Assignment 2",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO5",
+        "itu": "U",
+        "student_materials": "Assignment 2",
+        "s_download": "",
+        "student_tasks": "Assignment 2",
+        "urls": ""
+      },
+      {
+        "session": "30",
+        "topic": "2.3 Build a Momentum-based Trading System\n2.3.1 Identfy momentum-based factors",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO6",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Using Machine Learning in Trading and Finance",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "31",
+        "topic": "2.3.2 Build a trading model that uses momentum factors",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO6",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Using Machine Learning in Trading and Finance",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "32",
+        "topic": "2.3.2 (Cont.) Build a trading model that uses momentum factors",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO6",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Using Machine Learning in Trading and Finance",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "33",
+        "topic": "Lab 7: Reading \"Hurst Exponent and Trading Signals Derived from Market Time Series\"",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO6",
+        "itu": "T",
+        "student_materials": "Slides, Videos, Lab Tutorial",
+        "s_download": "",
+        "student_tasks": "Read Lab and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "34",
+        "topic": "Lab 8: Momentum Strategies",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO6",
+        "itu": "T",
+        "student_materials": "Slides, Videos, Lab Tutorial",
+        "s_download": "",
+        "student_tasks": "Read Lab and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "35",
+        "topic": "2.4 Build a Pair Strategy Prediction Model\n2.4.1 Picking Pairs",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO6",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Using Machine Learning in Trading and Finance",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "36",
+        "topic": "2.4.2 Trading Strategy",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO6",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Using Machine Learning in Trading and Finance",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "37",
+        "topic": "2.4.3 Backtesting and Avoiding Overfitting",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO6",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Using Machine Learning in Trading and Finance",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "38",
+        "topic": "2.4.4 Optimize momentum trading model to minimize costs",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO6",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Using Machine Learning in Trading and Finance",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "39",
+        "topic": "Lab 9: Estimate parameters using Kalman Filters",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO6",
+        "itu": "T",
+        "student_materials": "Slides, Videos, Lab Tutorial",
+        "s_download": "",
+        "student_tasks": "Read Lab and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "40",
+        "topic": "Assignment 3: Pairs Trading Strategy",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO5 - 6",
+        "itu": "U",
+        "student_materials": "Assignment 3",
+        "s_download": "",
+        "student_tasks": "Assignment 3",
+        "urls": ""
+      },
+      {
+        "session": "41",
+        "topic": "Review Assignment 3",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO5 - 6",
+        "itu": "U",
+        "student_materials": "Assignment 3",
+        "s_download": "",
+        "student_tasks": "Assignment 3",
+        "urls": ""
+      },
+      {
+        "session": "42",
+        "topic": "Progress Test 2",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4 - 6",
+        "itu": "U",
+        "student_materials": "Slides, Videos of Using Machine Learning in Trading and Finance",
+        "s_download": "",
+        "student_tasks": "Progress Test 2",
+        "urls": ""
+      },
+      {
+        "session": "43",
+        "topic": "Review Progress Test 2",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4 - 6",
+        "itu": "U",
+        "student_materials": "Progress Test 2",
+        "s_download": "",
+        "student_tasks": "Progress Test 2",
+        "urls": ""
+      },
+      {
+        "session": "44",
+        "topic": "3.1 Introduction to Course and Reinforcement Learning\n3.1.1. Introduction to Course",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO7",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Reinforcement Learning for Trading Strategies",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "45",
+        "topic": "3.1.2 Working with MDPs",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO7",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Reinforcement Learning for Trading Strategies",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "46",
+        "topic": "3.1.3 Online Learning",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO7",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Reinforcement Learning for Trading Strategies",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "47",
+        "topic": "Lab 10: Reading \"Idiosyncrasies and challenges of data driven learning in electronic trading\"",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO7",
+        "itu": "T",
+        "student_materials": "Slides, Videos, Lab Tutorial",
+        "s_download": "",
+        "student_tasks": "Read Lab and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "48",
+        "topic": "Lab 11: Early Reinforcement Learning",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO7",
+        "itu": "T",
+        "student_materials": "Slides, Videos, Lab Tutorial",
+        "s_download": "",
+        "student_tasks": "Read Lab and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "49",
+        "topic": "3.2 Neural network based reinforcement learning\n3.2.1 Q-Networks",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO8",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Reinforcement Learning for Trading Strategies",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "50",
+        "topic": "3.2.2 Policy gradients",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO8",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Reinforcement Learning for Trading Strategies",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "51",
+        "topic": "3.2.3 What is LSTM and How to apply it",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO8",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Reinforcement Learning for Trading Strategies",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "52",
+        "topic": "Lab 12: Policy Gradients and Actor-to-Critic",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO8",
+        "itu": "T",
+        "student_materials": "Slides, Videos, Lab Tutorial",
+        "s_download": "",
+        "student_tasks": "Read Lab and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "53",
+        "topic": "3.3 Portfolio optimization\n3.3.1 Investment and Trading portfolio optimization",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO9",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Reinforcement Learning for Trading Strategies",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "54",
+        "topic": "3.3.2 Auto ML",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO9",
+        "itu": "T",
+        "student_materials": "Slides, Videos of Reinforcement Learning for Trading Strategies",
+        "s_download": "",
+        "student_tasks": "Read Slide and and Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "55",
+        "topic": "Assignment 4: Reinforcement Learning DQN",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO9",
+        "itu": "U",
+        "student_materials": "Assignment 4",
+        "s_download": "",
+        "student_tasks": "Assignment 4",
+        "urls": ""
+      },
+      {
+        "session": "56",
+        "topic": "Review Assignment 4",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO9",
+        "itu": "U",
+        "student_materials": "Assignment 4",
+        "s_download": "",
+        "student_tasks": "Assignment 4",
+        "urls": ""
+      },
+      {
+        "session": "57",
+        "topic": "Progress Test 3",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO7 - 9",
+        "itu": "U",
+        "student_materials": "Slides, Videos of Reinforcement Learning for Trading Strategies",
+        "s_download": "",
+        "student_tasks": "Progress Test 3",
+        "urls": ""
+      },
+      {
+        "session": "58",
+        "topic": "Review Progress Test 3",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO7 - 9",
+        "itu": "U",
+        "student_materials": "Progress Test 3",
+        "s_download": "",
+        "student_tasks": "Progress Test 3",
+        "urls": ""
+      },
+      {
+        "session": "59",
+        "topic": "Summarize All Slides and Labs",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1 - 9",
+        "itu": "T",
+        "student_materials": "All Slides, Videos, Labs",
+        "s_download": "",
+        "student_tasks": "Seft-Review",
+        "urls": ""
+      },
+      {
+        "session": "60",
+        "topic": "Summarize All Assignments and Tests",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1 - 9",
+        "itu": "T",
+        "student_materials": "All All Assignments and Tests",
+        "s_download": "",
+        "student_tasks": "Seft-Review",
+        "urls": ""
+      }
+    ],
+    "assessments": [
+      {
+        "no": "1",
+        "category": "Assignment 1",
+        "type": "on-going",
+        "part": "1",
+        "weight": "5.0%",
+        "completion_criteria": ">0",
+        "duration": "60'",
+        "clo": "CLO1 - 3",
+        "question_type": "Group presentation (50%) and Personal task (50%)",
+        "no_question": "1",
+        "knowledge_and_skill": "algorithms and labs 1-3",
+        "grading_guide": "in class, by group and personal presentations",
+        "note": "Instructor has resposibility to review the presentation for students after graded."
+      },
+      {
+        "no": "2",
+        "category": "Assignment 2",
+        "type": "on-going",
+        "part": "1",
+        "weight": "5.0%",
+        "completion_criteria": ">0",
+        "duration": "60'",
+        "clo": "CLO5",
+        "question_type": "Group presentation (50%) and Personal task (50%)",
+        "no_question": "1",
+        "knowledge_and_skill": "algorithms and labs 4-6",
+        "grading_guide": "in class, by group and personal presentations",
+        "note": "Instructor has resposibility to review the presentation for students after graded."
+      },
+      {
+        "no": "3",
+        "category": "Assignment 3",
+        "type": "on-going",
+        "part": "1",
+        "weight": "5.0%",
+        "completion_criteria": ">0",
+        "duration": "60'",
+        "clo": "CLO5 - 6",
+        "question_type": "Group presentation (50%) and Personal task (50%)",
+        "no_question": "1",
+        "knowledge_and_skill": "algorithms and labs 7-9",
+        "grading_guide": "in class, by group and personal presentations",
+        "note": "Instructor has resposibility to review the presentation for students after graded."
+      },
+      {
+        "no": "4",
+        "category": "Assignment 4",
+        "type": "on-going",
+        "part": "1",
+        "weight": "5.0%",
+        "completion_criteria": ">0",
+        "duration": "60'",
+        "clo": "CLO9",
+        "question_type": "Group presentation (50%) and Personal task (50%)",
+        "no_question": "1",
+        "knowledge_and_skill": "algorithms and labs 10-12",
+        "grading_guide": "in class, by group and personal presentations",
+        "note": "Instructor has resposibility to review the presentation for students after graded."
+      },
+      {
+        "no": "5",
+        "category": "Progress test 1",
+        "type": "on-going",
+        "part": "1",
+        "weight": "10.0%",
+        "completion_criteria": ">0",
+        "duration": "20'-30'",
+        "clo": "CLO1, CLO2, CLO3",
+        "question_type": "Multiple choices\nMarked by Computer or a suitable format",
+        "no_question": "25",
+        "knowledge_and_skill": "concepts (Introduction to Trading, Machine Learning & GCP), slides 1.1-1.4",
+        "grading_guide": "in class, by instructor",
+        "note": "Instruction and shedules for Progress tests must be presented in the Course Implementation Plan approved by director of the campus.\nProgress test must be taken right after the last lectures of required material.\nInstructor has resposibility to review the test for students after graded."
+      },
+      {
+        "no": "6",
+        "category": "Progress test 2",
+        "type": "on-going",
+        "part": "1",
+        "weight": "10.0%",
+        "completion_criteria": ">0",
+        "duration": "20'-30'",
+        "clo": "CLO4, CLO5, CLO6",
+        "question_type": "Multiple choicesMarked by Computer or a suitable format",
+        "no_question": "25",
+        "knowledge_and_skill": "concepts (Using Machine Learning in Trading and Finance), slides 2.1-2.4",
+        "grading_guide": "in class, by instructor",
+        "note": "Instruction and shedules for Progress tests must be presented in the Course Implementation Plan approved by director of the campus.\nProgress test must be taken right after the last lectures of required material.\nInstructor has resposibility to review the test for students after graded."
+      },
+      {
+        "no": "7",
+        "category": "Progress test 3",
+        "type": "on-going",
+        "part": "1",
+        "weight": "10.0%",
+        "completion_criteria": ">0",
+        "duration": "20'-30'",
+        "clo": "CLO7, CLO8, CLO9",
+        "question_type": "Multiple choicesMarked by Computer or a suitable format",
+        "no_question": "25",
+        "knowledge_and_skill": "concepts (Reinforcement Learning for Trading Strategies), slides 3.1-2.3",
+        "grading_guide": "in class, by instructor",
+        "note": "Instruction and shedules for Progress tests must be presented in the Course Implementation Plan approved by director of the campus.\nProgress test must be taken right after the last lectures of required material.\nInstructor has resposibility to review the test for students after graded."
+      },
+      {
+        "no": "8",
+        "category": "Final exam",
+        "type": "Final exam",
+        "part": "1",
+        "weight": "50.0%",
+        "completion_criteria": "4",
+        "duration": "60'",
+        "clo": "CLO1 - 9",
+        "question_type": "Multiple choices\nMarked by Computer or a suitable format",
+        "no_question": "50",
+        "knowledge_and_skill": "concepts, algorithms;\nall studied slides and labs",
+        "grading_guide": "by exam board,\nusing computer",
+        "note": "Instruction and schedule for Final Exam must be presented in the Course Implementation Plan approved by director of the campus."
+      }
+    ]
+  },
+  "combo": {
+    "family": "AI17_COM",
+    "code": "AI17_COM3",
+    "name": "Topic on AI application_Chủ đề Ứng dụng TTNT BIT_AI_K17C(FNO)",
+    "title": "AI17_COM3: Topic on AI application_Chủ đề Ứng dụng TTNT BIT_AI_K17C(FNO)",
+    "note": "",
+    "slot": {
+      "code": "AI17_COM*4",
+      "alias": "AI17_COM_4",
+      "number": 4,
+      "name": {
+        "full": "Subject 4 of Combo*_Học phần 4 của combo*",
+        "en": "Subject 4 of Combo*",
+        "vi": "Học phần 4 của combo*"
+      }
+    },
+    "row_note": ""
+  },
+  "source": {
+    "raw_file": "flm_output/subjects/AI17_COM_4.json",
+    "curriculum_url": "https://flm.fpt.edu.vn/gui/role/student/CurriculumDetails?curid=3173",
+    "pre_syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/Syllabuses?subCode=AI17_COM%2A4&curriculumID=3173",
+    "syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=11703",
+    "details_source_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=11703"
+  },
+  "crawl": {
+    "error": null
+  },
+  "quality": {
+    "has_syllabus": true,
+    "counts": {
+      "materials": 6,
+      "clos": 9,
+      "schedule": 60,
+      "assessments": 8
+    },
+    "warnings": []
+  }
+}

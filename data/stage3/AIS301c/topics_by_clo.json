@@ -1,0 +1,24 @@
+{
+  "CLO1": [
+    "Specialization Introduction\nIntroduction to AI for Cybersecurity\n- AI for Cybersecurity Specialization overview\n- AI for cybersecurity professionals",
+    "Introduction to AI for Cybersecurity (cont.)\n- Machine learning development process\n- AI role in cyber threat detection\n- Spam filtering and email threat detection\nOffline 1: Course 1 orientation and learning review"
+  ],
+  "CLO2": [
+    "Email Threat Detection\n- Spam and phishing email classification\n- Decision trees and Naïve Bayes for email security",
+    "Authentication Security with AI\n- Keystroke dynamics\n- Facial recognition and fake login detection\n- Model evaluation for authentication tasks"
+  ],
+  "CLO3": [
+    "Advanced Malware and Network Anomaly Detection\n- Malware types and malware analysis fundamentals\n- Feature extraction for malware detection\n- Supervised learning for malware classification",
+    "Malware Threats Detection Part 2\n- Advanced detection techniques\n- Clustering and decision trees for malware detection\n- Malware model evaluation"
+  ],
+  "CLO4": [
+    "Network Anomaly Detection with AI\n- Network threats and anomaly detection background\n- Botnet data case study",
+    "Network Traffic Analysis and Research Presentation\n- Anomaly detection algorithms\n- Model interpretation and performance analysis\n- Present current trends in network anomaly detection"
+  ],
+  "CLO5": [
+    "Securing AI and Advanced Topics\n- Fraud prevention with cloud AI solutions\n- Credit card fraud detection\n- Feature engineering and performance metrics",
+    "Generative AI and Adversarial Machine Learning\n- Fundamentals of Generative Adversarial Networks (GANs)\n- Synthetic data for cybersecurity\n- Black-box and white-box adversarial attacks\nOffline 2: Course 3 review",
+    "Model Resilience and Adaptive Cybersecurity\n- Model robustness evaluation\n- Reinforcement learning for adaptive cybersecurity measures\n- Model optimization and security strategy",
+    "Course Integration and Final Review\n- AI model evaluation for cybersecurity applications\n- Defensive and responsible use of AI in cybersecurity\n- Final specialization review"
+  ]
+}

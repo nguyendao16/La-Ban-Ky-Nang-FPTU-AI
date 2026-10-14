@@ -1,0 +1,89 @@
+{
+  "CLO1": [
+    "Course Introduction",
+    "1.1. The K-Armed Bandit Problem",
+    "1.2. Estimating Action Values",
+    "1.3 Exploration vs. Exploitation Tradeoff",
+    "1.4 Introduction to Markov Decision Processes",
+    "1.5 Goal of Reinforcement Learning",
+    "Lab 1",
+    "Guided Project: Create a Tic-Tac-Toe game in Python",
+    "Quiz",
+    "Assignment- Assignment grading",
+    "Review course\nResults"
+  ],
+  "CLO2": [
+    "1.6 Continuing Tasks",
+    "1.7 Policies and Value Functions",
+    "1.8 Bellman Equations",
+    "1.9 Optimality (Optimal Policies & Value Functions)",
+    "1.10 Policy Evaluation (Prediction)",
+    "1.11 Policy Iteration (Control)",
+    "1.12 Generalized Policy Iteration",
+    "Lab 1",
+    "Guided Project: Create a Tic-Tac-Toe game in Python",
+    "Quiz",
+    "Assignment- Assignment grading",
+    "Review course\nResults"
+  ],
+  "CLO3": [
+    "2.1 Introduction to Monte-Carlo Methods",
+    "2.2 Monte-Carlo for Control",
+    "2.3 Exploration Methods for Monte-Carlo",
+    "2.4 Off-policy learning for prediction",
+    "2.5 Introduction to Temporal Difference Learning",
+    "2.6 Advantages of Temporal Difference",
+    "Lab 2",
+    "Guided Project: Create a Tic-Tac-Toe game in Python",
+    "Quiz",
+    "Assignment- Assignment grading",
+    "Review course\nResults"
+  ],
+  "CLO4": [
+    "2.7 Temporal Difference for Control",
+    "2.8 Off-policy Temporal Difference Control: Q-learning",
+    "2.9 Expected Sarsa",
+    "2.10 Define model in Reinforcement Learning",
+    "2.11 Define Planning in Reinforcement Learning",
+    "2.12 Dyna as a formalism for planning",
+    "2.13 Dealing with inaccurate models",
+    "Lab 2",
+    "Guided Project: Create a Tic-Tac-Toe game in Python",
+    "Quiz",
+    "Assignment- Assignment grading",
+    "Review course\nResults"
+  ],
+  "CLO5": [
+    "3.1 Estimating Value Functions as Supervised Learning",
+    "3.2 The Objective for On-policy Prediction",
+    "3.3 The Objective for Temporal Difference",
+    "3.4 Linear Temporal Difference",
+    "3.5 Feature Construction for Linear Methods",
+    "Lab 3",
+    "Guided Project: Create a Tic-Tac-Toe game in Python",
+    "Quiz",
+    "Assignment- Assignment grading",
+    "Review course\nResults"
+  ],
+  "CLO6": [
+    "3.6 Episodic Sarsa with Function Approximation",
+    "3.7 Exploration under Function Approximation",
+    "3.8 Understand Average Reward",
+    "3.9 Learning Parameterized Policies",
+    "3.10 Policy Gradient for Continuing Tasks",
+    "3.11 Actor-Critic for Continuing Tasks",
+    "3.12 Policy Parameterizations",
+    "Lab 3",
+    "Guided Project: Create a Tic-Tac-Toe game in Python",
+    "Quiz",
+    "Assignment- Assignment grading",
+    "Review course\nResults"
+  ],
+  "CLO7": [
+    "4.1 Assignment introduction",
+    "4.2 Assignment guide 1",
+    "4.3 Assignment guide 2",
+    "Assignment- Assignment grading",
+    "Review course\nResults"
+  ]
+}

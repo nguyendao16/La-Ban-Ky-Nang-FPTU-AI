@@ -1,0 +1,18 @@
+[
+  {
+    "clo": "CLO1",
+    "description": "Compare and contrast software development methodologies with respect to environmental, organizational, and product constraints, including Software Development Processes, Methodologies, Software development processes: Part , Software Development Processes : Part , Software Development Models: Traditional Models, Software Development Models: Agile, Lean."
+  },
+  {
+    "clo": "CLO2",
+    "description": "Demonstrate the ability to participate effectively in agile practices/process for software development, including Agile Software Development, Agile Fundamentals."
+  },
+  {
+    "clo": "CLO3",
+    "description": "Apply lean techniques / methods to software development, including Lean Startup, Design Thinking."
+  },
+  {
+    "clo": "CLO4",
+    "description": "Comfortably and effectively participate in various techniques and processes for building secure and high quality software, including Engineering Practices for Building Quality Software, Quality in Design, Quality in Architecture, Quality in Testing, Deployment."
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "CLO1": [
+    "Introduction to Big Data\n- Welcome\n- Big Data: Why and Where\n-Characteristics of Big Data and Dimensions of Scalability\nOffline 1: Introduction to the online course BDI302c",
+    "- Data Science: Getting Value out of Big Data\n'- Foundations for Big Data Systems and Programming\n- Systems: Getting Started with Hadoop"
+  ],
+  "CLO2": [
+    "Big Data Modeling and Management Systems\n- Introduction to Big Data Modeling and Management\n- Big Data Modeling\n- Big Data Modeling (Part 2)",
+    "- Working With Data Models\n- Big Data Management: The \"M\" in DBMS\n- Designing a Big Data Management System for an Online Game"
+  ],
+  "CLO3": [
+    "Big Data Integration and Processing\n- Welcome to Big Data Integration and Processing\n- Retrieving Big Data (Part 1)\n- Retrieving Big Data (Part 2)",
+    "'- Big Data Integration\n- Processing Big Data",
+    "- Big Data Analytics using Spark\n- Learn By Doing: Putting MongoDB and Spark to Work"
+  ],
+  "CLO4": [
+    "'- Big Data Integration\n- Processing Big Data",
+    "- Big Data Analytics using Spark\n- Learn By Doing: Putting MongoDB and Spark to Work"
+  ],
+  "CLO5": [
+    "Machine Learning With Big Data\n- Welcome\n- Introduction to Machine Learning with Big Data\n- Data Exploration\n- Data Preparation",
+    "- Classification\n- Evaluation of Machine Learning Models",
+    "- Regression, Cluster Analysis, and Association Analysis"
+  ],
+  "CLO6": [
+    "Graph Analytics for Big Data\n- Welcome to Graph Analytics\n- Introduction to Graphs\n- Graph Analytics",
+    "- Graph Analytics Techniques\n- Computing Platforms for Graph Analytics\nOffline 2: Review Big Data Specialization (Spec)"
+  ]
+}

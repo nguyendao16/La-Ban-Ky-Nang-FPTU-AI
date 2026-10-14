@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "errors": [],
+  "checks": [
+    {
+      "path": "segments/0/academic_sources/0",
+      "reference": {
+        "course_code": "CPV301",
+        "metadata_field": "description"
+      },
+      "source_excerpt": "advanced image processing knowledge such as Image segmentation, object detection, object recognition, and object tracking",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/0/academic_sources/1",
+      "reference": {
+        "course_code": "CPV301",
+        "clo": "CLO8"
+      },
+      "source_excerpt": "Understand and implement object detection techniques.",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    },
+    {
+      "path": "segments/0/academic_sources/2",
+      "reference": {
+        "course_code": "CPV301",
+        "clo": "CLO9"
+      },
+      "source_excerpt": "Explain the principles of face recognition and object tracking techniques.",
+      "source_present": true,
+      "literal_excerpt_passed": true
+    }
+  ],
+  "semantic_support": "requires_manual_assessment"
+}

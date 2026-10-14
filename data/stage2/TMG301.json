@@ -1,0 +1,305 @@
+{
+  "metadata": {
+    "syllabus_name": "Text Mining_Khai thác văn bản",
+    "course_name_english": "",
+    "subject_code": "TMG301",
+    "description": "This course will cover the primary techniques for mining and analyzing text data to discover interesting patterns, extract practical knowledge, and support decision-making, emphasizing statistical approaches that can be generally applied to arbitrary text data in any natural language with no or minimum human effort. Detailed analysis of text data requires understanding natural language text, which is a difficult task for computers",
+    "tools": "No"
+  },
+  "clos": [
+    {
+      "clo_name": "CLO1",
+      "clo_details": "Students will develop a solid understanding of the fundamental concepts and principles of text mining, including techniques for extracting, transforming, and analyzing textual data."
+    },
+    {
+      "clo_name": "CLO2",
+      "clo_details": "Students can use machine learning/deep learning (neural networks, neural language models, recurrent neural networks, LSMT) for specific text-mining applications."
+    },
+    {
+      "clo_name": "CLO3",
+      "clo_details": "Students will explore the methods and algorithms used for text classification and clustering tasks. They will learn to apply techniques like Naive Bayes, Support Vector Machines, and k-means clustering."
+    },
+    {
+      "clo_name": "CLO4",
+      "clo_details": "Students will learn about different methods for representing text data, such as bag-of-words, term frequency-inverse document frequency (TF-IDF), and word embeddings. They will understand the strengths and limitations of each approach."
+    },
+    {
+      "clo_name": "CLO5",
+      "clo_details": "Students will be aware of the popular applications in text mining, such as machine translation, question answering, and chatbots to design text mining-related applications in real-world"
+    }
+  ],
+  "schedule": [
+    {
+      "topic": "Course introduction:\n- Introduce the materials of the courses and how to asses these materials\n- Introduce the assignments and how to pass the course",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "1. Regular expressions, text normalization, sdit distance\n1.1 regular expressions, words, corpora",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "1. Regular expressions, text normalization, sdit distance\n1.2 Text normalization, minimum edit distance",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "2. N-gram language models\n2.1 N-Grams, evaluating language models,",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "2. N-gram language models\n2.2 sampling sentences from a language model, generalization and zeros, Smoothing",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "2. N-gram language models\n2.3 Knerser-Ney smoothing, perplexity's relation to entropy\n- Assignment 1 introduction",
+      "lo": "CLO1"
+    },
+    {
+      "topic": "3. Naïve Bayes, Text classification, and Sentiment\n3.1 Naïve Bayes classifiers, Training the Naive Bayes Classifier",
+      "lo": "CLO1, CLO2"
+    },
+    {
+      "topic": "3. Naïve Bayes, Text classification, and Sentiment\n3.2 Optimizing for sentiment analysis, Naive Bayes for other text classification tasks,",
+      "lo": "CLO1, CLO2"
+    },
+    {
+      "topic": "3. Naïve Bayes, Text classification, and Sentiment\n3.3 Naïve Bayes as a language model, Evaluation: Precision, Recall, F-measure,",
+      "lo": "CLO1, CLO2"
+    },
+    {
+      "topic": "3. Naïve Bayes, Text classification, and Sentiment\n3.4 test sets and cross-validation, statistical significance testing",
+      "lo": "CLO1, CLO2"
+    },
+    {
+      "topic": "Assignment 1 support",
+      "lo": "CLO1, CLO2"
+    },
+    {
+      "topic": "4. Logistic regression\n4.1 Review of logistic regression (Sigmoid function, classification with logistic regression)\n4.2 Multinomial logistic regression",
+      "lo": "CLO1, CLO2"
+    },
+    {
+      "topic": "4. Logistic regression\n4.3 Learning in Logistic Regression , The cross-entropy loss function, Gradient Descent, Regularization",
+      "lo": "CLO1, CLO2"
+    },
+    {
+      "topic": "4. Logistic regression\n4.4 Interpreting models, deriving the gradient equation",
+      "lo": "CLO1, CLO2"
+    },
+    {
+      "topic": "5. Vector semantics and embeddings\n5.1 Lexical semantics, vector semantics,",
+      "lo": "CLO1, CLO4"
+    },
+    {
+      "topic": "5. Vector semantics and embeddings\n5.2 words and vectors, cosine for measuring similarity",
+      "lo": "CLO1, CLO4"
+    },
+    {
+      "topic": "5. Vector semantics and embeddings\n5.3 TF-IDF: weighting terms in the vector, pointwise mutual information",
+      "lo": "CLO1, CLO4"
+    },
+    {
+      "topic": "5. Vector semantics and embeddings\n5.4 Word2vec",
+      "lo": "CLO1, CLO4"
+    },
+    {
+      "topic": "5. Vector semantics and embeddings\n5.5 Visualizing Embeddings, Semantic properties of embeddings, Bias and Embeddings, Evaluating Vector Models",
+      "lo": "CLO1, CLO4"
+    },
+    {
+      "topic": "Assignment 1 support",
+      "lo": "CLO1, CLO4"
+    },
+    {
+      "topic": "6. Clustering for Text Similarity\n6.1 Unsupervised Learning on Text\n6.2 Clustering by Document Similarity",
+      "lo": "CLO1, CLO3"
+    },
+    {
+      "topic": "6. Clustering for Text Similarity\n6.3 Modeling Document Topics",
+      "lo": "CLO1, CLO3"
+    },
+    {
+      "topic": "7. RNNs and LSTMs\n7.1 Recurrent neural networks, RNNs as Language models, RNNs for other NL tasks",
+      "lo": "CLO1, CLO2"
+    },
+    {
+      "topic": "7. RNNs and LSTMs\n7.2 The LSTM, common RNN NL architectures, attention",
+      "lo": "CLO1, CLO2"
+    },
+    {
+      "topic": "8. Transformers and pretrained language models\n8.1 self-attention networks: transformers, transformers as language models, sampling, beam search",
+      "lo": "CLO1, CLO2"
+    },
+    {
+      "topic": "8. Transformers and pretrained language models\n8.2 pretraining large language models, language models for zero- shot learning, potential harms from language models",
+      "lo": "CLO1, CLO2"
+    },
+    {
+      "topic": "9. Fine-tuning and masked language models\n9.1 Bidirectional transformer encoders, training bidirectional encoders",
+      "lo": "CLO1, CLO2"
+    },
+    {
+      "topic": "9. Fine-tuning and masked language models\n9.2 Transfer learning through fine-tuning, training corpora",
+      "lo": "CLO1, CLO2"
+    },
+    {
+      "topic": "Assignment 1 evaluation",
+      "lo": "CLO1, CLO2, CLO3, CLO4, CLO5"
+    },
+    {
+      "topic": "Progress test 1\nAssignment 2 introduction",
+      "lo": "CLO1, CLO2, CLO3, CLO4, CLO5"
+    },
+    {
+      "topic": "10. Machine translation\n10.1 Leanguage divergeneces and typology, machine translation using encoder-decoder, details of the encoder-decoder model",
+      "lo": "CLO1, CLO5"
+    },
+    {
+      "topic": "10. Machine translation\n10.2 Translating in low-resource situations, machine traslation evaluation, bias and ethical issues",
+      "lo": "CLO1, CLO5"
+    },
+    {
+      "topic": "11. Chatbot and Dialogue systems\n11.1 Properties of human conversation, chatbots",
+      "lo": "CLO1, CLO5"
+    },
+    {
+      "topic": "11. Chatbot and Dialogue systems\n11.2 GUS: simple frame-based diaglogue systems, The dialogue-state architecture,",
+      "lo": "CLO1, CLO5"
+    },
+    {
+      "topic": "11. Chatbot and Dialogue systems\n11.3 Evaluating dialogue systems, dialogue system design",
+      "lo": "CLO1, CLO5"
+    },
+    {
+      "topic": "Assignment 2 support",
+      "lo": "CLO1, CLO2, CLO3, CLO4, CLO5"
+    },
+    {
+      "topic": "12. Context-free grammars and constituency parsing\n12.1 Constituency, context-free grammars, treebanks, grammar equivalence and normal form",
+      "lo": "CLO1, CLO4"
+    },
+    {
+      "topic": "12. Context-free grammars and constituency parsing\n12.2 Ambiguity, a dynamic programming approach",
+      "lo": "CLO1, CLO4"
+    },
+    {
+      "topic": "12. Context-free grammars and constituency parsing\n12.3 Span-based neural constituency parsing, evaluating parsers",
+      "lo": "CLO1, CLO4"
+    },
+    {
+      "topic": "13. Dependency parsing\n13.1 Dependency relations, transition-based dependency parsing",
+      "lo": "CLO1, CLO4"
+    },
+    {
+      "topic": "13. Dependency parsing\n13.2 Graph-based dependency parsing, evaluation\nExercise",
+      "lo": "CLO1, CLO4"
+    },
+    {
+      "topic": "Assignment 2 support",
+      "lo": "CLO1, CLO2, CLO3, CLO4, CLO5"
+    },
+    {
+      "topic": "14. Logical representations of sentence meaning\n14.1 Model-Theoretic semantics, first-order logic\n14.2 event and state representations, description logics",
+      "lo": "CLO1, CLO4"
+    },
+    {
+      "topic": "15. Relation and Event extraction\n15.1 Relation extraction Algorithms,",
+      "lo": "CLO1, CLO4"
+    },
+    {
+      "topic": "15. Relation and Event extraction\n15.2 Extracting events, template filling",
+      "lo": "CLO1, CLO4"
+    },
+    {
+      "topic": "16. Time and temporal reasoning\n16.1 Representing time, representing aspect",
+      "lo": "CLO1, CLO4"
+    },
+    {
+      "topic": "16. Time and temporal reasoning\n16.2 Temporally annotated datasets: time bank, automatic temporal analysis",
+      "lo": "CLO1, CLO4"
+    },
+    {
+      "topic": "Assignment 2 support",
+      "lo": "CLO1, CLO2, CLO3, CLO4, CLO5"
+    },
+    {
+      "topic": "17. Word senses and WordNet\n17.1 Word senses, relations between senses, WordNet: a database of lexical relations",
+      "lo": "CLO1, CLO4"
+    },
+    {
+      "topic": "17. Word senses and WordNet\n17.2 Word sense Disambguation, Alternate WSD algorithms and tasks",
+      "lo": "CLO1, CLO4"
+    },
+    {
+      "topic": "17. Word senses and WordNet\n17.3 Using thesauruses to improve embeddings, word sense induction",
+      "lo": "CLO1, CLO4"
+    },
+    {
+      "topic": "18. Lexicons for sentiment, affect, and connotation\n18.1 Defining emotion, available sentiment and affect lexicons, creating affect lexicons by human labeling",
+      "lo": "CLO1, CLO4"
+    },
+    {
+      "topic": "18. Lexicons for sentiment, affect, and connotation\n18.2 Semi-supervised induction of affect lexicons",
+      "lo": "CLO1, CLO4"
+    },
+    {
+      "topic": "Assignment 2 support",
+      "lo": "CLO1, CLO2, CLO3, CLO4, CLO5"
+    },
+    {
+      "topic": "18. Lexicons for sentiment, affect, and connotation\n18.3 supervised learning of word sentiment",
+      "lo": "CLO1, CLO4"
+    },
+    {
+      "topic": "18. Lexicons for sentiment, affect, and connotation\n18.4 using lexicons for sentiment recognition, using lexicons for affect recognition",
+      "lo": "CLO1, CLO4"
+    },
+    {
+      "topic": "18. Lexicons for sentiment, affect, and connotation\n18.5 Lexicon-based methods for Entity-Centric Affect, Connotation Frames",
+      "lo": "CLO1, CLO4"
+    },
+    {
+      "topic": "Progress Test 2 - Review Progress Test 2",
+      "lo": "CLO1, CLO2, CLO3, CLO4, CLO5"
+    },
+    {
+      "topic": "Assignment 2 evaluation",
+      "lo": "CLO1, CLO2, CLO3, CLO4, CLO5"
+    },
+    {
+      "topic": "Summary All Slides, Tests, and Assignments",
+      "lo": "CLO1, CLO2, CLO3, CLO4, CLO5"
+    }
+  ],
+  "assessments": [
+    {
+      "category": "Assignment 1",
+      "part": "1",
+      "weight": "15.0%",
+      "clo": "CLO1, CLO2"
+    },
+    {
+      "category": "Assignment 2",
+      "part": "1",
+      "weight": "15.0%",
+      "clo": "CLO1, CLO2, CLO3, CLO4, CLO5"
+    },
+    {
+      "category": "Progress test 1",
+      "part": "1",
+      "weight": "15.0%",
+      "clo": "CLO1, CLO2, CLO3, CLO4, CLO5"
+    },
+    {
+      "category": "Progress test 2",
+      "part": "1",
+      "weight": "15.0%",
+      "clo": "CLO1, CLO2, CLO3, CLO4, CLO5"
+    },
+    {
+      "category": "Final exam",
+      "part": "1",
+      "weight": "40.0%",
+      "clo": "CLO1, CLO2, CLO3, CLO4, CLO5"
+    }
+  ]
+}

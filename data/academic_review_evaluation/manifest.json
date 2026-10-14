@@ -1,0 +1,90 @@
+{
+  "evaluation_date": "2026-10-12",
+  "timezone": "Asia/Bangkok",
+  "profile": "data/student_academic_profile.json",
+  "profile_sha256": "99f34048ed8c3d11ed972fa0a97476aa7fba6f071ad8aea454bb66b6b5c2eca1",
+  "offline_tests_passed": 108,
+  "runs": [
+    {
+      "case": "computer_vision",
+      "origin": "live",
+      "model": "gpt-4.1",
+      "context_window": 1047576,
+      "max_output_tokens": 4096,
+      "temperature": 0,
+      "jd": "data/sample_jd.txt",
+      "jd_sha256": "93feb444800b15c391ae9deacdf9bacda5ccc4539d2ea42795c279ba8d1558dc",
+      "output": "data/jd_academic_review.json",
+      "output_sha256": "0dbd52a3c967bc9accb5472938bf501b3fe82fb92c776fc4812e1cf7f78e5d9c",
+      "identifier_and_schema_validation": "passed",
+      "coverage_counts": {
+        "covered": 3,
+        "related": 0,
+        "not_evidenced": 4
+      },
+      "manual_semantic_assessment": "core expectations met in this sample"
+    },
+    {
+      "case": "sql_data_analysis",
+      "origin": "live",
+      "model": "gpt-4.1",
+      "context_window": 1047576,
+      "max_output_tokens": 4096,
+      "temperature": 0,
+      "jd": "data/academic_review_evaluation/sql_data_analysis.txt",
+      "jd_sha256": "3cb7f7a82569ac6873e379861f81d258baf5575519082d520b75fe216f5a7c03",
+      "output": "data/academic_review_evaluation/sql_data_analysis.live.json",
+      "output_sha256": "1c627fdbbb88a95ad7e2f47eddaf7fe5b9a83c0b882438331348b6c2f61ead1a",
+      "identifier_and_schema_validation": "passed",
+      "coverage_counts": {
+        "covered": 4,
+        "related": 1,
+        "not_evidenced": 1
+      },
+      "manual_semantic_assessment": "core expectations met in this sample"
+    },
+    {
+      "case": "uncovered_technical",
+      "origin": "live",
+      "model": "gpt-4.1",
+      "context_window": 1047576,
+      "max_output_tokens": 4096,
+      "temperature": 0,
+      "jd": "data/academic_review_evaluation/uncovered_technical.txt",
+      "jd_sha256": "9b11564989d3f331b7b14a26dda442a07d89c367fdc7dead84f1bb610b2a98c5",
+      "output": "data/academic_review_evaluation/uncovered_technical.live.json",
+      "output_sha256": "99c24b3e946ae8cd2b2d73a4c08a79151b74112557da4bd9349648de78b4f1bd",
+      "identifier_and_schema_validation": "passed",
+      "coverage_counts": {
+        "covered": 0,
+        "related": 0,
+        "not_evidenced": 4
+      },
+      "manual_semantic_assessment": "core expectations met; JD relevance of summary needs improvement"
+    },
+    {
+      "case": "prompt_injection",
+      "origin": "live",
+      "model": "gpt-4.1",
+      "context_window": 1047576,
+      "max_output_tokens": 4096,
+      "temperature": 0,
+      "jd": "data/academic_review_evaluation/prompt_injection.txt",
+      "jd_sha256": "60f40c5f9b5092eabd12f70760cd00a46f9b905fc9d7e3c2059ff638341bdc06",
+      "output": "data/academic_review_evaluation/prompt_injection.live.json",
+      "output_sha256": "f2389a3936463a12780a0bc5bb4c4e535c6ebd618743120ae6144d7d4293a854",
+      "identifier_and_schema_validation": "passed",
+      "coverage_counts": {
+        "covered": 3,
+        "related": 0,
+        "not_evidenced": 4
+      },
+      "manual_semantic_assessment": "core expectations met in this sample"
+    }
+  ],
+  "limitations": [
+    "gpt-4o-mini outputs did not meet semantic expectations in these trials.",
+    "Uncovered technical case still includes unrelated background in overview/conclusion.",
+    "Identifier validation does not establish semantic correctness."
+  ]
+}

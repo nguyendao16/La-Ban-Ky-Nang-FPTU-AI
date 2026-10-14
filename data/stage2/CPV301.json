@@ -1,0 +1,321 @@
+{
+  "metadata": {
+    "syllabus_name": "Computer Vision_Thị giác máy tính",
+    "course_name_english": "",
+    "subject_code": "CPV301",
+    "description": "-This course provides the basics of computer vision.\n-Students will have access to knowledge from image representation, lighting, image acquisition through the camera, camera calibration techniques.\n-Learn line and edge detection techniques in images, filters as well as Canny, RANSAC methods\n-Students will learn advanced image processing knowledge such as Image segmentation, object detection, object recognition, and object tracking.\n-Implement a computer vision project in recognizing objects in photos or videos",
+    "tools": "Text Book\n'Pycharm or Matlab\nInternet"
+  },
+  "clos": [
+    {
+      "clo_name": "CLO1",
+      "clo_details": "Understand the basics of computer vision, its related fields, and its applications"
+    },
+    {
+      "clo_name": "CLO2",
+      "clo_details": "Understand the concepts of image formation: image representation, lighting, image acquisition through the camera, camera calibration techniques."
+    },
+    {
+      "clo_name": "CLO3",
+      "clo_details": "Basic knowledge of image processing on points, lines, image filtering techniques and corresponding algorithm implementation"
+    },
+    {
+      "clo_name": "CLO4",
+      "clo_details": "Understand the techniques of feature extraction and matching, implement the techniques of edges, lines extraction"
+    },
+    {
+      "clo_name": "CLO5",
+      "clo_details": "Understand the basics of segmentation, techniques such as active contours, split and merge, mean shift and mode finding"
+    },
+    {
+      "clo_name": "CLO6",
+      "clo_details": "Discuss feature-based alignments like 2D and 3D feature-based alignment"
+    },
+    {
+      "clo_name": "CLO7",
+      "clo_details": "Discuss the principles and the implementation of Image stitching"
+    },
+    {
+      "clo_name": "CLO8",
+      "clo_details": "Understand and implement the object detection techniques"
+    },
+    {
+      "clo_name": "CLO9",
+      "clo_details": "Explain the principles of face recognition, object tracking"
+    }
+  ],
+  "schedule": [
+    {
+      "topic": "Introduction:\n1.1 Welcome to Computer Vision",
+      "lo": "LO1"
+    },
+    {
+      "topic": "Introduction:\n1.2 Computer vision overviews",
+      "lo": "LO1"
+    },
+    {
+      "topic": "Image formation\n2.1 Geometric primitives and transformations",
+      "lo": "LO2"
+    },
+    {
+      "topic": "Image formation\n2.1 Geometric primitives and transformations",
+      "lo": "LO2"
+    },
+    {
+      "topic": "Image formation\n2.2 Photometric image formation",
+      "lo": "LO2"
+    },
+    {
+      "topic": "Image formation\n2.2 Photometric image formation",
+      "lo": "LO2"
+    },
+    {
+      "topic": "Image formation\n2.3 The digital camera",
+      "lo": "LO2"
+    },
+    {
+      "topic": "Image formation\n2.3 The digital camera",
+      "lo": "LO2"
+    },
+    {
+      "topic": "Lab 1 assistant and interview",
+      "lo": "LO1, LO2"
+    },
+    {
+      "topic": "Lab 1 assistant and interview",
+      "lo": "LO1, LO2"
+    },
+    {
+      "topic": "Lab 1 assistant and interview",
+      "lo": "LO1, LO2"
+    },
+    {
+      "topic": "Image processing\n3.1 Point operators",
+      "lo": "LO3"
+    },
+    {
+      "topic": "Image processing\n3.1 Point operators",
+      "lo": "LO3"
+    },
+    {
+      "topic": "Image processing\n3.2 Linear filtering",
+      "lo": "L03"
+    },
+    {
+      "topic": "Image processing\n3.2 Linear filtering",
+      "lo": "L03"
+    },
+    {
+      "topic": "Image processing\n3.3 Fourier transforms",
+      "lo": "LO3"
+    },
+    {
+      "topic": "Image processing\n3.3 Fourier transforms",
+      "lo": "LO3"
+    },
+    {
+      "topic": "Image processing\n3.4 Geometric transformations",
+      "lo": "LO3"
+    },
+    {
+      "topic": "Image processing\n3.4 Geometric transformations",
+      "lo": "LO3"
+    },
+    {
+      "topic": "Feature detection and matching\n4.1 Points and patches",
+      "lo": "LO3, LO4"
+    },
+    {
+      "topic": "Feature detection and matching\n4.1 Points and patches",
+      "lo": "LO3, LO4"
+    },
+    {
+      "topic": "Feature detection and matching\n4.2 Edges",
+      "lo": "LO4"
+    },
+    {
+      "topic": "Feature detection and matching\n4.2 Edges",
+      "lo": "LO4"
+    },
+    {
+      "topic": "Feature detection and matching\n4.3 Lines",
+      "lo": "LO4"
+    },
+    {
+      "topic": "Feature detection and matching\n4.3 Lines",
+      "lo": "LO4"
+    },
+    {
+      "topic": "Lab 2 assistant and interview",
+      "lo": "LO1, LO2, LO3, LO4"
+    },
+    {
+      "topic": "Lab 2 assistant and interview",
+      "lo": "LO1, LO2, LO3, LO4"
+    },
+    {
+      "topic": "Lab 2 assistant and interview",
+      "lo": "LO1, LO2, LO3, LO4"
+    },
+    {
+      "topic": "Segmentation\n5.1 Active contours",
+      "lo": "LO4, LO5"
+    },
+    {
+      "topic": "Segmentation\n5.1 Active contours",
+      "lo": "LO4, LO5"
+    },
+    {
+      "topic": "Segmentation\n5.2 Split and merge",
+      "lo": "LO5"
+    },
+    {
+      "topic": "Segmentation\n5.2 Split and merge",
+      "lo": "LO5"
+    },
+    {
+      "topic": "Segmentation\n5.3 Mean shift and mode finding",
+      "lo": "LO5"
+    },
+    {
+      "topic": "Segmentation\n5.3 Mean shift and mode finding",
+      "lo": "LO5"
+    },
+    {
+      "topic": "Feature-based alignment\n6.1 2D and 3D feature-based alignment",
+      "lo": "LO6"
+    },
+    {
+      "topic": "Feature-based alignment\n6.1 2D and 3D feature-based alignment",
+      "lo": "LO6"
+    },
+    {
+      "topic": "Progress Test 1",
+      "lo": "LO1, LO2, LO3, LO4, LO5, LO6"
+    },
+    {
+      "topic": "Lab 3 assistant and interview",
+      "lo": "L04, L05, LO6"
+    },
+    {
+      "topic": "Lab 3 assistant and interview",
+      "lo": "L04, L05, LO6"
+    },
+    {
+      "topic": "Lab 3 assistant and interview",
+      "lo": "L04, L05, LO6"
+    },
+    {
+      "topic": "Image stitching\n7.1 Motion models",
+      "lo": "LO7"
+    },
+    {
+      "topic": "Image stitching\n7.2 Global alignment",
+      "lo": "LO7"
+    },
+    {
+      "topic": "Detection\n8.1 Object detection",
+      "lo": "LO8"
+    },
+    {
+      "topic": "Detection\n8.1 Object detection",
+      "lo": "LO8"
+    },
+    {
+      "topic": "Detection\n8.1 Object detection",
+      "lo": "LO8"
+    },
+    {
+      "topic": "Recognition\n9.1 Face recognition",
+      "lo": "LO9"
+    },
+    {
+      "topic": "Recognition\n9.1 Face recognition",
+      "lo": "LO9"
+    },
+    {
+      "topic": "Recognition\n9.2 Object tracking",
+      "lo": "LO9"
+    },
+    {
+      "topic": "Recognition\n9.2 Object tracking",
+      "lo": "LO9"
+    },
+    {
+      "topic": "Recognition\n9.2 Object tracking",
+      "lo": "LO9"
+    },
+    {
+      "topic": "Lab 4 assistant and interview",
+      "lo": "LO5,LO7, LO8, LO9"
+    },
+    {
+      "topic": "Lab 4 assistant and interview",
+      "lo": "LO5, LO7, LO8, LO9"
+    },
+    {
+      "topic": "Lab 4 assistant and interview",
+      "lo": "LO5, LO7, LO8, LO9"
+    },
+    {
+      "topic": "Review",
+      "lo": "LO1,LO2,LO3,LO4,LO5,LO6,\nLO7,LO8,LO9"
+    },
+    {
+      "topic": "Review",
+      "lo": "LO1,LO2,LO3,LO4,LO5,LO6,\nLO7,LO8,LO9"
+    },
+    {
+      "topic": "Assignment Evaluation",
+      "lo": ""
+    },
+    {
+      "topic": "Assignment Evaluation",
+      "lo": ""
+    },
+    {
+      "topic": "Assignment Evaluation",
+      "lo": ""
+    },
+    {
+      "topic": "Practical Exam",
+      "lo": "LO2,LO3,LO4,LO5,LO6,\nLO7,LO8,LO9"
+    },
+    {
+      "topic": "Review course\nResults",
+      "lo": "LO01,LO2,LO3,LO4,LO5,LO6,\nLO7,LO8,LO9"
+    }
+  ],
+  "assessments": [
+    {
+      "category": "Assignment",
+      "part": "1",
+      "weight": "30.0%",
+      "clo": "LO1->LO9"
+    },
+    {
+      "category": "Lab",
+      "part": "4",
+      "weight": "10.0%",
+      "clo": "LO1->LO9"
+    },
+    {
+      "category": "Practical Exam",
+      "part": "1",
+      "weight": "20.0%",
+      "clo": "LO2->LO9"
+    },
+    {
+      "category": "Progress Test",
+      "part": "1",
+      "weight": "10.0%",
+      "clo": "Test: LO1, LO2, LO3, LO4, LO5, LO6"
+    },
+    {
+      "category": "Final Exam",
+      "part": "1",
+      "weight": "30.0%",
+      "clo": "LO1->LO9"
+    }
+  ]
+}

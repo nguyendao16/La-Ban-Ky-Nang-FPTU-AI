@@ -1,0 +1,7 @@
+{
+  "syllabus_name": "Applied Data Science with R - Khoa học dữ liệu ứng dụng với R",
+  "course_name_english": "",
+  "subject_code": "DSR301m",
+  "description": "This course introduces the basics of the R language such as data types, techniques for manipulation. Students will be able to perform basic R programming tasks to complete the data analysis process, create relational databases and query the data using SQL and R and communicate their data findings using data visualization techniques. Students will work with tools like R Studio and related R libraries for data science such as Tidyverse, Tidymodels, R Shiny, ggplot2.",
+  "tools": "Jupyter Notebooks, RStudio IDE"
+}

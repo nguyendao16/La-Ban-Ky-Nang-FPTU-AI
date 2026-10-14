@@ -1,0 +1,132 @@
+{
+  "origin": "live",
+  "case_id": "JD06",
+  "session_id": "d773455f7df3410f84494134393d4522",
+  "profile_sha256": "99f34048ed8c3d11ed972fa0a97476aa7fba6f071ad8aea454bb66b6b5c2eca1",
+  "jd_sha256": "d2d2d8c59d9352ff344d0e633a459b480b3157374116674807a750a228434c66",
+  "review_sha256": "60949e6de7768d71a47aba6bb6a2ddea500b4621317422ed5762d6d2e730afc1",
+  "turns": [
+    {
+      "turn": 1,
+      "user": "Với JD này thì những kiến thức nào mình đã học ở trường có liên quan nhất?",
+      "response": {
+        "reply": "Các kiến thức bạn đã học ở trường liên quan nhất đến JD Data Analysis Intern của VNGGames bao gồm:\n\n1. SQL cơ bản và quy trình làm việc với dữ liệu:\n- Bạn đã học và thực hành SQL cơ bản, bao gồm tạo, truy vấn, cập nhật, xóa dữ liệu, lập trình T-SQL, sử dụng view, stored procedure, trigger và index trong Microsoft SQL Server (DBI202/CLO5, CLO6, CLO7). Ngoài ra, bạn còn thực hành truy cập cơ sở dữ liệu với Python và thực hiện các thao tác SQL trong bối cảnh khoa học dữ liệu (ADY201m/CLO1, CLO7; AIL303m/CLO1).\n\n2. Phân tích dữ liệu, trực quan hóa dữ liệu và xây dựng báo cáo:\n- Bạn đã thực hiện các bước thu thập, xử lý, phân tích, trực quan hóa dữ liệu, xây dựng các loại biểu đồ, dashboard và báo cáo kết quả trong các dự án nhỏ về khoa học dữ liệu (DAP391m/CLO2, CLO3, CLO4, CLO7; ADY201m/CLO7). Các CLO này thể hiện kỹ năng phân tích, trực quan hóa và báo cáo dữ liệu, phù hợp với các nhiệm vụ phân tích, cập nhật báo cáo, xử lý dữ liệu thiếu và phân tích ad-hoc trong JD.\n\n3. Lập trình Python:\n- Bạn có nền tảng lập trình Python vững chắc, từ cơ bản đến nâng cao, bao gồm cả lập trình hướng đối tượng và ứng dụng Python trong phân tích dữ liệu (PFP191/CLO1–CLO7; ADY201m/CLO5, CLO7; DAP391m/CLO1, CLO7).\n\n4. Kỹ năng giải quyết vấn đề, giao tiếp, làm việc nhóm và chú ý chi tiết:\n- Các dự án và học phần yêu cầu triển khai dự án nhỏ, làm việc nhóm, báo cáo và trình bày kết quả (MAI391/CLO8; DAP391m/CLO7; ADY201m/CLO7), giúp phát triển các kỹ năng mềm mà JD yêu cầu.\n\n5. Trực quan hóa dữ liệu và xây dựng dashboard:\n- Bạn đã học về trực quan hóa dữ liệu, xây dựng các loại biểu đồ, dashboard và sử dụng các công cụ phân tích dữ liệu như Python, SQL, Jupyter Notebook, RStudio IDE, Watson Studio (DAP391m/CLO3, CLO4; ADY201m/CLO1, CLO7). Tuy nhiên, chưa có bằng chứng học thuật trực tiếp về Power BI hoặc Tableau, mà chỉ ở mức liên quan thông qua kỹ năng trực quan hóa và xây dựng dashboard tổng quát.\n\nTóm lại, các kiến thức về SQL, Python, phân tích và trực quan hóa dữ liệu, cùng kỹ năng làm việc nhóm và giải quyết vấn đề là những nền tảng liên quan nhất mà bạn đã học ở trường đối với vị trí này.",
+        "evidence": [
+          {
+            "course_code": "DBI202",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "DBI202",
+            "clo": "CLO6"
+          },
+          {
+            "course_code": "DBI202",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO1"
+          },
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "AIL303m",
+            "clo": "CLO1"
+          },
+          {
+            "course_code": "DAP391m",
+            "clo": "CLO2"
+          },
+          {
+            "course_code": "DAP391m",
+            "clo": "CLO3"
+          },
+          {
+            "course_code": "DAP391m",
+            "clo": "CLO4"
+          },
+          {
+            "course_code": "DAP391m",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "PFP191",
+            "clo": "CLO1"
+          },
+          {
+            "course_code": "PFP191",
+            "clo": "CLO7"
+          },
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO5"
+          },
+          {
+            "course_code": "DAP391m",
+            "clo": "CLO1"
+          },
+          {
+            "course_code": "MAI391",
+            "clo": "CLO8"
+          }
+        ]
+      },
+      "request_artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD06-1.json"
+    },
+    {
+      "turn": 2,
+      "user": "So với JD thì những nội dung nào mình còn thiếu hoặc chưa được hồ sơ xác nhận?",
+      "response": {
+        "reply": "Đối chiếu với JD Data Analysis Intern của VNGGames, các nội dung sau chưa được hồ sơ học thuật xác nhận trực tiếp:\n\n1. Sử dụng công cụ BI cụ thể như Power BI, Tableau:\n- Hồ sơ hiện tại chưa có CLO nào xác nhận bạn đã học hoặc thực hành trực tiếp với Power BI, Tableau hay các công cụ BI tương đương. Các kỹ năng trực quan hóa dữ liệu và xây dựng dashboard chỉ được xác nhận ở mức tổng quát qua các CLO về biểu đồ, dashboard và công cụ phân tích dữ liệu nói chung (ví dụ: Python, Jupyter Notebook, Watson Studio).\n\n2. Duy trì dashboard tự động cho hiệu suất kinh doanh/sản phẩm:\n- Các CLO về trực quan hóa và báo cáo dữ liệu (DAP391m, ADY201m) xác nhận bạn đã thực hiện các dự án nhỏ về phân tích và trực quan hóa, nhưng chưa nêu rõ về việc duy trì dashboard tự động hoặc tích hợp với hệ thống kinh doanh thực tế như JD mô tả.\n\n3. Tài liệu hóa quy trình công việc (workflow documentation):\n- Hồ sơ chưa có CLO nào xác nhận bạn đã học hoặc thực hành tài liệu hóa quy trình công việc một cách bài bản, mà chỉ thể hiện kỹ năng báo cáo kết quả dự án.\n\nNếu bạn đã tự học hoặc có kinh nghiệm thực tế với Power BI, Tableau, hoặc từng duy trì dashboard tự động và tài liệu hóa workflow ngoài trường, hồ sơ học thuật hiện tại chưa phản ánh được điều đó. Đây là những chủ đề bạn có thể cân nhắc bổ sung hoặc làm nổi bật nếu đã có trải nghiệm ngoài chương trình học.",
+        "evidence": [
+          {
+            "course_code": "DAP391m",
+            "clo": "CLO3"
+          },
+          {
+            "course_code": "DAP391m",
+            "clo": "CLO4"
+          },
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO1"
+          },
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO7"
+          }
+        ]
+      },
+      "request_artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD06-2.json"
+    },
+    {
+      "turn": 3,
+      "user": "Mình có CLO trực quan hóa dữ liệu rồi, có thể nói đã biết Power BI hay Tableau chưa?",
+      "response": {
+        "reply": "Bạn có các CLO xác nhận đã học và thực hành trực quan hóa dữ liệu, xây dựng các loại biểu đồ, dashboard và sử dụng các công cụ phân tích dữ liệu như Python, Jupyter Notebook, Watson Studio (ví dụ: DAP391m/CLO3, CLO4; ADY201m/CLO1, CLO7). Tuy nhiên, các CLO này không nêu rõ về việc sử dụng Power BI, Tableau hoặc bất kỳ công cụ BI cụ thể nào. Vì vậy, về mặt học thuật, hồ sơ chỉ xác nhận bạn có kỹ năng trực quan hóa dữ liệu và xây dựng dashboard ở mức tổng quát, chứ chưa thể khẳng định bạn đã biết hoặc từng học Power BI hay Tableau.\n\nNếu bạn đã tự học hoặc có kinh nghiệm thực tế với Power BI hoặc Tableau ngoài chương trình học, điều này chưa được hồ sơ học thuật hiện tại phản ánh.",
+        "evidence": [
+          {
+            "course_code": "DAP391m",
+            "clo": "CLO3"
+          },
+          {
+            "course_code": "DAP391m",
+            "clo": "CLO4"
+          },
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO1"
+          },
+          {
+            "course_code": "ADY201m",
+            "clo": "CLO7"
+          }
+        ]
+      },
+      "request_artifact": "data/academic_benchmark/evaluations/internship-20261013/requests/chat-JD06-3.json"
+    }
+  ]
+}

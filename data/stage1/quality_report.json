@@ -1,0 +1,71 @@
+{
+  "processed": 47,
+  "generated_records": 63,
+  "missing_files": [],
+  "orphan_files": [],
+  "failed_files": [],
+  "subjects_with_warnings": [
+    {
+      "subject_code": "AI17_GRA_ELE",
+      "record_type": "normal_subject",
+      "file": "data/stage1/subjects/AI17_GRA_ELE.json",
+      "warnings": [
+        "missing_syllabus",
+        "crawl_error"
+      ]
+    },
+    {
+      "subject_code": "PEN",
+      "record_type": "normal_subject",
+      "file": "data/stage1/subjects/PEN.json",
+      "warnings": [
+        "missing_syllabus",
+        "crawl_error"
+      ]
+    },
+    {
+      "subject_code": "PHE_COM*1",
+      "record_type": "normal_subject",
+      "file": "data/stage1/subjects/PHE_COM_1.json",
+      "warnings": [
+        "missing_syllabus",
+        "crawl_error"
+      ]
+    },
+    {
+      "subject_code": "PHE_COM*2",
+      "record_type": "normal_subject",
+      "file": "data/stage1/subjects/PHE_COM_2.json",
+      "warnings": [
+        "missing_syllabus",
+        "crawl_error"
+      ]
+    },
+    {
+      "subject_code": "PHE_COM*3",
+      "record_type": "normal_subject",
+      "file": "data/stage1/subjects/PHE_COM_3.json",
+      "warnings": [
+        "missing_syllabus",
+        "crawl_error"
+      ]
+    },
+    {
+      "subject_code": "TMI_ELE",
+      "record_type": "normal_subject",
+      "file": "data/stage1/subjects/TMI_ELE.json",
+      "warnings": [
+        "missing_syllabus",
+        "crawl_error"
+      ]
+    }
+  ],
+  "summary": {
+    "index_records": 47,
+    "available_subject_codes": 63,
+    "with_syllabus": 57,
+    "without_syllabus": 6,
+    "combo_subject_records": 20,
+    "normal_subject_records": 43
+  }
+}

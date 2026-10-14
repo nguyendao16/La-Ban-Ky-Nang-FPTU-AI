@@ -1,0 +1,899 @@
+{
+  "schema_version": "stage1_v1",
+  "record_type": "combo_subject",
+  "subject": {
+    "code": "DBM302m",
+    "name": {
+      "full": "Data Mining_Khai phá dữ liệu",
+      "en": "Data Mining",
+      "vi": "Khai phá dữ liệu"
+    },
+    "semester": 7,
+    "credits": 3,
+    "prerequisite": ""
+  },
+  "syllabus": {
+    "id": "11218",
+    "name": "Data Mining_Khai phá dữ liệu",
+    "is_active": true,
+    "is_approved": true,
+    "decision_no": "358/QĐ-ĐHFPT dated 04/03/2024"
+  },
+  "content": {
+    "metadata": {
+      "syllabus_id": "11218",
+      "syllabus_name": "Data Mining_Khai phá dữ liệu",
+      "course_name_english": "Data Mining",
+      "subject_code": "DBM302m",
+      "learning_teaching_method": "In-class lecture, Social Constructivism, Active Learning",
+      "nocredit": "3",
+      "degree_level": "Bachelor",
+      "time_allocation": "45h (60 sessions) contact hours + 1h final exam + 104h self-study;",
+      "pre_requisite": "",
+      "description": "- This course introduces the key steps involved in the data mining pipeline, including data understanding, data preprocessing, data warehousing, data modeling, interpretation and evaluation, and real-world applications.\n- Students will learn the general concepts of data mining along with basic methodologies and applications. Then dive into one subfield in data mining: pattern discovery. Learn in-depth concepts, methods, and applications of pattern discovery in data mining. This courser will introduce methods for pattern-based classification and some interesting applications of pattern discovery. It also provides you the opportunity to learn skills and content to practice and engage in scalable pattern discovery methods on massive transactional data, discuss pattern evaluation measures, and study methods for mining diverse kinds of patterns, sequential patterns, and sub-graph patterns.",
+      "studenttasks": "- Students must attend at least 80% of contact slots in order to be accepted to the final examination.\n- Student is responsible to do all exercises, assignments and labs given by instructor in class or at home and submit on time\n- Use laptop in class only for learning purpose\n- Promptly access to the FU FLM at https://flm.fpt.edu.vn/ for up-to-date course information",
+      "tools": "Jupyter Notebooks, RStudio IDE",
+      "scoring_scale": "10",
+      "decisionno_mm_dd_yyyy": "358/QĐ-ĐHFPT dated 04/03/2024",
+      "isapproved": "True",
+      "note": "Assignment: plus 0.5 to 1 points for completed Coursera certification, Final Result <=10",
+      "is_scored": "True",
+      "minavgmarktopass": "5",
+      "isactive": "True",
+      "approveddate": "4/3/2024"
+    },
+    "materials": [
+      {
+        "no": "1",
+        "material_description": "Data Mining Pipeline",
+        "author": "",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://www.coursera.org/learn/data-mining-pipeline?specialization=data-mining-foundations-practice"
+      },
+      {
+        "no": "2",
+        "material_description": "Data Visualization",
+        "author": "",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://www.coursera.org/learn/datavisualization?specialization=data-mining"
+      },
+      {
+        "no": "3",
+        "material_description": "Pattern Discovery in Data Mining",
+        "author": "",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://www.coursera.org/learn/data-patterns?specialization=data-mining"
+      },
+      {
+        "no": "4",
+        "material_description": "Cluster Analysis in Data Mining",
+        "author": "",
+        "publisher": "Coursera",
+        "published_date": "",
+        "edition": "",
+        "isbn": "",
+        "is_main_material": true,
+        "is_hard_copy": false,
+        "is_online": true,
+        "note": "https://www.coursera.org/learn/cluster-analysis?specialization=data-mining"
+      }
+    ],
+    "clos": [
+      {
+        "no": "1",
+        "clo_name": "CLO1",
+        "clo_details": "Understand what is data mining and what are key components of the data mining pipeline"
+      },
+      {
+        "no": "2",
+        "clo_name": "CLO2",
+        "clo_details": "Learn and apply one of the basic core of data mining: data visualization"
+      },
+      {
+        "no": "3",
+        "clo_name": "CLO3",
+        "clo_details": "Understand and apply one subtield in data mining: patern discovery, practice with the data visualization of data mining"
+      },
+      {
+        "no": "4",
+        "clo_name": "CLO4",
+        "clo_details": "Apply another subtield in data mining: cluster analysis"
+      }
+    ],
+    "schedule": [
+      {
+        "session": "1",
+        "topic": "- Course Introduction\n- Chapter 1:\n1.1.Introduction to Data mining\n1.2.Introduction to Data mining Pipeline",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "IT",
+        "student_materials": "- Slides: Introduction\n'- Slides: Chapter 1.1, 1.2",
+        "s_download": "mat1",
+        "student_tasks": "Read slide introduction\nSyllabus Syllabus DSR301m\nRead Chapter 1.1, 1.2",
+        "urls": ""
+      },
+      {
+        "session": "2",
+        "topic": "1.3 Data understanding - Objects & Attributes, Statistics, Visual\n1.4 Data understadining - Data similarity",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "T",
+        "student_materials": "- slide chapter 1.3, 1.4",
+        "s_download": "mat2",
+        "student_tasks": "Read Chapter 1.3, 1.4",
+        "urls": ""
+      },
+      {
+        "session": "3",
+        "topic": "1.5 Data Preprocessing - Cleaning, Integration, Transformation, Reduction",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "T",
+        "student_materials": "- slide chapter 1.5",
+        "s_download": "",
+        "student_tasks": "Read chapter 1.5",
+        "urls": ""
+      },
+      {
+        "session": "4",
+        "topic": "1.6 Data warehousing - Warehousem Cube and OLAP\n1.7 Data warehousing - Data Warehouse Architecture",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1",
+        "itu": "T",
+        "student_materials": "- slide chapter 1.6, 1.7",
+        "s_download": "",
+        "student_tasks": "Read Chapter 1.6, 1.7",
+        "urls": ""
+      },
+      {
+        "session": "5",
+        "topic": "- Chapter 2: Data visualization\n2.1 Introduction of data visualization",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2",
+        "itu": "T",
+        "student_materials": "- slide chapter 2.1",
+        "s_download": "",
+        "student_tasks": "Read Chapter 2.1",
+        "urls": ""
+      },
+      {
+        "session": "6",
+        "topic": "2.2 Visualization of Numerical Data",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2",
+        "itu": "T",
+        "student_materials": "- slide chapter 2.2",
+        "s_download": "",
+        "student_tasks": "Read Chapter 2.2",
+        "urls": ""
+      },
+      {
+        "session": "7",
+        "topic": "2.3 Visualization of Non-Numerical Data",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2",
+        "itu": "T",
+        "student_materials": "- slide chapter 2.3",
+        "s_download": "",
+        "student_tasks": "Read Chapter 2.3",
+        "urls": ""
+      },
+      {
+        "session": "8",
+        "topic": "2.4 The Visualization of Dashboard",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2",
+        "itu": "T",
+        "student_materials": "- slide chapter 2.4",
+        "s_download": "",
+        "student_tasks": "Read Chapter 2.4",
+        "urls": ""
+      },
+      {
+        "session": "9",
+        "topic": "Lab 2.1",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2",
+        "itu": "T U",
+        "student_materials": "- slide chapter 2, lab 2.1",
+        "s_download": "",
+        "student_tasks": "Read chapter 2, lab 2.1",
+        "urls": ""
+      },
+      {
+        "session": "10",
+        "topic": "Lab 2.2",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO2",
+        "itu": "T U",
+        "student_materials": "- slide chapter 2, lab 2.2",
+        "s_download": "",
+        "student_tasks": "Read chapter 2, lab 2.2",
+        "urls": ""
+      },
+      {
+        "session": "11",
+        "topic": "Review Lab 2.1, 2.2\nChapter 3: Pattern Discovery in Data mining\n3.1 Introduction to Pattern Discovery 1\n3.1.1 What Is Pattern Discovery? Why Is It Important?\n3.1.2 Frequent Patterns and Association Rules",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "T",
+        "student_materials": "- Slide chapter 3.1",
+        "s_download": "",
+        "student_tasks": "Read Chapter 3.1",
+        "urls": ""
+      },
+      {
+        "session": "12",
+        "topic": "Introduction to Pattern Discovery 2 3.1.3 Compressed Representation: Closed Patterns and Max-Patterns\n3.1.4 The Downward Closure Property of Frequent Patterns",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "T",
+        "student_materials": "- Slide chapter 3.1",
+        "s_download": "",
+        "student_tasks": "Read Chapter 3.1",
+        "urls": ""
+      },
+      {
+        "session": "13",
+        "topic": "3.2 The Apriori Algorithm",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "T",
+        "student_materials": "- Slide chapter 3.2",
+        "s_download": "",
+        "student_tasks": "Read Chapter 3.2",
+        "urls": ""
+      },
+      {
+        "session": "14",
+        "topic": "3.3 Extensions or Improvements of Apriori",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "T",
+        "student_materials": "- Slide chapter 3.3",
+        "s_download": "",
+        "student_tasks": "Read Chapter 3.3",
+        "urls": ""
+      },
+      {
+        "session": "15",
+        "topic": "3.4 Mining Frequent Patterns by Exploring Vertical Data Format",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "T",
+        "student_materials": "- Slide chapter 3.4",
+        "s_download": "",
+        "student_tasks": "Read Chapter 3.4",
+        "urls": ""
+      },
+      {
+        "session": "16",
+        "topic": "3.5 FPGrowth: A Pattern Growth Approach",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "T",
+        "student_materials": "- Slide chapter 3.5",
+        "s_download": "",
+        "student_tasks": "Read Chapter 3.5",
+        "urls": ""
+      },
+      {
+        "session": "17",
+        "topic": "3.6 Mining Closed Patterns",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "T",
+        "student_materials": "- Slide chapter 3.6",
+        "s_download": "",
+        "student_tasks": "Read Chapter 3.6",
+        "urls": ""
+      },
+      {
+        "session": "18",
+        "topic": "Lab 3.1",
+        "learning_teaching_type": "",
+        "lo": "CLO3",
+        "itu": "TU",
+        "student_materials": "- slide chapter 3, lab 3.1",
+        "s_download": "",
+        "student_tasks": "Read chapter 3, lab 3.1",
+        "urls": ""
+      },
+      {
+        "session": "19",
+        "topic": "3.7 Pattern Evaluation 1 3.7.1. Limitation of the Support-Confidence Framework 3.7.2. Interestingness Measures: Lift and χ",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "T",
+        "student_materials": "- Slide chapter 3.7",
+        "s_download": "",
+        "student_tasks": "Read Chapter 3.7",
+        "urls": ""
+      },
+      {
+        "session": "20",
+        "topic": "3.7 Pattern Evaluation 2 3.7.3. Null Invariance Measures 3.7.4. Comparison of Null-Invariant Measures",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "T",
+        "student_materials": "- Slide chapter 3.7",
+        "s_download": "",
+        "student_tasks": "Read Chapter 3.7",
+        "urls": ""
+      },
+      {
+        "session": "21",
+        "topic": "3.8 Mining methods 1 3.8.1. Mining Multi-Level Associations\n3.8.2. Mining Multi-Dimensional Associations\n3.8.3. Mining Quantitative Associations",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "T",
+        "student_materials": "- Slide chapter 3.8",
+        "s_download": "",
+        "student_tasks": "Read Chapter 3.8",
+        "urls": ""
+      },
+      {
+        "session": "22",
+        "topic": "3.8 Mining methods 2 :\n3.8.4. Mining Negative Correlations\n3.8.5. Mining Compressed Patterns",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "T",
+        "student_materials": "- Slide chapter 3.8",
+        "s_download": "",
+        "student_tasks": "Read Chapter 3.8",
+        "urls": ""
+      },
+      {
+        "session": "23",
+        "topic": "Lab 3.2",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "TU",
+        "student_materials": "- slide chapter 3, lab 3.2",
+        "s_download": "",
+        "student_tasks": "Read chapter 3, lab 3.2",
+        "urls": ""
+      },
+      {
+        "session": "24",
+        "topic": "3.9 Mining sequential patterns 3.9.1. Sequential Pattern and Sequential Pattern Mining\n3.9.2. GSP: Apriori-Based Sequential Pattern Mining",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "T",
+        "student_materials": "- Slide chapter 3.9",
+        "s_download": "",
+        "student_tasks": "Read Chapter 3.9",
+        "urls": ""
+      },
+      {
+        "session": "25",
+        "topic": "3.9 Mining sequential patterns 2 3.9.3. SPADE—Sequential Pattern Mining in Vertical Data Format\n3.9.4. PrefixSpan—Sequential Pattern Mining by Pattern-Growth\n3.9.5. CloSpan—Mining Closed Sequential Patterns",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "T",
+        "student_materials": "- Slide chapter 3.9",
+        "s_download": "",
+        "student_tasks": "Read Chapter 3.9",
+        "urls": ""
+      },
+      {
+        "session": "26",
+        "topic": "3.10 Mining spatiotemporal and trajectory patterns 1 3.10.1. Mining Spatial Associations 3.10.2. Mining Spatial Colocation Patterns 3.10.3. Mining and Aggregating Patterns over Multiple Trajectories",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "T",
+        "student_materials": "- Slide chapter 3.10",
+        "s_download": "",
+        "student_tasks": "Read Chapter 3.10",
+        "urls": ""
+      },
+      {
+        "session": "27",
+        "topic": "3.10 Mining spatiotemporal and trajectory patterns 2 3.10.4. Mining Semantics-Rich Movement Patterns 3.10.5. Mining Periodic Movement Patterns",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "T",
+        "student_materials": "- Slide chapter 3.10",
+        "s_download": "",
+        "student_tasks": "Read Chapter 3.10",
+        "urls": ""
+      },
+      {
+        "session": "28",
+        "topic": "Lab 3.3",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "TU",
+        "student_materials": "- slide chapter 3, lab 3.3",
+        "s_download": "",
+        "student_tasks": "Read chapter 3, lab 3.3",
+        "urls": ""
+      },
+      {
+        "session": "29",
+        "topic": "3.11 Mining quality phrases 1 3.11.1. From Frequent Pattern Mining to Phrase Mining 3.11.2. Previous Phrase Mining Methods",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "T",
+        "student_materials": "- Slide chapter 3.11",
+        "s_download": "",
+        "student_tasks": "Read Chapter 3.11",
+        "urls": ""
+      },
+      {
+        "session": "30",
+        "topic": "3.11 Mining quality phrases 2 3.11.3. ToPMine: Phrase Mining without Training Data 3.11.4. SegPhrase: Phrase Mining with Tiny Training Sets",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "T",
+        "student_materials": "- Slide chapter 3.11",
+        "s_download": "",
+        "student_tasks": "Read Chapter 3.11",
+        "urls": ""
+      },
+      {
+        "session": "31",
+        "topic": "3.12 Advanced topics on pattern discovery 1 3.12.1. Frequent Pattern Mining in Data Streams 3.12.2. Pattern Discovery for Software Bug Mining 3.12.3. Pattern Discovery for Image Analysis",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "T",
+        "student_materials": "- Slide chapter 3.12",
+        "s_download": "",
+        "student_tasks": "Read Chapter 3.12",
+        "urls": ""
+      },
+      {
+        "session": "32",
+        "topic": "3.12 Advanced Topics on Pattern Discovery 2 3.12.4 Pattern Mining and Society—Privacy Issue 3.12.5. Looking Forward",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "T",
+        "student_materials": "- Slide chapter 3.12",
+        "s_download": "",
+        "student_tasks": "Read Chapter 3.12",
+        "urls": ""
+      },
+      {
+        "session": "33",
+        "topic": "Lab 3.4",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO3",
+        "itu": "TU",
+        "student_materials": "- slide chapter 3, lab 3.4",
+        "s_download": "",
+        "student_tasks": "Read chapter 3, lab 3.4",
+        "urls": ""
+      },
+      {
+        "session": "34",
+        "topic": "Review Lab 3.1, 3.2, 3.3, 3.4",
+        "learning_teaching_type": "",
+        "lo": "",
+        "itu": "",
+        "student_materials": "",
+        "s_download": "",
+        "student_tasks": "",
+        "urls": ""
+      },
+      {
+        "session": "35",
+        "topic": "Review Chapter 1-2-3",
+        "learning_teaching_type": "",
+        "lo": "CLO1, CLO2, CLO3",
+        "itu": "I",
+        "student_materials": "- Slide chapter 1, 2, 3",
+        "s_download": "",
+        "student_tasks": "Read Chapter 1, 2, 3",
+        "urls": ""
+      },
+      {
+        "session": "36",
+        "topic": "Progress Test 1",
+        "learning_teaching_type": "",
+        "lo": "CLO1, CLO2, CLO3",
+        "itu": "U",
+        "student_materials": "- Slide chapter 1, 2, 3",
+        "s_download": "",
+        "student_tasks": "- Slide chapter 1, 2,3",
+        "urls": ""
+      },
+      {
+        "session": "37",
+        "topic": "Chapter 4: Cluster Analysis in Data mining\n4.1 Introduction to Cluster Analysis 1 4.1.1. What is Cluster Analysis 4.1.2. Applications of Cluster Analysis 4.1.3 Requirements and Challenges",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "T",
+        "student_materials": "- slide chapter 4.1",
+        "s_download": "",
+        "student_tasks": "Read Chapter 4.1",
+        "urls": ""
+      },
+      {
+        "session": "38",
+        "topic": "4.1 Introduction to Cluster Analysis 2 4.1.4 A Multi-Dimensional Categorization 4.1.5 An Overview of Typical Clustering Methodologies 4.1.6 An Overview of Clustering Different Types of Data 4.1.7 An Overview of User Insights and Clustering",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "T",
+        "student_materials": "- slide chapter 4.1",
+        "s_download": "",
+        "student_tasks": "Read Chapter 4.1",
+        "urls": ""
+      },
+      {
+        "session": "39",
+        "topic": "4.2 Similarity Measures for Cluster Analysis 1 4.2.1 Basic Concepts: Measuring Similarity between Objects\n4.2.2 Distance on Numeric Data Minkowski Distance\n4.2.3 Proximity Measure for Symetric vs Asymmetric Binary Variables",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "T",
+        "student_materials": "- slide chapter 4.2",
+        "s_download": "",
+        "student_tasks": "Read Chapter 4.2",
+        "urls": ""
+      },
+      {
+        "session": "40",
+        "topic": "4.2 Similarity Measures for Cluster Analysis 2\n4.2.4 Distance between Categorical Attributes Ordinal Attributes and Mixed Types\n4.2.5 Proximity Measure between Two Vectors Cosine Similarity\n4.2.6 Correlation Measures between Two variables Covariance and Correlation Coefficient",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "T",
+        "student_materials": "- slide chapter 4.2",
+        "s_download": "",
+        "student_tasks": "Read Chapter 4.2",
+        "urls": ""
+      },
+      {
+        "session": "41",
+        "topic": "Lab 4.1",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "TU",
+        "student_materials": "- slide chapter 4, lab 4.1",
+        "s_download": "",
+        "student_tasks": "Read chapter 4, lab 4.1",
+        "urls": ""
+      },
+      {
+        "session": "42",
+        "topic": "4.3 Partitioning-Based Clustering Methods 1\n4.3.1 Partitioning-Based Clustering Methods\n4.3.2 K-Means Clustering Method",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "T",
+        "student_materials": "- slide chapter 4.3",
+        "s_download": "",
+        "student_tasks": "Read Chapter 4.3",
+        "urls": ""
+      },
+      {
+        "session": "43",
+        "topic": "4.3 Partitioning-Based Clustering Methods 2\n4.3.3 Initialization of K-Means Clustering\n4.3.4 The K-Medoids Clustering Method",
+        "learning_teaching_type": "",
+        "lo": "CLO4",
+        "itu": "T",
+        "student_materials": "- slide chapter 4.3",
+        "s_download": "",
+        "student_tasks": "Read Chapter 4.3",
+        "urls": ""
+      },
+      {
+        "session": "44",
+        "topic": "4.3 Partitioning-Based Clustering Methods 3\n4.3.5 The K-Medians and K-Modes Clustering Methods\n4.3.6 Kernel K-Means Clustering",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "T",
+        "student_materials": "- slide chapter 4.3",
+        "s_download": "",
+        "student_tasks": "Read Chapter 4.3",
+        "urls": ""
+      },
+      {
+        "session": "45",
+        "topic": "4.4 Hierarchical Clustering Methods 1\n4.4.1 Hierarchical Clustering Methods\n4.4.2 Agglomerative Clustering Algorithms",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "T",
+        "student_materials": "- slide chapter 4.4",
+        "s_download": "",
+        "student_tasks": "Read Chapter 4.4",
+        "urls": ""
+      },
+      {
+        "session": "46",
+        "topic": "4.4 Hierarchical Clustering Methods 2\n4.4.3 Divisive Clustering Algorithms\n4.4.4 Extensions to Hierarchical Clustering\n4.4.5 BIRCH: A Micro-Clustering-Based Approach",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "T",
+        "student_materials": "- slide chapter 4.4",
+        "s_download": "",
+        "student_tasks": "Read Chapter 4.4",
+        "urls": ""
+      },
+      {
+        "session": "47",
+        "topic": "Lab 4.2",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "TU",
+        "student_materials": "- slide chapter 4, lab 4.2",
+        "s_download": "",
+        "student_tasks": "Read chapter 4, lab 4.2",
+        "urls": ""
+      },
+      {
+        "session": "48",
+        "topic": "4.4 Hierarchical Clustering Methods 3\n* Overview\n4.4.6 CURE: Clustering Using Well-Scattered Representatives\n4.4.7 CHAMELEON: Graph Partitioning on the KNN Graph of the Data",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "T",
+        "student_materials": "- slide chapter 4.4",
+        "s_download": "",
+        "student_tasks": "Read Chapter 4.4",
+        "urls": ""
+      },
+      {
+        "session": "49",
+        "topic": "4.4 Hierarchical Clustering Methods 3\n4.4.8 Probabilistic Hierarchical Clustering",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "T",
+        "student_materials": "- slide chapter 4.4",
+        "s_download": "",
+        "student_tasks": "Read Chapter 4.4",
+        "urls": ""
+      },
+      {
+        "session": "50",
+        "topic": "4.5 Density-Based and Grid-Based Clustering Methods\nOverview\n4.5.1 Density-Based and Grid-Based Clustering Methods\n4.5.2 DBSCAN: A Density-Based Clustering Algorithm",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "T",
+        "student_materials": "- slide chapter 4.5",
+        "s_download": "",
+        "student_tasks": "Read Chapter 4.5",
+        "urls": ""
+      },
+      {
+        "session": "51",
+        "topic": "4.5 Density-Based and Grid-Based Clustering Methods 2\n4.5.3 OPTICS: Ordering Points To Identify Clustering\nStructure\n4.5.4 Grid-Based Clustering Methods",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "T",
+        "student_materials": "- slide chapter 4.5",
+        "s_download": "",
+        "student_tasks": "Read Chapter 4.5",
+        "urls": ""
+      },
+      {
+        "session": "52",
+        "topic": "4.5 Density-Based and Grid-Based Clustering Methods 3\n4.5.5 STING: A Statistical Information Grid Approach\n4.5.6 CLIQUE: Grid-Based Subspace Clustering",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "T",
+        "student_materials": "- slide chapter 4.5",
+        "s_download": "",
+        "student_tasks": "Read Chapter 4.5",
+        "urls": ""
+      },
+      {
+        "session": "53",
+        "topic": "Lab 4.3",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "TU",
+        "student_materials": "- slide chapter 4, lab 4.3",
+        "s_download": "",
+        "student_tasks": "Read chapter 4, lab 4.3",
+        "urls": ""
+      },
+      {
+        "session": "54",
+        "topic": "4.6 Methods for Clustering Validation 1\nOverview\n4.6.1 Methods for Clustering Validation\n4.6.2 Clustering Evaluation Measuring Clustering Quality\n4.6.3 Constraint-Based Clustering",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "T",
+        "student_materials": "- slide chapter 4.6",
+        "s_download": "",
+        "student_tasks": "Read Chapter 4.6",
+        "urls": ""
+      },
+      {
+        "session": "55",
+        "topic": "4.6 Methods for Clustering Validation 2\n4.6.4 External Measures 1: Matching-Based Measures\n4.6.5 External Measure 2: Entropy-Based Measures",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "T",
+        "student_materials": "- slide chapter 4.6",
+        "s_download": "",
+        "student_tasks": "Read Chapter 4.6",
+        "urls": ""
+      },
+      {
+        "session": "56",
+        "topic": "4.6 Methods for Clustering Validation 3\n4.6.6 External Measure 3: Pairwise Measures\n4.6.7 Internal Measures for Clustering Validation",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "T",
+        "student_materials": "- slide chapter 4.6",
+        "s_download": "",
+        "student_tasks": "Read Chapter 4.6",
+        "urls": ""
+      },
+      {
+        "session": "57",
+        "topic": "4.6 Methods for Clustering Validation 4\n4.6.8 Relative Measures\n4.6.9 Cluster Stability\n4.6.10 Clustering Tendency",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "T",
+        "student_materials": "- slide chapter 4.6",
+        "s_download": "",
+        "student_tasks": "Read Chapter 4.6",
+        "urls": ""
+      },
+      {
+        "session": "58",
+        "topic": "Lab 4.4",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO4",
+        "itu": "TU",
+        "student_materials": "- slide chapter 4, lab 4.4",
+        "s_download": "",
+        "student_tasks": "Read chapter 4, lab 4.4",
+        "urls": ""
+      },
+      {
+        "session": "59",
+        "topic": "Review lab 4.1, 4.2, 4.3, 4.4",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO5",
+        "itu": "U",
+        "student_materials": "- slide chapter 4, lab 4.1, 4.2, 4.3, 4.4",
+        "s_download": "",
+        "student_tasks": "Read chapter 4, lab 4.1, 4.2, 4.3, 4.4",
+        "urls": ""
+      },
+      {
+        "session": "60",
+        "topic": "Review",
+        "learning_teaching_type": "Offline",
+        "lo": "CLO1, CLO2, CLO3, CLO4",
+        "itu": "I",
+        "student_materials": "All Slides",
+        "s_download": "",
+        "student_tasks": "Review Slide",
+        "urls": ""
+      }
+    ],
+    "assessments": [
+      {
+        "no": "1",
+        "category": "Lab 2",
+        "type": "on-going",
+        "part": "1",
+        "weight": "15.0%",
+        "completion_criteria": ">0",
+        "duration": "45'",
+        "clo": "CLO2",
+        "question_type": "Home work, class",
+        "no_question": "1",
+        "knowledge_and_skill": "- cover chapter 2",
+        "grading_guide": "in class, by instructor",
+        "note": "Lab is named after the index of the chapter."
+      },
+      {
+        "no": "2",
+        "category": "Lab 3",
+        "type": "on-going",
+        "part": "1",
+        "weight": "20.0%",
+        "completion_criteria": ">0",
+        "duration": "45'",
+        "clo": "CLO3",
+        "question_type": "Home work, class",
+        "no_question": "1",
+        "knowledge_and_skill": "- cover chapter 3",
+        "grading_guide": "in class, by instructor",
+        "note": "Lab is named after the index of the chapter."
+      },
+      {
+        "no": "3",
+        "category": "Lab 4",
+        "type": "on-going",
+        "part": "1",
+        "weight": "20.0%",
+        "completion_criteria": ">0",
+        "duration": "45'",
+        "clo": "CLO4",
+        "question_type": "Home work, class",
+        "no_question": "1",
+        "knowledge_and_skill": "- cover chapter 4",
+        "grading_guide": "in class, by instructor",
+        "note": "Lab is named after the index of the chapter."
+      },
+      {
+        "no": "4",
+        "category": "Progress test",
+        "type": "on-going",
+        "part": "1",
+        "weight": "15.0%",
+        "completion_criteria": ">0",
+        "duration": "45'",
+        "clo": "CLO1,CLO2, CLO3",
+        "question_type": "Multiple choices\nMarked by Computer or a suitable format",
+        "no_question": "40",
+        "knowledge_and_skill": "- cover chapter 1, 2, 3",
+        "grading_guide": "in class, by instructor",
+        "note": "Instruction and shedules for Progress tests must be presented in the Course Implementation Plan approved by director of the campus.\nProgress test must be taken right after the last lectures of required material.\nInstructor has resposibility to review the test for students after graded."
+      },
+      {
+        "no": "5",
+        "category": "Final exam",
+        "type": "Final exam",
+        "part": "1",
+        "weight": "30.0%",
+        "completion_criteria": "4",
+        "duration": "60'",
+        "clo": "CLO1, CLO2, CLO3, CLO4",
+        "question_type": "Multiple choices\nMarked by Computer",
+        "no_question": "50",
+        "knowledge_and_skill": "- cover chapter 1, 2, 3, 4",
+        "grading_guide": "by exam board,\nusing computer",
+        "note": "The exam questions must be updated or different at least 70% to the previous ones."
+      }
+    ]
+  },
+  "combo": {
+    "family": "AI17_COM",
+    "code": "AI17_COM1",
+    "name": "Topic on Applied Data Science_Chủ đề Khoa học dữ liệu ứng dụng BIT_AI_K17C(FNO)",
+    "title": "AI17_COM1: Topic on Applied Data Science_Chủ đề Khoa học dữ liệu ứng dụng BIT_AI_K17C(FNO)",
+    "note": "",
+    "slot": {
+      "code": "AI17_COM*3",
+      "alias": "AI17_COM_3",
+      "number": 3,
+      "name": {
+        "full": "Subject 3 of Combo*_Học phần 3 của combo*",
+        "en": "Subject 3 of Combo*",
+        "vi": "Học phần 3 của combo*"
+      }
+    },
+    "row_note": ""
+  },
+  "source": {
+    "raw_file": "flm_output/subjects/AI17_COM_3.json",
+    "curriculum_url": "https://flm.fpt.edu.vn/gui/role/student/CurriculumDetails?curid=3173",
+    "pre_syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/Syllabuses?subCode=AI17_COM%2A3&curriculumID=3173",
+    "syllabus_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=11218",
+    "details_source_url": "https://flm.fpt.edu.vn/gui/role/student/SyllabusDetails?sylID=11218"
+  },
+  "crawl": {
+    "error": null
+  },
+  "quality": {
+    "has_syllabus": true,
+    "counts": {
+      "materials": 4,
+      "clos": 4,
+      "schedule": 60,
+      "assessments": 5
+    },
+    "warnings": []
+  }
+}
