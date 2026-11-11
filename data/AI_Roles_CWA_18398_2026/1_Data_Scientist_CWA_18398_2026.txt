@@ -1,0 +1,26 @@
+VỊ TRÍ: Data Scientist (Khoa học Dữ liệu)
+TIÊU CHUẨN: CWA 18398:2026
+MÃ VỊ TRÍ: 1.1
+
+MỤC ĐÍCH (SUMMARY STATEMENT)
+Dẫn dắt quy trình ứng dụng phân tích dữ liệu; mang lại thông tin chi tiết (insights) từ dữ liệu bằng cách tối ưu hóa quy trình phân tích và trình bày trực quan.
+
+SỨ MỆNH (MISSION)
+Tìm kiếm, quản lý và hợp nhất nhiều nguồn dữ liệu, đảm bảo tính nhất quán của tập dữ liệu. Xác định mô hình toán học, lựa chọn và tối ưu hóa thuật toán để mang lại giá trị kinh doanh; truyền đạt các mô hình phát hiện được và đề xuất cách ứng dụng dữ liệu.
+
+NHIỆM VỤ CHÍNH (MAIN TASKS)
+- Biểu diễn các thách thức kinh doanh thông qua các mô hình toán học.
+- Thu thập, làm sạch, phân tích, tích hợp và điều tra các dữ liệu nội bộ và bên ngoài.
+- Tạo và kiểm chứng các giả thuyết; phát hiện các mối tương quan dữ liệu phục vụ đo lường và dự báo.
+- Lựa chọn mô hình trực quan hóa phù hợp dựa trên bài toán kinh doanh và đặc thù tập dữ liệu.
+- Xử lý bảo mật dữ liệu thông qua các chiến lược phòng ngừa chủ động.
+- Lựa chọn, ứng dụng và tối ưu hóa các thuật toán/mô hình AI/ML và kỹ thuật thống kê.
+- Tuân thủ các hướng dẫn về đạo đức và yêu cầu pháp lý liên quan đến dữ liệu.
+
+SẢN PHẨM ĐẦU RA CHÍNH (KEY DELIVERABLES)
+- Thành phần AI/ML (AI/ML Component)
+- Mô hình dữ liệu (Data Model)
+- Báo cáo kết quả đánh giá (Evaluation Outcome Reporting)
+- Kết quả phân tích dữ liệu (Data Analytics)
+- Quy trình gán nhãn & đánh giá dữ liệu
+- Kế hoạch quản lý dữ liệu

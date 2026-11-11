@@ -1,0 +1,30 @@
+VỊ TRÍ: AI Engineer / Machine Learning Engineer
+(Bao gồm các nhánh chuyên môn hóa: Computer Vision Engineer và NLP / LLM Engineer)
+TIÊU CHUẨN: CWA 18398:2026
+MÃ VỊ TRÍ: 2.3
+
+MỤC ĐÍCH (SUMMARY STATEMENT)
+Xây dựng và triển khai các mô hình và hệ thống AI đáp ứng thông số kỹ thuật giải pháp.
+
+SỨ MỆNH (MISSION)
+Đảm bảo việc xây dựng và thực thi các hệ thống AI trên nhiều phạm vi kỹ thuật; đảm bảo khả năng mở rộng (scalability), độ tin cậy (dependability) và hiệu năng (efficiency) của hệ thống AI. Quản lý các đường ống triển khai (deployment pipelines) cho các giải pháp AI.
+
+NHIỆM VỤ CHÍNH (MAIN TASKS)
+- Phát triển, kỹ thuật hóa và tích hợp các thành phần AI/ML.
+- Lựa chọn phần cứng, phần mềm, công cụ và framework AI/ML phù hợp.
+- Áp dụng nguyên tắc bảo mật từ khâu thiết kế (security by design) và xử lý các lỗ hổng bảo mật đã biết.
+- Xây dựng tài liệu kỹ thuật cho hệ thống AI (kể cả AI rủi ro cao hoặc General Purpose AI).
+- Hỗ trợ kỹ thuật chuyên sâu cho các thành phần AI; chẩn đoán và xử lý sự cố trước/sau khi kiểm thử.
+- Tuân thủ các hướng dẫn về an toàn và đạo đức AI.
+
+SẢN PHẨM ĐẦU RA CHÍNH (KEY DELIVERABLES)
+- Mô hình AI (AI Model)
+- Giải pháp AI tích hợp (Integrated AI Solution)
+- Mã nguồn được lập tài liệu (Documented Code)
+- Tài liệu kỹ thuật hệ thống AI (Technical Documentation GPAI & High Risk AI)
+- Workflow ML
+- Kế hoạch kiểm thử (Test Plan)
+
+ĐẶC THÙ NHÓM CHUYÊN MÔN
+- Computer Vision Engineer: Tập trung chuyên sâu vào thuật toán xử lý hình ảnh/video, phân đoạn và nhận dạng đối tượng thị giác.
+- NLP / LLM Engineer: Tập trung chuyên sâu vào xử lý ngôn ngữ tự nhiên, tinh chỉnh (fine-tuning) các mô hình ngôn ngữ lớn (LLM), Prompt Engineering và tích hợp AI tạo sinh.

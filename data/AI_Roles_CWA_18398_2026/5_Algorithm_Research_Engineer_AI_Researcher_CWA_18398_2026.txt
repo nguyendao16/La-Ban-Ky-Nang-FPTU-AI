@@ -1,0 +1,22 @@
+VỊ TRÍ: Algorithm Research Engineer / AI Researcher
+TIÊU CHUẨN: CWA 18398:2026
+MÃ VỊ TRÍ: 2.5
+
+MỤC ĐÍCH (SUMMARY STATEMENT)
+Tiến hành nghiên cứu trong cả lĩnh vực AI và ML để khám phá, thiết kế và phát triển các thuật toán, mô hình và nền tảng lý thuyết mới nhằm mở rộng giới hạn chuyên môn của AI.
+
+SỨ MỆNH (MISSION)
+Thúc đẩy công nghệ AI bằng cách tạo ra các phương pháp mới, nâng cao khả năng mô hình và đóng góp các nghiên cứu giúp hệ thống AI an toàn, đạo đức và có tác động xã hội; hoạt động tại giao điểm giữa khoa học máy tính, toán học và kiến thức chuyên ngành.
+
+NHIỆM VỤ CHÍNH (MAIN TASKS)
+- Thiết kế và thử nghiệm các thuật toán hoặc mô hình học (learning paradigms) mới.
+- Phát triển các mô hình lý thuyết giải thích hành vi và hiệu năng của hệ thống AI.
+- Thực hiện thực nghiệm kiểm chứng giả thuyết trên các bộ dữ liệu chuẩn (benchmarks) hoặc môi trường mô phỏng.
+- Công bố các công trình nghiên cứu tại các hội nghị và tạp chí AI uy tín.
+- Nghiên cứu các thách thức cốt lõi như khả năng tổng quát hóa (generalization), tính diễn giải (interpretability) và sự căn chỉnh an toàn (alignment).
+
+SẢN PHẨM ĐẦU RA CHÍNH (KEY DELIVERABLES)
+- Thiết kế thực nghiệm (Experiment Design)
+- Nghiên cứu chất lượng cao nguyên bản (Original High Quality Research)
+- Công bố khoa học & Lan tỏa kết quả (Research Impact and Publications)
+- Mô hình AI & Thực nghiệm đã phát triển

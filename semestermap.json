@@ -1,0 +1,92 @@
+{
+"Semester 1": [
+"CSI106",
+"MAD101",
+"MAE101",
+"PFP191"
+],
+"Semester 2": [
+"AIG202c",
+"CEA201",
+"CSD203",
+"DBI202"
+],
+"Semester 3": [
+"ADY201m",
+"ITE303c",
+"MAI391",
+"MAS291"
+],
+"Semester 4": [
+"AIL303m",
+"CPV301",
+"DAP391m",
+"SWE201c"
+],
+"Applied Data Science":{
+    "Semester 5": [
+    "BDI302c",
+    "DPL302m",
+    "DSR301m",
+    "DWP301c"
+        ],
+    "Semester 6": [
+    "ENW493c",
+    "OJT202"
+        ],
+    "Semester 7": [
+    "DAT301m",
+    "DBM302m",
+    "EXE101",
+    "NLP301m",
+    "PMG201c"
+        ],
+    "Semester 8": [
+    "DSP391m",
+    "AID301c",
+    "EXE201",
+    "MLN111",
+    "MLN122",
+    "REL301m"
+        ],
+    "Semester 9": [
+    "AIP491",
+    "HCM202",
+    "MLN131",
+    "VNR202"
+        ]
+    },
+"AI application": {
+    "Semester 5": [
+    "AIH301m",
+    "DPL302m",
+    "ASR301c",
+    "DWP301c"
+        ],
+    "Semester 6": [
+    "ENW493c",
+    "OJT202"
+        ],
+    "Semester 7": [
+    "DAT301m",
+    "AIM301m",
+    "EXE101",
+    "NLP301m",
+    "PMG201c"
+        ],
+    "Semester 8": [
+    "AIE301m",
+    "AID301c",
+    "EXE201",
+    "MLN111",
+    "MLN122",
+    "REL301m"
+        ],
+    "Semester 9": [
+    "AIP491",
+    "HCM202",
+    "MLN131",
+    "VNR202"
+        ]
+}
+}

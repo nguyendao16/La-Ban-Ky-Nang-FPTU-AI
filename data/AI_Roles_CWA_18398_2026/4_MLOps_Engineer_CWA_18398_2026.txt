@@ -1,0 +1,24 @@
+VỊ TRÍ: MLOps Engineer (Kỹ sư MLOps)
+TIÊU CHUẨN: CWA 18398:2026
+MÃ VỊ TRÍ: 2.8
+
+MỤC ĐÍCH (SUMMARY STATEMENT)
+Phát triển, triển khai và duy trì các quy trình và công cụ tự động hóa việc tạo, huấn luyện, triển khai và cập nhật các mô hình Machine Learning.
+
+SỨ MỆNH (MISSION)
+Triển khai và duy trì mô hình ML trên môi trường production. Tự động hóa, đơn giản hóa và tối ưu hóa workflow phát triển, triển khai và quản lý mô hình trong toàn bộ vòng đời (chuẩn hóa quy trình, tăng cường tính hợp tác và tự động hóa tác vụ MLOps).
+
+NHIỆM VỤ CHÍNH (MAIN TASKS)
+- Thiết kế và triển khai đường ống CI/CD cho các mô hình AI/ML và dữ liệu.
+- Tự động hóa quá trình triển khai, giám sát, huấn luyện lại (retraining) và khôi phục (rollback) mô hình trên production.
+- Quản lý hạ tầng công việc ML (cloud, containerization, orchestration).
+- Đóng gói, quản lý phiên bản mô hình (model versioning), phiên bản dữ liệu và theo dõi thực nghiệm.
+- Theo dõi hiệu năng mô hình, hiện tượng drift (độ lệch dữ liệu/mô hình) và sức khỏe hệ thống.
+- Đảm bảo an ninh, tính tuân thủ và khả năng mở rộng hệ thống ML.
+
+SẢN PHẨM ĐẦU RA CHÍNH (KEY DELIVERABLES)
+- Quy trình triển khai mô hình (Model Deployment Processes)
+- Khả năng mở rộng & Độ tin cậy hệ thống (Scalability and Reliability)
+- Tự động hóa Workflows (Automating Workflows)
+- Nhật ký vận hành / Hồ sơ ghi chép (Record-Keeping / Logs)
+- Hướng dẫn an ninh AI/ML

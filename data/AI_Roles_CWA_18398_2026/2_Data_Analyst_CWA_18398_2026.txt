@@ -1,0 +1,25 @@
+VỊ TRÍ: Data Analyst (Phân tích Dữ liệu)
+TIÊU CHUẨN: CWA 18398:2026
+MÃ VỊ TRÍ: 1.3
+
+MỤC ĐÍCH (SUMMARY STATEMENT)
+Phân tích dữ liệu nhằm xác định các thông tin chi tiết quan trọng cho tổ chức và tìm ra các cách thức sử dụng dữ liệu để giải quyết bài toán của doanh nghiệp.
+
+SỨ MỆNH (MISSION)
+Nhập, kiểm tra, làm sạch, biến đổi, xác thực, mô hình hóa và giải thích các tập dữ liệu theo mục tiêu kinh doanh. Đảm bảo các nguồn dữ liệu và kho lưu trữ cung cấp dữ liệu nhất quán, tin cậy; xây dựng các bản trực quan hóa.
+
+NHIỆM VỤ CHÍNH (MAIN TASKS)
+- Định nghĩa, xây dựng và tối ưu hóa mô hình dữ liệu hỗ trợ mục tiêu kinh doanh.
+- Nhập, kiểm tra, làm sạch, chuyển đổi, xác thực và giải thích các tập dữ liệu.
+- Đảm bảo chất lượng, tính nhất quán và tính toàn vẹn của dữ liệu trên các kho lưu trữ.
+- Chủ động bảo vệ tính bảo mật và riêng tư của dữ liệu trong suốt vòng đời dữ liệu.
+- Quản trị, lưu trữ dữ liệu để duy trì khả năng truy cập và độ tin cậy.
+- Xây dựng biểu đồ và dashboard trực quan hóa để truyền đạt insights hiệu quả.
+- Duy trì sự tuân thủ tiêu chuẩn pháp lý và chính sách quản trị dữ liệu.
+
+SẢN PHẨM ĐẦU RA CHÍNH (KEY DELIVERABLES)
+- Thông tin chi tiết kinh doanh từ dữ liệu (Business Insights from Data)
+- Chất lượng & Tính toàn vẹn của dữ liệu (Data Quality & Integrity)
+- Thu thập & Biểu diễn dữ liệu
+- Kết quả phân tích dữ liệu
+- Chất lượng tập dữ liệu AI và nhãn dữ liệu

@@ -1,0 +1,25 @@
+VỊ TRÍ: AI & Data Platform Engineer
+TIÊU CHUẨN: CWA 18398:2026
+MÃ VỊ TRÍ: 2.12 (AI Platform Engineer) & 1.4 (Data Engineer)
+
+MỤC ĐÍCH (SUMMARY STATEMENT)
+- AI Platform Engineer: Quản lý và duy trì hạ tầng, nền tảng dùng chung và các dịch vụ hỗ trợ phát triển, triển khai và vận hành hệ thống AI ở quy mô lớn.
+- Data Engineer: Phát triển kiến trúc cần thiết để xử lý, quản lý và lưu trữ lượng dữ liệu lớn.
+
+SỨ MỆNH (MISSION)
+- Cung cấp hạ tầng an toàn, linh hoạt và tối ưu chi phí thông qua quản lý tài nguyên tính toán (compute), lưu trữ, môi trường và quyền truy cập.
+- Thiết kế hạ tầng, xây dựng và duy trì các kho dữ liệu (data warehouses) và đường ống dữ liệu (data pipelines) chuyển đổi dữ liệu thô thành thông tin có thể sử dụng.
+
+NHIỆM VỤ CHÍNH (MAIN TASKS)
+- Đảm bảo tài nguyên tính toán (GPU/CPU/TPU) sẵn sàng và đạt hiệu năng tối ưu cho công việc AI.
+- Triển khai Hạ tầng dưới dạng Mã (Infrastructure-as-Code - IaC) để tự động hóa thiết lập hệ thống.
+- Thiết kế, xây dựng và tối ưu hóa kho dữ liệu và đường ống dữ liệu (data pipelines) cho AI/ML.
+- Thiết lập hệ thống giám sát (monitoring), ghi nhật ký (logging) và tối ưu hóa hiệu quả sử dụng chi phí.
+- Thực thi kiểm soát truy cập an toàn, mã hóa, bảo mật dữ liệu và tuân thủ các quy định quản trị.
+
+SẢN PHẨM ĐẦU RA CHÍNH (KEY DELIVERABLES)
+- Hạ tầng & Nền tảng AI được cung ứng (Provisioned AI Infrastructure & Platforms)
+- Đường ống dữ liệu & Đường ống triển khai AI toàn diện (Data Pipelines & End-to-End AI Deployment Pipelines)
+- Biện pháp truy cập an toàn
+- Kiến trúc & Mô hình dữ liệu
+- Báo cáo hiệu năng và khả năng mở rộng
