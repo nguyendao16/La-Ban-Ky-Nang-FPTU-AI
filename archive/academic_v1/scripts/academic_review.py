@@ -243,6 +243,12 @@ def load_settings(context_window: int | None = None, *, temperature: float | Non
             max_output_tokens = int(raw_output)
         except ValueError as exc:
             raise ReviewError(f"{prefix}MAX_OUTPUT_TOKENS phải là số nguyên") from exc
+    raw_timeout = os.environ.get(prefix + "REQUEST_TIMEOUT")
+    if request_timeout is None and raw_timeout is not None:
+        try:
+            request_timeout = float(raw_timeout)
+        except ValueError as exc:
+            raise ReviewError(f"{prefix}REQUEST_TIMEOUT phải là số hữu hạn lớn hơn 0") from exc
     return ReviewSettings(
         api_key=os.environ.get("OPENAI_API_KEY", "") if api_key is None else api_key,
         model=model if model is not None else os.environ.get(prefix + "MODEL", os.environ.get("OPENAI_MODEL") or os.environ.get("MODEL") or "gpt-4o-mini"),

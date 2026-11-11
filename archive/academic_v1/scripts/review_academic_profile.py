@@ -6,7 +6,10 @@ from __future__ import annotations
 import argparse
 import sys
 
-from academic_review import ReviewError, load_settings, review_files
+if __package__:
+    from .academic_review import ReviewError, load_settings, review_files
+else:
+    from academic_review import ReviewError, load_settings, review_files
 
 
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:

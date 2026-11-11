@@ -6,7 +6,10 @@ from __future__ import annotations
 import argparse
 from pathlib import Path
 
-from clo_scoring import build_student_academic_profile
+if __package__:
+    from .clo_scoring import build_student_academic_profile
+else:
+    from clo_scoring import build_student_academic_profile
 
 
 def parse_args() -> argparse.Namespace:
