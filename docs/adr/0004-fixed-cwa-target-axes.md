@@ -1,0 +1,5 @@
+# Cố định năm trục theo tám vị trí, giới hạn điểm tổng trong năm trục
+
+Ngày 19/10/2026, người dùng chọn tám vị trí ứng dụng dựa trên sáu hồ sơ nguồn, tách ML, CV và NLP/LLM thành ba phạm vi lựa chọn. Thay cho bộ tên ban đầu trong ảnh và trục do LLM tự tạo, dùng bộ tên tiếng Anh đã duyệt, thứ tự và mô tả phạm vi tiếng Việt cố định; gom nhiệm vụ nguồn vào năm trục để điểm tổng chỉ đánh giá trong phạm vi này, vẫn do LLM nhận định trực tiếp chứ không tính trung bình.
+
+Mỗi phiên mới giữ nguyên nguồn CWA và ghim thêm `career_profile.target` (tên hiển thị, phạm vi, năm định nghĩa trục) trong snapshot version 4 và fingerprint JSON. Trả giá cho việc mô hình đổi tên hoặc thu hẹp trục là từ chối output và rollback, không sửa kết quả hay gọi lại; mô tả phạm vi phải được giữ nguyên. Snapshot cũ thiếu `target` tiếp tục dùng trục và điểm đã lưu, không áp lại bộ trục mới hoặc tra catalog khi đọc; JD version 3, prompt, schema và payload giữ nguyên. Đây là cách gom nhóm của ứng dụng, không tự coi tám lựa chọn hay năm trục là tám hồ sơ hoặc thang năng lực chính thức của CWA.
